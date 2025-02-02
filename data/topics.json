@@ -1,0 +1,21 @@
+[
+  {
+    "topicName": "CNS System",
+    "description": "Central Nervous System topics",
+    "subTopics": [
+      {
+        "name": "Anatomy",
+        "file": "data/cns_anatomy.json"
+      },
+      {
+        "name": "Physiology",
+        "file": "data/cns_physiology.json"
+      }
+    ]
+  },
+  {
+    "topicName": "Cardio System",
+    "description": "Cardiovascular System Overview",
+    "file": "data/cardio.json"
+  }
+]
