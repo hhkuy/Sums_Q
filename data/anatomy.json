@@ -1,0 +1,14 @@
+[
+    {
+        "question": "What is the largest organ in the human body?",
+        "options": [
+            "Liver",
+            "Skin",
+            "Brain",
+            "Heart"
+        ],
+        "answer": 1,
+        "answerText": "Skin",
+        "explanation": "The skin is the largest organ in the human body, covering the entire external surface."
+    }
+]
