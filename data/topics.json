@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "topicName": "Cardio Vascular",
+    "description": "",
+    "subTopics": [
+      {
+        "name": "Anatomy",
+        "file": "data/cardio_vascular_anatomy.json"
+      }
+    ]
+  }
+]
