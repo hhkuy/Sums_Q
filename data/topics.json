@@ -1,15 +1,5 @@
 [
   {
-    "topicName": "Upper system",
-    "description": "",
-    "subTopics": [
-      {
-        "name": "Anatomy",
-        "file": "data/upper_system_anatomy.json"
-      }
-    ]
-  },
-  {
     "topicName": "lower system",
     "description": "",
     "subTopics": [
