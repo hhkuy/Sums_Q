@@ -28,5 +28,10 @@
         "file": "data/renal_system_anatomy.json"
       }
     ]
+  },
+  {
+    "topicName": "Cardio System",
+    "description": "Heart",
+    "subTopics": []
   }
 ]
