@@ -23,5 +23,15 @@
         "file": "data/cardio_system_anatomy.json"
       }
     ]
+  },
+  {
+    "topicName": "Endocrine System",
+    "description": "hormone",
+    "subTopics": [
+      {
+        "name": "Physiology",
+        "file": "data/endocrine_system_physiology.json"
+      }
+    ]
   }
 ]
