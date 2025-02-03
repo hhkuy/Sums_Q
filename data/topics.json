@@ -1,15 +1,5 @@
 [
   {
-    "topicName": "lower system",
-    "description": "",
-    "subTopics": [
-      {
-        "name": "Anatomy",
-        "file": "data/lower_system_anatomy.json"
-      }
-    ]
-  },
-  {
     "topicName": "Renal System",
     "description": "renal",
     "subTopics": [
