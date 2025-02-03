@@ -28,15 +28,5 @@
         "file": "data/cardio_system_anatomy.json"
       }
     ]
-  },
-  {
-    "topicName": "heart",
-    "description": "",
-    "subTopics": [
-      {
-        "name": "heart",
-        "file": "data/heart_heart.json"
-      }
-    ]
   }
 ]
