@@ -30,16 +30,12 @@
     ]
   },
   {
-    "topicName": "English",
+    "topicName": "eng",
     "description": "",
     "subTopics": [
       {
-        "name": "General",
-        "file": "data/english_general.json"
-      },
-      {
-        "name": "mt",
-        "file": "data/english_mt.json"
+        "name": "as",
+        "file": "data/eng_as.json"
       }
     ]
   }
