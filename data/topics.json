@@ -1,12 +1,1 @@
-[
-  {
-    "topicName": "CNS System",
-    "description": "Nerves",
-    "subTopics": [
-      {
-        "name": "Anatomy",
-        "file": "data/cns_system_anatomy.json"
-      }
-    ]
-  }
-]
+[]
