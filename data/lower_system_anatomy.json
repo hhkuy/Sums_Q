@@ -13,7 +13,20 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Ali Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?<br><img src='https://i.imghippo.com/files/OEf9809f.jpg' alt='Image for Question 2' style='max-width: 100%; height: auto;'>",
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Hassan Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events?<br><img src='https://i.imghippo.com/files/qPD9500JCQ.jpg' alt='Image for Question 1' style='max-width: 100%; height: auto;'>",
+    "options": [
+      "Opening of K+ channel voltage gated",
+      "Opening of Na+ channel voltage gated",
+      "Opening of Cl− channel voltage gated",
+      "Opening of Ca++ channel voltage gated"
+    ],
+    "answer": 3,
+    "answerText": "Opening of Ca++ channel voltage gated",
+    "explanation": "any word",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Hassan Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?",
     "options": [
       "Closure of Na+ channels",
       "Depolarization of the postsynaptic membrane",
