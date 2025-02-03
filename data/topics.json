@@ -16,6 +16,12 @@
   {
     "topicName": "Cardio System",
     "description": "Cardiovascular System Overview",
-    "file": "data/cardio.json"
+    "file": "data/cardio.json",
+    "subTopics": [
+      {
+        "name": "Anatomy",
+        "file": "data/cardio_system_anatomy.json"
+      }
+    ]
   }
 ]
