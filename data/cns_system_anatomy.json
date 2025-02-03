@@ -1,0 +1,263 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 1</span> Which of the followings are a part of health sector?",
+    "options": [
+      "Road and traffic ministry",
+      "Agriculture ministry",
+      "University of Subtain",
+      "Social and welfare ministry"
+    ],
+    "answer": 3,
+    "answerText": "Social and welfare ministry",
+    "explanation": "The social and welfare ministry plays a crucial role in health sector policies and programs.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 2</span> Which of the followings are not a part of health system?",
+    "options": [
+      "Medical faculty",
+      "University hospital",
+      "Health centers",
+      "Private physician office",
+      "It depends"
+    ],
+    "answer": 4,
+    "answerText": "It depends",
+    "explanation": "The definition of a health system varies and can include different institutions depending on policies.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 3</span> Which of the followings is correct?",
+    "options": [
+      "There is strong and direct correlation between costs and health outcomes in different countries",
+      "There is no strong and direct correlation between costs and health outcomes in different countries",
+      "There is strong and inverse correlation between costs and health outcomes in different countries",
+      "There is weak and inverse correlation between costs and health outcomes in different countries"
+    ],
+    "answer": 1,
+    "answerText": "There is no strong and direct correlation between costs and health outcomes in different countries",
+    "explanation": "High healthcare spending does not always translate to better health outcomes due to various factors.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 4</span> Which one of the following is not an objective of the health system?",
+    "options": [
+      "Delivery of care",
+      "Good health",
+      "Responsiveness",
+      "Fair financial contribution"
+    ],
+    "answer": 3,
+    "answerText": "Fair financial contribution",
+    "explanation": "While financial contribution is important, it is not an explicit objective of a health system.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 5</span> The ministry of health passed a law that every hospital should have a patient complaint management system. Which function does this represent?",
+    "options": [
+      "Stewardship",
+      "Creating resources",
+      "Financing",
+      "Care delivery"
+    ],
+    "answer": 0,
+    "answerText": "Stewardship",
+    "explanation": "Stewardship involves regulation and governance in healthcare systems.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 6</span> The health centers administered COVID-19 vaccines during the pandemic. What function does this represent?",
+    "options": [
+      "Stewardship",
+      "Creating resources",
+      "Financing",
+      "Care delivery"
+    ],
+    "answer": 3,
+    "answerText": "Care delivery",
+    "explanation": "Providing vaccinations falls under healthcare service delivery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 7</span> In regard to MDG 1 (eradication of extreme poverty and hunger), which one is not correct?",
+    "options": [
+      "The goal is halving the proportion of extreme poverty",
+      "Suboptimal breastfeeding is among the major causes of under-5-year mortality",
+      "The proportion of underweight children in developing countries has declined from 28% to 17% between 1990 and 2013",
+      "Improvements have been evenly distributed between and within different regions"
+    ],
+    "answer": 3,
+    "answerText": "Improvements have been evenly distributed between and within different regions",
+    "explanation": "The distribution of improvements is often uneven due to socioeconomic disparities.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 8</span> In regard to SDG goal 3 (good health and well-being), which one is not correct?",
+    "options": [
+      "Reducing maternal mortality ratio to less than 70 per 100,000 live births",
+      "Neonatal mortality to at least as low as 12 per 1,000 live births",
+      "Under-5 mortality to at least as low as 25 per 1,000 live births",
+      "Reduce by one half premature mortality from non-communicable diseases through prevention and treatment"
+    ],
+    "answer": 3,
+    "answerText": "Reduce by one half premature mortality from non-communicable diseases through prevention and treatment",
+    "explanation": "The SDG target is reducing premature mortality by one-third, not one-half.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 9</span> How much percent is the effect of Social Determinants of Health (SDH) on health outcomes?",
+    "options": [
+      "5 -10",
+      "10 – 25",
+      "20 - 35",
+      "30 - 55"
+    ],
+    "answer": 3,
+    "answerText": "30 - 55",
+    "explanation": "Social determinants account for a significant portion of health outcomes.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 10</span> PHC ensures that people receive service .......",
+    "options": [
+      "Free for them",
+      "Close to them",
+      "That are high technology",
+      "That are professional"
+    ],
+    "answer": 1,
+    "answerText": "Close to them",
+    "explanation": "Primary healthcare aims to be accessible and community-based.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 11</span> In which city was PHC declared by the country’s governments?",
+    "options": [
+      "Astana",
+      "Alma-Ata",
+      "Brussels",
+      "Geneva"
+    ],
+    "answer": 1,
+    "answerText": "Alma-Ata",
+    "explanation": "The Alma-Ata Declaration of 1978 established the principles of PHC.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 12</span> What is the most important inspiration (feeling) of a physician in Motivational Interview?",
+    "options": [
+      "Sympathy",
+      "Compassion",
+      "Commitment",
+      "Promotion"
+    ],
+    "answer": 1,
+    "answerText": "Compassion",
+    "explanation": "Compassion is a key principle in motivational interviewing.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 13</span> What is the premier international health organization?",
+    "options": [
+      "WB",
+      "WHO",
+      "UNICEF",
+      "ILO"
+    ],
+    "answer": 1,
+    "answerText": "WHO",
+    "explanation": "The World Health Organization (WHO) is the leading global health authority.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 14</span> In this domain of WHO’s definition of health, any person should be able to adapt to life’s bad and good events:",
+    "options": [
+      "Physical",
+      "Mental",
+      "Social",
+      "Spiritual"
+    ],
+    "answer": 1,
+    "answerText": "Mental",
+    "explanation": "Mental health includes resilience and adaptability.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 15</span> We check vaccination cards of travelers to Iraq. Which level of prevention is this?<br><img src='https://i.imghippo.com/files/ZcD6067W.jpg' alt='Image for Q15' style='max-width:100%; height:auto;'>",
+    "options": [
+      "Primordial",
+      "Primary",
+      "Secondary",
+      "Tertiary"
+    ],
+    "answer": 1,
+    "answerText": "Primary",
+    "explanation": "Primary prevention focuses on preventing disease before it occurs.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 16</span> How many people die each year all around the world due to hospital severe infection?",
+    "options": [
+      "5,000,000",
+      "10,000,000",
+      "1,000,000",
+      "2,000,000"
+    ],
+    "answer": 3,
+    "answerText": "2,000,000",
+    "explanation": "Hospital-acquired infections contribute significantly to global mortality.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 17</span> What function of management is affected when doctors are ready in the surgery room, but the patient has not been sent from the ward?",
+    "options": [
+      "Planning",
+      "Coordinating",
+      "Leading",
+      "Controlling"
+    ],
+    "answer": 1,
+    "answerText": "Coordinating",
+    "explanation": "Coordination ensures that all elements of healthcare work efficiently together.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 18</span> How many people die from air pollution in the EMRO region each year?",
+    "options": [
+      "10,000",
+      "15,000",
+      "145,000",
+      "250,000"
+    ],
+    "answer": 2,
+    "answerText": "145,000",
+    "explanation": "Air pollution has a severe impact on health, particularly in highly polluted regions.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 19</span> What is the cornerstone of patient safety?",
+    "options": [
+      "Hiring more doctors",
+      "Spending more money",
+      "Learning from the past",
+      "Be more careful"
+    ],
+    "answer": 2,
+    "answerText": "Learning from the past",
+    "explanation": "Learning from errors is fundamental to improving patient safety.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr . Yasin - Question 20</span> A hospital manager decides to clarify the payment system for every personnel. What kind of management function is it?",
+    "options": [
+      "Planning",
+      "Coordinating",
+      "Leading",
+      "Controlling"
+    ],
+    "answer": 3,
+    "answerText": "Controlling",
+    "explanation": "Controlling involves ensuring that procedures and policies are followed correctly.",
+    "userAnswer": null
+  }
+]
