@@ -32,6 +32,11 @@
   {
     "topicName": "Cardio System",
     "description": "Heart",
-    "subTopics": []
+    "subTopics": [
+      {
+        "name": "Anatomy",
+        "file": "data/cardio_system_anatomy.json"
+      }
+    ]
   }
 ]
