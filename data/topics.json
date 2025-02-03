@@ -36,6 +36,10 @@
       {
         "name": "General",
         "file": "data/english_general.json"
+      },
+      {
+        "name": "mt",
+        "file": "data/english_mt.json"
       }
     ]
   }
