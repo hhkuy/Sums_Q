@@ -1,5 +1,15 @@
 [
   {
+    "topicName": "CNS System",
+    "description": "Nerves",
+    "subTopics": [
+      {
+        "name": "Anatomy",
+        "file": "data/cns_system_anatomy.json"
+      }
+    ]
+  },
+  {
     "topicName": "Cardio Vascular",
     "description": "",
     "subTopics": [
@@ -10,16 +20,6 @@
       {
         "name": "physiology",
         "file": "data/cardio_vascular_physiology.json"
-      }
-    ]
-  },
-  {
-    "topicName": "CNS System",
-    "description": "Nerves",
-    "subTopics": [
-      {
-        "name": "Anatomy",
-        "file": "data/cns_system_anatomy.json"
       }
     ]
   }
