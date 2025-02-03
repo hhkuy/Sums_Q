@@ -6,31 +6,6 @@
       {
         "name": "Anatomy",
         "file": "data/cns_anatomy.json"
-      },
-      {
-        "name": "Physiology",
-        "file": "data/cns_physiology.json"
-      }
-    ]
-  },
-  {
-    "topicName": "Cardio System",
-    "description": "Cardiovascular System Overview",
-    "file": "data/cardio.json",
-    "subTopics": [
-      {
-        "name": "Anatomy",
-        "file": "data/cardio_system_anatomy.json"
-      }
-    ]
-  },
-  {
-    "topicName": "Endocrine System",
-    "description": "hormone",
-    "subTopics": [
-      {
-        "name": "Physiology",
-        "file": "data/endocrine_system_physiology.json"
       }
     ]
   }
