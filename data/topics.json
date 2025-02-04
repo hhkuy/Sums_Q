@@ -12,5 +12,19 @@
         "file": "data/tissue,_development_and_function_block_embryology.json"
       }
     ]
+  },
+  {
+    "topicName": "Anatomy of Limbs",
+    "description": "Related to First Semster",
+    "subTopics": [
+      {
+        "name": "Upper Limbs",
+        "file": "data/anatomy_of_limbs_upper_limbs.json"
+      },
+      {
+        "name": "Lower Limbs",
+        "file": "data/anatomy_of_limbs_lower_limbs.json"
+      }
+    ]
   }
 ]
