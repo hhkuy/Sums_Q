@@ -1,0 +1,392 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 1</span> Each gamete contains a …..…… number of …..….. chromosomes.",
+    "options": [
+      "Diploid - 46",
+      "Haploid - 23",
+      "Diploid - 23",
+      "Haploid - 46"
+    ],
+    "answer": 1,
+    "answerText": "Haploid - 23",
+    "explanation": "Gametes are haploid cells containing 23 chromosomes, ensuring that upon fertilization, the zygote has a diploid number of 46.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 2</span> During meiosis, one ………..... gives rise to four daughter cells, each with 22 plus 1 X chromosome.",
+    "options": [
+      "Secondary oocyte",
+      "Spermatocyte",
+      "Primary oocyte",
+      "Oogonium"
+    ],
+    "answer": 2,
+    "answerText": "Primary oocyte",
+    "explanation": "The primary oocyte undergoes meiosis to form four daughter cells, one functional ovum, and three polar bodies, each containing 22 autosomes and 1 X chromosome.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 3</span> Spermatogenesis, which begins at …..……, includes all of the events by which ……..…… are transformed into spermatozoa.",
+    "options": [
+      "Birth - Oogonia",
+      "Puberty - Spermatogonia",
+      "Fetal stage - Spermatocytes",
+      "Adulthood - Oocytes"
+    ],
+    "answer": 1,
+    "answerText": "Puberty - Spermatogonia",
+    "explanation": "Spermatogenesis starts at puberty, transforming spermatogonia into mature spermatozoa through mitotic and meiotic divisions.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 4</span> Corpus luteum of pregnancy is active until the end of the …..……. month of pregnancy.",
+    "options": [
+      "Second",
+      "Third",
+      "Fourth",
+      "Fifth"
+    ],
+    "answer": 2,
+    "answerText": "Fourth",
+    "explanation": "The corpus luteum remains functional and produces progesterone until the fourth month when the placenta takes over hormone production.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 5</span> When the secondary follicle is mature, a surge in …..….. hormone induces the preovulatory growth phase and ……..… is completed.",
+    "options": [
+      "FSH - Meiosis I",
+      "LH - Meiosis II",
+      "LH - Meiosis I",
+      "Estrogen - Meiosis II"
+    ],
+    "answer": 2,
+    "answerText": "LH - Meiosis I",
+    "explanation": "The luteinizing hormone (LH) surge triggers the completion of meiosis I in the secondary follicle, leading to ovulation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 6</span> The ................. prevent polyspermy.",
+    "options": [
+      "Acrosomal reaction",
+      "Zona and cortical reactions",
+      "Cleavage reaction",
+      "Blastomere division"
+    ],
+    "answer": 1,
+    "answerText": "Zona and cortical reactions",
+    "explanation": "The cortical and zona reactions modify the zona pellucida, preventing multiple sperm from fertilizing the egg.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 7</span> During implantation in the human, .............. cells begin to penetrate between the epithelial cells of the uterine mucosa.",
+    "options": [
+      "Epiblast",
+      "Hypoblast",
+      "Trophoblast",
+      "Syncytiotrophoblast"
+    ],
+    "answer": 2,
+    "answerText": "Trophoblast",
+    "explanation": "Trophoblast cells invade the uterine lining, initiating implantation and supporting placental formation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 8</span> By the ............... day of development, the surface defect in the endometrium (implantation site) has usually healed.",
+    "options": [
+      "7th",
+      "10th",
+      "13th",
+      "15th"
+    ],
+    "answer": 2,
+    "answerText": "13th",
+    "explanation": "By day 13, the implantation site in the uterine endometrium is typically re-epithelialized.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 9</span> Organogenesis occurs from the .................. weeks of development.",
+    "options": [
+      "First to fourth",
+      "Third to eighth",
+      "Eighth to twelfth",
+      "Twelfth to sixteenth"
+    ],
+    "answer": 1,
+    "answerText": "Third to eighth",
+    "explanation": "Organogenesis, the formation of organ systems, occurs between the third and eighth weeks of embryonic development.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 10</span> Closure of the cranial neuropore occurs at approximately day .............. of gestation.",
+    "options": [
+      "20",
+      "22",
+      "25",
+      "28"
+    ],
+    "answer": 2,
+    "answerText": "25",
+    "explanation": "The cranial neuropore, the opening at the head end of the neural tube, closes around day 25 of development.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 11</span> Neurulation is the process whereby the neural plate from ............... forms the neural tube.",
+    "options": [
+      "Endoderm",
+      "Mesoderm",
+      "Ectoderm",
+      "Epiblast"
+    ],
+    "answer": 2,
+    "answerText": "Ectoderm",
+    "explanation": "The ectoderm forms the neural plate, which folds to create the neural tube, the precursor to the central nervous system.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 12</span> The ................ is a midline axis, which will serve as the basis of the axial skeleton.",
+    "options": [
+      "Neural tube",
+      "Primitive streak",
+      "Notochord",
+      "Somites"
+    ],
+    "answer": 2,
+    "answerText": "Notochord",
+    "explanation": "The notochord acts as a structural support and signals surrounding cells for the development of the axial skeleton.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 13</span> With development of blood vessels, the ............ becomes the umbilical cord.",
+    "options": [
+      "Chorion",
+      "Connecting stalk",
+      "Amniotic sac",
+      "Yolk sac"
+    ],
+    "answer": 1,
+    "answerText": "Connecting stalk",
+    "explanation": "The connecting stalk, which initially attaches the embryo to the placenta, develops into the umbilical cord.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 14</span> The .............. is a glycoprotein shell surrounding the egg that facilitates and maintains sperm binding.",
+    "options": [
+      "Corona radiata",
+      "Zona pellucida",
+      "Perivitelline space",
+      "Cytoplasm"
+    ],
+    "answer": 1,
+    "answerText": "Zona pellucida",
+    "explanation": "The zona pellucida surrounds the oocyte, aiding sperm binding and preventing premature implantation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 15</span> The ............ line the intraembryonic cavity.",
+    "options": [
+      "Somites",
+      "Endoderm",
+      "Visceral and parietal mesoderm",
+      "Neural crest cells"
+    ],
+    "answer": 2,
+    "answerText": "Visceral and parietal mesoderm",
+    "explanation": "The visceral and parietal layers of mesoderm form the walls of the intraembryonic coelom, which later develops into body cavities.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 16</span> By ................ months, if born at this time, the infant has a 90% chance of surviving.",
+    "options": [
+      "5 to 6",
+      "6.5 to 7",
+      "7.5 to 8",
+      "8.5 to 9"
+    ],
+    "answer": 1,
+    "answerText": "6.5 to 7",
+    "explanation": "By 6.5 to 7 months (approximately 26-28 weeks), the lungs are sufficiently developed to allow survival with medical support.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 17</span> Fetal portion of the placenta is formed by the ................ .",
+    "options": [
+      "Amnion",
+      "Decidua basalis",
+      "Chorion frondosum",
+      "Syncytiotrophoblast"
+    ],
+    "answer": 2,
+    "answerText": "Chorion frondosum",
+    "explanation": "The chorion frondosum contributes to the fetal side of the placenta, forming the villous structures involved in nutrient exchange.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 18</span> During the first 2 months of pregnancy, presence of .................. in the urine is used as an indicator of pregnancy.",
+    "options": [
+      "Estrogen",
+      "hCG",
+      "Progesterone",
+      "LH"
+    ],
+    "answer": 1,
+    "answerText": "hCG",
+    "explanation": "Human chorionic gonadotropin (hCG) is produced by the trophoblast and can be detected in urine early in pregnancy.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 19</span> The amount of amniotic fluid is .............. mL at 37 weeks of gestation, and oligohydramnios refers to a ............. amount.",
+    "options": [
+      "500 - increased",
+      "750 - decreased",
+      "1000 - decreased",
+      "1500 - increased"
+    ],
+    "answer": 2,
+    "answerText": "1000 - decreased",
+    "explanation": "Normal amniotic fluid volume is about 1000 mL at full term; oligohydramnios refers to abnormally low fluid levels.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 20</span> The twins have a separate .................. once the splitting occurs at the blastocyst stage.",
+    "options": [
+      "Chorions",
+      "Amniotic cavities",
+      "Yolk sacs",
+      "Neural tubes"
+    ],
+    "answer": 1,
+    "answerText": "Amniotic cavities",
+    "explanation": "If monozygotic twins split at the blastocyst stage, they develop separate amniotic sacs but may share a placenta.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 21</span> The ………… contains an antrum and a secondary oocyte.",
+    "options": [
+      "Primary follicle",
+      "Graafian follicle",
+      "Corpus luteum",
+      "Oogonium"
+    ],
+    "answer": 1,
+    "answerText": "Graafian follicle",
+    "explanation": "The Graafian follicle is a mature ovarian follicle containing an antrum (fluid-filled cavity) and a secondary oocyte ready for ovulation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 22</span> One primary oocyte gives rise to four daughter cells. …….. of these develops into a mature gamete, and …….. are the polar bodies.",
+    "options": [
+      "One – Three",
+      "Two – Two",
+      "Three – One",
+      "Four – None"
+    ],
+    "answer": 0,
+    "answerText": "One – Three",
+    "explanation": "In oogenesis, only one of the four daughter cells from meiosis develops into a functional ovum, while the remaining three become non-functional polar bodies.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 23</span> During meiosis I, pairs of ………. separate into two daughter cells, thereby reducing the chromosome number to ……….. .",
+    "options": [
+      "Chromatids – Diploid",
+      "Chromosomes – Haploid",
+      "Centromeres – Haploid",
+      "Gametes – Diploid"
+    ],
+    "answer": 1,
+    "answerText": "Chromosomes – Haploid",
+    "explanation": "Meiosis I separates homologous chromosome pairs, reducing the chromosome number from diploid (46) to haploid (23).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 24</span> Fusion of the neural folds begins in the ................ region.",
+    "options": [
+      "Cervical",
+      "Thoracic",
+      "Lumbar",
+      "Sacral"
+    ],
+    "answer": 0,
+    "answerText": "Cervical",
+    "explanation": "The fusion of the neural folds, forming the neural tube, begins in the cervical region and proceeds cranially and caudally.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 25</span> The most characteristic event occurring during the ............. week of gestation is gastrulation.",
+    "options": [
+      "First",
+      "Second",
+      "Third",
+      "Fourth"
+    ],
+    "answer": 2,
+    "answerText": "Third",
+    "explanation": "Gastrulation, the process that forms the three germ layers (ectoderm, mesoderm, and endoderm), occurs during the third week of development.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 26</span> Release of ............. allows sperm to penetrate the zona, thereby coming in contact with the plasma membrane of the oocyte.",
+    "options": [
+      "Hyaluronidase",
+      "Acrosin",
+      "Trypsin",
+      "Progesterone"
+    ],
+    "answer": 1,
+    "answerText": "Acrosin",
+    "explanation": "Acrosin, an enzyme in the acrosome of the sperm, helps digest the zona pellucida, allowing sperm to reach and fertilize the oocyte.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 27</span> Implantation occurs on about day .......... .",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "answer": 2,
+    "answerText": "6",
+    "explanation": "Implantation of the blastocyst into the endometrium begins around day 6 after fertilization.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 28</span> The measurement from the vertex of the skull to the heel of the fetus is called .............. .",
+    "options": [
+      "Crown-rump length (CRL)",
+      "Biparietal diameter (BPD)",
+      "Standing height/CHL",
+      "Fundal height"
+    ],
+    "answer": 2,
+    "answerText": "Standing height/CHL",
+    "explanation": "Crown-heel length (CHL) measures fetal growth from the skull's vertex to the heel, useful in later pregnancy stages.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 29</span> By the ............... week, external genitalia develop to such a degree that the sex of the fetus can be determined by external examination (ultrasound).",
+    "options": [
+      "10th",
+      "11th",
+      "12th",
+      "14th"
+    ],
+    "answer": 2,
+    "answerText": "12th",
+    "explanation": "By the 12th week of gestation, the external genitalia are developed enough to distinguish male from female via ultrasound.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 30</span> The ................ twin results from the simultaneous shedding of two oocytes and fertilization by different spermatozoa.",
+    "options": [
+      "Monozygotic",
+      "Dizygotic/Fraternal",
+      "Conjoined",
+      "Identical"
+    ],
+    "answer": 1,
+    "answerText": "Dizygotic/Fraternal",
+    "explanation": "Dizygotic (fraternal) twins occur when two separate oocytes are fertilized by two different sperm, leading to genetically distinct siblings.",
+    "userAnswer": null
+  }
+]
