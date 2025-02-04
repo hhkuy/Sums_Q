@@ -1,25 +1,11 @@
 [
   {
-    "topicName": "CNS System",
-    "description": "Nerves",
+    "topicName": "Tissue, Development and Function block",
+    "description": "Related to the first Semster",
     "subTopics": [
       {
-        "name": "Anatomy",
-        "file": "data/cns_system_anatomy.json"
-      }
-    ]
-  },
-  {
-    "topicName": "Cardio Vascular",
-    "description": "",
-    "subTopics": [
-      {
-        "name": "Anatomy",
-        "file": "data/cardio_vascular_anatomy.json"
-      },
-      {
-        "name": "physiology",
-        "file": "data/cardio_vascular_physiology.json"
+        "name": "Embryology",
+        "file": "data/tissue,_development_and_function_block_embryology.json"
       }
     ]
   }
