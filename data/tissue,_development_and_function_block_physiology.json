@@ -1,0 +1,262 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events?",
+    "options": [
+      "Opening of Na+ channels",
+      "Opening of K+ channels",
+      "Opening of Ca++ voltage-gated channels",
+      "Closing of Cl− channels"
+    ],
+    "answer": 2,
+    "answerText": "Opening of Ca++ voltage-gated channels",
+    "explanation": "The influx of Ca++ through voltage-gated calcium channels triggers neurotransmitter release into the synaptic cleft.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?",
+    "options": [
+      "Opening of Na+ channels",
+      "Opening of K+ channels at the surface of the postsynaptic membrane",
+      "Closing of K+ channels",
+      "Depolarization of the membrane"
+    ],
+    "answer": 1,
+    "answerText": "Opening of K+ channels at the surface of the postsynaptic membrane",
+    "explanation": "Inhibitory neurotransmitters cause hyperpolarization by opening K+ channels, making the postsynaptic membrane less excitable.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 3</span> The activation of the secondary messenger inside the postsynaptic cell does not cause any of the following changes?",
+    "options": [
+      "Modulation of enzyme activity",
+      "Alteration in gene expression",
+      "Closing a specific ion channel",
+      "Activation of protein kinases"
+    ],
+    "answer": 2,
+    "answerText": "Closing a specific ion channel",
+    "explanation": "Secondary messengers typically activate signaling pathways rather than directly closing ion channels.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 4</span> Which of the following statements about the postsynaptic potential is true?",
+    "options": [
+      "EPSP and IPSP cannot occur together",
+      "In spatial summation, IPSP can add to EPSP in the postsynaptic membrane",
+      "IPSPs only occur in the presynaptic neuron",
+      "Postsynaptic potentials do not affect action potential generation"
+    ],
+    "answer": 1,
+    "answerText": "In spatial summation, IPSP can add to EPSP in the postsynaptic membrane",
+    "explanation": "In spatial summation, excitatory (EPSP) and inhibitory (IPSP) signals can combine, influencing neuron firing.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 5</span> Which of the following mediators is not recycled in vesicles?",
+    "options": [
+      "Dopamine",
+      "Serotonin",
+      "Acetylcholine",
+      "Adrenocorticotropic hormone (ACTH)"
+    ],
+    "answer": 3,
+    "answerText": "Adrenocorticotropic hormone (ACTH)",
+    "explanation": "Unlike other neurotransmitters, ACTH is not recycled in vesicles and is instead degraded after release.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 6</span> The dark band in skeletal muscle includes which of the contractile filaments?",
+    "options": [
+      "Actin filaments only",
+      "Myosin filaments and the actin filaments overlap the myosin",
+      "Myosin filaments only",
+      "Actin and tropomyosin filaments"
+    ],
+    "answer": 1,
+    "answerText": "Myosin filaments and the actin filaments overlap the myosin",
+    "explanation": "The dark (A) band consists of myosin filaments and overlapping actin filaments in skeletal muscle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 7</span> In the molecular structure of skeletal muscle, calcium ion attaches to which protein?",
+    "options": [
+      "Tropomyosin",
+      "Troponin C",
+      "Myosin",
+      "Actin"
+    ],
+    "answer": 1,
+    "answerText": "Troponin C",
+    "explanation": "Calcium binds to troponin C, causing a conformational change that moves tropomyosin, exposing actin's active sites.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 8</span> The active site on the surface of the actin molecule is covered by which of the following molecules, and which of these molecules are most tending to these areas?",
+    "options": [
+      "Myosin-ATP",
+      "Troponin-Tropomyosin",
+      "Tropomyosin-ADP",
+      "Actin-ATP"
+    ],
+    "answer": 2,
+    "answerText": "Tropomyosin-ADP",
+    "explanation": "Tropomyosin blocks actin’s active site, while ADP remains bound, allowing actin-myosin interaction upon calcium release.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 9</span> Which of the following does not occur in the contraction of skeletal muscles?",
+    "options": [
+      "Actin-myosin cross-bridge formation",
+      "ATP hydrolysis",
+      "Calcium release from sarcoplasmic reticulum",
+      "Myosin phosphorylation"
+    ],
+    "answer": 3,
+    "answerText": "Myosin phosphorylation",
+    "explanation": "Skeletal muscle contraction does not involve myosin phosphorylation, which is a feature of smooth muscle contraction.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 10</span> Where does the calcium needed for skeletal muscle contraction come from?",
+    "options": [
+      "Extracellular fluid",
+      "Golgi apparatus",
+      "Sarcoplasmic reticulum (RYR)",
+      "Nucleus"
+    ],
+    "answer": 2,
+    "answerText": "Sarcoplasmic reticulum (RYR)",
+    "explanation": "Skeletal muscle contraction relies on calcium release from the sarcoplasmic reticulum via ryanodine receptors (RYR).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 11</span> At the end of the skeletal muscle contraction process, the cross bridges of myosin filaments are released from actin by which molecule?",
+    "options": [
+      "ADP",
+      "ATP",
+      "Calcium",
+      "Troponin"
+    ],
+    "answer": 1,
+    "answerText": "ATP",
+    "explanation": "ATP binding to myosin causes the detachment of myosin cross-bridges from actin, allowing relaxation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 12</span> In the best contraction length of skeletal muscle, what is the relationship between contractile filaments?",
+    "options": [
+      "Myosin and actin overlap, and actin tips are far apart",
+      "Myosin and actin do not interact",
+      "Myosin and actin overlap, and actin tips are close to each other",
+      "Myosin filaments shorten"
+    ],
+    "answer": 2,
+    "answerText": "Myosin and actin overlap, and actin tips are close to each other",
+    "explanation": "Optimal contraction occurs when myosin and actin overlap sufficiently, and actin filaments remain close but not compressed.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 13</span> How is the released acetylcholine destroyed after stimulating the muscle cell?",
+    "options": [
+      "By reuptake into the presynaptic neuron",
+      "By diffusion out of the synaptic cleft",
+      "By acetylcholinesterase",
+      "By binding to calcium"
+    ],
+    "answer": 2,
+    "answerText": "By acetylcholinesterase",
+    "explanation": "Acetylcholinesterase rapidly degrades acetylcholine in the synaptic cleft, stopping the muscle contraction signal.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 14</span> Which of the following best describes a feature visceral smooth muscle does not share with skeletal muscle?",
+    "options": [
+      "Actin interaction with cross-bridges during contraction",
+      "Presence of troponin in the contraction process",
+      "Contracts in response to hormones and chemical substances",
+      "Uses ATP for contraction"
+    ],
+    "answer": 2,
+    "answerText": "Contracts in response to hormones and chemical substances",
+    "explanation": "Unlike skeletal muscle, visceral smooth muscle contracts in response to hormones and chemical signals in addition to neural input.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 15</span> What is the main cause of slow cycling of the myosin cross-bridge in smooth muscle?",
+    "options": [
+      "Increased ATP hydrolysis",
+      "Decreased actin availability",
+      "Reduction in myosin head ATPase activity",
+      "Excess calcium binding"
+    ],
+    "answer": 2,
+    "answerText": "Reduction in myosin head ATPase activity",
+    "explanation": "Smooth muscle contraction is slower than skeletal muscle due to the reduced ATPase activity of the myosin head.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 16</span> What is the beginning and end of the contraction process in smooth muscle?",
+    "options": [
+      "Calcium binding - Myosin phosphorylation",
+      "Myosin kinase enzyme (MLCK) - Phosphatase enzyme",
+      "ATP hydrolysis - Calcium release",
+      "Actin polymerization - Myosin activation"
+    ],
+    "answer": 1,
+    "answerText": "Myosin kinase enzyme (MLCK) - Phosphatase enzyme",
+    "explanation": "Smooth muscle contraction begins with MLCK activation and ends with myosin dephosphorylation by a phosphatase enzyme.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 17</span> Which of the following muscles has an electrical synapse and which one has a chemical synapse?",
+    "options": [
+      "Skeletal muscle - Smooth muscle",
+      "Multi-unit smooth muscle - Cardiac muscle",
+      "Visceral smooth muscle - Multi-unit smooth muscle",
+      "Cardiac muscle - Skeletal muscle"
+    ],
+    "answer": 2,
+    "answerText": "Visceral smooth muscle - Multi-unit smooth muscle",
+    "explanation": "Visceral smooth muscle communicates via electrical synapses (gap junctions), whereas multi-unit smooth muscle relies on chemical synapses.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 18</span> Which of the following statements is false about the synapse?",
+    "options": [
+      "Electrical synapses allow direct ion movement between cells",
+      "Chemical synapses use neurotransmitters",
+      "In the chemical synapse, nerve signal transmission is in two directions",
+      "Synaptic transmission can be excitatory or inhibitory"
+    ],
+    "answer": 2,
+    "answerText": "In the chemical synapse, nerve signal transmission is in two directions",
+    "explanation": "Chemical synapses allow only one-way signal transmission from presynaptic to postsynaptic cells, unlike electrical synapses.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 19</span> Smooth muscle contraction is terminated by which of the following?",
+    "options": [
+      "Calcium reuptake into the sarcoplasmic reticulum",
+      "Dephosphorylation of myosin light chain (phosphatase)",
+      "ATP depletion",
+      "Release of inhibitory neurotransmitters"
+    ],
+    "answer": 1,
+    "answerText": "Dephosphorylation of myosin light chain (phosphatase)",
+    "explanation": "Myosin light chain phosphatase dephosphorylates myosin, leading to smooth muscle relaxation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Zeinab Hamidizad - Question 20</span> What is the cause of slow waves in visceral muscles?",
+    "options": [
+      "Cyclic depolarization and repolarization of membrane potential",
+      "By increasing and decreasing pumping of negative ions (presumably Cl− ions)",
+      "By only increasing pumping of positive ions (presumably sodium ions)",
+      "By inhibition of calcium release"
+    ],
+    "answer": 2,
+    "answerText": "By only increasing pumping of positive ions (presumably sodium ions)",
+    "explanation": "Slow waves in visceral muscles result from rhythmic sodium ion influx, which helps regulate contraction cycles.",
+    "userAnswer": null
+  }
+]
