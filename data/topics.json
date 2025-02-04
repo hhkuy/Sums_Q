@@ -36,5 +36,15 @@
         "file": "data/principles_of_health_principles_of_health.json"
       }
     ]
+  },
+  {
+    "topicName": "psychology",
+    "description": "Related to the first Semster",
+    "subTopics": [
+      {
+        "name": "Psychology",
+        "file": "data/psychology_psychology.json"
+      }
+    ]
   }
 ]
