@@ -1,0 +1,522 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 1</span> Which superficial vein passes through the lateral side of the forearm and arm?",
+    "options": [
+      "Basilic vein",
+      "Radial vein",
+      "Cephalic vein",
+      "Ulnar vein"
+    ],
+    "answer": 2,
+    "answerText": "Cephalic vein",
+    "explanation": "The cephalic vein runs along the lateral aspect of the forearm and arm, draining into the axillary vein.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 2</span> Where is the insertion of the extensor indicis muscle?",
+    "options": [
+      "5th finger",
+      "3rd finger",
+      "4th finger",
+      "2nd finger"
+    ],
+    "answer": 3,
+    "answerText": "2nd finger",
+    "explanation": "The extensor indicis inserts into the extensor expansion of the 2nd finger, allowing independent extension of the index finger.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 3</span> Which axillary lymph nodes receive the lymph of the upper limb?",
+    "options": [
+      "Posterior group",
+      "Apical group",
+      "Lateral (humeral) group",
+      "Central group"
+    ],
+    "answer": 2,
+    "answerText": "Lateral (humeral) group",
+    "explanation": "The lateral (humeral) lymph nodes are responsible for draining lymph from the upper limb.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 4</span> All the following branches originate from the medial cord of the brachial plexus except:",
+    "options": [
+      "Ulnar nerve",
+      "Medial pectoral nerve",
+      "Radial nerve",
+      "Medial cutaneous nerve of the forearm"
+    ],
+    "answer": 2,
+    "answerText": "Radial nerve",
+    "explanation": "The radial nerve originates from the posterior cord, not the medial cord, of the brachial plexus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 5</span> All of the following muscles can abduct the arm except:",
+    "options": [
+      "Deltoid muscle",
+      "Supraspinatus muscle",
+      "Pectoralis major muscle",
+      "Trapezius muscle"
+    ],
+    "answer": 2,
+    "answerText": "Pectoralis major muscle",
+    "explanation": "The pectoralis major primarily functions in adduction and medial rotation of the arm, not abduction.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 6</span> Which of the metacarpal bones is the shortest one?",
+    "options": [
+      "2nd",
+      "3rd",
+      "4th",
+      "1st"
+    ],
+    "answer": 3,
+    "answerText": "1st",
+    "explanation": "The 1st metacarpal, associated with the thumb, is the shortest and most mobile among the metacarpal bones.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 7</span> Which nerve supplies sensory innervation to the palmar surface of the lateral 3.5 fingers?",
+    "options": [
+      "Ulnar nerve",
+      "Radial nerve",
+      "Median nerve",
+      "Musculocutaneous nerve"
+    ],
+    "answer": 2,
+    "answerText": "Median nerve",
+    "explanation": "The median nerve provides sensory innervation to the palmar surface of the thumb, index, middle, and half of the ring finger.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 8</span> What is the main blood supply for the posterior surface of the hand?",
+    "options": [
+      "Ulnar artery",
+      "Dorsal carpal arch",
+      "Superficial palmar arch",
+      "Deep palmar arch"
+    ],
+    "answer": 1,
+    "answerText": "Dorsal carpal arch",
+    "explanation": "The dorsal carpal arch supplies blood to the posterior surface of the hand.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 9</span> Which muscle in the thenar group has two heads?",
+    "options": [
+      "Opponens pollicis",
+      "Flexor pollicis brevis",
+      "Abductor pollicis brevis",
+      "Adductor pollicis"
+    ],
+    "answer": 3,
+    "answerText": "Adductor pollicis",
+    "explanation": "The adductor pollicis has two heads—oblique and transverse—responsible for thumb adduction.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 10</span> What is the function of the palmar interosseous muscles?",
+    "options": [
+      "Flexion of fingers",
+      "Abduction of fingers",
+      "Adduction of fingers",
+      "Extension of fingers"
+    ],
+    "answer": 2,
+    "answerText": "Adduction of fingers",
+    "explanation": "The palmar interossei are responsible for adducting the fingers toward the midline of the hand.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 11</span> Which of the following nerves passes through the carpal tunnel?",
+    "options": [
+      "Ulnar nerve",
+      "Radial nerve",
+      "Median nerve",
+      "Musculocutaneous nerve"
+    ],
+    "answer": 2,
+    "answerText": "Median nerve",
+    "explanation": "The median nerve travels through the carpal tunnel along with the flexor tendons.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 12</span> All of the following muscles are located in the deep extensor layer of the forearm except:",
+    "options": [
+      "Extensor pollicis longus",
+      "Extensor pollicis brevis",
+      "Extensor indicis",
+      "Extensor digitorum"
+    ],
+    "answer": 3,
+    "answerText": "Extensor digitorum",
+    "explanation": "The extensor digitorum is part of the superficial extensor group, not the deep layer.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 13</span> What is the action of the brachioradialis muscle?",
+    "options": [
+      "Extension of the forearm",
+      "Supination of the forearm",
+      "Flexion of the forearm",
+      "Flexion of the arm"
+    ],
+    "answer": 2,
+    "answerText": "Flexion of the forearm",
+    "explanation": "The brachioradialis primarily acts as a forearm flexor, especially in a mid-pronated position.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 14</span> What is the blood supply for the posterior compartment of the forearm?",
+    "options": [
+      "Radial artery",
+      "Ulnar artery",
+      "Anterior interosseous artery",
+      "Posterior interosseous artery"
+    ],
+    "answer": 3,
+    "answerText": "Posterior interosseous artery",
+    "explanation": "The posterior interosseous artery, a branch of the ulnar artery, supplies the posterior forearm.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 15</span> Which nerve passes between the two heads of the pronator teres muscle?",
+    "options": [
+      "Ulnar nerve",
+      "Radial nerve",
+      "Median nerve",
+      "Musculocutaneous nerve"
+    ],
+    "answer": 2,
+    "answerText": "Median nerve",
+    "explanation": "The median nerve travels between the two heads of the pronator teres muscle in the forearm.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 16</span> The flexor digitorum superficialis can flex all of the following fingers except:",
+    "options": [
+      "2nd finger",
+      "3rd finger",
+      "4th finger",
+      "1st finger"
+    ],
+    "answer": 3,
+    "answerText": "1st finger",
+    "explanation": "The flexor digitorum superficialis does not flex the thumb (1st finger), as it primarily acts on digits 2–5.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 17</span> Where is the common flexor origin in the forearm?",
+    "options": [
+      "Lateral epicondyle",
+      "Radial tuberosity",
+      "Medial epicondyle",
+      "Coronoid process"
+    ],
+    "answer": 2,
+    "answerText": "Medial epicondyle",
+    "explanation": "The common flexor origin is the medial epicondyle of the humerus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 18</span> All of the following muscles in the forearm are innervated by the median nerve except:",
+    "options": [
+      "Flexor carpi radialis",
+      "Pronator teres",
+      "Flexor carpi ulnaris",
+      "Palmaris longus"
+    ],
+    "answer": 2,
+    "answerText": "Flexor carpi ulnaris",
+    "explanation": "The flexor carpi ulnaris is innervated by the ulnar nerve, not the median nerve.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 19</span> What is the name of the groove on the posterior surface of the humerus bone?",
+    "options": [
+      "Ulnar groove",
+      "Bicipital groove",
+      "Radial groove",
+      "Intertubercular groove"
+    ],
+    "answer": 2,
+    "answerText": "Radial groove",
+    "explanation": "The radial groove, also called the spiral groove, is where the radial nerve runs along the posterior humerus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 20</span> All of the following processes are related to the scapula except:",
+    "options": [
+      "Acromion",
+      "Coracoid process",
+      "Styloid process",
+      "Spine"
+    ],
+    "answer": 2,
+    "answerText": "Styloid process",
+    "explanation": "The styloid process is not a part of the scapula; it is found in the radius and ulna.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 21</span> The distal end of the radius bone articulates with:",
+    "options": [
+      "Capitate and hamate",
+      "Trapezium and trapezoid",
+      "Scaphoid and lunate",
+      "Pisiform and triquetrum"
+    ],
+    "answer": 2,
+    "answerText": "Scaphoid and lunate",
+    "explanation": "The distal radius articulates with the scaphoid and lunate bones to form the radiocarpal (wrist) joint.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 22</span> All of the following muscles belong to the intrinsic muscles of the scapular region except:",
+    "options": [
+      "Supraspinatus",
+      "Infraspinatus",
+      "Trapezius",
+      "Teres minor"
+    ],
+    "answer": 2,
+    "answerText": "Trapezius",
+    "explanation": "The trapezius is an extrinsic muscle of the back, not an intrinsic scapular muscle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 23</span> What is the action of the rhomboid major muscle?",
+    "options": [
+      "Elevation of the scapula",
+      "Depression of the scapula",
+      "Retraction of the scapula",
+      "Upward rotation of the scapula"
+    ],
+    "answer": 2,
+    "answerText": "Retraction of the scapula",
+    "explanation": "The rhomboid major retracts the scapula by pulling it medially toward the spine.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 24</span> What is the action of the sternocostal head of the pectoralis major muscle?",
+    "options": [
+      "Abduction of the arm",
+      "Flexion of the arm",
+      "Extension of the arm",
+      "Medial rotation of the arm"
+    ],
+    "answer": 2,
+    "answerText": "Extension of the arm",
+    "explanation": "The sternocostal head of the pectoralis major extends the arm from a flexed position.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 25</span> Which structure is located in the anatomical snuffbox?",
+    "options": [
+      "Ulnar artery",
+      "Radial artery",
+      "Median nerve",
+      "Brachial artery"
+    ],
+    "answer": 1,
+    "answerText": "Radial artery",
+    "explanation": "The radial artery passes through the anatomical snuffbox, along with the scaphoid bone.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 26</span> The head of the humerus articulates with the:",
+    "options": [
+      "Acromion",
+      "Coracoid process",
+      "Glenoid cavity",
+      "Radial head"
+    ],
+    "answer": 2,
+    "answerText": "Glenoid cavity",
+    "explanation": "The head of the humerus articulates with the glenoid cavity of the scapula to form the shoulder joint.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 27</span> Which of the carpal bones is the largest?",
+    "options": [
+      "Lunate",
+      "Scaphoid",
+      "Capitate",
+      "Hamate"
+    ],
+    "answer": 2,
+    "answerText": "Capitate",
+    "explanation": "The capitate is the largest carpal bone, located centrally in the wrist.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 28</span> The axilla contains all of the following structures except:",
+    "options": [
+      "Axillary artery",
+      "Axillary vein",
+      "Roots of the brachial plexus",
+      "Lymph nodes"
+    ],
+    "answer": 2,
+    "answerText": "Roots of the brachial plexus",
+    "explanation": "The roots of the brachial plexus are located in the neck, not within the axilla.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 29</span> Which of the following is a branch from the second part of the axillary artery?",
+    "options": [
+      "Thoracoacromial artery",
+      "Subscapular artery",
+      "Lateral thoracic artery",
+      "Superior thoracic artery"
+    ],
+    "answer": 2,
+    "answerText": "Lateral thoracic artery",
+    "explanation": "The lateral thoracic artery arises from the second part of the axillary artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 30</span> Which border of the ulna is the interosseous border?",
+    "options": [
+      "Medial border",
+      "Lateral border",
+      "Posterior border",
+      "Anterior border"
+    ],
+    "answer": 1,
+    "answerText": "Lateral border",
+    "explanation": "The interosseous border of the ulna is its lateral border, which provides attachment for the interosseous membrane.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 31</span> Which border of the scapula is the shortest?",
+    "options": [
+      "Medial border",
+      "Lateral border",
+      "Superior border",
+      "Inferior border"
+    ],
+    "answer": 2,
+    "answerText": "Superior border",
+    "explanation": "The superior border is the shortest of the three borders of the scapula.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 32</span> The proximal row of the carpal bones consists of all of the following except:",
+    "options": [
+      "Scaphoid",
+      "Lunate",
+      "Trapezium",
+      "Triquetrum"
+    ],
+    "answer": 2,
+    "answerText": "Trapezium",
+    "explanation": "The trapezium is part of the distal row, not the proximal row, of carpal bones.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 33</span> All of the following muscles are located in the anterior compartment of the arm except:",
+    "options": [
+      "Biceps brachii",
+      "Brachialis",
+      "Coracobrachialis",
+      "Triceps brachii"
+    ],
+    "answer": 3,
+    "answerText": "Triceps brachii",
+    "explanation": "The triceps brachii is located in the posterior compartment of the arm.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 34</span> All of the following muscles belong to the rotator cuff except:",
+    "options": [
+      "Supraspinatus",
+      "Infraspinatus",
+      "Teres major",
+      "Subscapularis"
+    ],
+    "answer": 2,
+    "answerText": "Teres major",
+    "explanation": "Teres major is not part of the rotator cuff; it assists in medial rotation and adduction of the arm.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 35</span> The posterior wall of the axilla is formed by all of the following structures except:",
+    "options": [
+      "Subscapularis",
+      "Latissimus dorsi",
+      "Teres major",
+      "Subclavius"
+    ],
+    "answer": 3,
+    "answerText": "Subclavius",
+    "explanation": "The subclavius is located under the clavicle and does not contribute to the posterior wall of the axilla.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 36</span> The greater tubercle is located on the _______ side of the proximal humerus.",
+    "options": [
+      "Medial",
+      "Anterior",
+      "Lateral",
+      "Inferior"
+    ],
+    "answer": 2,
+    "answerText": "Lateral",
+    "explanation": "The greater tubercle is a bony prominence on the lateral side of the proximal humerus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 37</span> The axillary nerve originates from the _______ of the brachial plexus.",
+    "options": [
+      "Medial cord",
+      "Lateral cord",
+      "Posterior cord",
+      "Superior trunk"
+    ],
+    "answer": 2,
+    "answerText": "Posterior cord",
+    "explanation": "The axillary nerve arises from the posterior cord of the brachial plexus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 38</span> What is the most medial structure in the cubital fossa?",
+    "options": [
+      "Biceps tendon",
+      "Brachial artery",
+      "Median nerve",
+      "Radial nerve"
+    ],
+    "answer": 2,
+    "answerText": "Median nerve",
+    "explanation": "The median nerve is the most medial structure in the cubital fossa.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 39</span> Which nerve passes behind the medial epicondyle of the humerus?",
+    "options": [
+      "Radial nerve",
+      "Median nerve",
+      "Ulnar nerve",
+      "Musculocutaneous nerve"
+    ],
+    "answer": 2,
+    "answerText": "Ulnar nerve",
+    "explanation": "The ulnar nerve passes behind the medial epicondyle, making it vulnerable to injury.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 40</span> Which nerve pierces (penetrates) the coracobrachialis muscle?",
+    "options": [
+      "Ulnar nerve",
+      "Radial nerve",
+      "Musculocutaneous nerve",
+      "Axillary nerve"
+    ],
+    "answer": 2,
+    "answerText": "Musculocutaneous nerve",
+    "explanation": "The musculocutaneous nerve pierces the coracobrachialis muscle before supplying the anterior compartment of the arm.",
+    "userAnswer": null
+  }
+]
