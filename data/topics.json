@@ -4,6 +4,10 @@
     "description": "Related to the first Semster",
     "subTopics": [
       {
+        "name": "Physiology",
+        "file": "data/tissue,_development_and_function_block_physiology.json"
+      },
+      {
         "name": "Embryology",
         "file": "data/tissue,_development_and_function_block_embryology.json"
       }
