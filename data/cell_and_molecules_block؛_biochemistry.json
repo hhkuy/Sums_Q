@@ -1,0 +1,834 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 1</span> According to the given values, what would be the pI for lysine?",
+    "options": [
+      "6.4",
+      "7.8",
+      "8.6",
+      "9.9"
+    ],
+    "answer": 3,
+    "answerText": "9.9",
+    "explanation": "The isoelectric point (pI) of lysine is calculated using the pKa values of the amino and side chain groups.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 2</span> Which of the following amino acids are responsible for the absorption of ultraviolet light?",
+    "options": [
+      "Asparagine and glutamine",
+      "Alanine and glycine",
+      "Tryptophan and tyrosine",
+      "Valine and leucine"
+    ],
+    "answer": 2,
+    "answerText": "Tryptophan and tyrosine",
+    "explanation": "Tryptophan and tyrosine absorb UV light due to their aromatic side chains.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 3</span> Non-polar amino acids in a hydrophilic solution are found?",
+    "options": [
+      "On the surface of proteins",
+      "Inside the core of proteins",
+      "Randomly distributed",
+      "In hydrogen bonds"
+    ],
+    "answer": 1,
+    "answerText": "Inside the core of proteins",
+    "explanation": "Non-polar amino acids are hydrophobic and tend to be buried inside protein structures in aqueous environments.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 4</span> Which of the following factors shifts the oxygen-dissociation curve to the right?",
+    "options": [
+      "Decrease in CO2 pressure",
+      "Decrease in temperature",
+      "Increase of CO2 pressure",
+      "Increase in pH"
+    ],
+    "answer": 2,
+    "answerText": "Increase of CO2 pressure",
+    "explanation": "Increased CO2 pressure promotes oxygen release from hemoglobin, shifting the curve to the right.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 5</span> For hydroxylation of proline residues of collagen by prolyl hydroxylase, all of the following factors are required except:",
+    "options": [
+      "Ascorbic acid",
+      "Oxygen",
+      "Iron",
+      "Succinate"
+    ],
+    "answer": 3,
+    "answerText": "Succinate",
+    "explanation": "Succinate is not required for proline hydroxylation; vitamin C (ascorbic acid) is essential.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 6</span> According to Michaelis-Menten Kinetics, when [S] is much less than Km:",
+    "options": [
+      "V0 = Vmax/2",
+      "V0 = Vmax[S]",
+      "V0 = (Vmax/km) [S]",
+      "V0 = Vmax"
+    ],
+    "answer": 2,
+    "answerText": "V0 = (Vmax/km) [S]",
+    "explanation": "At low substrate concentration, velocity is directly proportional to substrate concentration.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 7</span> In the modern system of enzyme nomenclature, which class of enzyme occupies the third position?",
+    "options": [
+      "Oxidoreductase",
+      "Transferase",
+      "Hydrolase",
+      "Ligase"
+    ],
+    "answer": 2,
+    "answerText": "Hydrolase",
+    "explanation": "Hydrolases are the third class in the EC enzyme classification system.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 8</span> Holoenzyme is made of:",
+    "options": [
+      "Apoenzyme only",
+      "Co-enzyme only",
+      "Apoenzyme and co-enzyme",
+      "Substrate and enzyme"
+    ],
+    "answer": 2,
+    "answerText": "Apoenzyme and co-enzyme",
+    "explanation": "A holoenzyme consists of an apoenzyme (protein part) and a co-enzyme (non-protein helper).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 9</span> Which of the following enzymes is the general activator of digestive enzymes?",
+    "options": [
+      "Pepsin",
+      "Elastase",
+      "Trypsin",
+      "Amylase"
+    ],
+    "answer": 2,
+    "answerText": "Trypsin",
+    "explanation": "Trypsin activates multiple digestive enzymes by cleaving their inactive precursors.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 10</span> All of the following statements about non-functional plasma enzymes are true, except:",
+    "options": [
+      "They originate from intracellular sources",
+      "They have no known physiological function in plasma",
+      "They can be used as diagnostic markers",
+      "They are usually decreased in disease conditions"
+    ],
+    "answer": 3,
+    "answerText": "They are usually decreased in disease conditions",
+    "explanation": "Non-functional plasma enzymes are often elevated in diseases due to cell damage.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 11</span> Which vitamin is structurally made up of β-alanine?",
+    "options": [
+      "Riboflavin",
+      "Niacin",
+      "Pantothenic acid",
+      "Vitamin B12"
+    ],
+    "answer": 2,
+    "answerText": "Pantothenic acid",
+    "explanation": "Pantothenic acid (Vitamin B5) contains β-alanine as part of its structure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 12</span> The normal dietary source of vitamin K found in green vegetables is:",
+    "options": [
+      "Menaquinone",
+      "Phylloquinone",
+      "Ergocalciferol",
+      "Cholecalciferol"
+    ],
+    "answer": 1,
+    "answerText": "Phylloquinone",
+    "explanation": "Phylloquinone (Vitamin K1) is the form of vitamin K found in plants.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 13</span> Which of the following amino acids is the major one-carbon source in folic acid metabolism?",
+    "options": [
+      "Lysine",
+      "Serine",
+      "Proline",
+      "Histidine"
+    ],
+    "answer": 1,
+    "answerText": "Serine",
+    "explanation": "Serine donates one-carbon units for folate metabolism, essential for nucleotide synthesis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 14</span> In an RNA molecule, ‘Caps’…",
+    "options": [
+      "Allow tRNA to be processed",
+      "Are unique to eukaryotic mRNA",
+      "Help in DNA replication",
+      "Prevent translation"
+    ],
+    "answer": 1,
+    "answerText": "Are unique to eukaryotic mRNA",
+    "explanation": "The 5’ cap is a modification unique to eukaryotic mRNA that aids stability and translation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 15</span> In a DNA molecule, if the Guanosine content is 40%, the Adenine content will be:",
+    "options": [
+      "10%",
+      "20%",
+      "30%",
+      "40%"
+    ],
+    "answer": 0,
+    "answerText": "10%",
+    "explanation": "DNA follows Chargaff’s rule: A=T and G=C. If G=40%, then C=40%, leaving A and T at 10% each.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 16</span> Translocation of the newly formed peptidyl tRNA at the A site into the empty P site involves:",
+    "options": [
+      "EF-I, GTP",
+      "EF-II, GTP",
+      "EF-Tu, GTP",
+      "EF-G, ATP"
+    ],
+    "answer": 1,
+    "answerText": "EF-II, GTP",
+    "explanation": "Elongation Factor II (EF-II) facilitates ribosome translocation during translation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 17</span> An initiation signal for RNA synthesis is recognized by:",
+    "options": [
+      "σ factor",
+      "RNA polymerase II",
+      "DNA ligase",
+      "Helicase"
+    ],
+    "answer": 0,
+    "answerText": "σ factor",
+    "explanation": "The sigma (σ) factor helps RNA polymerase recognize promoter sequences.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 18</span> Repressor binds to a DNA sequence and regulates transcription. This sequence is called:",
+    "options": [
+      "Enhancer",
+      "Promoter",
+      "Operator",
+      "Silencer"
+    ],
+    "answer": 2,
+    "answerText": "Operator",
+    "explanation": "The operator is a DNA segment where a repressor binds to regulate transcription in prokaryotes.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 19</span> RNA primer is formed by the enzyme:",
+    "options": [
+      "DNA polymerase",
+      "Primase",
+      "Ligase",
+      "Helicase"
+    ],
+    "answer": 1,
+    "answerText": "Primase",
+    "explanation": "Primase synthesizes short RNA primers necessary for DNA replication.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 20</span> Reverse transcriptase activity is present in the eukaryotic:",
+    "options": [
+      "RNA polymerase",
+      "Telomerase",
+      "DNA ligase",
+      "DNA polymerase"
+    ],
+    "answer": 1,
+    "answerText": "Telomerase",
+    "explanation": "Telomerase extends chromosome ends using reverse transcriptase activity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 21</span> Tetracyclines inhibit the binding of aminoacyl tRNAs to:",
+    "options": [
+      "50S ribosomal subunits",
+      "40S ribosomal subunits",
+      "30S ribosomal subunits",
+      "60S ribosomal subunits"
+    ],
+    "answer": 2,
+    "answerText": "30S ribosomal subunits",
+    "explanation": "Tetracyclines prevent tRNA attachment by targeting the 30S ribosomal subunit in bacteria.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 22</span> Novobiocin inhibits the synthesis of:",
+    "options": [
+      "tRNA",
+      "rRNA",
+      "DNA",
+      "Proteins"
+    ],
+    "answer": 2,
+    "answerText": "DNA",
+    "explanation": "Novobiocin inhibits DNA gyrase, preventing DNA replication in bacteria.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 23</span> The gene of the lac operon that has constitutive expression is:",
+    "options": [
+      "Z",
+      "Y",
+      "A",
+      "I"
+    ],
+    "answer": 3,
+    "answerText": "I",
+    "explanation": "The lac I gene encodes the repressor protein and is continuously expressed.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 24</span> When the pKa of an acid decreases, the acid will be:",
+    "options": [
+      "Weaker",
+      "Stronger",
+      "Neutral",
+      "Unchanged"
+    ],
+    "answer": 1,
+    "answerText": "Stronger",
+    "explanation": "A lower pKa indicates a stronger acid, meaning it donates protons more readily.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 25</span> Which of the following acid/base pairs can act as an appropriate buffer in the human body?",
+    "options": [
+      "HCl/Cl⁻",
+      "H₂CO₃/HCO₃⁻",
+      "NaOH/Na+",
+      "Glutamate/Glutamic acid"
+    ],
+    "answer": 1,
+    "answerText": "H₂CO₃/HCO₃⁻",
+    "explanation": "The bicarbonate buffer system (H₂CO₃/HCO₃⁻) is a key physiological pH regulator.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 26</span> We have an effective buffer when the pH of a solution is:",
+    "options": [
+      "Equal to the Ka",
+      "±1 pH unit of the pKa",
+      "±2 pH units of the Ka",
+      "Greater than the pKa"
+    ],
+    "answer": 1,
+    "answerText": "±1 pH unit of the pKa",
+    "explanation": "Buffers are most effective within ±1 pH unit of their pKa.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 27</span> Which of the following electrolytes has the highest concentration in intracellular fluid (ICF) compared with extracellular fluid (ECF)?",
+    "options": [
+      "Sodium ion",
+      "Chloride ion",
+      "Potassium ion",
+      "Calcium ion"
+    ],
+    "answer": 2,
+    "answerText": "Potassium ion",
+    "explanation": "Potassium (K⁺) is the major intracellular ion, while sodium (Na⁺) dominates extracellular fluid.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 28</span> Which of the following monosaccharides is a universal fuel of the fetus?",
+    "options": [
+      "Fructose",
+      "Galactose",
+      "Glucose",
+      "Ribose"
+    ],
+    "answer": 2,
+    "answerText": "Glucose",
+    "explanation": "Glucose is the primary energy source for fetal metabolism and development.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 29</span> Which statement is true about cellulose?",
+    "options": [
+      "It is an important source of bulk in the diet",
+      "It is easily digested by humans",
+      "It is a type of starch",
+      "It is a disaccharide"
+    ],
+    "answer": 0,
+    "answerText": "It is an important source of bulk in the diet",
+    "explanation": "Cellulose provides dietary fiber, which aids digestion but is indigestible by human enzymes.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 30</span> A researcher wants to make a cream for wound repair. Which of the following carbohydrates can be an appropriate candidate for this purpose?",
+    "options": [
+      "Lactose",
+      "Hyaluronic acid",
+      "Maltose",
+      "Sucrose"
+    ],
+    "answer": 1,
+    "answerText": "Hyaluronic acid",
+    "explanation": "Hyaluronic acid helps in tissue repair and wound healing due to its water-retention properties.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 31</span> Osmotic laxatives soften stools by increasing water content in the bowels. Which of the following biomolecules can be used as a mild osmotic laxative?",
+    "options": [
+      "Isomaltose",
+      "Lactulose",
+      "Sucrose",
+      "Starch"
+    ],
+    "answer": 1,
+    "answerText": "Lactulose",
+    "explanation": "Lactulose is a non-digestible sugar that draws water into the intestines, easing bowel movements.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 32</span> A high concentration of xylulose in an infant’s urine suggests a possible diagnosis of:",
+    "options": [
+      "Diabetes mellitus",
+      "Galactosemia",
+      "Pentosuria",
+      "Fructosuria"
+    ],
+    "answer": 2,
+    "answerText": "Pentosuria",
+    "explanation": "Pentosuria is a rare condition caused by excessive urinary excretion of xylulose.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 33</span> Which statement is true about carbohydrate isomerism?",
+    "options": [
+      "All monosaccharides exist only in the D-form",
+      "Sucrose is an invert sugar",
+      "Glucose and fructose are structural isomers",
+      "Lactose is a ketose"
+    ],
+    "answer": 1,
+    "answerText": "Sucrose is an invert sugar",
+    "explanation": "Sucrose hydrolyzes into glucose and fructose, forming an “invert sugar” due to the change in optical rotation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 34</span> Which of the following carbohydrates is an important structural compound in flavin coenzymes?",
+    "options": [
+      "Ribose",
+      "Glucose",
+      "Mannose",
+      "Galactose"
+    ],
+    "answer": 0,
+    "answerText": "Ribose",
+    "explanation": "Ribose is a key component of flavin coenzymes such as FAD and FMN.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 35</span> Which of the following biomolecules can be used for the biosynthesis of anticoagulants?",
+    "options": [
+      "Chondroitin sulfate",
+      "Heparin",
+      "Cellulose",
+      "Glycogen"
+    ],
+    "answer": 1,
+    "answerText": "Heparin",
+    "explanation": "Heparin is a naturally occurring anticoagulant that prevents blood clot formation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 36</span> Which statement is true about glycosaminoglycans?",
+    "options": [
+      "They are highly hydrophobic",
+      "They have a neutral charge",
+      "They carry a large number of negative charges",
+      "They lack repeating disaccharide units"
+    ],
+    "answer": 2,
+    "answerText": "They carry a large number of negative charges",
+    "explanation": "Glycosaminoglycans are negatively charged due to their sulfate and carboxyl groups.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 37</span> Which organ uses glucose as the only metabolic fuel in both the fed and fasting states?",
+    "options": [
+      "Liver",
+      "Brain",
+      "Mature erythrocytes",
+      "Heart"
+    ],
+    "answer": 2,
+    "answerText": "Mature erythrocytes",
+    "explanation": "Red blood cells (erythrocytes) lack mitochondria, relying solely on glucose for energy.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 38</span> Cholesterol can be used as a precursor for the biosynthesis of:",
+    "options": [
+      "Vitamin C",
+      "Bile acids",
+      "Hemoglobin",
+      "Collagen"
+    ],
+    "answer": 1,
+    "answerText": "Bile acids",
+    "explanation": "Cholesterol is converted into bile acids, which aid in fat digestion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 39</span> What is a similarity between palmitic acid and palmitoleic acid?",
+    "options": [
+      "Both are composed of 16 carbon atoms",
+      "Both are unsaturated fatty acids",
+      "Both have double bonds",
+      "Both are essential fatty acids"
+    ],
+    "answer": 0,
+    "answerText": "Both are composed of 16 carbon atoms",
+    "explanation": "Palmitic acid (saturated) and palmitoleic acid (monounsaturated) both have 16 carbon atoms.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 40</span> The absence of which compound from the lungs of premature infants causes respiratory distress syndrome?",
+    "options": [
+      "Ether lipids",
+      "Sphingomyelin",
+      "Phosphatidylcholine (PC) (lecithin)",
+      "Gangliosides"
+    ],
+    "answer": 2,
+    "answerText": "Phosphatidylcholine (PC) (lecithin)",
+    "explanation": "Lecithin is a major component of lung surfactant, preventing alveolar collapse.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 41</span> Which of the following lipids is mostly found in respiratory complexes of the electron transport chain, and its deficiency causes aging?",
+    "options": [
+      "Cardiolipin",
+      "Cholesterol",
+      "Sphingolipid",
+      "Ceramide"
+    ],
+    "answer": 0,
+    "answerText": "Cardiolipin",
+    "explanation": "Cardiolipin is crucial for mitochondrial function and energy production.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 42</span> Which lipoprotein transports dietary fat (exogenous triglycerides) in the blood circulation to target cells?",
+    "options": [
+      "HDL",
+      "LDL",
+      "Chylomicrons",
+      "VLDL"
+    ],
+    "answer": 2,
+    "answerText": "Chylomicrons",
+    "explanation": "Chylomicrons transport dietary lipids from the intestines to tissues.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 43</span> What is the major protein constituent of very low-density lipoprotein (VLDL)?",
+    "options": [
+      "Apolipoprotein A-I",
+      "Apolipoprotein B100",
+      "Apolipoprotein C-II",
+      "Apolipoprotein E"
+    ],
+    "answer": 1,
+    "answerText": "Apolipoprotein B100",
+    "explanation": "Apolipoprotein B100 is essential for VLDL synthesis and metabolism.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 44</span> A high level of ………… in the blood circulation is considered a risk factor for cardiovascular disease.",
+    "options": [
+      "HDL-C",
+      "LDL-C",
+      "VLDL",
+      "Chylomicrons"
+    ],
+    "answer": 1,
+    "answerText": "LDL-C",
+    "explanation": "LDL-C (low-density lipoprotein cholesterol) is known as “bad cholesterol” due to its role in atherosclerosis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 45</span> All of the following statements about peptide bonds are true, except:",
+    "options": [
+      "They are amide linkages",
+      "They have partial double-bond character",
+      "They are charged and polar",
+      "They form the backbone of proteins"
+    ],
+    "answer": 2,
+    "answerText": "They are charged and polar",
+    "explanation": "Peptide bonds are not charged under physiological conditions, although they are polar.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 46</span> Identify the incorrect statement regarding hemoglobin from the following options:",
+    "options": [
+      "Hemoglobin binds oxygen cooperatively",
+      "The T conformation is the high-oxygen-affinity form of hemoglobin",
+      "Hemoglobin carries CO2 as carbaminohemoglobin",
+      "Hemoglobin undergoes allosteric regulation"
+    ],
+    "answer": 1,
+    "answerText": "The T conformation is the high-oxygen-affinity form of hemoglobin",
+    "explanation": "The T (tense) state of hemoglobin has a low affinity for oxygen, whereas the R (relaxed) state has high affinity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 47</span> Which of the following disorders is characterized by skin extensibility, fragility, and joint hypermobility?",
+    "options": [
+      "Marfan syndrome",
+      "Osteogenesis imperfecta",
+      "Ehlers-Danlos syndrome",
+      "Scurvy"
+    ],
+    "answer": 2,
+    "answerText": "Ehlers-Danlos syndrome",
+    "explanation": "Ehlers-Danlos syndrome affects collagen, leading to hypermobile joints and fragile skin.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 48</span> Which of the following is the definition of the turnover number of an enzyme?",
+    "options": [
+      "The number of molecules of substrate converted to product per enzyme molecule per minute",
+      "The number of molecules of substrate converted to product per enzyme molecule per second",
+      "The number of active sites on an enzyme",
+      "The rate at which an enzyme denatures"
+    ],
+    "answer": 1,
+    "answerText": "The number of molecules of substrate converted to product per enzyme molecule per second",
+    "explanation": "The turnover number (kcat) represents the number of substrate molecules transformed per second per enzyme.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 49</span> Inhibition of xanthine oxidase by oxypurinol falls into which category of inhibition?",
+    "options": [
+      "Competitive inhibition",
+      "Non-competitive inhibition",
+      "Uncompetitive inhibition",
+      "Irreversible inhibition"
+    ],
+    "answer": 1,
+    "answerText": "Non-competitive inhibition",
+    "explanation": "Oxypurinol is a non-competitive inhibitor of xanthine oxidase, used in gout treatment.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 50</span> All of the following are examples of competitive inhibitors, except:",
+    "options": [
+      "Methotrexate for dihydrofolate reductase",
+      "Malonate for succinate dehydrogenase",
+      "Penicillin for transpeptidase",
+      "Statins for HMG-CoA reductase"
+    ],
+    "answer": 2,
+    "answerText": "Penicillin for transpeptidase",
+    "explanation": "Penicillin irreversibly inhibits transpeptidase, unlike competitive inhibitors that bind reversibly.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 51</span> Riboflavin nutritional status is assessed by measuring the activation of erythrocyte …………",
+    "options": [
+      "Transaminase",
+      "Glutathione reductase",
+      "Phosphatase",
+      "Catalase"
+    ],
+    "answer": 1,
+    "answerText": "Glutathione reductase",
+    "explanation": "The activity of glutathione reductase in erythrocytes is used to assess riboflavin (Vitamin B2) status.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 52</span> An 18-year-old patient presents with an inability to coordinate muscular movements due to nervous disorders and involuntary jerking of the eye. What is the most likely diagnosis?",
+    "options": [
+      "Vitamin B6 deficiency",
+      "Vitamin B1 deficiency",
+      "Vitamin C deficiency",
+      "Vitamin D deficiency"
+    ],
+    "answer": 1,
+    "answerText": "Vitamin B1 deficiency",
+    "explanation": "Vitamin B1 (thiamine) deficiency can lead to neurological symptoms like ataxia and nystagmus, seen in conditions like Wernicke’s encephalopathy.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 53</span> Which vitamin would be effective in premenstrual syndrome (PMS) and diabetes?",
+    "options": [
+      "Riboflavin",
+      "Pyridoxine",
+      "Biotin",
+      "Folic acid"
+    ],
+    "answer": 1,
+    "answerText": "Pyridoxine",
+    "explanation": "Pyridoxine (Vitamin B6) is used to manage PMS symptoms and support glucose metabolism.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 54</span> Which form of vitamin A is essential in the visual cycle?",
+    "options": [
+      "Retinoic acid",
+      "Retinol",
+      "Retinaldehyde",
+      "Beta-carotene"
+    ],
+    "answer": 2,
+    "answerText": "Retinaldehyde",
+    "explanation": "Retinaldehyde (11-cis-retinal) plays a key role in the phototransduction process in the retina.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 55</span> Which of the following vitamins functions in concert with parathyroid hormone to regulate serum calcium and phosphorus levels?",
+    "options": [
+      "Vitamin B12",
+      "Calcitriol",
+      "Vitamin K",
+      "Ascorbic acid"
+    ],
+    "answer": 1,
+    "answerText": "Calcitriol",
+    "explanation": "Calcitriol (active Vitamin D) helps regulate calcium and phosphorus homeostasis in coordination with parathyroid hormone.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 56</span> The chemical name of guanine is:",
+    "options": [
+      "2,4-Dioxy pyrimidine",
+      "2-Amino-6-oxypurine",
+      "5-Methylcytosine",
+      "1-Methyladenine"
+    ],
+    "answer": 1,
+    "answerText": "2-Amino-6-oxypurine",
+    "explanation": "Guanine is chemically known as 2-Amino-6-oxypurine due to its structure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 57</span> The binding of prokaryotic RNA polymerase to promoter sites of genes is inhibited by the antibiotic:",
+    "options": [
+      "Rifamycin",
+      "Streptomycin",
+      "Tetracycline",
+      "Chloramphenicol"
+    ],
+    "answer": 0,
+    "answerText": "Rifamycin",
+    "explanation": "Rifamycin inhibits bacterial RNA polymerase, preventing transcription initiation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 58</span> Transcription of A, Y, and Z genes of the lac operon is prevented by:",
+    "options": [
+      "cAMP",
+      "Activator",
+      "Repressor",
+      "Inducer"
+    ],
+    "answer": 2,
+    "answerText": "Repressor",
+    "explanation": "The lac repressor protein binds to the operator region, preventing transcription of these genes in the absence of lactose.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 59</span> The gene of the lac operon that has constitutive expression is:",
+    "options": [
+      "Z",
+      "Y",
+      "A",
+      "I"
+    ],
+    "answer": 3,
+    "answerText": "I",
+    "explanation": "The lac I gene encodes the repressor protein and is always expressed.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 60</span> Sickle cell disease is caused by which type of mutation?",
+    "options": [
+      "Nonsense",
+      "Silent",
+      "Missense",
+      "Frameshift"
+    ],
+    "answer": 2,
+    "answerText": "Missense",
+    "explanation": "A missense mutation in the β-globin gene (Glu → Val) causes sickle cell disease.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 61</span> Homologous recombination cannot occur in which stage of the cell cycle?",
+    "options": [
+      "G1",
+      "S",
+      "G2",
+      "M"
+    ],
+    "answer": 0,
+    "answerText": "G1",
+    "explanation": "Homologous recombination requires a sister chromatid, which is absent in the G1 phase.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 62</span> Which statement is true about the buffering system?",
+    "options": [
+      "Buffering power for all conjugate acid-base pairs is the same",
+      "It consists of a weak acid and its conjugate base",
+      "Buffers work best at extreme pH levels",
+      "Buffers prevent any pH change"
+    ],
+    "answer": 1,
+    "answerText": "It consists of a weak acid and its conjugate base",
+    "explanation": "Buffers function by maintaining pH balance through a weak acid and its conjugate base.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 63</span> Which of the following molecules is implicated in cataract formation in the eyes of diabetic patients?",
+    "options": [
+      "Aldonic acid",
+      "Sorbitol",
+      "Fructose",
+      "Sucrose"
+    ],
+    "answer": 1,
+    "answerText": "Sorbitol",
+    "explanation": "Sorbitol accumulates in the lens due to aldose reductase activity, contributing to diabetic cataracts.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.SeyyedEbrahimi - Dr.Panahi - Question 64</span> Which of the following lipids is mostly found as droplets in adipocytes?",
+    "options": [
+      "Cholesterol",
+      "Triacylglycerols",
+      "Phospholipids",
+      "Sphingolipids"
+    ],
+    "answer": 1,
+    "answerText": "Triacylglycerols",
+    "explanation": "Triacylglycerols (TAGs) are stored in adipocytes as energy reserves.",
+    "userAnswer": null
+  }
+]
