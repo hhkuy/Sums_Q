@@ -46,5 +46,23 @@
         "file": "data/psychology_psychology.json"
       }
     ]
+  },
+  {
+    "topicName": "Cell and molecules block؛",
+    "description": "Related to Second Semster",
+    "subTopics": [
+      {
+        "name": "Biochemistry",
+        "file": "data/cell_and_molecules_block؛_biochemistry.json"
+      },
+      {
+        "name": "Histology",
+        "file": "data/cell_and_molecules_block؛_histology.json"
+      },
+      {
+        "name": "physiology",
+        "file": "data/cell_and_molecules_block؛_physiology.json"
+      }
+    ]
   }
 ]
