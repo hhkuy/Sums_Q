@@ -64,5 +64,15 @@
         "file": "data/cell_and_molecules_block؛_physiology.json"
       }
     ]
+  },
+  {
+    "topicName": "Head and neck",
+    "description": "Related to Second Semster",
+    "subTopics": [
+      {
+        "name": "Head and neck ",
+        "file": "data/head_and_neck_head_and_neck_.json"
+      }
+    ]
   }
 ]
