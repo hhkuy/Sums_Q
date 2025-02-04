@@ -193,5 +193,200 @@
     "answerText": "Acidophil Stain",
     "explanation": "Acidophilic (eosinophilic) staining is observed in cytoplasmic structures due to protein content.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 1</span> Which cell organells has pores protein?",
+    "options": [
+      "Nucleoluse",
+      "Nucleous",
+      "Peroxisome",
+      "Golgy"
+    ],
+    "answer": 1,
+    "answerText": "Nucleous",
+    "explanation": "The nucleus contains nuclear pores that regulate the transport of proteins and RNA.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 2</span> Which cell organelle has not ribosome?",
+    "options": [
+      "Rough ER",
+      "Golgy",
+      "Mitochondria",
+      "Nucleous"
+    ],
+    "answer": 1,
+    "answerText": "Golgy",
+    "explanation": "The Golgi apparatus is responsible for modifying and packaging proteins but does not have ribosomes.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 3</span> Which cell organelle has single-stranded DNA?",
+    "options": [
+      "Nuleuse",
+      "Mithochondria",
+      "Peroxisome",
+      "Golgy"
+    ],
+    "answer": 1,
+    "answerText": "Mithochondria",
+    "explanation": "Mitochondria contain their own circular DNA, which is different from nuclear DNA.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 4</span> Which cell organells has pores protein?",
+    "options": [
+      "Nucleoluse",
+      "Nucleous",
+      "Peroxisome",
+      "Golgy"
+    ],
+    "answer": 1,
+    "answerText": "Nucleous",
+    "explanation": "The nuclear envelope contains pores for protein and RNA transport.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 5</span> Which cell organelle Ps Storaged Glycogen?",
+    "options": [
+      "Golgy",
+      "SER",
+      "Mithochondria",
+      "Peroxisome"
+    ],
+    "answer": 1,
+    "answerText": "SER",
+    "explanation": "The smooth ER (SER) is involved in glycogen storage and metabolism.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 6</span> Which cell organell has Integral protein?",
+    "options": [
+      "Mitochondria",
+      "Cell Membrane",
+      "Golgy",
+      "Rough ER"
+    ],
+    "answer": 1,
+    "answerText": "Cell Membrane",
+    "explanation": "Integral proteins are embedded within the cell membrane and play a role in transport and signaling.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 7</span> Which of the following histological structures has Flate Tubul?",
+    "options": [
+      "RER",
+      "SER",
+      "Mithochondria",
+      "Peroxisome"
+    ],
+    "answer": 0,
+    "answerText": "RER",
+    "explanation": "The rough ER (RER) consists of flattened tubules covered with ribosomes for protein synthesis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 8</span> Which of the following Is Observed In Nucleoplasm?",
+    "options": [
+      "Choromatin",
+      "Microtubules",
+      "Secretory Vesicles",
+      "Peroxisome"
+    ],
+    "answer": 0,
+    "answerText": "Choromatin",
+    "explanation": "Chromatin, composed of DNA and proteins, is found within the nucleoplasm.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 9</span> What Is The Name Organell Helped To Shape Of Cell?",
+    "options": [
+      "Intermediate Filament",
+      "Microtubule",
+      "Lysosome",
+      "Ribosome"
+    ],
+    "answer": 1,
+    "answerText": "Microtubule",
+    "explanation": "Microtubules provide structural support and help in intracellular transport.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 10</span> In the histological structure, which Part Of Cell is observed Cilia?",
+    "options": [
+      "Apical Of Cell",
+      "Lateral Side",
+      "Basal Side",
+      "Nucleoplasm"
+    ],
+    "answer": 0,
+    "answerText": "Apical Of Cell",
+    "explanation": "Cilia are present on the apical surface of epithelial cells.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 11</span> Which of the following is Observed in the histological structure Unilayer Of Membrane?",
+    "options": [
+      "Proxisom",
+      "Nucleous",
+      "Mithochondria",
+      "Golgy"
+    ],
+    "answer": 0,
+    "answerText": "Proxisom",
+    "explanation": "Peroxisomes are single-membrane-bound organelles involved in lipid metabolism.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 12</span> Which of the following Is Formed Cell Death Program?",
+    "options": [
+      "Lysosom",
+      "Nucleous",
+      "Golgy",
+      "RER"
+    ],
+    "answer": 1,
+    "answerText": "Nucleous",
+    "explanation": "The nucleus regulates apoptosis through gene expression and DNA fragmentation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 13</span> Which Part of Mithochondria have Folding Membrane?",
+    "options": [
+      "Outer Layer",
+      "Inner Layer",
+      "Matrix",
+      "Ribosome"
+    ],
+    "answer": 1,
+    "answerText": "Inner Layer",
+    "explanation": "The inner mitochondrial membrane folds into cristae to increase surface area for ATP production.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 14</span> Secretory Granules J s Formed By……….",
+    "options": [
+      "RER",
+      "Golgi",
+      "Peroxisome",
+      "SER"
+    ],
+    "answer": 1,
+    "answerText": "Golgi",
+    "explanation": "The Golgi apparatus processes and packages secretory proteins into granules.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 15</span> In the histological structure Of Cell, which of the following is observed In Cytoplasm?",
+    "options": [
+      "Acidophil Stain",
+      "Basophilic Stain",
+      "Hematoxylin",
+      "Mitochondria"
+    ],
+    "answer": 0,
+    "answerText": "Acidophil Stain",
+    "explanation": "Acidophilic (eosinophilic) staining is observed in cytoplasmic structures due to protein content.",
+    "userAnswer": null
   }
 ]
