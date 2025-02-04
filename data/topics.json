@@ -26,5 +26,15 @@
         "file": "data/anatomy_of_limbs_lower_limbs.json"
       }
     ]
+  },
+  {
+    "topicName": "Principles of Health",
+    "description": "Related to the first Semster",
+    "subTopics": [
+      {
+        "name": "Principles of Health",
+        "file": "data/principles_of_health_principles_of_health.json"
+      }
+    ]
   }
 ]
