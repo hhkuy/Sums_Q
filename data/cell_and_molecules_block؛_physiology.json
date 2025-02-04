@@ -1,0 +1,249 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 1</span> Which of the following molecules can produce higher osmotic pressure?",
+    "options": [
+      "Urea",
+      "Sodium chloride (NaCl)",
+      "Glucose",
+      "Calcium chloride (CaCl₂)"
+    ],
+    "answer": 3,
+    "answerText": "Calcium chloride (CaCl₂)",
+    "explanation": "CaCl₂ dissociates into three ions, increasing osmotic pressure more than other molecules.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 2</span> Which is NOT a function of the Na⁺/K⁺ pump?",
+    "options": [
+      "Maintaining resting membrane potential",
+      "Regulating cell volume",
+      "Providing energy for secondary active transport",
+      "Maintaining low Ca²⁺ concentration inside the cell"
+    ],
+    "answer": 3,
+    "answerText": "Maintaining low Ca²⁺ concentration inside the cell",
+    "explanation": "The Na⁺/K⁺ pump does not directly regulate intracellular calcium; a separate Ca²⁺ pump does.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 3</span> All of the following substances can freely pass the plasma membrane except:",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Hydrogen ion (H⁺)",
+      "Nitrogen"
+    ],
+    "answer": 2,
+    "answerText": "Hydrogen ion (H⁺)",
+    "explanation": "H⁺ ions do not pass freely due to their charge and require transport proteins.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 4</span> If an artificial membrane is permeable to Ca²⁺, and one side has 10 mM while the other has 100 mM, what is the expected Nernst potential?",
+    "options": [
+      "-61 mV",
+      "-40 mV",
+      "-30.5 mV",
+      "-10 mV"
+    ],
+    "answer": 2,
+    "answerText": "-30.5 mV",
+    "explanation": "The Nernst equation calculates equilibrium potential based on ion concentration differences.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 5</span> During the rising phase of an action potential:",
+    "options": [
+      "Voltage-gated Na⁺ channels open",
+      "Voltage-gated K⁺ channels open",
+      "Na⁺/K⁺ ATPase is activated",
+      "The membrane becomes hyperpolarized"
+    ],
+    "answer": 0,
+    "answerText": "Voltage-gated Na⁺ channels open",
+    "explanation": "The opening of Na⁺ channels allows Na⁺ influx, depolarizing the membrane.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 6</span> Which of the following statements best describes homeostasis?",
+    "options": [
+      "Maintaining a near-constant internal environment",
+      "Keeping internal temperature fixed at all times",
+      "Preventing any changes in the body",
+      "Regulating only blood pressure"
+    ],
+    "answer": 0,
+    "answerText": "Maintaining a near-constant internal environment",
+    "explanation": "Homeostasis maintains a stable internal environment despite external changes.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 7</span> Which of the following features of a system is unlikely to lead to a stable homeostatic system?",
+    "options": [
+      "Negative feedback",
+      "Positive feedback",
+      "Neural regulation",
+      "Hormonal control"
+    ],
+    "answer": 1,
+    "answerText": "Positive feedback",
+    "explanation": "Positive feedback amplifies changes, making homeostasis unstable.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 8</span> Which of the following statements is correct?",
+    "options": [
+      "Sodium is the chief anion in extracellular fluid",
+      "Potassium is the chief anion in intracellular fluid",
+      "Chloride is the chief anion in extracellular fluid",
+      "Calcium is the chief intracellular cation"
+    ],
+    "answer": 2,
+    "answerText": "Chloride is the chief anion in extracellular fluid",
+    "explanation": "Chloride (Cl⁻) is the major anion in extracellular fluid.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 9</span> Infusion of an isotonic solution of NaCl:",
+    "options": [
+      "Decreases intracellular fluid (ICF) volume",
+      "Increases extracellular fluid (ECF) volume",
+      "Causes water to enter cells",
+      "Decreases blood volume"
+    ],
+    "answer": 1,
+    "answerText": "Increases extracellular fluid (ECF) volume",
+    "explanation": "Isotonic NaCl stays in the ECF, expanding its volume.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 10</span> Which of the following regulates the fluidity of the plasma membrane?",
+    "options": [
+      "Phospholipids",
+      "Cholesterol",
+      "Proteins",
+      "Glycolipids"
+    ],
+    "answer": 1,
+    "answerText": "Cholesterol",
+    "explanation": "Cholesterol stabilizes membrane fluidity, preventing excessive rigidity or fluidity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 11</span> Sodium counter-transport of calcium is a type of:",
+    "options": [
+      "Primary active transport",
+      "Secondary active transport",
+      "Facilitated diffusion",
+      "Simple diffusion"
+    ],
+    "answer": 1,
+    "answerText": "Secondary active transport",
+    "explanation": "The Na⁺/Ca²⁺ exchanger uses Na⁺ gradient energy to remove Ca²⁺.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 12</span> A non-carrier mediated transport down the concentration gradient is:",
+    "options": [
+      "Simple diffusion",
+      "Facilitated diffusion",
+      "Primary active transport",
+      "Endocytosis"
+    ],
+    "answer": 0,
+    "answerText": "Simple diffusion",
+    "explanation": "Simple diffusion does not require carrier proteins.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 13</span> Nicotinic acetylcholine receptor is an example of:",
+    "options": [
+      "Voltage-gated channel",
+      "Ligand-gated ion channel",
+      "Secondary messenger receptor",
+      "G-protein-coupled receptor"
+    ],
+    "answer": 1,
+    "answerText": "Ligand-gated ion channel",
+    "explanation": "Nicotinic receptors open in response to acetylcholine binding.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 14</span> If extracellular potassium is removed, what will happen to the Na⁺/K⁺ ATPase activity?",
+    "options": [
+      "It will stop working",
+      "It will continue pumping but move only Na⁺",
+      "It will increase activity",
+      "It will start pumping calcium instead"
+    ],
+    "answer": 0,
+    "answerText": "It will stop working",
+    "explanation": "The pump requires extracellular K⁺ to function properly.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 15</span> The resting potential is dependent upon the electrochemical gradient for potassium ions because:",
+    "options": [
+      "The permeability of the resting membrane to potassium is higher than for other ions",
+      "K⁺ channels are always closed",
+      "The Na⁺/K⁺ pump moves more K⁺ than Na⁺",
+      "K⁺ is impermeable to the membrane"
+    ],
+    "answer": 0,
+    "answerText": "The permeability of the resting membrane to potassium is higher than for other ions",
+    "explanation": "K⁺ has the highest permeability in resting cells, maintaining the resting potential.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 16</span> Ion channels:",
+    "options": [
+      "Are permanently open",
+      "Are opened and closed by a process called gating",
+      "Require ATP for function",
+      "Only transport Na⁺"
+    ],
+    "answer": 1,
+    "answerText": "Are opened and closed by a process called gating",
+    "explanation": "Ion channels open/close in response to voltage, ligands, or mechanical signals.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 17</span> For an action potential to occur:",
+    "options": [
+      "Na⁺/K⁺ ATPase should be activated",
+      "The membrane potential must reach or exceed the threshold",
+      "K⁺ channels must open before Na⁺ channels",
+      "The resting potential must become more negative"
+    ],
+    "answer": 1,
+    "answerText": "The membrane potential must reach or exceed the threshold",
+    "explanation": "Depolarization must reach threshold to trigger an action potential.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 18</span> Which of the following is true about the conduction of action potentials?",
+    "options": [
+      "Action potentials travel faster in unmyelinated nerve fibers",
+      "The action potential in myelinated axons is generated only at the nodes of Ranvier",
+      "Action potentials decrease in amplitude over distance",
+      "Only large-diameter nerves can generate action potentials"
+    ],
+    "answer": 1,
+    "answerText": "The action potential in myelinated axons is generated only at the nodes of Ranvier",
+    "explanation": "Saltatory conduction in myelinated fibers occurs at the nodes of Ranvier.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 19</span> For spontaneous rhythmicity to occur in heart nodal tissues:",
+    "options": [
+      "The membrane should be permeable to both Na⁺ and Ca²⁺ at rest",
+      "The membrane should be impermeable to Na⁺ and K⁺",
+      "Na⁺/K⁺ ATPase must be inactivated",
+      "Action potentials must be absent"
+    ],
+    "answer": 0,
+    "answerText": "The membrane should be permeable to both Na⁺ and Ca²⁺ at rest",
+    "explanation": "Pacemaker cells exhibit automaticity due to slow Na⁺ and Ca²⁺ influx.",
+    "userAnswer": null
+  }
+]
