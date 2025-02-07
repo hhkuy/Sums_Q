@@ -52,14 +52,14 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Yasin - Question 5</span> Which one has a relationship with the pelvic ureter in females?<br><img src='https://i.imghippo.com/files/oWG4135Ay.jpg' alt='Image for Q5' style='max-width:100%; height:auto;'>",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">Dr. Yasin - Question 566</span> Which one has a relationship with the pelvic ureter in females?<br>",
     "options": [
-      "Uterine artery",
+      "Uterine artery هنا القديم",
       "Round ligament",
       "External iliac vein",
-      "Inferior epigastric artery"
+      "Inferior epigastric artery هنا الجديد"
     ],
-    "answer": 0,
+    "answer": 3,
     "answerText": "Uterine artery",
     "explanation": "The uterine artery crosses the pelvic ureter near the lateral cervical ligament in females.",
     "userAnswer": null
