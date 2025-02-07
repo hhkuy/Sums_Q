@@ -102,35 +102,5 @@
         "file": "data/urinary_system_physiology_.json"
       }
     ]
-  },
-  {
-    "topicName": "Test",
-    "description": "",
-    "subTopics": [
-      {
-        "name": "T 2",
-        "file": "data/test_t_2.json"
-      }
-    ]
-  },
-  {
-    "topicName": "tter",
-    "description": "",
-    "subTopics": [
-      {
-        "name": "t54",
-        "file": "data/tter_t54.json"
-      }
-    ]
-  },
-  {
-    "topicName": "has",
-    "description": "",
-    "subTopics": [
-      {
-        "name": "hgy6",
-        "file": "data/has_hgy6.json"
-      }
-    ]
   }
 ]
