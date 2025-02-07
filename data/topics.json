@@ -112,5 +112,15 @@
         "file": "data/test_t_2.json"
       }
     ]
+  },
+  {
+    "topicName": "test 2",
+    "description": "t5",
+    "subTopics": [
+      {
+        "name": "tttt",
+        "file": "data/test_2_tttt.json"
+      }
+    ]
   }
 ]
