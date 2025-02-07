@@ -102,5 +102,15 @@
         "file": "data/urinary_system_physiology_.json"
       }
     ]
+  },
+  {
+    "topicName": "test",
+    "description": "",
+    "subTopics": [
+      {
+        "name": "test sub",
+        "file": "data/test_test_sub.json"
+      }
+    ]
   }
 ]
