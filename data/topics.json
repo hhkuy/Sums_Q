@@ -104,12 +104,12 @@
     ]
   },
   {
-    "topicName": "test test",
-    "description": "test 5",
+    "topicName": "Test",
+    "description": "",
     "subTopics": [
       {
-        "name": "test 5",
-        "file": "data/test_test_test_5.json"
+        "name": "T 2",
+        "file": "data/test_t_2.json"
       }
     ]
   }
