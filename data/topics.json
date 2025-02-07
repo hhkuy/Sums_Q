@@ -84,5 +84,19 @@
         "file": "data/cardiovascular_system_block_physiology.json"
       }
     ]
+  },
+  {
+    "topicName": "Urinary System",
+    "description": "related third semester",
+    "subTopics": [
+      {
+        "name": "Anatomy ",
+        "file": "data/urinary_system_anatomy_.json"
+      },
+      {
+        "name": "physiology ",
+        "file": "data/urinary_system_physiology_.json"
+      }
+    ]
   }
 ]
