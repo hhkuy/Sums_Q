@@ -1,0 +1,756 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 1</span> Aorta pressure during systole is about:",
+    "options": [
+      "80 mmHg",
+      "100 mmHg",
+      "120 mmHg",
+      "140 mmHg"
+    ],
+    "answer": 2,
+    "answerText": "120 mmHg",
+    "explanation": "The normal systolic pressure in the aorta is approximately 120 mmHg, reflecting the peak pressure during ventricular contraction.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 2</span> In comparison to other vessels, which vessel has higher blood velocity?",
+    "options": [
+      "Capillaries",
+      "Arteries",
+      "Veins",
+      "Venules"
+    ],
+    "answer": 1,
+    "answerText": "Arteries",
+    "explanation": "Arteries have higher blood velocity due to their narrower lumen and the direct propulsion of blood from the heart.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 3</span> Which sentence about vein valves is not correct?",
+    "options": [
+      "They prevent backflow of blood",
+      "They are seen in arteries, too",
+      "They are more common in lower limbs",
+      "They aid in venous return"
+    ],
+    "answer": 1,
+    "answerText": "They are seen in arteries, too",
+    "explanation": "Vein valves are present in veins to prevent backflow, but they are not found in arteries.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 4</span> Which disease could decrease blood viscosity?",
+    "options": [
+      "Polycythemia",
+      "Dehydration",
+      "Anemia",
+      "Erythropoietin enhancement"
+    ],
+    "answer": 2,
+    "answerText": "Anemia",
+    "explanation": "Anemia reduces the number of red blood cells, leading to decreased blood viscosity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 5</span> Which agent is a blood vessel vasodilator?",
+    "options": [
+      "Endothelin",
+      "Angiotensin II",
+      "Nitric oxide",
+      "Vasopressin"
+    ],
+    "answer": 2,
+    "answerText": "Nitric oxide",
+    "explanation": "Nitric oxide is a key vasodilator that relaxes vascular smooth muscle, increasing blood flow.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 6</span> Based on Poiseuille’s equation, if the radius of vessels increases,",
+    "options": [
+      "Flow of vessels will decrease",
+      "Flow of vessels will increase",
+      "Blood pressure will increase",
+      "Viscosity will increase"
+    ],
+    "answer": 1,
+    "answerText": "Flow of vessels will increase",
+    "explanation": "According to Poiseuille’s law, an increase in vessel radius significantly increases blood flow.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 7</span> If a patient’s systolic pressure is 130 mmHg and diastolic pressure is 60 mmHg, the pulse pressure is …",
+    "options": [
+      "50 mmHg",
+      "60 mmHg",
+      "70 mmHg",
+      "80 mmHg"
+    ],
+    "answer": 2,
+    "answerText": "70 mmHg",
+    "explanation": "Pulse pressure is calculated as systolic pressure minus diastolic pressure (130 - 60 = 70 mmHg).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 8</span> If the mean capillary pressure rises significantly above 80 mm Hg, …",
+    "options": [
+      "Blood clotting occurs",
+      "Blood flow increases",
+      "Edema in that part will result",
+      "Vasoconstriction occurs"
+    ],
+    "answer": 2,
+    "answerText": "Edema in that part will result",
+    "explanation": "High capillary pressure increases fluid filtration, leading to edema formation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 9</span> Which sentence is correct about blood vessels?",
+    "options": [
+      "Veins have the highest pressure",
+      "Arteries are less elastic",
+      "Blood vessels are expandable",
+      "Capillaries have the lowest surface area"
+    ],
+    "answer": 2,
+    "answerText": "Blood vessels are expandable",
+    "explanation": "Blood vessels, particularly veins and arteries, are elastic and can expand to accommodate changes in blood volume.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 10</span> The circulatory system is composed of the … and cardiopulmonary circulation.",
+    "options": [
+      "Hepatic",
+      "Systemic",
+      "Renal",
+      "Lymphatic"
+    ],
+    "answer": 1,
+    "answerText": "Systemic",
+    "explanation": "The circulatory system consists of systemic circulation, which supplies the body, and pulmonary circulation, which oxygenates blood.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 11</span> The quantity of blood that passes a given point in the circulation in a given period of time is named:",
+    "options": [
+      "Cardiac output",
+      "Stroke volume",
+      "Blood flow",
+      "Venous return"
+    ],
+    "answer": 2,
+    "answerText": "Blood flow",
+    "explanation": "Blood flow refers to the volume of blood passing through a vessel per unit time.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 12</span> Which nerve controls heart rate during parasympathetic system activation?",
+    "options": [
+      "Phrenic nerve",
+      "Vagus nerve",
+      "Sciatic nerve",
+      "Hypoglossal nerve"
+    ],
+    "answer": 1,
+    "answerText": "Vagus nerve",
+    "explanation": "The vagus nerve plays a key role in reducing heart rate by activating parasympathetic pathways.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 13</span> Sympathetic nerve fibers innervate all vessels except:",
+    "options": [
+      "Arterioles",
+      "Veins",
+      "Capillaries and precapillary sphincters and some metarterioles",
+      "Large arteries"
+    ],
+    "answer": 2,
+    "answerText": "Capillaries and precapillary sphincters and some metarterioles",
+    "explanation": "Capillaries lack smooth muscle and are not directly influenced by sympathetic nerves.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 14</span> The … transmits impulses downward through the cord to almost all blood vessels.",
+    "options": [
+      "Hypothalamus",
+      "Vasomotor center",
+      "Medulla oblongata",
+      "Cerebellum"
+    ],
+    "answer": 1,
+    "answerText": "Vasomotor center",
+    "explanation": "The vasomotor center in the brainstem regulates blood vessel tone and blood pressure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 15</span> During exercise or fight, … system activity will increase.",
+    "options": [
+      "Parasympathetic",
+      "Sympathetic",
+      "Central nervous",
+      "Endocrine"
+    ],
+    "answer": 1,
+    "answerText": "Sympathetic",
+    "explanation": "The sympathetic nervous system increases heart rate and blood flow to muscles during stress or exercise.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 16</span> Moving from a supine to a standing position results in an:",
+    "options": [
+      "Increase in heart rate",
+      "Decrease in venous return",
+      "Drop in blood pressure",
+      "All of the above"
+    ],
+    "answer": 3,
+    "answerText": "All of the above",
+    "explanation": "Standing causes a temporary drop in venous return and blood pressure, triggering compensatory heart rate increases.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 17</span> … is a special type of CNS ischemic response.",
+    "options": [
+      "Baroreceptor reflex",
+      "Bainbridge reflex",
+      "Cushing reaction",
+      "Chemoreceptor reflex"
+    ],
+    "answer": 2,
+    "answerText": "Cushing reaction",
+    "explanation": "The Cushing reaction is triggered by brain ischemia, leading to increased blood pressure to restore cerebral perfusion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 18</span> Which part is not considered as a blood reservoir?",
+    "options": [
+      "Liver",
+      "Veins",
+      "Aorta",
+      "Spleen"
+    ],
+    "answer": 2,
+    "answerText": "Aorta",
+    "explanation": "Veins, the liver, and the spleen act as blood reservoirs, whereas the aorta primarily serves as a conduit.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 19</span> Capillary filtration rate in the arterial end is … the venous end.",
+    "options": [
+      "Higher than",
+      "Lower than",
+      "Equal to",
+      "Unaffected by pressure"
+    ],
+    "answer": 0,
+    "answerText": "Higher than",
+    "explanation": "The arterial end of capillaries has higher hydrostatic pressure, promoting filtration.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 20</span> Which plasma protein or cells are important for colloid osmotic pressure of blood?",
+    "options": [
+      "Fibrinogen",
+      "Globulin",
+      "Albumin",
+      "Erythrocytes"
+    ],
+    "answer": 2,
+    "answerText": "Albumin",
+    "explanation": "Albumin is the main plasma protein responsible for maintaining oncotic pressure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 21</span> The … have the largest total cross-sectional area of the circulation.",
+    "options": [
+      "Arteries",
+      "Veins",
+      "Capillaries",
+      "Arterioles"
+    ],
+    "answer": 2,
+    "answerText": "Capillaries",
+    "explanation": "Capillaries have the greatest cross-sectional area, allowing for efficient exchange of nutrients and gases.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 22</span> Which vessel has the greatest blood velocity?",
+    "options": [
+      "Aorta",
+      "Capillaries",
+      "Veins",
+      "Venules"
+    ],
+    "answer": 0,
+    "answerText": "Aorta",
+    "explanation": "Blood velocity is highest in the aorta due to its large diameter and direct connection to the heart.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 23</span> Laminar flow is …, whereas turbulent flow tends to cause murmurs.",
+    "options": [
+      "Silent",
+      "Noisy",
+      "Chaotic",
+      "Slow"
+    ],
+    "answer": 0,
+    "answerText": "Silent",
+    "explanation": "Laminar blood flow is smooth and silent, whereas turbulence creates audible murmurs.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 24</span> About recycling old erythrocytes, which of the following sentences is correct?",
+    "options": [
+      "Macrophages release iron and transfer it by apotransferrin",
+      "Bilirubin is released into the blood and collected by the liver",
+      "Red blood cells are stored in the kidneys",
+      "None of the above"
+    ],
+    "answer": 1,
+    "answerText": "Bilirubin is released into the blood and collected by the liver",
+    "explanation": "Hemoglobin breakdown releases bilirubin, which is transported to the liver for excretion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 25</span> Immediately after acute infection, which type(s) of leukocytes increase in the blood?",
+    "options": [
+      "Monocytes",
+      "Neutrophils",
+      "Lymphocytes",
+      "Eosinophils"
+    ],
+    "answer": 1,
+    "answerText": "Neutrophils",
+    "explanation": "Neutrophils are the first responders in acute infections.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 26</span> Which sentence is not true about the differences between neutrophils and macrophages?",
+    "options": [
+      "Neutrophils are the first line of defense in infections",
+      "Macrophages can survive longer in tissues",
+      "Chemotaxis phenomenon is only related to monocytes and macrophages",
+      "Macrophages can engulf larger particles than neutrophils"
+    ],
+    "answer": 2,
+    "answerText": "Chemotaxis phenomenon is only related to monocytes and macrophages",
+    "explanation": "Chemotaxis is a property of both neutrophils and macrophages, not just monocytes and macrophages.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 27</span> Which of these cells are involved in the reticuloendothelial system?",
+    "options": [
+      "Lymphocytes",
+      "Histiocytes",
+      "Erythrocytes",
+      "Platelets"
+    ],
+    "answer": 1,
+    "answerText": "Histiocytes",
+    "explanation": "Histiocytes, a type of macrophage, are part of the reticuloendothelial system involved in phagocytosis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 28</span> Which of these conditions is directly related to dysfunction of bone marrow?",
+    "options": [
+      "Leukocytosis",
+      "Aplastic anemia",
+      "Thrombocytosis",
+      "Polycythemia"
+    ],
+    "answer": 1,
+    "answerText": "Aplastic anemia",
+    "explanation": "Aplastic anemia is caused by the failure of bone marrow to produce blood cells.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 29</span> In coagulation, which sentence about thrombin is not correct?",
+    "options": [
+      "Thrombin activates fibrinogen to fibrin",
+      "Thrombin plays a role in clot formation",
+      "Thrombomodulin activates thrombin",
+      "Thrombin is essential for platelet aggregation"
+    ],
+    "answer": 2,
+    "answerText": "Thrombomodulin activates thrombin",
+    "explanation": "Thrombomodulin does not activate thrombin; rather, it binds to thrombin and helps regulate coagulation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 30</span> Vitamin K in the clotting process acts as:",
+    "options": [
+      "A procoagulant",
+      "A platelet activator",
+      "A helper for Ca++ binding",
+      "A fibrinogen activator"
+    ],
+    "answer": 2,
+    "answerText": "A helper for Ca++ binding",
+    "explanation": "Vitamin K is essential for the synthesis of clotting factors and helps in calcium binding for coagulation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 31</span> Which sentence is correct in polycythemia patients?",
+    "options": [
+      "Polycythemia patients have low arterial pressure",
+      "In polycythemia patients, skin color may be bluish",
+      "Polycythemia reduces blood viscosity",
+      "Polycythemia is characterized by low hematocrit"
+    ],
+    "answer": 1,
+    "answerText": "In polycythemia patients, skin color may be bluish",
+    "explanation": "Increased red blood cell count in polycythemia can cause a bluish skin tone due to reduced oxygen delivery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 32</span> The process that initiates “lysis of blood clots” is named:",
+    "options": [
+      "Coagulation",
+      "Hemostasis",
+      "Fibrinolysis",
+      "Thrombosis"
+    ],
+    "answer": 2,
+    "answerText": "Fibrinolysis",
+    "explanation": "Fibrinolysis is the process that breaks down blood clots to restore normal blood flow.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 33</span> Which phase in the cardiac cycle constitutes the \"pacemaker potential\"?<br><img src='https://i.imghippo.com/files/NZ5582k.jpg' alt='Image for Q33' style='max-width:100%; height:auto;'>",
+    "options": [
+      "Phase 0",
+      "Phase 1",
+      "Phase 4",
+      "Phase 3"
+    ],
+    "answer": 2,
+    "answerText": "Phase 4",
+    "explanation": "Phase 4 is the slow depolarization phase in pacemaker cells, responsible for the heart's automaticity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 34</span> What primarily causes repolarization (Phase 3) in normal fast fiber atrial and ventricular myocytes?",
+    "options": [
+      "Closure of sodium channels",
+      "Opening of potassium channels",
+      "A and B",
+      "None of the above"
+    ],
+    "answer": 2,
+    "answerText": "A and B",
+    "explanation": "Repolarization occurs due to the closure of Na+ channels and opening of K+ channels, leading to K+ efflux.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 35</span> Which of the following is NOT a method of Ca++ removal following contraction of heart muscle?",
+    "options": [
+      "Na-Ca exchange transports Ca++ out of the cell",
+      "Ca++ is taken up by the sarcoplasmic reticulum",
+      "Ca++ is excreted by the kidneys",
+      "Ca++ passively diffuses out of the cell"
+    ],
+    "answer": 3,
+    "answerText": "Ca++ passively diffuses out of the cell",
+    "explanation": "Calcium removal occurs through active transport mechanisms, not passive diffusion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 36</span> The absolute refractory period in the ventricle:",
+    "options": [
+      "Coincides with the phase of rapid depolarization and the plateau",
+      "Corresponds with the whole duration of the action potential",
+      "Occurs during repolarization only",
+      "Is shorter than the relative refractory period"
+    ],
+    "answer": 1,
+    "answerText": "Corresponds with the whole duration of the action potential",
+    "explanation": "The absolute refractory period lasts through the action potential, preventing another contraction from occurring too soon.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 37</span> During which phase of the cardiac cycle does the aortic valve open?",
+    "options": [
+      "Atrial systole",
+      "Rapid ventricular ejection",
+      "Isovolumetric contraction",
+      "Ventricular relaxation"
+    ],
+    "answer": 1,
+    "answerText": "Rapid ventricular ejection",
+    "explanation": "The aortic valve opens during rapid ventricular ejection when ventricular pressure exceeds aortic pressure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 38</span> The slow conduction in the A-V bundle fibers is caused mainly by:",
+    "options": [
+      "Large diameter fibers",
+      "Diminished numbers of gap junctions",
+      "Increased sodium permeability",
+      "Enhanced action potential duration"
+    ],
+    "answer": 1,
+    "answerText": "Diminished numbers of gap junctions",
+    "explanation": "Fewer gap junctions in A-V bundle fibers slow conduction to allow proper ventricular filling.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 39</span> Based on the above diagram, what would be the heart ejection fraction?<br><img src='https://i.imghippo.com/files/FOzy7787wLA.jpg' alt='Image for Q39' style='max-width:100%; height:auto;'>",
+    "options": [
+      "30%",
+      "40%",
+      "45%",
+      "50%"
+    ],
+    "answer": 3,
+    "answerText": "50%",
+    "explanation": "Ejection fraction is calculated as (stroke volume/end-diastolic volume) × 100%, with normal values around 50–70%.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 40</span> Which of the following is responsible for the fourth heart sound?",
+    "options": [
+      "Opening of the mitral valve",
+      "Closure of the aortic valve",
+      "Atrial systole",
+      "Ventricular repolarization"
+    ],
+    "answer": 2,
+    "answerText": "Atrial systole",
+    "explanation": "The fourth heart sound occurs due to atrial contraction against a stiff ventricle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 41</span> In an aortic pressure curve:",
+    "options": [
+      "The elastic recoil of the walls of the aorta and arteries maintains a pressure of 80 mmHg (diastolic pressure)",
+      "The pressure remains constant",
+      "Systolic pressure is always lower than 100 mmHg",
+      "There is no pressure change during the cardiac cycle"
+    ],
+    "answer": 0,
+    "answerText": "The elastic recoil of the walls of the aorta and arteries maintains a pressure of 80 mmHg (diastolic pressure)",
+    "explanation": "Elastic recoil of arteries helps maintain diastolic pressure even when the heart is relaxed.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 42</span> The \"a\" wave of the atrial pressure curve is due to:",
+    "options": [
+      "Atrial diastole",
+      "Atrial systole",
+      "Ventricular filling",
+      "Mitral valve opening"
+    ],
+    "answer": 1,
+    "answerText": "Atrial systole",
+    "explanation": "The \"a\" wave represents atrial contraction, increasing atrial pressure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 43</span> Which of the following is not seen during isovolumetric (isometric) ventricular contraction?",
+    "options": [
+      "Increase in ventricular pressure",
+      "Closure of atrioventricular valves",
+      "No change in ventricular volume",
+      "Ejection of blood from the ventricles"
+    ],
+    "answer": 3,
+    "answerText": "Ejection of blood from the ventricles",
+    "explanation": "Isovolumetric contraction occurs before blood ejection, with both AV and semilunar valves closed.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 44</span> In healthy ventricles, the force of contraction:",
+    "options": [
+      "Decreases with increased end-diastolic volume",
+      "Increases with increased end-diastolic volume within physiological limits",
+      "Is not affected by volume changes",
+      "Depends only on heart rate"
+    ],
+    "answer": 1,
+    "answerText": "Increases with increased end-diastolic volume within physiological limits",
+    "explanation": "According to the Frank-Starling law, increased end-diastolic volume enhances contraction force.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 45</span> High tension-time index in cardiac muscle cells occurs during:",
+    "options": [
+      "Normal left ventricular diameter",
+      "Abnormally dilated left ventricle",
+      "Normal systolic function",
+      "Reduced afterload"
+    ],
+    "answer": 1,
+    "answerText": "Abnormally dilated left ventricle",
+    "explanation": "A high tension-time index is seen in an abnormally dilated left ventricle, indicating increased workload.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 46</span> Cardiac survival during transplantation is improved by perfusing donor hearts with cardioplegic solutions containing about 20mM KCl. Why is this high potassium concentration helpful?",
+    "options": [
+      "Elevation in ECF K+ repolarizes myocytes, activating Na+ and Ca++ channels",
+      "Elevation in ECF K+ depolarizes myocytes, inactivating Na+ and Ca++ channels, making the cells inexcitable and relaxed",
+      "High K+ increases myocardial contraction",
+      "K+ prevents clot formation"
+    ],
+    "answer": 1,
+    "answerText": "Elevation in ECF K+ depolarizes myocytes, inactivating Na+ and Ca++ channels, making the cells inexcitable and relaxed",
+    "explanation": "High extracellular K+ depolarizes myocytes, inactivating action potentials and protecting the heart during transplantation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 47</span> The average normal electrical axis of the heart is:",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": 2,
+    "answerText": "60°",
+    "explanation": "The normal electrical axis of the heart is approximately 60°, which represents the general direction of ventricular depolarization.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 48</span> In a standard lead III of electrocardiography, the negative terminal is connected to:",
+    "options": [
+      "Right leg",
+      "Left arm",
+      "Right arm",
+      "Left leg"
+    ],
+    "answer": 1,
+    "answerText": "Left arm",
+    "explanation": "In lead III of the ECG, the negative terminal is the left arm, and the positive terminal is the left leg.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 49</span> The P wave on lead aVR of the normal electrocardiogram will be:",
+    "options": [
+      "An upward deflection",
+      "A downward deflection",
+      "A flat line",
+      "A biphasic wave"
+    ],
+    "answer": 1,
+    "answerText": "A downward deflection",
+    "explanation": "In lead aVR, the P wave is typically negative due to the direction of atrial depolarization away from the lead.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 50</span> The QT interval in the electrocardiogram trace represents:",
+    "options": [
+      "Ventricular repolarization",
+      "Ventricular contraction",
+      "Atrial depolarization",
+      "SA node activity"
+    ],
+    "answer": 1,
+    "answerText": "Ventricular contraction",
+    "explanation": "The QT interval represents the time for ventricular depolarization and repolarization, corresponding to the duration of ventricular contraction.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 51</span> The greatest portion of ventricular muscle mass to repolarize first is:",
+    "options": [
+      "The inner surface of the apex",
+      "The entire outer surface of the apex",
+      "The interventricular septum",
+      "The atrioventricular node"
+    ],
+    "answer": 1,
+    "answerText": "The entire outer surface of the apex",
+    "explanation": "The outer surface of the ventricles repolarizes first due to differences in action potential duration between endocardial and epicardial cells.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 52</span> The T wave in a normal ECG trace is positive because:",
+    "options": [
+      "The inner surfaces of the ventricles repolarize sooner than the outer apical surfaces",
+      "The septum and endocardial areas have a longer period of contraction than most of the heart's external surface",
+      "Depolarization and repolarization occur in the same direction",
+      "The atria contribute to the T wave"
+    ],
+    "answer": 1,
+    "answerText": "The septum and endocardial areas have a longer period of contraction than most of the heart's external surface",
+    "explanation": "The T wave is positive because the endocardium depolarizes first but repolarizes later than the epicardium.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 53</span> In isovolumic contraction and relaxation of the heart:",
+    "options": [
+      "Mitral and aortic valves are open",
+      "Mitral and aortic valves are closed",
+      "The ventricles eject blood",
+      "The atria contract"
+    ],
+    "answer": 1,
+    "answerText": "Mitral and aortic valves are closed",
+    "explanation": "During isovolumetric phases, both AV and semilunar valves remain closed, preventing blood flow.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 54</span> In which part of circulation can a huge volume of blood have little effect on pressure?",
+    "options": [
+      "Arteries",
+      "Capillaries",
+      "Veins",
+      "Bronchi"
+    ],
+    "answer": 2,
+    "answerText": "Veins",
+    "explanation": "Veins are highly compliant and can accommodate large blood volumes with minimal changes in pressure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 55</span> The overall blood flow in the total circulation of an adult person at rest is about:",
+    "options": [
+      "1000 ml/min",
+      "3000 ml/min",
+      "5000 ml/min",
+      "7000 ml/min"
+    ],
+    "answer": 2,
+    "answerText": "5000 ml/min",
+    "explanation": "The average resting cardiac output (which equals total blood flow) is around 5000 ml/min.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 56</span> Patients with Patent Ductus Arteriosus have …",
+    "options": [
+      "Low cardiac output",
+      "Polycythemia",
+      "Highest pulse pressure",
+      "Decreased oxygen saturation in systemic circulation"
+    ],
+    "answer": 2,
+    "answerText": "Highest pulse pressure",
+    "explanation": "PDA causes increased stroke volume and systolic pressure, leading to a widened pulse pressure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 57</span> Which situation causes Vasovagal Syncope?",
+    "options": [
+      "Hypertension",
+      "Emotional stress",
+      "Increased sympathetic activity",
+      "Hypervolemia"
+    ],
+    "answer": 1,
+    "answerText": "Emotional stress",
+    "explanation": "Vasovagal syncope occurs due to excessive parasympathetic activation in response to emotional stress, leading to hypotension and fainting.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sohanaky & Dr. Ashabi - Question 58</span> Which one is the precursor of all blood cell lineages?",
+    "options": [
+      "Myeloblast",
+      "Lymphoblast",
+      "Hematoblast",
+      "Megakaryocyte"
+    ],
+    "answer": 2,
+    "answerText": "Hematoblast",
+    "explanation": "Hematoblast (also called a hematopoietic stem cell) gives rise to all blood cell types.",
+    "userAnswer": null
+  }
+]
