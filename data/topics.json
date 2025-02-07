@@ -116,11 +116,6 @@
   {
     "topicName": "Test Test",
     "description": "",
-    "subTopics": [
-      {
-        "name": "T 45",
-        "file": "data/test_test_t_45.json"
-      }
-    ]
+    "subTopics": []
   }
 ]
