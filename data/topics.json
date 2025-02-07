@@ -82,6 +82,10 @@
       {
         "name": "Physiology",
         "file": "data/cardiovascular_system_block_physiology.json"
+      },
+      {
+        "name": "Anatomy, histology & embryology",
+        "file": "data/cardiovascular_system_block_anatomy,_histology_&_embryology.json"
       }
     ]
   },
