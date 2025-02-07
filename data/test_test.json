@@ -156,15 +156,15 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Hassan 22 - Question 13</span> Which part of the urinary bladder is the most inferior part?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">Dr. Hassan 22 - Question 13</span> Which part of the urinary bladder is the most inferior part?<br><img src=\"https://i.imghippo.com/files/pkTo6913lu.jpg\" alt=\"Image for Q13\" style=\"max-width:100%; height:auto;\">",
     "options": [
       "Apex",
       "Neck",
       "Fundus",
       "Body"
     ],
-    "answer": 1,
-    "answerText": "Neck",
+    "answer": 0,
+    "answerText": "Apex",
     "explanation": "The neck of the urinary bladder is the narrow, most inferior portion, connecting to the urethra.",
     "userAnswer": null
   }
