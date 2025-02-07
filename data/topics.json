@@ -122,5 +122,15 @@
         "file": "data/tter_t54.json"
       }
     ]
+  },
+  {
+    "topicName": "has",
+    "description": "",
+    "subTopics": [
+      {
+        "name": "hgy6",
+        "file": "data/has_hgy6.json"
+      }
+    ]
   }
 ]
