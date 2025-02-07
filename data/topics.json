@@ -102,5 +102,15 @@
         "file": "data/urinary_system_physiology_.json"
       }
     ]
+  },
+  {
+    "topicName": "test",
+    "description": "ytre",
+    "subTopics": [
+      {
+        "name": "test",
+        "file": "data/test_test.json"
+      }
+    ]
   }
 ]
