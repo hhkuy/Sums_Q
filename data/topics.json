@@ -74,5 +74,15 @@
         "file": "data/head_and_neck_head_and_neck_.json"
       }
     ]
+  },
+  {
+    "topicName": "Cardiovascular system block",
+    "description": "Related to Second Semster",
+    "subTopics": [
+      {
+        "name": "Physiology",
+        "file": "data/cardiovascular_system_block_physiology.json"
+      }
+    ]
   }
 ]
