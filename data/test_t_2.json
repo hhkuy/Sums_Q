@@ -78,16 +78,16 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Yasin - Question 7</span> Which part of the urethra has a urethral crest?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">Dr. Yasin - Question 76</span> Which part of the urethra has a urethral crest? السؤال تغيير<br><img src=\"https://i.imghippo.com/files/PfH9928ThQ.jpg\" alt=\"Image for Q7\" style=\"max-width:100%; height:auto;\">",
     "options": [
-      "Prostatic",
+      "Prostatic قديم",
       "Membranous",
       "Spongy",
-      "Intramural"
+      "Intramural جديد"
     ],
-    "answer": 0,
-    "answerText": "Prostatic",
-    "explanation": "The prostatic part of the urethra contains the urethral crest, which is a longitudinal ridge on its posterior wall.",
+    "answer": 3,
+    "answerText": "Intramural جديد",
+    "explanation": "The prostatic part of the urethra contains the urethral crest, which is a longitudinal ridge on its posterior wall. شرح راقي ",
     "userAnswer": null
   }
 ]
