@@ -13,15 +13,15 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Hassan 22 - Question 2</span> Which muscle leaves pelvis through the greater sciatic foramen?<br><img src='https://i.imghippo.com/files/cFHy1717rqU.jpg' alt='Image for Q2' style='max-width:100%; height:auto;'>",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">Dr. Hassan 22 - Question 2</span> Which muscle leaves pelvis through the greater sciatic foramen?<br><img src=\"https://i.imghippo.com/files/NoNX4980igE.jpg\" alt=\"Image for Q2\" style=\"max-width:100%; height:auto;\">",
     "options": [
       "Obturator externus",
-      "Piriformis",
+      "Piriformis قديم",
       "Quadratus femoris",
-      "Gluteus minimus"
+      "Gluteus minimus الجديد"
     ],
-    "answer": 1,
-    "answerText": "Piriformis",
+    "answer": 3,
+    "answerText": "Gluteus minimus الجديد",
     "explanation": "The piriformis muscle passes through the greater sciatic foramen and plays a role in external hip rotation.",
     "userAnswer": null
   },
