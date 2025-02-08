@@ -830,5 +830,369 @@
     "answerText": "Alkaline phosphatase",
     "explanation": "Alkaline phosphatase is primarily produced in the liver, bones, and intestines, and it is not specific to the pancreas.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 25</span> Which peripheral tissues can efficiently oxidize acetoacetate and 3-hydroxybutyrate?",
+    "options": [
+      "Liver and muscle",
+      "Brain and muscle",
+      "Kidney and liver",
+      "Pancreas and spleen"
+    ],
+    "answer": 1,
+    "answerText": "Brain and muscle",
+    "explanation": "Peripheral tissues like brain and muscle efficiently oxidize ketone bodies to generate ATP, while the liver lacks thiophorase, preventing it from utilizing ketones.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 26</span> What enzyme is responsible for the breakdown of triacylglycerol stored in adipocytes?",
+    "options": [
+      "Lipoprotein lipase",
+      "Hormone-sensitive lipase",
+      "Pancreatic lipase",
+      "Hepatic lipase"
+    ],
+    "answer": 1,
+    "answerText": "Hormone-sensitive lipase",
+    "explanation": "Hormone-sensitive lipase is activated by glucagon and epinephrine, hydrolyzing stored triacylglycerol into free fatty acids and glycerol.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 27</span> What activates and inhibits ACC, the enzyme involved in the regulated step of fatty acid synthesis?",
+    "options": [
+      "Citrate activates ACC and palmitoyl CoA inhibits it",
+      "Citrate activates ACC and insulin inhibits it",
+      "Glucagon activates ACC and AMP inhibits it",
+      "Malonyl CoA activates ACC and ATP inhibits it"
+    ],
+    "answer": 0,
+    "answerText": "Citrate activates ACC and palmitoyl CoA inhibits it",
+    "explanation": "ACC (acetyl-CoA carboxylase) is activated by citrate, signaling excess energy, and inhibited by palmitoyl CoA, the end product of fatty acid synthesis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 28</span> Which antihyperlipidemic agent is a water-soluble B vitamin?",
+    "options": [
+      "Statins",
+      "Niacin",
+      "Fibrates",
+      "Bile acid sequestrants"
+    ],
+    "answer": 1,
+    "answerText": "Niacin",
+    "explanation": "Niacin, or vitamin B3, reduces triglycerides and LDL cholesterol while increasing HDL cholesterol.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 29</span> Which type of hyperlipidemia is associated with defects in ApoE protein variants?",
+    "options": [
+      "Type 1",
+      "Type 2a",
+      "Type 3",
+      "Type 4"
+    ],
+    "answer": 2,
+    "answerText": "Type 3",
+    "explanation": "Type 3 hyperlipidemia is caused by defective ApoE, which impairs the clearance of chylomicron and VLDL remnants.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 30</span> What converts HDL2 to HDL3 during their metabolism?",
+    "options": [
+      "Lipoprotein lipase",
+      "Hepatic lipase",
+      "Lecithin-cholesterol acyltransferase (LCAT)",
+      "Apolipoprotein A-I"
+    ],
+    "answer": 1,
+    "answerText": "Hepatic lipase",
+    "explanation": "Hepatic lipase converts HDL2 to HDL3 by removing triglycerides and phospholipids, making HDL3 more compact.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 31</span> Which disease is a rare deficiency of the transport protein ABCA1?",
+    "options": [
+      "Niemann-Pick disease",
+      "Tangier disease",
+      "Fabry disease",
+      "Gaucher disease"
+    ],
+    "answer": 1,
+    "answerText": "Tangier disease",
+    "explanation": "Tangier disease results from a deficiency in ABCA1, impairing cholesterol efflux and leading to low HDL levels.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 32</span> From beta oxidation of lauric acid in mitochondria, all the following compounds are produced, except:",
+    "options": [
+      "Acetyl-CoA",
+      "FADH2",
+      "NADH",
+      "Malonyl CoA"
+    ],
+    "answer": 3,
+    "answerText": "Malonyl CoA",
+    "explanation": "Malonyl CoA is not a product of beta-oxidation but is instead a substrate for fatty acid synthesis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 33</span> In familial hypercholesterolemia, there is a mutation in which one of the following genes?",
+    "options": [
+      "HMG-CoA reductase",
+      "LDL receptor",
+      "PCSK9",
+      "ApoE"
+    ],
+    "answer": 1,
+    "answerText": "LDL receptor",
+    "explanation": "Familial hypercholesterolemia results from mutations in the LDL receptor gene, leading to impaired LDL uptake and elevated plasma cholesterol levels.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 34</span> All the following factors are involved in chylomicron metabolism, except:",
+    "options": [
+      "Lipoprotein lipase",
+      "ApoC-II",
+      "ApoE",
+      "ApoB100"
+    ],
+    "answer": 3,
+    "answerText": "ApoB100",
+    "explanation": "ApoB48, not ApoB100, is present in chylomicrons. ApoB100 is primarily associated with VLDL, IDL, and LDL particles.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 35</span> Which of the following is the rate-limiting enzyme in the cholesterol biosynthesis pathway?",
+    "options": [
+      "Acetyl-CoA carboxylase",
+      "HMG-CoA reductase",
+      "Squalene synthase",
+      "Cholesterol esterase"
+    ],
+    "answer": 1,
+    "answerText": "HMG-CoA reductase",
+    "explanation": "HMG-CoA reductase catalyzes the conversion of HMG-CoA to mevalonate, the rate-limiting step in cholesterol biosynthesis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 36</span> Which of the following compounds uncouples oxidative phosphorylation by dissipating the proton gradient across the mitochondrial membrane?",
+    "options": [
+      "Oligomycin",
+      "Rotenone",
+      "2,4-Dinitrophenol (DNP)",
+      "Antimycin A"
+    ],
+    "answer": 2,
+    "answerText": "2,4-Dinitrophenol (DNP)",
+    "explanation": "DNP uncouples oxidative phosphorylation by allowing protons to flow back across the mitochondrial membrane, bypassing ATP synthase.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 37</span> Which compound inhibits ATP synthase by directly binding to it and preventing proton translocation?",
+    "options": [
+      "Oligomycin",
+      "Rotenone",
+      "Cyanide",
+      "Antimycin A"
+    ],
+    "answer": 0,
+    "answerText": "Oligomycin",
+    "explanation": "Oligomycin binds to ATP synthase, blocking the proton channel and preventing ATP synthesis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 38</span> …………… donates its phosphate to ADP to yield ATP during muscle exertion.",
+    "options": [
+      "AMP",
+      "Glucose-6-phosphate",
+      "Creatine phosphate",
+      "Pyruvate"
+    ],
+    "answer": 2,
+    "answerText": "Creatine phosphate",
+    "explanation": "Creatine phosphate donates a phosphate group to ADP, rapidly regenerating ATP during high-energy demand in muscles.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 39</span> Tophus is a clinical sign of which condition?",
+    "options": [
+      "Gout",
+      "Hyperuricemia",
+      "Hypercalcemia",
+      "Hypoglycemia"
+    ],
+    "answer": 1,
+    "answerText": "Hyperuricemia",
+    "explanation": "Tophus is a deposit of uric acid crystals, typically seen in joints and soft tissues, characteristic of chronic hyperuricemia or gout.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 40</span> Jaundice is caused by all of the following, except:",
+    "options": [
+      "Hemolysis",
+      "Liver disease",
+      "Bile duct obstruction",
+      "High amount of fatty acid"
+    ],
+    "answer": 3,
+    "answerText": "High amount of fatty acid",
+    "explanation": "Jaundice results from excess bilirubin accumulation due to hemolysis, liver dysfunction, or bile duct obstruction, not from fatty acids.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 41</span> In Lesch-Nyhan syndrome:",
+    "options": [
+      "There is a defect in the HGPRT enzyme",
+      "The purine salvage pathway is upregulated",
+      "Uric acid levels decrease",
+      "The urea cycle is impaired"
+    ],
+    "answer": 0,
+    "answerText": "There is a defect in the HGPRT enzyme",
+    "explanation": "Lesch-Nyhan syndrome is caused by a deficiency in the HGPRT enzyme, leading to hyperuricemia and severe neurological symptoms.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 42</span> According to the biosynthetic origin of the purine ring, nitrogen atom N1 originates from?",
+    "options": [
+      "Glutamine",
+      "Aspartic acid",
+      "Glycine",
+      "Arginine"
+    ],
+    "answer": 1,
+    "answerText": "Aspartic acid",
+    "explanation": "Nitrogen atom N1 in the purine ring is derived from aspartic acid, while other atoms originate from different amino acids and molecules.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 43</span> Porphyria cutanea tarda is caused by a deficiency in which of the following enzymes?",
+    "options": [
+      "Ferrochelatase",
+      "Uroporphyrinogen decarboxylase",
+      "Porphobilinogen deaminase",
+      "Coproporphyrinogen oxidase"
+    ],
+    "answer": 1,
+    "answerText": "Uroporphyrinogen decarboxylase",
+    "explanation": "Uroporphyrinogen decarboxylase deficiency leads to the accumulation of uroporphyrins, causing photosensitivity and skin lesions in porphyria cutanea tarda.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 44</span> Fluorouracil inhibits which of the following enzymes?",
+    "options": [
+      "Ribonucleotide reductase",
+      "Thymidylate synthase",
+      "Dihydrofolate reductase",
+      "Adenylate cyclase"
+    ],
+    "answer": 1,
+    "answerText": "Thymidylate synthase",
+    "explanation": "Fluorouracil inhibits thymidylate synthase, blocking DNA synthesis and leading to its use in cancer treatment.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 45</span> All of the following compounds participate in the biosynthesis of pyrimidine nucleotides, except:",
+    "options": [
+      "Glutamine",
+      "Aspartic acid",
+      "Phosphoribosyl pyrophosphate (PRPP)",
+      "Glycine"
+    ],
+    "answer": 3,
+    "answerText": "Glycine",
+    "explanation": "Pyrimidine synthesis involves glutamine, aspartic acid, and PRPP, but glycine is not involved. Glycine is instead important in purine synthesis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 46</span> Glucagon stimulates which process in the liver?",
+    "options": [
+      "Glycogenolysis",
+      "Glycogenesis",
+      "Glycolysis",
+      "Lipogenesis"
+    ],
+    "answer": 0,
+    "answerText": "Glycogenolysis",
+    "explanation": "Glucagon activates glycogenolysis, which breaks down glycogen into glucose to maintain blood glucose levels during fasting.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 47</span> Which of the following is a result of decreased insulin levels during fasting?",
+    "options": [
+      "Decreased gluconeogenesis",
+      "Increased fatty acid oxidation",
+      "Increased glycogen synthesis",
+      "Decreased ketogenesis"
+    ],
+    "answer": 1,
+    "answerText": "Increased fatty acid oxidation",
+    "explanation": "During fasting, decreased insulin levels promote fatty acid oxidation to generate energy through beta-oxidation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 48</span> Which tissue plays a central role in processing and distributing dietary nutrients during the absorptive state?",
+    "options": [
+      "Brain",
+      "Liver",
+      "Skeletal muscle",
+      "Adipose tissue"
+    ],
+    "answer": 1,
+    "answerText": "Liver",
+    "explanation": "The liver processes and distributes dietary nutrients, including glucose, fats, and amino acids, during the absorptive state.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 49</span> Glucose-dependent release of insulin into the blood is mediated through a rise in which ion concentration?",
+    "options": [
+      "Sodium",
+      "Calcium",
+      "Potassium",
+      "Magnesium"
+    ],
+    "answer": 1,
+    "answerText": "Calcium",
+    "explanation": "A rise in intracellular calcium triggers the release of insulin from pancreatic beta cells following glucose stimulation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 50</span> Which component of the respiratory chain has the lowest oxidation potential?",
+    "options": [
+      "Succinate dehydrogenase",
+      "FMN",
+      "Cytochrome c",
+      "Coenzyme Q"
+    ],
+    "answer": 1,
+    "answerText": "FMN",
+    "explanation": "FMN (flavin mononucleotide) in Complex I has the lowest oxidation potential, facilitating the transfer of electrons to downstream components.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 51</span> Which high-energy compound is primarily generated during glycolysis and serves as an immediate substrate for ATP synthesis in substrate-level phosphorylation?",
+    "options": [
+      "Phosphoenolpyruvate (PEP)",
+      "1,3-Bisphosphoglycerate (1,3-BPG)",
+      "Glyceraldehyde 3-phosphate",
+      "Glucose-6-phosphate"
+    ],
+    "answer": 1,
+    "answerText": "1,3-Bisphosphoglycerate (1,3-BPG)",
+    "explanation": "1,3-Bisphosphoglycerate donates a phosphate group to ADP during glycolysis to form ATP through substrate-level phosphorylation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 52</span> During ketolysis, which enzyme converts acetoacetate to acetoacetyl-CoA?",
+    "options": [
+      "Acetoacetate decarboxylase",
+      "Thiophorase",
+      "HMG-CoA synthase",
+      "Acyl-CoA dehydrogenase"
+    ],
+    "answer": 1,
+    "answerText": "Thiophorase",
+    "explanation": "Thiophorase (also known as succinyl-CoA:acetoacetate CoA transferase) catalyzes the conversion of acetoacetate to acetoacetyl-CoA for energy production.",
+    "userAnswer": null
   }
 ]
