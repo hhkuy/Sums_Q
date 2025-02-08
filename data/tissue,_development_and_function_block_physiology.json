@@ -258,5 +258,239 @@
     "answerText": "By only increasing pumping of positive ions (presumably sodium ions)",
     "explanation": "Slow waves in visceral muscles result from rhythmic sodium ion influx, which helps regulate contraction cycles.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 1</span> During rigor mortis, the contraction cycle is stopped at step 3 because of ……… .",
+    "options": [
+      "Excess Ca ions",
+      "Depletion of acetylcholine",
+      "Lack of ATP",
+      "Overproduction of ATP"
+    ],
+    "answer": 2,
+    "answerText": "Lack of ATP",
+    "explanation": "Rigor mortis occurs when ATP is no longer available to detach myosin heads from actin filaments, freezing the muscles in a contracted state.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 2</span> In this type of muscle, the source of Ca ions needed for contraction is just from the sarcoplasmic reticulum.",
+    "options": [
+      "Cardiac muscle",
+      "Smooth muscle",
+      "Biceps muscle",
+      "Ciliary muscle"
+    ],
+    "answer": 2,
+    "answerText": "Biceps muscle",
+    "explanation": "In skeletal muscles like the biceps, calcium for contraction is primarily stored in the sarcoplasmic reticulum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 3</span> In the figure, which of the following refers to “myosin filaments”?<br><img src='https://i.imghippo.com/files/tSJh8153mQE.png' alt='Image for Q3' style='max-width:100%; height:auto;'>",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "answerText": "A",
+    "explanation": "Myosin filaments, also known as thick filaments, are identified as A in the given diagram.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 4</span> Which factor causes detachment of the myosin head from the actin filaments in skeletal muscle fibers?",
+    "options": [
+      "Release of Ca ions",
+      "Release of ADP",
+      "Binding a new ATP",
+      "Phosphorylation of myosin"
+    ],
+    "answer": 2,
+    "answerText": "Binding a new ATP",
+    "explanation": "A new ATP molecule binds to the myosin head, allowing it to detach from the actin filament and restart the contraction cycle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 5</span> Which phenomenon is shown in this figure?",
+    "options": [
+      "Isometric contraction",
+      "Isotonic contraction",
+      "Tetanus",
+      "Muscle fatigue"
+    ],
+    "answer": 1,
+    "answerText": "Isotonic contraction",
+    "explanation": "Isotonic contraction occurs when muscle tension remains constant while the muscle changes length, as shown in the figure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 6</span> Which of the following best describes the significant difference between skeletal muscle and large nerve fibers?",
+    "options": [
+      "Diameter",
+      "Resting membrane potential",
+      "Excitability",
+      "Velocity of conduction"
+    ],
+    "answer": 3,
+    "answerText": "Velocity of conduction",
+    "explanation": "The velocity of conduction is typically higher in large nerve fibers compared to skeletal muscle fibers due to their specialized myelination and structure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 7</span> Action potentials spread to the interior of the skeletal muscle fiber by way of ……… .",
+    "options": [
+      "Sarcoplasmic reticulum",
+      "Transverse tubules",
+      "Myofibrils",
+      "Troponin"
+    ],
+    "answer": 1,
+    "answerText": "Transverse tubules",
+    "explanation": "The transverse tubules (T-tubules) carry the action potential into the interior of the muscle fiber, triggering calcium release for contraction.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 8</span> Which of the following is found in the membrane of T-tubules in skeletal muscle fibers?",
+    "options": [
+      "Voltage-gated Na+ channels",
+      "Multiple adherent points",
+      "Dihydropyridine receptors",
+      "Ryanodine receptors"
+    ],
+    "answer": 2,
+    "answerText": "Dihydropyridine receptors",
+    "explanation": "Dihydropyridine receptors in the T-tubule membrane act as voltage sensors, triggering calcium release from the sarcoplasmic reticulum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 9</span> Which of the following represents “voltage-gated Ca channels”?<br><img src='https://i.imghippo.com/files/MoRu4067TE.png' alt='Image for Q9' style='max-width:100%; height:auto;'>",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 1,
+    "answerText": "B",
+    "explanation": "Voltage-gated Ca channels, labeled as B in the figure, allow calcium entry into the cell, crucial for excitation-contraction coupling.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 10</span> Compared to skeletal muscle fibers, what is the cause of slow cycling of the myosin cross-bridges in smooth muscle cells?",
+    "options": [
+      "Reduced actin content",
+      "Reduced cross-bridge binding sites",
+      "Far less ATPase activity of smooth muscle fibers",
+      "Low Ca levels"
+    ],
+    "answer": 2,
+    "answerText": "Far less ATPase activity of smooth muscle fibers",
+    "explanation": "Smooth muscle myosin ATPase has lower activity than that in skeletal muscle, resulting in slower cross-bridge cycling and prolonged contractions.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 11</span> What does this figure show?<br><img src='https://i.imghippo.com/files/KKsx5474KgE.png' alt='Image for Q11' style='max-width:100%; height:auto;'>",
+    "options": [
+      "Smooth muscle contraction",
+      "Smooth muscle relaxation",
+      "Skeletal muscle contraction",
+      "Isometric contraction"
+    ],
+    "answer": 1,
+    "answerText": "Smooth muscle relaxation",
+    "explanation": "The figure illustrates the process of smooth muscle relaxation, including the dephosphorylation of myosin and reduction in intracellular calcium.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 12</span> In which of the following muscles, control is exerted mainly by nerve signals?",
+    "options": [
+      "Smooth muscle",
+      "Cardiac muscle",
+      "Ciliary muscle",
+      "Skeletal muscle"
+    ],
+    "answer": 2,
+    "answerText": "Ciliary muscle",
+    "explanation": "Ciliary muscle, responsible for controlling the lens in the eye, is primarily regulated by parasympathetic nerve signals.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 13</span> Which of the following is considered to be a “regulatory protein” in skeletal muscle contraction?",
+    "options": [
+      "Calmodulin",
+      "Tropomyosin",
+      "Troponin",
+      "Myosin"
+    ],
+    "answer": 2,
+    "answerText": "Troponin",
+    "explanation": "Troponin, particularly the troponin C subunit, regulates muscle contraction by binding to calcium and initiating the movement of tropomyosin.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 14</span> Myosin kinase is involved in ……...",
+    "options": [
+      "Smooth muscle relaxation",
+      "Smooth muscle contraction",
+      "Skeletal muscle contraction",
+      "Cardiac muscle relaxation"
+    ],
+    "answer": 1,
+    "answerText": "Smooth muscle contraction",
+    "explanation": "Myosin light chain kinase (MLCK) phosphorylates myosin, activating the cross-bridge cycling necessary for smooth muscle contraction.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 15</span> Which of the following suggests a rudimentary analog of the transverse tubule system in smooth muscle?",
+    "options": [
+      "Dense bodies",
+      "Sarcoplasmic reticulum",
+      "Caveolae",
+      "Intercalated discs"
+    ],
+    "answer": 2,
+    "answerText": "Caveolae",
+    "explanation": "Caveolae are small invaginations in the smooth muscle membrane that help concentrate Ca ions and facilitate excitation-contraction coupling.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 16</span> Which of the following represents one of the electrical synapses’ properties?",
+    "options": [
+      "Unidirectional transmission",
+      "Chemical mediation",
+      "Bidirectional transmission",
+      "Delayed transmission"
+    ],
+    "answer": 2,
+    "answerText": "Bidirectional transmission",
+    "explanation": "Electrical synapses allow ions to pass directly between cells via gap junctions, resulting in rapid bidirectional communication.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 17</span> Which type of receptors produces slower synaptic actions lasting seconds to minutes?",
+    "options": [
+      "Ionotropic receptors",
+      "Metabotropic receptors",
+      "Nicotinic receptors",
+      "Voltage-gated channels"
+    ],
+    "answer": 1,
+    "answerText": "Metabotropic receptors",
+    "explanation": "Metabotropic receptors, often G-protein-coupled, produce slower and longer-lasting synaptic effects by modulating intracellular signaling pathways.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) Dr. Mina Ranjbaran - Question 18</span> In skeletal muscle fibers, which factor exposes the active sites of actin filaments?",
+    "options": [
+      "ATP binding to actin filaments",
+      "Ca binding to troponin C",
+      "Release of ADP",
+      "Binding of myosin heads"
+    ],
+    "answer": 1,
+    "answerText": "Ca binding to troponin C",
+    "explanation": "Calcium binds to troponin C, causing a conformational change that moves tropomyosin away from the active sites of actin, allowing cross-bridge formation.",
+    "userAnswer": null
   }
 ]
