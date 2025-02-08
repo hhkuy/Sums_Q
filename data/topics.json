@@ -112,5 +112,15 @@
         "file": "data/urinary_system_physiology_.json"
       }
     ]
+  },
+  {
+    "topicName": "Medical Physics",
+    "description": "Related to Second Semester",
+    "subTopics": [
+      {
+        "name": "Medical Physics",
+        "file": "data/medical_physics_medical_physics.json"
+      }
+    ]
   }
 ]
