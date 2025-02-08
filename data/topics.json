@@ -146,5 +146,27 @@
         "file": "data/medical_physics_medical_physics.json"
       }
     ]
+  },
+  {
+    "topicName": "Respiratory system",
+    "description": "Related to Second Semester",
+    "subTopics": [
+      {
+        "name": "Anatomy ",
+        "file": "data/respiratory_system_anatomy_.json"
+      },
+      {
+        "name": "physiology",
+        "file": "data/respiratory_system_physiology.json"
+      },
+      {
+        "name": "Histology",
+        "file": "data/respiratory_system_histology.json"
+      },
+      {
+        "name": "Embryology ",
+        "file": "data/respiratory_system_embryology_.json"
+      }
+    ]
   }
 ]
