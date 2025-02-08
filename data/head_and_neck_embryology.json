@@ -1,0 +1,106 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Golshan - Question 1</span> Which group of muscles are formed by the cells of the first pharyngeal arch and the second respectively?",
+    "options": [
+      "Muscles of mastication - muscles of facial expression",
+      "Muscles of facial expression - muscles of mastication",
+      "Pharyngeal muscles - laryngeal muscles",
+      "Extraocular muscles - tongue muscles"
+    ],
+    "answer": 0,
+    "answerText": "Muscles of mastication - muscles of facial expression",
+    "explanation": "The first pharyngeal arch gives rise to the muscles of mastication, while the second arch forms the muscles of facial expression.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Golshan - Question 2</span> The ..................... affects ......................... pharyngeal arch, and the affected individual can show facial palsy.",
+    "options": [
+      "DiGeorge syndrome - 3rd and 4th",
+      "Goldenhar syndrome - 1st and 2nd",
+      "Treacher Collins syndrome - 4th and 6th",
+      "Pierre Robin sequence - 2nd and 3rd"
+    ],
+    "answer": 1,
+    "answerText": "Goldenhar syndrome - 1st and 2nd",
+    "explanation": "Goldenhar syndrome involves abnormalities in structures derived from the 1st and 2nd pharyngeal arches, causing facial defects and sometimes facial palsy.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Golshan - Question 3</span> What is the embryological origin of the hyoid bone?",
+    "options": [
+      "First pharyngeal arch",
+      "Second and third pharyngeal arches",
+      "Fourth pharyngeal arch",
+      "Sixth pharyngeal arch"
+    ],
+    "answer": 1,
+    "answerText": "Second and third pharyngeal arches",
+    "explanation": "The hyoid bone is derived from the cartilage of the second and third pharyngeal arches.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Golshan - Question 4</span> Which pharyngeal pouches are the source of parafollicular cells of the thyroid and palatine tonsil, respectively?",
+    "options": [
+      "Pouch I - pouch III",
+      "Pouch IV - pouch II",
+      "Pouch III - pouch IV",
+      "Pouch II - pouch III"
+    ],
+    "answer": 1,
+    "answerText": "Pouch IV - pouch II",
+    "explanation": "The parafollicular cells of the thyroid gland originate from the 4th pharyngeal pouch, while the palatine tonsils are derived from the 2nd pharyngeal pouch.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Golshan - Question 5</span> What is the embryological origin of the Hassall’s corpuscles?",
+    "options": [
+      "Endoderm - thymic epithelium",
+      "Mesoderm - neural crest",
+      "Ectoderm - cervical sinus",
+      "Neural crest - pharyngeal pouch III"
+    ],
+    "answer": 2,
+    "answerText": "Ectoderm - cervical sinus",
+    "explanation": "Hassall’s corpuscles in the thymus are derived from ectodermal cells associated with the cervical sinus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Golshan - Question 6</span> The 3rd and 6th pharyngeal arches are innervated by .............. and .............. respectively.",
+    "options": [
+      "CN VII - CN IX",
+      "CN IX - CN X",
+      "CN V - CN VII",
+      "CN X - CN XII"
+    ],
+    "answer": 1,
+    "answerText": "CN IX - CN X",
+    "explanation": "The 3rd pharyngeal arch is innervated by the glossopharyngeal nerve (CN IX), while the 6th arch is innervated by the vagus nerve (CN X).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Golshan - Question 7</span> Which of the following is NOT associated with the 6th pharyngeal arch?",
+    "options": [
+      "Recurrent laryngeal nerve",
+      "Arytenoid cartilage",
+      "Superior laryngeal nerve",
+      "Pulmonary arteries"
+    ],
+    "answer": 2,
+    "answerText": "Superior laryngeal nerve",
+    "explanation": "The superior laryngeal nerve is associated with the 4th pharyngeal arch, while the recurrent laryngeal nerve is related to the 6th arch.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Golshan - Question 8</span> Which of the below is not involved in the mesenchyme of the pharyngeal arches?",
+    "options": [
+      "Neural crest",
+      "Lateral plate mesoderm",
+      "Intermediate mesoderm",
+      "Paraxial mesoderm"
+    ],
+    "answer": 2,
+    "answerText": "Intermediate mesoderm",
+    "explanation": "The intermediate mesoderm is not involved in the development of the pharyngeal arches. Instead, the mesenchyme primarily comes from neural crest cells and paraxial mesoderm.",
+    "userAnswer": null
+  }
+]
