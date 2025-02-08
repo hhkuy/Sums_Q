@@ -518,5 +518,317 @@
     "answerText": "Carnitine palmitoyltransferase I",
     "explanation": "Carnitine palmitoyltransferase I regulates the entry of fatty acids into mitochondria for beta-oxidation and is inhibited by malonyl-CoA.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 1</span> Which of the following glucose transporters (GLUT) is important in insulin-dependent glucose uptake?",
+    "options": [
+      "GLUT1",
+      "GLUT2",
+      "GLUT3",
+      "GLUT4"
+    ],
+    "answer": 3,
+    "answerText": "GLUT4",
+    "explanation": "GLUT4 is the primary glucose transporter responsible for insulin-dependent glucose uptake in skeletal muscle and adipose tissue.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 2</span> The key regulatory enzyme of glycolysis is?",
+    "options": [
+      "Hexokinase",
+      "Phosphofructokinase",
+      "Pyruvate kinase",
+      "Glucokinase"
+    ],
+    "answer": 1,
+    "answerText": "Phosphofructokinase",
+    "explanation": "Phosphofructokinase is the rate-limiting enzyme in glycolysis, regulating the conversion of fructose-6-phosphate to fructose-1,6-bisphosphate.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 3</span> Which of the following statements about glycolysis is correct?",
+    "options": [
+      "Glycolysis yields 4 ATP molecules per glucose molecule.",
+      "Aerobic glycolysis yields 2 ATPs per molecule of glucose.",
+      "In glycolysis, glucose is cleaved into two three-carbon products.",
+      "NADH is directly converted to ATP in glycolysis."
+    ],
+    "answer": 2,
+    "answerText": "In glycolysis, glucose is cleaved into two three-carbon products.",
+    "explanation": "Glycolysis breaks down glucose into two molecules of pyruvate, which contain three carbon atoms each.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 4</span> The Rapoport shunt is a metabolic pathway in mature erythrocytes involving the formation of _______, which regulates oxygen release from hemoglobin and delivery to tissues.",
+    "options": [
+      "1,3-bisphosphoglycerate",
+      "2,3-bisphosphoglycerate",
+      "Glyceraldehyde 3-phosphate",
+      "Lactate"
+    ],
+    "answer": 1,
+    "answerText": "2,3-bisphosphoglycerate",
+    "explanation": "2,3-bisphosphoglycerate binds to hemoglobin, reducing its affinity for oxygen and facilitating oxygen delivery to tissues.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 5</span> Gluconeogenesis is the production of glucose from non-carbohydrate molecules. Which of the following is not a substrate for gluconeogenesis?",
+    "options": [
+      "Glycerol",
+      "Lactate",
+      "Alanine",
+      "Acetyl CoA"
+    ],
+    "answer": 3,
+    "answerText": "Acetyl CoA",
+    "explanation": "Acetyl CoA cannot serve as a substrate for gluconeogenesis because it is irreversibly converted to CO2 in the TCA cycle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 6</span> ______ and ______ are the only organs that release free glucose from glucose-6-phosphate.",
+    "options": [
+      "Liver and skeletal muscle",
+      "Liver and brain",
+      "Liver and kidney",
+      "Kidney and muscle"
+    ],
+    "answer": 2,
+    "answerText": "Liver and kidney",
+    "explanation": "The liver and kidney possess glucose-6-phosphatase, an enzyme required to release free glucose into the bloodstream.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 7</span> What is the main regulatory enzyme of gluconeogenesis?",
+    "options": [
+      "Pyruvate carboxylase",
+      "Phosphoenolpyruvate carboxykinase",
+      "Fructose-1,6-bisphosphatase",
+      "Glucose-6-phosphatase"
+    ],
+    "answer": 2,
+    "answerText": "Fructose-1,6-bisphosphatase",
+    "explanation": "Fructose-1,6-bisphosphatase is a key regulatory enzyme in gluconeogenesis, converting fructose-1,6-bisphosphate to fructose-6-phosphate.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 8</span> All of the statements given here about Kreb's cycle are true, except:",
+    "options": [
+      "The TCA cycle occurs in the mitochondria.",
+      "It provides intermediates for biosynthetic pathways.",
+      "The rate-limiting step of the TCA cycle is catalyzed by fumarase.",
+      "Acetyl CoA is a key substrate."
+    ],
+    "answer": 2,
+    "answerText": "The rate-limiting step of the TCA cycle is catalyzed by fumarase.",
+    "explanation": "The rate-limiting step of the TCA cycle is catalyzed by isocitrate dehydrogenase, not fumarase.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 9</span> The process of breakdown of glycogen to glucose is known as ______.",
+    "options": [
+      "Glycolysis",
+      "Gluconeogenesis",
+      "Glycogenolysis",
+      "Glycogenesis"
+    ],
+    "answer": 2,
+    "answerText": "Glycogenolysis",
+    "explanation": "Glycogenolysis involves the breakdown of glycogen into glucose to maintain blood glucose levels.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 10</span> Which enzyme's deficiency leads to a glycogen storage disease known as Von Gierke?",
+    "options": [
+      "Phosphorylase kinase",
+      "Glycogen synthase",
+      "Glucose-6-phosphatase",
+      "Debranching enzyme"
+    ],
+    "answer": 2,
+    "answerText": "Glucose-6-phosphatase",
+    "explanation": "A deficiency in glucose-6-phosphatase causes Von Gierke disease, leading to impaired glycogen breakdown and hypoglycemia.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 11</span> Which of the following enzymes is considered defective in classic galactosemia, a fatal genetic disorder in infants?",
+    "options": [
+      "Galactokinase",
+      "Galactose-1-phosphate uridyl transferase",
+      "UDP-glucose epimerase",
+      "Hexokinase"
+    ],
+    "answer": 1,
+    "answerText": "Galactose-1-phosphate uridyl transferase",
+    "explanation": "Classic galactosemia results from a deficiency of galactose-1-phosphate uridyl transferase, leading to the accumulation of toxic metabolites.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 12</span> What are the two major products of the pentose phosphate pathway?",
+    "options": [
+      "Ribose and ATP",
+      "NADH and FADH2",
+      "Ribose and NADPH",
+      "Fructose and pyruvate"
+    ],
+    "answer": 2,
+    "answerText": "Ribose and NADPH",
+    "explanation": "The pentose phosphate pathway produces ribose for nucleotide synthesis and NADPH for reductive biosynthesis and antioxidant defense.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 13</span> Maple syrup disease is a disorder due to a deficiency of the pathway that degrades:",
+    "options": [
+      "Valine",
+      "Isoleucine",
+      "Glutamate",
+      "Alanine"
+    ],
+    "answer": 1,
+    "answerText": "Isoleucine",
+    "explanation": "Maple syrup urine disease results from the defective breakdown of branched-chain amino acids such as isoleucine, leucine, and valine.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 14</span> Which of the following statements about the urea cycle is correct?",
+    "options": [
+      "Urea is synthesized in the cytosol exclusively.",
+      "The urea cycle occurs only in the kidneys.",
+      "Arginine is hydrolyzed to urea and ornithine in the urea cycle.",
+      "Ammonia is directly excreted without conversion."
+    ],
+    "answer": 2,
+    "answerText": "Arginine is hydrolyzed to urea and ornithine in the urea cycle.",
+    "explanation": "Arginine is broken down into urea and ornithine by the enzyme arginase during the final step of the urea cycle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 15</span> Which of the following statements about transamination reactions is correct?",
+    "options": [
+      "They require biotin as a cofactor.",
+      "Transamination reactions produce ATP directly.",
+      "Transamination reactions require pyridoxal-5'-phosphate (PLP).",
+      "They are irreversible in most cases."
+    ],
+    "answer": 2,
+    "answerText": "Transamination reactions require pyridoxal-5'-phosphate (PLP).",
+    "explanation": "PLP, derived from vitamin B6, is the cofactor required for transamination reactions, which transfer amino groups between amino acids and α-keto acids.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 16</span> Which of the following amino acids have been solely regarded as ketogenic amino acids?",
+    "options": [
+      "Alanine and Serine",
+      "Glycine and Glutamate",
+      "Lysine and Leucine",
+      "Valine and Methionine"
+    ],
+    "answer": 2,
+    "answerText": "Lysine and Leucine",
+    "explanation": "Lysine and leucine are purely ketogenic amino acids because they are metabolized to ketone bodies and not glucose.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 17</span> Amino acids are released into the portal system by:",
+    "options": [
+      "Active transport",
+      "Simple diffusion",
+      "Facilitated diffusion",
+      "Pinocytosis"
+    ],
+    "answer": 2,
+    "answerText": "Facilitated diffusion",
+    "explanation": "Amino acids are absorbed into the bloodstream via facilitated diffusion, requiring specific carrier proteins.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 18</span> Which enzyme is deficient in alkaptonuria?",
+    "options": [
+      "Tyrosinase",
+      "Phenylalanine hydroxylase",
+      "Homogentisate dioxygenase",
+      "Glutamate dehydrogenase"
+    ],
+    "answer": 2,
+    "answerText": "Homogentisate dioxygenase",
+    "explanation": "Alkaptonuria is caused by a deficiency of homogentisate dioxygenase, leading to the accumulation of homogentisic acid.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 19</span> Which chemical in the urine may indicate tumors of the adrenal (pheochromocytoma)?",
+    "options": [
+      "5-HIAA and serotonin",
+      "VMA and HVA",
+      "Glucose and ketones",
+      "Homogentisic acid"
+    ],
+    "answer": 1,
+    "answerText": "VMA and HVA",
+    "explanation": "Vanillylmandelic acid (VMA) and homovanillic acid (HVA) are metabolites of catecholamines, elevated in adrenal tumors like pheochromocytoma.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 20</span> Identify the amino acid that is considered a precursor of serotonin:",
+    "options": [
+      "Valine",
+      "Leucine",
+      "Tryptophan",
+      "Alanine"
+    ],
+    "answer": 2,
+    "answerText": "Tryptophan",
+    "explanation": "Tryptophan is hydroxylated and decarboxylated to form serotonin, a neurotransmitter involved in mood regulation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 21</span> Which of the following is the only plasma enzyme normally found in urine?",
+    "options": [
+      "Lipase",
+      "Amylase",
+      "Trypsin",
+      "Alkaline phosphatase"
+    ],
+    "answer": 1,
+    "answerText": "Amylase",
+    "explanation": "Amylase, primarily secreted by the pancreas and salivary glands, is the only plasma enzyme normally excreted in urine.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 22</span> Which of the following is the most important cause of increased aminotransferase activity in serum?",
+    "options": [
+      "Kidney disease",
+      "Liver disease",
+      "Muscle injury",
+      "Anemia"
+    ],
+    "answer": 1,
+    "answerText": "Liver disease",
+    "explanation": "Elevated serum aminotransferases, including ALT and AST, are primarily indicative of liver damage or dysfunction.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 23</span> What enzyme in the body is measured to diagnose rhabdomyolysis?",
+    "options": [
+      "Lactate dehydrogenase",
+      "Creatine kinase",
+      "Glucose-6-phosphate dehydrogenase",
+      "Transaminase"
+    ],
+    "answer": 1,
+    "answerText": "Creatine kinase",
+    "explanation": "Elevated creatine kinase levels indicate muscle damage, which is characteristic of rhabdomyolysis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 24</span> All of the following are pancreatic-specific enzymes, except:",
+    "options": [
+      "Amylase",
+      "Lipase",
+      "Trypsin",
+      "Alkaline phosphatase"
+    ],
+    "answer": 3,
+    "answerText": "Alkaline phosphatase",
+    "explanation": "Alkaline phosphatase is primarily produced in the liver, bones, and intestines, and it is not specific to the pancreas.",
+    "userAnswer": null
   }
 ]
