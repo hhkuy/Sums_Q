@@ -90,6 +90,16 @@
     ]
   },
   {
+    "topicName": "Clinical Biochemistry",
+    "description": "related to Second Semster",
+    "subTopics": [
+      {
+        "name": "Clinical Biochemistry",
+        "file": "data/clinical_biochemistry_clinical_biochemistry.json"
+      }
+    ]
+  },
+  {
     "topicName": "Urinary System",
     "description": "related third semester",
     "subTopics": [
