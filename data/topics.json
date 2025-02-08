@@ -90,6 +90,18 @@
       {
         "name": "Anatomy, histology & embryology",
         "file": "data/cardiovascular_system_block_anatomy,_histology_&_embryology.json"
+      },
+      {
+        "name": "Anatomy ",
+        "file": "data/cardiovascular_system_block_anatomy_.json"
+      },
+      {
+        "name": "Histology ",
+        "file": "data/cardiovascular_system_block_histology_.json"
+      },
+      {
+        "name": "Embryology",
+        "file": "data/cardiovascular_system_block_embryology.json"
       }
     ]
   },
