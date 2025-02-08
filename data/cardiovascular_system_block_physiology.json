@@ -752,5 +752,291 @@
     "answerText": "Hematoblast",
     "explanation": "Hematoblast (also called a hematopoietic stem cell) gives rise to all blood cell types.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 1</span> When does the aortic valve close?",
+    "options": [
+      "Left ventricular pressure is higher than aortic pressure",
+      "Aortic pressure is higher than left ventricular pressure",
+      "Right atrial pressure is higher than left atrial pressure",
+      "Aortic flow reaches zero"
+    ],
+    "answer": 1,
+    "answerText": "Aortic pressure is higher than left ventricular pressure",
+    "explanation": "The aortic valve closes when the pressure in the aorta exceeds that of the left ventricle, preventing backflow into the ventricle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 2</span> Which ion currents exist in the plateau phase of the action potential in ventricular muscle cells?",
+    "options": [
+      "Na+ influx and K+ efflux",
+      "Ca++ influx and K+ efflux",
+      "Cl− influx and Na+ efflux",
+      "K+ influx and Ca++ efflux"
+    ],
+    "answer": 1,
+    "answerText": "Ca++ influx and K+ efflux",
+    "explanation": "The plateau phase of the ventricular action potential is maintained by calcium influx and potassium efflux, allowing sustained contraction.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 3</span> Which one of the following effects takes place in the SA node by vagus stimulation?",
+    "options": [
+      "Depolarization",
+      "Hyperpolarization",
+      "Increased heart rate",
+      "Decreased conduction velocity"
+    ],
+    "answer": 1,
+    "answerText": "Hyperpolarization",
+    "explanation": "Vagal stimulation releases acetylcholine, causing hyperpolarization of the SA node, which slows the heart rate.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 4</span> How many degrees is the axis of lead aVR in the normal electrocardiogram?",
+    "options": [
+      "60",
+      "150",
+      "210",
+      "270"
+    ],
+    "answer": 2,
+    "answerText": "210",
+    "explanation": "The axis of lead aVR is normally at 210 degrees, representing electrical activity directed toward the right upper limb.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 5</span> Which part of an electrocardiogram increases in length as the heart rate decreases?",
+    "options": [
+      "PR segment",
+      "ST segment",
+      "TP segment",
+      "QRS complex"
+    ],
+    "answer": 2,
+    "answerText": "TP segment",
+    "explanation": "The TP segment, representing the time between the end of one cardiac cycle and the start of the next, lengthens as the heart rate decreases.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 6</span> In which phase of ventricular systole is the largest amount of blood pumped from the left ventricle into the aorta?",
+    "options": [
+      "Isovolumetric contraction",
+      "Rapid ejection",
+      "Reduced ejection",
+      "Isovolumetric relaxation"
+    ],
+    "answer": 1,
+    "answerText": "Rapid ejection",
+    "explanation": "During the rapid ejection phase, the majority of blood is pumped from the left ventricle into the aorta.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 7</span> What is afterload in the left ventricle?",
+    "options": [
+      "End-systolic volume",
+      "Left atrial pressure",
+      "Aortic arterial pressure",
+      "Left ventricular end-diastolic pressure"
+    ],
+    "answer": 2,
+    "answerText": "Aortic arterial pressure",
+    "explanation": "Afterload refers to the resistance the left ventricle must overcome to eject blood, which is determined by aortic arterial pressure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 8</span> Which of the following factors is the main determinant of the production rate of red blood cells?",
+    "options": [
+      "Iron availability",
+      "Bone marrow function",
+      "The functional power of red blood cells to transfer oxygen to tissues",
+      "Plasma erythropoietin concentration"
+    ],
+    "answer": 2,
+    "answerText": "The functional power of red blood cells to transfer oxygen to tissues",
+    "explanation": "The oxygen-carrying ability of RBCs and the oxygen needs of tissues regulate erythropoiesis via erythropoietin.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 9</span> What is the main problem of patients with hereditary spherocytosis?",
+    "options": [
+      "Defective hemoglobin synthesis",
+      "Red blood cells lack hemoglobin",
+      "Red blood cells do not have a bag-shaped structure and a biconcave cell membrane",
+      "Abnormally high hematocrit"
+    ],
+    "answer": 2,
+    "answerText": "Red blood cells do not have a bag-shaped structure and a biconcave cell membrane",
+    "explanation": "Hereditary spherocytosis is characterized by spherical red blood cells that lack the typical biconcave shape, leading to increased fragility and hemolysis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 10</span> Which of the following refers to the effects of anemia on the circulatory system?",
+    "options": [
+      "Decreased blood flow to tissues",
+      "Increase in the workload of the heart",
+      "Increased oxygen saturation",
+      "Decreased erythropoietin production"
+    ],
+    "answer": 1,
+    "answerText": "Increase in the workload of the heart",
+    "explanation": "In anemia, reduced oxygen-carrying capacity leads to compensatory mechanisms, including increased cardiac output, which raises the heart’s workload.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 11</span> Under normal conditions, which of the following cells exists in the bloodstream?",
+    "options": [
+      "Myeloblast",
+      "Proerythroblast",
+      "Reticulocyte",
+      "Megakaryocyte"
+    ],
+    "answer": 2,
+    "answerText": "Reticulocyte",
+    "explanation": "Reticulocytes are immature red blood cells normally found in the bloodstream and are an indicator of active erythropoiesis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 12</span> In the trapping of viral particles by alveolar macrophages, which line of defense is active?",
+    "options": [
+      "First line of defense",
+      "Second line of defense",
+      "Third line of defense",
+      "Adaptive immune response"
+    ],
+    "answer": 0,
+    "answerText": "First line of defense",
+    "explanation": "Alveolar macrophages act as part of the body’s first line of defense by trapping and destroying pathogens in the lungs.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 13</span> The conversion of prothrombin to thrombin is done by……",
+    "options": [
+      "Platelets",
+      "Prothrombin activator",
+      "Fibrin",
+      "Factor IX"
+    ],
+    "answer": 1,
+    "answerText": "Prothrombin activator",
+    "explanation": "Prothrombin activator, composed of clotting factors, initiates the conversion of prothrombin into thrombin during coagulation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 14</span> Which coagulation factor initiates the internal pathway of blood clotting?",
+    "options": [
+      "Factor IX",
+      "Factor X",
+      "Factor XII",
+      "Factor V"
+    ],
+    "answer": 2,
+    "answerText": "Factor XII",
+    "explanation": "Factor XII is activated upon contact with a damaged surface and initiates the intrinsic pathway of blood coagulation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 15</span> Brain capillary type is ………",
+    "options": [
+      "Continuous",
+      "Fenestrated",
+      "Sinusoidal",
+      "Discontinuous"
+    ],
+    "answer": 0,
+    "answerText": "Continuous",
+    "explanation": "Brain capillaries are continuous, with tight junctions forming the blood-brain barrier to regulate the movement of substances.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 16</span> What happens if venous valves and the venous pump are disrupted?",
+    "options": [
+      "Peripheral arterial disease",
+      "Varicose veins",
+      "Pulmonary embolism",
+      "Ischemic stroke"
+    ],
+    "answer": 1,
+    "answerText": "Varicose veins",
+    "explanation": "Disruption of venous valves and pumps leads to blood pooling in the veins, causing varicose veins due to increased venous pressure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 17</span> Based on Poiseuille's law, which factor has more effect on blood flow?",
+    "options": [
+      "Vessel length",
+      "Viscosity of blood",
+      "Radius of vessel",
+      "Blood pressure"
+    ],
+    "answer": 2,
+    "answerText": "Radius of vessel",
+    "explanation": "According to Poiseuille’s law, blood flow is most sensitive to changes in the radius of the vessel, as it is proportional to the fourth power of the radius.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 18</span> Aorta, arterioles, capillaries, venules, and veins are connected like ……… circuits connection.",
+    "options": [
+      "Parallel",
+      "Series",
+      "Independent",
+      "Divergent"
+    ],
+    "answer": 1,
+    "answerText": "Series",
+    "explanation": "The vascular system is arranged in a series circuit, where blood flows sequentially through arteries, capillaries, and veins.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 19</span> Suppose that the flow rate of a vessel is 100 cm³/sec. What happens if viscosity is doubled?",
+    "options": [
+      "Blood flow decreases to 25 cm³/sec",
+      "Blood flow remains the same",
+      "Blood flow decreases to 50 cm³/sec",
+      "Blood flow increases"
+    ],
+    "answer": 2,
+    "answerText": "Blood flow decreases to 50 cm³/sec",
+    "explanation": "Doubling viscosity reduces blood flow by half, as flow is inversely proportional to viscosity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 20</span> The …….. of a vessel increases in proportion to the fourth power of the radius.",
+    "options": [
+      "Resistance",
+      "Conductance",
+      "Capacitance",
+      "Compliance"
+    ],
+    "answer": 1,
+    "answerText": "Conductance",
+    "explanation": "Conductance, the measure of how easily blood flows through a vessel, is proportional to the fourth power of the radius, making small changes in radius highly significant.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 21</span> The circulatory system is composed of:",
+    "options": [
+      "Systemic circulation",
+      "Pulmonary circulation",
+      "Systemic and cardiopulmonary circulation",
+      "Lymphatic circulation only"
+    ],
+    "answer": 2,
+    "answerText": "Systemic and cardiopulmonary circulation",
+    "explanation": "The circulatory system includes both systemic circulation (delivering oxygenated blood) and pulmonary circulation (oxygenating blood in the lungs).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 22</span> Which vessel has the lowest blood velocity?",
+    "options": [
+      "Arterioles",
+      "Capillaries",
+      "Venules",
+      "Large veins"
+    ],
+    "answer": 1,
+    "answerText": "Capillaries",
+    "explanation": "Capillaries have the lowest blood velocity due to their extensive cross-sectional area, allowing for efficient nutrient and gas exchange.",
+    "userAnswer": null
   }
 ]
