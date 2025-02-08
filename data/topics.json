@@ -76,6 +76,14 @@
       {
         "name": "Head and neck ",
         "file": "data/head_and_neck_head_and_neck_.json"
+      },
+      {
+        "name": "Anatomy ",
+        "file": "data/head_and_neck_anatomy_.json"
+      },
+      {
+        "name": "Embryology",
+        "file": "data/head_and_neck_embryology.json"
       }
     ]
   },
