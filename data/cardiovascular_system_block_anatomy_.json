@@ -1,0 +1,392 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 1</span> Most lymphatics of the breast drain into which lymph nodes?",
+    "options": [
+      "Parasternal",
+      "Axillary",
+      "Subclavian",
+      "Cervical"
+    ],
+    "answer": 1,
+    "answerText": "Axillary",
+    "explanation": "The majority of lymph from the breast drains into the axillary lymph nodes, making them crucial in breast cancer metastasis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 2</span> The esophagus passes through the diaphragm at the level of which vertebra?",
+    "options": [
+      "T8",
+      "T10",
+      "T12",
+      "L1"
+    ],
+    "answer": 1,
+    "answerText": "T10",
+    "explanation": "The esophagus passes through the esophageal hiatus of the diaphragm at the level of T10.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 3</span> The bifurcation of the trachea is at the level of …",
+    "options": [
+      "T3",
+      "Intervertebral disc between T4 and T5",
+      "T6",
+      "T1"
+    ],
+    "answer": 1,
+    "answerText": "Intervertebral disc between T4 and T5",
+    "explanation": "The trachea bifurcates into the left and right bronchi at the level of the intervertebral disc between T4 and T5, corresponding to the sternal angle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 4</span> Which costal cartilage is articulated to the sternal angle?",
+    "options": [
+      "First",
+      "Second",
+      "Third",
+      "Fourth"
+    ],
+    "answer": 1,
+    "answerText": "Second",
+    "explanation": "The second costal cartilage articulates with the sternum at the sternal angle, a key anatomical landmark.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 5</span> The external intercostal muscle in the anterior part of the intercostal space changes to the …",
+    "options": [
+      "External intercostal membrane",
+      "Endothoracic fascia",
+      "Internal intercostal membrane",
+      "Transversus thoracis"
+    ],
+    "answer": 0,
+    "answerText": "External intercostal membrane",
+    "explanation": "The external intercostal muscles terminate anteriorly and continue as the external intercostal membrane.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 6</span> The breast is innervated by which nerves?",
+    "options": [
+      "T1-T4",
+      "T2-T6",
+      "T7-T9",
+      "T4-T8"
+    ],
+    "answer": 1,
+    "answerText": "T2-T6",
+    "explanation": "The breast is innervated by anterior and lateral cutaneous branches of the intercostal nerves T2-T6.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 7</span> Which muscle is located only in the middle two-fourths of the intercostal spaces?",
+    "options": [
+      "External intercostal",
+      "Internal intercostal",
+      "Innermost intercostal",
+      "Transversus thoracis"
+    ],
+    "answer": 2,
+    "answerText": "Innermost intercostal",
+    "explanation": "The innermost intercostal muscles are only found in the middle portions of the intercostal spaces.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 8</span> Where is the location of the coronary sinus?",
+    "options": [
+      "Posterior to the right atrium",
+      "Inferior surface of the heart between the left atrium and left ventricle",
+      "Anterior to the interventricular septum",
+      "Near the apex of the heart"
+    ],
+    "answer": 1,
+    "answerText": "Inferior surface of the heart between the left atrium and left ventricle",
+    "explanation": "The coronary sinus is located on the inferior surface of the heart, draining deoxygenated blood into the right atrium.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 9</span> Which structure is located on the superior part of the crista terminalis, lateral to the opening of the superior vena cava?",
+    "options": [
+      "Atrioventricular node",
+      "Sinoatrial node",
+      "Bundle of His",
+      "Pulmonary valve"
+    ],
+    "answer": 1,
+    "answerText": "Sinoatrial node",
+    "explanation": "The sinoatrial node, the primary pacemaker of the heart, is situated in this location.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 10</span> Where is the location of the moderator band?",
+    "options": [
+      "Left atrium",
+      "Right ventricle",
+      "Right atrium",
+      "Left ventricle"
+    ],
+    "answer": 1,
+    "answerText": "Right ventricle",
+    "explanation": "The moderator band is a muscular bundle in the right ventricle that carries part of the right bundle branch of the conduction system.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 11</span> The anterior interventricular artery is a branch of …",
+    "options": [
+      "Right coronary artery",
+      "Left coronary artery",
+      "Circumflex artery",
+      "Posterior interventricular artery"
+    ],
+    "answer": 1,
+    "answerText": "Left coronary artery",
+    "explanation": "The anterior interventricular artery (also known as the left anterior descending artery) is a major branch of the left coronary artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 12</span> The posterior intercostal artery of the second intercostal space is formed by …",
+    "options": [
+      "Thoracic aorta",
+      "Supreme intercostal artery",
+      "Musculophrenic artery",
+      "Subclavian artery"
+    ],
+    "answer": 1,
+    "answerText": "Supreme intercostal artery",
+    "explanation": "The supreme intercostal artery, a branch of the costocervical trunk, supplies the first two intercostal spaces.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 13</span> The anterior intercostal artery in the 9th intercostal space is a branch of which artery?",
+    "options": [
+      "Internal thoracic artery",
+      "Musculophrenic artery",
+      "Thoracic aorta",
+      "Superior epigastric artery"
+    ],
+    "answer": 1,
+    "answerText": "Musculophrenic artery",
+    "explanation": "The musculophrenic artery, a terminal branch of the internal thoracic artery, supplies the lower intercostal spaces.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 14</span> The superior intercostal vein on the right side drains into which vein?",
+    "options": [
+      "Right brachiocephalic vein",
+      "Left brachiocephalic vein",
+      "Arch of azygos vein",
+      "Superior vena cava"
+    ],
+    "answer": 2,
+    "answerText": "Arch of azygos vein",
+    "explanation": "The right superior intercostal vein drains into the arch of the azygos vein, which then drains into the superior vena cava.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 15</span> Where is the location of the bifurcation of the internal thoracic artery?",
+    "options": [
+      "4th intercostal space",
+      "5th intercostal space",
+      "6th intercostal space",
+      "7th intercostal space"
+    ],
+    "answer": 2,
+    "answerText": "6th intercostal space",
+    "explanation": "The internal thoracic artery bifurcates into the musculophrenic and superior epigastric arteries at the 6th intercostal space.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 16</span> Where is the location of Haller’s oblique sinus?",
+    "options": [
+      "Between the left atrium and esophagus",
+      "Between the right atrium and pulmonary trunk",
+      "Between the aorta and pulmonary artery",
+      "Between the left ventricle and diaphragm"
+    ],
+    "answer": 0,
+    "answerText": "Between the left atrium and esophagus",
+    "explanation": "Haller’s oblique sinus is a pericardial space located posterior to the left atrium and anterior to the esophagus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 17</span> Which one is located in the superior and anterior mediastinum?",
+    "options": [
+      "Thymus",
+      "Esophagus",
+      "Thoracic duct",
+      "Pulmonary trunk"
+    ],
+    "answer": 0,
+    "answerText": "Thymus",
+    "explanation": "The thymus is located in the superior and anterior mediastinum, primarily in children and young adults.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 18</span> Which one is located in the superior and posterior mediastinum?",
+    "options": [
+      "Azygos vein",
+      "Esophagus",
+      "Thymus",
+      "Right pulmonary artery"
+    ],
+    "answer": 1,
+    "answerText": "Esophagus",
+    "explanation": "The esophagus is part of the superior and posterior mediastinum, descending toward the diaphragm.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 19</span> Where is the bifurcation of the brachiocephalic trunk?",
+    "options": [
+      "Posterior to the left sternoclavicular joint",
+      "Posterior to the right sternoclavicular joint",
+      "At the level of the aortic arch",
+      "Inferior to the right atrium"
+    ],
+    "answer": 1,
+    "answerText": "Posterior to the right sternoclavicular joint",
+    "explanation": "The brachiocephalic trunk bifurcates into the right subclavian and right common carotid arteries posterior to the right sternoclavicular joint.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 20</span> Which structure is located anterior to the 3 main branches of the arch of the aorta?",
+    "options": [
+      "Right brachiocephalic vein",
+      "Left brachiocephalic vein",
+      "Superior vena cava",
+      "Pulmonary artery"
+    ],
+    "answer": 1,
+    "answerText": "Left brachiocephalic vein",
+    "explanation": "The left brachiocephalic vein crosses anteriorly over the branches of the aortic arch.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 21</span> Four inferior left posterior intercostal veins drain into the …",
+    "options": [
+      "Azygos vein",
+      "Hemiazygos vein",
+      "Superior vena cava",
+      "Left brachiocephalic vein"
+    ],
+    "answer": 1,
+    "answerText": "Hemiazygos vein",
+    "explanation": "The hemiazygos vein collects blood from the lower left posterior intercostal veins and drains into the azygos vein.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 22</span> The left superior intercostal vein drains into the …",
+    "options": [
+      "Left brachiocephalic vein",
+      "Right brachiocephalic vein",
+      "Azygos vein",
+      "Hemiazygos vein"
+    ],
+    "answer": 0,
+    "answerText": "Left brachiocephalic vein",
+    "explanation": "The left superior intercostal vein drains directly into the left brachiocephalic vein.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 23</span> Where is the location of the thoracic duct in the posterior mediastinum?",
+    "options": [
+      "Anterior to the esophagus",
+      "Posterior to the azygos vein",
+      "Posterior to the esophagus",
+      "Adjacent to the pulmonary trunk"
+    ],
+    "answer": 2,
+    "answerText": "Posterior to the esophagus",
+    "explanation": "The thoracic duct ascends through the posterior mediastinum, positioned posterior to the esophagus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 24</span> Which vertebrae have long and oblique spinous processes?",
+    "options": [
+      "Cervical",
+      "Thoracic",
+      "Lumbar",
+      "Sacral"
+    ],
+    "answer": 1,
+    "answerText": "Thoracic",
+    "explanation": "Thoracic vertebrae have long, downward-sloping spinous processes, distinguishing them from cervical and lumbar vertebrae.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 25</span> Which vertebrae have large bodies and triangular vertebral foramina?",
+    "options": [
+      "Cervical",
+      "Thoracic",
+      "Lumbar",
+      "Sacral"
+    ],
+    "answer": 2,
+    "answerText": "Lumbar",
+    "explanation": "Lumbar vertebrae have large bodies to support the weight of the upper body and triangular vertebral foramina.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 26</span> The central gelatinous part of the intervertebral disc is called …",
+    "options": [
+      "Annulus fibrosus",
+      "Ligamentum flavum",
+      "Nucleus pulposus",
+      "Intervertebral ligament"
+    ],
+    "answer": 2,
+    "answerText": "Nucleus pulposus",
+    "explanation": "The nucleus pulposus is the soft, gelatinous core of the intervertebral disc that helps absorb shock and allows flexibility.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 27</span> Increasing of the anterior convexity of the lumbar part of the vertebral column is named …",
+    "options": [
+      "Kyphosis",
+      "Lordosis",
+      "Scoliosis",
+      "Humpback"
+    ],
+    "answer": 1,
+    "answerText": "Lordosis",
+    "explanation": "Lordosis refers to the inward curvature of the lumbar spine, increasing its anterior convexity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 28</span> Which nerve passes posterior to the pulmonary root?",
+    "options": [
+      "Phrenic nerve",
+      "Vagus nerve",
+      "Sympathetic chain",
+      "Recurrent laryngeal nerve"
+    ],
+    "answer": 1,
+    "answerText": "Vagus nerve",
+    "explanation": "The vagus nerve passes posterior to the pulmonary root, while the phrenic nerve passes anteriorly.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 29</span> Which muscle is covered by the clavipectoral fascia?",
+    "options": [
+      "Pectoralis major",
+      "Pectoralis minor",
+      "Serratus anterior",
+      "Subclavius"
+    ],
+    "answer": 1,
+    "answerText": "Pectoralis minor",
+    "explanation": "The clavipectoral fascia encloses the pectoralis minor and subclavius muscles.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Hasanzadeh - Question 30</span> The serratus anterior muscle is innervated by …",
+    "options": [
+      "Axillary nerve",
+      "Long thoracic nerve",
+      "Musculocutaneous nerve",
+      "Thoracodorsal nerve"
+    ],
+    "answer": 1,
+    "answerText": "Long thoracic nerve",
+    "explanation": "The long thoracic nerve innervates the serratus anterior, which is essential for scapular protraction and stabilization.",
+    "userAnswer": null
+  }
+]
