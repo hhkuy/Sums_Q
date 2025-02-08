@@ -5,6 +5,13 @@
     <title>SUMS Questions - Quiz Application</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- تضمين MathJax لدعم المعادلات الرياضية -->
+<script type="text/javascript" async
+    src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
     <style>
         body {
             margin: 0;
@@ -756,6 +763,30 @@
 
     <!-- ربط ملف الجافاسكربت الرئيسي -->
     <script src="js/main.js"></script>
+
+    <script>
+    // دالة تقوم بتحويل النصوص إلى تنسيق MathJax تلقائياً
+    function renderMathJax() {
+        if (window.MathJax) {
+            MathJax.typesetPromise();
+        }
+    }
+
+    // دالة تقوم بإدخال المعادلات العلمية إلى صيغة MathJax
+    function formatScientificNotation() {
+        document.querySelectorAll("#quiz-form, #quiz-title").forEach(container => {
+            container.innerHTML = container.innerHTML
+                .replace(/\^\{(\d+)([a-z]*)\}([A-Za-z]+)/g, '\\( ^{$1$2}$3 \\)')
+                .replace(/\^\{(\d+)\}([A-Za-z]+)/g, '\\( ^{$1}$2 \\)');
+        });
+        renderMathJax();
+    }
+
+    // استدعاء الدالة عند تحميل الصفحة أو تحديث الأسئلة
+    document.addEventListener("DOMContentLoaded", () => {
+        formatScientificNotation();
+    });
+</script>
 
 </body>
 </html>
