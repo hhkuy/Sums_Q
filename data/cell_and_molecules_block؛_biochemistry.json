@@ -830,5 +830,837 @@
     "answerText": "Triacylglycerols",
     "explanation": "Triacylglycerols (TAGs) are stored in adipocytes as energy reserves.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 1</span> All of the following are strong chemical bonds, EXCEPT:",
+    "options": [
+      "Covalent bond",
+      "Ionic bond",
+      "Hydrogen bond",
+      "Metallic bond"
+    ],
+    "answer": 2,
+    "answerText": "Hydrogen bond",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 2</span> A stronger acid has a ……………Ka and a ………. pK.",
+    "options": [
+      "Small, Large",
+      "Small, Small",
+      "Large, Large",
+      "Large, Small"
+    ],
+    "answer": 3,
+    "answerText": "Large, Small",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 3</span> The interatomic linkage that results from the sharing of an electron pair between two atoms is known as:",
+    "options": [
+      "Ionic bond",
+      "Covalent bond",
+      "Hydrogen bond",
+      "Metallic bond"
+    ],
+    "answer": 1,
+    "answerText": "Covalent bond",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 4</span> All of the following are major buffer systems responsible for regulating blood pH, EXCEPT:",
+    "options": [
+      "Bicarbonate buffer",
+      "Phosphate buffer",
+      "Hemoglobin buffer",
+      "Sulfuric acid"
+    ],
+    "answer": 3,
+    "answerText": "Sulfuric acid",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 5</span> A buffer consists of:",
+    "options": [
+      "A strong acid and its conjugate base",
+      "A weak base and its conjugate acid",
+      "A weak acid and its conjugate base",
+      "A strong base and its conjugate acid"
+    ],
+    "answer": 2,
+    "answerText": "A weak acid and its conjugate base",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 6</span> Molecules that have both polar and nonpolar regions are:",
+    "options": [
+      "Amphipathic",
+      "Hydrophobic",
+      "Hydrophilic",
+      "Neutral"
+    ],
+    "answer": 0,
+    "answerText": "Amphipathic",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 7</span> Polar amino acids in an aqueous solution are found:",
+    "options": [
+      "Buried inside proteins",
+      "On the surface of proteins",
+      "Bound to hydrophobic cores",
+      "Within lipid membranes"
+    ],
+    "answer": 1,
+    "answerText": "On the surface of proteins",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 8</span> The greatest buffering capacity at physiological pH would be provided by a protein rich in which of the following amino acids?",
+    "options": [
+      "Glutamate",
+      "Arginine",
+      "Histidine",
+      "Lysine"
+    ],
+    "answer": 2,
+    "answerText": "Histidine",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 9</span> In which amino acid is the guanidino group found?",
+    "options": [
+      "Lysine",
+      "Arginine",
+      "Histidine",
+      "Glutamine"
+    ],
+    "answer": 1,
+    "answerText": "Arginine",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 10</span> Which of the following factors increases the hemoglobin affinity for oxygen?",
+    "options": [
+      "Decrease in CO2",
+      "Increase of CO",
+      "Decrease in pH",
+      "Increase in 2,3-BPG"
+    ],
+    "answer": 1,
+    "answerText": "Increase of CO",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 11</span> The primary structure of proteins is primarily maintained by:",
+    "options": [
+      "Hydrogen bonds",
+      "Ionic bonds",
+      "Peptide bonds",
+      "Disulfide bonds"
+    ],
+    "answer": 2,
+    "answerText": "Peptide bonds",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 12</span> Name the protein responsible for the extensibility and elasticity of connective tissues:",
+    "options": [
+      "Collagen",
+      "Elastin",
+      "Fibronectin",
+      "Actin"
+    ],
+    "answer": 1,
+    "answerText": "Elastin",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 13</span> Which of the following correctly describes the Bohr effect?",
+    "options": [
+      "Hemoglobin’s cooperative binding mechanism",
+      "The impact of oxygen concentration on CO2 binding",
+      "Effect of pH and CO2 concentration on the binding and release of oxygen by hemoglobin",
+      "The oxygen-binding curve shift due to increased 2,3-BPG"
+    ],
+    "answer": 2,
+    "answerText": "Effect of pH and CO2 concentration on the binding and release of oxygen by hemoglobin",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 14</span> Which of the following reactions is catalyzed by isomerase?",
+    "options": [
+      "Hydrolysis of peptide bonds",
+      "Phosphorylation",
+      "Intramolecular rearrangement of bonds",
+      "Reduction of disulfide bonds"
+    ],
+    "answer": 2,
+    "answerText": "Intramolecular rearrangement of bonds",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 15</span> According to the Michaelis-Menten kinetics, when substrate concentration is very high:",
+    "options": [
+      "V₀ = Vmax",
+      "V₀ = ½ Vmax",
+      "V₀ is independent of substrate",
+      "Enzyme is inactive"
+    ],
+    "answer": 0,
+    "answerText": "V₀ = Vmax",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 16</span> All of the following statements are true about the Km (Michaelis constant), EXCEPT:",
+    "options": [
+      "Reflects the substrate concentration needed for half-maximal velocity",
+      "Indicates the enzyme’s affinity for its substrate",
+      "Has a higher numerical value when the enzyme has high affinity for its substrate",
+      "Can vary with changes in enzyme conditions"
+    ],
+    "answer": 2,
+    "answerText": "Has a higher numerical value when the enzyme has high affinity for its substrate",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 17</span> Enzymes synthesized in an inactive form are called:",
+    "options": [
+      "Allosteric enzymes",
+      "Isoenzymes",
+      "Proenzymes",
+      "Cofactors"
+    ],
+    "answer": 2,
+    "answerText": "Proenzymes",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 18</span> Which statement is incorrect about allosteric enzymes?",
+    "options": [
+      "They exhibit cooperative substrate binding",
+      "An allosteric substrate functions as a negative effector",
+      "Allosteric activators and inhibitors affect activity",
+      "They often regulate key metabolic pathways"
+    ],
+    "answer": 1,
+    "answerText": "An allosteric substrate functions as a negative effector",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 19</span> Inhibition of HMG-CoA reductase by atorvastatin falls into which category of inhibition?",
+    "options": [
+      "Noncompetitive inhibition",
+      "Competitive inhibition",
+      "Uncompetitive inhibition",
+      "Allosteric inhibition"
+    ],
+    "answer": 1,
+    "answerText": "Competitive inhibition",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 20</span> Which of the following statements about isoenzymes is not true?",
+    "options": [
+      "Catalyze the same reaction",
+      "Differ in amino acid sequences",
+      "Catalyze different reactions",
+      "Differ in kinetic properties"
+    ],
+    "answer": 2,
+    "answerText": "Catalyze different reactions",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 21</span> Succinate is the substrate for succinate dehydrogenase that converts succinate to fumarate. In the presence of a reversible competitive inhibitor like malonate in place of succinate, the enzyme’s:",
+    "options": [
+      "Km increases and Vmax decreases",
+      "Km increases and Vmax remains the same",
+      "Km decreases and Vmax remains the same",
+      "Both Km and Vmax decrease"
+    ],
+    "answer": 1,
+    "answerText": "Km increases and Vmax remains the same",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 22</span> Which of the following monosaccharides is the precursor for the synthesis of glycogen as a storage carbohydrate in animals?",
+    "options": [
+      "Fructose",
+      "Glucose",
+      "Galactose",
+      "Mannose"
+    ],
+    "answer": 1,
+    "answerText": "Glucose",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 23</span> α-glucose and β-glucose are:",
+    "options": [
+      "Epimers",
+      "Anomers",
+      "Enantiomers",
+      "Diastereomers"
+    ],
+    "answer": 1,
+    "answerText": "Anomers",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 24</span> Which of the following are enantiomers:",
+    "options": [
+      "D-Glucose and D-Galactose",
+      "D-Glucose and L-Glucose",
+      "D-Galactose and L-Galactose",
+      "α-glucose and β-glucose"
+    ],
+    "answer": 2,
+    "answerText": "D-Galactose and L-Galactose",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 25</span> Which of the following monosaccharides can act as a structural component for biosynthesis of ATP?",
+    "options": [
+      "Glucose",
+      "Ribose",
+      "Fructose",
+      "Mannose"
+    ],
+    "answer": 1,
+    "answerText": "Ribose",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 26</span> The following structure is related to sucrose. Which statement is true about it?<br><img src='https://i.imghippo.com/files/TyK9423ds.png' alt='Image for Q26' style='max-width:100%; height:auto;'>",
+    "options": [
+      "It is a reducing sugar",
+      "It is a nutritionally important disaccharide",
+      "It contains β-glycosidic linkage only",
+      "It is synthesized by animals"
+    ],
+    "answer": 1,
+    "answerText": "It is a nutritionally important disaccharide",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 27</span> Which of the following is not considered as a function of lipids?",
+    "options": [
+      "Energy storage",
+      "Cell membrane structure",
+      "Biological catalysts",
+      "Hormone precursors"
+    ],
+    "answer": 2,
+    "answerText": "Biological catalysts",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 28</span> Which statement is true about amylose and amylopectin?",
+    "options": [
+      "Both of them contain β-linkages",
+      "Both of them contain α-linkages",
+      "Amylose is branched, amylopectin is unbranched",
+      "Both of them have identical structures"
+    ],
+    "answer": 1,
+    "answerText": "Both of them contain α-linkages",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 29</span> One dermatologist wants to design a substance to prevent and treat blood clots in blood vessels and the heart. Which of the following carbohydrates will be suggested?",
+    "options": [
+      "Cellulose",
+      "Heparin",
+      "Starch",
+      "Glycogen"
+    ],
+    "answer": 1,
+    "answerText": "Heparin",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 30</span> Which of the following molecules cannot be hydrolyzed with human intestinal enzymes?",
+    "options": [
+      "Sucrose",
+      "Lactose",
+      "Cellulose",
+      "Maltose"
+    ],
+    "answer": 2,
+    "answerText": "Cellulose",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 31</span> Which enzyme is responsible for unwinding the DNA double helix during replication?",
+    "options": [
+      "Topoisomerase",
+      "Helicase",
+      "DNA polymerase",
+      "Primase"
+    ],
+    "answer": 1,
+    "answerText": "Helicase",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 32</span> Which of the following are involved in the termination of replication?",
+    "options": [
+      "Tus protein",
+      "Helicase",
+      "DNA polymerase",
+      "DNA ligase"
+    ],
+    "answer": 0,
+    "answerText": "Tus protein",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 33</span> What is the function of DNA ligase in DNA replication?",
+    "options": [
+      "Proofreading newly synthesized DNA",
+      "Synthesizing Okazaki fragments",
+      "Connecting Okazaki fragments",
+      "Unwinding the DNA"
+    ],
+    "answer": 2,
+    "answerText": "Connecting Okazaki fragments",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 34</span> The two strands of DNA are held together by:",
+    "options": [
+      "Phosphodiester bonds",
+      "Hydrogen bonds",
+      "Covalent bonds",
+      "Ionic bonds"
+    ],
+    "answer": 1,
+    "answerText": "Hydrogen bonds",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 35</span> Which mechanism is used to repair a double-strand break when a similar sequence is not available?",
+    "options": [
+      "Homologous recombination",
+      "Non-homologous recombination",
+      "Mismatch repair",
+      "Base excision repair"
+    ],
+    "answer": 1,
+    "answerText": "Non-homologous recombination",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 36</span> Which enzyme initiates the base excision repair process?",
+    "options": [
+      "DNA helicase",
+      "DNA uracil glycosylase",
+      "DNA polymerase",
+      "DNA ligase"
+    ],
+    "answer": 1,
+    "answerText": "DNA uracil glycosylase",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 37</span> Sickle cell anemia is caused by which of the following mutations?",
+    "options": [
+      "Nonsense mutation",
+      "Missense mutation",
+      "Frameshift mutation",
+      "Silent mutation"
+    ],
+    "answer": 1,
+    "answerText": "Missense mutation",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 38</span> The transfer of the newly formed Peptidyl-tRNA from the A site to the P site requires:",
+    "options": [
+      "EF-Tu, GTP",
+      "EF-G, GTP",
+      "EF-Ts, GDP",
+      "IF-1, ATP"
+    ],
+    "answer": 1,
+    "answerText": "EF-G, GTP",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 39</span> The binding of prokaryotic RNA polymerase to the promoter of genes is inhibited by which of the following antibiotics?",
+    "options": [
+      "Streptomycin",
+      "Rifamycin",
+      "Tetracycline",
+      "Chloramphenicol"
+    ],
+    "answer": 1,
+    "answerText": "Rifamycin",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 40</span> All of the following are present in the structure of polysomes, EXCEPT:",
+    "options": [
+      "mRNA",
+      "Ribosomes",
+      "tRNA",
+      "DNA"
+    ],
+    "answer": 3,
+    "answerText": "DNA",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 41</span> Which antibiotic inhibits bacterial peptidyl transferase enzyme?",
+    "options": [
+      "Streptomycin",
+      "Tetracycline",
+      "Chloramphenicol",
+      "Erythromycin"
+    ],
+    "answer": 2,
+    "answerText": "Chloramphenicol",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 42</span> Which of the following has a major role in selecting the correct amino acid during protein synthesis?",
+    "options": [
+      "Ribosome",
+      "EF-Tu",
+      "Aminoacyl-tRNA synthetase",
+      "mRNA"
+    ],
+    "answer": 2,
+    "answerText": "Aminoacyl-tRNA synthetase",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 43</span> Which of the following are inducers and repressors of gene expression?",
+    "options": [
+      "Trans-acting factors",
+      "Cis-acting elements",
+      "Enhancers",
+      "Histones"
+    ],
+    "answer": 0,
+    "answerText": "Trans-acting factors",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 44</span> How does cAMP regulate the lactose operon?",
+    "options": [
+      "Binding to the operator and starting transcription",
+      "Binding to CAP and increasing transcription",
+      "Binding to RNA polymerase",
+      "Repressing lactose transport"
+    ],
+    "answer": 1,
+    "answerText": "Binding to CAP and increasing transcription",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 45</span> RNA polymerase holoenzyme attaches to the lactose operon at which of the following locations?",
+    "options": [
+      "Operator",
+      "Enhancer",
+      "Promoter",
+      "Terminator"
+    ],
+    "answer": 2,
+    "answerText": "Promoter",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 46</span> The vitamin required for the formation of hydroxyproline (in collagen) is:",
+    "options": [
+      "Vitamin B6",
+      "Vitamin K",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "answer": 2,
+    "answerText": "Vitamin C",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 47</span> Which of the following is not a function of Vitamin D?",
+    "options": [
+      "Regulation of calcium and phosphate levels",
+      "Promotion of bone mineralization",
+      "Hydroxylation of proteins of connective tissue",
+      "Maintenance of normal bone growth"
+    ],
+    "answer": 2,
+    "answerText": "Hydroxylation of proteins of connective tissue",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 48</span> Which vitamin is a methyl group acceptor?",
+    "options": [
+      "Vitamin B6",
+      "Vitamin B12",
+      "Vitamin D",
+      "Vitamin C"
+    ],
+    "answer": 1,
+    "answerText": "Vitamin B12",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 49</span> All of the following are inhibitors of bacterial DNA gyrase, EXCEPT:",
+    "options": [
+      "Ciprofloxacin",
+      "Levofloxacin",
+      "Doxorubicin",
+      "Ofloxacin"
+    ],
+    "answer": 2,
+    "answerText": "Doxorubicin",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 50</span> Which of the following vitamins provides the coenzyme for γ-carboxylation reactions?",
+    "options": [
+      "Biotin",
+      "Menaquinone (Vitamin K)",
+      "Thiamine",
+      "Folate"
+    ],
+    "answer": 1,
+    "answerText": "Menaquinone (Vitamin K)",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 51</span> Vitamin E deficiency can cause:",
+    "options": [
+      "Anemia",
+      "Rickets",
+      "Night blindness",
+      "Pellagra"
+    ],
+    "answer": 0,
+    "answerText": "Anemia",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 52</span> Which of the following nutrient deficiencies causes megaloblastic anemia?",
+    "options": [
+      "Vitamin C",
+      "Vitamin D",
+      "Folic acid",
+      "Vitamin E"
+    ],
+    "answer": 2,
+    "answerText": "Folic acid",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 53</span> Which of the following is the active form of pantothenic acid?",
+    "options": [
+      "NAD+",
+      "Coenzyme A",
+      "FAD",
+      "FMN"
+    ],
+    "answer": 1,
+    "answerText": "Coenzyme A",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 54</span> Which of the following organs are responsible for the activation of Vitamin D in the human body?",
+    "options": [
+      "Liver and intestine",
+      "Liver and kidney",
+      "Pancreas and liver",
+      "Intestine and kidney"
+    ],
+    "answer": 1,
+    "answerText": "Liver and kidney",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 55</span> Which of the following lipids is present in the membrane of red blood cells (RBCs) and plays a role in determining different blood groups?",
+    "options": [
+      "Triglycerides",
+      "Phospholipids",
+      "Sphingolipids",
+      "Cholesterol"
+    ],
+    "answer": 2,
+    "answerText": "Sphingolipids",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 56</span> Which of the following lipoproteins is a risk factor for cardiovascular diseases?",
+    "options": [
+      "Chylomicrons",
+      "HDL",
+      "LDL",
+      "VLDL"
+    ],
+    "answer": 2,
+    "answerText": "LDL",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 57</span> The body is unable to synthesize which of the following fatty acids and should be provided by the diet?",
+    "options": [
+      "Oleic acid",
+      "Palmitic acid",
+      "Linoleic acid",
+      "Stearic acid"
+    ],
+    "answer": 2,
+    "answerText": "Linoleic acid",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 58</span> Which of the following options is correct regarding the dominant apoprotein (Apo) in each lipoprotein?",
+    "options": [
+      "Apo-B100 --> HDL",
+      "Apo-B100 --> LDL",
+      "Apo-A1 --> LDL",
+      "Apo-C2 --> Chylomicrons"
+    ],
+    "answer": 1,
+    "answerText": "Apo-B100 --> LDL",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 59</span> Free cholesterol (FC) is the precursor of all the following compounds EXCEPT:",
+    "options": [
+      "Bile acids",
+      "Steroid hormones",
+      "Vitamin A",
+      "Vitamin D"
+    ],
+    "answer": 2,
+    "answerText": "Vitamin A",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 60</span> Which of the following lipoproteins is the carrier of exogenous triglycerides (TGexo) from the diet?",
+    "options": [
+      "VLDL",
+      "Chylomicron",
+      "LDL",
+      "HDL"
+    ],
+    "answer": 1,
+    "answerText": "Chylomicron",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 61</span> Prostaglandins are synthesized in the body from:",
+    "options": [
+      "Linoleic acid",
+      "Palmitic acid",
+      "Arachidonic acid",
+      "Oleic acid"
+    ],
+    "answer": 2,
+    "answerText": "Arachidonic acid",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 62</span> Which of the following drugs inhibits phospholipase A2 in the synthesis of prostaglandins?",
+    "options": [
+      "NSAIDs",
+      "Aspirin",
+      "Corticosteroids",
+      "Ibuprofen"
+    ],
+    "answer": 2,
+    "answerText": "Corticosteroids",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 63</span> What is the pH of a solution whose OH⁻ concentration is 1 × 10⁻⁵ M?",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "12"
+    ],
+    "answer": 2,
+    "answerText": "9",
+    "explanation": null,
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 64</span> According to the given values, what would be the pI for glutamic acid?",
+    "options": [
+      "4.75",
+      "3.25",
+      "7.1",
+      "5.8"
+    ],
+    "answer": 1,
+    "answerText": "3.25",
+    "explanation": null,
+    "userAnswer": null
   }
 ]
