@@ -1,0 +1,522 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 1</span> Which one reduces patient dose during radiography?",
+    "options": [
+      "Grid",
+      "Filter",
+      "Intensifying screen",
+      "Collimator"
+    ],
+    "answer": 2,
+    "answerText": "Intensifying screen",
+    "explanation": "The intensifying screen reduces the patient's dose by enhancing the x-ray image while requiring less exposure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 2</span> Decreasing ............. causes higher blurring (more unsharpness) on x-ray image.",
+    "options": [
+      "X-ray tube current",
+      "Focal spot size",
+      "X-ray tube to film distance",
+      "Exposure time"
+    ],
+    "answer": 2,
+    "answerText": "X-ray tube to film distance",
+    "explanation": "Decreasing the X-ray tube to film distance increases geometric unsharpness, leading to more blurring.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 3</span> Which interaction phenomenon in the body causes less x-ray scatter?",
+    "options": [
+      "Compton",
+      "Bremsstrahlung",
+      "Photoelectric",
+      "Characteristic radiation"
+    ],
+    "answer": 2,
+    "answerText": "Photoelectric",
+    "explanation": "The photoelectric effect absorbs the x-ray photons completely, reducing scatter.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 4</span> An x-ray tube has 2 filaments: small and large. The large one should be used when you need ..........",
+    "options": [
+      "Higher energy",
+      "Better contrast",
+      "Shorter exposure time",
+      "Less scatter"
+    ],
+    "answer": 2,
+    "answerText": "Shorter exposure time",
+    "explanation": "The large filament allows for higher current and shorter exposure times.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 5</span> Which one makes better contrast in the image?",
+    "options": [
+      "Soft tissue",
+      "Bone",
+      "Bone tumor",
+      "Air"
+    ],
+    "answer": 2,
+    "answerText": "Bone tumor",
+    "explanation": "Bone tumors have different densities compared to surrounding bone, providing better contrast.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 6</span> To reduce x-ray scatter on radiography film, which device is used?",
+    "options": [
+      "Filter",
+      "Grid",
+      "Intensifying screen",
+      "Collimator"
+    ],
+    "answer": 1,
+    "answerText": "Grid",
+    "explanation": "A grid helps reduce scatter radiation, improving image clarity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 7</span> Having the reaction, \\( ^{14}_7N + ? → ^{14}_6C + ^1_1p + 0.63 MeV \\), what is ? in question?",
+    "options": [
+      "\\( ^1_0P \\)",
+      "\\( ^1_0n \\)",
+      "\\( \\gamma \\)",
+      "\\( ^1_1n \\)"
+    ],
+    "answer": 1,
+    "answerText": "\\( ^1_0n \\)",
+    "explanation": "The missing particle in this reaction is a neutron.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 8</span> The gamma emission is produced by:",
+    "options": [
+      "Beta decay",
+      "Electron capture",
+      "Isomeric transition",
+      "Neutron emission"
+    ],
+    "answer": 2,
+    "answerText": "Isomeric transition",
+    "explanation": "Gamma rays are emitted in isomeric transitions without changing the number of protons or neutrons.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 9</span> In positron (\\( \\beta^+ \\)) decay, ..........",
+    "options": [
+      "The ratio of N/P of radioactive material is higher than the ratio of N/P of stable material",
+      "The ratio of N/P of radioactive material is less than the ratio of N/P of stable material",
+      "There is no change in the N/P ratio",
+      "Neutrons convert into positrons"
+    ],
+    "answer": 1,
+    "answerText": "The ratio of N/P of radioactive material is less than the ratio of N/P of stable material",
+    "explanation": "In positron decay, a proton converts into a neutron, decreasing the N/P ratio.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 10</span> Which system below would be able to take the “cross-sectional image” from the radioactive distribution in an organ?",
+    "options": [
+      "CT scan",
+      "MRI",
+      "SPECT",
+      "PET"
+    ],
+    "answer": 2,
+    "answerText": "SPECT",
+    "explanation": "SPECT (Single Photon Emission Computed Tomography) generates cross-sectional images from radioactive distributions.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 11</span> How much is the annual effective dose limit for radiation workers (occupational), stated in standards (by ICRP)?",
+    "options": [
+      "10 mSv",
+      "20 mSv",
+      "50 mSv",
+      "100 mSv"
+    ],
+    "answer": 1,
+    "answerText": "20 mSv",
+    "explanation": "The ICRP recommends an annual dose limit of 20 mSv for radiation workers.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 12</span> Which one is a type of deterministic somatic effect of radiation?",
+    "options": [
+      "Cancer",
+      "Genetic mutation",
+      "Cataract",
+      "Leukemia"
+    ],
+    "answer": 2,
+    "answerText": "Cataract",
+    "explanation": "Cataracts are a deterministic effect that occurs after a threshold radiation dose.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 13</span> What is the equivalent dose of 2Gy of proton radiation if its QF=10?",
+    "options": [
+      "2 Sievert",
+      "10 Sievert",
+      "20 Sievert",
+      "40 Sievert"
+    ],
+    "answer": 2,
+    "answerText": "20 Sievert",
+    "explanation": "Equivalent dose = Absorbed dose × Quality factor, so 2Gy × 10 = 20 Sievert.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 14</span> Which one is used for individual monitoring (personal dosimetry) in radiation departments?",
+    "options": [
+      "Ionization Chamber",
+      "Film Badge",
+      "Geiger Counter",
+      "TLD"
+    ],
+    "answer": 1,
+    "answerText": "Film Badge",
+    "explanation": "Film badges and TLDs (Thermoluminescent Dosimeters) are commonly used for personal monitoring.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 15</span> Based on the law of Bergonie and Tribondeau, the radiosensitivity of a tissue increases with:",
+    "options": [
+      "The greater the number of differentiated cells",
+      "The greater the number of undifferentiated cells",
+      "The lower mitotic rate",
+      "The higher specialization of cells"
+    ],
+    "answer": 1,
+    "answerText": "The greater the number of undifferentiated cells",
+    "explanation": "Highly undifferentiated cells with high mitotic rates are more radiosensitive.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 16</span> Which one has longer T1?",
+    "options": [
+      "Fat",
+      "Muscle",
+      "Water",
+      "Bone"
+    ],
+    "answer": 2,
+    "answerText": "Water",
+    "explanation": "Water has a longer T1 relaxation time compared to fat and muscle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 17</span> Which tissue appears white on a T2-weighted image?",
+    "options": [
+      "Fat",
+      "Edema",
+      "CSF",
+      "Bone"
+    ],
+    "answer": 2,
+    "answerText": "CSF",
+    "explanation": "In T2-weighted images, fluids like CSF appear bright due to their longer relaxation time.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 18</span> Which tumoral content is visible on MRS (Magnetic Resonance Spectroscopy)?",
+    "options": [
+      "NAA",
+      "Choline",
+      "Creatine",
+      "Myoinositol"
+    ],
+    "answer": 1,
+    "answerText": "Choline",
+    "explanation": "Choline is a marker for cell membrane turnover and is increased in tumors.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 19</span> How is diffusion increase shown in a chronic stroke patient?",
+    "options": [
+      "White",
+      "Gray",
+      "Black",
+      "No change"
+    ],
+    "answer": 2,
+    "answerText": "Black",
+    "explanation": "In chronic stroke, diffusion-weighted imaging (DWI) shows increased diffusion, appearing dark (black).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 20</span> Perfusion-weighted MR image shows ...",
+    "options": [
+      "Tissue density",
+      "Tissue vascularity",
+      "Water content",
+      "Tumor size"
+    ],
+    "answer": 1,
+    "answerText": "Tissue vascularity",
+    "explanation": "Perfusion-weighted imaging measures blood flow, reflecting tissue vascularity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 21</span> What is a major interaction for diagnostic ultrasound?",
+    "options": [
+      "Refraction",
+      "Diffraction",
+      "Reflection",
+      "Absorption"
+    ],
+    "answer": 2,
+    "answerText": "Reflection",
+    "explanation": "Reflection is the key interaction allowing ultrasound waves to produce images.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 22</span> The ....... effect occurs when the wave is bounced back from a non-stationary object such as an artery.",
+    "options": [
+      "Resonance",
+      "Doppler",
+      "Rayleigh scattering",
+      "Refraction"
+    ],
+    "answer": 1,
+    "answerText": "Doppler",
+    "explanation": "The Doppler effect occurs when sound waves reflect off moving objects like blood cells.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 23</span> What is the percentage of reflection for an air-tissue interface (such as the lung) using acoustic impedance values?",
+    "options": [
+      "10%",
+      "25%",
+      "50%",
+      "100%"
+    ],
+    "answer": 3,
+    "answerText": "100%",
+    "explanation": "The high impedance difference between air and tissue causes nearly complete reflection.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 24</span> What is the Axial Resolution (AR) in soft tissue of a 5MHz transducer producing a pulse of 3 cycles duration (AR is equal to half of the transmitted ultrasound pulse length to the soft tissue)? Assume the wave travel speed is equal to 1540 m/s.",
+    "options": [
+      "1.5 mm",
+      "1.0 mm",
+      "0.75 mm",
+      "0.45 mm"
+    ],
+    "answer": 3,
+    "answerText": "0.45 mm",
+    "explanation": "AR = (wavelength × number of cycles) / 2. Using the given parameters, AR = 0.45 mm.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 25</span> In the far-field regime of a transducer, the cylindrical ultrasound beam ...",
+    "options": [
+      "Converges",
+      "Diverges",
+      "Remains parallel",
+      "Becomes stationary"
+    ],
+    "answer": 1,
+    "answerText": "Diverges",
+    "explanation": "The ultrasound beam spreads (diverges) as it moves away from the transducer.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 26</span> ........ determines the intensity and ........ determines the bandwidth of ultrasound emitted from the transducer to the soft tissue.",
+    "options": [
+      "Piezoelectric crystal, Impedance",
+      "Backing layer, Matching layers",
+      "Frequency, Attenuation",
+      "Power, Wavelength"
+    ],
+    "answer": 1,
+    "answerText": "Backing layer, Matching layers",
+    "explanation": "The backing layer affects intensity, and matching layers optimize bandwidth.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 27</span> Which type of artifact exists in the below B-mode image?<br><img src='https://i.imghippo.com/files/DtMn9793BlI.jpg' alt='Image for Q27' style='max-width:100%; height:auto;'>",
+    "options": [
+      "Lobe artifact",
+      "Shadowing artifact",
+      "Reverberation artifact",
+      "Ring-down artifact"
+    ],
+    "answer": 1,
+    "answerText": "Shadowing artifact",
+    "explanation": "The presence of shadowing suggests a high-attenuation structure such as a gallstone.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 28</span> The refractive index of most substances is",
+    "options": [
+      "Equal to 1",
+      "Greater than unity",
+      "Less than 1",
+      "Randomly varying"
+    ],
+    "answer": 1,
+    "answerText": "Greater than unity",
+    "explanation": "Most materials have a refractive index greater than 1.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 29</span> One prism diopter represents",
+    "options": [
+      "A displacement of one millimeter over a distance of 1 meter",
+      "A displacement of one centimeter over a distance of 1 meter",
+      "A displacement of one meter over a distance of 1 centimeter",
+      "A displacement of one centimeter over a distance of 10 meters"
+    ],
+    "answer": 1,
+    "answerText": "A displacement of one centimeter over a distance of 1 meter",
+    "explanation": "A prism diopter measures the deviation of light in centimeters per meter.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 30</span> In a cylinder lens, the plano meridian is called... and the curvature meridian is called the...",
+    "options": [
+      "Major axis, minor axis",
+      "Axis meridian, power meridian",
+      "Focal meridian, zero meridian",
+      "Convex meridian, concave meridian"
+    ],
+    "answer": 1,
+    "answerText": "Axis meridian, power meridian",
+    "explanation": "The axis meridian has no power, while the power meridian has maximum curvature.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 31</span> 3/60 acuity means:",
+    "options": [
+      "It means you can only read 3 meters away what a person with healthy eyesight can read 60 meters away",
+      "You can read at 60 meters what a normal person reads at 3 meters",
+      "Your field of vision is reduced to 3 degrees",
+      "Your refractive error is -3.00D"
+    ],
+    "answer": 0,
+    "answerText": "It means you can only read 3 meters away what a person with healthy eyesight can read 60 meters away",
+    "explanation": "3/60 means the person sees at 3 meters what a normal-sighted person sees at 60 meters.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 32</span> ........ lenses produce a non-point focus.",
+    "options": [
+      "Convex",
+      "Concave",
+      "Toric and cylinder",
+      "Plano"
+    ],
+    "answer": 2,
+    "answerText": "Toric and cylinder",
+    "explanation": "Toric and cylindrical lenses have different focal lengths in different meridians.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 33</span> ........ results from the overall power of the eye not being strong enough, or the length of the eye being too short.",
+    "options": [
+      "Myopia",
+      "Hypermetropia",
+      "Astigmatism",
+      "Presbyopia"
+    ],
+    "answer": 1,
+    "answerText": "Hypermetropia",
+    "explanation": "Hypermetropia (farsightedness) occurs when the eye is too short or its lens power is too weak.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 34</span> ........ occurs when an eye cannot focus on distant objects.",
+    "options": [
+      "Hyperopia",
+      "Astigmatism",
+      "Myopia",
+      "Presbyopia"
+    ],
+    "answer": 2,
+    "answerText": "Myopia",
+    "explanation": "Myopia (nearsightedness) occurs when distant objects are focused in front of the retina.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 35</span> For a radioactive material with 4 mCi activity and a half-life of 5 hours, if activity reaches to 1 mCi, what percentage of radioactive atoms still exist?",
+    "options": [
+      "50%",
+      "25%",
+      "75%",
+      "10%"
+    ],
+    "answer": 1,
+    "answerText": "25%",
+    "explanation": "Each half-life reduces the activity by 50%, so after two half-lives (10 hours), 25% remains.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 36</span> \\( ^{99m}Tc \\) is the daughter of which material?",
+    "options": [
+      "\\( ^{99}Tc \\)",
+      "\\( ^{99}Mo \\)",
+      "\\( ^{127}I \\)",
+      "\\( ^{99m}I \\)"
+    ],
+    "answer": 1,
+    "answerText": "\\( ^{99}Mo \\)",
+    "explanation": "\\( ^{99m}Tc \\) is produced from \\( ^{99}Mo \\) in nuclear medicine.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 37</span> If 2Gy dose of neutron makes biological effects equivalent to 4Gy of standard x-ray photon, what is the RBE of the neutron?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "answerText": "2",
+    "explanation": "RBE (Relative Biological Effectiveness) = dose of x-ray/dose of neutron = 4Gy/2Gy = 2.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 38</span> Which one cannot be shown well by MRI?",
+    "options": [
+      "Soft tissue",
+      "Water diffusion",
+      "Bone calcium",
+      "Fat content"
+    ],
+    "answer": 2,
+    "answerText": "Bone calcium",
+    "explanation": "MRI is not ideal for imaging calcium-rich structures like bones.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 39</span> Which factor determines lateral resolution?",
+    "options": [
+      "Spatial pulse length",
+      "Dimension of the transducer",
+      "Beam intensity",
+      "Attenuation"
+    ],
+    "answer": 1,
+    "answerText": "Dimension of the transducer",
+    "explanation": "Lateral resolution depends on the width of the ultrasound beam, which is affected by the transducer's dimension.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-09-25) - Dr. Oghabain & Dr. Makkiabadi - Question 40</span> The below lens is equal to:<br><img src='https://i.imghippo.com/files/UuiW4866pU.jpg' alt='Image for Q40' style='max-width:100%; height:auto;'>",
+    "options": [
+      "+1.0 + 2.0 × 45",
+      "-1.0 + 3.0 × 135",
+      "+2.0 + 1.0 × 90",
+      "-2.0 + 1.5 × 180"
+    ],
+    "answer": 1,
+    "answerText": "-1.0 + 3.0 × 135",
+    "explanation": "The notation represents cylindrical correction in an optical prescription.",
+    "userAnswer": null
+  }
+]
