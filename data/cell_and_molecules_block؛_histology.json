@@ -193,5 +193,291 @@
     "answerText": "Acidophil Stain",
     "explanation": "Acidophilic (eosinophilic) staining is observed in cytoplasmic structures due to protein content.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 1</span> What is the common fixative for tissue processing?",
+    "options": [
+      "Glutaraldehyde",
+      "Neutral buffer formalin",
+      "Ethanol",
+      "Acetic acid"
+    ],
+    "answer": 1,
+    "answerText": "Neutral buffer formalin",
+    "explanation": "Neutral buffer formalin is the most commonly used fixative in tissue processing to preserve cellular structure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 2</span> All of the following sentences explain the benefits of the clearing process, EXCEPT:",
+    "options": [
+      "Improves infiltration of embedding medium",
+      "Removes dehydrating agents",
+      "Increases tissue transparency",
+      "Prevent autolysis and bacterial attack"
+    ],
+    "answer": 3,
+    "answerText": "Prevent autolysis and bacterial attack",
+    "explanation": "Clearing primarily enhances infiltration and transparency, but autolysis prevention is a fixation step.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 3</span> Hematoxylin is a ………….. dye which is used for staining ……… components.",
+    "options": [
+      "Basic – Nuclear",
+      "Acidic – Cytoplasmic",
+      "Basic – Cytoplasmic",
+      "Acidic – Nuclear"
+    ],
+    "answer": 0,
+    "answerText": "Basic – Nuclear",
+    "explanation": "Hematoxylin is a basic dye that binds to acidic nuclear components such as DNA and RNA.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 4</span> Which type of cell signaling occurs via direct physical contact?",
+    "options": [
+      "Paracrine",
+      "Autocrine",
+      "Juxtacrine",
+      "Endocrine"
+    ],
+    "answer": 2,
+    "answerText": "Juxtacrine",
+    "explanation": "Juxtacrine signaling involves direct contact between cells via membrane-bound molecules.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 5</span> All of the following functions are related to the smooth endoplasmic reticulum, EXCEPT:",
+    "options": [
+      "Lipid synthesis",
+      "Detoxification of drugs",
+      "Recycle old or damaged organelles",
+      "Calcium storage"
+    ],
+    "answer": 2,
+    "answerText": "Recycle old or damaged organelles",
+    "explanation": "Recycling damaged organelles is the function of lysosomes, not the smooth ER.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 6</span> What is the name of the intermediate filament in muscles?",
+    "options": [
+      "Vimentin",
+      "Desmin",
+      "Cytokeratin",
+      "Neurofilament"
+    ],
+    "answer": 1,
+    "answerText": "Desmin",
+    "explanation": "Desmin is an intermediate filament that helps maintain the structural integrity of muscle cells.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 7</span> Which step of the interphase is the shortest step?",
+    "options": [
+      "G1",
+      "S",
+      "G2",
+      "G0"
+    ],
+    "answer": 2,
+    "answerText": "G2",
+    "explanation": "G2 is the shortest phase of interphase, where the cell prepares for mitosis by producing proteins.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 8</span> In which step of mitosis does the nuclear membrane reform?",
+    "options": [
+      "Prophase",
+      "Metaphase",
+      "Anaphase",
+      "Telophase"
+    ],
+    "answer": 3,
+    "answerText": "Telophase",
+    "explanation": "During telophase, the nuclear membrane reforms around the separated sets of chromosomes.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 9</span> Comparing the Goldman equation with the Nernst equation, which of the following is correct?",
+    "options": [
+      "Nernst equation applies only to ions",
+      "Goldman equation describes real conditions, while Nernst equation depicts imaginary conditions",
+      "Goldman equation ignores membrane potential",
+      "Nernst equation is always more accurate"
+    ],
+    "answer": 1,
+    "answerText": "Goldman equation describes real conditions, while Nernst equation depicts imaginary conditions",
+    "explanation": "The Goldman equation accounts for the permeability and concentration of multiple ions, reflecting real conditions.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 10</span> Which of the following does not play any role in determining the level of the resting membrane potential?",
+    "options": [
+      "Potassium permeability",
+      "Leakage of Na through the Na leak channels",
+      "Sodium-potassium pump activity",
+      "Intracellular anionic proteins"
+    ],
+    "answer": 1,
+    "answerText": "Leakage of Na through the Na leak channels",
+    "explanation": "Sodium leak channels have a minimal role compared to potassium channels in establishing resting potential.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 11</span> The resting membrane potential in a large nerve cell is closer to the Nernst potential of which of the following ions?",
+    "options": [
+      "K",
+      "Na",
+      "Cl",
+      "HCO3"
+    ],
+    "answer": 0,
+    "answerText": "K",
+    "explanation": "The resting membrane potential is closer to the potassium equilibrium potential due to high potassium permeability.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 12</span> What is the main cause of the repolarization phase of an action potential?",
+    "options": [
+      "Influx of Na",
+      "Closure of voltage-gated Na channels",
+      "Opening of voltage-gated Ca channels",
+      "Increased intracellular K concentration"
+    ],
+    "answer": 1,
+    "answerText": "Closure of voltage-gated Na channels",
+    "explanation": "Repolarization occurs as voltage-gated Na channels close and K efflux dominates.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 13</span> A new action potential cannot occur in an excitable fiber as long as the membrane is still depolarized from the preceding action potential. Why?",
+    "options": [
+      "Hyperpolarization",
+      "Because of inactivation of voltage-gated Na channels",
+      "Increased K permeability",
+      "Low intracellular Ca"
+    ],
+    "answer": 1,
+    "answerText": "Because of inactivation of voltage-gated Na channels",
+    "explanation": "During the refractory period, inactivated Na channels prevent the initiation of a new action potential.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 14</span> Saltatory conduction is of value for:",
+    "options": [
+      "Increasing action potential frequency",
+      "Conserving energy",
+      "Reducing synaptic delay",
+      "Increasing intracellular K"
+    ],
+    "answer": 1,
+    "answerText": "Conserving energy",
+    "explanation": "Saltatory conduction conserves energy by allowing action potentials to \"jump\" between nodes of Ranvier.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 15</span> In the plateau phase, calcium is transported inside the cardiac cell by:",
+    "options": [
+      "Sodium-calcium exchanger",
+      "Voltage-gated Ca channels",
+      "Ryanodine receptors",
+      "ATP-dependent Ca pump"
+    ],
+    "answer": 1,
+    "answerText": "Voltage-gated Ca channels",
+    "explanation": "Voltage-gated Ca channels allow Ca entry during the plateau phase, crucial for cardiac muscle contraction.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 16</span> In which compartment is the largest amount of body water found?",
+    "options": [
+      "ECF",
+      "Plasma",
+      "ICF",
+      "Interstitial fluid"
+    ],
+    "answer": 2,
+    "answerText": "ICF",
+    "explanation": "The intracellular fluid (ICF) contains the majority of the body’s water, approximately two-thirds of the total.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 17</span> Which of the following refers to facilitated diffusion of glucose?",
+    "options": [
+      "SGLT1",
+      "GLUT2",
+      "Sodium-glucose symporter",
+      "Na-K ATPase"
+    ],
+    "answer": 1,
+    "answerText": "GLUT2",
+    "explanation": "GLUT2 mediates the facilitated diffusion of glucose in tissues like the liver and pancreas.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 18</span> Which of the following transporters is found in the greatest number in the kidneys?",
+    "options": [
+      "SGLT1",
+      "SGLT2",
+      "GLUT4",
+      "Na-K ATPase"
+    ],
+    "answer": 1,
+    "answerText": "SGLT2",
+    "explanation": "SGLT2 is abundant in the proximal tubule of the kidney, reabsorbing glucose from the filtrate.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 19</span> Simple diffusion of ions is driven by:",
+    "options": [
+      "ATP",
+      "Concentration gradient",
+      "Electrochemical gradient",
+      "Protein carriers"
+    ],
+    "answer": 2,
+    "answerText": "Electrochemical gradient",
+    "explanation": "Ions diffuse based on the electrochemical gradient, which combines concentration and charge differences.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 20</span> Which of the following is negatively correlated with the rate of simple diffusion?",
+    "options": [
+      "Surface area",
+      "Thickness of membrane",
+      "Temperature",
+      "Membrane permeability"
+    ],
+    "answer": 1,
+    "answerText": "Thickness of membrane",
+    "explanation": "A thicker membrane slows diffusion by increasing the distance ions or molecules must travel.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 21</span> Which of the following is the most important factor limiting the lateral movement of proteins in the membrane of epithelial cells in the kidney?",
+    "options": [
+      "Protein-protein interactions",
+      "Cholesterol content",
+      "The existence of tight junctions between cells",
+      "Membrane fluidity"
+    ],
+    "answer": 2,
+    "answerText": "The existence of tight junctions between cells",
+    "explanation": "Tight junctions restrict lateral diffusion of membrane proteins, maintaining cellular polarity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 22</span> Assume that the concentration of ion X⁺ in the extracellular fluid is 300 mEq/L and inside the cell is 20 mEq/L. The resting membrane potential is closest to:",
+    "options": [
+      "+25 mV",
+      "-55 mV",
+      "+71 mV",
+      "0 mV"
+    ],
+    "answer": 2,
+    "answerText": "+71 mV",
+    "explanation": "Given the ion gradient, the Nernst equation calculation yields a resting potential near +71 mV.",
+    "userAnswer": null
   }
 ]
