@@ -1,0 +1,132 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-2-2) - Histo. & Embryo. - Dr. Golshan - Question 1</span> What is the origin of adenohypophysis and neurohypophysis respectively?",
+    "options": [
+      "Hypophysial bud - oral cavity",
+      "Rathke's pouch - diencephalon",
+      "Neural tube - Rathke’s pouch",
+      "Nasal placode - optic cup"
+    ],
+    "answer": 1,
+    "answerText": "Rathke's pouch - diencephalon",
+    "explanation": "The adenohypophysis develops from Rathke’s pouch, an ectodermal structure, while the neurohypophysis originates from the diencephalon.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-2-2) - Histo. & Embryo. - Dr. Golshan - Question 2</span> The parathyroid glands are derived from the embryonic pharyngeal pouches, the superior glands from the ............... and the inferior glands from the ................... .",
+    "options": [
+      "Third pouch - second pouch",
+      "Fourth pouch - second pouch",
+      "Fourth pouch - third pouch",
+      "Third pouch - fourth pouch"
+    ],
+    "answer": 2,
+    "answerText": "Fourth pouch - third pouch",
+    "explanation": "The superior parathyroid glands are derived from the fourth pharyngeal pouch, while the inferior parathyroid glands come from the third pouch.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-2-2) - Histo. & Embryo. - Dr. Golshan - Question 3</span> The suprarenal gland develops from two components: (1) a .................. portion, which forms the cortex, and (2) an ................... portion, which forms the medulla.",
+    "options": [
+      "Ectodermal - mesodermal",
+      "Endodermal - ectodermal",
+      "Mesodermal - ectodermal",
+      "Neural crest - mesodermal"
+    ],
+    "answer": 2,
+    "answerText": "Mesodermal - ectodermal",
+    "explanation": "The adrenal cortex originates from the mesoderm, while the medulla develops from neural crest cells (ectodermal origin).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-2-2) - Histo. & Embryo. - Dr. Golshan - Question 4</span> Which part of the hypophysis contains herring bodies and which part contains pituicytes?",
+    "options": [
+      "Pars distalis - pars nervosa",
+      "Pars intermedia - pars nervosa",
+      "Pars nervosa - pars nervosa",
+      "Pars tuberalis - pars distalis"
+    ],
+    "answer": 2,
+    "answerText": "Pars nervosa - pars nervosa",
+    "explanation": "Herring bodies (storage sites for neurosecretory hormones) and pituicytes (supportive cells) are both found in the pars nervosa of the neurohypophysis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-2-2) - Histo. & Embryo. - Dr. Golshan - Question 5</span> The peptide hormones ADH (antidiuretic hormone) and oxytocin are synthesized by large neurons in the .............. and the ................ nuclei, respectively.",
+    "options": [
+      "Supraoptic - paraventricular",
+      "Paraventricular - arcuate",
+      "Lateral hypothalamic - arcuate",
+      "Ventromedial - paraventricular"
+    ],
+    "answer": 0,
+    "answerText": "Supraoptic - paraventricular",
+    "explanation": "ADH is primarily synthesized in the supraoptic nucleus, while oxytocin is synthesized in the paraventricular nucleus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-2-2) - Histo. & Embryo. - Dr. Golshan - Question 6</span> Benign tumor in the ....................... of ....................... gland causes swings in blood pressure between hypertension and hypotension.",
+    "options": [
+      "Cortex - adrenal",
+      "Medulla - adrenal",
+      "Medulla - thyroid",
+      "Zona glomerulosa - adrenal"
+    ],
+    "answer": 1,
+    "answerText": "Medulla - adrenal",
+    "explanation": "A pheochromocytoma is a benign tumor of the adrenal medulla, which can lead to episodic swings in blood pressure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-2-2) - Histo. & Embryo. - Dr. Golshan - Question 7</span> What is the thickest layer of adrenal cortex and which hormone is produced by this part?",
+    "options": [
+      "Zona glomerulosa - aldosterone",
+      "Zona fasciculata - cortisol",
+      "Zona reticularis - DHEA",
+      "Zona fasciculata - epinephrine"
+    ],
+    "answer": 1,
+    "answerText": "Zona fasciculata - cortisol",
+    "explanation": "The zona fasciculata is the thickest layer of the adrenal cortex and primarily produces cortisol.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-2-2) - Histo. & Embryo. - Dr. Golshan - Question 8</span> The ................... synthesizes T3, T4, and C cells synthesize ......................",
+    "options": [
+      "Thyrocytes - calcitonin",
+      "Follicular cells - parathyroid hormone",
+      "C cells - T3, T4",
+      "Oxyphil cells - calcitonin"
+    ],
+    "answer": 0,
+    "answerText": "Thyrocytes - calcitonin",
+    "explanation": "Thyrocytes (follicular cells) produce T3 and T4, while C cells synthesize calcitonin to regulate calcium levels.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-2-2) - Histo. & Embryo. - Dr. Golshan - Question 9</span> Which part is not supplied by superior hypophyseal arteries?",
+    "options": [
+      "Pars distalis",
+      "Median eminence",
+      "Pars tuberalis",
+      "Neurohypophysis"
+    ],
+    "answer": 3,
+    "answerText": "Neurohypophysis",
+    "explanation": "The neurohypophysis primarily receives blood supply from the inferior hypophyseal arteries.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-2-2) - Histo. & Embryo. - Dr. Golshan - Question 10</span> Which endocrine gland contains oxyphil cells?",
+    "options": [
+      "Adrenal gland",
+      "Thyroid gland",
+      "Parathyroid gland",
+      "Pituitary gland"
+    ],
+    "answer": 2,
+    "answerText": "Parathyroid gland",
+    "explanation": "Oxyphil cells are found in the parathyroid gland, and their function is not fully understood, though they may have a role in calcium regulation.",
+    "userAnswer": null
+  }
+]
