@@ -1,0 +1,106 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 1</span> Which of the following is NOT a cause of Respiratory alkalosis?",
+    "options": [
+      "Anxiety",
+      "High altitude",
+      "COPD",
+      "Pulmonary embolism"
+    ],
+    "answer": 2,
+    "answerText": "COPD",
+    "explanation": "Respiratory alkalosis is typically caused by conditions that lead to hyperventilation, such as anxiety or high altitude. COPD generally leads to respiratory acidosis due to impaired gas exchange.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 2</span> The primary buffer system in the blood is:",
+    "options": [
+      "Phosphate buffer",
+      "Bicarbonate",
+      "Protein buffer system",
+      "Hemoglobin buffer system"
+    ],
+    "answer": 1,
+    "answerText": "Bicarbonate",
+    "explanation": "The bicarbonate buffer system is the primary mechanism for maintaining pH balance in the blood.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 3</span> Based on these results, what is the condition?",
+    "options": [
+      "Metabolic alkalosis",
+      "Respiratory alkalosis",
+      "Respiratory acidosis",
+      "Metabolic acidosis"
+    ],
+    "answer": 2,
+    "answerText": "Respiratory acidosis",
+    "explanation": "The low pH and elevated PaCO2 indicate respiratory acidosis due to hypoventilation or impaired CO2 removal.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 4</span> Given the following arterial blood gas results: pH = 7.33, PaCO2 = 32 mmHg, HCO3- = 18 mEq/L. What is the condition?",
+    "options": [
+      "Uncompensated metabolic acidosis",
+      "Uncompensated respiratory acidosis",
+      "Partially compensated metabolic acidosis",
+      "Fully compensated respiratory alkalosis"
+    ],
+    "answer": 2,
+    "answerText": "Partially compensated metabolic acidosis",
+    "explanation": "The decreased pH and HCO3- indicate metabolic acidosis, with partial compensation reflected by a decreased PaCO2.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 5</span> Which electrolyte imbalance is associated with muscle weakness and cardiac arrhythmias?",
+    "options": [
+      "Hypercalcemia",
+      "Hypokalemia",
+      "Hypernatremia",
+      "Hyponatremia"
+    ],
+    "answer": 1,
+    "answerText": "Hypokalemia",
+    "explanation": "Hypokalemia can cause muscle weakness, fatigue, and life-threatening cardiac arrhythmias due to altered electrical activity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 6</span> Hypernatremia is primarily caused by:",
+    "options": [
+      "Dehydration",
+      "Overhydration",
+      "Increased potassium intake",
+      "Hyperkalemia"
+    ],
+    "answer": 0,
+    "answerText": "Dehydration",
+    "explanation": "Hypernatremia commonly results from dehydration due to water loss exceeding sodium loss.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 7</span> Which condition leads to isotonic expansion of the ECF?",
+    "options": [
+      "SIADH",
+      "Hyperkalemia",
+      "Isotonic saline infusion",
+      "Water intoxication"
+    ],
+    "answer": 2,
+    "answerText": "Isotonic saline infusion",
+    "explanation": "Isotonic saline infusion directly increases extracellular fluid volume without affecting osmolarity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 8</span> What is the main cation in extracellular fluid?",
+    "options": [
+      "Potassium",
+      "Magnesium",
+      "Calcium",
+      "Sodium"
+    ],
+    "answer": 3,
+    "answerText": "Sodium",
+    "explanation": "Sodium is the major extracellular cation, playing a critical role in fluid balance and nerve function.",
+    "userAnswer": null
+  }
+]
