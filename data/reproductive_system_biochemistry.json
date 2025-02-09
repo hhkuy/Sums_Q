@@ -1,0 +1,54 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Panahi - Question 1</span> Which symptom is commonly associated with high levels of androgens in females?",
+    "options": [
+      "Galactorrhea",
+      "Menorrhagia",
+      "Hirsutism",
+      "Osteoporosis"
+    ],
+    "answer": 2,
+    "answerText": "Hirsutism",
+    "explanation": "Elevated androgen levels in females can lead to hirsutism, characterized by excessive hair growth in areas where hair is typically minimal.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Panahi - Question 2</span> Which enzyme is responsible for the peripheral conversion of testosterone to the more potent androgen, dihydrotestosterone (DHT)?",
+    "options": [
+      "Aromatase",
+      "5α-Reductase",
+      "21-Hydroxylase",
+      "11β-Hydroxylase"
+    ],
+    "answer": 1,
+    "answerText": "5α-Reductase",
+    "explanation": "5α-Reductase converts testosterone into dihydrotestosterone (DHT), a more potent androgen that plays a crucial role in secondary sexual characteristics.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Panahi - Question 3</span> Which of the following is NOT a potential cause of increased 17-ketosteroid levels?",
+    "options": [
+      "Congenital adrenal hyperplasia",
+      "Adrenal tumors",
+      "Polycystic ovary syndrome",
+      "Graves’ disease"
+    ],
+    "answer": 3,
+    "answerText": "Graves’ disease",
+    "explanation": "Graves’ disease primarily affects thyroid hormone levels and is not associated with increased 17-ketosteroids, which are typically elevated in androgen excess conditions.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Panahi - Question 4</span> Which of the following conditions is classified as hypergonadotropic hypogonadism?",
+    "options": [
+      "Turner syndrome",
+      "Klinefelter syndrome",
+      "Polycystic ovary syndrome",
+      "Hypopituitarism"
+    ],
+    "answer": 1,
+    "answerText": "Klinefelter syndrome",
+    "explanation": "Klinefelter syndrome is a form of hypergonadotropic hypogonadism, characterized by high levels of gonadotropins due to primary testicular failure.",
+    "userAnswer": null
+  }
+]
