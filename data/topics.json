@@ -258,5 +258,15 @@
         "file": "data/endocrine_system_embryology_.json"
       }
     ]
+  },
+  {
+    "topicName": "Religion",
+    "description": "Related Third Semester",
+    "subTopics": [
+      {
+        "name": "Religion",
+        "file": "data/religion_religion.json"
+      }
+    ]
   }
 ]
