@@ -268,5 +268,15 @@
         "file": "data/religion_religion.json"
       }
     ]
+  },
+  {
+    "topicName": "Microbiology",
+    "description": "Related 1st & 2nd Semester",
+    "subTopics": [
+      {
+        "name": "Microbiology",
+        "file": "data/microbiology_microbiology.json"
+      }
+    ]
   }
 ]
