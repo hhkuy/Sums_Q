@@ -134,6 +134,18 @@
       {
         "name": "physiology ",
         "file": "data/urinary_system_physiology_.json"
+      },
+      {
+        "name": "Biochemistry",
+        "file": "data/urinary_system_biochemistry.json"
+      },
+      {
+        "name": "Histology ",
+        "file": "data/urinary_system_histology_.json"
+      },
+      {
+        "name": "Embryology ",
+        "file": "data/urinary_system_embryology_.json"
       }
     ]
   },
