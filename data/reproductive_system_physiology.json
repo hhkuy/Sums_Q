@@ -1,0 +1,145 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 1</span> What is the role of Follicle Stimulating Hormone (FSH) during the menstrual cycle?",
+    "options": [
+      "Stimulates ovulation",
+      "Stimulates primary oocyte growth and development",
+      "Inhibits LH secretion",
+      "Induces endometrial shedding"
+    ],
+    "answer": 1,
+    "answerText": "Stimulates primary oocyte growth and development",
+    "explanation": "FSH is essential for the growth and maturation of ovarian follicles, promoting the development of the primary oocyte.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 2</span> Which hormone activates FSH/LH secretion from the anterior pituitary?",
+    "options": [
+      "Inhibin",
+      "Estrogen",
+      "GnRH",
+      "Activin"
+    ],
+    "answer": 3,
+    "answerText": "Activin",
+    "explanation": "Activin enhances FSH secretion by acting on the anterior pituitary, counteracting the inhibitory effects of inhibin.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 3</span> Which hormone decreases during the first month of menopause in women?",
+    "options": [
+      "Progesterone",
+      "Estrogen",
+      "LH",
+      "FSH"
+    ],
+    "answer": 1,
+    "answerText": "Estrogen",
+    "explanation": "Estrogen levels drop significantly at the onset of menopause due to ovarian follicle depletion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 4</span> In the last step of sperm capacitation, ….",
+    "options": [
+      "Acrosome reaction occurs",
+      "Calcium ion enters the sperm",
+      "Sperm binds to the zona pellucida",
+      "Progesterone secretion increases"
+    ],
+    "answer": 1,
+    "answerText": "Calcium ion enters the sperm",
+    "explanation": "During the final stages of capacitation, calcium influx increases sperm motility and prepares it for the acrosome reaction.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 5</span> What happens after the sudden surge of LH in the middle of the ovarian cycle?",
+    "options": [
+      "Follicular atresia",
+      "Corpus luteum formation",
+      "Ovulation",
+      "Decrease in estrogen production"
+    ],
+    "answer": 2,
+    "answerText": "Ovulation",
+    "explanation": "The LH surge triggers the rupture of the mature follicle and the release of the secondary oocyte, leading to ovulation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 6</span> How does estradiol move in the bloodstream?",
+    "options": [
+      "Bound to SHBG (sex hormone-binding globulin)",
+      "By binding to albumin",
+      "Freely dissolved in plasma",
+      "Bound to corticosteroid-binding globulin"
+    ],
+    "answer": 1,
+    "answerText": "By binding to albumin",
+    "explanation": "Estradiol primarily travels in the bloodstream bound to albumin, ensuring its transport to target tissues.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 7</span> Which option regarding the role of the epididymis is correct?",
+    "options": [
+      "Sperm production",
+      "Sperm maturation and motility",
+      "Testosterone secretion",
+      "Spermatogonial division"
+    ],
+    "answer": 1,
+    "answerText": "Sperm maturation and motility",
+    "explanation": "The epididymis is responsible for the maturation and acquisition of motility by sperm cells, allowing them to fertilize an egg.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 8</span> During follicular maturation, which gonadotropin plays the most significant role?",
+    "options": [
+      "LH",
+      "FSH",
+      "Progesterone",
+      "Estrogen"
+    ],
+    "answer": 1,
+    "answerText": "FSH",
+    "explanation": "FSH is critical for the growth and maturation of follicles, promoting the development of granulosa cells and oocyte maturation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 9</span> What is the primary role of HCG hormone during pregnancy?",
+    "options": [
+      "To stimulate uterine contractions",
+      "To promote fetal growth",
+      "To inhibit the breakdown of the corpus luteum",
+      "To increase FSH production"
+    ],
+    "answer": 2,
+    "answerText": "To inhibit the breakdown of the corpus luteum",
+    "explanation": "HCG maintains the corpus luteum during early pregnancy, ensuring continued progesterone production to support the pregnancy.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 10</span> In the ovary, which cells are responsible for androgen secretion?",
+    "options": [
+      "Granulosa cells",
+      "Internal theca cells",
+      "Follicular cells",
+      "Corpus luteum cells"
+    ],
+    "answer": 1,
+    "answerText": "Internal theca cells",
+    "explanation": "Internal theca cells secrete androgens, which are then converted into estrogens by granulosa cells via aromatase.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 11</span> After ovulation, if pregnancy occurs, what happens to the corpus luteum?",
+    "options": [
+      "It degenerates after one week",
+      "It remains the same corpus luteum for at least 3 months",
+      "It immediately transforms into the corpus albicans",
+      "It produces LH"
+    ],
+    "answer": 1,
+    "answerText": "It remains the same corpus luteum for at least 3 months",
+    "explanation": "The corpus luteum persists for the first trimester of pregnancy, producing progesterone until the placenta takes over hormone production.",
+    "userAnswer": null
+  }
+]
