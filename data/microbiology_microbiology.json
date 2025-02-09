@@ -543,5 +543,498 @@
     "answerText": "Pontiac Fever commonly presents as a mild self-limiting disease",
     "explanation": "Pontiac Fever is a self-limiting disease with flu-like symptoms, while Legionnaire’s disease is more severe and often involves pneumonia.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 1</span> All the following describe the routes of transmission of Leprosy to humans EXCEPT:",
+    "options": [
+      "Respiratory droplets",
+      "Contact with wound exudates",
+      "Ingestion of unpasteurized sheep milk",
+      "Direct contact with nasal secretions"
+    ],
+    "answer": 2,
+    "answerText": "Ingestion of unpasteurized sheep milk",
+    "explanation": "Ingestion of unpasteurized sheep milk is not a recognized route for Leprosy transmission.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 2</span> Which of the following compounds is required for treatment of sputum before inoculating it on culture medium?",
+    "options": [
+      "Sodium Hydroxide",
+      "Ethanol",
+      "Formaldehyde",
+      "Acetic acid"
+    ],
+    "answer": 0,
+    "answerText": "Sodium Hydroxide",
+    "explanation": "Sodium hydroxide is commonly used for decontaminating and processing sputum samples for mycobacterial cultures.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 3</span> Select the correct bacterium that belongs to Mycobacterium tuberculosis complex:",
+    "options": [
+      "M. microtii",
+      "M. chelonae",
+      "M. kansasii",
+      "M. abscessus"
+    ],
+    "answer": 0,
+    "answerText": "M. microtii",
+    "explanation": "M. microtii is a member of the Mycobacterium tuberculosis complex, which includes species causing tuberculosis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 4</span> All the following tests can evaluate the cell-mediated immunity response EXCEPT:",
+    "options": [
+      "Skin patch test",
+      "Direct smear Microscopy",
+      "Tuberculin skin test",
+      "Lepromin test"
+    ],
+    "answer": 1,
+    "answerText": "Direct smear Microscopy",
+    "explanation": "Direct smear microscopy does not measure cell-mediated immunity; it is used for detecting bacterial cells.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 5</span> Which of the following choices is NOT correct about the rapidly growing mycobacteria?",
+    "options": [
+      "Growth in less than 2 days",
+      "Resistance to common antibiotics",
+      "Environmental opportunists",
+      "Relatively low virulence potential"
+    ],
+    "answer": 0,
+    "answerText": "Growth in less than 2 days",
+    "explanation": "Rapidly growing mycobacteria typically take longer than 2 days to grow, often around 3–7 days.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 6</span> Select the correct choice about Nocardia:",
+    "options": [
+      "It is a gram-positive but weakly acid-fast",
+      "It is a non-pathogenic environmental organism",
+      "It lacks cell wall structures",
+      "It is an obligate pathogen"
+    ],
+    "answer": 0,
+    "answerText": "It is a gram-positive but weakly acid-fast",
+    "explanation": "Nocardia is weakly acid-fast due to its mycolic acid content in the cell wall.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 7</span> All the following conditions predispose patients to Nocardiosis EXCEPT:",
+    "options": [
+      "Organ transplantation",
+      "Cystic fibrosis, allergic aspergillosis",
+      "Immunotherapy to trigger the immunity",
+      "Chronic pulmonary disease"
+    ],
+    "answer": 2,
+    "answerText": "Immunotherapy to trigger the immunity",
+    "explanation": "Immunotherapy boosts the immune system and is not a risk factor for Nocardiosis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 8</span> Which species of Nocardia is dominantly involved in actinomycetes?",
+    "options": [
+      "N. brasiliensis",
+      "N. farcinica",
+      "N. asteroides",
+      "N. otitidiscaviarum"
+    ],
+    "answer": 0,
+    "answerText": "N. brasiliensis",
+    "explanation": "N. brasiliensis is commonly implicated in actinomycetoma, especially in tropical regions.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 9</span> Which toxin of Clostridium perfringens causes enteritis necroticans (pig bel disease)?",
+    "options": [
+      "β-toxin",
+      "α-toxin",
+      "δ-toxin",
+      "ε-toxin"
+    ],
+    "answer": 0,
+    "answerText": "β-toxin",
+    "explanation": "β-toxin is the primary toxin associated with enteritis necroticans (pig bel disease).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 10</span> All the following specimens can be used for laboratory diagnosis of pig bel disease (enteritis necroticans) EXCEPT:",
+    "options": [
+      "Stool",
+      "Blood",
+      "Intestinal tissue",
+      "Sputum"
+    ],
+    "answer": 3,
+    "answerText": "Sputum",
+    "explanation": "Sputum is not relevant for diagnosing enteritis necroticans, as it primarily affects the intestine.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 11</span> Select the correct choice to complete the following sentence:",
+    "options": [
+      "Clostridium novyi",
+      "Clostridium perfringens",
+      "Clostridium tetani",
+      "Clostridium botulinum"
+    ],
+    "answer": 2,
+    "answerText": "Clostridium tetani",
+    "explanation": "Clostridium tetani produces tetanospasmin, a neurotoxin that causes muscle spasms and trismus (lockjaw).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 12</span> Which antibacterial agents put the patients in danger of getting Pseudomembranous colitis?",
+    "options": [
+      "Clindamycin",
+      "Ampicillin",
+      "Amphotericin B",
+      "Ciprofloxacin"
+    ],
+    "answer": 0,
+    "answerText": "Clindamycin",
+    "explanation": "Clindamycin is associated with the overgrowth of Clostridioides difficile, leading to Pseudomembranous colitis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 13</span> Which of the following Escherichia coli (E. coli) pathotypes is subdivided into typical and atypical strains based on the presence or absence of the E. coli adherence factor (EAF) plasmid?",
+    "options": [
+      "Enteroaggregative E. coli (EAEC)",
+      "Enteropathogenic E. coli (EPEC)",
+      "Enterotoxigenic E. coli (ETEC)",
+      "Enteroinvasive E. coli (EIEC)"
+    ],
+    "answer": 1,
+    "answerText": "Enteropathogenic E. coli (EPEC)",
+    "explanation": "EPEC is classified into typical and atypical strains based on the presence or absence of the EAF plasmid.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 14</span> Which of the following Shigella species encodes an exotoxin and damages kidneys, intestines, and nerve cells?",
+    "options": [
+      "Shigella sonnei",
+      "Shigella flexneri",
+      "Shigella dysenteriae",
+      "Shigella boydii"
+    ],
+    "answer": 2,
+    "answerText": "Shigella dysenteriae",
+    "explanation": "Shigella dysenteriae produces Shiga toxin, which is responsible for systemic damage and hemolytic uremic syndrome.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 15</span> All the following bacteria are susceptible to stomach acids EXCEPT:",
+    "options": [
+      "Escherichia coli",
+      "Salmonella Typhimurium",
+      "Vibrio cholerae",
+      "Shigella sonnei"
+    ],
+    "answer": 3,
+    "answerText": "Shigella sonnei",
+    "explanation": "Shigella species, especially S. sonnei, are relatively resistant to stomach acids, aiding in their pathogenesis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 16</span> Guillain-Barré syndrome is an autoimmune disorder of the peripheral nervous system. Which of the following bacteria causes this syndrome?",
+    "options": [
+      "Campylobacter jejuni",
+      "Campylobacter coli",
+      "Campylobacter upsaliensis",
+      "Campylobacter fetus"
+    ],
+    "answer": 2,
+    "answerText": "Campylobacter upsaliensis",
+    "explanation": "Campylobacter upsaliensis has been implicated in Guillain-Barré syndrome through molecular mimicry mechanisms.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 17</span> For Vibrio cholerae, if culture will be delayed, the specimen should be mixed in a... medium.",
+    "options": [
+      "Blood agar",
+      "MacConkey agar",
+      "Cary-Blair transport",
+      "Thiosulfate-citrate-bile salts-sucrose (TCBS) agar"
+    ],
+    "answer": 2,
+    "answerText": "Cary-Blair transport",
+    "explanation": "Cary-Blair transport medium preserves the viability of Vibrio species during delayed transportation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 18</span> Which of the infections caused by Pseudomonas aeruginosa is more likely to occur in diabetic people?",
+    "options": [
+      "Pneumonia",
+      "Malignant external otitis",
+      "Urinary tract infections",
+      "Skin abscesses"
+    ],
+    "answer": 1,
+    "answerText": "Malignant external otitis",
+    "explanation": "Malignant external otitis is a severe infection of the external ear canal, primarily affecting diabetic patients.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 19</span> All the following drugs can be used in infections caused by Pseudomonas aeruginosa EXCEPT:",
+    "options": [
+      "Piperacillin-tazobactam",
+      "Imipenem",
+      "Ceftazidime",
+      "Trimethoprim-sulfamethoxazole"
+    ],
+    "answer": 3,
+    "answerText": "Trimethoprim-sulfamethoxazole",
+    "explanation": "Trimethoprim-sulfamethoxazole has poor activity against Pseudomonas aeruginosa.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 20</span> Which of the following bacteria plays the greatest role in causing lung infections in people with chronic granulomatous disease (CGD)?",
+    "options": [
+      "Staphylococcus aureus",
+      "Burkholderia cepacia complex",
+      "Escherichia coli",
+      "Klebsiella pneumoniae"
+    ],
+    "answer": 1,
+    "answerText": "Burkholderia cepacia complex",
+    "explanation": "Burkholderia cepacia complex is a major pathogen in CGD patients due to impaired phagocytic function.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 21</span> Which of the following bacteria produces a grape-like odor?",
+    "options": [
+      "Klebsiella pneumoniae",
+      "Pseudomonas aeruginosa",
+      "Acinetobacter baumannii",
+      "Escherichia coli"
+    ],
+    "answer": 1,
+    "answerText": "Pseudomonas aeruginosa",
+    "explanation": "Pseudomonas aeruginosa produces a characteristic grape-like or fruity odor due to metabolic byproducts.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 22</span> Which of the following bacteria produces diffusible pigments?",
+    "options": [
+      "Shigella boydii",
+      "Pseudomonas aeruginosa",
+      "Escherichia coli",
+      "Klebsiella oxytoca"
+    ],
+    "answer": 1,
+    "answerText": "Pseudomonas aeruginosa",
+    "explanation": "Pseudomonas aeruginosa produces diffusible pigments such as pyocyanin and pyoverdine.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 23</span> The O-side chain of... is antigenically similar to the Lewis blood group antigens.",
+    "options": [
+      "Escherichia coli",
+      "Salmonella enterica",
+      "Helicobacter pylori",
+      "Shigella dysenteriae"
+    ],
+    "answer": 2,
+    "answerText": "Helicobacter pylori",
+    "explanation": "The O-side chain of Helicobacter pylori shares structural similarities with Lewis antigens, aiding in immune evasion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 24</span> Which of the following bacteria is a causative agent of bubonic plague?",
+    "options": [
+      "Yersinia enterocolitica",
+      "Yersinia pseudotuberculosis",
+      "Yersinia pestis",
+      "Proteus mirabilis"
+    ],
+    "answer": 2,
+    "answerText": "Yersinia pestis",
+    "explanation": "Yersinia pestis is the causative agent of bubonic plague, transmitted by flea vectors.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 25</span> Which bacteria can cause zoonotic infections (transmitted from animals)?",
+    "options": [
+      "Bordetella pertussis",
+      "Brucella melitensis",
+      "Streptococcus pyogenes",
+      "Legionella pneumophila"
+    ],
+    "answer": 1,
+    "answerText": "Brucella melitensis",
+    "explanation": "Brucella melitensis is a zoonotic bacterium primarily transmitted through contact with infected animals or unpasteurized dairy products.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 26</span> Which of the following bacteria principally infects the liver and kidneys?",
+    "options": [
+      "Treponema pallidum",
+      "Leptospira interrogans",
+      "Borrelia burgdorferi",
+      "Rickettsia rickettsii"
+    ],
+    "answer": 1,
+    "answerText": "Leptospira interrogans",
+    "explanation": "Leptospira interrogans primarily targets the liver and kidneys, causing leptospirosis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 27</span> Nontreponemal serological tests:",
+    "options": [
+      "Measure antibodies against lipids (e.g., cardiolipin) released from damaged cells",
+      "Detect specific Treponema pallidum antibodies",
+      "Identify bacterial DNA",
+      "Use culture-based confirmation"
+    ],
+    "answer": 0,
+    "answerText": "Measure antibodies against lipids (e.g., cardiolipin) released from damaged cells",
+    "explanation": "Nontreponemal tests, such as the VDRL and RPR tests, detect antibodies against cardiolipin released during tissue damage.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 28</span> Which bacteria causes atypical pneumonia, also known as walking pneumonia?",
+    "options": [
+      "Legionella pneumophila",
+      "Streptococcus pneumoniae",
+      "Mycoplasma pneumoniae",
+      "Klebsiella pneumoniae"
+    ],
+    "answer": 2,
+    "answerText": "Mycoplasma pneumoniae",
+    "explanation": "Mycoplasma pneumoniae is a common cause of atypical pneumonia, characterized by milder symptoms.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 29</span> Tick is the vector for transmission of all the bacterial infections below EXCEPT:",
+    "options": [
+      "Borrelia burgdorferi",
+      "Anaplasma phagocytophilum",
+      "Rickettsia rickettsii",
+      "Coxiella burnetii"
+    ],
+    "answer": 3,
+    "answerText": "Coxiella burnetii",
+    "explanation": "Coxiella burnetii, the causative agent of Q fever, is transmitted primarily via inhalation of contaminated aerosols, not by ticks.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 30</span> All the following statements are true EXCEPT:",
+    "options": [
+      "Chlamydia trachomatis is the leading cause of preventable blindness worldwide",
+      "Mycoplasma pneumoniae infections can be detected through nucleic acid amplification tests",
+      "Rickettsia species are obligate intracellular pathogens",
+      "Treponema pallidum causes syphilis"
+    ],
+    "answer": 1,
+    "answerText": "Mycoplasma pneumoniae infections can be detected through nucleic acid amplification tests",
+    "explanation": "Nucleic acid amplification tests are commonly used for detecting Mycoplasma pneumoniae infections due to their sensitivity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 31</span> All the following statements regarding Pontiac Fever and Legionnaire’s disease are true, EXCEPT:",
+    "options": [
+      "Pontiac fever is a self-limited, flu-like illness",
+      "Legionnaire’s disease can cause severe pneumonia",
+      "Both diseases cause high fever and have an incubation period of 7–10 days",
+      "Both are caused by Legionella pneumophila"
+    ],
+    "answer": 2,
+    "answerText": "Both diseases cause high fever and have an incubation period of 7–10 days",
+    "explanation": "Pontiac fever has a shorter incubation period (1–3 days) compared to Legionnaire’s disease.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 32</span> All the following statements regarding relapsing fever are correct, EXCEPT:",
+    "options": [
+      "Epidemic disease is caused by Borrelia recurrentis",
+      "Endemic disease is transmitted by soft ticks",
+      "Epidemic disease has a higher mortality rate than endemic disease",
+      "Endemic disease is caused by Borrelia recurrentis"
+    ],
+    "answer": 3,
+    "answerText": "Endemic disease is caused by Borrelia recurrentis",
+    "explanation": "Endemic relapsing fever is caused by Borrelia species other than B. recurrentis, typically transmitted by ticks.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 33</span> Initiation of infection by Mycoplasma pneumoniae begins with:",
+    "options": [
+      "Production of exotoxin",
+      "Invasion of host cells",
+      "Adherence to respiratory epithelial cells mediated by P1 adhesin",
+      "Formation of biofilm"
+    ],
+    "answer": 2,
+    "answerText": "Adherence to respiratory epithelial cells mediated by P1 adhesin",
+    "explanation": "The P1 adhesin allows Mycoplasma pneumoniae to adhere to respiratory epithelial cells, initiating infection.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 34</span> Transmission of which bacteria is similar to Treponema pallidum?",
+    "options": [
+      "Chlamydia trachomatis",
+      "Neisseria gonorrhoeae",
+      "Haemophilus ducreyi",
+      "Mycoplasma genitalium",
+      "Only 1 is correct",
+      "Only 2 and 3 are correct",
+      "All choices are correct",
+      "None of the above are correct",
+      "Only 1, 2, and 3 are correct",
+      "All choices are correct",
+      "Only 1 and 2 are correct",
+      "Only 3 and 4 are correct",
+      "Only 1 and 3 are correct",
+      "Only 2 and 4 are correct",
+      "All choices are correct",
+      "Only 2 and 3 are correct"
+    ],
+    "answer": 13,
+    "answerText": "Only 2 and 4 are correct",
+    "explanation": "The information in rows 2 and 4 correctly aligns with transmission, treatment, and prevention details, making them the correct answers.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 35</span> A 19-year-old man develops cough and fever. A chest radiograph shows consolidation of the left lower lobe. He was diagnosed with community-acquired pneumonia. Which of the following bacteria is the most frequent cause of community-acquired pneumonia?",
+    "options": [
+      "Mycoplasma pneumoniae",
+      "Streptococcus pneumoniae",
+      "Legionella pneumophila",
+      "Haemophilus influenzae"
+    ],
+    "answer": 1,
+    "answerText": "Streptococcus pneumoniae",
+    "explanation": "Streptococcus pneumoniae is the most common cause of community-acquired pneumonia, particularly in young adults and the elderly.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 36</span> A 24-year-old man had acute respiratory distress with a history of nasal congestion, headaches, myalgia, and mild dyspnea. His cough was productive, and he had pleuritic pain, fever, chills, and diarrhea. A careful history revealed exposure to his pet birds. Radiographs of the lungs showed patchy infiltrates in the left lower lobe. His pulmonary status improved after treatment with erythromycin, doxycycline, and ceftriaxone. The diagnosis was confirmed by cell culture and serologic tests. The most likely cause of this infection is:",
+    "options": [
+      "Chlamydia psittaci",
+      "Legionella pneumophila",
+      "Rickettsia prowazekii",
+      "Mycoplasma pneumoniae"
+    ],
+    "answer": 0,
+    "answerText": "Chlamydia psittaci",
+    "explanation": "Chlamydia psittaci is the causative agent of psittacosis, a zoonotic respiratory disease commonly linked to exposure to infected birds.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 37</span> A sexually active 20-year-old woman has a vaginal discharge. On pelvic examination, she presented with a purulent discharge at the opening of her endocervical canal. An endocervical specimen was collected for analysis. Which of the following statements about this patient is most correct?",
+    "options": [
+      "Initial ampicillin treatment is indicated for suspected N. gonorrhoeae or C. trachomatis infections",
+      "A Gram-stain of her endocervical specimen would show C. trachomatis inside polymorphonuclear cells",
+      "C. trachomatis infections are detected using direct bacterial culture",
+      "The patient likely has a noninfectious condition"
+    ],
+    "answer": 1,
+    "answerText": "A Gram-stain of her endocervical specimen would show C. trachomatis inside polymorphonuclear cells",
+    "explanation": "Chlamydia trachomatis is an intracellular pathogen often found within polymorphonuclear cells in Gram-stained endocervical specimens.",
+    "userAnswer": null
   }
 ]
