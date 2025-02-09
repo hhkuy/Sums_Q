@@ -1,0 +1,275 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 1</span> How much is the renal blood flow (RBF) every minute?",
+    "options": [
+      "125 ml",
+      "500 ml",
+      "1200 ml",
+      "1800 ml"
+    ],
+    "answer": 2,
+    "answerText": "1200 ml",
+    "explanation": "The renal blood flow is approximately 1200 ml per minute, accounting for about 20-25% of the cardiac output.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 2</span> What is the effect of afferent arteriolar constriction on GFR?",
+    "options": [
+      "Increase",
+      "No change",
+      "Decrease",
+      "Variable effect"
+    ],
+    "answer": 2,
+    "answerText": "Decrease",
+    "explanation": "Constriction of the afferent arteriole reduces blood flow into the glomerulus, thereby decreasing glomerular filtration rate (GFR).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 3</span> What is the role of the urinary system in homeostasis? Choose the best answer.",
+    "options": [
+      "Constancy of body fluid volume and composition",
+      "Control of blood pressure only",
+      "Regulation of immune response",
+      "Regulation of respiratory function"
+    ],
+    "answer": 0,
+    "answerText": "Constancy of body fluid volume and composition",
+    "explanation": "The urinary system maintains homeostasis by regulating the volume and composition of body fluids, including electrolyte balance and waste removal.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 4</span> Where is the location of the most immature nephrons in the kidney?",
+    "options": [
+      "Juxtamedullary region",
+      "Medullary region",
+      "Superficial cortex",
+      "Renal pelvis"
+    ],
+    "answer": 2,
+    "answerText": "Superficial cortex",
+    "explanation": "The most immature nephrons are located in the superficial cortex, while the juxtamedullary nephrons are more developed and play a role in concentrating urine.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 5</span> The concentration of which ion is more in plasma than filtrate?",
+    "options": [
+      "Sodium",
+      "Calcium",
+      "Potassium",
+      "Chloride"
+    ],
+    "answer": 1,
+    "answerText": "Calcium",
+    "explanation": "Calcium concentration is higher in plasma than in the initial glomerular filtrate because a portion of plasma calcium is bound to proteins and not filtered.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 6</span> Which acids should be excreted by the renal system?",
+    "options": [
+      "Carbonic",
+      "Sulphuric",
+      "Hydrochloric",
+      "Lactic"
+    ],
+    "answer": 1,
+    "answerText": "Sulphuric",
+    "explanation": "Sulphuric acid is generated as a byproduct of protein metabolism and is excreted by the kidneys to maintain acid-base balance.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 7</span> Anemia may be the result of …………",
+    "options": [
+      "Acute kidney injury",
+      "Chronic renal failure",
+      "Hyperparathyroidism",
+      "Polycystic kidney disease"
+    ],
+    "answer": 1,
+    "answerText": "Chronic renal failure",
+    "explanation": "Chronic renal failure can lead to anemia due to decreased production of erythropoietin, a hormone that stimulates red blood cell production.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 8</span> Which one is NOT the effect of angiotensin II on the proximal cells?",
+    "options": [
+      "Sodium reabsorption",
+      "Water reabsorption",
+      "K secretion",
+      "Increased Na+/H+ exchange"
+    ],
+    "answer": 2,
+    "answerText": "K secretion",
+    "explanation": "Angiotensin II stimulates sodium and water reabsorption in the proximal tubule but does not directly promote potassium secretion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 9</span> The highest percentage of bicarbonate is reabsorbed in …………",
+    "options": [
+      "Distal tubule",
+      "Collecting ducts",
+      "Loop of Henle",
+      "Proximal tubule"
+    ],
+    "answer": 3,
+    "answerText": "Proximal tubule",
+    "explanation": "The proximal tubule reabsorbs approximately 80-90% of filtered bicarbonate, playing a critical role in maintaining acid-base balance.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 10</span> Filtration fraction is equal to GFR divided by:",
+    "options": [
+      "Renal plasma flow",
+      "Renal blood flow",
+      "Effective filtration pressure",
+      "Glomerular capillary pressure"
+    ],
+    "answer": 0,
+    "answerText": "Renal plasma flow",
+    "explanation": "Filtration fraction is defined as the ratio of GFR to renal plasma flow, indicating the percentage of plasma filtered by the kidneys.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 11</span> Which one reduces the GFR?",
+    "options": [
+      "Lower plasma protein",
+      "Increased renal blood flow",
+      "Urinary tract obstruction",
+      "Increased oncotic pressure"
+    ],
+    "answer": 2,
+    "answerText": "Urinary tract obstruction",
+    "explanation": "Urinary tract obstruction increases intratubular pressure, which opposes glomerular filtration and reduces GFR.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 12</span> The majority of secretion and reabsorption in the kidneys occur in:",
+    "options": [
+      "Distal tubule",
+      "Loop of Henle",
+      "Collecting ducts",
+      "Proximal tubule"
+    ],
+    "answer": 3,
+    "answerText": "Proximal tubule",
+    "explanation": "The proximal tubule is the primary site for reabsorption of water, ions, and nutrients, as well as the secretion of certain substances.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 13</span> The main function of intercalated A (I) cells is ………. and they are located in ………",
+    "options": [
+      "Potassium secretion - distal tubule",
+      "Hydrogen ion secretion - collecting ducts",
+      "Sodium reabsorption - proximal tubule",
+      "Urea recycling - loop of Henle"
+    ],
+    "answer": 1,
+    "answerText": "Hydrogen ion secretion - collecting ducts",
+    "explanation": "Intercalated A cells secrete hydrogen ions and reabsorb bicarbonate in the collecting ducts, playing a role in acid-base regulation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 14</span> Which one has a higher renal clearance?",
+    "options": [
+      "Urea",
+      "Glucose",
+      "Sodium",
+      "Bicarbonate"
+    ],
+    "answer": 0,
+    "answerText": "Urea",
+    "explanation": "Urea has a higher renal clearance compared to glucose or sodium because it is partially reabsorbed but also freely filtered and excreted.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 15</span> Fanconi’s syndrome occurs as a result of damage to which cells?",
+    "options": [
+      "Distal tubule cells",
+      "Proximal tubule cells",
+      "Loop of Henle cells",
+      "Collecting duct cells"
+    ],
+    "answer": 1,
+    "answerText": "Proximal tubule cells",
+    "explanation": "Fanconi’s syndrome is characterized by defective reabsorption in the proximal tubule, leading to losses of glucose, amino acids, and bicarbonate.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 16</span> What is the effect of strong stimulation of the sympathetic nervous system on GFR?",
+    "options": [
+      "Increase",
+      "No change",
+      "Decrease",
+      "Decrease, then increase after one hour"
+    ],
+    "answer": 2,
+    "answerText": "Decrease",
+    "explanation": "Strong sympathetic stimulation causes afferent arteriolar constriction, reducing renal blood flow and GFR.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 17</span> A decreased pH, higher hydrogen concentration, and a pCO2 above normal followed by an increased bicarbonate concentration is:",
+    "options": [
+      "Metabolic acidosis",
+      "Respiratory alkalosis",
+      "Respiratory acidosis",
+      "Metabolic alkalosis"
+    ],
+    "answer": 2,
+    "answerText": "Respiratory acidosis",
+    "explanation": "Respiratory acidosis is caused by hypoventilation, leading to CO2 retention and increased bicarbonate as compensation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 18</span> Upon an acid load entrance, which one is the best buffer system to fight against acidosis in blood?",
+    "options": [
+      "Phosphate buffer",
+      "Hemoglobin buffer",
+      "Bicarbonate buffer",
+      "Protein buffer"
+    ],
+    "answer": 2,
+    "answerText": "Bicarbonate buffer",
+    "explanation": "The bicarbonate buffer system is the primary mechanism for neutralizing excess hydrogen ions in the blood.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 19</span> The highest percentage of sodium is reabsorbed in ………. and potassium in ………",
+    "options": [
+      "Distal tubule - collecting ducts",
+      "Proximal tubule - distal tubule",
+      "Loop of Henle - proximal tubule",
+      "Proximal tubule - proximal tubule"
+    ],
+    "answer": 3,
+    "answerText": "Proximal tubule - proximal tubule",
+    "explanation": "Both sodium and potassium are primarily reabsorbed in the proximal tubule during early urine formation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 20</span> During dialysis, which one is NOT disposable?",
+    "options": [
+      "Dialyzer",
+      "Tubes & needles",
+      "Pump",
+      "Waste filters"
+    ],
+    "answer": 2,
+    "answerText": "Pump",
+    "explanation": "The pump is a machine component that is reused and maintained, whereas other parts like needles and tubing are disposable.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 21</span> How much is the concentration of sodium at the end of the proximal tubule, approximately?",
+    "options": [
+      "Less than plasma",
+      "Equal to plasma",
+      "More than plasma",
+      "Negligible concentration"
+    ],
+    "answer": 1,
+    "answerText": "Equal to plasma",
+    "explanation": "Sodium concentration at the end of the proximal tubule is approximately equal to that of plasma due to the reabsorption of water along with sodium.",
+    "userAnswer": null
+  }
+]
