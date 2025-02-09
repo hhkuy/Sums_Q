@@ -172,6 +172,11 @@
   {
     "topicName": "Immunology",
     "description": "Related Second Semester",
-    "subTopics": []
+    "subTopics": [
+      {
+        "name": "Immunology",
+        "file": "data/immunology_immunology.json"
+      }
+    ]
   }
 ]
