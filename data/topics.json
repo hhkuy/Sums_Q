@@ -226,5 +226,15 @@
         "file": "data/test_t1.json"
       }
     ]
+  },
+  {
+    "topicName": "Virology",
+    "description": "Related 2nd & 5th Semester",
+    "subTopics": [
+      {
+        "name": "Virology ",
+        "file": "data/virology_virology_.json"
+      }
+    ]
   }
 ]
