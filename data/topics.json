@@ -168,5 +168,10 @@
         "file": "data/respiratory_system_embryology_.json"
       }
     ]
+  },
+  {
+    "topicName": "Immunology",
+    "description": "Related Second Semester",
+    "subTopics": []
   }
 ]
