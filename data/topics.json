@@ -240,6 +240,23 @@
   {
     "topicName": "Endocrine system",
     "description": "Related to Third semester",
-    "subTopics": []
+    "subTopics": [
+      {
+        "name": "Biochemistry",
+        "file": "data/endocrine_system_biochemistry.json"
+      },
+      {
+        "name": "Physiology",
+        "file": "data/endocrine_system_physiology.json"
+      },
+      {
+        "name": "Histology",
+        "file": "data/endocrine_system_histology.json"
+      },
+      {
+        "name": "Embryology ",
+        "file": "data/endocrine_system_embryology_.json"
+      }
+    ]
   }
 ]
