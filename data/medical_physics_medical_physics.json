@@ -518,5 +518,1032 @@
     "answerText": "-1.0 + 3.0 × 135",
     "explanation": "The notation represents cylindrical correction in an optical prescription.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 1</span> What is the purpose of M-mode ultrasound?",
+    "options": [
+      "To display a 3D image of structures",
+      "To assess blood flow direction",
+      "To display the motion of structures over time along a single line",
+      "To measure tissue density"
+    ],
+    "answer": 2,
+    "answerText": "To display the motion of structures over time along a single line",
+    "explanation": "M-mode ultrasound shows the motion of structures along a single scan line over time, useful for evaluating moving organs like the heart.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 2</span> What is the advantage of using a phased array transducer?",
+    "options": [
+      "It provides higher resolution at shallow depths",
+      "It allows for electronic beam steering and focusing",
+      "It increases the attenuation of sound",
+      "It minimizes artifacts caused by bone"
+    ],
+    "answer": 1,
+    "answerText": "It allows for electronic beam steering and focusing",
+    "explanation": "Phased array transducers can electronically steer and focus the beam, making them ideal for imaging moving structures or organs through small acoustic windows.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 3</span> What are ultrasound artifacts?",
+    "options": [
+      "Signal reflections that improve image quality",
+      "Features in the ultrasound image that do not correspond to real anatomical structures",
+      "Areas of high contrast within tissues",
+      "Sound waves that bypass tissues"
+    ],
+    "answer": 1,
+    "answerText": "Features in the ultrasound image that do not correspond to real anatomical structures",
+    "explanation": "Artifacts are errors or distortions in an ultrasound image that do not represent actual anatomy, often caused by sound wave interactions.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 4</span> Which tissue component increases the speed of sound within it?",
+    "options": [
+      "Air",
+      "Collagen",
+      "Muscle",
+      "Fat"
+    ],
+    "answer": 1,
+    "answerText": "Collagen",
+    "explanation": "Collagen, being dense and highly elastic, increases the speed of sound compared to other tissues.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 5</span> Which of the following tissue interfaces would result in the highest amount of reflection in an ultrasound image?",
+    "options": [
+      "Muscle-bone",
+      "Soft tissue-air",
+      "Fat-muscle",
+      "Liver-kidney"
+    ],
+    "answer": 1,
+    "answerText": "Soft tissue-air",
+    "explanation": "Soft tissue-air interfaces cause significant reflection due to the large difference in acoustic impedance.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 6</span> What is the main advantage of pulsed wave (PW) Doppler compared to continuous wave (CW) Doppler?",
+    "options": [
+      "PW Doppler can provide depth information about the flow",
+      "PW Doppler is less prone to aliasing",
+      "PW Doppler has higher sensitivity to high flow rates",
+      "PW Doppler has better temporal resolution"
+    ],
+    "answer": 0,
+    "answerText": "PW Doppler can provide depth information about the flow",
+    "explanation": "PW Doppler can localize flow information to a specific depth, unlike CW Doppler, which measures along the entire beam path.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 7</span> What is the Fraunhofer zone (far field) of an ultrasound beam?",
+    "options": [
+      "The region near the transducer where the beam is relatively collimated",
+      "The region where the beam is diverging",
+      "The point where maximum resolution is achieved",
+      "The zone where sound energy is absorbed"
+    ],
+    "answer": 1,
+    "answerText": "The region where the beam is diverging",
+    "explanation": "The Fraunhofer zone is where the ultrasound beam diverges, typically affecting resolution and intensity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 8</span> What is reverberation artifact?",
+    "options": [
+      "A distortion of the ultrasound image caused by refraction",
+      "Multiple reflections of the ultrasound beam between two strong reflectors, creating a series of parallel lines in the image",
+      "A loss of signal due to high tissue attenuation",
+      "Scattering caused by irregular tissue surfaces"
+    ],
+    "answer": 1,
+    "answerText": "Multiple reflections of the ultrasound beam between two strong reflectors, creating a series of parallel lines in the image",
+    "explanation": "Reverberation artifacts occur when sound waves bounce back and forth between strong reflectors, leading to repeated echoes on the image.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 9</span> What is the purpose of using multiple focal zones in ultrasound imaging?",
+    "options": [
+      "To improve axial resolution",
+      "To reduce imaging artifacts",
+      "To improve lateral resolution at multiple depths",
+      "To enhance Doppler signal accuracy"
+    ],
+    "answer": 2,
+    "answerText": "To improve lateral resolution at multiple depths",
+    "explanation": "Multiple focal zones enhance lateral resolution by focusing at different depths, improving image quality across a wider area.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 10</span> Light travels from air (n = 1) to glass (n = 1.5). Will the light bend towards or away from the normal?",
+    "options": [
+      "Towards the normal",
+      "Away from the normal",
+      "Parallel to the normal",
+      "It does not bend"
+    ],
+    "answer": 0,
+    "answerText": "Towards the normal",
+    "explanation": "Light bends towards the normal when entering a medium with a higher refractive index, like glass.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 11</span> What is the power of a prism that deviates a light ray by 5 cm at a distance of 1 meter?",
+    "options": [
+      "2 prism diopters",
+      "5 prism diopters",
+      "10 prism diopters",
+      "20 prism diopters"
+    ],
+    "answer": 1,
+    "answerText": "5 prism diopters",
+    "explanation": "The power of a prism is measured in prism diopters, calculated as the deviation (5 cm) divided by the distance (1 m).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 12</span> A cylindrical lens with a power of +2.00 diopters in the 90-degree meridian will have a power of:",
+    "options": [
+      "+2.00 diopters in the 180-degree meridian",
+      "0 diopters in the 180-degree meridian",
+      "+4.00 diopters in the 180-degree meridian",
+      "+1.00 diopters in the 180-degree meridian"
+    ],
+    "answer": 1,
+    "answerText": "0 diopters in the 180-degree meridian",
+    "explanation": "A cylindrical lens focuses light in one meridian only, so its power in the perpendicular meridian is 0 diopters.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 13</span> What is accommodation (in eyes)?",
+    "options": [
+      "The process of changing pupil size in response to light",
+      "The process of adjusting the lens shape to focus on objects at different distances",
+      "The process of reducing intraocular pressure",
+      "The process of converting light into neural signals"
+    ],
+    "answer": 1,
+    "answerText": "The process of adjusting the lens shape to focus on objects at different distances",
+    "explanation": "Accommodation refers to the ability of the lens to change shape, allowing the eye to focus on objects at varying distances.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 14</span> What is the power of a lens with a focal length of 25 cm?",
+    "options": [
+      "0.25 diopters",
+      "2 diopters",
+      "4 diopters",
+      "5 diopters"
+    ],
+    "answer": 2,
+    "answerText": "4 diopters",
+    "explanation": "Lens power (in diopters) is calculated as the inverse of the focal length in meters: 1/0.25 = 4 diopters.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 15</span> What is the purpose of a Snellen chart?",
+    "options": [
+      "To assess peripheral vision",
+      "To assess color vision",
+      "To assess visual acuity",
+      "To measure intraocular pressure"
+    ],
+    "answer": 2,
+    "answerText": "To assess visual acuity",
+    "explanation": "The Snellen chart is used to measure visual acuity by having patients read letters of varying sizes from a set distance.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 16</span> A cylindrical lens focuses light to a:",
+    "options": [
+      "Point",
+      "Line",
+      "Circle",
+      "Plane"
+    ],
+    "answer": 1,
+    "answerText": "Line",
+    "explanation": "A cylindrical lens focuses parallel light rays to a line, rather than a point like spherical lenses do.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 17</span> Hyperopia is a refractive error where:",
+    "options": [
+      "The eye is too long, or the cornea is too steep",
+      "The eye is too short, or the cornea is too flat",
+      "The lens is unable to accommodate",
+      "The retina is abnormally thick"
+    ],
+    "answer": 1,
+    "answerText": "The eye is too short, or the cornea is too flat",
+    "explanation": "In hyperopia (farsightedness), the eye is too short or the cornea is too flat, causing difficulty focusing on near objects.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 18</span> A toric lens has a power of +2.50 -1.50 x 180. What is its cylindrical power?",
+    "options": [
+      "+2.50 diopters",
+      "-1.50 diopters",
+      "0 diopters",
+      "+1.50 diopters"
+    ],
+    "answer": 1,
+    "answerText": "-1.50 diopters",
+    "explanation": "The cylindrical power is the difference between the powers of the principal meridians, indicated by -1.50 diopters.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 19</span> What does 2/20 vision mean?",
+    "options": [
+      "The ability to see at 20 feet what a person with normal vision can see at 2 feet",
+      "The ability to see at 2 feet what a person with normal vision can see at 20 feet",
+      "Perfect visual acuity",
+      "Severe myopia"
+    ],
+    "answer": 1,
+    "answerText": "The ability to see at 2 feet what a person with normal vision can see at 20 feet",
+    "explanation": "2/20 vision means the person can see at 2 feet what someone with normal vision can see at 20 feet, indicating poor vision.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 20</span> A cylindrical lens can be used to correct:",
+    "options": [
+      "Myopia",
+      "Astigmatism",
+      "Hyperopia",
+      "Presbyopia"
+    ],
+    "answer": 1,
+    "answerText": "Astigmatism",
+    "explanation": "Cylindrical lenses correct astigmatism by compensating for uneven curvatures in the cornea or lens.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 21</span> Which one reduces patient dose during radiography?",
+    "options": [
+      "Collimator",
+      "Intensifying screen",
+      "Filter",
+      "Grid"
+    ],
+    "answer": 1,
+    "answerText": "Intensifying screen",
+    "explanation": "Intensifying screens reduce the amount of radiation needed by amplifying the effect of x-rays on the film.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 22</span> Increasing … causes lower blurring (less geometric unsharpness) on x-ray image.",
+    "options": [
+      "Focal spot size",
+      "X-ray tube-to-film distance",
+      "Object-to-film distance",
+      "Exposure time"
+    ],
+    "answer": 1,
+    "answerText": "X-ray tube-to-film distance",
+    "explanation": "Increasing the tube-to-film distance reduces blurring by minimizing the divergence of x-rays, leading to sharper images.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 23</span> Which one makes better contrast in the image?",
+    "options": [
+      "Air-bone",
+      "Muscle-fat",
+      "Bone-tumor",
+      "Blood-liver"
+    ],
+    "answer": 2,
+    "answerText": "Bone-tumor",
+    "explanation": "The large difference in density between bone and tumor tissue results in better contrast in the image.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 24</span> Which one reduces x-ray scatter on radiography film?",
+    "options": [
+      "Intensifying screen",
+      "Grid",
+      "Collimator",
+      "Anode"
+    ],
+    "answer": 1,
+    "answerText": "Grid",
+    "explanation": "Grids reduce scatter radiation by allowing only primary x-rays to pass through, improving image contrast.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 25</span> What is the application of large focal spot size in an x-ray tube?",
+    "options": [
+      "Improved image resolution",
+      "Shorter exposure time",
+      "Higher image contrast",
+      "Reduced scatter radiation"
+    ],
+    "answer": 1,
+    "answerText": "Shorter exposure time",
+    "explanation": "A larger focal spot allows for higher x-ray output, reducing the exposure time needed to produce an image.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 26</span> If the atomic number (Z) of a tissue is doubled by administering a contrast agent, what ratio is the “linear attenuation coefficient of photoelectric absorption” changed?",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "2"
+    ],
+    "answer": 1,
+    "answerText": "8",
+    "explanation": "The linear attenuation coefficient for photoelectric absorption is proportional to approximately Z³, so doubling Z increases it by a factor of 8.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 27</span> A radiography film was exposed to optical light. The fraction of light transferring through a part of the film is 0.01. What is the optical density (OD) of this part?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "answerText": "2",
+    "explanation": "Optical density is calculated as OD = -log10(0.01) = 2.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 28</span> Higher μ (linear attenuation coefficient) of a body tissue means …",
+    "options": [
+      "Higher density",
+      "Higher atomic number",
+      "Lower acoustic impedance",
+      "Lower energy absorption"
+    ],
+    "answer": 1,
+    "answerText": "Higher atomic number",
+    "explanation": "The linear attenuation coefficient increases with a higher atomic number due to increased interaction with x-rays.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 29</span> Which interaction phenomenon in the body causes higher x-ray absorption?",
+    "options": [
+      "Compton scattering",
+      "Photoelectric effect",
+      "Pair production",
+      "Rayleigh scattering"
+    ],
+    "answer": 1,
+    "answerText": "Photoelectric effect",
+    "explanation": "The photoelectric effect causes significant x-ray absorption, especially in tissues with high atomic numbers.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 30</span> To get a proper x-ray image of a moving tissue, use of which method works better?",
+    "options": [
+      "Higher field of view (FOV)",
+      "Higher exposure rate",
+      "Lower x-ray energy",
+      "Larger focal spot size"
+    ],
+    "answer": 1,
+    "answerText": "Higher exposure rate",
+    "explanation": "A higher exposure rate reduces motion blur by decreasing the time required to capture the image.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 31</span> If atomic number and thickness of two adjacent tissues are equal, which tissue interface makes better contrast in the image?",
+    "options": [
+      "Muscle-fat",
+      "Lung-tumor",
+      "Liver-spleen",
+      "Muscle-bone"
+    ],
+    "answer": 1,
+    "answerText": "Lung-tumor",
+    "explanation": "The difference in density between lung and tumor tissue creates better contrast in the image.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 32</span> How to reduce magnification on x-ray images?",
+    "options": [
+      "Increasing source-to-film distance",
+      "Decreasing source-to-object distance",
+      "Using a larger focal spot size",
+      "Increasing exposure time"
+    ],
+    "answer": 0,
+    "answerText": "Increasing source-to-film distance",
+    "explanation": "Increasing the distance between the x-ray source and the film reduces magnification by minimizing the divergence of the x-ray beam.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 33</span> Which factor increases image contrast on x-ray film?",
+    "options": [
+      "Increasing kVp",
+      "Decreasing kVp",
+      "Increasing mAs",
+      "Decreasing focal spot size"
+    ],
+    "answer": 1,
+    "answerText": "Decreasing kVp",
+    "explanation": "Lowering the kVp increases image contrast by enhancing the differential absorption of x-rays in different tissues.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 34</span> Increasing the distance between the x-ray tube and the film causes … on the x-ray image.",
+    "options": [
+      "Higher magnification",
+      "Lower magnification",
+      "Higher blurring",
+      "Lower contrast"
+    ],
+    "answer": 1,
+    "answerText": "Lower magnification",
+    "explanation": "As the distance between the tube and the film increases, magnification decreases due to reduced beam divergence.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 35</span> What do you prefer if a traumatic patient comes to the emergency room?",
+    "options": [
+      "Upright chest x-ray",
+      "Supine chest x-ray",
+      "Lateral chest x-ray",
+      "Oblique chest x-ray"
+    ],
+    "answer": 0,
+    "answerText": "Upright chest x-ray",
+    "explanation": "An upright chest x-ray is preferred as it allows better assessment of air-fluid levels and lung conditions.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 36</span> Which tissue appears darker on a T2-weighted image?",
+    "options": [
+      "Fat and lipid",
+      "CSF",
+      "Tumor",
+      "Muscle"
+    ],
+    "answer": 0,
+    "answerText": "Fat and lipid",
+    "explanation": "Fat and lipid typically appear dark on T2-weighted images due to their short T2 relaxation times.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 37</span> Which tumoral content is visible on MRS (Magnetic Resonance Spectroscopy)?",
+    "options": [
+      "Glucose",
+      "Lactate",
+      "Creatine",
+      "Calcium"
+    ],
+    "answer": 2,
+    "answerText": "Creatine",
+    "explanation": "Creatine is one of the main metabolites visible on MRS, providing information about tumor metabolism.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 38</span> How does diffusion decrease show in an acute (short after incident) stroke patient?",
+    "options": [
+      "Black",
+      "White",
+      "Gray",
+      "Dark gray"
+    ],
+    "answer": 1,
+    "answerText": "White",
+    "explanation": "Restricted diffusion in an acute stroke typically appears as bright (white) areas on diffusion-weighted imaging (DWI).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 39</span> Which one cannot be shown well by MRI?",
+    "options": [
+      "Blood vessels",
+      "Bone calcium",
+      "CSF",
+      "Fat"
+    ],
+    "answer": 1,
+    "answerText": "Bone calcium",
+    "explanation": "MRI cannot effectively show bone calcium because it does not produce a strong signal in MRI due to low hydrogen content.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 40</span> What physiological information does functional MRI (fMRI) mainly show in the brain?",
+    "options": [
+      "Blood volume",
+      "Oxygen level",
+      "Neuronal impulses",
+      "Glucose consumption"
+    ],
+    "answer": 1,
+    "answerText": "Oxygen level",
+    "explanation": "fMRI detects changes in blood oxygenation and flow, indicating areas of neural activity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 41</span> Which one has a shorter T1?",
+    "options": [
+      "Water",
+      "Lipid",
+      "CSF",
+      "Muscle"
+    ],
+    "answer": 1,
+    "answerText": "Lipid",
+    "explanation": "Lipid has a shorter T1 relaxation time compared to water and other tissues, allowing it to appear bright on T1-weighted images.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 42</span> Tumoral tissue usually appears … on T2 and … on T1 images.",
+    "options": [
+      "Dark, white",
+      "White, dark",
+      "White, white",
+      "Dark, dark"
+    ],
+    "answer": 1,
+    "answerText": "White, dark",
+    "explanation": "Tumors often appear bright on T2-weighted images and dark on T1-weighted images due to increased water content.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 43</span> Perfusion-weighted MR image cannot show …",
+    "options": [
+      "Blood flow",
+      "Tissue density",
+      "Ischemia",
+      "Capillary perfusion"
+    ],
+    "answer": 1,
+    "answerText": "Tissue density",
+    "explanation": "Perfusion-weighted imaging focuses on blood flow and vascular supply, not on tissue density.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 44</span> A T2-weighted image is characterized by …",
+    "options": [
+      "Bright fat and dark CSF",
+      "Dark fat and bright CSF",
+      "Bright fat and bright CSF",
+      "Dark fat and dark CSF"
+    ],
+    "answer": 1,
+    "answerText": "Dark fat and bright CSF",
+    "explanation": "On T2-weighted images, water-based structures like CSF appear bright, while fat appears dark.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 45</span> Which one causes localization of the MR signal to one point (or voxel) in space?",
+    "options": [
+      "RF pulse",
+      "Gradient coils",
+      "Magnet strength",
+      "Contrast agents"
+    ],
+    "answer": 1,
+    "answerText": "Gradient coils",
+    "explanation": "Gradient coils create spatial variation in the magnetic field, allowing localization of signals to a specific point in space.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 46</span> The signal of MRI is originally originated from …",
+    "options": [
+      "Water",
+      "Hydrogen",
+      "Oxygen",
+      "Sodium"
+    ],
+    "answer": 1,
+    "answerText": "Hydrogen",
+    "explanation": "MRI relies on the magnetic properties of hydrogen nuclei, which are abundant in the body, to generate images.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 47</span> Larmor frequency in MRI depends mainly on …",
+    "options": [
+      "Magnet strength",
+      "Type of nucleus",
+      "Gradient strength",
+      "Coil configuration"
+    ],
+    "answer": 1,
+    "answerText": "Type of nucleus",
+    "explanation": "The Larmor frequency depends on the type of nucleus being imaged, such as hydrogen, and the magnetic field strength.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 48</span> Which one is prohibited for an MRI scan?",
+    "options": [
+      "Patient with dental fillings",
+      "Patient with prosthetic limbs",
+      "Patient with pacemaker",
+      "Patient with stents"
+    ],
+    "answer": 2,
+    "answerText": "Patient with pacemaker",
+    "explanation": "Pacemakers are generally contraindicated for MRI due to the risk of interference with the device.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 49</span> Which one is correct?",
+    "options": [
+      "T1 is always shorter than T2",
+      "T2* is always shorter than T2",
+      "T1 relaxation occurs before T2 relaxation",
+      "T2 and T2* are always equal"
+    ],
+    "answer": 1,
+    "answerText": "T2* is always shorter than T2",
+    "explanation": "T2* is always shorter than T2 due to additional dephasing caused by magnetic field inhomogeneities.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 50</span> What is the function of the RF pulse?",
+    "options": [
+      "To generate contrast between tissues",
+      "To rephase protons",
+      "To measure magnetization",
+      "To alter gradient fields"
+    ],
+    "answer": 1,
+    "answerText": "To rephase protons",
+    "explanation": "RF pulses are used to rephase protons, which is crucial for creating MR images by inducing coherent signals.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 51</span> Which tissue appears white on a T1-weighted image?",
+    "options": [
+      "CSF",
+      "Muscle",
+      "Fat and lipid",
+      "Bone"
+    ],
+    "answer": 2,
+    "answerText": "Fat and lipid",
+    "explanation": "Fat and lipid appear bright (white) on T1-weighted images due to their short T1 relaxation times.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 52</span> The number of protons in the atom is named…",
+    "options": [
+      "Mass number",
+      "Atomic number",
+      "Neutron number",
+      "Binding energy"
+    ],
+    "answer": 1,
+    "answerText": "Atomic number",
+    "explanation": "The atomic number (Z) refers to the number of protons in an atom, which defines the element.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 53</span> … have the same number of A and Z with different nucleus properties.",
+    "options": [
+      "Isotopes",
+      "Isomers",
+      "Isotones",
+      "Ions"
+    ],
+    "answer": 1,
+    "answerText": "Isomers",
+    "explanation": "Isomers have the same atomic (Z) and mass numbers (A) but differ in energy states or nuclear configurations.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 54</span> Which particles have the same number of neutrons but different proton numbers?",
+    "options": [
+      "Isotopes",
+      "Isomers",
+      "Isotones",
+      "Neutrinos"
+    ],
+    "answer": 0,
+    "answerText": "Isotopes",
+    "explanation": "Isotopes of an element have the same number of neutrons but different numbers of protons, leading to different atomic numbers.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 55</span> According to this theory, an atom consists of electrons distributed in a positive sphere.",
+    "options": [
+      "Bohr’s model",
+      "Thomson’s model",
+      "Rutherford’s model",
+      "Quantum model"
+    ],
+    "answer": 1,
+    "answerText": "Thomson’s model",
+    "explanation": "Thomson’s model proposed that electrons are embedded within a positively charged sphere, often called the \"plum pudding model.\"",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 56</span> Which of them is not included in Bohr’s theory?",
+    "options": [
+      "Electrons orbit in discrete energy levels",
+      "Energy is absorbed or emitted when an electron changes levels",
+      "Atom consists of a constant central core including all electrons",
+      "Electrons follow circular orbits around the nucleus"
+    ],
+    "answer": 2,
+    "answerText": "Atom consists of a constant central core including all electrons",
+    "explanation": "Bohr’s model does not suggest that the nucleus contains all electrons; instead, electrons orbit the nucleus in discrete levels.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 57</span> Which one is correct in ionization?",
+    "options": [
+      "Electrons gain kinetic energy during ionization",
+      "X-ray emission may be occurred",
+      "Ionization always involves alpha particles",
+      "It cannot occur with non-ionizing radiation"
+    ],
+    "answer": 1,
+    "answerText": "X-ray emission may be occurred",
+    "explanation": "Ionization can result in x-ray emission when high-energy particles eject electrons from atoms.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 58</span> In this model, nucleons lie on different layers around the nucleus.",
+    "options": [
+      "Thomson model",
+      "Rutherford model",
+      "Shell model",
+      "Bohr model"
+    ],
+    "answer": 2,
+    "answerText": "Shell model",
+    "explanation": "The shell model describes nucleons (protons and neutrons) as occupying discrete energy levels or shells within the nucleus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 59</span> Which one is correct about nuclear binding energy?",
+    "options": [
+      "Its origin is related to the interaction between protons and electrons",
+      "Its origin is related to the interaction between protons and neutrons inside the nucleus",
+      "It prevents nuclear fission from occurring",
+      "It remains constant across all elements"
+    ],
+    "answer": 1,
+    "answerText": "Its origin is related to the interaction between protons and neutrons inside the nucleus",
+    "explanation": "Nuclear binding energy arises from the strong nuclear force between protons and neutrons, holding the nucleus together.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 60</span> When the physical half-life time is 3 seconds and the effective half-life time is 1.5 seconds, what is the biological half-life time?",
+    "options": [
+      "0.5 seconds",
+      "1 second",
+      "3 seconds",
+      "4.5 seconds"
+    ],
+    "answer": 2,
+    "answerText": "3 seconds",
+    "explanation": "The relationship between effective, physical, and biological half-life follows the equation \\( \\frac{1}{T_e} = \\frac{1}{T_p} + \\frac{1}{T_b} \\).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 61</span> The traditional unit of activity is …",
+    "options": [
+      "Becquerel",
+      "Curie",
+      "Gray",
+      "Sievert"
+    ],
+    "answer": 1,
+    "answerText": "Curie",
+    "explanation": "The curie (Ci) is the traditional unit of radioactive activity, with 1 Ci corresponding to 3.7 × 10¹⁰ decays per second.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 62</span> Which particle should be filled in the empty position during beta-plus decay?",
+    "options": [
+      "β⁻1",
+      "α",
+      "β⁺1",
+      "γ"
+    ],
+    "answer": 2,
+    "answerText": "β⁺1",
+    "explanation": "In beta-plus decay, a proton is converted into a neutron, and a positron (β⁺1) is emitted.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 63</span> Which particle should be filled in the empty position during alpha decay?",
+    "options": [
+      "Neutron",
+      "Proton",
+      "α",
+      "β"
+    ],
+    "answer": 2,
+    "answerText": "α",
+    "explanation": "During alpha decay, an alpha particle (α), consisting of two protons and two neutrons, is emitted from the nucleus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 64</span> Which particle has the highest penetration?",
+    "options": [
+      "Alpha particles",
+      "Beta particles",
+      "Gamma rays",
+      "Neutrons"
+    ],
+    "answer": 2,
+    "answerText": "Gamma rays",
+    "explanation": "Gamma rays have the highest penetration ability because they are highly energetic and lack charge or mass, allowing them to pass through most materials.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 65</span> Which one is the application of non-ionizing radiation for diagnostic purposes?",
+    "options": [
+      "CT scan",
+      "X-ray",
+      "MRI",
+      "PET scan"
+    ],
+    "answer": 2,
+    "answerText": "MRI",
+    "explanation": "MRI uses non-ionizing radiofrequency waves and magnetic fields to produce detailed images of the body.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 66</span> Which organ has the lowest tissue weighting factor?",
+    "options": [
+      "Liver",
+      "Gonads",
+      "Skin",
+      "Lungs"
+    ],
+    "answer": 2,
+    "answerText": "Skin",
+    "explanation": "Skin has a low tissue weighting factor because it is less sensitive to radiation damage compared to other organs like the gonads.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 67</span> Which one is a principle of radiation protection?",
+    "options": [
+      "Time",
+      "Distance",
+      "Shielding",
+      "All of them"
+    ],
+    "answer": 3,
+    "answerText": "All of them",
+    "explanation": "Radiation protection relies on the principles of time, distance, and shielding to minimize exposure to ionizing radiation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 68</span> According to the old guideline of NCRP, what is the allowed effective dose for a 40-year-old radiation worker?",
+    "options": [
+      "400 mSv",
+      "110 rem",
+      "50 mSv",
+      "100 rem"
+    ],
+    "answer": 1,
+    "answerText": "110 rem",
+    "explanation": "The old NCRP guideline allowed 110 rem of cumulative radiation dose, which is age-based at 5 rem per year of age.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 69</span> Exposures of volunteers in a program of biomedical research are included in which category?",
+    "options": [
+      "Occupational",
+      "Medical",
+      "Public",
+      "Experimental"
+    ],
+    "answer": 1,
+    "answerText": "Medical",
+    "explanation": "Volunteers exposed in biomedical research are considered under the medical category since exposure is linked to health studies.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 70</span> What is the maximum allowed daily hours of a radiation worker with a dose rate of 0.01 mSv/h and an allowed yearly dose of 20 mSv?",
+    "options": [
+      "0.8 hours",
+      "8 hours",
+      "2 hours",
+      "10 hours"
+    ],
+    "answer": 1,
+    "answerText": "8 hours",
+    "explanation": "To remain within the yearly limit of 20 mSv, a worker can be exposed for 8 hours daily at a dose rate of 0.01 mSv/h.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 71</span> Dose rate at 1 m from a source is 400 mSv/h. What is the dose rate at 2 m from the source?",
+    "options": [
+      "200 mSv/h",
+      "100 mSv/h",
+      "400 mSv/h",
+      "50 mSv/h"
+    ],
+    "answer": 1,
+    "answerText": "100 mSv/h",
+    "explanation": "According to the inverse square law, doubling the distance from the source reduces the dose rate to one-fourth of the initial value.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 72</span> The required thickness to reduce radiation to half of its initial value is …",
+    "options": [
+      "Mean free path",
+      "HVL",
+      "Attenuation coefficient",
+      "Tenth value layer"
+    ],
+    "answer": 1,
+    "answerText": "HVL",
+    "explanation": "Half-Value Layer (HVL) is the thickness of a material required to reduce the radiation intensity by half.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 73</span> Dose rate at 1 m from a source is 400 mSv/h. What is the dose rate after 30 minutes?",
+    "options": [
+      "800 mSv",
+      "200 mSv",
+      "100 mSv",
+      "50 mSv"
+    ],
+    "answer": 1,
+    "answerText": "200 mSv",
+    "explanation": "Since 30 minutes is half an hour, the dose rate is halved from the hourly rate, resulting in 200 mSv.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 74</span> Which radiation has the highest quality factor?",
+    "options": [
+      "X-ray",
+      "Gamma",
+      "Beta",
+      "Alpha"
+    ],
+    "answer": 3,
+    "answerText": "Alpha",
+    "explanation": "Alpha particles have the highest quality factor due to their high linear energy transfer (LET) and ability to cause significant biological damage.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 75</span> What is the limitation of absorbed dose for students under the age of 18?",
+    "options": [
+      "50 mSv",
+      "20 mSv",
+      "5 mSv",
+      "1 mSv"
+    ],
+    "answer": 3,
+    "answerText": "1 mSv",
+    "explanation": "Students under 18 are limited to 1 mSv per year to protect their developing tissues from radiation exposure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 76</span> A light ray enters a rectangular glass block (n = 1.50) from air (n = 1.00) at an angle of incidence of 30 degrees. Calculate the angle of refraction.",
+    "options": [
+      "19.5 degrees",
+      "30 degrees",
+      "45 degrees",
+      "60 degrees"
+    ],
+    "answer": 0,
+    "answerText": "19.5 degrees",
+    "explanation": "Using Snell’s law, \\( n_1 \\sin \\theta_1 = n_2 \\sin \\theta_2 \\), the angle of refraction is 19.5 degrees.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 77</span> What is the maximum pulse repetition frequency (PRF) for an ultrasound system if the maximum imaging depth is 10 cm and the speed of sound is 1540 m/s?",
+    "options": [
+      "7.7 kHz",
+      "3.08 kHz",
+      "15 kHz",
+      "1.5 kHz"
+    ],
+    "answer": 0,
+    "answerText": "7.7 kHz",
+    "explanation": "PRF is calculated as \\( \\frac{\\text{Speed of sound}}{2 \\times \\text{Imaging depth}} \\), giving a result of 7.7 kHz.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 78</span> A Doppler ultrasound system uses a 4 MHz transducer. The Doppler shift measured from a blood vessel is 3 kHz. If the speed of sound in blood is 1540 m/s and the Doppler angle is 0 degrees, what is the velocity of blood flow?",
+    "options": [
+      "1.16 m/s",
+      "0.58 m/s",
+      "2.32 m/s",
+      "3.08 m/s"
+    ],
+    "answer": 1,
+    "answerText": "0.58 m/s",
+    "explanation": "The Doppler equation relates the Doppler shift to the velocity of blood flow, yielding 0.58 m/s in this case.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-9-30) - Dr. Ghazale Geraily & Dr. Ogabyan & Dr. Makkiabadi - Question 79</span> A 7.5 MHz ultrasound transducer is used to image a structure at a depth of 8 cm. The attenuation coefficient of the tissue is 0.5 dB/cm/MHz. What is the total attenuation in dB?",
+    "options": [
+      "10 dB",
+      "15 dB",
+      "30 dB",
+      "45 dB"
+    ],
+    "answer": 2,
+    "answerText": "30 dB",
+    "explanation": "Total attenuation is calculated as \\( \\text{Frequency} \\times \\text{Depth} \\times \\text{Attenuation coefficient} = 7.5 \\times 8 \\times 0.5 = 30 \\, \\text{dB} \\).",
+    "userAnswer": null
   }
 ]
