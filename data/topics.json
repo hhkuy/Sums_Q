@@ -216,5 +216,15 @@
         "file": "data/reproductive_system_embryology.json"
       }
     ]
+  },
+  {
+    "topicName": "test",
+    "description": "",
+    "subTopics": [
+      {
+        "name": "t1",
+        "file": "data/test_t1.json"
+      }
+    ]
   }
 ]
