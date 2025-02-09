@@ -190,5 +190,31 @@
         "file": "data/immunology_immunology.json"
       }
     ]
+  },
+  {
+    "topicName": "Reproductive system",
+    "description": "Related to Third Semester",
+    "subTopics": [
+      {
+        "name": "Anatomy",
+        "file": "data/reproductive_system_anatomy.json"
+      },
+      {
+        "name": "Physiology",
+        "file": "data/reproductive_system_physiology.json"
+      },
+      {
+        "name": "Biochemistry",
+        "file": "data/reproductive_system_biochemistry.json"
+      },
+      {
+        "name": "Histology",
+        "file": "data/reproductive_system_histology.json"
+      },
+      {
+        "name": "Embryology",
+        "file": "data/reproductive_system_embryology.json"
+      }
+    ]
   }
 ]
