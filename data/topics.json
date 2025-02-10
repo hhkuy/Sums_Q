@@ -18,6 +18,24 @@
     ]
   },
   {
+    "topicName": "Cell and molecules block؛",
+    "description": "Related to Second Semster",
+    "subTopics": [
+      {
+        "name": "Biochemistry",
+        "file": "data/cell_and_molecules_block؛_biochemistry.json"
+      },
+      {
+        "name": "Histology",
+        "file": "data/cell_and_molecules_block؛_histology.json"
+      },
+      {
+        "name": "physiology",
+        "file": "data/cell_and_molecules_block؛_physiology.json"
+      }
+    ]
+  },
+  {
     "topicName": "Anatomy of Limbs",
     "description": "Related to First Semster",
     "subTopics": [
@@ -48,24 +66,6 @@
       {
         "name": "Psychology",
         "file": "data/psychology_psychology.json"
-      }
-    ]
-  },
-  {
-    "topicName": "Cell and molecules block؛",
-    "description": "Related to Second Semster",
-    "subTopics": [
-      {
-        "name": "Biochemistry",
-        "file": "data/cell_and_molecules_block؛_biochemistry.json"
-      },
-      {
-        "name": "Histology",
-        "file": "data/cell_and_molecules_block؛_histology.json"
-      },
-      {
-        "name": "physiology",
-        "file": "data/cell_and_molecules_block؛_physiology.json"
       }
     ]
   },
@@ -228,16 +228,6 @@
     ]
   },
   {
-    "topicName": "test",
-    "description": "",
-    "subTopics": [
-      {
-        "name": "t1",
-        "file": "data/test_t1.json"
-      }
-    ]
-  },
-  {
     "topicName": "Endocrine system",
     "description": "Related to Third semester",
     "subTopics": [
@@ -276,6 +266,16 @@
       {
         "name": "Microbiology",
         "file": "data/microbiology_microbiology.json"
+      }
+    ]
+  },
+  {
+    "topicName": "test",
+    "description": "",
+    "subTopics": [
+      {
+        "name": "t1",
+        "file": "data/test_t1.json"
       }
     ]
   }
