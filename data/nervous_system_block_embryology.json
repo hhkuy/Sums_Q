@@ -1,0 +1,132 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Golshan - Question 1</span> What days of development does final closure of the cranial neuropore and caudal neuropore occur respectively?",
+    "options": [
+      "22nd day - 25th day",
+      "23rd day - 27th day",
+      "25th day - 28th day",
+      "26th day - 29th day"
+    ],
+    "answer": 2,
+    "answerText": "25th day - 28th day",
+    "explanation": "The cranial neuropore closes around day 25, while the caudal neuropore closes by day 28.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Golshan - Question 2</span> The ……………. layer forms the ……………. of the spinal cord.",
+    "options": [
+      "Marginal - white matter",
+      "Mantle - gray matter",
+      "Ventricular - ependyma",
+      "Alar - dorsal horn"
+    ],
+    "answer": 1,
+    "answerText": "Mantle - gray matter",
+    "explanation": "The mantle layer differentiates into gray matter, containing neuronal cell bodies.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Golshan - Question 3</span> Which one is a defect in the vertebral arches that is covered by skin and normally does not involve underlying neural tissue?",
+    "options": [
+      "Meningocele",
+      "Myelomeningocele",
+      "Spina bifida occulta",
+      "Anencephaly"
+    ],
+    "answer": 2,
+    "answerText": "Spina bifida occulta",
+    "explanation": "Spina bifida occulta is a mild defect where the vertebral arches fail to close, but the spinal cord remains unaffected.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Golshan - Question 4</span> Which of the following are differentiated from the neural crest?",
+    "options": [
+      "Sensory ganglia, autonomic neuroblasts, Schwann cells",
+      "Motor neurons, oligodendrocytes, astrocytes",
+      "Ependymal cells, microglia, choroid plexus",
+      "Pontine nuclei, Purkinje cells, retinal ganglia"
+    ],
+    "answer": 0,
+    "answerText": "Sensory ganglia, autonomic neuroblasts, Schwann cells",
+    "explanation": "Neural crest cells give rise to peripheral nervous system components like sensory ganglia, autonomic neurons, and Schwann cells.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Golshan - Question 5</span> What are the main derivatives of the metencephalon?",
+    "options": [
+      "Cerebellum and pons",
+      "Midbrain and medulla",
+      "Thalamus and hypothalamus",
+      "Spinal cord and medulla"
+    ],
+    "answer": 0,
+    "answerText": "Cerebellum and pons",
+    "explanation": "The metencephalon forms the cerebellum (motor coordination) and pons (relay between brainstem and cerebrum).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Golshan - Question 6</span> Which one is not derived from neuroepithelial cells?",
+    "options": [
+      "Oligodendrocytes",
+      "Astrocytes",
+      "Ependymal cells",
+      "Microglial cells"
+    ],
+    "answer": 3,
+    "answerText": "Microglial cells",
+    "explanation": "Microglial cells originate from mesoderm (not neuroepithelium) and act as immune cells in the CNS.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Golshan - Question 7</span> Which defect is characterized by failure of the cephalic part of the neural tube to close?",
+    "options": [
+      "Meningocele",
+      "Meningoencephalocele",
+      "Exencephaly",
+      "Holoprosencephaly"
+    ],
+    "answer": 2,
+    "answerText": "Exencephaly",
+    "explanation": "Exencephaly results from improper closure of the cranial neuropore, leading to anencephaly if the brain degenerates.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Golshan - Question 8</span> What does the diencephalon consist of?",
+    "options": [
+      "One roof plate and two alar plates",
+      "Two basal plates and one alar plate",
+      "Two roof plates and no basal plates",
+      "One floor plate and two basal plates"
+    ],
+    "answer": 0,
+    "answerText": "One roof plate and two alar plates",
+    "explanation": "The diencephalon primarily consists of alar plates, forming structures like the thalamus and hypothalamus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Golshan - Question 9</span> What is the origin of pontine nuclei?",
+    "options": [
+      "Alar plates of metencephalon and myelencephalon",
+      "Basal plates of metencephalon and myelencephalon",
+      "Neural crest cells",
+      "Roof plate of rhombencephalon"
+    ],
+    "answer": 0,
+    "answerText": "Alar plates of metencephalon and myelencephalon",
+    "explanation": "The pontine nuclei, involved in motor coordination, derive from the alar plates of the metencephalon and myelencephalon.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Golshan - Question 10</span> The ………………………… is an ossification defect in the skull where part of the brain and part of the ventricle bulge through it.",
+    "options": [
+      "Meningocele",
+      "Meningoencephalocele",
+      "Meningohydroencephalocele",
+      "Spina bifida"
+    ],
+    "answer": 2,
+    "answerText": "Meningohydroencephalocele",
+    "explanation": "Meningohydroencephalocele involves herniation of the brain, ventricles, and meninges through a skull defect.",
+    "userAnswer": null
+  }
+]
