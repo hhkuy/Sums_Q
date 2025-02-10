@@ -1,0 +1,522 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 1</span> In adults, where is the inferior border of the spinal cord?",
+    "options": [
+      "L2 vertebra",
+      "Intervertebral disc between L1 and L2",
+      "L3 vertebra",
+      "T12 vertebra"
+    ],
+    "answer": 1,
+    "answerText": "Intervertebral disc between L1 and L2",
+    "explanation": "In adults, the spinal cord typically ends at the level of the L1-L2 intervertebral disc.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 2</span> Which one is located in the inferior one-third of the vertebral canal?",
+    "options": [
+      "Conus medullaris",
+      "Filum terminale",
+      "Cauda equina",
+      "Denticulate ligament"
+    ],
+    "answer": 1,
+    "answerText": "Filum terminale",
+    "explanation": "The filum terminale extends from the conus medullaris and anchors the spinal cord to the sacrum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 3</span> Which tract has crossing and is located in the anterior funiculus of the spinal cord?",
+    "options": [
+      "Vestibulospinal",
+      "Tectospinal",
+      "Dorsal spinocerebellar",
+      "Reticulospinal"
+    ],
+    "answer": 1,
+    "answerText": "Tectospinal",
+    "explanation": "The tectospinal tract originates from the superior colliculus, crosses, and descends in the anterior funiculus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 4</span> Which tract doesn’t have any crossing and is located in the lateral funiculus of the spinal cord?",
+    "options": [
+      "Lateral spinothalamic",
+      "Posterior spinocerebellar",
+      "Anterior spinothalamic",
+      "Rubrospinal"
+    ],
+    "answer": 1,
+    "answerText": "Posterior spinocerebellar",
+    "explanation": "The posterior spinocerebellar tract remains uncrossed and carries proprioceptive information to the cerebellum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 5</span> Which spinal nerve emerges between the atlas and axis?",
+    "options": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "answer": 1,
+    "answerText": "C2",
+    "explanation": "The C2 spinal nerve exits between the atlas (C1) and axis (C2).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 6</span> In a fracture of the vertebral column at the level of T8, which spinal cord segment is damaged?",
+    "options": [
+      "T8",
+      "T9",
+      "T10",
+      "T11"
+    ],
+    "answer": 3,
+    "answerText": "T11",
+    "explanation": "The spinal cord segments are higher than their corresponding vertebrae, with T11 corresponding to T8.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 7</span> Where is the location of the pyramidal decussation?",
+    "options": [
+      "Midbrain",
+      "Pons",
+      "Inferior compartment of the closed part of the medulla oblongata",
+      "Upper cervical spinal cord"
+    ],
+    "answer": 2,
+    "answerText": "Inferior compartment of the closed part of the medulla oblongata",
+    "explanation": "The pyramidal decussation occurs in the lower medulla, where corticospinal fibers cross.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 8</span> Which one is the parasympathetic nucleus of the vagus nerve?",
+    "options": [
+      "Edinger-Westphal",
+      "Dorsal nucleus",
+      "Inferior salivatory",
+      "Nucleus ambiguus"
+    ],
+    "answer": 1,
+    "answerText": "Dorsal nucleus",
+    "explanation": "The dorsal nucleus of the vagus nerve provides parasympathetic output to thoracic and abdominal organs.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 9</span> Which fibers of the facial nerve turn around the abducens nucleus and form the facial colliculus?",
+    "options": [
+      "Special sensory fibers",
+      "Motor fibers",
+      "Autonomic fibers",
+      "Gustatory fibers"
+    ],
+    "answer": 1,
+    "answerText": "Motor fibers",
+    "explanation": "The motor fibers of the facial nerve loop around the abducens nucleus in the pons, forming the facial colliculus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 10</span> Which one is located in the basilar part of the pons?",
+    "options": [
+      "Pontine nuclei",
+      "Red nucleus",
+      "Inferior olivary nucleus",
+      "Superior colliculus"
+    ],
+    "answer": 0,
+    "answerText": "Pontine nuclei",
+    "explanation": "The basilar part of the pons contains pontine nuclei, which relay information from the cortex to the cerebellum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 11</span> Which one is related to the visual system?",
+    "options": [
+      "Inferior colliculus",
+      "Superior colliculus",
+      "Lateral geniculate nucleus",
+      "Medial geniculate nucleus"
+    ],
+    "answer": 1,
+    "answerText": "Superior colliculus",
+    "explanation": "The superior colliculus is involved in visual reflexes and tracking movements of the eyes.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 12</span> In the substantia nigra pars compacta, which one is a byproduct of dopamine?",
+    "options": [
+      "Serotonin",
+      "Melatonin",
+      "Neuromelanin",
+      "Glutamate"
+    ],
+    "answer": 2,
+    "answerText": "Neuromelanin",
+    "explanation": "Neuromelanin is a byproduct of dopamine metabolism and gives the substantia nigra its dark color.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 13</span> Which nucleus is located in the superior part of the midbrain and extends into the subthalamic area?",
+    "options": [
+      "Red nucleus",
+      "Substantia nigra",
+      "Inferior olivary nucleus",
+      "Pontine nucleus"
+    ],
+    "answer": 0,
+    "answerText": "Red nucleus",
+    "explanation": "The red nucleus is involved in motor coordination and extends into the subthalamic region.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 14</span> Which one is on the roof of the inferior horn of the lateral ventricle?",
+    "options": [
+      "Amygdala",
+      "Tail of the caudate nucleus",
+      "Hippocampus",
+      "Thalamus"
+    ],
+    "answer": 1,
+    "answerText": "Tail of the caudate nucleus",
+    "explanation": "The tail of the caudate nucleus curves around and forms part of the roof of the inferior horn of the lateral ventricle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 15</span> Which one is between the external capsule and extreme capsule?",
+    "options": [
+      "Claustrum",
+      "Globus pallidus",
+      "Putamen",
+      "Insula"
+    ],
+    "answer": 0,
+    "answerText": "Claustrum",
+    "explanation": "The claustrum is a thin gray matter structure located between the external and extreme capsules.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 16</span> Where is the location of Bergmann’s cells?",
+    "options": [
+      "Molecular layer of the cerebral cortex",
+      "Purkinje cell layer of the cerebellar cortex",
+      "Substantia nigra",
+      "Hippocampus"
+    ],
+    "answer": 1,
+    "answerText": "Purkinje cell layer of the cerebellar cortex",
+    "explanation": "Bergmann’s cells are specialized astrocytes found in the Purkinje cell layer of the cerebellar cortex.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 17</span> Which one is related to the paleocerebellum?",
+    "options": [
+      "Dentate nucleus",
+      "Fastigial nucleus",
+      "Emboliform nucleus",
+      "Globose nucleus"
+    ],
+    "answer": 2,
+    "answerText": "Emboliform nucleus",
+    "explanation": "The emboliform nucleus is part of the paleocerebellum (spinocerebellum) and is involved in motor coordination.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 18</span> In the cerebellar cortex, which neurons are excitatory?",
+    "options": [
+      "Purkinje cells",
+      "Granular cells",
+      "Basket cells",
+      "Golgi cells"
+    ],
+    "answer": 1,
+    "answerText": "Granular cells",
+    "explanation": "Granule cells in the cerebellar cortex are the only excitatory neurons, releasing glutamate.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 19</span> Which part of the brain doesn’t have neurons and a blood-brain barrier?",
+    "options": [
+      "Amygdaloid body",
+      "Pineal body",
+      "Thalamus",
+      "Hypothalamus"
+    ],
+    "answer": 1,
+    "answerText": "Pineal body",
+    "explanation": "The pineal body lacks a blood-brain barrier to allow hormone secretion directly into circulation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 20</span> The superior surface of the hippocampus is covered by:",
+    "options": [
+      "Crus of the fornix",
+      "Alveus",
+      "Mammillary body",
+      "Corpus callosum"
+    ],
+    "answer": 1,
+    "answerText": "Alveus",
+    "explanation": "The alveus is a thin layer of white matter covering the hippocampus, forming part of the fornix pathway.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 21</span> Rostrum, genu, body, and splenium are parts of the ….",
+    "options": [
+      "Internal capsule",
+      "Corpus callosum",
+      "Fornix",
+      "Thalamus"
+    ],
+    "answer": 1,
+    "answerText": "Corpus callosum",
+    "explanation": "The corpus callosum is the largest commissural fiber bundle in the brain, connecting the two hemispheres.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 22</span> The anterior inferior cerebellar artery is a branch of the ….",
+    "options": [
+      "Internal carotid artery",
+      "Vertebral artery",
+      "Basilar artery",
+      "Posterior cerebral artery"
+    ],
+    "answer": 2,
+    "answerText": "Basilar artery",
+    "explanation": "The anterior inferior cerebellar artery (AICA) arises from the basilar artery and supplies the cerebellum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 23</span> Broca’s motor speech area is supplied by:",
+    "options": [
+      "Anterior cerebral artery",
+      "Middle cerebral artery",
+      "Posterior cerebral artery",
+      "Basilar artery"
+    ],
+    "answer": 1,
+    "answerText": "Middle cerebral artery",
+    "explanation": "The middle cerebral artery supplies Broca’s area in the dominant hemisphere, responsible for speech production.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 24</span> Which one is avascular and without innervation?",
+    "options": [
+      "Pia mater",
+      "Dura mater",
+      "Arachnoid",
+      "Choroid plexus"
+    ],
+    "answer": 2,
+    "answerText": "Arachnoid",
+    "explanation": "The arachnoid mater lacks blood vessels and nerve supply, forming a protective layer between dura and pia mater.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 25</span> The paracentral lobule is supplied by:",
+    "options": [
+      "Middle cerebral artery",
+      "Anterior cerebral artery",
+      "Posterior cerebral artery",
+      "Anterior communicating artery"
+    ],
+    "answer": 1,
+    "answerText": "Anterior cerebral artery",
+    "explanation": "The anterior cerebral artery supplies the paracentral lobule, which controls lower limb motor and sensory functions.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 26</span> Which part of the basal nuclei has glutamatergic neurons?",
+    "options": [
+      "Globus pallidus",
+      "Subthalamic nucleus",
+      "Putamen",
+      "Caudate nucleus"
+    ],
+    "answer": 1,
+    "answerText": "Subthalamic nucleus",
+    "explanation": "The subthalamic nucleus is the only excitatory (glutamatergic) component of the basal ganglia circuitry.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 27</span> Which one is responsible for pupil constriction?",
+    "options": [
+      "Edinger-Westphal nucleus",
+      "Pretectal nucleus",
+      "Lateral geniculate nucleus",
+      "Suprachiasmatic nucleus"
+    ],
+    "answer": 1,
+    "answerText": "Pretectal nucleus",
+    "explanation": "The pretectal nucleus is involved in the pupillary light reflex, signaling the Edinger-Westphal nucleus for constriction.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 28</span> The labyrinthine artery is a branch of the …. artery",
+    "options": [
+      "Posterior communicating artery",
+      "Basilar artery",
+      "Anterior cerebral artery",
+      "Middle cerebral artery"
+    ],
+    "answer": 1,
+    "answerText": "Basilar artery",
+    "explanation": "The labyrinthine artery (internal auditory artery) arises from the basilar artery and supplies the inner ear.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 29</span> Where is the location of the hippocampus?",
+    "options": [
+      "Roof of the fourth ventricle",
+      "Floor of the inferior horn of the lateral ventricle",
+      "Medial to the caudate nucleus",
+      "In the parietal lobe"
+    ],
+    "answer": 1,
+    "answerText": "Floor of the inferior horn of the lateral ventricle",
+    "explanation": "The hippocampus lies in the medial temporal lobe and forms the floor of the inferior horn of the lateral ventricle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 30</span> Where is the location of the primary visual area?",
+    "options": [
+      "Calcarine sulcus",
+      "Cuneus",
+      "Lingual gyrus",
+      "Precuneus"
+    ],
+    "answer": 1,
+    "answerText": "Cuneus",
+    "explanation": "The primary visual cortex (V1) is located in the cuneus and lingual gyrus along the calcarine sulcus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 31</span> Which one is medial to the rhinal sulcus?",
+    "options": [
+      "Lateral occipitotemporal gyrus",
+      "Medial occipitotemporal gyrus",
+      "Parahippocampus",
+      "Uncus"
+    ],
+    "answer": 2,
+    "answerText": "Parahippocampus",
+    "explanation": "The parahippocampal gyrus is located medial to the rhinal sulcus and is involved in memory processing.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 32</span> Which thalamic nuclei participate in the Papez circuit?",
+    "options": [
+      "Ventral anterior nucleus",
+      "Dorsal tier of the lateral group",
+      "Anterior group",
+      "Pulvinar"
+    ],
+    "answer": 2,
+    "answerText": "Anterior group",
+    "explanation": "The anterior thalamic nuclei relay information within the Papez circuit, which is essential for memory and emotions.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 33</span> Which hypothalamic nucleus is located in the interpeduncular fossa?",
+    "options": [
+      "Suprachiasmatic nucleus",
+      "Mammillary body",
+      "Arcuate nucleus",
+      "Ventromedial nucleus"
+    ],
+    "answer": 1,
+    "answerText": "Mammillary body",
+    "explanation": "The mammillary bodies are part of the hypothalamus and play a role in memory circuits.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 34</span> Which neurons are located in the molecular layer of the cerebral cortex?",
+    "options": [
+      "Purkinje cells",
+      "Granule cells",
+      "Cajal-Retzius cells",
+      "Betz cells"
+    ],
+    "answer": 2,
+    "answerText": "Cajal-Retzius cells",
+    "explanation": "Cajal-Retzius cells in the molecular layer guide neuronal migration during cortical development.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 35</span> Which one is lateral to the diencephalon?",
+    "options": [
+      "Internal capsule",
+      "Corpus callosum",
+      "Third ventricle",
+      "Fornix"
+    ],
+    "answer": 0,
+    "answerText": "Internal capsule",
+    "explanation": "The internal capsule is a white matter structure that lies lateral to the diencephalon and contains major projection fibers.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 36</span> Which one is between the apex of the posterior gray column and the posterolateral sulcus of the spinal cord?",
+    "options": [
+      "Fasciculus cuneatus",
+      "Fasciculus gracilis",
+      "Lissauer’s tract",
+      "Spinothalamic tract"
+    ],
+    "answer": 2,
+    "answerText": "Lissauer’s tract",
+    "explanation": "Lissauer’s tract contains sensory fibers for pain and temperature, running between the dorsal horn and the posterolateral sulcus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 37</span> Which tract has two crossings?",
+    "options": [
+      "Lateral spinothalamic",
+      "Anterior spinocerebellar",
+      "Rubrospinal",
+      "Vestibulospinal"
+    ],
+    "answer": 1,
+    "answerText": "Anterior spinocerebellar",
+    "explanation": "The anterior spinocerebellar tract crosses twice, first in the spinal cord and then in the cerebellum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 38</span> The medial lemniscus is formed by:",
+    "options": [
+      "Corticospinal fibers",
+      "Internal arcuate fibers",
+      "Reticular formation",
+      "Spinothalamic tract"
+    ],
+    "answer": 1,
+    "answerText": "Internal arcuate fibers",
+    "explanation": "The medial lemniscus is formed by decussating internal arcuate fibers from the dorsal column nuclei.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 39</span> Where is the emerging site of the accessory nerve?",
+    "options": [
+      "Preolivary sulcus of the medulla",
+      "Posterolateral sulcus of the medulla oblongata",
+      "Interpeduncular fossa",
+      "Midbrain tectum"
+    ],
+    "answer": 1,
+    "answerText": "Posterolateral sulcus of the medulla oblongata",
+    "explanation": "The spinal accessory nerve emerges from the posterolateral sulcus of the medulla and spinal cord.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-02-13) - Dr. Hasanzadeh - Question 40</span> Which one is between the falx cerebri and tentorium cerebelli?",
+    "options": [
+      "Superior sagittal sinus",
+      "Inferior sagittal sinus",
+      "Straight sinus",
+      "Cavernous sinus"
+    ],
+    "answer": 2,
+    "answerText": "Straight sinus",
+    "explanation": "The straight sinus is located where the falx cerebri meets the tentorium cerebelli and drains blood from deep brain structures.",
+    "userAnswer": null
+  }
+]
