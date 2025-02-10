@@ -258,5 +258,135 @@
     "answerText": "Secretion is inhibited by somatostatin",
     "explanation": "Somatostatin inhibits insulin secretion, preventing excessive glucose uptake.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 1</span> What is the name of bone salt?",
+    "options": [
+      "Hydroxyapatite",
+      "Calcium carbonate",
+      "Magnesium sulfate",
+      "Sodium chloride"
+    ],
+    "answer": 0,
+    "answerText": "Hydroxyapatite",
+    "explanation": "Bone salt, primarily hydroxyapatite, is composed of calcium and phosphate and provides bone strength.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 2</span> How does estrogen inhibit osteoporosis?",
+    "options": [
+      "Estrogen inhibits OPG production, and OPG inhibits bone resorption.",
+      "Estrogen stimulates OPG production, and OPG inhibits bone resorption.",
+      "Estrogen increases osteoclast activity.",
+      "Estrogen decreases calcium absorption."
+    ],
+    "answer": 1,
+    "answerText": "Estrogen stimulates OPG production, and OPG inhibits bone resorption.",
+    "explanation": "Estrogen stimulates osteoprotegerin (OPG) production, which prevents osteoclast activity and reduces bone resorption.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 3</span> Which one is NOT true about GH?",
+    "options": [
+      "GH secretion is regulated by GHRH.",
+      "GH promotes protein synthesis.",
+      "GH secretion has no diurnal rhythm.",
+      "GH stimulates IGF-1 production."
+    ],
+    "answer": 2,
+    "answerText": "GH secretion has no diurnal rhythm.",
+    "explanation": "GH secretion follows a diurnal rhythm, peaking during sleep, making this statement incorrect.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 4</span> Which part of the pituitary secretes TSH?",
+    "options": [
+      "Anterior",
+      "Posterior",
+      "Intermediate lobe",
+      "Hypothalamus"
+    ],
+    "answer": 0,
+    "answerText": "Anterior",
+    "explanation": "The anterior pituitary secretes thyroid-stimulating hormone (TSH) to regulate thyroid hormone production.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 5</span> Which one is TRUE about ADH function?",
+    "options": [
+      "ADH decreases extracellular fluid osmolarity.",
+      "Increased extracellular fluid osmolarity stimulates ADH secretion.",
+      "ADH decreases water reabsorption in the kidneys.",
+      "ADH secretion decreases during dehydration."
+    ],
+    "answer": 1,
+    "answerText": "Increased extracellular fluid osmolarity stimulates ADH secretion.",
+    "explanation": "ADH is released in response to increased extracellular fluid osmolarity, helping retain water and restore balance.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 6</span> Which one is NOT true about oxytocin function?",
+    "options": [
+      "Oxytocin stimulates uterine contractions during labor.",
+      "Oxytocin also plays an especially important role in lactation.",
+      "Oxytocin causes relaxation of the pregnant uterus.",
+      "Oxytocin release follows a positive feedback loop during childbirth."
+    ],
+    "answer": 2,
+    "answerText": "Oxytocin causes relaxation of the pregnant uterus.",
+    "explanation": "Oxytocin induces contraction, not relaxation, of the pregnant uterus during labor.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 7</span> What is the chemical structure of insulin?",
+    "options": [
+      "Steroid",
+      "Amino acid derivative",
+      "Polypeptide",
+      "Glycoprotein"
+    ],
+    "answer": 2,
+    "answerText": "Polypeptide",
+    "explanation": "Insulin is a polypeptide hormone consisting of two peptide chains linked by disulfide bonds.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 8</span> Which hormone is secreted by the stomach?",
+    "options": [
+      "Secretin",
+      "Cholecystokinin",
+      "Gastrin",
+      "Glucagon"
+    ],
+    "answer": 2,
+    "answerText": "Gastrin",
+    "explanation": "Gastrin is released by the stomach to stimulate gastric acid secretion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 9</span> Which hormone has positive feedback sometimes?",
+    "options": [
+      "TRH",
+      "Estrogen",
+      "Cortisol",
+      "Aldosterone"
+    ],
+    "answer": 1,
+    "answerText": "Estrogen",
+    "explanation": "Estrogen exhibits positive feedback during ovulation, stimulating LH surge from the pituitary gland.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 10</span> When does up-regulation of receptors occur?",
+    "options": [
+      "The tissue becomes desensitized to the hormone.",
+      "The tissue becomes sensitive to the stimulating effects of the hormone.",
+      "The number of hormone receptors decreases.",
+      "The hormone is degraded more rapidly."
+    ],
+    "answer": 1,
+    "answerText": "The tissue becomes sensitive to the stimulating effects of the hormone.",
+    "explanation": "Up-regulation increases the number of receptors on a cell, enhancing its sensitivity to the hormone.",
+    "userAnswer": null
   }
 ]
