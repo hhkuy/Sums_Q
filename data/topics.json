@@ -282,6 +282,25 @@
   {
     "topicName": "Epidemiology",
     "description": "Related to the first Semster",
-    "subTopics": []
+    "subTopics": [
+      {
+        "name": "Epidemiology",
+        "file": "data/epidemiology_epidemiology.json"
+      }
+    ]
+  },
+  {
+    "topicName": "Digestive system",
+    "description": "Related to the third Semster",
+    "subTopics": [
+      {
+        "name": "Anatomy & histology & Embrology",
+        "file": "data/digestive_system_anatomy_&_histology_&_embrology.json"
+      },
+      {
+        "name": "Physiology",
+        "file": "data/digestive_system_physiology.json"
+      }
+    ]
   }
 ]
