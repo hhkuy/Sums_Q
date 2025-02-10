@@ -278,5 +278,10 @@
         "file": "data/test_t1.json"
       }
     ]
+  },
+  {
+    "topicName": "Epidemiology",
+    "description": "Related to the first Semster",
+    "subTopics": []
   }
 ]
