@@ -1,0 +1,288 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 1</span> Which neurotransmitter is carried to the axon terminal by axonal streaming?",
+    "options": [
+      "Dopamine",
+      "Glutamate",
+      "Substance P",
+      "Serotonin"
+    ],
+    "answer": 2,
+    "answerText": "Substance P",
+    "explanation": "Substance P, a neuropeptide, is transported via axonal streaming to the axon terminal for synaptic release.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 2</span> GABA activates GABA-A ionotropic receptor to inhibit postsynaptic cells. Which one happens in the postsynaptic cell?",
+    "options": [
+      "Opening of Na+ channels",
+      "Opening of Cl- channels",
+      "Closing of K+ channels",
+      "Release of calcium ions"
+    ],
+    "answer": 1,
+    "answerText": "Opening of Cl- channels",
+    "explanation": "GABA-A receptor activation leads to Cl- influx, hyperpolarizing the postsynaptic membrane and inhibiting action potential generation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 3</span> Which cell type is responsible for making the Blood-Brain Barrier?",
+    "options": [
+      "Astrocyte",
+      "Microglia",
+      "Oligodendrocyte",
+      "Schwann cell"
+    ],
+    "answer": 0,
+    "answerText": "Astrocyte",
+    "explanation": "Astrocytes contribute to the formation of the Blood-Brain Barrier by inducing tight junctions in endothelial cells.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 4</span> Which of the following is related to chemical synapses?",
+    "options": [
+      "Electrical coupling",
+      "Synaptic distance of 20−40 Å",
+      "Postsynaptic ionotropic receptors",
+      "Direct cytoplasmic connection"
+    ],
+    "answer": 2,
+    "answerText": "Postsynaptic ionotropic receptors",
+    "explanation": "Chemical synapses use neurotransmitters that bind to ionotropic receptors to propagate signals.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 5</span> In ventral tegmental area neurons, glutamate and dopamine are packed in the same vesicles. Which mode of transmission occurs at the end of these neurons?",
+    "options": [
+      "Co-transmission with differential Ca2+ sensitivity",
+      "Co-release",
+      "Synaptic spillover",
+      "Independent vesicle release"
+    ],
+    "answer": 1,
+    "answerText": "Co-release",
+    "explanation": "In co-release, both neurotransmitters are stored in the same vesicles and released together.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 6</span> Saltatory action potential occurs in all sensory fibers EXCEPT:",
+    "options": [
+      "Type I",
+      "Type II",
+      "Type III",
+      "Type IV"
+    ],
+    "answer": 3,
+    "answerText": "Type IV",
+    "explanation": "Type IV (C fibers) are unmyelinated and do not conduct saltatory action potentials.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 7</span> Which receptor is slowly adapting?",
+    "options": [
+      "Pacinian corpuscle",
+      "Meissner corpuscle",
+      "Joint capsule receptor",
+      "Hair follicle receptor"
+    ],
+    "answer": 2,
+    "answerText": "Joint capsule receptor",
+    "explanation": "Slowly adapting receptors, like joint capsule receptors, respond continuously to sustained stimuli.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 8</span> The area of the skin innervated by all branches of a sensory fiber is called:",
+    "options": [
+      "Dermatome",
+      "Receptive field",
+      "Projection area",
+      "Sensory patch"
+    ],
+    "answer": 1,
+    "answerText": "Receptive field",
+    "explanation": "A receptive field is the area of skin from which a sensory neuron receives input.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 9</span> In the dorsal column–medial lemniscal pathway, where does the second-order neuron terminate?",
+    "options": [
+      "Cuneate/gracile nucleus",
+      "Thalamic ventral posterior nucleus",
+      "Primary somatosensory cortex",
+      "Spinal cord"
+    ],
+    "answer": 1,
+    "answerText": "Thalamic ventral posterior nucleus",
+    "explanation": "The second-order neurons of this pathway terminate in the thalamic ventral posterior nucleus before projecting to the cortex.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 10</span> Which one does NOT occur following damage to Brodmann areas 5 and 7?",
+    "options": [
+      "Loss of body awareness",
+      "Loss of localization of touch",
+      "Impaired proprioception",
+      "Defective spatial orientation"
+    ],
+    "answer": 1,
+    "answerText": "Loss of localization of touch",
+    "explanation": "Areas 5 and 7 process spatial and proprioceptive information, but localization of touch is handled primarily by area 3b.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 11</span> Initial contact with the skin is mainly detected by:",
+    "options": [
+      "Pacinian corpuscle",
+      "Ruffini ending",
+      "Merkel disc",
+      "Hair receptor"
+    ],
+    "answer": 3,
+    "answerText": "Hair receptor",
+    "explanation": "Hair receptors detect the initial deflection of hair when the skin is touched.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 12</span> Fibers that are located most LATERALLY in the RIGHT dorsal column of the upper spinal cord transmit sensory signals from the:",
+    "options": [
+      "Right foot",
+      "Right leg",
+      "Right hand",
+      "Left hand"
+    ],
+    "answer": 2,
+    "answerText": "Right hand",
+    "explanation": "The lateral portion of the dorsal column carries sensory information from the upper limb (cuneate fasciculus).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 13</span> Which nociceptor is only activated after inflammation?",
+    "options": [
+      "Mechanical nociceptor",
+      "Thermal nociceptor",
+      "Silent nociceptor",
+      "Polymodal nociceptor"
+    ],
+    "answer": 2,
+    "answerText": "Silent nociceptor",
+    "explanation": "Silent nociceptors are typically inactive but become responsive following tissue inflammation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 14</span> Which of the thermal receptors shows the highest activity at 45°C?",
+    "options": [
+      "Cold receptors",
+      "Warmth receptors",
+      "Nociceptors",
+      "Thermoregulatory neurons"
+    ],
+    "answer": 1,
+    "answerText": "Warmth receptors",
+    "explanation": "Warm receptors respond maximally at around 45°C before nociceptors activate.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 15</span> Which one is NOT related to fast pain?",
+    "options": [
+      "Myelinated fibers",
+      "Sharp, localized pain",
+      "Unmyelinated fibers",
+      "Type Aδ fibers"
+    ],
+    "answer": 2,
+    "answerText": "Unmyelinated fibers",
+    "explanation": "Fast pain is conducted by myelinated Aδ fibers, while unmyelinated C fibers transmit slow, dull pain.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 16</span> Which neuron does NOT take part in the stretch reflex?",
+    "options": [
+      "Type Ia sensory fiber",
+      "Type Ib sensory fiber",
+      "Alpha motor neuron",
+      "Gamma motor neuron"
+    ],
+    "answer": 1,
+    "answerText": "Type Ib sensory fiber",
+    "explanation": "Type Ib fibers belong to the Golgi tendon reflex, not the stretch reflex.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 17</span> Which reflex is typically elicited by painful stimulation?",
+    "options": [
+      "Stretch reflex",
+      "Withdrawal reflex",
+      "Myotatic reflex",
+      "Golgi tendon reflex"
+    ],
+    "answer": 1,
+    "answerText": "Withdrawal reflex",
+    "explanation": "The withdrawal reflex removes a limb from painful stimuli through rapid flexion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 18</span> What does Ia inhibitory interneuron do in the stretch reflex?",
+    "options": [
+      "Excites antagonist muscle",
+      "Inhibition of motor neuron to antagonist muscle",
+      "Inhibition of motor neuron to agonist muscle",
+      "Prolongs contraction"
+    ],
+    "answer": 1,
+    "answerText": "Inhibition of motor neuron to antagonist muscle",
+    "explanation": "Ia inhibitory interneurons inhibit the antagonist muscle to ensure coordinated movement.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 19</span> Spread of flexor reflex from the arm to the leg mainly depends on:",
+    "options": [
+      "Spinal ascending pathways",
+      "Propriospinal organization",
+      "Corticospinal tract",
+      "Brainstem nuclei"
+    ],
+    "answer": 1,
+    "answerText": "Propriospinal organization",
+    "explanation": "Propriospinal pathways mediate interlimb coordination within the spinal cord.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 20</span> A tap on the patellar tendon increases firing rate in:",
+    "options": [
+      "Type II fiber",
+      "Type Ib fiber",
+      "Type Ia fiber",
+      "Type IV fiber"
+    ],
+    "answer": 2,
+    "answerText": "Type Ia fiber",
+    "explanation": "Type Ia fibers in muscle spindles detect stretch and initiate the knee-jerk reflex.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 21</span> Which one is a main characteristic of reciprocal circuits?",
+    "options": [
+      "Enhancing reflex gain",
+      "Prolongation of input signal",
+      "Generating antagonistic outputs",
+      "Increasing contraction force"
+    ],
+    "answer": 2,
+    "answerText": "Generating antagonistic outputs",
+    "explanation": "Reciprocal circuits coordinate opposing muscle actions by inhibiting antagonist muscles.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 22</span> Which spinal local neuron mediates analgesia?",
+    "options": [
+      "GABAergic neuron",
+      "Glutamate neuron",
+      "Enkephalin neuron",
+      "Dopaminergic neuron"
+    ],
+    "answer": 2,
+    "answerText": "Enkephalin neuron",
+    "explanation": "Enkephalinergic interneurons inhibit pain transmission in the spinal cord.",
+    "userAnswer": null
+  }
+]
