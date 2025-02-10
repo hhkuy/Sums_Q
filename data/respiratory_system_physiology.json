@@ -284,5 +284,395 @@
     "answerText": "Dorsal respiratory group",
     "explanation": "The dorsal respiratory group (DRG) generates rhythmic action potentials that stimulate the phrenic nerve, causing diaphragm contraction.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 1</span> With a tidal volume of 0.6 L, respiratory rate of 18 breaths/min, and an anatomic dead space of 0.2 L, what are the minute respiratory volume (L/min) and alveolar ventilation rate (L/min), respectively?",
+    "options": [
+      "7.2 – 10.8",
+      "10.8 – 7.2",
+      "9.6 – 6.8",
+      "8.4 – 12.2"
+    ],
+    "answer": 1,
+    "answerText": "10.8 – 7.2",
+    "explanation": "Minute respiratory volume = tidal volume × respiratory rate (0.6 × 18 = 10.8 L/min); Alveolar ventilation rate = (tidal volume – dead space) × respiratory rate (0.4 × 18 = 7.2 L/min).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 2</span> Which one of the following can be directly measured by spirometry?",
+    "options": [
+      "Residual volume",
+      "Total lung capacity",
+      "Functional residual capacity",
+      "Inspiratory reserve volume"
+    ],
+    "answer": 3,
+    "answerText": "Inspiratory reserve volume",
+    "explanation": "Spirometry measures lung volumes except for residual volume and capacities that include it.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 3</span> If in a premature infant, the alveoli size is half of normal and surface tension doubles due to low surfactant production, how does collapse pressure change?",
+    "options": [
+      "No change",
+      "Doubles",
+      "Increases four times",
+      "Increases eight times"
+    ],
+    "answer": 2,
+    "answerText": "Increases four times",
+    "explanation": "Laplace’s law states that collapse pressure = (2 × surface tension) / radius. If radius is halved and tension doubles, pressure increases fourfold.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 4</span> What happens due to blockage of M3-cholinergic receptors in airways?",
+    "options": [
+      "Bronchoconstriction",
+      "Bronchodilation",
+      "Increased mucus secretion",
+      "Decreased lung compliance"
+    ],
+    "answer": 1,
+    "answerText": "Bronchodilation",
+    "explanation": "M3 receptor blockage inhibits parasympathetic bronchoconstriction, causing bronchodilation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 5</span> Which of the following occurs during normal inspiration?",
+    "options": [
+      "Diaphragm contracts, pleural and alveolar pressures decrease",
+      "Diaphragm relaxes, alveolar pressure decreases",
+      "Diaphragm contracts, pleural pressure increases",
+      "Diaphragm relaxes, pleural pressure remains constant"
+    ],
+    "answer": 0,
+    "answerText": "Diaphragm contracts, pleural and alveolar pressures decrease",
+    "explanation": "Inspiration decreases pleural and alveolar pressures, allowing air entry into the lungs.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 6</span> Which one of the following decreases airway resistance through an increase in diameter?",
+    "options": [
+      "Tachykinins release",
+      "VIP release",
+      "Histamine release",
+      "Parasympathetic stimulation"
+    ],
+    "answer": 1,
+    "answerText": "VIP release",
+    "explanation": "Vasoactive intestinal peptide (VIP) causes smooth muscle relaxation, increasing airway diameter.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 7</span> Which gas is used for estimating the diffusing capacity of O2 in the lung?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Carbon monoxide",
+      "Nitrogen"
+    ],
+    "answer": 2,
+    "answerText": "Carbon monoxide",
+    "explanation": "Carbon monoxide (CO) is used because it binds strongly to hemoglobin, reflecting diffusion capacity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 8</span> What is the chloride shift in RBCs of venous blood?",
+    "options": [
+      "Chloride enters RBCs as HCO3- leaves",
+      "Chloride exits RBCs as HCO3- enters",
+      "CO2 binds to hemoglobin, reducing Cl- uptake",
+      "Oxygenation causes Cl- influx"
+    ],
+    "answer": 0,
+    "answerText": "Chloride enters RBCs as HCO3- leaves",
+    "explanation": "The chloride shift maintains charge balance as bicarbonate exits RBCs in exchange for chloride.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 9</span> Which muscle pulls the rib cage downward, decreasing thorax volume?",
+    "options": [
+      "Scalene",
+      "Sternocleidomastoid",
+      "Abdominal recti",
+      "External intercostal"
+    ],
+    "answer": 2,
+    "answerText": "Abdominal recti",
+    "explanation": "The abdominal recti contract during forced expiration, pulling ribs downward.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 10</span> What is the transpulmonary pressure at the end of normal inspiration?",
+    "options": [
+      "+5 cm H2O",
+      "+7.5 cm H2O",
+      "0 cm H2O",
+      "-5 cm H2O"
+    ],
+    "answer": 1,
+    "answerText": "+7.5 cm H2O",
+    "explanation": "Transpulmonary pressure (alveolar – pleural pressure) at end inspiration is about +7.5 cm H2O.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 11</span> How does an increase in surfactant concentration affect lung compliance?",
+    "options": [
+      "Increases",
+      "Decreases",
+      "No change",
+      "Causes lung collapse"
+    ],
+    "answer": 0,
+    "answerText": "Increases",
+    "explanation": "Surfactant reduces surface tension, increasing lung compliance.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 12</span> Which lung zone has no blood flow during both systole and diastole in an upright person?",
+    "options": [
+      "Zone I",
+      "Zone II",
+      "Zone III",
+      "Zone IV"
+    ],
+    "answer": 0,
+    "answerText": "Zone I",
+    "explanation": "In Zone I (apex), alveolar pressure exceeds capillary pressure, collapsing vessels.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 13</span> Which of the following statements about lung capacities is TRUE?",
+    "options": [
+      "VC > TLC > IC > FRC",
+      "TLC > VC > IC > FRC",
+      "FRC > TLC > VC > IC",
+      "IC > TLC > FRC > VC"
+    ],
+    "answer": 1,
+    "answerText": "TLC > VC > IC > FRC",
+    "explanation": "TLC (Total Lung Capacity) is the largest, followed by VC (Vital Capacity), IC (Inspiratory Capacity), and FRC (Functional Residual Capacity).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 14</span> If a patient has progressive lung disease requiring higher pressures to achieve the same lung volume, how is lung compliance affected?",
+    "options": [
+      "Increased",
+      "Decreased",
+      "No change",
+      "Random variation"
+    ],
+    "answer": 1,
+    "answerText": "Decreased",
+    "explanation": "Decreased compliance means higher pressure is needed for lung expansion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 15</span> Which of the following is NOT a form of CO2 transport in blood?",
+    "options": [
+      "As carboxyhemoglobin",
+      "As bicarbonate",
+      "Dissolved in plasma",
+      "Bound to hemoglobin as carbaminohemoglobin"
+    ],
+    "answer": 0,
+    "answerText": "As carboxyhemoglobin",
+    "explanation": "Carboxyhemoglobin refers to CO bound to hemoglobin, not CO2 transport.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 16</span> What is the cause of a physiological shunt?",
+    "options": [
+      "Increased ventilation-perfusion (VA/Q) ratio",
+      "Decreased VA/Q ratio to zero",
+      "Hyperventilation",
+      "Increased lung compliance"
+    ],
+    "answer": 1,
+    "answerText": "Decreased VA/Q ratio to zero",
+    "explanation": "A physiological shunt occurs when ventilation is absent in perfused lung regions.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 17</span> What happens to breathing patterns when the pneumotaxic center is destroyed?",
+    "options": [
+      "Increased breathing rate",
+      "Prolonged and deep inspiration",
+      "Decreased tidal volume",
+      "Erratic, uncoordinated breathing"
+    ],
+    "answer": 1,
+    "answerText": "Prolonged and deep inspiration",
+    "explanation": "The pneumotaxic center inhibits prolonged inspiration; its destruction results in deep, prolonged breaths.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 18</span> What is the normal O2 utilization coefficient in a healthy person?",
+    "options": [
+      "10%",
+      "20%",
+      "25%",
+      "50%"
+    ],
+    "answer": 2,
+    "answerText": "25%",
+    "explanation": "The O2 utilization coefficient represents the percentage of arterial O2 extracted by tissues (normal = 25%).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 19</span> Which statement is correct about ventilation and perfusion in the lungs?",
+    "options": [
+      "Ventilation increases from top to bottom",
+      "Ventilation/perfusion ratio increases from top to bottom",
+      "Perfusion decreases from top to bottom",
+      "The lung apex has the highest blood flow"
+    ],
+    "answer": 0,
+    "answerText": "Ventilation increases from top to bottom",
+    "explanation": "Both ventilation and perfusion increase towards the lung base, but perfusion increases more.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 20</span> Which respiratory center sends strong signals for contraction of rectus abdominis during forced expiration?",
+    "options": [
+      "DRG",
+      "VRG",
+      "Pneumotaxic center",
+      "Apneustic center"
+    ],
+    "answer": 1,
+    "answerText": "VRG",
+    "explanation": "The ventral respiratory group (VRG) stimulates expiratory muscles during forced breathing.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 21</span> In a patient with pulmonary fibrosis, for a pressure difference of 0.5 mm Hg between the two sides of the respiratory membrane, the amount of 50 ml of oxygen is exchanged per minute. What will be the diffusing capacity of this gas?",
+    "options": [
+      "25",
+      "50",
+      "100",
+      "200"
+    ],
+    "answer": 2,
+    "answerText": "100",
+    "explanation": "Diffusing capacity (DL) is calculated as the volume of gas transferred per minute divided by the pressure difference. DL = 50 ml / 0.5 mmHg = 100 ml/mmHg/min.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 22</span> If at an altitude of 1000 meters above sea level, the air pressure is equal to 600 mmHg and 21% of the air is oxygen, what will be the partial pressure of oxygen?",
+    "options": [
+      "100 mmHg",
+      "110 mmHg",
+      "126 mmHg",
+      "140 mmHg"
+    ],
+    "answer": 2,
+    "answerText": "126 mmHg",
+    "explanation": "PO2 = total pressure × fraction of O2 = 600 mmHg × 0.21 = 126 mmHg.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 23</span> Which one of the following chemical agents directly excites the neurons of the chemosensitive area in the medulla?",
+    "options": [
+      "O2",
+      "CO2",
+      "H+",
+      "HCO3-"
+    ],
+    "answer": 2,
+    "answerText": "H+",
+    "explanation": "H+ directly stimulates central chemoreceptors, but it originates from CO2 diffusion and conversion to carbonic acid.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 24</span> Which one of the following substances leads to bronchodilation?",
+    "options": [
+      "Histamine",
+      "Slow reactive substance of anaphylaxis (SRS-A)",
+      "Epinephrine",
+      "Acetylcholine"
+    ],
+    "answer": 2,
+    "answerText": "Epinephrine",
+    "explanation": "Epinephrine activates β2-adrenergic receptors, causing bronchodilation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 25</span> What is the functional residual capacity (FRC)?",
+    "options": [
+      "The amount of air that remains in the lungs at the end of forced expiration",
+      "The amount of air that remains in the lungs at the end of normal expiration",
+      "Maximum volume of air that can be exhaled",
+      "Air volume exchanged per breath"
+    ],
+    "answer": 1,
+    "answerText": "The amount of air that remains in the lungs at the end of normal expiration",
+    "explanation": "FRC is the lung volume remaining after a normal exhalation, including expiratory reserve volume (ERV) and residual volume (RV).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 26</span> Given your knowledge regarding the response of the pulmonary vasculature to oxygen content, where is the highest amount of blood flow through a normally oxygenated lung in a normal-weight adult male standing upright?",
+    "options": [
+      "Apex of the lung",
+      "Middle lung",
+      "Bottom of the lung",
+      "Equally distributed"
+    ],
+    "answer": 2,
+    "answerText": "Bottom of the lung",
+    "explanation": "Gravity causes the highest blood flow at the lung base.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 27</span> If the blood supply is blocked for an alveolus, which one of the following would NOT occur as a result?",
+    "options": [
+      "Ventilation-perfusion ratio would be infinite",
+      "No gas exchange would occur",
+      "The alveolus would collapse",
+      "The ventilation-perfusion ratio would be zero"
+    ],
+    "answer": 3,
+    "answerText": "The ventilation-perfusion ratio would be zero",
+    "explanation": "If perfusion is blocked but ventilation continues, VA/Q approaches infinity, not zero.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 28</span> Which of the following is FALSE concerning the relationships of the variables in diffusion of O2 across the respiratory membrane?",
+    "options": [
+      "Increasing the alveolar concentration of oxygen would increase O2 diffusion.",
+      "A thinner membrane increases diffusion.",
+      "A larger surface area increases diffusion.",
+      "The lower the diffusion coefficient, the higher the total diffusion"
+    ],
+    "answer": 3,
+    "answerText": "The lower the diffusion coefficient, the higher the total diffusion",
+    "explanation": "A lower diffusion coefficient decreases total gas diffusion, not increases it.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 29</span> Which one of the following increases the affinity of hemoglobin for O2?",
+    "options": [
+      "Increased temperature",
+      "Decreased pH",
+      "Increased DPG concentration",
+      "Decreased DPG concentration"
+    ],
+    "answer": 3,
+    "answerText": "Decreased DPG concentration",
+    "explanation": "DPG (2,3-diphosphoglycerate) decreases hemoglobin’s affinity for O2, facilitating O2 unloading in tissues.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-30) - Dr. Alireza Imani - Question 30</span> Which one of the following is correct about the role of the dorsal respiratory group (DRG) in the medulla?",
+    "options": [
+      "Activates the pneumotaxic center in pons",
+      "Sends its action potentials to phrenic nerves",
+      "Controls expiration",
+      "Inhibits the apneustic center"
+    ],
+    "answer": 1,
+    "answerText": "Sends its action potentials to phrenic nerves",
+    "explanation": "The DRG generates inspiratory signals and stimulates the phrenic nerve to contract the diaphragm.",
+    "userAnswer": null
   }
 ]
