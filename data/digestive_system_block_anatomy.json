@@ -1,0 +1,522 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 1</span> Which nerve innervates general sensation of the skin and oral mucosa of the cheeks?",
+    "options": [
+      "Buccal branch of the facial nerve",
+      "Buccal branch of the mandibular nerve",
+      "Glossopharyngeal nerve",
+      "Maxillary nerve"
+    ],
+    "answer": 1,
+    "answerText": "Buccal branch of the mandibular nerve",
+    "explanation": "The buccal branch of the mandibular nerve (V3) provides sensory innervation to the skin and mucosa of the cheeks.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 2</span> Following a tonsillectomy, a patient noted loss of general sensation and taste from the posterior one-third of the tongue. The injured nerve is a branch of the …",
+    "options": [
+      "Vagus nerve",
+      "Hypoglossal nerve",
+      "Glossopharyngeal nerve",
+      "Lingual nerve"
+    ],
+    "answer": 2,
+    "answerText": "Glossopharyngeal nerve",
+    "explanation": "The glossopharyngeal nerve (CN IX) provides sensory and taste innervation to the posterior third of the tongue.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 3</span> Which one is a branch of the facial artery?",
+    "options": [
+      "Ascending palatine",
+      "Superior labial",
+      "Inferior alveolar",
+      "Maxillary artery"
+    ],
+    "answer": 0,
+    "answerText": "Ascending palatine",
+    "explanation": "The ascending palatine artery is a branch of the facial artery, supplying the soft palate and tonsils.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 4</span> Which type of papillae are located in a single line immediately anterior to the sulcus terminalis of the tongue?",
+    "options": [
+      "Filiform",
+      "Fungiform",
+      "Vallate",
+      "Foliate"
+    ],
+    "answer": 2,
+    "answerText": "Vallate",
+    "explanation": "Vallate papillae form a V-shaped row anterior to the sulcus terminalis and contain taste buds.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 5</span> Which extrinsic lingual muscle is innervated by the vagus nerve?",
+    "options": [
+      "Styloglossus",
+      "Genioglossus",
+      "Hyoglossus",
+      "Palatoglossus"
+    ],
+    "answer": 3,
+    "answerText": "Palatoglossus",
+    "explanation": "The palatoglossus is the only tongue muscle innervated by the vagus nerve (CN X); all others are supplied by the hypoglossal nerve (CN XII).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 6</span> Which nerve has a relationship with the inferior third molar teeth deep to the gingiva?",
+    "options": [
+      "Glossopharyngeal",
+      "Lingual",
+      "Maxillary",
+      "Inferior alveolar"
+    ],
+    "answer": 1,
+    "answerText": "Lingual",
+    "explanation": "The lingual nerve (branch of V3) runs near the third molar and provides sensory innervation to the anterior two-thirds of the tongue.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 7</span> Which one is covered by a thin skin without hair follicles and sweat glands?",
+    "options": [
+      "Hard palate",
+      "Vermilion zone of the lip",
+      "Buccal mucosa",
+      "Soft palate"
+    ],
+    "answer": 1,
+    "answerText": "Vermilion zone of the lip",
+    "explanation": "The vermilion zone of the lip is a transition area between the skin and oral mucosa, lacking hair follicles and glands.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 8</span> Which muscle of the soft palate is innervated by the mandibular nerve?",
+    "options": [
+      "Levator veli palatini",
+      "Tensor veli palatini",
+      "Palatopharyngeus",
+      "Musculus uvulae"
+    ],
+    "answer": 1,
+    "answerText": "Tensor veli palatini",
+    "explanation": "The tensor veli palatini is innervated by the mandibular nerve (V3), while other soft palate muscles are supplied by the vagus nerve.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 9</span> Which structure penetrates the buccinator muscle and opens into the oral cavity adjacent to the second upper molar tooth?",
+    "options": [
+      "Submandibular duct",
+      "Sublingual duct",
+      "Parotid duct",
+      "Lingual nerve"
+    ],
+    "answer": 2,
+    "answerText": "Parotid duct",
+    "explanation": "The parotid duct (Stensen’s duct) pierces the buccinator and opens opposite the second upper molar.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 10</span> Serous demilunes are related to the …",
+    "options": [
+      "Parotid gland",
+      "Submandibular gland",
+      "Sublingual gland",
+      "Minor salivary glands"
+    ],
+    "answer": 2,
+    "answerText": "Sublingual gland",
+    "explanation": "Serous demilunes are crescent-shaped structures found in mixed glands, particularly in the sublingual gland.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 11</span> Stylopharyngeus muscle is innervated by …",
+    "options": [
+      "Vagus nerve",
+      "Glossopharyngeal nerve",
+      "Mandibular nerve",
+      "Hypoglossal nerve"
+    ],
+    "answer": 1,
+    "answerText": "Glossopharyngeal nerve",
+    "explanation": "The stylopharyngeus muscle is the only muscle innervated by the glossopharyngeal nerve (CN IX), aiding in swallowing.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 12</span> Which one passes through the diaphragm at the level of T10?",
+    "options": [
+      "Inferior vena cava",
+      "Aorta",
+      "Esophagus",
+      "Thoracic duct"
+    ],
+    "answer": 2,
+    "answerText": "Esophagus",
+    "explanation": "The esophagus passes through the diaphragm at T10, along with the vagus nerves.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 13</span> In the posterior mediastinum, which structure is related to the anterior surface of the esophagus?",
+    "options": [
+      "Right atrium",
+      "Trachea",
+      "Left atrium of the heart",
+      "Azygos vein"
+    ],
+    "answer": 2,
+    "answerText": "Left atrium of the heart",
+    "explanation": "The left atrium is located directly anterior to the esophagus in the posterior mediastinum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 14</span> The cardioesophageal artery is a branch of the … that supplies the cardia of the stomach and the abdominal part of the esophagus.",
+    "options": [
+      "Right gastric artery",
+      "Left gastric artery",
+      "Splenic artery",
+      "Gastroduodenal artery"
+    ],
+    "answer": 1,
+    "answerText": "Left gastric artery",
+    "explanation": "The left gastric artery, a branch of the celiac trunk, supplies the stomach’s cardia and the lower esophagus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 15</span> Which part has a nonkeratinized stratified squamous epithelium?",
+    "options": [
+      "Stomach",
+      "Small intestine",
+      "Esophagus",
+      "Hard palate"
+    ],
+    "answer": 2,
+    "answerText": "Esophagus",
+    "explanation": "The esophagus is lined by nonkeratinized stratified squamous epithelium, protecting it from mechanical stress.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 16</span> Brunner’s glands are the main characteristic of the …",
+    "options": [
+      "Ileum",
+      "Jejunum",
+      "Duodenum",
+      "Colon"
+    ],
+    "answer": 2,
+    "answerText": "Duodenum",
+    "explanation": "Brunner’s glands are located in the duodenum and secrete alkaline mucus to protect against gastric acid.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 17</span> Which part of the digestive tract has oblique, circular, and longitudinal muscle layers in its muscularis externa?",
+    "options": [
+      "Esophagus",
+      "Stomach",
+      "Small intestine",
+      "Colon"
+    ],
+    "answer": 1,
+    "answerText": "Stomach",
+    "explanation": "The stomach has an additional oblique muscle layer, aiding in the churning and mixing of food.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 18</span> Which part of the tooth is an avascular substance containing no nerve supply and lacking collagen?",
+    "options": [
+      "Cementum",
+      "Enamel",
+      "Dentin",
+      "Pulp"
+    ],
+    "answer": 1,
+    "answerText": "Enamel",
+    "explanation": "Enamel is the hardest tissue in the body, composed mainly of hydroxyapatite, and lacks blood vessels, nerves, and collagen.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 19</span> Which nerve supplies sensory innervation to the upper teeth?",
+    "options": [
+      "Mandibular nerve",
+      "Maxillary nerve",
+      "Lingual nerve",
+      "Facial nerve"
+    ],
+    "answer": 1,
+    "answerText": "Maxillary nerve",
+    "explanation": "The maxillary nerve (V2) gives rise to the superior alveolar nerves, which provide sensation to the upper teeth.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 20</span> The transpyloric plane is at the level of …",
+    "options": [
+      "T12",
+      "L1",
+      "L2",
+      "L3"
+    ],
+    "answer": 1,
+    "answerText": "L1",
+    "explanation": "The transpyloric plane is an important anatomical landmark located at L1.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 21</span> Which artery emerges from the abdominal aorta at the level of L3?",
+    "options": [
+      "Celiac trunk",
+      "Superior mesenteric artery",
+      "Inferior mesenteric artery",
+      "Renal artery"
+    ],
+    "answer": 2,
+    "answerText": "Inferior mesenteric artery",
+    "explanation": "The inferior mesenteric artery arises from the abdominal aorta at L3 and supplies the distal colon.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 22</span> Which structure is supplied by the ileocolic artery?",
+    "options": [
+      "Duodenum",
+      "Appendix vermiform",
+      "Sigmoid colon",
+      "Stomach"
+    ],
+    "answer": 1,
+    "answerText": "Appendix vermiform",
+    "explanation": "The ileocolic artery, a branch of the superior mesenteric artery, supplies the appendix and nearby structures.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 23</span> The posterior boundary of the epiploic foramen (Winslow’s foramen) is formed by …",
+    "options": [
+      "Inferior vena cava",
+      "Portal vein",
+      "Common bile duct",
+      "Hepatic artery"
+    ],
+    "answer": 0,
+    "answerText": "Inferior vena cava",
+    "explanation": "The epiploic foramen connects the greater and lesser sacs, with the inferior vena cava forming its posterior boundary.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 24</span> Which one is a branch of the internal thoracic artery?",
+    "options": [
+      "Superior mesenteric artery",
+      "Superior epigastric artery",
+      "Inferior epigastric artery",
+      "Splenic artery"
+    ],
+    "answer": 1,
+    "answerText": "Superior epigastric artery",
+    "explanation": "The superior epigastric artery arises from the internal thoracic artery and supplies the anterior abdominal wall.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 25</span> All of the following structures form the stomach bed, except:",
+    "options": [
+      "Left kidney",
+      "Tail of pancreas",
+      "Left liver lobe",
+      "Left adrenal gland"
+    ],
+    "answer": 2,
+    "answerText": "Left liver lobe",
+    "explanation": "The stomach bed consists of structures posterior to the stomach, but the left liver lobe is anterior.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 26</span> Which one is related to branches of the splenic artery?",
+    "options": [
+      "Short gastric arteries",
+      "Left colic artery",
+      "Right gastric artery",
+      "Inferior mesenteric artery"
+    ],
+    "answer": 0,
+    "answerText": "Short gastric arteries",
+    "explanation": "The short gastric arteries arise from the splenic artery and supply the fundus of the stomach.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 27</span> The cystic triangle is formed by all of the following structures, except:",
+    "options": [
+      "Common hepatic duct",
+      "Cystic duct",
+      "Hepatic artery proper",
+      "Liver"
+    ],
+    "answer": 2,
+    "answerText": "Hepatic artery proper",
+    "explanation": "The cystic triangle (Calot’s triangle) is bounded by the cystic duct, common hepatic duct, and inferior border of the liver.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 28</span> The superior pancreaticoduodenal artery is a branch of the …",
+    "options": [
+      "Superior mesenteric artery",
+      "Inferior mesenteric artery",
+      "Gastroduodenal artery",
+      "Splenic artery"
+    ],
+    "answer": 2,
+    "answerText": "Gastroduodenal artery",
+    "explanation": "The superior pancreaticoduodenal artery, a branch of the gastroduodenal artery, supplies the pancreas and duodenum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 29</span> Which cells in the gastric glands are large pyramidal cells with intracellular canaliculi, numerous microvilli, and eosinophilic cytoplasm?",
+    "options": [
+      "Chief cells",
+      "Parietal cells",
+      "Enteroendocrine cells",
+      "Goblet cells"
+    ],
+    "answer": 1,
+    "answerText": "Parietal cells",
+    "explanation": "Parietal cells secrete hydrochloric acid and intrinsic factor and have extensive microvilli for acid secretion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 30</span> The floor of the inguinal canal is formed by the …",
+    "options": [
+      "Rectus abdominis muscle",
+      "Inguinal ligament",
+      "Internal oblique muscle",
+      "Transversus abdominis muscle"
+    ],
+    "answer": 1,
+    "answerText": "Inguinal ligament",
+    "explanation": "The inguinal ligament, formed from the external oblique aponeurosis, creates the floor of the inguinal canal.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 31</span> The inferomedial border of the deep inguinal ring is formed by …",
+    "options": [
+      "Lacunar ligament",
+      "Interfoveolar (Hesselbach) ligament",
+      "Transversus abdominis muscle",
+      "Rectus sheath"
+    ],
+    "answer": 1,
+    "answerText": "Interfoveolar (Hesselbach) ligament",
+    "explanation": "The interfoveolar ligament reinforces the deep inguinal ring, providing structural support.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 32</span> Which one is located on the inferior surface of the transverse colon?",
+    "options": [
+      "Tenia mesocolica",
+      "Tenia omentalis",
+      "Tenia libera",
+      "Tenia sigmoidea"
+    ],
+    "answer": 2,
+    "answerText": "Tenia libera",
+    "explanation": "The tenia libera is one of the three longitudinal bands of smooth muscle found on the colon’s surface.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 33</span> The internal spermatic fascia is derived from …",
+    "options": [
+      "External oblique aponeurosis",
+      "Transversalis fascia",
+      "Internal oblique muscle",
+      "Peritoneum"
+    ],
+    "answer": 1,
+    "answerText": "Transversalis fascia",
+    "explanation": "The internal spermatic fascia is a continuation of the transversalis fascia covering the spermatic cord.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 34</span> Which structure continues inferiorly into the thigh to form the fascia lata?",
+    "options": [
+      "Camper’s fascia",
+      "Scarpa’s fascia",
+      "Transversalis fascia",
+      "Dartos fascia"
+    ],
+    "answer": 1,
+    "answerText": "Scarpa’s fascia",
+    "explanation": "Scarpa’s fascia is a deep membranous layer of the abdominal wall that extends into the thigh as the fascia lata.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 35</span> The superior mesenteric vessels pass anterior to which part of the duodenum?",
+    "options": [
+      "First part",
+      "Second part",
+      "Third part",
+      "Fourth part"
+    ],
+    "answer": 2,
+    "answerText": "Third part",
+    "explanation": "The superior mesenteric artery and vein cross anteriorly over the third (horizontal) part of the duodenum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 36</span> Peyer’s patches are characteristic of the …",
+    "options": [
+      "Duodenum",
+      "Jejunum",
+      "Ileum",
+      "Colon"
+    ],
+    "answer": 2,
+    "answerText": "Ileum",
+    "explanation": "Peyer’s patches are lymphoid aggregates in the ileum, playing a role in immune response.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 37</span> Which part of the anal canal is lined by nonkeratinized stratified squamous epithelium?",
+    "options": [
+      "Above the pectinate line",
+      "Below the pectinate line",
+      "Transition zone",
+      "External anal sphincter"
+    ],
+    "answer": 2,
+    "answerText": "Transition zone",
+    "explanation": "The transition zone of the anal canal is lined by nonkeratinized stratified squamous epithelium.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 38</span> All of the following arteries participate in forming the marginal artery (Drummond’s arch), except:",
+    "options": [
+      "Middle colic artery",
+      "Left colic artery",
+      "Ileocolic artery",
+      "Superior rectal artery"
+    ],
+    "answer": 3,
+    "answerText": "Superior rectal artery",
+    "explanation": "The marginal artery is formed by branches of the superior and inferior mesenteric arteries, except for the superior rectal artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 39</span> Which one of the following bones contributes to the formation of the roof of the oral cavity?",
+    "options": [
+      "Mandible",
+      "Maxilla",
+      "Palatine",
+      "Zygomatic"
+    ],
+    "answer": 2,
+    "answerText": "Palatine",
+    "explanation": "The palatine bones form the posterior part of the hard palate, contributing to the oral cavity’s roof.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-12-31) - Dr. Gholamreza Hassanzadeh - Question 40</span> Where is the junction of the splenic and superior mesenteric veins for the formation of the portal vein?",
+    "options": [
+      "At the level of L1, posterior to the head of the pancreas",
+      "At the level of L2, posterior to the neck of the pancreas",
+      "At the level of L3, anterior to the uncinate process",
+      "At the level of L1, anterior to the duodenum"
+    ],
+    "answer": 1,
+    "answerText": "At the level of L2, posterior to the neck of the pancreas",
+    "explanation": "The portal vein is formed by the confluence of the splenic and superior mesenteric veins at L2, behind the pancreas’ neck.",
+    "userAnswer": null
+  }
+]
