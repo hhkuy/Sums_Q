@@ -284,5 +284,369 @@
     "answerText": "Enkephalin neuron",
     "explanation": "Enkephalinergic interneurons inhibit pain transmission in the spinal cord.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 1</span> Which descending tract transmits inhibitory signals to antigravity muscles?",
+    "options": [
+      "Lateral corticospinal tract",
+      "Medullary reticulospinal tract",
+      "Vestibulospinal tract",
+      "Rubrospinal tract"
+    ],
+    "answer": 1,
+    "answerText": "Medullary reticulospinal tract",
+    "explanation": "The medullary reticulospinal tract inhibits extensor (antigravity) muscles, helping regulate postural control.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 2</span> In which area of the motor cortex can a low-intensity stimulation trigger an isolated movement in fingers?",
+    "options": [
+      "Premotor cortex",
+      "Supplementary motor area",
+      "Primary motor cortex",
+      "Cingulate motor area"
+    ],
+    "answer": 2,
+    "answerText": "Primary motor cortex",
+    "explanation": "The primary motor cortex has a somatotopic organization, where stimulation can elicit precise movements.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 3</span> Which neuron in the primary motor cortex maintains the force of muscle contraction after its initial development?",
+    "options": [
+      "Dynamic pyramidal neurons",
+      "Static pyramidal neurons",
+      "Mirror neurons",
+      "Interneurons"
+    ],
+    "answer": 1,
+    "answerText": "Static pyramidal neurons",
+    "explanation": "Static pyramidal neurons help sustain muscle contraction after the initiation phase.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 4</span> Which of the following is correct about the columnar organization of neurons in the motor cortex?",
+    "options": [
+      "There are dynamic or static neurons in each column",
+      "Each column processes only sensory information",
+      "Neurons in the same column innervate different body parts",
+      "Each column contains only excitatory neurons"
+    ],
+    "answer": 0,
+    "answerText": "There are dynamic or static neurons in each column",
+    "explanation": "Each cortical column contains both dynamic and static neurons that contribute to motor control.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 5</span> Deep cerebellar nuclear cells are inhibited by:",
+    "options": [
+      "Climbing fibers",
+      "Parallel fibers",
+      "Purkinje cells",
+      "Mossy fibers"
+    ],
+    "answer": 2,
+    "answerText": "Purkinje cells",
+    "explanation": "Purkinje cells release GABA and inhibit deep cerebellar nuclear cells to regulate motor coordination.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 6</span> Which cerebellar portion is concerned with controlling muscle contractions in hands and fingers?",
+    "options": [
+      "Vermis",
+      "Intermediate zone",
+      "Flocculonodular lobe",
+      "Fastigial nucleus"
+    ],
+    "answer": 1,
+    "answerText": "Intermediate zone",
+    "explanation": "The intermediate zone of the cerebellum is involved in fine motor control of the limbs.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 7</span> Which cell or fiber triggers a complex spike in cerebellar Purkinje cells?",
+    "options": [
+      "Mossy fibers",
+      "Parallel fibers",
+      "Climbing fibers",
+      "Basket cells"
+    ],
+    "answer": 2,
+    "answerText": "Climbing fibers",
+    "explanation": "Climbing fibers synapse on Purkinje cells and generate complex spikes that modify motor learning.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 8</span> Which disease can Levodopa be helpful for?",
+    "options": [
+      "Alzheimer’s disease",
+      "Huntington’s disease",
+      "Parkinson’s disease",
+      "Myasthenia gravis"
+    ],
+    "answer": 2,
+    "answerText": "Parkinson’s disease",
+    "explanation": "Levodopa replenishes dopamine in Parkinson’s disease, alleviating motor symptoms.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 9</span> Pathways from the putamen to the internal globus pallidus mainly release:",
+    "options": [
+      "Dopamine",
+      "Glutamate",
+      "GABA",
+      "Acetylcholine"
+    ],
+    "answer": 2,
+    "answerText": "GABA",
+    "explanation": "GABAergic neurons from the putamen inhibit the internal globus pallidus in the basal ganglia circuitry.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 10</span> Which one is increased by the action of the sympathetic nervous system?",
+    "options": [
+      "Digestion",
+      "Body metabolism",
+      "Urination",
+      "Salivation"
+    ],
+    "answer": 1,
+    "answerText": "Body metabolism",
+    "explanation": "The sympathetic nervous system increases metabolism, heart rate, and energy mobilization.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 11</span> Preganglionic parasympathetic neurons are located in the:",
+    "options": [
+      "Thoracic spinal cord",
+      "Lumbar spinal cord",
+      "Sacral spinal cord",
+      "Sympathetic chain ganglia"
+    ],
+    "answer": 2,
+    "answerText": "Sacral spinal cord",
+    "explanation": "Preganglionic parasympathetic neurons originate in the brainstem and sacral spinal cord.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 12</span> Which receptor in the autonomic nervous system is an ionotropic receptor?",
+    "options": [
+      "Muscarinic receptor",
+      "Beta-adrenergic receptor",
+      "Nicotinic receptor",
+      "Dopaminergic receptor"
+    ],
+    "answer": 2,
+    "answerText": "Nicotinic receptor",
+    "explanation": "Nicotinic receptors are ligand-gated ion channels found in autonomic ganglia.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 13</span> On which hypothalamic nucleus does information about body temperature converge?",
+    "options": [
+      "Suprachiasmatic nucleus",
+      "Preoptic nucleus",
+      "Arcuate nucleus",
+      "Lateral hypothalamus"
+    ],
+    "answer": 1,
+    "answerText": "Preoptic nucleus",
+    "explanation": "The preoptic nucleus regulates body temperature by integrating thermal signals.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 14</span> Bilateral removal of the amygdala DECREASES:",
+    "options": [
+      "Fear",
+      "Hunger",
+      "Memory",
+      "Aggression"
+    ],
+    "answer": 0,
+    "answerText": "Fear",
+    "explanation": "The amygdala is involved in emotional processing, particularly fear and aggression.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 15</span> Major depression probably results from a decrease in the brain’s:",
+    "options": [
+      "Dopamine",
+      "Serotonin",
+      "Acetylcholine",
+      "GABA"
+    ],
+    "answer": 1,
+    "answerText": "Serotonin",
+    "explanation": "A decrease in serotonin levels is strongly associated with major depression.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 16</span> Which hypothalamic area is involved in water conservation?",
+    "options": [
+      "Lateral hypothalamic area",
+      "Supraoptic nuclei",
+      "Ventromedial nucleus",
+      "Anterior hypothalamic area"
+    ],
+    "answer": 1,
+    "answerText": "Supraoptic nuclei",
+    "explanation": "The supraoptic nucleus regulates water balance by releasing vasopressin (ADH).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 17</span> Which of the brain rhythms represents a very irregular activity of cortical neurons?",
+    "options": [
+      "Delta",
+      "Theta",
+      "Beta",
+      "Alpha"
+    ],
+    "answer": 2,
+    "answerText": "Beta",
+    "explanation": "Beta waves are associated with wakefulness and mental activity and show an irregular pattern.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 18</span> REM sleep is characterized by ………. in the EEG.",
+    "options": [
+      "Delta waves",
+      "Theta waves",
+      "Spindle waves",
+      "Beta waves"
+    ],
+    "answer": 3,
+    "answerText": "Beta waves",
+    "explanation": "REM sleep is associated with low-amplitude, high-frequency beta waves.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 19</span> Narcolepsy is caused by a defect in:",
+    "options": [
+      "Dopamine receptors",
+      "Histamine receptors",
+      "Orexin receptors",
+      "Melatonin receptors"
+    ],
+    "answer": 2,
+    "answerText": "Orexin receptors",
+    "explanation": "Orexin (hypocretin) dysfunction leads to excessive daytime sleepiness in narcolepsy.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 20</span> In non-REM sleep, the lowest frequency of brain waves appears in stage:",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 3,
+    "answerText": "4",
+    "explanation": "Stage 4 sleep is characterized by slow delta waves, the lowest frequency brain activity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 21</span> Which of the following is NOT integrated in the prefrontal association cortex?",
+    "options": [
+      "Working memory",
+      "Executive function",
+      "Decision-making",
+      "Face recognition"
+    ],
+    "answer": 3,
+    "answerText": "Face recognition",
+    "explanation": "Face recognition is primarily processed in the inferior temporal cortex, not the prefrontal cortex.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 22</span> A patient who can decide on what to say but cannot speak fluently probably suffers from:",
+    "options": [
+      "Wernicke’s aphasia",
+      "Broca’s aphasia",
+      "Global aphasia",
+      "Conduction aphasia"
+    ],
+    "answer": 1,
+    "answerText": "Broca’s aphasia",
+    "explanation": "Broca’s aphasia affects speech production while leaving comprehension intact.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 23</span> Retrograde amnesia refers to an inability to:",
+    "options": [
+      "Learn new information",
+      "Recall memories from the recent past",
+      "Form new motor skills",
+      "Retain short-term memory"
+    ],
+    "answer": 1,
+    "answerText": "Recall memories from the recent past",
+    "explanation": "Retrograde amnesia results in difficulty recalling past events before brain injury.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 24</span> Which problem usually may NOT happen after cerebellar damage?",
+    "options": [
+      "Dysmetria",
+      "Dysdiadochokinesia",
+      "Hypertonia",
+      "Ataxia"
+    ],
+    "answer": 2,
+    "answerText": "Hypertonia",
+    "explanation": "Hypertonia (increased muscle tone) is associated with basal ganglia disorders, not cerebellar lesions.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 25</span> Which receptor mediates cardioacceleration?",
+    "options": [
+      "Alpha-1",
+      "Beta-1",
+      "Beta-2",
+      "Muscarinic"
+    ],
+    "answer": 1,
+    "answerText": "Beta-1",
+    "explanation": "Beta-1 adrenergic receptors in the heart increase heart rate and contractility.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 26</span> Which hypothalamic area decreases appetite?",
+    "options": [
+      "Lateral hypothalamic area",
+      "Arcuate nucleus",
+      "Ventromedial nucleus",
+      "Mammillary bodies"
+    ],
+    "answer": 2,
+    "answerText": "Ventromedial nucleus",
+    "explanation": "The ventromedial hypothalamus is the satiety center, suppressing hunger.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 27</span> Which of the following is a probable mechanism for habituation?",
+    "options": [
+      "Increased synaptic vesicle release",
+      "Blockade of presynaptic potassium channels",
+      "Progressive closure of presynaptic calcium channels",
+      "Increased excitatory postsynaptic potential"
+    ],
+    "answer": 2,
+    "answerText": "Progressive closure of presynaptic calcium channels",
+    "explanation": "Habituation is linked to reduced calcium influx, leading to decreased neurotransmitter release.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 28</span> Which of the following is correct about visual object agnosia?",
+    "options": [
+      "It is an inability to copy images of objects",
+      "It is an inability to identify objects",
+      "It is caused by primary visual cortex damage",
+      "It is due to impaired depth perception"
+    ],
+    "answer": 1,
+    "answerText": "It is an inability to identify objects",
+    "explanation": "Visual object agnosia is the inability to recognize objects despite normal vision.",
+    "userAnswer": null
   }
 ]
