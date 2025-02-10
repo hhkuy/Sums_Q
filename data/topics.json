@@ -296,6 +296,19 @@
   {
     "topicName": "Nervous system block",
     "description": "Related to the third Semster",
-    "subTopics": []
+    "subTopics": [
+      {
+        "name": "Anatomy",
+        "file": "data/nervous_system_block_anatomy.json"
+      },
+      {
+        "name": "Physiology",
+        "file": "data/nervous_system_block_physiology.json"
+      },
+      {
+        "name": "Embryology",
+        "file": "data/nervous_system_block_embryology.json"
+      }
+    ]
   }
 ]
