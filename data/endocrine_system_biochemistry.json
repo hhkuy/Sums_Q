@@ -1,0 +1,262 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 1</span> Which of the following describes endocrine signaling?",
+    "options": [
+      "Signaling molecules act on the same cell that produces them",
+      "Signaling molecules diffuse to nearby target cells",
+      "Signaling molecules travel through gap junctions",
+      "Signaling molecules are released into the bloodstream to affect distant target cells"
+    ],
+    "answer": 3,
+    "answerText": "Signaling molecules are released into the bloodstream to affect distant target cells",
+    "explanation": "In endocrine signaling, hormones travel through the bloodstream to regulate distant target organs.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 2</span> What is the mechanism by which Cholera toxin induces severe diarrhea and dehydration?",
+    "options": [
+      "Enhances permeability of the intestinal lumen for Na+ ions and water",
+      "Blocks hydrolysis of GTP to GDP in the alpha subunit of Gs",
+      "Inhibits sodium-glucose cotransporters in enterocytes",
+      "Activates H+/K+ ATPase in intestinal cells"
+    ],
+    "answer": 1,
+    "answerText": "Blocks hydrolysis of GTP to GDP in the alpha subunit of Gs",
+    "explanation": "Cholera toxin locks Gs protein in an active state, leading to excessive cAMP production and water loss.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 3</span> What is the primary characteristic of positive feedback in hormonal regulation?",
+    "options": [
+      "Positive feedback stabilizes the initial stimulus.",
+      "Positive feedback inhibits further hormone release.",
+      "Positive feedback amplifies the initial stimulus.",
+      "Positive feedback decreases receptor sensitivity."
+    ],
+    "answer": 2,
+    "answerText": "Positive feedback amplifies the initial stimulus.",
+    "explanation": "In positive feedback, a hormone enhances its own secretion, as seen in oxytocin during labor.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 4</span> What is the primary function of hypothalamic releasing and inhibiting hormones?",
+    "options": [
+      "Control autonomic nervous system activity",
+      "Control the release of all anterior pituitary hormones",
+      "Regulate adrenal cortex hormone secretion directly",
+      "Inhibit posterior pituitary function"
+    ],
+    "answer": 1,
+    "answerText": "Control the release of all anterior pituitary hormones",
+    "explanation": "Hypothalamic hormones regulate anterior pituitary hormone release, such as TRH for TSH secretion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 5</span> What is a characteristic feature of gigantism?",
+    "options": [
+      "Premature fusion of epiphyseal plates",
+      "Stimulation of epiphyseal plates leading to bone length increase",
+      "Decreased IGF-1 levels",
+      "Growth hormone deficiency"
+    ],
+    "answer": 1,
+    "answerText": "Stimulation of epiphyseal plates leading to bone length increase",
+    "explanation": "Gigantism results from excessive GH secretion before epiphyseal plate closure, causing excessive height.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 6</span> What is a key factor in suppressing prolactin (PRL) release?",
+    "options": [
+      "Estrogen",
+      "Dopamine",
+      "Oxytocin",
+      "TRH"
+    ],
+    "answer": 1,
+    "answerText": "Dopamine",
+    "explanation": "Dopamine inhibits prolactin release from the anterior pituitary, preventing excessive milk production.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 7</span> What is the primary function of antidiuretic hormone (ADH) in response to changes in osmolarity?",
+    "options": [
+      "ADH stimulates V2 receptors on renal collecting duct cells",
+      "ADH inhibits aldosterone secretion",
+      "ADH increases sodium excretion",
+      "ADH stimulates thirst center in the hypothalamus"
+    ],
+    "answer": 0,
+    "answerText": "ADH stimulates V2 receptors on renal collecting duct cells",
+    "explanation": "ADH increases water reabsorption in the kidneys by acting on V2 receptors in the collecting ducts.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 8</span> What is the mechanism of cortisol action on target cells?",
+    "options": [
+      "Cortisol directly interacts with cellular effector proteins",
+      "Cortisol binds to specific intracellular receptors",
+      "Cortisol activates membrane-bound G-protein receptors",
+      "Cortisol increases adenylate cyclase activity"
+    ],
+    "answer": 1,
+    "answerText": "Cortisol binds to specific intracellular receptors",
+    "explanation": "Cortisol binds to intracellular receptors, influencing gene transcription to regulate metabolism and immunity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 9</span> What is the primary definition of Cushing’s syndrome?",
+    "options": [
+      "A disorder caused by excessive aldosterone production",
+      "A group of signs and symptoms resulting from prolonged elevated levels of cortisol",
+      "A condition caused by autoimmune destruction of adrenal glands",
+      "A disorder characterized by excessive androgen secretion"
+    ],
+    "answer": 1,
+    "answerText": "A group of signs and symptoms resulting from prolonged elevated levels of cortisol",
+    "explanation": "Cushing’s syndrome results from chronic cortisol excess, leading to weight gain, hyperglycemia, and hypertension.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 10</span> How does angiotensin II (AGII) contribute to the regulation of the renin-angiotensin-aldosterone system (RAAS)?",
+    "options": [
+      "Induces AGI converting enzyme (ACE)",
+      "Inhibits renin release",
+      "Stimulates aldosterone release from the pituitary",
+      "Increases sodium excretion"
+    ],
+    "answer": 1,
+    "answerText": "Inhibits renin release",
+    "explanation": "Angiotensin II provides negative feedback by inhibiting renin release from the kidneys, maintaining blood pressure balance.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 11</span> Which hormone is primarily associated with the body’s response to acute stress?",
+    "options": [
+      "Cortisol",
+      "Epinephrine",
+      "Aldosterone",
+      "Insulin"
+    ],
+    "answer": 1,
+    "answerText": "Epinephrine",
+    "explanation": "Epinephrine, released by the adrenal medulla, mediates the “fight or flight” response by increasing heart rate and metabolism.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 12</span> What is the next outcome of the activated insulin receptor’s autophosphorylation?",
+    "options": [
+      "Induces more phosphorylation of specific intracellular substrate proteins",
+      "Inhibits glucose uptake",
+      "Decreases glycogen synthesis",
+      "Activates glucagon receptors"
+    ],
+    "answer": 0,
+    "answerText": "Induces more phosphorylation of specific intracellular substrate proteins",
+    "explanation": "Insulin receptor autophosphorylation triggers intracellular signaling cascades, leading to increased glucose uptake and metabolism.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 13</span> What characterizes Type 1 Diabetes?",
+    "options": [
+      "Peripheral insulin resistance",
+      "Autoimmune destruction of insulin-producing beta cells",
+      "Excessive glucagon secretion",
+      "Increased insulin sensitivity"
+    ],
+    "answer": 1,
+    "answerText": "Autoimmune destruction of insulin-producing beta cells",
+    "explanation": "Type 1 Diabetes is caused by autoimmune destruction of pancreatic beta cells, leading to insulin deficiency.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 14</span> What characterizes Diabetic Ketoacidosis (DKA)?",
+    "options": [
+      "Low blood glucose levels",
+      "High levels of ketones in the blood resulting from insulin deficiency",
+      "Increased pH",
+      "Increased insulin secretion"
+    ],
+    "answer": 1,
+    "answerText": "High levels of ketones in the blood resulting from insulin deficiency",
+    "explanation": "DKA occurs when insulin deficiency leads to lipolysis, ketone production, and metabolic acidosis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 15</span> How do Methimazole (MMI) and Propylthiouracil (PTU) work?",
+    "options": [
+      "They inhibit iodine uptake into the thyroid gland",
+      "They inhibit TPO enzyme and the coupling reactions",
+      "They stimulate thyroid hormone secretion",
+      "They increase thyroid hormone receptor sensitivity"
+    ],
+    "answer": 1,
+    "answerText": "They inhibit TPO enzyme and the coupling reactions",
+    "explanation": "MMI and PTU inhibit thyroid peroxidase (TPO), preventing thyroid hormone synthesis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 16</span> What are the primary causes of Graves’ Disease?",
+    "options": [
+      "Iodine deficiency",
+      "Autoimmune stimulation of the thyroid gland leading to hyperthyroidism",
+      "Pituitary adenoma",
+      "Excessive TSH secretion"
+    ],
+    "answer": 1,
+    "answerText": "Autoimmune stimulation of the thyroid gland leading to hyperthyroidism",
+    "explanation": "Graves’ disease is an autoimmune disorder where antibodies stimulate the thyroid gland, causing hyperthyroidism.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 17</span> What is the main result of the deactivation of the Calcium-Sensing Receptor (CaR)?",
+    "options": [
+      "Inhibited conversion of Pre-pro PTH to Pro PTH",
+      "Increased Parathyroid Hormone (PTH) secretion",
+      "Decreased PTH release",
+      "Increased calcium excretion"
+    ],
+    "answer": 1,
+    "answerText": "Increased Parathyroid Hormone (PTH) secretion",
+    "explanation": "Deactivation of CaR leads to reduced calcium sensing, triggering increased PTH secretion to restore calcium levels.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 18</span> What is the mechanism by which Parathyroid Hormone (PTH) stimulates the release of calcium from bones into the bloodstream?",
+    "options": [
+      "PTH binds to osteoclasts, directly breaking down bone tissue",
+      "PTH binds to osteoblasts, stimulating osteoclasts to break down bone tissue",
+      "PTH inhibits osteoblast activity",
+      "PTH increases calcium absorption from the intestines"
+    ],
+    "answer": 1,
+    "answerText": "PTH binds to osteoblasts, stimulating osteoclasts to break down bone tissue",
+    "explanation": "PTH binds to osteoblasts, which then activate osteoclasts to resorb bone and release calcium into the blood.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 19</span> What are the potential causes of hypercalcemia?",
+    "options": [
+      "Hypoparathyroidism or Vitamin K deficiency",
+      "Hyperparathyroidism or excessive Vitamin D intake",
+      "Decreased renal calcium reabsorption",
+      "Low PTH levels"
+    ],
+    "answer": 1,
+    "answerText": "Hyperparathyroidism or excessive Vitamin D intake",
+    "explanation": "Hyperparathyroidism and excess Vitamin D increase calcium levels by enhancing bone resorption and intestinal absorption.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-23) - Dr. Saboor - Question 20</span> In chronic stress, which hormone is often associated with prolonged effects on immune system control?",
+    "options": [
+      "Growth Hormone",
+      "Cortisol",
+      "Insulin",
+      "Aldosterone"
+    ],
+    "answer": 1,
+    "answerText": "Cortisol",
+    "explanation": "Cortisol suppresses immune function in chronic stress, reducing inflammation but increasing susceptibility to infections.",
+    "userAnswer": null
+  }
+]
