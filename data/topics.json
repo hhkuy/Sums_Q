@@ -270,16 +270,6 @@
     ]
   },
   {
-    "topicName": "test",
-    "description": "",
-    "subTopics": [
-      {
-        "name": "t1",
-        "file": "data/test_t1.json"
-      }
-    ]
-  },
-  {
     "topicName": "Epidemiology",
     "description": "Related to the first Semster",
     "subTopics": [
