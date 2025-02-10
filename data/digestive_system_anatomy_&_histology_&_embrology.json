@@ -518,5 +518,265 @@
     "answerText": "At the level of L2, posterior to the neck of the pancreas",
     "explanation": "The portal vein is formed by the confluence of the splenic and superior mesenteric veins at L2, behind the pancreas’ neck.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 1</span> Which surface of the liver is attached to the diaphragm and makes the bare area?",
+    "options": [
+      "Anterior",
+      "Posterior",
+      "Inferior",
+      "Right"
+    ],
+    "answer": 1,
+    "answerText": "Posterior",
+    "explanation": "The posterior surface of the liver is in direct contact with the diaphragm, forming the bare area.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 2</span> A peritoneal cavity between the liver and the right kidney is called:",
+    "options": [
+      "Subphrenic recess",
+      "Hepatorenal recess of Morison",
+      "Lesser sac",
+      "Paracolic gutter"
+    ],
+    "answer": 1,
+    "answerText": "Hepatorenal recess of Morison",
+    "explanation": "The hepatorenal recess (Morison’s pouch) is the deepest space in the supine position and can collect fluid.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 3</span> Which structure is located on the left side of the caudate lobe of the liver?",
+    "options": [
+      "Inferior vena cava",
+      "Ligamentum venosum",
+      "Gallbladder",
+      "Right lobe"
+    ],
+    "answer": 1,
+    "answerText": "Ligamentum venosum",
+    "explanation": "The ligamentum venosum is a remnant of the fetal ductus venosus, located to the left of the caudate lobe.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 4</span> Which one may project from the inferior border of the liver?",
+    "options": [
+      "Quadrate lobe",
+      "Fundus of the gallbladder",
+      "Ligamentum teres",
+      "Right hepatic vein"
+    ],
+    "answer": 1,
+    "answerText": "Fundus of the gallbladder",
+    "explanation": "The gallbladder fundus projects beyond the inferior border of the liver.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 5</span> Glisson’s capsule is a dense irregular connective tissue that invests the …",
+    "options": [
+      "Pancreas",
+      "Liver",
+      "Spleen",
+      "Kidneys"
+    ],
+    "answer": 1,
+    "answerText": "Liver",
+    "explanation": "Glisson’s capsule covers the liver and contains blood vessels, lymphatics, and nerves.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 6</span> Which cell has both endocrine and exocrine functions?",
+    "options": [
+      "Kupffer cell",
+      "Hepatocyte",
+      "Ito cell",
+      "Pancreatic acinar cell"
+    ],
+    "answer": 1,
+    "answerText": "Hepatocyte",
+    "explanation": "Hepatocytes produce bile (exocrine) and secrete plasma proteins (endocrine).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 7</span> In which type of liver lobule is the portal triad located in the center, with central veins at the apices?",
+    "options": [
+      "Classic hepatic lobule",
+      "Liver acinus",
+      "Portal lobule",
+      "Functional hepatic lobule"
+    ],
+    "answer": 2,
+    "answerText": "Portal lobule",
+    "explanation": "The portal lobule emphasizes bile drainage and places the portal triad in the center.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 8</span> Which cell is located in the perisinusoidal space (space of Disse)?",
+    "options": [
+      "Kupffer cell",
+      "Ito cell",
+      "Hepatocyte",
+      "Endothelial cell"
+    ],
+    "answer": 1,
+    "answerText": "Ito cell",
+    "explanation": "Ito cells (stellate cells) store vitamin A and regulate fibrosis in the liver.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 9</span> In the free border of the lesser omentum, which structure is anterior and to the right?",
+    "options": [
+      "Hepatic artery",
+      "Portal vein",
+      "Common bile duct",
+      "Inferior vena cava"
+    ],
+    "answer": 2,
+    "answerText": "Common bile duct",
+    "explanation": "The common bile duct lies anterior and to the right in the hepatoduodenal ligament.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 10</span> The inferior pancreatic artery is a branch of the … artery.",
+    "options": [
+      "Superior mesenteric",
+      "Splenic",
+      "Celiac",
+      "Gastroduodenal"
+    ],
+    "answer": 1,
+    "answerText": "Splenic",
+    "explanation": "The inferior pancreatic artery arises from the splenic artery to supply the pancreas.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 11</span> Which one is the difference between the serous acini of the pancreas and the parotid gland?",
+    "options": [
+      "Presence of myoepithelial cells",
+      "Langerhans islets",
+      "Centroacinar cells",
+      "Absence of striated ducts"
+    ],
+    "answer": 2,
+    "answerText": "Centroacinar cells",
+    "explanation": "Centroacinar cells are unique to the pancreas and are absent in the parotid gland.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 12</span> Which one is an intraperitoneal organ?",
+    "options": [
+      "Pancreas",
+      "Duodenum",
+      "Spleen",
+      "Rectum"
+    ],
+    "answer": 2,
+    "answerText": "Spleen",
+    "explanation": "The spleen is entirely covered by peritoneum and is an intraperitoneal organ.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 13</span> Which one is the origin of striated muscles in the upper one-third of the esophagus?",
+    "options": [
+      "First pharyngeal arch",
+      "Second pharyngeal arch",
+      "Fourth and sixth pharyngeal arches",
+      "Occipital somites"
+    ],
+    "answer": 2,
+    "answerText": "Fourth and sixth pharyngeal arches",
+    "explanation": "The striated muscles of the upper esophagus develop from the fourth and sixth pharyngeal arches.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 14</span> The diaphragmatic hernia that results from a failure of the pleuroperitoneal membrane to attach to the septum transversum is called:",
+    "options": [
+      "Morgagni hernia",
+      "Bochdalek hernia",
+      "Hiatal hernia",
+      "Sliding hernia"
+    ],
+    "answer": 1,
+    "answerText": "Bochdalek hernia",
+    "explanation": "Bochdalek hernia is a congenital diaphragmatic defect due to incomplete closure of the pleuroperitoneal canal.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 15</span> Which organ develops between two layers of the dorsal mesogastrium in the 5th week of development?",
+    "options": [
+      "Liver",
+      "Pancreas",
+      "Spleen",
+      "Kidneys"
+    ],
+    "answer": 2,
+    "answerText": "Spleen",
+    "explanation": "The spleen develops within the dorsal mesogastrium during the 5th week of gestation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 16</span> Which one has an endodermal origin?",
+    "options": [
+      "Kupffer cell",
+      "Ito cell",
+      "Hepatocyte",
+      "Fibroblast"
+    ],
+    "answer": 2,
+    "answerText": "Hepatocyte",
+    "explanation": "Hepatocytes originate from endoderm, whereas Kupffer cells and Ito cells derive from mesoderm.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 17</span> Which part of the pancreas is formed by the anterior pancreatic bud?",
+    "options": [
+      "Head",
+      "Uncinate process",
+      "Tail",
+      "Body"
+    ],
+    "answer": 1,
+    "answerText": "Uncinate process",
+    "explanation": "The anterior pancreatic bud forms the uncinate process and part of the head.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 18</span> During which midgut rotation does the transverse colon pass behind the duodenum and lie posterior to the superior mesenteric artery?",
+    "options": [
+      "90 degrees clockwise",
+      "180 degrees counterclockwise",
+      "270 degrees counterclockwise",
+      "360 degrees counterclockwise"
+    ],
+    "answer": 2,
+    "answerText": "270 degrees counterclockwise",
+    "explanation": "During 270-degree counterclockwise rotation, the transverse colon assumes its final position in front of the duodenum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 19</span> Which one is the junction between the endodermal and ectodermal regions of the anal canal?",
+    "options": [
+      "Hilton’s white line",
+      "Pectinate line",
+      "Anorectal ring",
+      "Dentate line"
+    ],
+    "answer": 1,
+    "answerText": "Pectinate line",
+    "explanation": "The pectinate line marks the transition between endoderm-derived and ectoderm-derived epithelium in the anal canal.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2024-03-25) Dr. Hasanzadeh Question 20</span> The epithelium of which structure is composed of simple cuboidal cholangiocytes?",
+    "options": [
+      "Common bile duct",
+      "Hepatic duct",
+      "Bile canals of Hering",
+      "Cystic duct"
+    ],
+    "answer": 2,
+    "answerText": "Bile canals of Hering",
+    "explanation": "The bile canals of Hering contain simple cuboidal cholangiocytes and contribute to bile transport.",
+    "userAnswer": null
   }
 ]
