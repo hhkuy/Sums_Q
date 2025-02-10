@@ -128,5 +128,135 @@
     "answerText": "Parathyroid gland",
     "explanation": "Oxyphil cells are found in the parathyroid gland, and their function is not fully understood, though they may have a role in calcium regulation.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Golshan - Question 1</span> The pituitary is formed in the embryo partly from the ………….. and partly from the ………………. .",
+    "options": [
+      "Diencephalon - oral cavity",
+      "Mesoderm - neural crest",
+      "Forebrain - pharyngeal pouch",
+      "Neural tube - ectoderm"
+    ],
+    "answer": 0,
+    "answerText": "Diencephalon - oral cavity",
+    "explanation": "The pituitary develops from the diencephalon (neuroectoderm) and Rathke’s pouch from the oral ectoderm.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Golshan - Question 2</span> The parathyroid glands are derived from the embryonic pharyngeal pouches, the superior glands from the …………… and the inferior glands from the ………………. .",
+    "options": [
+      "Second pouch - third pouch",
+      "Third pouch - fourth pouch",
+      "Fourth pouch - third pouch",
+      "First pouch - second pouch"
+    ],
+    "answer": 2,
+    "answerText": "Fourth pouch - third pouch",
+    "explanation": "The superior parathyroid glands arise from the fourth pharyngeal pouch, while the inferior glands develop from the third pouch.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Golshan - Question 3</span> The suprarenal gland develops from two components: (1) a ……………… portion, which forms the cortex, and (2) an ………………. portion, which forms the medulla.",
+    "options": [
+      "Endodermal - ectodermal",
+      "Mesodermal - ectodermal",
+      "Mesodermal - endodermal",
+      "Neural crest - mesodermal"
+    ],
+    "answer": 1,
+    "answerText": "Mesodermal - ectodermal",
+    "explanation": "The adrenal cortex originates from mesoderm, while the medulla arises from neural crest ectoderm.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Golshan - Question 4</span> Which part of the hypophysis contains Herring bodies and which part contains cysts, respectively?",
+    "options": [
+      "Pars distalis - pars intermedia",
+      "Pars nervosa - pars intermedia",
+      "Pars tuberalis - pars nervosa",
+      "Pars intermedia - pars distalis"
+    ],
+    "answer": 1,
+    "answerText": "Pars nervosa - pars intermedia",
+    "explanation": "Herring bodies (ADH and oxytocin storage) are found in the pars nervosa, while cysts are found in the pars intermedia.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Golshan - Question 5</span> The peptide hormones ADH (antidiuretic hormone) and oxytocin are synthesized by large neurons in the ………….. and the ……………. nuclei, respectively.",
+    "options": [
+      "Paraventricular - supraoptic",
+      "Supraoptic - paraventricular",
+      "Arcuate - mammillary",
+      "Ventromedial - lateral hypothalamic"
+    ],
+    "answer": 1,
+    "answerText": "Supraoptic - paraventricular",
+    "explanation": "ADH is produced by the supraoptic nucleus, whereas oxytocin is synthesized in the paraventricular nucleus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Golshan - Question 6</span> A benign tumor in the ………………….. of the adrenal gland causes swings in blood pressure between hypertension and hypotension.",
+    "options": [
+      "Cortex",
+      "Medulla",
+      "Capsule",
+      "Zona reticularis"
+    ],
+    "answer": 1,
+    "answerText": "Medulla",
+    "explanation": "A pheochromocytoma in the adrenal medulla causes episodic hypertension due to excess catecholamine secretion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Golshan - Question 7</span> What is the thickest layer of the adrenal cortex, and which hormone is produced by this part?",
+    "options": [
+      "Zona glomerulosa - aldosterone",
+      "Zona fasciculata - cortisol",
+      "Zona reticularis - androgens",
+      "Medulla - epinephrine"
+    ],
+    "answer": 1,
+    "answerText": "Zona fasciculata - cortisol",
+    "explanation": "The zona fasciculata is the thickest layer of the adrenal cortex and produces cortisol.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Golshan - Question 8</span> The ………………. synthesizes T3, T4, and ………………. synthesizes calcitonin.",
+    "options": [
+      "Parafollicular cells - follicular cells",
+      "Thyrocytes - C cells",
+      "C cells - thyrocytes",
+      "Parathyroid cells - follicular cells"
+    ],
+    "answer": 1,
+    "answerText": "Thyrocytes - C cells",
+    "explanation": "Thyrocytes (follicular cells) produce T3 and T4, while C cells (parafollicular cells) secrete calcitonin.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Golshan - Question 9</span> Which endocrine gland stores a large quantity of its secretory product outside the cells?",
+    "options": [
+      "Adrenal gland",
+      "Pituitary gland",
+      "Thyroid gland",
+      "Parathyroid gland"
+    ],
+    "answer": 2,
+    "answerText": "Thyroid gland",
+    "explanation": "The thyroid gland stores thyroid hormones in colloid-filled follicles, a unique feature among endocrine glands.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Golshan - Question 10</span> The ………………… provide blood mainly for the neurohypophysis.",
+    "options": [
+      "Superior hypophyseal arteries",
+      "Inferior hypophyseal arteries",
+      "Hypophyseal portal veins",
+      "Middle cerebral arteries"
+    ],
+    "answer": 1,
+    "answerText": "Inferior hypophyseal arteries",
+    "explanation": "The inferior hypophyseal arteries primarily supply the neurohypophysis (posterior pituitary).",
+    "userAnswer": null
   }
 ]
