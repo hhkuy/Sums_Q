@@ -8,12 +8,12 @@
         "file": "data/tissue,_development_and_function_block_physiology.json"
       },
       {
-        "name": "Embryology",
-        "file": "data/tissue,_development_and_function_block_embryology.json"
-      },
-      {
         "name": "Histology",
         "file": "data/tissue,_development_and_function_block_histology.json"
+      },
+      {
+        "name": "Embryology",
+        "file": "data/tissue,_development_and_function_block_embryology.json"
       }
     ]
   },
@@ -26,12 +26,12 @@
         "file": "data/cell_and_molecules_block؛_biochemistry.json"
       },
       {
-        "name": "Histology",
-        "file": "data/cell_and_molecules_block؛_histology.json"
-      },
-      {
         "name": "physiology",
         "file": "data/cell_and_molecules_block؛_physiology.json"
+      },
+      {
+        "name": "Histology",
+        "file": "data/cell_and_molecules_block؛_histology.json"
       }
     ]
   },
@@ -92,16 +92,12 @@
     "description": "Related to Second Semster",
     "subTopics": [
       {
-        "name": "Physiology",
-        "file": "data/cardiovascular_system_block_physiology.json"
-      },
-      {
-        "name": "Anatomy, histology & embryology",
-        "file": "data/cardiovascular_system_block_anatomy,_histology_&_embryology.json"
-      },
-      {
         "name": "Anatomy ",
         "file": "data/cardiovascular_system_block_anatomy_.json"
+      },
+      {
+        "name": "Physiology",
+        "file": "data/cardiovascular_system_block_physiology.json"
       },
       {
         "name": "Histology ",
@@ -110,6 +106,10 @@
       {
         "name": "Embryology",
         "file": "data/cardiovascular_system_block_embryology.json"
+      },
+      {
+        "name": "Anatomy, histology & embryology",
+        "file": "data/cardiovascular_system_block_anatomy,_histology_&_embryology.json"
       }
     ]
   },
