@@ -544,5 +544,525 @@
     "answerText": "Greater petrosal nerve",
     "explanation": "The greater petrosal nerve carries parasympathetic fibers from the facial nerve (CN VII) to the pterygopalatine ganglion.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 1</span> How many single bones are located in the neurocranium?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 2,
+    "answerText": "4",
+    "explanation": "The four single bones of the neurocranium are the frontal, occipital, sphenoid, and ethmoid bones.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 2</span> All of the following foramina are located in the middle cranial fossa, EXCEPT:",
+    "options": [
+      "Foramen ovale",
+      "Foramen spinosum",
+      "Foramen rotundum",
+      "Foramen magnum"
+    ],
+    "answer": 3,
+    "answerText": "Foramen magnum",
+    "explanation": "Foramen magnum is located in the posterior cranial fossa.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 3</span> When does the anterior fontanel close in the skull?",
+    "options": [
+      "After 6 months",
+      "After 14 months",
+      "After 2 years",
+      "After 10 months"
+    ],
+    "answer": 1,
+    "answerText": "After 14 months",
+    "explanation": "The anterior fontanel typically closes by 14–18 months of age.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 4</span> The meeting point of the sagittal suture and the coronal suture is called:",
+    "options": [
+      "Lambda",
+      "Pterion",
+      "Bregma",
+      "Asterion"
+    ],
+    "answer": 2,
+    "answerText": "Bregma",
+    "explanation": "Bregma is the junction of the sagittal and coronal sutures on the skull.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 5</span> Where is the location of the foramen cecum in the skull?",
+    "options": [
+      "Between the frontal crest and crista galli",
+      "Between the occipital condyles",
+      "Between the clivus and petrous bone",
+      "Between the sella turcica and the optic canal"
+    ],
+    "answer": 0,
+    "answerText": "Between the frontal crest and crista galli",
+    "explanation": "The foramen cecum is a small opening located anterior to the crista galli and behind the frontal crest.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 6</span> The foramen for passing CN XII is located in which bone?",
+    "options": [
+      "Petrous part of the temporal bone",
+      "Body of the sphenoid bone",
+      "Lateral part of the occipital bone",
+      "Greater wing of the sphenoid"
+    ],
+    "answer": 2,
+    "answerText": "Lateral part of the occipital bone",
+    "explanation": "CN XII (hypoglossal nerve) passes through the hypoglossal canal located in the lateral part of the occipital bone.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 7</span> All of the following structures pass through the jugular fossa, EXCEPT:",
+    "options": [
+      "Internal carotid artery",
+      "CN IX (glossopharyngeal nerve)",
+      "CN X (vagus nerve)",
+      "CN XI (accessory nerve)"
+    ],
+    "answer": 0,
+    "answerText": "Internal carotid artery",
+    "explanation": "The internal carotid artery does not pass through the jugular fossa. It enters the skull through the carotid canal.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 8</span> All of the following processes are related to the zygomatic bone, EXCEPT:",
+    "options": [
+      "Frontal process",
+      "Maxillary process",
+      "Temporal process",
+      "Sphenoid process"
+    ],
+    "answer": 3,
+    "answerText": "Sphenoid process",
+    "explanation": "The zygomatic bone does not have a sphenoid process. It articulates with the frontal, temporal, and maxillary bones.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 9</span> The palatine bone participates in all of the following regions, EXCEPT:",
+    "options": [
+      "Lateral wall of the nose",
+      "Hard palate",
+      "Orbit",
+      "Anterior wall of the pterygopalatine fossa"
+    ],
+    "answer": 3,
+    "answerText": "Anterior wall of the pterygopalatine fossa",
+    "explanation": "The palatine bone does not form the anterior wall of the pterygopalatine fossa. The maxilla forms this wall.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 10</span> Which muscle of the face originates from the oblique line of the mandible?",
+    "options": [
+      "Depressor labii inferioris",
+      "Depressor anguli oris",
+      "Mentalis",
+      "Platysma"
+    ],
+    "answer": 1,
+    "answerText": "Depressor anguli oris",
+    "explanation": "The depressor anguli oris muscle originates from the oblique line of the mandible and inserts into the corner of the mouth.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 11</span> Which of the following muscles originates from the mental spine?",
+    "options": [
+      "Genioglossus",
+      "Geniohyoid",
+      "Mylohyoid",
+      "Hyoglossus"
+    ],
+    "answer": 0,
+    "answerText": "Genioglossus",
+    "explanation": "The genioglossus muscle originates from the mental spine of the mandible and is responsible for tongue movements.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 12</span> What forms the posterior wall of the pterygopalatine fossa?",
+    "options": [
+      "Greater wing of sphenoid",
+      "Pterygoid process of the sphenoid",
+      "Palatine bone",
+      "Maxilla"
+    ],
+    "answer": 1,
+    "answerText": "Pterygoid process of the sphenoid",
+    "explanation": "The pterygoid process of the sphenoid bone forms the posterior wall of the pterygopalatine fossa.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 13</span> Which of the following triangles in the neck is single?",
+    "options": [
+      "Carotid triangle",
+      "Submental triangle",
+      "Muscular triangle",
+      "Submandibular triangle"
+    ],
+    "answer": 1,
+    "answerText": "Submental triangle",
+    "explanation": "The submental triangle is a single triangle, unlike the paired triangles such as the carotid and submandibular triangles.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 14</span> All of the following structures are located in the occipital triangle, EXCEPT:",
+    "options": [
+      "Spinal accessory nerve",
+      "External jugular vein",
+      "Subclavian artery",
+      "Cervical lymph nodes"
+    ],
+    "answer": 2,
+    "answerText": "Subclavian artery",
+    "explanation": "The subclavian artery is located in the supraclavicular triangle, not the occipital triangle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 15</span> Which structure is located deep to the carotid sheath?",
+    "options": [
+      "Vagus nerve",
+      "Common carotid artery",
+      "Internal jugular vein",
+      "Sympathetic chain"
+    ],
+    "answer": 3,
+    "answerText": "Sympathetic chain",
+    "explanation": "The sympathetic chain lies posterior and deep to the carotid sheath.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 16</span> All of the following structures are related to the deep layer of the deep fascia, EXCEPT:",
+    "options": [
+      "Prevertebral fascia",
+      "Buccopharyngeal fascia",
+      "Parotid fascia",
+      "Alar fascia"
+    ],
+    "answer": 2,
+    "answerText": "Parotid fascia",
+    "explanation": "The parotid fascia is part of the superficial layer of the deep cervical fascia, not the deep layer.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 17</span> What is the innervation of the SCM muscle?",
+    "options": [
+      "Vagus nerve",
+      "Accessory nerve",
+      "Hypoglossal nerve",
+      "Ansa cervicalis"
+    ],
+    "answer": 1,
+    "answerText": "Accessory nerve",
+    "explanation": "The sternocleidomastoid (SCM) is innervated by the accessory nerve (cranial nerve XI).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 18</span> Which of the suprahyoid muscles is innervated by the C1 spinal nerve?",
+    "options": [
+      "Digastric (anterior belly)",
+      "Geniohyoid",
+      "Stylohyoid",
+      "Mylohyoid"
+    ],
+    "answer": 1,
+    "answerText": "Geniohyoid",
+    "explanation": "The geniohyoid is innervated by fibers from the C1 spinal nerve traveling with the hypoglossal nerve (CN XII).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 19</span> All of the following nerves are superficial branches of the cervical plexus, EXCEPT:",
+    "options": [
+      "Great auricular nerve",
+      "Lesser occipital nerve",
+      "Supraclavicular nerve",
+      "Transverse fascial nerve"
+    ],
+    "answer": 3,
+    "answerText": "Transverse fascial nerve",
+    "explanation": "There is no transverse fascial nerve. The transverse cervical nerve is a superficial branch of the cervical plexus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 20</span> All of the following structures are located medial to the carotid sheath, EXCEPT:",
+    "options": [
+      "Thyroid gland",
+      "Larynx",
+      "Pharynx",
+      "Esophagus"
+    ],
+    "answer": 0,
+    "answerText": "Thyroid gland",
+    "explanation": "The thyroid gland is anterolateral to the carotid sheath, not medial to it.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 21</span> What is the level of the carotid bifurcation in the neck?",
+    "options": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "answer": 2,
+    "answerText": "C3",
+    "explanation": "The common carotid artery typically bifurcates into the internal and external carotid arteries at the level of C3-C4.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 22</span> The pressure of O2 and CO2 in the blood is checked by:",
+    "options": [
+      "Carotid sinus",
+      "Carotid body",
+      "Aortic arch",
+      "Subclavian artery"
+    ],
+    "answer": 1,
+    "answerText": "Carotid body",
+    "explanation": "The carotid body is a chemoreceptor that monitors blood O2, CO2, and pH levels.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 23</span> What is the smallest branch of the external carotid artery?",
+    "options": [
+      "Superior thyroid artery",
+      "Lingual artery",
+      "Occipital artery",
+      "Ascending pharyngeal artery"
+    ],
+    "answer": 3,
+    "answerText": "Ascending pharyngeal artery",
+    "explanation": "The ascending pharyngeal artery is the smallest branch of the external carotid artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 24</span> Which branch of the internal carotid artery originates from the petrous part of the artery?",
+    "options": [
+      "Ophthalmic artery",
+      "Posterior communicating artery",
+      "Caroticotympanic artery",
+      "Middle cerebral artery"
+    ],
+    "answer": 2,
+    "answerText": "Caroticotympanic artery",
+    "explanation": "The caroticotympanic artery is a small branch that arises from the petrous part of the internal carotid artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 25</span> On the left side of the body, the recurrent laryngeal nerve loops around the:",
+    "options": [
+      "Subclavian artery",
+      "Aortic arch",
+      "Left brachiocephalic vein",
+      "Carotid artery"
+    ],
+    "answer": 1,
+    "answerText": "Aortic arch",
+    "explanation": "The left recurrent laryngeal nerve loops under the aortic arch before ascending toward the larynx.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 26</span> How many cervical sympathetic ganglia are located in the neck?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1,
+    "answerText": "3",
+    "explanation": "There are 3 cervical sympathetic ganglia: the superior, middle, and inferior ganglia.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 27</span> Which scalenus muscle is the biggest one?",
+    "options": [
+      "Anterior scalene",
+      "Middle scalene",
+      "Posterior scalene",
+      "Subclavian scalene"
+    ],
+    "answer": 1,
+    "answerText": "Middle scalene",
+    "explanation": "The middle scalene is the largest of the scalenus muscles and lies between the anterior and posterior scalene muscles.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 28</span> Which of the following muscles can extend the neck?",
+    "options": [
+      "Sternocleidomastoid",
+      "Splenius capitis",
+      "Platysma",
+      "Levator scapulae"
+    ],
+    "answer": 1,
+    "answerText": "Splenius capitis",
+    "explanation": "The splenius capitis is responsible for extending and rotating the neck.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 29</span> All of the following branches arise from the thyrocervical trunk, EXCEPT:",
+    "options": [
+      "Inferior thyroid artery",
+      "Transverse cervical artery",
+      "Suprascapular artery",
+      "Deep cervical artery"
+    ],
+    "answer": 3,
+    "answerText": "Deep cervical artery",
+    "explanation": "The deep cervical artery arises from the costocervical trunk, not the thyrocervical trunk.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 30</span> What is the sensory nerve for the skin of the face?",
+    "options": [
+      "CN VII",
+      "CN V",
+      "CN IX",
+      "CN X"
+    ],
+    "answer": 1,
+    "answerText": "CN V",
+    "explanation": "The trigeminal nerve (CN V) is responsible for providing sensory innervation to the skin of the face.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 31</span> All of the following muscles are related to the nasal group of the face, EXCEPT:",
+    "options": [
+      "Nasalis",
+      "Depressor septi muscle",
+      "Procerus",
+      "Corrugator supercilii muscle"
+    ],
+    "answer": 3,
+    "answerText": "Corrugator supercilii muscle",
+    "explanation": "The corrugator supercilii muscle is associated with the eyebrows, not the nasal group of muscles.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 32</span> All of the following parts are related to the orbicularis oculi muscle, EXCEPT:",
+    "options": [
+      "Orbital part",
+      "Palpebral part",
+      "Lacrimal part",
+      "Zygomatic part"
+    ],
+    "answer": 3,
+    "answerText": "Zygomatic part",
+    "explanation": "The orbicularis oculi does not have a zygomatic part. Its main parts are the orbital, palpebral, and lacrimal parts.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 33</span> What is the focusing muscle in the face?",
+    "options": [
+      "Nasalis",
+      "Procerus",
+      "Levator labii superioris",
+      "Zygomaticus minor"
+    ],
+    "answer": 1,
+    "answerText": "Procerus",
+    "explanation": "The procerus muscle helps focus the eyes by pulling the skin of the forehead downward and causing frowning.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 34</span> All of the following structures are located in the parotid gland, EXCEPT:",
+    "options": [
+      "Facial nerve",
+      "External carotid artery",
+      "Retromandibular vein",
+      "Vagus nerve"
+    ],
+    "answer": 3,
+    "answerText": "Vagus nerve",
+    "explanation": "The vagus nerve does not pass through the parotid gland.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 35</span> The transverse facial artery is a branch of the:",
+    "options": [
+      "External carotid artery",
+      "Superficial temporal artery",
+      "Facial artery",
+      "Maxillary artery"
+    ],
+    "answer": 1,
+    "answerText": "Superficial temporal artery",
+    "explanation": "The transverse facial artery arises from the superficial temporal artery and supplies the lateral face.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 36</span> Which structure passes through the foramen rotundum?",
+    "options": [
+      "Maxillary nerve",
+      "Mandibular nerve",
+      "Ophthalmic nerve",
+      "Facial nerve"
+    ],
+    "answer": 0,
+    "answerText": "Maxillary nerve",
+    "explanation": "The maxillary nerve (V2), a branch of the trigeminal nerve, passes through the foramen rotundum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 37</span> Which masticatory muscle opens the mouth?",
+    "options": [
+      "Temporalis",
+      "Masseter",
+      "Medial pterygoid",
+      "Lateral pterygoid"
+    ],
+    "answer": 3,
+    "answerText": "Lateral pterygoid",
+    "explanation": "The lateral pterygoid muscle is the primary muscle involved in opening the mouth by protruding the mandible.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 38</span> All of the following branches originate from the second part (pterygoid part) of the maxillary artery, EXCEPT:",
+    "options": [
+      "Deep temporal artery",
+      "Buccal artery",
+      "Masseteric artery",
+      "Pharyngeal artery"
+    ],
+    "answer": 3,
+    "answerText": "Pharyngeal artery",
+    "explanation": "The pharyngeal artery arises from the third part (pterygopalatine part) of the maxillary artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 39</span> Which nerve has a synapse in the submandibular ganglion?",
+    "options": [
+      "Chorda tympani nerve",
+      "Lingual nerve",
+      "Hypoglossal nerve",
+      "Auriculotemporal nerve"
+    ],
+    "answer": 0,
+    "answerText": "Chorda tympani nerve",
+    "explanation": "The chorda tympani nerve (a branch of CN VII) synapses in the submandibular ganglion to regulate salivary secretion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Sina - Question 40</span> The middle meningeal artery passes inside the ring of which nerve?",
+    "options": [
+      "Auriculotemporal nerve",
+      "Inferior alveolar nerve",
+      "Lingual nerve",
+      "Maxillary nerve"
+    ],
+    "answer": 0,
+    "answerText": "Auriculotemporal nerve",
+    "explanation": "The middle meningeal artery passes through the foramen spinosum and is surrounded by a loop of the auriculotemporal nerve.",
+    "userAnswer": null
   }
-]
+  ]
