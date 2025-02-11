@@ -64,16 +64,20 @@ function displayTopics(topicsArray) {
   topicsArray.forEach(topic => {
     const topicCard = document.createElement('div');
     topicCard.classList.add('topic-card');
+    
     const titleEl = document.createElement('h3');
     titleEl.classList.add('topic-title');
     titleEl.textContent = topic.topicName;
     topicCard.appendChild(titleEl);
+    
     const descEl = document.createElement('p');
     descEl.classList.add('topic-description');
     descEl.textContent = topic.description ? topic.description : 'No description available.';
     topicCard.appendChild(descEl);
+    
     const subtopicContainer = document.createElement('div');
     subtopicContainer.classList.add('subtopic-buttons');
+    
     if (!topic.subTopics || topic.subTopics.length === 0) {
       if (topic.file) {
         const btn = document.createElement('button');
@@ -99,6 +103,7 @@ function displayTopics(topicsArray) {
         subtopicContainer.appendChild(btn);
       });
     }
+    
     topicCard.appendChild(subtopicContainer);
     topicsGrid.appendChild(topicCard);
   });
@@ -183,18 +188,23 @@ function initOriginalCategories() {
 function loadQuiz() {
   if (!quizForm) return;
   quizForm.innerHTML = '';
+  
   quizData.forEach((data, index) => {
     const questionContainer = document.createElement('div');
     questionContainer.classList.add('question-container');
     questionContainer.id = `question-container-${index}`;
+    
     const questionDiv = document.createElement('div');
     questionDiv.classList.add('question');
     questionDiv.id = `question-${index}`;
+    
     const questionNumberSpan = document.createElement('span');
     questionNumberSpan.classList.add('question-number');
     questionNumberSpan.textContent = `${index + 1}.`;
+    
     const questionTextSpan = document.createElement('span');
     questionTextSpan.innerHTML = data.question;
+    
     const lightbulbIcon = document.createElement('span');
     lightbulbIcon.classList.add('lightbulb-icon');
     lightbulbIcon.innerHTML = '💡';
@@ -202,37 +212,46 @@ function loadQuiz() {
     lightbulbIcon.addEventListener('click', () => {
       toggleExplanation(index);
     });
+    
     questionDiv.appendChild(questionNumberSpan);
     questionDiv.appendChild(questionTextSpan);
     questionDiv.appendChild(lightbulbIcon);
     questionContainer.appendChild(questionDiv);
+    
     const explanationDiv = document.createElement('div');
     explanationDiv.classList.add('explanation');
     explanationDiv.id = `explanation-${index}`;
     explanationDiv.textContent = data.explanation || '';
     questionContainer.appendChild(explanationDiv);
+    
     if (mode === 'mcq') {
       const optionsContainer = document.createElement('div');
       optionsContainer.classList.add('options-container');
       optionsContainer.id = `options-container-${index}`;
+      
       data.options.forEach((option, optionIndex) => {
         const optionDiv = document.createElement('div');
         optionDiv.classList.add('option');
         optionDiv.dataset.index = index;
         optionDiv.dataset.optionIndex = optionIndex;
+        
         const radioInput = document.createElement('input');
         radioInput.type = 'radio';
         radioInput.id = `question-${index}-option-${optionIndex}`;
         radioInput.name = `question-${index}`;
         radioInput.value = optionIndex;
+        
         optionDiv.appendChild(radioInput);
+        
         const optionLabel = document.createElement('label');
-        // تغيير من textContent إلى innerHTML حتى تُعرض رموز الرياضيات
-        optionLabel.innerHTML = option;
+        optionLabel.innerHTML = option; // تغيير من textContent إلى innerHTML لدعم الرموز
+        
         optionDiv.appendChild(optionLabel);
         optionsContainer.appendChild(optionDiv);
       });
+      
       questionContainer.appendChild(optionsContainer);
+      
       const showAnswerButton = document.createElement('button');
       showAnswerButton.type = 'button';
       showAnswerButton.textContent = 'Show Answer';
@@ -241,6 +260,7 @@ function loadQuiz() {
         e.stopPropagation();
         showIndividualAnswer(index);
       });
+      
       const shuffleOptionsButton = document.createElement('button');
       shuffleOptionsButton.type = 'button';
       shuffleOptionsButton.textContent = 'Shuffle Options';
@@ -249,6 +269,7 @@ function loadQuiz() {
         e.stopPropagation();
         shuffleOptionsForQuestion(index);
       });
+      
       const clearButton = document.createElement('button');
       clearButton.type = 'button';
       clearButton.textContent = 'Clear';
@@ -257,14 +278,17 @@ function loadQuiz() {
         e.stopPropagation();
         clearIndividualQuestion(index);
       });
+      
       const buttonContainer = document.createElement('div');
       buttonContainer.appendChild(showAnswerButton);
       buttonContainer.appendChild(shuffleOptionsButton);
       buttonContainer.appendChild(clearButton);
       questionContainer.appendChild(buttonContainer);
+      
     } else if (mode === 'flashcard') {
       const buttonGroup = document.createElement('div');
       buttonGroup.classList.add('button-group');
+      
       const showAnswerButton = document.createElement('button');
       showAnswerButton.type = 'button';
       showAnswerButton.textContent = 'Show Answer';
@@ -273,6 +297,7 @@ function loadQuiz() {
         e.stopPropagation();
         toggleAnswer(index);
       });
+      
       const clearButton = document.createElement('button');
       clearButton.type = 'button';
       clearButton.textContent = 'Clear';
@@ -281,24 +306,30 @@ function loadQuiz() {
         e.stopPropagation();
         clearUserAnswer(index);
       });
+      
       const indicator = document.createElement('span');
       indicator.classList.add('indicator');
       indicator.id = `indicator-${index}`;
+      
       buttonGroup.appendChild(showAnswerButton);
       buttonGroup.appendChild(clearButton);
       buttonGroup.appendChild(indicator);
       questionContainer.appendChild(buttonGroup);
+      
       const answerDiv = document.createElement('div');
       answerDiv.classList.add('answer');
       answerDiv.id = `answer-${index}`;
       answerDiv.textContent = data.answerText ? `Answer: ${data.answerText}` : '';
       questionContainer.appendChild(answerDiv);
+      
       const isCorrectDiv = document.createElement('div');
       isCorrectDiv.classList.add('is-correct');
       isCorrectDiv.textContent = 'Is your answer correct?';
       questionContainer.appendChild(isCorrectDiv);
+      
       const yesNoGroup = document.createElement('div');
       yesNoGroup.classList.add('yes-no-group');
+      
       const yesButton = document.createElement('button');
       yesButton.type = 'button';
       yesButton.textContent = 'Yes';
@@ -307,6 +338,7 @@ function loadQuiz() {
         e.stopPropagation();
         setUserAnswer(index, 'yes');
       });
+      
       const noButton = document.createElement('button');
       noButton.type = 'button';
       noButton.textContent = 'No';
@@ -315,12 +347,15 @@ function loadQuiz() {
         e.stopPropagation();
         setUserAnswer(index, 'no');
       });
+      
       yesNoGroup.appendChild(yesButton);
       yesNoGroup.appendChild(noButton);
       questionContainer.appendChild(yesNoGroup);
     }
+    
     quizForm.appendChild(questionContainer);
   });
+  
   document.getElementById('total-questions').textContent = quizData.length;
   MathJax.typesetPromise([quizForm]).catch(err => console.error(err));
 }
@@ -358,16 +393,20 @@ function showIndividualAnswer(index) {
   if (mode === 'mcq') {
     const selectedOption = document.querySelector(`input[name="question-${index}"]:checked`);
     const options = document.querySelectorAll(`#options-container-${index} .option`);
+    
     options.forEach(optionDiv => {
       optionDiv.classList.remove('correct', 'wrong', 'correct-answer', 'unanswered');
     });
+    
     requestAnimationFrame(() => {
       options.forEach(optionDiv => {
         const input = optionDiv.querySelector('input');
         const optionIndex = parseInt(input.value);
+        
         if (optionIndex === quizData[index].answer) {
           optionDiv.classList.add('correct-answer');
         }
+        
         if (selectedOption) {
           if (optionIndex === parseInt(selectedOption.value)) {
             if (optionIndex === quizData[index].answer) {
@@ -403,32 +442,43 @@ function shuffleOptionsForQuestion(index) {
   const data = quizData[index];
   const optionsContainer = document.getElementById(`options-container-${index}`);
   if (!optionsContainer) return;
+  
   const selectedInput = optionsContainer.querySelector('input:checked');
   const selectedOptionIndex = selectedInput ? parseInt(selectedInput.value) : null;
+  
   const currentOptions = data.options.map((option, i) => ({ option, index: i }));
   const shuffledOptions = shuffleArray(currentOptions);
+  
   data.options = shuffledOptions.map(o => o.option);
   data.answer = shuffledOptions.findIndex(o => o.index === data.answer);
+  
   const fragment = document.createDocumentFragment();
+  
   data.options.forEach((option, optionIndex) => {
     const optionDiv = document.createElement('div');
     optionDiv.classList.add('option');
     optionDiv.dataset.index = index;
     optionDiv.dataset.optionIndex = optionIndex;
+    
     const radioInput = document.createElement('input');
     radioInput.type = 'radio';
     radioInput.id = `question-${index}-option-${optionIndex}`;
     radioInput.name = `question-${index}`;
     radioInput.value = optionIndex;
+    
     if (optionIndex === selectedOptionIndex) {
       radioInput.checked = true;
     }
+    
     optionDiv.appendChild(radioInput);
+    
     const optionLabel = document.createElement('label');
     optionLabel.innerHTML = option;
     optionDiv.appendChild(optionLabel);
+    
     fragment.appendChild(optionDiv);
   });
+  
   optionsContainer.innerHTML = '';
   optionsContainer.appendChild(fragment);
   optionsContainer.querySelectorAll('.option').forEach(optionDiv => {
@@ -471,14 +521,17 @@ function showResult() {
   let unanswered = 0;
   let yesCount = 0;
   let noCount = 0;
+  
   if (mode === 'mcq') {
     visibleIndexes.forEach(index => {
       const data = quizData[index];
       const selectedOption = document.querySelector(`input[name="question-${index}"]:checked`);
       const options = document.querySelectorAll(`#options-container-${index} .option`);
+      
       options.forEach(optionDiv => {
         optionDiv.classList.remove('correct', 'wrong', 'correct-answer', 'unanswered');
       });
+      
       options.forEach(optionDiv => {
         const input = optionDiv.querySelector('input');
         const optionIndex = parseInt(input.value);
@@ -486,6 +539,7 @@ function showResult() {
           optionDiv.classList.add('correct-answer');
         }
       });
+      
       if (selectedOption) {
         const selectedValue = parseInt(selectedOption.value);
         if (selectedValue === data.answer) {
@@ -501,13 +555,15 @@ function showResult() {
         });
       }
     });
+    
     const total = visibleIndexes.length;
     const wrongAnswers = total - score - unanswered;
     resultElement.innerHTML = 
       `<p>Your score is ${score} out of ${total}.</p>
-      <p>Correct Answers: ${score}</p>
-      <p>Wrong Answers: ${wrongAnswers}</p>
-      <p>Unanswered Questions: ${unanswered}</p>`;
+       <p>Correct Answers: ${score}</p>
+       <p>Wrong Answers: ${wrongAnswers}</p>
+       <p>Unanswered Questions: ${unanswered}</p>`;
+       
   } else if (mode === 'flashcard') {
     visibleIndexes.forEach(index => {
       const data = quizData[index];
@@ -523,13 +579,14 @@ function showResult() {
         unanswered++;
       }
     });
+    
     const total = visibleIndexes.length;
     resultElement.innerHTML = 
       `<p>Your Score:</p>
-      <p>Correct (Yes): ${yesCount}</p>
-      <p>Incorrect (No): ${noCount}</p>
-      <p>Unanswered Questions: ${unanswered}</p>
-      <p>Total visible Questions: ${total}</p>`;
+       <p>Correct (Yes): ${yesCount}</p>
+       <p>Incorrect (No): ${noCount}</p>
+       <p>Unanswered Questions: ${unanswered}</p>
+       <p>Total visible Questions: ${total}</p>`;
   }
   addFilterButtons();
 }
@@ -537,12 +594,14 @@ function showResult() {
 function addFilterButtons() {
   const oldContainer = document.getElementById('filter-container');
   if (oldContainer) oldContainer.remove();
+  
   const filterContainer = document.createElement('div');
   filterContainer.id = 'filter-container';
   filterContainer.style.marginTop = '20px';
   filterContainer.style.display = 'flex';
   filterContainer.style.flexWrap = 'wrap';
   filterContainer.style.justifyContent = 'center';
+  
   if (mode === 'mcq') {
     const showCorrectButton = document.createElement('button');
     showCorrectButton.textContent = 'Show Correct Answers';
@@ -551,6 +610,7 @@ function addFilterButtons() {
       currentCorrectnessFilter = 'correct';
       applyAllFilters();
     });
+    
     const showWrongButton = document.createElement('button');
     showWrongButton.textContent = 'Show Wrong Answers';
     showWrongButton.classList.add('filter-button', 'wrong');
@@ -558,6 +618,7 @@ function addFilterButtons() {
       currentCorrectnessFilter = 'wrong';
       applyAllFilters();
     });
+    
     const showUnansweredButton = document.createElement('button');
     showUnansweredButton.textContent = 'Show Unanswered Questions';
     showUnansweredButton.classList.add('filter-button', 'unanswered');
@@ -565,6 +626,7 @@ function addFilterButtons() {
       currentCorrectnessFilter = 'unanswered';
       applyAllFilters();
     });
+    
     const showAllButton = document.createElement('button');
     showAllButton.textContent = 'Show All Questions';
     showAllButton.classList.add('filter-button', 'all');
@@ -572,10 +634,12 @@ function addFilterButtons() {
       currentCorrectnessFilter = 'all';
       applyAllFilters();
     });
+    
     filterContainer.appendChild(showCorrectButton);
     filterContainer.appendChild(showWrongButton);
     filterContainer.appendChild(showUnansweredButton);
     filterContainer.appendChild(showAllButton);
+    
   } else {
     const showCorrectButton = document.createElement('button');
     showCorrectButton.textContent = 'Show Correct Answers';
@@ -584,6 +648,7 @@ function addFilterButtons() {
       currentCorrectnessFilter = 'yes';
       applyAllFilters();
     });
+    
     const showIncorrectButton = document.createElement('button');
     showIncorrectButton.textContent = 'Show Incorrect Answers';
     showIncorrectButton.classList.add('filter-button', 'no-button');
@@ -591,6 +656,7 @@ function addFilterButtons() {
       currentCorrectnessFilter = 'no';
       applyAllFilters();
     });
+    
     const showUnansweredButton = document.createElement('button');
     showUnansweredButton.textContent = 'Show Unanswered Questions';
     showUnansweredButton.classList.add('filter-button', 'unanswered-button');
@@ -598,6 +664,7 @@ function addFilterButtons() {
       currentCorrectnessFilter = 'unanswered';
       applyAllFilters();
     });
+    
     const showAllButton = document.createElement('button');
     showAllButton.textContent = 'Show All Questions';
     showAllButton.classList.add('filter-button', 'all-button');
@@ -605,11 +672,13 @@ function addFilterButtons() {
       currentCorrectnessFilter = 'all';
       applyAllFilters();
     });
+    
     filterContainer.appendChild(showCorrectButton);
     filterContainer.appendChild(showIncorrectButton);
     filterContainer.appendChild(showUnansweredButton);
     filterContainer.appendChild(showAllButton);
   }
+  
   if (resultElement) {
     resultElement.appendChild(filterContainer);
   }
@@ -617,9 +686,11 @@ function addFilterButtons() {
 
 function filterQuestionsCorrectness() {
   const visibleIndexesAfterCategory = getVisibleQuestionIndexesByCategory();
+  
   visibleIndexesAfterCategory.forEach(index => {
     const questionContainer = document.getElementById(`question-container-${index}`);
     let shouldDisplay = false;
+    
     if (mode === 'mcq') {
       const selectedOption = document.querySelector(`input[name="question-${index}"]:checked`);
       const data = quizData[index];
@@ -641,6 +712,7 @@ function filterQuestionsCorrectness() {
     } else {
       const data = quizData[index];
       const ua = data.userAnswer;
+      
       if (currentCorrectnessFilter === 'yes') {
         if (ua === 'yes') shouldDisplay = true;
       } else if (currentCorrectnessFilter === 'no') {
@@ -651,23 +723,28 @@ function filterQuestionsCorrectness() {
         shouldDisplay = true;
       }
     }
+    
     questionContainer.style.display = shouldDisplay ? 'block' : 'none';
   });
 }
 
 function applyAllFilters() {
   const selectedOptions = categoryFilterSelected || [];
+  
   quizData.forEach((data, index) => {
     const questionContainer = document.getElementById(`question-container-${index}`);
     const category = extractCategoryFromQuestion(data.question);
+    
     if (selectedOptions.length === 0 || selectedOptions.includes(category)) {
       questionContainer.style.display = 'block';
     } else {
       questionContainer.style.display = 'none';
     }
   });
+  
   filterQuestionsCorrectness();
   renumberVisibleQuestions();
+  
   const visibleCount = getVisibleQuestionIndexes().length;
   const totalQEl = document.getElementById('total-questions');
   if (totalQEl) totalQEl.textContent = visibleCount;
@@ -697,12 +774,14 @@ function getVisibleQuestionIndexes() {
 function getVisibleQuestionIndexesByCategory() {
   const selectedOptions = categoryFilterSelected || [];
   const indexes = [];
+  
   quizData.forEach((data, i) => {
     const category = extractCategoryFromQuestion(data.question);
     if (selectedOptions.length === 0 || selectedOptions.includes(category)) {
       indexes.push(i);
     }
   });
+  
   return indexes;
 }
 
@@ -747,6 +826,7 @@ function displaySearchResults(results) {
   const searchResultsContainer = document.getElementById('search-results');
   if (!searchResultsContainer) return;
   searchResultsContainer.innerHTML = '';
+  
   if (results.length === 0) {
     const noResults = document.createElement('p');
     noResults.textContent = 'No matching questions found.';
@@ -776,22 +856,30 @@ function clearSearchResults() {
   }
 }
 
+/***
+ *  تم إضافة البحث في الـ explanation هنا + إصلاح استدعاء الدوال المفقودة
+ ***/
 function jumpToQuestion() {
   const input = document.getElementById('jump-input').value.trim();
   if (input === '') return;
   const visibleIndexes = getVisibleQuestionIndexes();
   const results = [];
   const query = input.toLowerCase();
+  
   for (let j = 0; j < visibleIndexes.length; j++) {
     const i = visibleIndexes[j];
     const data = quizData[i];
     let matchFound = false;
     let snippet = "";
+    
+    // السؤال
     const questionText = stripHTML(data.question);
     if (questionText.toLowerCase().includes(query)) {
       matchFound = true;
       snippet = highlightTerm(questionText, input);
     }
+    
+    // الخيارات
     if (!matchFound && data.options && Array.isArray(data.options)) {
       for (let k = 0; k < data.options.length; k++) {
         const optionText = data.options[k];
@@ -802,6 +890,16 @@ function jumpToQuestion() {
         }
       }
     }
+    
+    // الشرح (explanation)
+    if (!matchFound && data.explanation) {
+      const explanationText = data.explanation.toLowerCase();
+      if (explanationText.includes(query)) {
+        matchFound = true;
+        snippet = highlightTerm(questionText, input) + " (Explanation: " + highlightTerm(data.explanation, input) + ")";
+      }
+    }
+    
     if (matchFound) {
       results.push({
         index: i,
@@ -809,6 +907,8 @@ function jumpToQuestion() {
       });
     }
   }
+  
+  // البحث الرقمي المباشر (بحث برقم السؤال مثلاً)
   if (results.length === 0 && !isNaN(input)) {
     const num = parseInt(input);
     const idx = num - 1;
@@ -819,6 +919,7 @@ function jumpToQuestion() {
       });
     }
   }
+  
   displaySearchResults(results);
 }
 
@@ -1021,6 +1122,7 @@ function displaySearchResults(results) {
   const searchResultsContainer = document.getElementById('search-results');
   if (!searchResultsContainer) return;
   searchResultsContainer.innerHTML = '';
+  
   if (results.length === 0) {
     const noResults = document.createElement('p');
     noResults.textContent = 'No matching questions found.';
@@ -1085,7 +1187,7 @@ function downloadPDF() {
 
   return;
 
-  // ********* بقية كود jsPDF كما هو دون حذف *********
+  // *** بقية كود jsPDF كما هو دون حذف ***
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
   let y = 20;
@@ -1147,4 +1249,16 @@ function downloadPDF() {
   });
   
   doc.save(`${fullQuizTitle}.pdf`);
+}
+
+/***
+ * الدوال التي كانت مفقودة وأدت إلى توقف البحث عن العمل:
+ ***/
+function stripHTML(str) {
+  return str.replace(/<[^>]*>?/gm, '');
+}
+
+function highlightTerm(text, term) {
+  const re = new RegExp(term, 'gi');
+  return text.replace(re, matched => `<mark>${matched}</mark>`);
 }
