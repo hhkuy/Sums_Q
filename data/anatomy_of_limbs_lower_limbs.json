@@ -182,12 +182,12 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 15</span> Which structure passes below the piriformis muscle and exits the greater sciatic notch?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2023) - Dr. Sina - Question 15</span> Which structure passes below the piriformis muscle and exits the greater sciatic notch?",
     "options": [
       "Obturator internus muscle",
       "Sciatic nerve",
       "Superior gluteal nerve",
-      "Pudendal nerve"
+      "non of them"
     ],
     "answer": 1,
     "answerText": "Sciatic nerve",
@@ -377,15 +377,15 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 30</span> All of the following statements about the lumbrical muscles in the foot are correct except:",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2023) - Dr. Sina - Question 30</span> All of the following statements about the lumbrical muscles in the foot are correct except:",
     "options": [
       "Lumbricals 1 and 2 are unipennate",
       "Lumbricals 3 and 4 are bipennate",
       "They assist in flexion of the metatarsophalangeal joints",
-      "They are innervated by the deep fibular nerve"
+      "They are innervated by the medial and lateral plantar nerve"
     ],
-    "answer": 3,
-    "answerText": "They are innervated by the deep fibular nerve",
+    "answer": 0,
+    "answerText": "Lumbricals 1 and 2 are unipennate",
     "explanation": "The lumbrical muscles in the foot are innervated by the medial and lateral plantar nerves, not the deep fibular nerve.",
     "userAnswer": null
   },
