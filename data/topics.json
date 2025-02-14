@@ -358,22 +358,12 @@
     ]
   },
   {
-    "topicName": "TA",
+    "topicName": "t56",
     "description": "",
     "subTopics": [
       {
-        "name": "T",
-        "file": "data/ta_t.json"
-      }
-    ]
-  },
-  {
-    "topicName": "test test",
-    "description": "",
-    "subTopics": [
-      {
-        "name": "test",
-        "file": "data/test_test_test.json"
+        "name": "t3",
+        "file": "data/t56_t3.json"
       }
     ]
   }
