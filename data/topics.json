@@ -358,12 +358,12 @@
     ]
   },
   {
-    "topicName": "test",
+    "topicName": "TTT",
     "description": "",
     "subTopics": [
       {
         "name": "T 5",
-        "file": "data/test_t_5.json"
+        "file": "data/ttt_t_5.json"
       }
     ]
   }
