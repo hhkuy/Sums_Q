@@ -1,28 +1,2108 @@
 [
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events?",
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 163</span> The immune deficiency of the classical components of the complement can lead to which disease?",
     "options": [
-      "Opening of Na+ channels",
-      "Opening of K+ channels",
-      "Opening of Ca++ voltage-gated channels",
-      "Closing of Cl− channels"
+      "Systemic lupus erythematosus",
+      "Multiple sclerosis (MS)",
+      "Rheumatoid Arthritis",
+      "Graves"
     ],
-    "answer": 2,
-    "answerText": "Opening of Ca++ voltage-gated channels",
-    "explanation": "The influx of Ca++ through voltage-gated calcium channels triggers neurotransmitter release into the synaptic cleft.",
+    "answer": 0,
+    "answerText": "Systemic lupus erythematosus",
+    "explanation": "",
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?",
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 164</span> We injected an antigen into the skin. After forty-eight hours, the thickness of the skin increased. This phenomenon indicates which of the following?",
     "options": [
-      "Opening of Na+ channels",
-      "Opening of K+ channels at the surface of the postsynaptic membrane",
-      "Closing of K+ channels",
-      "Depolarization of the membrane"
+      "Sensitivity Type I",
+      "Arthus reaction",
+      "Tuberculin sensitivity",
+      "Contact sensitivity"
+    ],
+    "answer": 2,
+    "answerText": "Tuberculin sensitivity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 165</span> Anti-hepatitis B vaccine, bacillus tuberculosis and tetanus what are they in the order?",
+    "options": [
+      "Live weakened, recombinant, recombinant",
+      "Recombinant, recombinant, Toxoid",
+      "Live weakened, Live weakened, recombinant",
+      "Recombinant, live weakened, toxoid"
     ],
     "answer": 1,
-    "answerText": "Opening of K+ channels at the surface of the postsynaptic membrane",
-    "explanation": "Inhibitory neurotransmitters cause hyperpolarization by opening K+ channels, making the postsynaptic membrane less excitable.",
+    "answerText": "Recombinant, recombinant, Toxoid",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 166</span> Graves' disease is the result of which one of the following?",
+    "options": [
+      "Anti-TSHR antibody production",
+      "Produce antibody blocker of anti-TSHR",
+      "produce stimulating anti-TSH antibody",
+      "produce inhibitory anti-TSH antibody"
+    ],
+    "answer": 0,
+    "answerText": "Anti-TSHR antibody production",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 167</span> The lack of B7 molecule plays an essential role in the creation of which type of peripheral tolerance?",
+    "options": [
+      "Anergy",
+      "Ignorance",
+      "Deletion",
+      "Suppression"
+    ],
+    "answer": 0,
+    "answerText": "Anergy",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 168</span> Which of the RH antigens is a more stronger antigen and is the most relevant immune response?",
+    "options": [
+      "C antigen",
+      "D antigen",
+      "E antigen",
+      "All three equally"
+    ],
+    "answer": 1,
+    "answerText": "D antigen",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 169</span> Which parts of the MHC Class I molecule vary from person to person?",
+    "options": [
+      "α1 and β1",
+      "α1 and α2",
+      "α3",
+      "β1 and β2"
+    ],
+    "answer": 1,
+    "answerText": "α1 and α2",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 170</span> In the allergic reactions what causes discharged in mast cell granules?",
+    "options": [
+      "Connection of allergen to superficial immunoglobulin (slg) of mast cells",
+      "Allergen bonding to IgE bound to FCR mast cells",
+      "Allergen bonding to IgE and activation of complement and the effect of anaphylactoidins on mast cells",
+      "Allergen bonding to FCRs mast cell surface"
+    ],
+    "answer": 1,
+    "answerText": "Allergen bonding to IgE bound to FCR mast cells",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 171</span> All of the following features are considered as unique IgA mucus properties except:",
+    "options": [
+      "Complement activation is well.",
+      "It consists of two IgA molecules.",
+      "Its building has a secretive component.",
+      "Generally, its daily production is higher than IgG."
+    ],
+    "answer": 0,
+    "answerText": "Complement activation is well.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 153</span> Which cytokine is secreted as inhibitory cytokine from Th2 cells and causes the inhibition of production of Th1 cytokines?",
+    "options": [
+      "IL-10",
+      "IL-4",
+      "IL-12",
+      "IL-18"
+    ],
+    "answer": 0,
+    "answerText": "IL-10",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 154</span> Which one are the characteristics of the acquired immune response?",
+    "options": [
+      "Colony expansion, diversity, memory",
+      "Diversity, memory, non-specific identification",
+      "Non-specific identification, self-differentiation, diversity",
+      "Memory, homeostasis, non-differentiation from the alien"
+    ],
+    "answer": 0,
+    "answerText": "Colony expansion, diversity, memory",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 155</span> Which of the following cytokines is involved in inflammation?",
+    "options": [
+      "TNFα, TGFβ",
+      "TGFβ, IL-4",
+      "TNFα, IL-1",
+      "IL-10, IL-4"
+    ],
+    "answer": 2,
+    "answerText": "TNFα, IL-1",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 156</span> The mismatch of HLA of the donor and receptor is the main factor in all cases of rejection, except?",
+    "options": [
+      "GVHD",
+      "Chronic",
+      "Acute",
+      "Hyper acute"
+    ],
+    "answer": 0,
+    "answerText": "GVHD",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 157</span> Which of the following molecules is involved in preventing the activation of Autoreactive T Cells?",
+    "options": [
+      "CD3",
+      "CTLA4",
+      "CD45",
+      "CD28"
+    ],
+    "answer": 1,
+    "answerText": "CTLA4",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 158</span> Which one of the following is correct in relation to the skin response caused by PPD injection in a person with TB?",
+    "options": [
+      "Increased delay sensitivity",
+      "The presence of specific antibodies",
+      "Increased urgency sensitivity",
+      "Activation of Th2 lymphocytes"
+    ],
+    "answer": 0,
+    "answerText": "Increased delay sensitivity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 159</span> All of the following cells in the tumor internal environment suppress immune responses but?",
+    "options": [
+      "MDSC",
+      "NK",
+      "M2 macrophage",
+      "T reg"
+    ],
+    "answer": 1,
+    "answerText": "NK",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 160</span> In a 30-year-old woman, 48 hours after using the cosmetic cream, there was a scattered itchy erythema with cutaneous pustules. What kind of hypersensitivity is involved in the appearance of these skin lesions?",
+    "options": [
+      "II",
+      "I",
+      "IV",
+      "III"
+    ],
+    "answer": 2,
+    "answerText": "IV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 161</span> Which of the following situations is the most severe blood incompatibility of mother and fetus?",
+    "options": [
+      "A + mother and fetus A-",
+      "O- mother and AB+ fetus",
+      "AB+ mother and fetus O-",
+      "A- mother and fetus A"
+    ],
+    "answer": 1,
+    "answerText": "O- mother and AB+ fetus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 153</span> Which of the following cytokines is secreted as an inhibitory cytokine of Th2 cells and inhibits the production of Th1 cytokines?",
+    "options": [
+      "IL-10",
+      "IL-4",
+      "IL-12",
+      "IL-18"
+    ],
+    "answer": 0,
+    "answerText": "IL-10",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 154</span> Which of the following tests is applicable to ensuring that the super acute transplant rejection disorder does not occur?",
+    "options": [
+      "Mixed Lymphocyte Reaction",
+      "Mixed Lymphocyte Culture",
+      "WBC Cross Match",
+      "Primed Lymphocyte Test"
+    ],
+    "answer": 2,
+    "answerText": "WBC Cross Match",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 155</span> A woman with a Bombay phenotype (hh) marries a man with a blood type O (HH). In your opinion the child of this couple won’t have which of the following blood types?",
+    "options": [
+      "AB",
+      "A",
+      "B",
+      "O"
+    ],
+    "answer": 0,
+    "answerText": "AB",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 156</span> Which of the following cells is used in the determination of the HLA Class II with the serologic method?",
+    "options": [
+      "Neutrophil",
+      "T Cell",
+      "Monocyte",
+      "B Cell"
+    ],
+    "answer": 3,
+    "answerText": "B Cell",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 157</span> It has been proven that the activation of Th1 cells is effective in the recovery of patients with tuberculosis. Which of the following cytokines is involved in this process?",
+    "options": [
+      "Interleukin 4, Interleukin 10",
+      "Interferon gamma, interleukin 12",
+      "Interleukin 2, Interleukin 8",
+      "Interleukin 4, Interleukin 5"
+    ],
+    "answer": 1,
+    "answerText": "Interferon gamma, interleukin 12",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 158</span> Which of the following phenomena is triggered by the activation of the classical macrophages called M1 macrophages?",
+    "options": [
+      "Tissue fibrosis",
+      "Restoration and anti-inflammatory mechanism",
+      "Inflammation and phagocytosis",
+      "Decrease in interferon production"
+    ],
+    "answer": 2,
+    "answerText": "Inflammation and phagocytosis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 159</span> Adenosine deaminase deficiency (ADA) leads to which immunodeficiency disease?",
+    "options": [
+      "Bruton Agamaglobulinemia",
+      "Common Immune Deficiency (CVID)",
+      "Dehydration syndrome",
+      "Severe Immune Deficiency (SCID)"
+    ],
+    "answer": 3,
+    "answerText": "Severe Immune Deficiency (SCID)",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 160</span> What is the role of number one receptor of the complement, or CR1 during immune responses?",
+    "options": [
+      "Swallowed particles with c3b",
+      "Connection to C1q",
+      "Facilitating the activation of lymphocyte B",
+      "C1INH harness"
+    ],
+    "answer": 0,
+    "answerText": "Swallowed particles with c3b",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 161</span> What is the most main defensive cell against intracellular unicellular infections?",
+    "options": [
+      "Eosinophil",
+      "Tc lymphocyte",
+      "B lymphocyte",
+      "Macrophage"
+    ],
+    "answer": 3,
+    "answerText": "Macrophage",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 162</span> A young man has complained of back pain, joint pain and spinal motion constraints. Determining which of the following HLA molecules is helpful in diagnosis?",
+    "options": [
+      "B5",
+      "B27",
+      "DR2",
+      "DR3"
+    ],
+    "answer": 1,
+    "answerText": "B27",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 183</span> In the hyper IgM syndrome, the signal transmission from which of the following pairs of molecules is disrupted?",
+    "options": [
+      "LFA-3 – CD2",
+      "CD40 – CD40L",
+      "CD86 – CD28",
+      "ICAM-1 – LFA-1"
+    ],
+    "answer": 1,
+    "answerText": "CD40 – CD40L",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 184</span> A 18-month-old child has had severe pain and inflammation in the deltoid muscle of the injection site after injection of the DTP reminder vaccine. Which of the following phenomena can be attributed to this situation?",
+    "options": [
+      "Allergy type one",
+      "Arthus reaction",
+      "Increased concentration of complement",
+      "Humoral immune impairment"
+    ],
+    "answer": 1,
+    "answerText": "Arthus reaction",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 185</span> An individual with IgA deficiency is susceptible to which of the following parasitic infections?",
+    "options": [
+      "Malaria",
+      "Toxoplasmosis",
+      "Leishmaniasis",
+      "Giardiasis"
+    ],
+    "answer": 3,
+    "answerText": "Giardiasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 186</span> Which option is true about Skin prick test in order to diagnose food allergies?",
+    "options": [
+      "An intradermal injection (i.d.) is performed.",
+      "The test result is read after 48 to 72 hours.",
+      "The criterion for evaluating the result of the test is the examination of the degree of endurance (stiffness) rather than erythema (redness).",
+      "The positive result of this test is an indicator of the presence of IgE and the activity of mast cells in the skin."
+    ],
+    "answer": 3,
+    "answerText": "The positive result of this test is an indicator of the presence of IgE and the activity of mast cells in the skin.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 187</span> What will happen respectively, if there is IgG anti-antigen D or IgM anti-antigen A to the donor red blood cells in the recipient body in blood transfusion?",
+    "options": [
+      "Extravascular hemolysis - Extravascular hemolysis",
+      "Intravascular hemolysis - Intravascular hemolysis",
+      "Intravascular hemolysis - Extravascular hemolysis",
+      "Extravascular hemolysis - Intravascular hemolysis"
+    ],
+    "answer": 3,
+    "answerText": "Extravascular hemolysis - Intravascular hemolysis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 188</span> Vaccination against which of the following diseases is not considered in the National Vaccination Program of the Islamic Republic of Iran?",
+    "options": [
+      "Influenza and Meningitis",
+      "Poliomyelitis and Whooping cough",
+      "Tetanus and Mumps",
+      "Measles and Diphtheria"
+    ],
+    "answer": 0,
+    "answerText": "Influenza and Meningitis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 189</span> The most important cell and immunoglobulin in killing of parasitic worms are:",
+    "options": [
+      "Macrophage, IgE",
+      "Eosinophil, IgG",
+      "Neutrophil, IgG",
+      "Eosinophil, IgE"
+    ],
+    "answer": 3,
+    "answerText": "Eosinophil, IgE",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 190</span> Which of the following doesn’t normally form respectively in lymphatic nodes in people with immunodeficiency syndromes of DiGeorge syndrome and Bruton’s disease?",
+    "options": [
+      "Cortex - Paracortex",
+      "Cortex – Primary follicles in medulla",
+      "Paracortex - Cortex",
+      "Paracortex - Secondary follicles in medulla"
+    ],
+    "answer": 2,
+    "answerText": "Paracortex - Cortex",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 191</span> Which of the following molecules and cells aren’t involved in the process of antibody-dependent cell-mediated cytotoxicity (ADCC)?",
+    "options": [
+      "NK Cell, FC receptor",
+      "NK Cell, IgG",
+      "Eosinophil, IgE",
+      "Eosinophil, IgM"
+    ],
+    "answer": 3,
+    "answerText": "Eosinophil, IgM",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 192</span> BCG is categorized as which of the following vaccines?",
+    "options": [
+      "Synthetic Vaccines",
+      "DNA Vaccines",
+      "Attenuated Vaccines",
+      "Inactivated Vaccines"
+    ],
+    "answer": 2,
+    "answerText": "Attenuated Vaccines",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 183</span> Which one is the Serum protein electrophoresis pattern in a child with Bruton’s disease and an old man with Multiple myeloma According to the following pictures?",
+    "options": [
+      "B, C",
+      "C, A",
+      "A, B",
+      "B, D"
+    ],
+    "answer": 2,
+    "answerText": "A, B",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 184</span> Which one of the following antigen receptors has lower variety than the others?",
+    "options": [
+      "TLR",
+      "BCR",
+      "TCR",
+      "HLA"
+    ],
+    "answer": 0,
+    "answerText": "TLR",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 185</span> Which of the following cells doesn’t act like an antigen-presenting cell?",
+    "options": [
+      "Dendritic cell",
+      "B cell",
+      "T cell",
+      "Macrophage"
+    ],
+    "answer": 2,
+    "answerText": "T cell",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 186</span> Perforin, Histamine, and Major Basic Protein are mostly found in which of the following cells respectively?",
+    "options": [
+      "Natural killer cell and mast cell and eosinophil",
+      "Natural killer cell and basophil and neutrophil",
+      "Neutrophils and eosinophils and basophils",
+      "Neutrophils and mast cells and basophils"
+    ],
+    "answer": 0,
+    "answerText": "Natural killer cell and mast cell and eosinophil",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 187</span> How many are the protein chains in the structure of each IgM molecule in the plasma of a healthy person?",
+    "options": [
+      "20",
+      "21",
+      "22",
+      "23"
+    ],
+    "answer": 2,
+    "answerText": "22",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 188</span> Which of the following is not considered an antiviral independent of thymus?",
+    "options": [
+      "Surface antigen of hepatitis B virus",
+      "Lipopolysaccharide of Salmonella bacteria",
+      "Streptococcus pneumonia capsule",
+      "Carbohydrate antigens of the ABO system"
+    ],
+    "answer": 0,
+    "answerText": "Surface antigen of hepatitis B virus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 189</span> Which of the following is less important in the survival of the connective tissue?",
+    "options": [
+      "Conformity between HLA-DR of receiver and receptor",
+      "Conformity between ABO blood types of receiver and receptor",
+      "Conformity between Rh blood types of receiver and receptor",
+      "Use of immunosuppressive drugs"
+    ],
+    "answer": 2,
+    "answerText": "Conformity between Rh blood types of receiver and receptor",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 190</span> Which of the following diseases has a lesser probability to X-linked inheritance transfer?",
+    "options": [
+      "Bruton",
+      "CGD",
+      "DiGeorge",
+      "HIGM1"
+    ],
+    "answer": 2,
+    "answerText": "DiGeorge",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 192</span> Which of the following is considered as the most important mechanism for creating central tolerance in T cells?",
+    "options": [
+      "Clonal Anergy",
+      "Active Suppression",
+      "Clonal Deletion",
+      "Receptor Editing"
+    ],
+    "answer": 2,
+    "answerText": "Clonal Deletion",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 153</span> Which cytokine is secreted as an inhibitory cytokine from Th2 cells and causes the inhibition of production of Th1 cytokines?",
+    "options": [
+      "IL-10",
+      "IL-4",
+      "IL-12",
+      "IL-18"
+    ],
+    "answer": 0,
+    "answerText": "IL-10",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 154</span> Which of the following are characteristics of the acquired immune response?",
+    "options": [
+      "Colony expansion, diversity, memory",
+      "Diversity, memory, non-specific identification",
+      "Non-specific identification, self-differentiation, diversity",
+      "Memory, homeostasis, non-differentiation from the alien"
+    ],
+    "answer": 0,
+    "answerText": "Colony expansion, diversity, memory",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 155</span> Which of the following cytokines is involved in inflammation?",
+    "options": [
+      "TNFα, TGFβ",
+      "TGFβ, IL-4",
+      "TNFα, IL-1",
+      "IL-10, IL-4"
+    ],
+    "answer": 2,
+    "answerText": "TNFα, IL-1",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 156</span> The mismatch of HLA between the donor and receptor is the main factor in all cases of rejection except:",
+    "options": [
+      "GVHD",
+      "Chronic",
+      "Acute",
+      "Hyperacute"
+    ],
+    "answer": 0,
+    "answerText": "GVHD",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 157</span> Which of the following molecules is involved in preventing the activation of autoreactive T cells?",
+    "options": [
+      "CD3",
+      "CTLA4",
+      "CD45",
+      "CD28"
+    ],
+    "answer": 1,
+    "answerText": "CTLA4",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 158</span> Which of the following is correct in relation to the skin response caused by PPD injection in a person with TB?",
+    "options": [
+      "Increased delayed sensitivity",
+      "The presence of specific antibodies",
+      "Increased urgency sensitivity",
+      "Activation of Th2 lymphocytes"
+    ],
+    "answer": 0,
+    "answerText": "Increased delayed sensitivity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 159</span> All of the following cells in the tumor microenvironment suppress immune responses except:",
+    "options": [
+      "MDSC",
+      "NK",
+      "M2 macrophage",
+      "T reg"
+    ],
+    "answer": 1,
+    "answerText": "NK",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 160</span> A 30-year-old woman, 48 hours after using a cosmetic cream, develops a scattered itchy erythema with cutaneous pustules. What type of hypersensitivity is involved in the appearance of these skin lesions?",
+    "options": [
+      "II",
+      "I",
+      "IV",
+      "III"
+    ],
+    "answer": 2,
+    "answerText": "IV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 161</span> Which of the following situations represents the most severe blood incompatibility between mother and fetus?",
+    "options": [
+      "A+ mother and fetus A-",
+      "O- mother and AB+ fetus",
+      "AB+ mother and fetus O-",
+      "A- mother and fetus A"
+    ],
+    "answer": 1,
+    "answerText": "O- mother and AB+ fetus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 183</span> Which ligand identification leads to positive identification in maturity of T lymphocytes?",
+    "options": [
+      "Insider MHC – Insider peptide",
+      "Insider MHC - Alien peptide",
+      "Alien MHC - Insider peptide",
+      "Alien MHC - Alien peptide"
+    ],
+    "answer": 0,
+    "answerText": "Insider MHC – Insider peptide",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 184</span> Which cytokine has the ability to stimulate mucosal immune and suppress others?",
+    "options": [
+      "TGF-β",
+      "IL-4",
+      "IL-5",
+      "TNF-α"
+    ],
+    "answer": 0,
+    "answerText": "TGF-β",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 185</span> Which of the following drug classes are more effective in inhibition of type I delayed increase of sensitivity?",
+    "options": [
+      "H1 receptor blockers",
+      "Leukotriene inhibitor",
+      "H2 receptor blockers",
+      "Mast cell wall stabilizer"
+    ],
+    "answer": 0,
+    "answerText": "H1 receptor blockers",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 186</span> Which molecules are involved in transmitting peptide into the reticulomaendoplasmic in order to present alongside MHCI molecule?",
+    "options": [
+      "Tapasin",
+      "HLA-DM",
+      "Ii chain",
+      "TAP-1 and TAP-2"
+    ],
+    "answer": 3,
+    "answerText": "TAP-1 and TAP-2",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 187</span> What is the main role of TH17 cells?",
+    "options": [
+      "Defense against intracellular bacteria",
+      "Defense against extracellular bacteria",
+      "Defense against parasitic worms",
+      "Defense against viral infections"
+    ],
+    "answer": 1,
+    "answerText": "Defense against extracellular bacteria",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 188</span> Which molecule has inhibitory effect on immune responses of T cells procedures?",
+    "options": [
+      "CD28",
+      "LFA-1",
+      "CTLA-4",
+      "CD4"
+    ],
+    "answer": 2,
+    "answerText": "CTLA-4",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 189</span> Which one is wrong about HV infection?",
+    "options": [
+      "Antiviral antibodies control the relative control of the infection.",
+      "The most important contaminated cells are B lymphocytes.",
+      "In the period of clinical latency, the number of TCD4 + cells decreases.",
+      "The most important molecular interaction is the binding of viral gp120 to CD4."
+    ],
+    "answer": 1,
+    "answerText": "The most important contaminated cells are B lymphocytes.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 190</span> In which gene does mutation occur in agammaglobulinemia?",
+    "options": [
+      "Common gamma chain",
+      "CD40 ligand",
+      "Bruton's tyrosine kinase",
+      "Phagocytosis oxidase enzyme"
+    ],
+    "answer": 2,
+    "answerText": "Bruton's tyrosine kinase",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 191</span> By which group of cells are natural antibodies mainly made?",
+    "options": [
+      "B-2",
+      "Follicular B cells",
+      "PMNs",
+      "B-1"
+    ],
+    "answer": 3,
+    "answerText": "B-1",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 192</span> Which cytokine is secreted as inhibitory cytokine from Th2 cells and causes the inhibition of production of Th1 cytokines?",
+    "options": [
+      "IL-10",
+      "IL-4",
+      "IL-12",
+      "IL-18"
+    ],
+    "answer": 0,
+    "answerText": "IL-10",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 183</span> Human monoclonal antibodies Anti-molecule CD20 (rituximab) is used to treat which of the following malignancies?",
+    "options": [
+      "B cell lymphoma",
+      "Breast tumor",
+      "Ovarian cancer",
+      "Lung cancer"
+    ],
+    "answer": 0,
+    "answerText": "B cell lymphoma",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 184</span> Which cytokine is involved in the class switching of the antibody to the IgE isotype?",
+    "options": [
+      "TGF-β",
+      "IL-3",
+      "IL-4",
+      "IL-5"
+    ],
+    "answer": 2,
+    "answerText": "IL-4",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 185</span> Citrullination of proteins such as desmin, vimentin, and filaggrin stimulates which autoimmune disease?",
+    "options": [
+      "Systemic lupus erythematosus",
+      "Rheumatoid arthritis",
+      "Systemic sclerosis",
+      "Ulcerative colitis"
+    ],
+    "answer": 1,
+    "answerText": "Rheumatoid arthritis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 186</span> Treatment of which one of the congenital immune deficiencies (Primary) is largely based on passive immunization?",
+    "options": [
+      "Chronic granulomatous disease (CGD)",
+      "Mixed severe immunodeficiency (SCID)",
+      "Leukocyte adhesion defect (LAD)",
+      "X-linked agammaglobulinemia (XLA)"
+    ],
+    "answer": 3,
+    "answerText": "X-linked agammaglobulinemia (XLA)",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 187</span> Splenectomy in an individual makes them susceptible to which one of the following infections?",
+    "options": [
+      "Viral infections",
+      "Infection with intracellular bacteria",
+      "Infection with capsular bacteria",
+      "Fungal infections"
+    ],
+    "answer": 2,
+    "answerText": "Infection with capsular bacteria",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 188</span> Viruses, by inhibiting the TAP protein and removing MHC molecules from the ER network, make which one of the host's defense mechanisms ineffective?",
+    "options": [
+      "Humoral immune",
+      "Create CTL",
+      "NK cell activity",
+      "Interferon type 1 production"
+    ],
+    "answer": 2,
+    "answerText": "NK cell activity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 189</span> The cells supplying antigens to the Th cells include which one of the following cells?",
+    "options": [
+      "Lymphocyte B, lymphocyte T, Monocyte",
+      "Dendritic cells, Endothelial, Eosinophils",
+      "Epithelial, Neutrophils, Eosinophils",
+      "Dendritic cells, Macrophages, Lymphocyte B"
+    ],
+    "answer": 3,
+    "answerText": "Dendritic cells, Macrophages, Lymphocyte B",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 190</span> Differentiation of Th1 cells from Th2 is based on which one of the following?",
+    "options": [
+      "Cytokine discharge pattern",
+      "Having a CD4 marker",
+      "Having a CD25 marker",
+      "Expression of MHC molecule"
+    ],
+    "answer": 0,
+    "answerText": "Cytokine discharge pattern",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 191</span> Which cytokines are used for the treatment of neutropenia after chemotherapy in bone marrow transplantation?",
+    "options": [
+      "Erythropoietin, interferon alpha",
+      "IL-3, IL-7",
+      "IL-7, IL-11",
+      "GM-CSF, G-CSF"
+    ],
+    "answer": 3,
+    "answerText": "GM-CSF, G-CSF",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 192</span> Which of the following cytokines is secreted as an inhibitory cytokine from Th2 cells and inhibits the production of Th1 cytokines?",
+    "options": [
+      "IL-10",
+      "IL-4",
+      "IL-12",
+      "IL-18"
+    ],
+    "answer": 0,
+    "answerText": "IL-10",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 163</span> The chemical structure below indicates terminal sugars of which of the following blood groups?<br><img src='https://i.imgur.com/NxTVzXj.jpeg' style='max-width: 100%; height: auto;'>",
+    "options": [
+      "A",
+      "B",
+      "O",
+      "h/h (Bombay)"
+    ],
+    "answer": 0,
+    "answerText": "A",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 164</span> Intravenous anti-venereal equine anti-serum injection into a farmer who has been snakebitten is likely to cause what kind of hypersensitivity?",
+    "options": [
+      "Type I",
+      "Type II",
+      "Type III",
+      "Type IV"
+    ],
+    "answer": 2,
+    "answerText": "Type III",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 165</span> Increased susceptibility to Neisseria Infection (Neisseria gonorrhoeae and Neisseria Meningitidis) is usually the consequence of which complementary deficiencies?",
+    "options": [
+      "CR1, Properdin, C3",
+      "DAF, C1 inhibitor, C1",
+      "C4, C2, C1",
+      "C7, C6, C5"
+    ],
+    "answer": 3,
+    "answerText": "C7, C6, C5",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 166</span> What group does a serum get categorized in if it can agglutinate the red blood cells of A+, B-, and O+?",
+    "options": [
+      "AB with positive Rh",
+      "AB with negative Rh",
+      "O with positive Rh",
+      "O with negative Rh"
+    ],
+    "answer": 0,
+    "answerText": "AB with positive Rh",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 167</span> What kind of transplant usually leads to Graft-versus-host disease (GVHD)?",
+    "options": [
+      "Kidney",
+      "Bone marrow",
+      "Thymus",
+      "Liver"
+    ],
+    "answer": 1,
+    "answerText": "Bone marrow",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 168</span> The picture indicates the interaction between which of these two cells?<br><img src='https://i.imgur.com/FhwrWL0.jpeg' style='max-width: 100%; height: auto;'>",
+    "options": [
+      "T cell (Right) and B cell (Left)",
+      "Macrophage (Right) and CTL (Left)",
+      "NK cell (Right) and Target cell (Left)",
+      "Dendritic cell (Right) and T cell (Left)"
+    ],
+    "answer": 3,
+    "answerText": "Dendritic cell (Right) and T cell (Left)",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 169</span> Which immunodeficiency disease is characterized by a lack of immunoglobulins in the blood and a lack of tonsils in children?",
+    "options": [
+      "SCID",
+      "CGD",
+      "DiGeorge",
+      "Bruton"
+    ],
+    "answer": 3,
+    "answerText": "Bruton",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 170</span> Which of the following disorders causes IPEX self-immune syndrome or 'Immune dysregulation polyendocrinopathy enteropathy X-linked'?",
+    "options": [
+      "Defective production of FoxP3",
+      "Defective production of PTPN22",
+      "Defective CTLA-4 gene",
+      "Defective IL-23R gene"
+    ],
+    "answer": 0,
+    "answerText": "Defective production of FoxP3",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 171</span> Which of the first class A (MHC) adaptive system alleles has a higher polymorphism in the human population?",
+    "options": [
+      "A allele",
+      "B allele",
+      "C allele",
+      "G allele"
+    ],
+    "answer": 1,
+    "answerText": "B allele",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 163</span> Which of the following indicates the activity of the immune system against tumors?",
+    "options": [
+      "Origin of tumors from familiar tissues",
+      "The presence of T and NK cells around the tumor",
+      "Metastasis of tumor cells to other places",
+      "Tumor recurrence after surgery, chemotherapy or radiotherapy"
+    ],
+    "answer": 1,
+    "answerText": "The presence of T and NK cells around the tumor",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 164</span> Which of the following tests is to prioritize patients with congenital immunodeficiency?",
+    "options": [
+      "ESR, CBC",
+      "Surveillance of antibody level",
+      "Surveillance of phagocytosis",
+      "HLA Determination"
+    ],
+    "answer": 1,
+    "answerText": "Surveillance of antibody level",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 165</span> Which of the following tests do you recommend for laboratory diagnosis of a disease that has clinical symptoms of meningococcal meningitis?",
+    "options": [
+      "Determination of the amount of antibody",
+      "Measuring complement components",
+      "Lymphocyte count",
+      "Surveillance of phagocytosis"
+    ],
+    "answer": 1,
+    "answerText": "Measuring complement components",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 166</span> The product of which of the following genes in HIV virus is bonded to LTR and activates the transcription?",
+    "options": [
+      "tat",
+      "pol",
+      "emv",
+      "gag"
+    ],
+    "answer": 0,
+    "answerText": "tat",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 167</span> All of the following are true about thymus but:",
+    "options": [
+      "The cortex is full of T lymphocytes.",
+      "The medulla has a dispersed lymphocyte population.",
+      "The cortex has hassall's corpuscles.",
+      "The medulla has hassall's corpuscles."
+    ],
+    "answer": 3,
+    "answerText": "The medulla has hassall's corpuscles.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 168</span> Which of the following diseases is caused by the production of antibodies against acetylcholine receptor?",
+    "options": [
+      "Multiple Sclerosis",
+      "Hashimoto",
+      "Myasthenia Gravis",
+      "Graves"
+    ],
+    "answer": 2,
+    "answerText": "Myasthenia Gravis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 169</span> Which immunodeficiency disease is characterized by a lack of immunoglobulins in the blood and a lack of tonsils in children?",
+    "options": [
+      "SCID",
+      "CGD",
+      "DiGeorge",
+      "Bruton"
+    ],
+    "answer": 3,
+    "answerText": "Bruton",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 170</span> Which of the following disorders causes IPEX self-immune syndrome or 'Immune dysregulation polyendocrinopathy enteropathy X-linked'?",
+    "options": [
+      "Defective production of FoxP3",
+      "Defective production of PTPN22",
+      "Defective CTLA-4 gene",
+      "Defective IL-23R gene"
+    ],
+    "answer": 0,
+    "answerText": "Defective production of FoxP3",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 171</span> Which of the first class A (MHC) adaptive system alleles has a higher polymorphism in the human population?",
+    "options": [
+      "A allele",
+      "B allele",
+      "C allele",
+      "G allele"
+    ],
+    "answer": 1,
+    "answerText": "B allele",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 163</span> Changes caused by hypermutation in which part of the antibodies produced against the protein antigens will increase the combination desire of antibody?",
+    "options": [
+      "FC",
+      "Fab",
+      "Hinge",
+      "CH3"
+    ],
+    "answer": 1,
+    "answerText": "Fab",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 164</span> In the processing and presentation of zika virus antigens (Zika virus), all of the following molecules are involved but:",
+    "options": [
+      "TAP",
+      "CLIP",
+      "Tapasin",
+      "Proteasome"
+    ],
+    "answer": 1,
+    "answerText": "CLIP",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 165</span> Which of the T cells plays the most important role in response to helminth infection?",
+    "options": [
+      "Th1",
+      "Th2",
+      "Th3",
+      "Th17"
+    ],
+    "answer": 1,
+    "answerText": "Th2",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 166</span> Which cell has the most important role in increasing the severity of secondary immune response in comparison to primary immune response?",
+    "options": [
+      "Plasma cells",
+      "Macrophages",
+      "Dendritic cells",
+      "Memory cells"
+    ],
+    "answer": 3,
+    "answerText": "Memory cells",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 167</span> Granular offloading inhibition of which of the following cells is used to treat a person with allergic rhinitis?",
+    "options": [
+      "Eosinophils",
+      "Platelets",
+      "Natural killer cells (NK)",
+      "Mast cells"
+    ],
+    "answer": 3,
+    "answerText": "Mast cells",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 168</span> All of the following methods can be used for cancer immunotherapy but:",
+    "options": [
+      "Vaccination for CTL activation",
+      "Use of anti-CTLA-4 specified antibodies",
+      "Use of recombinant IL-2",
+      "Use of anti-TNF – α antibodies"
+    ],
+    "answer": 3,
+    "answerText": "Use of anti-TNF – α antibodies",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 169</span> Which immunodeficiency disease is characterized by a lack of immunoglobulins in the blood and a lack of tonsils in children?",
+    "options": [
+      "SCID",
+      "CGD",
+      "DiGeorge",
+      "Bruton"
+    ],
+    "answer": 3,
+    "answerText": "Bruton",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 170</span> Which of the following disorders causes IPEX self-immune syndrome or 'Immune dysregulation poly endocrinopathy enteropathy X linked'?",
+    "options": [
+      "Defective production of FoxP3",
+      "Defective production of PTPN22",
+      "Defective CTLA-4 gene",
+      "Defective IL-23R gene"
+    ],
+    "answer": 0,
+    "answerText": "Defective production of FoxP3",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 171</span> Which of the alleles of major histocompatibility complex class I (MHC 1) has a higher polymorphism in human population?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "G"
+    ],
+    "answer": 1,
+    "answerText": "B",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 136</span> Which immunodeficiency disease is characterized by a lack of immunoglobulins in the blood and a lack of tonsils in children?",
+    "options": [
+      "SCID",
+      "CGD",
+      "DiGeorge",
+      "Bruton"
+    ],
+    "answer": 3,
+    "answerText": "Bruton",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 137</span> Which of the following disorders causes IPEX self-immune syndrome or 'Immune dysregulation polyendocrinopathy enteropathy X-linked'?",
+    "options": [
+      "Defective production of FoxP3",
+      "Defective production of PTPN22",
+      "Defective CTLA-4 gene",
+      "Defective IL-23R gene"
+    ],
+    "answer": 0,
+    "answerText": "Defective production of FoxP3",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 138</span> Which of the first class A (MHC) adaptive system alleles has a higher polymorphism in the human population?",
+    "options": [
+      "A allele",
+      "B allele",
+      "C allele",
+      "G allele"
+    ],
+    "answer": 1,
+    "answerText": "B allele",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 139</span> Which one are the mutual characteristic of receptors of B and T cells?",
+    "options": [
+      "Production of a secretory form",
+      "Somatic mutations",
+      "Presence of message transfer molecules",
+      "Isotype replacement"
+    ],
+    "answer": 2,
+    "answerText": "Presence of message transfer molecules",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 140</span> All of the following are true about primary and secondary response but:",
+    "options": [
+      "The initial response will be made in a longer period.",
+      "The primary response is with antibodies with more affinity.",
+      "The secondary response is accompanied by the more presence of IgG antibodies.",
+      "The secondary response is associated with the change of the isotype class."
+    ],
+    "answer": 1,
+    "answerText": "The primary response is with antibodies with more affinity.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 141</span> Which one is correct about the positive selection of thymocytes in the thymus?",
+    "options": [
+      "Selection of high affinity receptor thymocytes for antigen and familiar MHC molecules",
+      "Selection of Thymocytes with CD8+ and TCR Gamma Delta Receptors",
+      "Selection of thymocytes with receptors for familiar MHC molecules",
+      "Selection of low affinity receptor thymocytes for familiar MHC II molecules"
+    ],
+    "answer": 2,
+    "answerText": "Selection of thymocytes with receptors for familiar MHC molecules",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 142</span> What is the mechanism of the immune system for ultra-severe rejection of the transplant?",
+    "options": [
+      "DTH cellular immune system",
+      "Humoral immune system and previous presence of antibodies",
+      "Cellular immune system and CD8+ cells",
+      "NK cells"
+    ],
+    "answer": 1,
+    "answerText": "Humoral immune system and previous presence of antibodies",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 143</span> Which cytokine has the major role in increased secretion of mucosa in asthma?",
+    "options": [
+      "IL-6",
+      "IL-5",
+      "IL-9",
+      "IL-13"
+    ],
+    "answer": 3,
+    "answerText": "IL-13",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 144</span> Which type of hypersensitivity reaction is the response of skin to Candida antigens?",
+    "options": [
+      "Type I",
+      "Type IV",
+      "Type II",
+      "Type III"
+    ],
+    "answer": 1,
+    "answerText": "Type IV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 163</span> Which of the followings is common in γ/σ and α/β receptors?",
+    "options": [
+      "CD3 σ chain",
+      "Complete molecule of CD3",
+      "CD3 γ chain",
+      "CD3 ε chain"
+    ],
+    "answer": 3,
+    "answerText": "CD3 ε chain",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 164</span> Which component of the complement affects both C2 and C4 and breaks them into two parts of a and b?",
+    "options": [
+      "C1 r",
+      "C1 s",
+      "Factor D",
+      "C3b"
+    ],
+    "answer": 1,
+    "answerText": "C1 s",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 165</span> Which of the tissue destruction reactions results in granuloma formation after mycobacterium tuberculosis infection?",
+    "options": [
+      "Type III",
+      "Type I",
+      "Type II",
+      "Type IV"
+    ],
+    "answer": 3,
+    "answerText": "Type IV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 166</span> Which of the following is the most important mechanism in peripheral tolerance of T cells?",
+    "options": [
+      "Anergy",
+      "Suppression of autoreactive T cells",
+      "Clonal deletion",
+      "Clonal neglect"
+    ],
+    "answer": 0,
+    "answerText": "Anergy",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 167</span> Which of the following markers is specific for NK cells?",
+    "options": [
+      "CD20",
+      "CD19",
+      "CD14",
+      "CD56"
+    ],
+    "answer": 3,
+    "answerText": "CD56",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 168</span> Which of the followings plays the main role in the transduction of the second signal for activation of B lymphocytes?",
+    "options": [
+      "Antigen, cell membrane Ig",
+      "ICAM-1, LFA-1",
+      "CD40-L, CD40",
+      "MHC-II, CD4"
+    ],
+    "answer": 2,
+    "answerText": "CD40-L, CD40",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 169</span> Which one of the following immune deficiency diseases is associated with immunoglobulin deficiency in blood and lack of tonsils in children?",
+    "options": [
+      "SCID",
+      "CGD",
+      "DiGeorge",
+      "Bruton"
+    ],
+    "answer": 3,
+    "answerText": "Bruton",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 170</span> Which of the following disorders causes the IPEX syndrome 'Immune Dysregulation Polyendocrinopathy Enteropathy X'?",
+    "options": [
+      "Deficiency in Foxp3 production",
+      "Deficiency in PTPN22 production",
+      "Deficiency in CTLA-4 gene",
+      "Deficiency in IL-23r gene"
+    ],
+    "answer": 0,
+    "answerText": "Deficiency in Foxp3 production",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 171</span> Which one of the MHC1 alleles has the most polymorphism in the community?",
+    "options": [
+      "Allele A",
+      "Allele B",
+      "Allele C",
+      "Allele G"
+    ],
+    "answer": 1,
+    "answerText": "Allele B",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 163</span>In regards to exogenic antigens presentation, which of the following phrases is correct?",
+    "options": [
+      "MHC I to TCD4+",
+      "MHC II to TCD8+",
+      "MHC II to TCD4+",
+      "MHC I to TC8+"
+    ],
+    "answer": 2,
+    "answerText": "MHC II to TCD4+",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 164</span>Regarding the secretory antibody advantages in mucosal surfaces such as resistance against bacterial proteases and insufficient capacities to complement activation, which of the antibody subclasses is mostly preferred?",
+    "options": [
+      "IgA1",
+      "IgA2",
+      "IgG4",
+      "IgG2"
+    ],
+    "answer": 1,
+    "answerText": "IgA2",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 165</span>Defects in which one of the following phenomena cause selective IgA deficiency?",
+    "options": [
+      "Affinity maturation",
+      "Somatic hypermutation",
+      "Clonal selection",
+      "Class switching"
+    ],
+    "answer": 3,
+    "answerText": "Class switching",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 166</span>A 23-year-old lady with a past history of sneezing and nasal discharge for around 4 years was admitted to a clinic. Her mother also suffered from asthma. Measurement of which one of the following components best defines the prognosis of symptoms?",
+    "options": [
+      "Immunoglobulins",
+      "Histamine",
+      "Leukotrienes",
+      "Interleukin 4"
+    ],
+    "answer": 2,
+    "answerText": "Leukotrienes",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 167</span>Which of these cells are more potent antigen-presenting cells to naive T cells?",
+    "options": [
+      "Thymic Epithelial Cells",
+      "Macrophages",
+      "B cells",
+      "Dendritic Cells"
+    ],
+    "answer": 3,
+    "answerText": "Dendritic Cells",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 168</span>In which of these autoimmune diseases, 'type IV mediated tissue damage' plays the major role?",
+    "options": [
+      "Multiple sclerosis",
+      "Myasthenia gravis",
+      "Graves",
+      "Pernicious Anemia"
+    ],
+    "answer": 0,
+    "answerText": "Multiple sclerosis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 169</span>Interaction of which molecules on T cell and antigen-presenting cell (APC) leads to the creation of the second activation signal for T cells?",
+    "options": [
+      "B7-CD28",
+      "MHCII-CD4",
+      "MHCII-CD8",
+      "MHCII+Peptide-TCR"
+    ],
+    "answer": 0,
+    "answerText": "B7-CD28",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 170</span>Which of the following defects causes Chronic Granulomatous Disease (CGD)?",
+    "options": [
+      "Defect in C2 and C4 production",
+      "Defect in T cell development",
+      "Defect in superoxide anion production",
+      "Defect in Ig isotype class switching in B cells"
+    ],
+    "answer": 2,
+    "answerText": "Defect in superoxide anion production",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 171</span>Which of the following mechanisms induce central and peripheral B cell and central T cell tolerance?",
+    "options": [
+      "Regulation",
+      "Clonal anergy",
+      "Clonal ignorance",
+      "Clonal deletion"
+    ],
+    "answer": 3,
+    "answerText": "Clonal deletion",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 166</span> Which of the following choices is the main mechanism of innate immune response against extracellular bacteria?",
+    "options": [
+      "Phagocytosis and inflammatory response",
+      "Producing different antibodies",
+      "Activation of TCD4 lymphocytes",
+      "Neutralization of toxins by antibody"
+    ],
+    "answer": 0,
+    "answerText": "Phagocytosis and inflammatory response",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 167</span> After HIV infection, all of the following cells will decrease gradually, EXCEPT:",
+    "options": [
+      "Helper T cells",
+      "Macrophages",
+      "Dendritic cells",
+      "NK cells"
+    ],
+    "answer": 3,
+    "answerText": "NK cells",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 168</span> Which of the following choices is the cause of severe combined immune deficiency?",
+    "options": [
+      "Lack of granulocytes",
+      "Lack of antibody production",
+      "Lack of B and T lymphocytes",
+      "Immune deficiency in NK cells"
+    ],
+    "answer": 2,
+    "answerText": "Lack of B and T lymphocytes",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 169</span> What is the most important antigen-presenting cell (APC)?",
+    "options": [
+      "Macrophage",
+      "Dendritic cell",
+      "Neutrophil",
+      "Epithelial cell"
+    ],
+    "answer": 1,
+    "answerText": "Dendritic cell",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 170</span> Which of the following choices plays a less important role in increasing and intensifying tissue inflammation?",
+    "options": [
+      "Increasing IL-1, IL-6, TNFα",
+      "Gathering of neutrophils and macrophages",
+      "Dilation of arterioles and increasing blood flow",
+      "Increasing IL-10, TGFβ"
+    ],
+    "answer": 3,
+    "answerText": "Increasing IL-10, TGFβ",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 171</span> Which of the following choices happens through the production and increase of IgE?",
+    "options": [
+      "Lupus erythematosus disease",
+      "Delayed type hypersensitivity",
+      "Myasthenia gravis disease",
+      "Immediate hypersensitivity"
+    ],
+    "answer": 3,
+    "answerText": "Immediate hypersensitivity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 172</span> Which of the following is the most common method in cancer immunotherapy?",
+    "options": [
+      "Cytokines",
+      "Monoclonal antibodies",
+      "Dendritic cells",
+      "Activated NK cells"
+    ],
+    "answer": 1,
+    "answerText": "Monoclonal antibodies",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 173</span> Fibrosis in the tissue of a transplanted kidney is a sign of which of the following rejections?",
+    "options": [
+      "Hyperacute",
+      "Acute",
+      "Chronic",
+      "Graft versus host disease (GVHD)"
+    ],
+    "answer": 2,
+    "answerText": "Chronic",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 174</span> Lack of which of the following molecules is the reason for hereditary angioedema disease?",
+    "options": [
+      "C3 convertase",
+      "C1 inhibitor",
+      "C4",
+      "C3"
+    ],
+    "answer": 1,
+    "answerText": "C1 inhibitor",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 175</span> Which of the following cells is the most phagocytic leukocyte in the blood?",
+    "options": [
+      "Monocytes",
+      "Basophils",
+      "Neutrophils",
+      "Eosinophils"
+    ],
+    "answer": 2,
+    "answerText": "Neutrophils",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 176</span> Which of the following TLRs is located endosomally inside the cell?",
+    "options": [
+      "TLR3-7-8-9",
+      "TLR2-4-6-9",
+      "TLR4-5-6-7",
+      "TLR4-6-7-9"
+    ],
+    "answer": 0,
+    "answerText": "TLR3-7-8-9",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 177</span> Which of the following molecules is an antibacterial peptide on the surface of epithelial cells?",
+    "options": [
+      "Collectin",
+      "Defensin",
+      "Ficolin",
+      "Pentraxin"
+    ],
+    "answer": 1,
+    "answerText": "Defensin",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 178</span> Which of the following costimulatory receptors is specific for T lymphocytes?",
+    "options": [
+      "CD21",
+      "CD19",
+      "CD40",
+      "CD28"
+    ],
+    "answer": 3,
+    "answerText": "CD28",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 179</span> M cells (in the intestine) have all of the following characteristics, EXCEPT:",
+    "options": [
+      "Endocytosis",
+      "Phagocytosis",
+      "Antigen processing",
+      "Antigen uptake"
+    ],
+    "answer": 2,
+    "answerText": "Antigen processing",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 180</span> The link between infection and autoimmunity is not related to which of the following mechanisms?",
+    "options": [
+      "Molecular mimicry",
+      "Induction of stimulation of antigen-presenting cells",
+      "Production of cross-reactive antibodies",
+      "Activating regulatory cells"
+    ],
+    "answer": 3,
+    "answerText": "Activating regulatory cells",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 163</span> Desensitization is one of the recommended treatments for allergies. Which of the following is not considered as the mechanism of this treatment?",
+    "options": [
+      "Induction of T cell tolerance",
+      "Inhibition of mast cell degranulation",
+      "Inhibition of IgE production",
+      "Increased production of IgG"
+    ],
+    "answer": 3,
+    "answerText": "Increased production of IgG",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 164</span> Following outcomes are considered as the consequences of naïve B lymphocyte activation by protein antigens, except for:",
+    "options": [
+      "Migration to T cell zone",
+      "B lymphocyte proliferation",
+      "Stimulation of IgG secretion",
+      "Increased expression of B7"
+    ],
+    "answer": 3,
+    "answerText": "Increased expression of B7",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 165</span> Which type of the following cytokines causes antibody class switching to IgE?",
+    "options": [
+      "IL-4, IL-13",
+      "IL-17, IL-6",
+      "TGF-β, IL-1",
+      "IL-2, IFN-γ"
+    ],
+    "answer": 0,
+    "answerText": "IL-4, IL-13",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 166</span> Which of the following items regarding transport of peptides and loading of MHC molecules is correct?",
+    "options": [
+      "TAP: Class I",
+      "Invariant chain: Class I",
+      "Tapasin: Class II",
+      "DM: Class I"
+    ],
+    "answer": 2,
+    "answerText": "Tapasin: Class II",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 167</span> The following choices regarding hyperacute rejection are true, except:",
+    "options": [
+      "Mediated by T cells and antibodies",
+      "Ischemic necrosis of the graft is developed",
+      "Characterized by thrombosis of graft vessels",
+      "Occurs within minutes of transplantation"
+    ],
+    "answer": 0,
+    "answerText": "Mediated by T cells and antibodies",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 168</span> A farmer who was stung by an unknown type of scorpion, admitted in the emergency ward. Which of the following choices could be the selected treatment and what is the reason for this selection?",
+    "options": [
+      "Administration of scorpion toxoid as a vaccine to provide adaptive immunity",
+      "Administration of polyclonal anti-scorpion antibody to provide adaptive immunity",
+      "Administration of a vaccine prepared from various types of scorpions to provide protection at the moment and in the future",
+      "Administration of anti-scorpion antibody to provide passive immunity and immunological memory"
+    ],
+    "answer": 2,
+    "answerText": "Administration of a vaccine prepared from various types of scorpions to provide protection at the moment and in the future",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 169</span> In which of the following choices, the type of hypersensitivity leading to the disease is not correct?",
+    "options": [
+      "Multiple sclerosis - Type II",
+      "Type I diabetes - Type IV",
+      "Myasthenia gravis - Type II",
+      "Serum sickness - Type III"
+    ],
+    "answer": 0,
+    "answerText": "Multiple sclerosis - Type II",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 170</span> Which of the following molecules plays a role in the survival and progression of the tumor, through inhibition of immune response?",
+    "options": [
+      "CTLA-4",
+      "B7",
+      "CD28",
+      "CD19"
+    ],
+    "answer": 0,
+    "answerText": "CTLA-4",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 171</span> Which of the following drugs inhibits calcineurin, leading to inhibition of T-cell activity resulting in graft survival?",
+    "options": [
+      "Cyclosporine A (CsA)",
+      "Intra-Venous Immunoglobulin (IVIG)",
+      "Mycophenolate Mofetil (MMF)",
+      "CTLA4-Ig"
+    ],
+    "answer": 0,
+    "answerText": "Cyclosporine A (CsA)",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 163</span> Which of the following is a feature of innate immunity?",
+    "options": [
+      "Immunologic memory",
+      "Highly specific response",
+      "Immediate response",
+      "Dependence on antibodies"
+    ],
+    "answer": 2,
+    "answerText": "Immediate response",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 164</span> Which immunoglobulin is the most abundant in mucosal secretions?",
+    "options": [
+      "IgG",
+      "IgA",
+      "IgM",
+      "IgE"
+    ],
+    "answer": 1,
+    "answerText": "IgA",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 165</span> Which of the following cells is responsible for mediating allergic reactions?",
+    "options": [
+      "Neutrophils",
+      "Basophils",
+      "Eosinophils",
+      "Macrophages"
+    ],
+    "answer": 2,
+    "answerText": "Eosinophils",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 166</span> What is the primary function of dendritic cells in the immune system?",
+    "options": [
+      "Phagocytosis",
+      "Antigen presentation",
+      "Cytokine production",
+      "Killing of infected cells"
+    ],
+    "answer": 1,
+    "answerText": "Antigen presentation",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 167</span> Which cytokine is primarily involved in the differentiation of naïve T cells into Th1 cells?",
+    "options": [
+      "IL-2",
+      "IL-4",
+      "IFN-γ",
+      "IL-12"
+    ],
+    "answer": 3,
+    "answerText": "IL-12",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 168</span> In which part of the lymph node does the proliferation of B cells primarily occur?",
+    "options": [
+      "Medulla",
+      "Paracortex",
+      "Cortex",
+      "Germinal center"
+    ],
+    "answer": 3,
+    "answerText": "Germinal center",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 169</span> Which of the following is a characteristic of type IV hypersensitivity?",
+    "options": [
+      "Mediated by IgE",
+      "Mediated by T cells",
+      "Occurs within minutes",
+      "Involves immune complexes"
+    ],
+    "answer": 1,
+    "answerText": "Mediated by T cells",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 170</span> Which of the following complement pathways is activated by antigen-antibody complexes?",
+    "options": [
+      "Classical pathway",
+      "Alternative pathway",
+      "Lectin pathway",
+      "Properdin pathway"
+    ],
+    "answer": 0,
+    "answerText": "Classical pathway",
+    "explanation": "",
     "userAnswer": null
   }
 ]
