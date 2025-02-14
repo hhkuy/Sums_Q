@@ -356,15 +356,5 @@
         "file": "data/nervous_system_block_embryology.json"
       }
     ]
-  },
-  {
-    "topicName": "TTT",
-    "description": "",
-    "subTopics": [
-      {
-        "name": "T 5",
-        "file": "data/ttt_t_5.json"
-      }
-    ]
   }
 ]
