@@ -47,6 +47,8 @@ function loadTopicsList() {
     .then(topics => {
       allTopics = topics;
       displayTopics(allTopics);
+      // تحديث العدد الكلي للأسئلة في الموقع عبر حساب جميع ملفات JSON داخل data
+      updateSiteTotalQuestions(topics);
     })
     .catch(err => console.error('Error loading topics.json:', err));
 }
@@ -106,6 +108,46 @@ function displayTopics(topicsArray) {
     
     topicCard.appendChild(subtopicContainer);
     topicsGrid.appendChild(topicCard);
+  });
+}
+
+/***
+ * دالة جديدة لحساب وتحديث العدد الكلي للأسئلة في الموقع
+ * حيث يتم جلب جميع ملفات JSON الموجودة في data وحساب عدد الأسئلة الكلي.
+ ***/
+function updateSiteTotalQuestions(topics) {
+  let files = [];
+  topics.forEach(topic => {
+    if (topic.file) {
+      files.push(topic.file);
+    }
+    if (topic.subTopics && topic.subTopics.length > 0) {
+      topic.subTopics.forEach(sub => {
+        if (sub.file) {
+          files.push(sub.file);
+        }
+      });
+    }
+  });
+  // إزالة التكرارات إن وجدت
+  files = [...new Set(files)];
+
+  const fetchPromises = files.map(file => {
+    return fetch(file)
+      .then(response => response.json())
+      .then(data => Array.isArray(data) ? data.length : 0)
+      .catch(err => {
+        console.error("Error fetching file", file, err);
+        return 0;
+      });
+  });
+
+  Promise.all(fetchPromises).then(counts => {
+    const total = counts.reduce((acc, cur) => acc + cur, 0);
+    const siteTotalQuestionsElement = document.getElementById('site-total-questions');
+    if (siteTotalQuestionsElement) {
+      siteTotalQuestionsElement.textContent = `Total Questions: ${total}`;
+    }
   });
 }
 
