@@ -340,6 +340,16 @@
     ]
   },
   {
+    "topicName": "TA",
+    "description": "",
+    "subTopics": [
+      {
+        "name": "T",
+        "file": "data/ta_t.json"
+      }
+    ]
+  },
+  {
     "topicName": "Nervous system block",
     "description": "Related to the third Semster",
     "subTopics": [
@@ -354,16 +364,6 @@
       {
         "name": "Embryology",
         "file": "data/nervous_system_block_embryology.json"
-      }
-    ]
-  },
-  {
-    "topicName": "TA",
-    "description": "",
-    "subTopics": [
-      {
-        "name": "T",
-        "file": "data/ta_t.json"
       }
     ]
   }
