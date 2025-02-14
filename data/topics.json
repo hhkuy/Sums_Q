@@ -356,15 +356,5 @@
         "file": "data/nervous_system_block_embryology.json"
       }
     ]
-  },
-  {
-    "topicName": "t56",
-    "description": "",
-    "subTopics": [
-      {
-        "name": "t3",
-        "file": "data/t56_t3.json"
-      }
-    ]
   }
 ]
