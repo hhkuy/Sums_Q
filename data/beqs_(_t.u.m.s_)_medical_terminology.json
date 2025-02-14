@@ -1,28 +1,1874 @@
 [
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events?",
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 172</span> Effective health counseling skills are a critical component of meeting the educational needs of patients and families and providing expert coaching and guidance for people who are managing diabetes on a daily basis. Health counseling includes skills such as effectively providing information, counseling patients about available options, and helping them make well-informed decisions through a client-centered approach. A positive interaction between the clinical nurse specialist (CNS) and the patient can have a positive effect on diabetes management. The CNS can help to make the interaction positive by showing sensitivity to the patient and by having empathy and understanding of the patient's feeling, which will also enhance patient satisfaction. Another approach to improving adherence is to establish a therapeutic contract with the patient in which the patient and provider work together to set goals, assign responsibilities, and set a date for attaining the goal. Research has shown that positive lifestyle change for people with diabetes is facilitated by long-term, collaborative relationships with healthcare providers. Further, long-term follow-up with regular reinforcement is most effective for sustaining change in diet and physical activity, which have been identified as the first and the second most difficult behaviors for people with diabetes to change. The passage is mainly about ..........",
     "options": [
-      "Opening of Na+ channels",
-      "Opening of K+ channels",
-      "Opening of Ca++ voltage-gated channels",
-      "Closing of Cl− channels"
+      "providing guidance for CNS",
+      "developing health care providers' skills",
+      "encouraging lifestyle change in diabetics",
+      "attending to educational needs of diabetics"
     ],
     "answer": 2,
-    "answerText": "Opening of Ca++ voltage-gated channels",
-    "explanation": "The influx of Ca++ through voltage-gated calcium channels triggers neurotransmitter release into the synaptic cleft.",
+    "answerText": "encouraging lifestyle change in diabetics",
+    "explanation": "",
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?",
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 173</span> Based on the presented information while counseling, CNS must consider the ..........",
     "options": [
-      "Opening of Na+ channels",
-      "Opening of K+ channels at the surface of the postsynaptic membrane",
-      "Closing of K+ channels",
-      "Depolarization of the membrane"
+      "collaboration with other healthcare providers and consolers",
+      "patient's co-morbid conditions",
+      "patient's level of comprehension",
+      "importance of psychological and environmental factors"
+    ],
+    "answer": 3,
+    "answerText": "importance of psychological and environmental factors",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 174</span> A client-centered approach is based on ..........",
+    "options": [
+      "understanding the patients' needs",
+      "studying diseases such as diabetes",
+      "emphasizing education of CNSs",
+      "working together to achieve the set goals"
+    ],
+    "answer": 0,
+    "answerText": "understanding the patients' needs",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 175</span> The word 'adherence' refers to the ..........",
+    "options": [
+      "understanding of diabetic patients' living condition",
+      "sensitivity to life style changes",
+      "empathy for diabetic patients",
+      "interaction between patients and care providers"
+    ],
+    "answer": 3,
+    "answerText": "interaction between patients and care providers",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 176</span> One area of difficulty experienced by diabetic patients is ..........",
+    "options": [
+      "having the desire for self-learning",
+      "making lifestyle changes and maintaining them",
+      "cooperating with healthcare providers",
+      "having sympathy for the position of CNSs"
     ],
     "answer": 1,
-    "answerText": "Opening of K+ channels at the surface of the postsynaptic membrane",
-    "explanation": "Inhibitory neurotransmitters cause hyperpolarization by opening K+ channels, making the postsynaptic membrane less excitable.",
+    "answerText": "making lifestyle changes and maintaining them",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 177</span> Bilateral damage to the brain causing loss of memory is called ..........",
+    "options": [
+      "amnesia",
+      "dysphagia",
+      "analgesia",
+      "paraplegia"
+    ],
+    "answer": 0,
+    "answerText": "amnesia",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 178</span> Displacement of the heart to the right is termed ..........",
+    "options": [
+      "ectocardia",
+      "sinistrocardia",
+      "bradycardia",
+      "dextrocardia"
+    ],
+    "answer": 3,
+    "answerText": "dextrocardia",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 179</span> Unable to cope with his son's death, he ended up with a severe depression and died of this ..........",
+    "options": [
+      "commitment",
+      "impediment",
+      "bereavement",
+      "concealment"
+    ],
+    "answer": 2,
+    "answerText": "bereavement",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 180</span> When the human body is affected by an infection, it will release antibodies to fight the germs, so it can return to its natural ..........",
+    "options": [
+      "dilemma",
+      "equilibrium",
+      "prevalence",
+      "recruitment"
+    ],
+    "answer": 1,
+    "answerText": "equilibrium",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 181</span> The main characteristics of research is always directed towards the solution of a problem and is based on .......... and observational evidence.",
+    "options": [
+      "eventual",
+      "mythical",
+      "trivial",
+      "empirical"
+    ],
+    "answer": 3,
+    "answerText": "empirical",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 182</span> Drug .......... is a very important issue to be considered before using that drug.",
+    "options": [
+      "Animate",
+      "Safety",
+      "Beneath",
+      "Chamber"
+    ],
+    "answer": 1,
+    "answerText": "Safety",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 183</span> This medicine is not .......... to be used in elderly patients.",
+    "options": [
+      "Glided",
+      "Hinged",
+      "Permitted",
+      "Retarded"
+    ],
+    "answer": 2,
+    "answerText": "Permitted",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 184</span> This powder is .......... Soluble in water.",
+    "options": [
+      "Warmly",
+      "Twistingly",
+      "Steely",
+      "Poorly"
+    ],
+    "answer": 3,
+    "answerText": "Poorly",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 172</span> Read the following passage carefully and by selecting the one item -a,b,c, or d- appropriately complete the statements which follow. Then mark your answer sheet.<br/><br/>The prevalence of asymptomatic microscopic hematuria in adults ranges from 0.19 to 21 percent. The range is wide because of differing definition of clinically significant microscopic hematuria and varying ages of the study populations. Urine normally contains a few red blood cells, and microscopic hematuria generally is defined as one to 10 red blood cells per high-power field of urine sediment. The American Urological Association (AUA) defines clinically significant microscopic hematuria as three or more red blood cells per high-power field on microscopic evaluation of urinary sediment from two of three properly collected urinalysis specimens. Each laboratory, however, establishes its own thresholds based on the method of detection used and in reference to healthy persons as controls. Urine dipstick evaluation may be misleading because it lacks the ability to distinguish red blood cells from myoglobin or hemoglobin. Therefore, a positive finding of microscopic hematuria on urinary dipstick testing required follow-up examination by microscopic technique to confirm the presence of red blood cells. Microscopic hematuria, unlike gross hematuria, is often an incidental finding but may be associated with urologic malignancy in up to 10 percent of adults. Despite the risk, result of recent study revealed that 39 to 90 percent of persons with microscopic hematuria on screening urinalysis received no follow-up testing. Microscopic hematuria presents a challenging clinical scenario for family physicians.<br/><br/>A follow-up examination by microscopic technique may be needed to...........",
+    "options": [
+      "confirm the presence of myoglobin or hemoglobin",
+      "confirm the presence of red blood cells",
+      "disprove the results of previous findings",
+      "ignore the presence of any malignancies"
+    ],
+    "answer": 1,
+    "answerText": "confirm the presence of red blood cells",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 173</span> The significance of microscopic hematuria is determined...........",
+    "options": [
+      "on the basis of one properly collected specimen",
+      "through evaluation of urinary sediment",
+      "by urologists using their own criteria",
+      "by two or three urologists"
+    ],
+    "answer": 1,
+    "answerText": "through evaluation of urinary sediment",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 174</span> The underlined word 'thresholds' in line 7 can best be substituted by...........",
+    "options": [
+      "intensity levels",
+      "malignant signs",
+      "criteria",
+      "control"
+    ],
+    "answer": 2,
+    "answerText": "criteria",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 175</span> According to the passage...........",
+    "options": [
+      "it is a very difficult task to distinguish red blood cells from myoglobin",
+      "one properly collected urinalysis specimen never reveals a malignancy",
+      "microscopic hematuria is often a symptom of malignancy in the urinary system",
+      "microscopic hematuria could be a challenge for family physicians"
+    ],
+    "answer": 3,
+    "answerText": "microscopic hematuria could be a challenge for family physicians",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 176</span> All of the following statements are true EXCEPT...........",
+    "options": [
+      "Urine normally contains 10 red blood cells per high-power field of urine sediment.",
+      "The wide range of hematuria in adults is due to differing definition for significant hematuria.",
+      "Hematuria refers to cases which involve more than normal numbers of blood cells in the urine.",
+      "Hematuria could be a sign of some malignancy."
+    ],
+    "answer": 0,
+    "answerText": "Urine normally contains 10 red blood cells per high-power field of urine sediment.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 177</span> Several small pillows should be available for placing under the curves of the ........... to prevent remolding or cracking of the plaster and to provide adequate support of the patient.",
+    "options": [
+      "cast",
+      "conduit",
+      "cortex",
+      "chamber"
+    ],
+    "answer": 0,
+    "answerText": "cast",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 178</span> Once it was believed that Ebola would become a ........... disease affecting persons over a wide geographical area.",
+    "options": [
+      "pandemic",
+      "endemic",
+      "epidemic",
+      "homodemic"
+    ],
+    "answer": 0,
+    "answerText": "pandemic",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 179</span> Lupus is characterized by ........... signs and symptoms altering between periods of activity and inactivity.",
+    "options": [
+      "transient",
+      "permanent",
+      "intermittent",
+      "everlasting"
+    ],
+    "answer": 2,
+    "answerText": "intermittent",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 180</span> Discomfort or burning with urination, usually felt in the tube that carries urine out of the bladder is called ...........",
+    "options": [
+      "oliguria",
+      "dysuria",
+      "hematuria",
+      "bacteriuria"
+    ],
+    "answer": 1,
+    "answerText": "dysuria",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 181</span> A collection of pus in the space between the lung and the inner surface of the chest wall is called ...........",
+    "options": [
+      "glycosuria",
+      "emphysema",
+      "myxedema",
+      "empyema"
+    ],
+    "answer": 3,
+    "answerText": "empyema",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 182</span> In light of recent medical ..........., women with noninvasive breast cancer live as long as other women.",
+    "options": [
+      "stagnations",
+      "malfunctions",
+      "breakdowns",
+      "accomplishments"
+    ],
+    "answer": 3,
+    "answerText": "accomplishments",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 183</span> Health authorities should develop better policies to ........... workplace health and safety hazards.",
+    "options": [
+      "manage",
+      "elevate",
+      "approve",
+      "receive"
+    ],
+    "answer": 0,
+    "answerText": "manage",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 184</span> A suitable strategy to ........... sun-damaged skin is to avoid direct sunlight and use special sun-care products?",
+    "options": [
+      "deteriorate",
+      "degenerate",
+      "revitalize",
+      "regain"
+    ],
+    "answer": 2,
+    "answerText": "revitalize",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 173</span> The underlined word 'their' in paragraph 1 refers to ____.",
+    "options": [
+      "Nurturing caregivers",
+      "Nurturing parents",
+      "Poorly nurtured children",
+      "Well-nurtured children"
+    ],
+    "answer": 0,
+    "answerText": "Nurturing caregivers",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 174</span> The main purpose of the writer for mentioning language-rich environments is to ____.",
+    "options": [
+      "Highlight the role of language in mental well-being",
+      "Explain that exposure to language is vital for academic studies",
+      "Discuss that quality language could help protect against diseases",
+      "Argue that nurturing parents would benefit language"
+    ],
+    "answer": 2,
+    "answerText": "Discuss that quality language could help protect against diseases",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 175</span> It is stated in the passage that organogenesis ____.",
+    "options": [
+      "Mitigates body development",
+      "Helps disease prevention",
+      "Increases disease frequency",
+      "Alters genetic characteristics"
+    ],
+    "answer": 1,
+    "answerText": "Helps disease prevention",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 176</span> The writer most probably believes ____.",
+    "options": [
+      "Environmental factors have a determining role",
+      "Epigenetics will help nature to overcome nurture",
+      "Nature vs. nurture argument is unlikely to resolve",
+      "Nature plays a more important role than nurture"
+    ],
+    "answer": 0,
+    "answerText": "Environmental factors have a determining role",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 177</span> The suppression of various parameters of immune function is not always harmful, nor is the ____ always beneficial.",
+    "options": [
+      "Inhibition",
+      "Evasion",
+      "Enhancement",
+      "Impediment"
+    ],
+    "answer": 2,
+    "answerText": "Enhancement",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 178</span> A certain abatement or ____ of the fever takes place, with or without sweating, but there is no true intermission or interval of absolute apyrexia.",
+    "options": [
+      "Escalation",
+      "Eruption",
+      "Remission",
+      "Relapse"
+    ],
+    "answer": 2,
+    "answerText": "Remission",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 179</span> There is no evidence that fatty foods, sweets, or chocolate cause or ____ acne.",
+    "options": [
+      "Promulgate",
+      "Inundate",
+      "Aggravate",
+      "Mandate"
+    ],
+    "answer": 2,
+    "answerText": "Aggravate",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 180</span> A disease caused by the effects of treatment is referred to as ____.",
+    "options": [
+      "Contraindicated",
+      "Pathogenic",
+      "Iatrogenic",
+      "Potentiated"
+    ],
+    "answer": 2,
+    "answerText": "Iatrogenic",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 181</span> Patients suffering from dysgeusia may complain of their impaired ____.",
+    "options": [
+      "Temper",
+      "Vision",
+      "Digestion",
+      "Taste"
+    ],
+    "answer": 3,
+    "answerText": "Taste",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 182</span> Patients are advised to avoid caffeine, smoking, and alcohol which ____ the symptoms of gastric ulcers.",
+    "options": [
+      "Intensify",
+      "Alleviate",
+      "Obstruct",
+      "Contain"
+    ],
+    "answer": 1,
+    "answerText": "Alleviate",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 183</span> Physical exercise, if sufficiently intensive and regular, can ____ the various phenomena of aging such as the decrease in muscle mass.",
+    "options": [
+      "Overact",
+      "Overwhelm",
+      "Overuse",
+      "Override"
+    ],
+    "answer": 1,
+    "answerText": "Overwhelm",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 184</span> Unresolved legal and ethical issues impose considerable ____ on the exchange of medical records in electronic form between care providers.",
+    "options": [
+      "Solutions",
+      "Constrains",
+      "Premiums",
+      "Encouragements"
+    ],
+    "answer": 1,
+    "answerText": "Constrains",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 169 - Vocabulary </span> Some doctors' handwriting is so bad that their patients have difficulty reading their ..............",
+    "options": [
+      "jurisdictions",
+      "prescriptions",
+      "commitments",
+      "achievements"
+    ],
+    "answer": 1,
+    "answerText": "prescriptions",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 170</span> The patient was about to pass away as the doctor made a/an ............... mistake by taking a wrong decision.",
+    "options": [
+      "lethal",
+      "immortal",
+      "moral",
+      "eternal"
+    ],
+    "answer": 0,
+    "answerText": "lethal",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 171</span> The potential ............ of angioplasty may include coronary artery dissection and rupture, cardiac tamponade and myocardial infarction.",
+    "options": [
+      "convulsions",
+      "complications",
+      "conceptions",
+      "complements"
+    ],
+    "answer": 1,
+    "answerText": "complications",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 172</span> There are many physical and emotional disorders which heal and do NOT really require any medical ............",
+    "options": [
+      "integration",
+      "admission",
+      "segmentation",
+      "intervention"
+    ],
+    "answer": 3,
+    "answerText": "intervention",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 173</span> In the age of nanotechnology, physical examination still remains of ........... importance in diagnosis of aortic stenosis.",
+    "options": [
+      "trivial",
+      "vicious",
+      "pivotal",
+      "transient"
+    ],
+    "answer": 2,
+    "answerText": "pivotal",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 174</span> A condition in which the patient is characterized by a defect or loss of power of expression by speech is termed as ........",
+    "options": [
+      "aphagia",
+      "dyspepsia",
+      "aphasia",
+      "ataxia"
+    ],
+    "answer": 2,
+    "answerText": "aphasia",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 175</span> The drooping and downward displacement of the eyelid due to inaccurate Botox injection is diagnosed as ...........",
+    "options": [
+      "blepharodynia",
+      "blepharoptosis",
+      "blepharitis",
+      "blepharorrhaphy"
+    ],
+    "answer": 1,
+    "answerText": "blepharoptosis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 176</span> The surgeon said the patient had to undergo ............ operation to remove the very small tumor in his skull.",
+    "options": [
+      "craniocentesis",
+      "septocentesis",
+      "pleurectomy",
+      "pneumectomy"
+    ],
+    "answer": 0,
+    "answerText": "craniocentesis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 177</span> Surgical attachment of the urinary bladder to the abdominal wall or to other supporting structures is referred to as ..........",
+    "options": [
+      "tracheotomy",
+      "pachydactyly",
+      "arthrodesis",
+      "cystopexy"
+    ],
+    "answer": 3,
+    "answerText": "cystopexy",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 178</span> Congenital .......... can result from a failure of the lungs to expand completely.",
+    "options": [
+      "atelencephalia",
+      "pulmolith",
+      "tracheotomy",
+      "atelectasis"
+    ],
+    "answer": 3,
+    "answerText": "atelectasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 179 - Reading Comprehension - Passage 1 </span> <b>Passage: Bone is in constant turnover. It atrophies when not used, and hypertrophies when stressed...</b> Based on the passage, which of the following items is true about bone?",
+    "options": [
+      "Atrophy of bone happens in a constant manner.",
+      "Hypertrophy is observed when bone cells are new.",
+      "Stress leads to bone excessive growth.",
+      "Stress causes bone cell atrophy."
+    ],
+    "answer": 2,
+    "answerText": "Stress leads to bone excessive growth.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 180</span> What can be implied from the paragraph about bone mass?",
+    "options": [
+      "Bone mass growth is due to resorption.",
+      "Production of bone mass causes its overall diminish.",
+      "The overall increase of bone mass is age-dependent.",
+      "Resorption and production decrease after the age of 35."
+    ],
+    "answer": 2,
+    "answerText": "The overall increase of bone mass is age-dependent.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 181</span> Which of the following is true about the characteristics of articular cartilage?",
+    "options": [
+      "Generating new articular cartilage is a constant process.",
+      "Humans have failed to reproduce articular cartilage so far.",
+      "In the presence of synovial fluid, the friction is doubled.",
+      "Constant friction causes shock absorbing in the cartilage."
+    ],
+    "answer": 1,
+    "answerText": "Humans have failed to reproduce articular cartilage so far.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 182</span> According to the paragraph, adulthood leads to .............",
+    "options": [
+      "termination of articular cartilage production",
+      "regeneration of articular cartilage",
+      "further production of bone mass",
+      "easier replacement of articular cartilage"
+    ],
+    "answer": 0,
+    "answerText": "termination of articular cartilage production",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 183</span> Each muscle’s function determines the .............",
+    "options": [
+      "tissue mass in the human body",
+      "type of structural units in muscle fiber",
+      "arrangements of muscle fibers",
+      "ability to generate new articular cartilage"
+    ],
+    "answer": 2,
+    "answerText": "arrangements of muscle fibers",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 184 - Reading Comprehension - Passage 2 </span> <b>Passage: Constitutional laws of some countries require employers to provide adequate safety precautions and regulations. Workers in medical laboratories are exposed to many dangers, not only from infected material but also from the dangerous compounds and apparatus which they use as a daily routine...</b> Based on the passage, which of the following can be inferred?",
+    "options": [
+      "Workers in medical laboratories are only exposed to hazards from instruments in use.",
+      "Safety precautions are beneficial for both the laboratory staff and others involved.",
+      "Protective clothing can be removed by the personnel while working in the laboratories.",
+      "The workers in a laboratory usually clutter up the sink when using dirty glassware."
+    ],
+    "answer": 1,
+    "answerText": "Safety precautions are beneficial for both the laboratory staff and others involved.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 185</span> <b>Passage: Constitutional laws of some countries require employers to provide adequate safety precautions and regulations...</b> Which of the following statements is NOT mentioned as a safety precaution?",
+    "options": [
+      "Limited use of apparatus by the workers in the laboratory",
+      "Using protective clothing while working in the laboratory",
+      "The manager of the laboratory must be informed of any accident occurring there.",
+      "The staff must take off their working clothing before leaving the laboratory."
+    ],
+    "answer": 0,
+    "answerText": "Limited use of apparatus by the workers in the laboratory",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 186</span> <b>Passage: Constitutional laws of some countries require employers to provide adequate safety precautions and regulations...</b> What does the passage imply?",
+    "options": [
+      "Safety regulations and laws will sometimes lead to frequent accidents in the laboratory.",
+      "Observing safety precautions and preventative measures need no specific knowledge.",
+      "The frequency of unnecessary accidents in the laboratory is due to the ignorance of the person in charge.",
+      "Some accidents can be prevented if the staff use their common sense."
+    ],
+    "answer": 3,
+    "answerText": "Some accidents can be prevented if the staff use their common sense.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 187</span> <b>Passage: Constitutional laws of some countries require employers to provide adequate safety precautions and regulations...</b> Which of the following is the best reference for the underlined word 'premises'?",
+    "options": [
+      "Laboratory",
+      "Protective clothing",
+      "Precautions",
+      "Dirty sink"
+    ],
+    "answer": 0,
+    "answerText": "Laboratory",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 188</span> <b>Passage: Constitutional laws of some countries require employers to provide adequate safety precautions and regulations...</b> The author argues against a messy sink in the laboratory because...",
+    "options": [
+      "It is the best place to locate the dirty glassware.",
+      "It is not in accordance with sanitary principles.",
+      "We may need it in an urgent case of accident.",
+      "The staff need all glassware for their daily use."
+    ],
+    "answer": 2,
+    "answerText": "We may need it in an urgent case of accident.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 171</span> The patient complained about excessive and frequent urination after going to bed. His condition was diagnosed as .......... .",
+    "options": [
+      "Oliguria",
+      "Anuria",
+      "Nyctalgia",
+      "Nocturia"
+    ],
+    "answer": 3,
+    "answerText": "Nocturia",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 172</span> Excessive amount of fat discharge in fecal matter made him bedridden with the diagnosis of ........ .",
+    "options": [
+      "Pyorrhea",
+      "Steatorrhea",
+      "Hematuria",
+      "Hemorrhagia"
+    ],
+    "answer": 1,
+    "answerText": "Steatorrhea",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 173</span> His degenerated, unstable joint was fixed during .......... surgery.",
+    "options": [
+      "Arthrography",
+      "Arthroplasty",
+      "Arthrodesis",
+      "Arthrolysis"
+    ],
+    "answer": 2,
+    "answerText": "Arthrodesis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 174</span> Encephalomalacia is a term which is used in case of .......... of the brain.",
+    "options": [
+      "Softening",
+      "Drainage",
+      "Discharge",
+      "Atrophy"
+    ],
+    "answer": 0,
+    "answerText": "Softening",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 175</span> Some studies show an .......... between the intake of special types of foods and low-grade chronic inflammation.",
+    "options": [
+      "Aspiration",
+      "Infection",
+      "Ingestion",
+      "Association"
+    ],
+    "answer": 3,
+    "answerText": "Association",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 176</span> Inflammation is a normal defense mechanism that protects the host from infection and other ....... .",
+    "options": [
+      "Contributions",
+      "Intentions",
+      "Insults",
+      "Contents"
+    ],
+    "answer": 2,
+    "answerText": "Insults",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 177</span> Physical activity along with caloric restriction appears to be a better approach to losing weight and .......... the weight loss.",
+    "options": [
+      "Remaining",
+      "Maintaining",
+      "Contaminating",
+      "Containing"
+    ],
+    "answer": 1,
+    "answerText": "Maintaining",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 178</span> High concordance of celiac disease in identical twins could indicate a genetic .......... for the disease.",
+    "options": [
+      "Perforation",
+      "Protrusion",
+      "Precipitation",
+      "Predisposition"
+    ],
+    "answer": 3,
+    "answerText": "Predisposition",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 179</span> Osteoporosis is a multifactorial condition of the skeleton in which skeletal strength is .......... sufficiently so that fracture occurs on minor trauma.",
+    "options": [
+      "Seduced",
+      "Confused",
+      "Produced",
+      "Reduced"
+    ],
+    "answer": 3,
+    "answerText": "Reduced",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 180</span> Advanced health facilities have recently been .......... to large modern hospital leaving the small ones with little services.",
+    "options": [
+      "Convicted",
+      "Contacted",
+      "Constricted",
+      "Confined"
+    ],
+    "answer": 3,
+    "answerText": "Confined",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 181</span> English Reading Passage 1: Since the beginning of the COVID-19 outbreak, health care providers have been shown more support than they ever had. Yet, attacks on health care have continuously been reported and include incidents linked to the COVID-19 pandemic across the world. This public health emergency has shown that health facilities, medical transport, and patients as well as health care workers and their families can – and do – become targets everywhere. This alarming trend reinforces the need for improved measures to protect health care personnel from acts of violence. Any verbal or physical act of violence, obstruction, or threat, interfering with the access and delivery of such services is defined as attack on health care systems by the World Health Organization (WHO). What is true about the passage?",
+    "options": [
+      "The COVID-19 can cause violence among patients.",
+      "The COVID-19 has caused attacks on the families of patients.",
+      "Attacks on health care providers have not stopped during the COVID-19 pandemic.",
+      "Health care providers have continuously attacked COVID-19 patients."
+    ],
+    "answer": 2,
+    "answerText": "Attacks on health care providers have not stopped during the COVID-19 pandemic.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 182</span> What does 'This alarming trend' refer to in the passage?",
+    "options": [
+      "The COVID-19 outbreak",
+      "Violence against health workers",
+      "Public health emergency",
+      "Lack of health facilities"
+    ],
+    "answer": 1,
+    "answerText": "Violence against health workers",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 183</span> 'The bombardment and destruction of a 400-bed facility in Libya' is given in the passage as an example of .......... .",
+    "options": [
+      "High rate of violence in Libya",
+      "Adequate control of violence in Libya during COVID-19",
+      "Violence against the provision of health services in Libya",
+      "Constructing a 400-bed facility in Libya"
+    ],
+    "answer": 2,
+    "answerText": "Violence against the provision of health services in Libya",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 184</span> Which of the following is a form of violence against health care workers?",
+    "options": [
+      "Not allowing health care workers to have work",
+      "Not allowing health care workers to commute with patients",
+      "Bombarding vehicles carrying COVID-19 samples",
+      "COVID-19 drivers forced to leave their job"
+    ],
+    "answer": 2,
+    "answerText": "Bombarding vehicles carrying COVID-19 samples",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 185</span> In which of the following countries, a legal action will be taken against attacks on health facilities and health care workers?",
+    "options": [
+      "The US",
+      "Mexico",
+      "Libya",
+      "India"
+    ],
+    "answer": 3,
+    "answerText": "India",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 186</span> English Reading Passage 2: Diabetes mellitus (DM) is a chronic disease with a global prevalence that continues to grow and is associated with both a significant individual and public health burden. Lifestyle modifications including medical nutritional therapy remain the cornerstones of successful management of DM, in conjunction with glucose-lowering medications when indicated. In addition, education on the principles of physical activity, on the need for self-monitoring of blood glucose, and on the adjustment of appropriate medications during times of illness, for example, are vital to the person with DM. What is true about diabetes mellitus?",
+    "options": [
+      "Diabetes mellitus has already been controlled with recent advances in medicaments.",
+      "Diabetes mellitus is still on the rise in spite of recent advances in medicaments.",
+      "Diabetes mellitus is limited to certain regions owing to recent advances in medicaments.",
+      "Diabetes mellitus has little impact on social health due to recent advances in medicaments."
+    ],
+    "answer": 1,
+    "answerText": "Diabetes mellitus is still on the rise in spite of recent advances in medicaments.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 187</span> Glucose-lowering medications .......... in treating DM.",
+    "options": [
+      "Are to be permanently followed",
+      "Are more important than lifestyle changes",
+      "Should precede nutritional therapy",
+      "Should accompany medical nutritional therapy if necessary"
+    ],
+    "answer": 3,
+    "answerText": "Should accompany medical nutritional therapy if necessary",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 188</span> Methods of monitoring blood glucose, and adjusting suitable medications during times of illness .......... .",
+    "options": [
+      "Should be done by a medical doctor",
+      "Can be taught to the person with DM",
+      "Is to be performed in health centers",
+      "Is to be excluded from the treatment plan"
+    ],
+    "answer": 1,
+    "answerText": "Can be taught to the person with DM",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 189</span> Certain vitamins and minerals .......... in controlling blood glucose.",
+    "options": [
+      "May have a role",
+      "Are of little value",
+      "Should be replaced by insulin",
+      "Cannot be used at all"
+    ],
+    "answer": 0,
+    "answerText": "May have a role",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 190</span> Inflammation in DM patients .......... .",
+    "options": [
+      "Should be avoided at all costs",
+      "Is related to complications",
+      "Is a sign of improvement",
+      "Occurs as part of the treatment process"
+    ],
+    "answer": 1,
+    "answerText": "Is related to complications",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 171</span> In cancer patients, complete disappearance of all detectable signs and symptoms of the disease can …… complete remission.",
+    "options": [
+      "confirm",
+      "exacerbate",
+      "refute",
+      "exaggerate"
+    ],
+    "answer": 0,
+    "answerText": "confirm",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 172</span> The psychologist advised the patient to give up ……… which made him think about nonsense; she asked the client to pay more attention to his family instead.",
+    "options": [
+      "contributions",
+      "preoccupations",
+      "prominences",
+      "competencies"
+    ],
+    "answer": 1,
+    "answerText": "preoccupations",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 173</span> Creating a pleasant work environment is ……… if we want to enhance the workers’ productivity and increase our revenue.",
+    "options": [
+      "indispensable",
+      "virulent",
+      "insignificant",
+      "futile"
+    ],
+    "answer": 0,
+    "answerText": "indispensable",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 174</span> As the physician was not able to provide valid and reliable data on the case, the results of his research were ……… .",
+    "options": [
+      "implemented",
+      "aggregated",
+      "approved",
+      "disputed"
+    ],
+    "answer": 3,
+    "answerText": "disputed",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 175</span> Although an ordinary headache is not hazardous, one ought to see a doctor in case it ……… .",
+    "options": [
+      "terminates",
+      "diminishes",
+      "relinquishes",
+      "persists"
+    ],
+    "answer": 3,
+    "answerText": "persists",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 176</span> He suffers his parents’ ……… about the appropriate ways of dealing with his health problems; they need to attend some training sessions.",
+    "options": [
+      "recognition",
+      "preservation",
+      "competence",
+      "ignorance"
+    ],
+    "answer": 3,
+    "answerText": "ignorance",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 177</span> Preventive measures should be taken to block the unexpected ……… of the stressful interventions done by physicians in their private offices.",
+    "options": [
+      "consequences",
+      "equilibrium",
+      "prophylaxis",
+      "tranquility"
+    ],
+    "answer": 0,
+    "answerText": "consequences",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 178</span> This is an unknown disease, so no physician can ……… what will happen to the patient in the coming years.",
+    "options": [
+      "alleviate",
+      "abolish",
+      "anticipate",
+      "resume"
+    ],
+    "answer": 2,
+    "answerText": "anticipate",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 179</span> He is suffering from ……; the wall of his stomach is softened.",
+    "options": [
+      "gastrolysis",
+      "gastromalacia",
+      "gastroschisis",
+      "gastroptosis"
+    ],
+    "answer": 1,
+    "answerText": "gastromalacia",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 180</span> When the caliber of a vessel is narrowed, the condition is called ……… .",
+    "options": [
+      "angiostenosis",
+      "angiosclerosis",
+      "angiopoiesis",
+      "angioparesis"
+    ],
+    "answer": 0,
+    "answerText": "angiostenosis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 182</span> As mentioned in this passage, the ……… are modified in the laboratory.",
+    "options": [
+      "malignant tumors",
+      "benign tumors",
+      "cancerous cells",
+      "killer cells"
+    ],
+    "answer": 3,
+    "answerText": "killer cells",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 183</span> The method mentioned in the passage is ……… .",
+    "options": [
+      "widely used at present in laboratories",
+      "just in its experimental stage",
+      "believed to be surely effective",
+      "commonly practicable for all cancers"
+    ],
+    "answer": 1,
+    "answerText": "just in its experimental stage",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 184</span> The underlined expression 'this process' refers to ……… .",
+    "options": [
+      "carrying special genetic information",
+      "bombarding the tumor cells with gold spheres",
+      "injecting the cells to the fatally ill cancer patients",
+      "attacking the tumor cells"
+    ],
+    "answer": 1,
+    "answerText": "bombarding the tumor cells with gold spheres",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 185</span> As explained in the passage, Professor Burghardt Witting believes that ……… .",
+    "options": [
+      "fight against cancer should be as painless as a normal infusion",
+      "research on cancer therapy in laboratories is the only way to defeat cancer",
+      "there is no other way to fight against cancer but genetic therapy",
+      "cancer patients are no longer able to escape this fatal illness"
+    ],
+    "answer": 2,
+    "answerText": "there is no other way to fight against cancer but genetic therapy",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 187</span> A more personalized approach to health ……… .",
+    "options": [
+      "is not consistent with technology-based healthcare system",
+      "is likely to take place in the future healthcare provision systems",
+      "widens the gap between the existing resources and healthcare needs",
+      "has nothing to do with whole genome sequencing at key points in life"
+    ],
+    "answer": 1,
+    "answerText": "is likely to take place in the future healthcare provision systems",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 188</span> The underlined word ‘inputs’ refers to the data ……… delivered by care providers and citizens.",
+    "options": [
+      "comprising a system",
+      "for therapeutic and preventive interventions",
+      "from multiple stratified populations",
+      "from sources in addition to those"
+    ],
+    "answer": 0,
+    "answerText": "comprising a system",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 189</span> The stratification of population for health reasons would ……… .",
+    "options": [
+      "use the Big Data as the source",
+      "reject the knowledge of the risk of particular diseases",
+      "rely on citizens disregarding multiple data sources",
+      "refute the data provided by care providers and citizens"
+    ],
+    "answer": 0,
+    "answerText": "use the Big Data as the source",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 190</span> The passage mainly discusses the ……… .",
+    "options": [
+      "risk of specific diseases and people’s reactions to interventions",
+      "whole genome sequencing at key points in life course as available resources",
+      "availability of comprehensive electronic health records collected in a Big Data",
+      "challenges of the future healthcare system and their possible solutions"
+    ],
+    "answer": 3,
+    "answerText": "challenges of the future healthcare system and their possible solutions",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 171</span> Without the proper equipment to protect their hands, workers are likely to develop skin ……………… while being exposed to uneven surfaces.",
+    "options": [
+      "abrasion",
+      "absorption",
+      "conversion",
+      "contraction"
+    ],
+    "answer": 0,
+    "answerText": "abrasion",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 172</span> The condition in which the retina gets separated from the pigment epithelium behind it, or new blood vessels grow on its surface is referred to as retinal ……………… .",
+    "options": [
+      "debridement",
+      "detachment",
+      "penetration",
+      "perforation"
+    ],
+    "answer": 1,
+    "answerText": "detachment",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 173</span> The patient’s condition has ………… the physicians; they cannot find any clue to solving the problem.",
+    "options": [
+      "baffled",
+      "convinced",
+      "endorsed",
+      "assassinated"
+    ],
+    "answer": 0,
+    "answerText": "baffled",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 174</span> The nurse we were looking for, was in a room ……………… the surgical hall.",
+    "options": [
+      "devoid of",
+      "deprived of",
+      "replete with",
+      "adjacent to"
+    ],
+    "answer": 3,
+    "answerText": "adjacent to",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 175</span> He will need to compensate for his hearing ……………… by using his other senses.",
+    "options": [
+      "impairment",
+      "improvement",
+      "amplification",
+      "enhancement"
+    ],
+    "answer": 0,
+    "answerText": "impairment",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 176</span> Severe hearing loss should be treated soon before it can ……………… one’s academic life.",
+    "options": [
+      "impede",
+      "replicate",
+      "rejuvenate",
+      "invigorate"
+    ],
+    "answer": 0,
+    "answerText": "impede",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 177</span> The patient was ……………… a wheelchair following a severe fracture in her pelvis.",
+    "options": [
+      "confronted with",
+      "handicapped by",
+      "confined to",
+      "loaded with"
+    ],
+    "answer": 2,
+    "answerText": "confined to",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 178</span> The obstetrician diagnosed the neonate’s weird appearance as ………………, a congenital absence of pigment in the skin, hair and the eyes.",
+    "options": [
+      "albinoidism",
+      "albinism",
+      "melasma",
+      "melanoma"
+    ],
+    "answer": 1,
+    "answerText": "albinism",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 179</span> One of the complications of Covid-19 is ………………, i.e., the inability to track one or all smells.",
+    "options": [
+      "cacosmia",
+      "anosmia",
+      "cacomelia",
+      "anaphia"
+    ],
+    "answer": 1,
+    "answerText": "anosmia",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 180</span> In ………………, the surgeon is supposed to remove the stone formed in the gall bladder.",
+    "options": [
+      "cystolithectomy",
+      "cystostomy",
+      "cholecystolithectomy",
+      "cholecystotomy"
+    ],
+    "answer": 2,
+    "answerText": "cholecystolithectomy",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 181</span> The writer would like the future physicians to ……………… to policymakers and legislators.",
+    "options": [
+      "introduce the consequences of climate change",
+      "use climate change as an excuse to explain medical issues",
+      "evade presenting the health implications of climate changes",
+      "promote their medical knowledge by offering the climate change"
+    ],
+    "answer": 0,
+    "answerText": "introduce the consequences of climate change",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 182</span> Physicians can refer to issues like mental health to encourage policy makers to ……………… .",
+    "options": [
+      "adopt health-friendly policies for the climate",
+      "procure health facilities for health centers",
+      "mitigate safeguarding the health of patients",
+      "increase health budget irrespective of climate condition"
+    ],
+    "answer": 0,
+    "answerText": "adopt health-friendly policies for the climate",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 183</span> “Redlining” is used to refer to the ……………… caused by disproportionate exposure to extreme heat.",
+    "options": [
+      "climate-associated conditions",
+      "justice in medicine",
+      "pollution-free communities",
+      "racial inequity"
+    ],
+    "answer": 3,
+    "answerText": "racial inequity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 184</span> According to the writer, the physicians are recommended to ……………… .",
+    "options": [
+      "have a role in reducing health inequities",
+      "ignore health injustice in favor of the science",
+      "get directly involved in policymaking and legislation",
+      "ask their patients to consider new policies for climate change"
+    ],
+    "answer": 0,
+    "answerText": "have a role in reducing health inequities",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 185</span> One way suggested to avoid unusual climate change is to ……………… .",
+    "options": [
+      "include content on climate change in medical curricula",
+      "rely on the policymakers’ experience in residency training",
+      "protect patients by teaching health inequities in communities",
+      "refer to legislations for new ways to alleviate structural injustice"
+    ],
+    "answer": 0,
+    "answerText": "include content on climate change in medical curricula",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 186</span> The writer states that ……………… is a self-serving excuse.",
+    "options": [
+      "the strong suspicion indicated before 1960",
+      "the reason given for fewer returns after 1960",
+      "low investment in medicine before 1960",
+      "too much money spent on medical projects after 1960"
+    ],
+    "answer": 1,
+    "answerText": "the reason given for fewer returns after 1960",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 187</span> The author of this reading selection believes that ……………… .",
+    "options": [
+      "more accomplishments in medicine are due to more investment",
+      "before 1960, medical scientists confronted more medical challenges",
+      "medical scientists have avoided accounting for the investment in medicine",
+      "despite spending more money, medicine has achieved less after 1960"
+    ],
+    "answer": 3,
+    "answerText": "despite spending more money, medicine has achieved less after 1960",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 188</span> The writer maintains that ……………… .",
+    "options": [
+      "more investment in medicine has failed to bring about better outcome",
+      "more objective therapeutic success results from more investment in medical projects",
+      "increases in the costs of the medical system have led to patients’ dissatisfaction",
+      "both advocates and opponents of scientific medicine have made mistakes"
+    ],
+    "answer": 0,
+    "answerText": "more investment in medicine has failed to bring about better outcome",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 189</span> For people over 40, according to the author, ……………… .",
+    "options": [
+      "life expectancy has failed to increase",
+      "living has become much more difficult and expensive",
+      "hope for a longer life has already been achieved",
+      "documented, technologically assisted death is uncommon"
+    ],
+    "answer": 0,
+    "answerText": "life expectancy has failed to increase",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 190</span> As for the accomplishments of scientific medicine after 1960, the tone of the writer in this reading selection is ……………… .",
+    "options": [
+      "partly indifferent",
+      "rather pessimistic",
+      "strongly supportive",
+      "quite impartial"
+    ],
+    "answer": 1,
+    "answerText": "rather pessimistic",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 171</span> After studying the test results, the physician ……… an improvement in the patient’s health condition.",
+    "options": [
+      "neglected",
+      "abandoned",
+      "anticipated",
+      "prohibited"
+    ],
+    "answer": 2,
+    "answerText": "anticipated",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 172</span> Not only does the Corona virus harm people physically, but it can also have ……… effects on their mental health.",
+    "options": [
+      "adverse",
+      "persuasive",
+      "constructive",
+      "benign"
+    ],
+    "answer": 0,
+    "answerText": "adverse",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 173</span> To come to a conclusion, you need to ………… the previous X-rays from the present one.",
+    "options": [
+      "distract",
+      "distinguish",
+      "deprive",
+      "refrain"
+    ],
+    "answer": 1,
+    "answerText": "distinguish",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 174</span> The researchers succeeded to ……… the role of microbes in contagious diseases.",
+    "options": [
+      "aggravate",
+      "aggregate",
+      "elucidate",
+      "evaporate"
+    ],
+    "answer": 2,
+    "answerText": "elucidate",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 175</span> Probably, the first very significant function of the skin is to prevent the organs against ……… agents that intend to penetrate the body.",
+    "options": [
+      "noxious",
+      "tremendous",
+      "meticulous",
+      "notorious"
+    ],
+    "answer": 0,
+    "answerText": "noxious",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 176</span> He is suffering from ………; the wall of his stomach is softened.",
+    "options": [
+      "gastroschisis",
+      "gastroptosis",
+      "gastrolysis",
+      "gastromalacia"
+    ],
+    "answer": 3,
+    "answerText": "gastromalacia",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 177</span> When the caliber of a vessel is narrowed, it is called ………",
+    "options": [
+      "angioparesis",
+      "angiostenosis",
+      "angiosclerosis",
+      "angiography"
+    ],
+    "answer": 1,
+    "answerText": "angiostenosis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 178</span> An impairment of speech is called ………",
+    "options": [
+      "dysphagia",
+      "dysphoria",
+      "dysphasia",
+      "dyslexia"
+    ],
+    "answer": 2,
+    "answerText": "dysphasia",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 179</span> The old man is actually ………; that is, he is suffering from the paralysis of the lower limbs.",
+    "options": [
+      "quadriplegic",
+      "paraplegic",
+      "monoplegic",
+      "hemiplegic"
+    ],
+    "answer": 1,
+    "answerText": "paraplegic",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 180</span> The physician told him that, according to the test results, he has to undergo ……… surgery to remove the gallbladder.",
+    "options": [
+      "cystectomy",
+      "cystostomy",
+      "cholecystostomy",
+      "cholecystectomy"
+    ],
+    "answer": 3,
+    "answerText": "cholecystectomy",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 182</span> According to the text, which of the following statements is true?",
+    "options": [
+      "Nearly everyone with H. pylori infection experiences gastric symptoms.",
+      "When H. pylori infection is asymptomatic, it is associated with dyspepsia.",
+      "Those with H. pylori infection will probably experience stomach ulcer.",
+      "H. pylori bacterium inhabits in the first part of the small intestine"
+    ],
+    "answer": 1,
+    "answerText": "When H. pylori infection is asymptomatic, it is associated with dyspepsia.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 183</span> According to the text, in the case of MALT, if H. pylori infection is treated on time, ………",
+    "options": [
+      "MALT will be present, but it will be asymptomatic",
+      "there is the probability of regression for MALT",
+      "H. pylori symptoms will be successfully eradicated",
+      "the lymphoma changes into a low grade tumor"
+    ],
+    "answer": 1,
+    "answerText": "there is the probability of regression for MALT",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 184</span> All of the following characterize H. pylori infection, EXCEPT:",
+    "options": [
+      "feeling overfed",
+      "no desire for food",
+      "irritating pain",
+      "sticky gastric mucosa"
+    ],
+    "answer": 3,
+    "answerText": "sticky gastric mucosa",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 185</span> According to the passage, once you are infected with H. pylori, ………",
+    "options": [
+      "an endoscopy should be performed",
+      "the medical history determines the medical procedure",
+      "the MALT test becomes necessary",
+      "the removal of infected area, as well as the ulcer, is necessary"
+    ],
+    "answer": 1,
+    "answerText": "the medical history determines the medical procedure",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 187</span> It is stated that ……… in the treatment of asthma.",
+    "options": [
+      "corticosteroids have a more important role than other medications",
+      "oral administration of corticosteroids is without side effects",
+      "bronchodilators have a primary role",
+      "corticosteroids are used as supplements only"
+    ],
+    "answer": 0,
+    "answerText": "corticosteroids have a more important role than other medications",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 188</span> Which of the following statements is NOT true about the systemic administration of corticosteroids?",
+    "options": [
+      "Asthma becomes aggravated.",
+      "The therapy has to be continued.",
+      "The patients are steroid resistant.",
+      "The patients are severely affected."
+    ],
+    "answer": 0,
+    "answerText": "Asthma becomes aggravated.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 189</span> The underlined word ‘others’ refers to ………",
+    "options": [
+      "effects of steroid therapy",
+      "patients receiving steroids",
+      "doses of steroids administered",
+      "symptoms appearing with steroid"
+    ],
+    "answer": 1,
+    "answerText": "patients receiving steroids",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 190</span> Which of the following is true about the resistance to steroids?",
+    "options": [
+      "The exact mechanism of the resistance has to be established.",
+      "Corticosteroids activate cytokine release leading to resistance.",
+      "The resistance is due to an increase number of corticosteroid receptors.",
+      "There is a strong tendency of DNA to bind to steroid receptors."
+    ],
+    "answer": 0,
+    "answerText": "The exact mechanism of the resistance has to be established.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 171</span> Oncologists speculated that some types of cancers grow and spread in some body tissues before the primary tumor becomes …………… on ultrasound or sonography.",
+    "options": [
+      "detectable",
+      "invasive",
+      "resistant",
+      "obstructive"
+    ],
+    "answer": 0,
+    "answerText": "detectable",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 172</span> Only a single inherited characteristic can …………… an individual to some disease and also incline him toward smoking.",
+    "options": [
+      "preside",
+      "precede",
+      "predispose",
+      "predetermine"
+    ],
+    "answer": 2,
+    "answerText": "predispose",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 173</span> Elderly individuals and those with cardio-respiratory issues, like asthma, seem to be the most …………… groups to various ailments.",
+    "options": [
+      "vulnerable",
+      "privileged",
+      "prosperous",
+      "prestigious"
+    ],
+    "answer": 0,
+    "answerText": "vulnerable",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 174</span> The patient’s heart showed …………………………, medically described as 'bradycardia.'",
+    "options": [
+      "slow movements of blood",
+      "slower rates of heartbeats",
+      "irregular heartbeats",
+      "unintentional heartbeats"
+    ],
+    "answer": 1,
+    "answerText": "slower rates of heartbeats",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 175</span> The surgeon ordered a/an …………… to get a radiograph of the spinal canal for injection and evaluate the patient’s herniated disc.",
+    "options": [
+      "cardiogram",
+      "ultrasonograph",
+      "myelogram",
+      "mammograph"
+    ],
+    "answer": 2,
+    "answerText": "myelogram",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 176</span> During the ……………, the diaphragm lowers and the external intercostals elevate the rib cage, while the opposite occurs for breathing out.",
+    "options": [
+      "expiration",
+      "inhalation",
+      "elevation",
+      "expectoration"
+    ],
+    "answer": 1,
+    "answerText": "inhalation",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 177</span> The patient was prescribed to take …………… for further excretion of urine.",
+    "options": [
+      "sedatives",
+      "expectorants",
+      "anesthetics",
+      "diuretics"
+    ],
+    "answer": 3,
+    "answerText": "diuretics",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 178</span> The common condition of …………… is associated with the inflammation of mucous membrane that lines the eyelids and covers the eyeballs’ anterior surface.",
+    "options": [
+      "iridoschisis",
+      "blepharitis",
+      "episcleritis",
+      "conjunctivitis"
+    ],
+    "answer": 3,
+    "answerText": "conjunctivitis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 179</span> A gradual and usually irreversible loss of intellectual function or …………… is a common senile condition these days.",
+    "options": [
+      "stupor",
+      "narcosis",
+      "dementia",
+      "glioma"
+    ],
+    "answer": 2,
+    "answerText": "dementia",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 180</span> The child was complaining of nocturia, or the …………… at night.",
+    "options": [
+      "excessive urination",
+      "diminished amount of body fluids",
+      "increased perspiration",
+      "frequent thirst"
+    ],
+    "answer": 0,
+    "answerText": "excessive urination",
+    "explanation": "",
     "userAnswer": null
   }
 ]
