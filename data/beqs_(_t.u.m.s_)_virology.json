@@ -1,28 +1,1523 @@
 [
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events?",
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 73</span> Which of the following viruses can agglutinate the red blood cell?",
     "options": [
-      "Opening of Na+ channels",
-      "Opening of K+ channels",
-      "Opening of Ca++ voltage-gated channels",
-      "Closing of Cl− channels"
+      "Cytomegalovirus",
+      "Respiratory syncytial virus",
+      "Measles",
+      "Polio"
     ],
     "answer": 2,
-    "answerText": "Opening of Ca++ voltage-gated channels",
-    "explanation": "The influx of Ca++ through voltage-gated calcium channels triggers neurotransmitter release into the synaptic cleft.",
+    "answerText": "Measles",
+    "explanation": "",
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?",
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 74</span> Which of the following viruses is sensitive to ether?",
     "options": [
-      "Opening of Na+ channels",
-      "Opening of K+ channels at the surface of the postsynaptic membrane",
-      "Closing of K+ channels",
-      "Depolarization of the membrane"
+      "Epstein-Barr",
+      "Polyoma",
+      "Adeno",
+      "Polio"
+    ],
+    "answer": 0,
+    "answerText": "Epstein-Barr",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 75</span> Which of the following viruses is the agent of Herpangina?",
+    "options": [
+      "Coxsackievirus",
+      "Adenovirus",
+      "Echovirus",
+      "Enterovirus 71"
+    ],
+    "answer": 0,
+    "answerText": "Coxsackievirus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 76</span> Which of the following statements about the Molluscum contagiosum virus is true?",
+    "options": [
+      "Will multiply in the cell nucleus",
+      "Weakened antigenesis",
+      "Transmitted through respiratory tract",
+      "Proliferation in cell culture"
+    ],
+    "answer": 3,
+    "answerText": "Proliferation in cell culture",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 141</span> Which of the following viruses can be a cause of hepatocellular carcinoma?",
+    "options": [
+      "HGV",
+      "HAV",
+      "HCV",
+      "HEV"
+    ],
+    "answer": 2,
+    "answerText": "HCV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 142</span> Which form of hepatitis virus is resistant to acidic conditions?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "answerText": "A",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 143</span> Which virus causes congenital abnormalities in fetus?",
+    "options": [
+      "Polio",
+      "Rubella",
+      "Papilloma",
+      "Adenovirus"
     ],
     "answer": 1,
-    "answerText": "Opening of K+ channels at the surface of the postsynaptic membrane",
-    "explanation": "Inhibitory neurotransmitters cause hyperpolarization by opening K+ channels, making the postsynaptic membrane less excitable.",
+    "answerText": "Rubella",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 144</span> Which of the following viruses is hidden in neural cells?",
+    "options": [
+      "Mumps",
+      "Cytomegalovirus",
+      "Herpes simplex",
+      "Epstein-Barr"
+    ],
+    "answer": 2,
+    "answerText": "Herpes simplex",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 145</span> Which of the following viruses is the cause of the 5th disease or erythema infectiosum?",
+    "options": [
+      "Parvovirus",
+      "Rubella",
+      "Measles",
+      "Mumps"
+    ],
+    "answer": 0,
+    "answerText": "Parvovirus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 141</span> Which of the following viruses can cause Hepatocellular Carcinoma?",
+    "options": [
+      "Hepatitis G (HGV)",
+      "Hepatitis A (HAV)",
+      "Hepatitis C (HCV)",
+      "Hepatitis E (HEV)"
+    ],
+    "answer": 2,
+    "answerText": "Hepatitis C (HCV)",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 142</span> Which of the following viruses causes Pleurodynia?",
+    "options": [
+      "Coronavirus",
+      "Parvovirus B19",
+      "Coxsackievirus B",
+      "Adenovirus"
+    ],
+    "answer": 2,
+    "answerText": "Coxsackievirus B",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 143</span> The genome of which of the following viruses is diploid?",
+    "options": [
+      "Vaccinia virus",
+      "HIV",
+      "Reovirus",
+      "Adenovirus"
+    ],
+    "answer": 1,
+    "answerText": "HIV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 144</span> Which of the following antiviral drugs is used to treat influenza?",
+    "options": [
+      "Zidovudine",
+      "Acyclovir",
+      "Lamivudine",
+      "Oseltamivir"
+    ],
+    "answer": 3,
+    "answerText": "Oseltamivir",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 145</span> Which of the following viruses has oncogenic potential?",
+    "options": [
+      "Parvovirus B19",
+      "Human papillomavirus type 16",
+      "Influenza virus type B",
+      "Type 3 Influenza virus"
+    ],
+    "answer": 1,
+    "answerText": "Human papillomavirus type 16",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 82</span> Which of the following viruses have the ability to tumor generation?",
+    "options": [
+      "Parainfluenza",
+      "Rota",
+      "Papilloma",
+      "Polio"
+    ],
+    "answer": 2,
+    "answerText": "Papilloma",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 83</span> Which antiviral drug with anti-neurominidase action is used to treat influenza?",
+    "options": [
+      "Oseltamivir",
+      "Abacavir",
+      "Lamivudine",
+      "Ganciclovir"
+    ],
+    "answer": 0,
+    "answerText": "Oseltamivir",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 84</span> Viruses of which viral family have the ability to cause latent infection?",
+    "options": [
+      "Poxvirus",
+      "Filoviruses",
+      "Orthomyxovirus",
+      "Herpesvirus"
+    ],
+    "answer": 3,
+    "answerText": "Herpesvirus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 85</span> Which of the following viruses in humans cause chronic hepatitis and liver cancer respectively?",
+    "options": [
+      "HCV, HBV",
+      "HAV, HEV",
+      "HCV, HAV",
+      "HBV, HEV"
+    ],
+    "answer": 0,
+    "answerText": "HCV, HBV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 86</span> Which of the viral families is the cause of Ebola?",
+    "options": [
+      "Paramyxoviridae",
+      "Rhabdoviridae",
+      "Filoviridae",
+      "Adenoviridae"
+    ],
+    "answer": 2,
+    "answerText": "Filoviridae",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 103</span> Which of the following viruses cause fetal malformation?",
+    "options": [
+      "CMV",
+      "HAV",
+      "Pox",
+      "Influenza Cs"
+    ],
+    "answer": 0,
+    "answerText": "CMV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 104</span> Which of the following indicators alone indicates immunity against hepatitis B?",
+    "options": [
+      "Anti‐HBC(IgM)",
+      "Anti‐HBC(IgG)",
+      "Anti‐HBe(IgG)",
+      "Anti‐HBS(IgG)"
+    ],
+    "answer": 3,
+    "answerText": "Anti‐HBS(IgG)",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 105</span> Which virus is the main cause of gastroenteritis (diarrhea) in children between 1 and 2 years old?",
+    "options": [
+      "Arenavirus",
+      "Rotavirus",
+      "Varicella zoster",
+      "Bunyavirus"
+    ],
+    "answer": 1,
+    "answerText": "Rotavirus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 106</span> Which of the following receptors plays a role in infection with HIV virus?",
+    "options": [
+      "CD2",
+      "CD6",
+      "CD4",
+      "CD8"
+    ],
+    "answer": 2,
+    "answerText": "CD4",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 107</span> Which of the following viruses are not transmitted from the mouth and usually are not chronic?",
+    "options": [
+      "Hepatitis A and E",
+      "Hepatitis C and A",
+      "Hepatitis B and A",
+      "Hepatitis B and C"
+    ],
+    "answer": 0,
+    "answerText": "Hepatitis A and E",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 141</span> Which of the following viruses can be a cause of hepatocellular carcinoma?",
+    "options": [
+      "HGV",
+      "HAV",
+      "HCV",
+      "HEV"
+    ],
+    "answer": 2,
+    "answerText": "HCV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 142</span> Which form of hepatitis virus is resistant to acidic conditions?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "answerText": "A",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 143</span> Which virus causes congenital abnormalities in fetuses?",
+    "options": [
+      "Polio",
+      "Rubella",
+      "Papilloma",
+      "Adenovirus"
+    ],
+    "answer": 1,
+    "answerText": "Rubella",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 144</span> Which of the following viruses is hidden in neural cells?",
+    "options": [
+      "Mumps",
+      "Cytomegalovirus",
+      "Herpes simplex",
+      "Epstein-Barr"
+    ],
+    "answer": 2,
+    "answerText": "Herpes simplex",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 145</span> Which of the following viruses is the cause of the 5th disease or erythema infectiosum?",
+    "options": [
+      "Parvovirus",
+      "Rubella",
+      "Measles",
+      "Mumps"
+    ],
+    "answer": 0,
+    "answerText": "Parvovirus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 103</span> Which virus causes Acute Keratocongenctiutis?",
+    "options": [
+      "Adeno",
+      "Cytomegalo",
+      "Epstein-barr",
+      "Corona"
+    ],
+    "answer": 0,
+    "answerText": "Adeno",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 104</span> Which of the following viruses stays hidden in neural ganglia after primary infection?",
+    "options": [
+      "Epstein-barr",
+      "Adeno",
+      "Herpes simplex",
+      "Parvo"
+    ],
+    "answer": 2,
+    "answerText": "Herpes simplex",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 105</span> Which of the following markers in Hepatitis B infection is traceable earlier than the others?",
+    "options": [
+      "HBs Ab",
+      "HBs Ag",
+      "HBe Ag",
+      "HBc Ag"
+    ],
+    "answer": 1,
+    "answerText": "HBs Ag",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 106</span> Which protein of influenza viruses has a role in release of viruses from the cells?",
+    "options": [
+      "M2 protein",
+      "Hemagglutinin",
+      "NP",
+      "Neuraminidase"
+    ],
+    "answer": 3,
+    "answerText": "Neuraminidase",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 107</span> Which of the following viruses can be a cause of hepatocellular carcinoma?",
+    "options": [
+      "HGV",
+      "HAV",
+      "HCV",
+      "HEV"
+    ],
+    "answer": 2,
+    "answerText": "HCV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 103</span> Which virus is carcinogenic?",
+    "options": [
+      "EBV",
+      "CMV",
+      "HSV",
+      "HHV-6"
+    ],
+    "answer": 0,
+    "answerText": "EBV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 104</span> What is called moving parts of RNA between influenza viruses?",
+    "options": [
+      "Recombination",
+      "Reassortment",
+      "Complementation",
+      "Point mutation"
+    ],
+    "answer": 1,
+    "answerText": "Reassortment",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 105</span> Which of the following options is the HIV helper receptor?",
+    "options": [
+      "ICAM1",
+      "CD4",
+      "CD8",
+      "CCR5"
+    ],
+    "answer": 1,
+    "answerText": "CD4",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 106</span> Which virus is the most important cause of children's gastroenteritis?",
+    "options": [
+      "Adenovirus",
+      "Astrovirus",
+      "Rotavirus",
+      "Rhinovirus"
+    ],
+    "answer": 2,
+    "answerText": "Rotavirus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 107</span> Which of the following viruses can cause Hepatocellular carcinoma?",
+    "options": [
+      "Hepatitis G (HGV)",
+      "Hepatitis A (HAV)",
+      "Hepatitis C (HCV)",
+      "Hepatitis E (HEV)"
+    ],
+    "answer": 2,
+    "answerText": "Hepatitis C (HCV)",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 92</span> Which of the following viruses is involved in the creation of Paralysis?",
+    "options": [
+      "Mumps virus",
+      "Coxsackie virus",
+      "Herpes virus",
+      "Rabies virus"
+    ],
+    "answer": 1,
+    "answerText": "Coxsackie virus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 93</span> Which of the following antiviral drugs inhibits the function of the enzyme Integrase in the HIV virus?",
+    "options": [
+      "Maraviroc",
+      "Enfuvirtide",
+      "Fuzeon",
+      "Raltegravir"
+    ],
+    "answer": 3,
+    "answerText": "Raltegravir",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 94</span> Which of the hepatitis-developing viruses has the single-stranded RNA and HBs-Ag in its cover?",
+    "options": [
+      "HBV",
+      "HEV",
+      "HDV",
+      "HCV"
+    ],
+    "answer": 2,
+    "answerText": "HDV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 95</span> In which viral family does Zika virus get categorized and what’s its transporter?",
+    "options": [
+      "Filoviridae, Aedes",
+      "Flaviviridae, Anopheles",
+      "Bunyaviridae, Anopheles",
+      "Flaviviridae, Aedes"
+    ],
+    "answer": 3,
+    "answerText": "Flaviviridae, Aedes",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 92</span> Which one is true about rabies?",
+    "options": [
+      "Negri body is not seen in bats.",
+      "There are clinical symptoms only in humans.",
+      "It spreads through the viremia to the brain.",
+      "Vaccination is made from several dead virus serotypes."
+    ],
+    "answer": 3,
+    "answerText": "Vaccination is made from several dead virus serotypes.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 93</span> Which virus is the agent for infectious mononucleosis with negative heterophile antibody test?",
+    "options": [
+      "Cytomegalovirus",
+      "Epstein Barr",
+      "Varicella zoster",
+      "Herpes Type 8"
+    ],
+    "answer": 0,
+    "answerText": "Cytomegalovirus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 94</span> Aspirin intake followed by infection of which of the following viruses causes Reye syndrome?",
+    "options": [
+      "Parainfluenza",
+      "Measles",
+      "Influenza B",
+      "Polio"
+    ],
+    "answer": 2,
+    "answerText": "Influenza B",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 95</span> Which of the following is a way to transmit Hepatitis A virus?",
+    "options": [
+      "Consuming cooked meat",
+      "Contact infected syringe",
+      "Sexual contact with the infected person",
+      "Changing diapers of affected children"
+    ],
+    "answer": 3,
+    "answerText": "Changing diapers of affected children",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 92</span> Which of the following viruses has DNA as genome?",
+    "options": [
+      "Polio",
+      "Measles",
+      "Rubella",
+      "Parvovirus"
+    ],
+    "answer": 3,
+    "answerText": "Parvovirus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 93</span> Vaccination against which of the hepatitis viruses causes immunity against hepatitis D?",
+    "options": [
+      "HAV",
+      "HCV",
+      "HBV",
+      "HEV"
+    ],
+    "answer": 2,
+    "answerText": "HBV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 94</span> Which of the following drugs is used in treating influenza?",
+    "options": [
+      "Aciclovir",
+      "Foscarnet",
+      "Vidarabine",
+      "Oseltamivir"
+    ],
+    "answer": 3,
+    "answerText": "Oseltamivir",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 95</span> Which of the following viruses causes congenital abnormality?",
+    "options": [
+      "Measles",
+      "Hepatitis A",
+      "Mumps",
+      "Cytomegalovirus"
+    ],
+    "answer": 3,
+    "answerText": "Cytomegalovirus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 126</span> Which of the following viruses causes cold sores?",
+    "options": [
+      "HTLV-1",
+      "HSV-2",
+      "HCV",
+      "HSV-1"
+    ],
+    "answer": 3,
+    "answerText": "HSV-1",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 127</span> Hepatitis C comes with which of the following viruses?",
+    "options": [
+      "HCV",
+      "HSV-1",
+      "HBV",
+      "HIV"
+    ],
+    "answer": 0,
+    "answerText": "HCV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 128</span> Which one is the specified receptor on the surface of lymphocyte T for HIV?",
+    "options": [
+      "Heparan sulfate",
+      "Sialic acid",
+      "CD4",
+      "CD46"
+    ],
+    "answer": 2,
+    "answerText": "CD4",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 129</span> Which one is the major transfer way of hepatitis A?",
+    "options": [
+      "Fecal - Oral",
+      "Blood",
+      "Nervous",
+      "Lymph"
+    ],
+    "answer": 0,
+    "answerText": "Fecal - Oral",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 92</span> Which one of the molecules of influenza A virus is the cell attachment protein?",
+    "options": [
+      "Matrix protein (M1)",
+      "Neuraminidase (NA)",
+      "Hemagglutinin (HA)",
+      "Nucleoprotein (NP)"
+    ],
+    "answer": 2,
+    "answerText": "Hemagglutinin (HA)",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 93</span> A commercial vaccine consisting of virion subunits prepared by recombinant technology exists for:",
+    "options": [
+      "B19",
+      "HIV",
+      "HHV-6",
+      "HBV"
+    ],
+    "answer": 3,
+    "answerText": "HBV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 94</span> Which one of the following viruses is likely to establish latent infection?",
+    "options": [
+      "Poliovirus",
+      "Varicella-zoster virus",
+      "Influenza virus",
+      "Mumps virus"
+    ],
+    "answer": 1,
+    "answerText": "Varicella-zoster virus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 95</span> Which one of the following tests is used for the diagnosis of acute hepatitis A infection?",
+    "options": [
+      "Immunofluorescence",
+      "IgG detection",
+      "IgM detection",
+      "Hemagglutination"
+    ],
+    "answer": 2,
+    "answerText": "IgM detection",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 92</span> MMR vaccine provides immunity against which of the following viruses?",
+    "options": [
+      "Polio, Measles, Rabies",
+      "Polio, Measles, Rubella",
+      "Measles, Rubella, Rabies",
+      "Measles, Mumps, Rubella"
+    ],
+    "answer": 3,
+    "answerText": "Measles, Mumps, Rubella",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 93</span> Which of the following viruses is the most important causative agent in viral gastroenteritis in young children?",
+    "options": [
+      "Parvovirus B19",
+      "Molluscum contagiosum virus",
+      "Rotavirus",
+      "Adenovirus"
+    ],
+    "answer": 2,
+    "answerText": "Rotavirus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 94</span> Which of the following is a nucleoside analog antiviral agent?",
+    "options": [
+      "Azidothymidine",
+      "Rimantadine",
+      "Foscarnet",
+      "Zanamivir"
+    ],
+    "answer": 0,
+    "answerText": "Azidothymidine",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 95</span> Of the viruses shown below, which one is the causative agent of Subacute Sclerosing Panencephalitis (SSPE)?",
+    "options": [
+      "Measles virus",
+      "Herpes Simplex virus 1 (HSV-1)",
+      "Polio virus",
+      "Polyoma virus"
+    ],
+    "answer": 0,
+    "answerText": "Measles virus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 108</span> Which one of the following viruses is associated with high mortality rate in fulminant hepatitis in pregnant women?",
+    "options": [
+      "HAV",
+      "HBV",
+      "HDV",
+      "HEV"
+    ],
+    "answer": 3,
+    "answerText": "HEV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 109</span> Which one of the following viral infections has an effect on parotid glands?",
+    "options": [
+      "Mumps",
+      "Infectious mononucleosis",
+      "Measles",
+      "Parainfluenza virus infections"
+    ],
+    "answer": 0,
+    "answerText": "Mumps",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 110</span> Which one of the following viruses is a major cause of breakbone fever?",
+    "options": [
+      "Marburg",
+      "CCHF",
+      "Yellow fever",
+      "Dengue"
+    ],
+    "answer": 3,
+    "answerText": "Dengue",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 111</span> Which one of the following organs is the main location of primary replication of echoviruses?",
+    "options": [
+      "Central nervous system",
+      "Gastrointestinal",
+      "Respiratory",
+      "Skin"
+    ],
+    "answer": 1,
+    "answerText": "Gastrointestinal",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 112</span> Which one of the following cellular receptors acts as coreceptor in the attachment of HIV?",
+    "options": [
+      "CD4",
+      "Integrin",
+      "CCR5",
+      "gp120"
+    ],
+    "answer": 2,
+    "answerText": "CCR5",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 92</span> Which one of the following viruses is the most important cause of severe gastroenteritis among infants?",
+    "options": [
+      "Echovirus",
+      "Cytomegalovirus",
+      "Poliovirus",
+      "Rotavirus"
+    ],
+    "answer": 3,
+    "answerText": "Rotavirus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 93</span> Which one of the following drugs is used as polymerase inhibitor for hepatitis C treatment?",
+    "options": [
+      "Acyclovir",
+      "Sofosbuvir",
+      "Didanosine",
+      "Lamivudine"
+    ],
+    "answer": 1,
+    "answerText": "Sofosbuvir",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 94</span> A 36-year-old nurse is found to be both HBsAg positive and HBeAg positive. The nurse most likely:",
+    "options": [
+      "Was previously immunized with HBV vaccine",
+      "Has acute hepatitis B.",
+      "Has both HBV and HEV infections.",
+      "Has cleared a past HBV infection."
+    ],
+    "answer": 1,
+    "answerText": "Has acute hepatitis B.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 95</span> Which of the following viruses has the subunit vaccine?",
+    "options": [
+      "Varicella",
+      "Rabies",
+      "Hepatitis A",
+      "Papilloma"
+    ],
+    "answer": 3,
+    "answerText": "Papilloma",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 90</span> Which of the following influenza virus proteins is inhibited by the drug Zanamivir?",
+    "options": [
+      "M2 (Ionic channel Protein)",
+      "NA (Neuraminidase)",
+      "NS1 (Non-structural protein)",
+      "M1 (Matrix protein)"
+    ],
+    "answer": 1,
+    "answerText": "NA (Neuraminidase)",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 91</span> Which of the following options is true about Corona viruses?",
+    "options": [
+      "They have a circular RNA genome.",
+      "Their genome has an ambisense polarity.",
+      "They cause disease only in human.",
+      "They are enveloped viruses."
+    ],
+    "answer": 3,
+    "answerText": "They are enveloped viruses.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 92</span> Which herpes virus becomes latent in B lymphocytes?",
+    "options": [
+      "EBV",
+      "CMV",
+      "VZV",
+      "HSV-1"
+    ],
+    "answer": 0,
+    "answerText": "EBV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 93</span> Which of the following diseases is caused by arthropods?",
+    "options": [
+      "MERS",
+      "Yellow fever",
+      "SSPE",
+      "Lassa fever"
+    ],
+    "answer": 1,
+    "answerText": "Yellow fever",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 94</span> Which of the following diseases has a vaccine?",
+    "options": [
+      "Hepatitis C",
+      "AIDS",
+      "Hepatitis E",
+      "Mumps"
+    ],
+    "answer": 3,
+    "answerText": "Mumps",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 90</span> Which of the following viruses belongs to arboviruses?",
+    "options": [
+      "Molluscum contagiosum",
+      "Tanapox",
+      "Orf",
+      "Cowpox"
+    ],
+    "answer": 3,
+    "answerText": "Cowpox",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 91</span> Which of the following is true about Poliomyelitis?",
+    "options": [
+      "It is impossible to be eradicated.",
+      "Only children become infected.",
+      "Immunity to one serotype potentially provides immunity for other serotypes.",
+      "The virus is easily isolated from feces and the throat."
+    ],
+    "answer": 3,
+    "answerText": "The virus is easily isolated from feces and the throat.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 92</span> Which of the following sentences is correct about hepatitis B?",
+    "options": [
+      "Hepatitis genome is a complete circular ds DNA.",
+      "Hepatitis genome is partially circular ds DNA.",
+      "Different type of virus particles contain DNA.",
+      "Virus replicates in cytoplasm."
+    ],
+    "answer": 1,
+    "answerText": "Hepatitis genome is partially circular ds DNA.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 93</span> Which of the following sentences is correct about Zona?",
+    "options": [
+      "The virus is transmitted via the respiratory system.",
+      "Patients are able to transmit varicella zoster.",
+      "PCR method is not a sensitive technique for the detection of the viruses.",
+      "Motor neurons are infected."
+    ],
+    "answer": 0,
+    "answerText": "The virus is transmitted via the respiratory system.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 94</span> Which of the following is true about Herpesviridae family?",
+    "options": [
+      "The genome is a circular ds DNA.",
+      "The virus envelope is attached to capsid.",
+      "The DNA polymerase is a structural protein.",
+      "The genome has repeated sequences."
+    ],
+    "answer": 3,
+    "answerText": "The genome has repeated sequences.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 90</span> Negri Inclusion body is pathognomonic of which viral disease?",
+    "options": [
+      "Rabies",
+      "Herpes",
+      "Hepatitis A",
+      "Measles"
+    ],
+    "answer": 0,
+    "answerText": "Rabies",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 91</span> Which of the following virus families contains RNA genome and causing human cancer?",
+    "options": [
+      "Polyomaviridae",
+      "Herpesviridae",
+      "Papillomaviridae",
+      "Retroviridae"
+    ],
+    "answer": 3,
+    "answerText": "Retroviridae",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 92</span> Which disease can be caused by Human T-lymphotropic virus (HTLV)?",
+    "options": [
+      "Multiple Sclerosis",
+      "Tropical Spastic Paraparesis (TSP)",
+      "Skin cancer",
+      "Wart"
+    ],
+    "answer": 1,
+    "answerText": "Tropical Spastic Paraparesis (TSP)",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 93</span> The etiology of hand, foot and mouth disease is .......... virus?",
+    "options": [
+      "Polio",
+      "Parecho",
+      "Coxsackie A",
+      "Rhino"
+    ],
+    "answer": 2,
+    "answerText": "Coxsackie A",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 94</span> Which of the following human vaccine is live attenuated virus?",
+    "options": [
+      "Measles",
+      "Hepatitis B",
+      "Papilloma",
+      "Rabies"
+    ],
+    "answer": 0,
+    "answerText": "Measles",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 90</span> Which of the following family viruses has Peplomer in its structure?",
+    "options": [
+      "Polio",
+      "Parvo",
+      "Delta",
+      "Influenza"
+    ],
+    "answer": 3,
+    "answerText": "Influenza",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 91</span> Which of the following viruses has RNA dependent RNA polymerase in its structure?",
+    "options": [
+      "Measles",
+      "Rubella",
+      "Hepatitis D",
+      "Polio"
+    ],
+    "answer": 0,
+    "answerText": "Measles",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 92</span> Which of the following statements is true about inclusion bodies?",
+    "options": [
+      "Only are situated in the nucleus.",
+      "Only have affinity to the basic dye.",
+      "Larger than the virus particle.",
+      "Only are situated in the cytoplasm."
+    ],
+    "answer": 2,
+    "answerText": "Larger than the virus particle.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 93</span> Which of the following nucleoside analogues is used for HBV treatment?",
+    "options": [
+      "Saquinavir",
+      "Oseltamivir",
+      "Lamivudine",
+      "Ganciclovir"
+    ],
+    "answer": 2,
+    "answerText": "Lamivudine",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 94</span> Which type of adenovirus causes diarrhea?",
+    "options": [
+      "37",
+      "41",
+      "7",
+      "22"
+    ],
+    "answer": 1,
+    "answerText": "41",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 90</span> Which of the following viruses is sensitive to ether?",
+    "options": [
+      "Adeno",
+      "Polio",
+      "Papilloma",
+      "Corona"
+    ],
+    "answer": 0,
+    "answerText": "Adeno",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 91</span> Which of the following viruses is associated with progressive multifocal leukoencephalopathy (PML)?",
+    "options": [
+      "Measles",
+      "JC",
+      "Rubella",
+      "Adeno"
+    ],
+    "answer": 1,
+    "answerText": "JC",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 92</span> Which of the following drugs is a viral polymerase inhibitor?",
+    "options": [
+      "Acyclovir",
+      "Ritonavir",
+      "Amantadine",
+      "Oseltamivir"
+    ],
+    "answer": 0,
+    "answerText": "Acyclovir",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 93</span> Which of the following best describes the SARS-CoV-2 viruses?",
+    "options": [
+      "Non-enveloped viruses with a non-infectious genome.",
+      "Enveloped viruses with a non-infectious genome.",
+      "Enveloped viruses with an infectious genome.",
+      "Non-enveloped viruses with an infectious genome."
+    ],
+    "answer": 2,
+    "answerText": "Enveloped viruses with an infectious genome.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 94</span> Which of the following markers indicates immunity to Hepatitis B virus (HBV)?",
+    "options": [
+      "Anti-HBs",
+      "Anti-HBc",
+      "Anti-HBe",
+      "Anti-HBx"
+    ],
+    "answer": 0,
+    "answerText": "Anti-HBs",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 90</span> Which of the following definitions for a patient with chronic hepatitis B is correct?",
+    "options": [
+      "Patient’s HBs Ag test is positive for at least 6 months",
+      "Patient’s HBs Ag test is positive for at least 3 months",
+      "Patient’s HBs Ag test is positive for at least one month",
+      "Patient’s anti-HBs Ag antibodies test is positive"
+    ],
+    "answer": 0,
+    "answerText": "Patient’s HBs Ag test is positive for at least 6 months",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 91</span> Among various 'Inclusion Bodies', which one is the characteristic of Rabies disease?",
+    "options": [
+      "Negri Bodies",
+      "Cowdry Bodies",
+      "Owel eye Bodies",
+      "Molluscum Bodies"
+    ],
+    "answer": 0,
+    "answerText": "Negri Bodies",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 92</span> Among the following papilloma viruses, which ones are classified as High Risk?",
+    "options": [
+      "6 & 11",
+      "16 & 18",
+      "6 & 16",
+      "31 & 11"
+    ],
+    "answer": 1,
+    "answerText": "16 & 18",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 93</span> To which of the following families do the JC and BK viruses belong?",
+    "options": [
+      "Polyomaviridae",
+      "Adenoviridae",
+      "Coronaviridae",
+      "Parvoviridae"
+    ],
+    "answer": 0,
+    "answerText": "Polyomaviridae",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 94</span> In which families of the viruses below does Genetic Reassortment occur?",
+    "options": [
+      "Adenoviridae",
+      "Orthomyxoviridae",
+      "Coronaviridae",
+      "Hepadnaviridae"
+    ],
+    "answer": 1,
+    "answerText": "Orthomyxoviridae",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 90</span> Which of the following statements is correct about Herpesviridae family?",
+    "options": [
+      "The genome is a circular dsDNA.",
+      "Penetration of virus to the cell occurs through endocytosis.",
+      "Replication of the genome occurs in the nucleus.",
+      "The virus does not use the cellular RNA Polymerase II."
+    ],
+    "answer": 2,
+    "answerText": "Replication of the genome occurs in the nucleus.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 91</span> Which of the following antivirals is a nucleoside analogue?",
+    "options": [
+      "Valacyclovir",
+      "Oseltamivir",
+      "Maraviroc",
+      "Saquinavir"
+    ],
+    "answer": 0,
+    "answerText": "Valacyclovir",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 92</span> The result of the serologic test of a person was only HBs-Ab positive. The interpretation of the test is ……… .",
+    "options": [
+      "past HBV infection",
+      "incubation period of HBV",
+      "immunization with an HBV vaccine",
+      "chronic infection by HBV"
+    ],
+    "answer": 2,
+    "answerText": "immunization with an HBV vaccine",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 93</span> Which of the following statements is correct about rabies?",
+    "options": [
+      "Cattles are not susceptible to rabies.",
+      "All human vaccines are inactivated vaccines.",
+      "Rabies has different serotypes.",
+      "The incubation period of rabies is fixed and is about 1-2 weeks."
+    ],
+    "answer": 1,
+    "answerText": "All human vaccines are inactivated vaccines.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 94</span> Which virus is associated with human cancer?",
+    "options": [
+      "Adeno",
+      "Molluscum Contagiosum",
+      "B.K.",
+      "EBV"
+    ],
+    "answer": 3,
+    "answerText": "EBV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 90</span> Which of the following viruses is the cause of nephropathy?",
+    "options": [
+      "JC",
+      "BK",
+      "Coxsacki A",
+      "SV42"
+    ],
+    "answer": 1,
+    "answerText": "BK",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 91</span> Which of the following viruses is transmitted by mosquitoes?",
+    "options": [
+      "Crimean-Congo hemorrhagic fever (CCHF)",
+      "Norwalk",
+      "Hanta",
+      "Dengue fever"
+    ],
+    "answer": 3,
+    "answerText": "Dengue fever",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 92</span> Which of the following viruses has genetic variations?",
+    "options": [
+      "Measles",
+      "Rubella",
+      "Influenza",
+      "Rabies"
+    ],
+    "answer": 2,
+    "answerText": "Influenza",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 93</span> Which of the following components of viruses are inactivated by ultraviolet rays?",
+    "options": [
+      "Proteins",
+      "Glycoproteins",
+      "Lipids",
+      "DNA"
+    ],
+    "answer": 3,
+    "answerText": "DNA",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 94</span> Croup is caused by...",
+    "options": [
+      "Measles",
+      "Rabies",
+      "Mumps",
+      "Parainfluenza"
+    ],
+    "answer": 3,
+    "answerText": "Parainfluenza",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 86</span> Which of the following HBV seromarkers is associated with a high risk of transmission?",
+    "options": [
+      "HBcAg",
+      "HBeAg",
+      "HBsAg",
+      "HBcAb"
+    ],
+    "answer": 1,
+    "answerText": "HBeAg",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 87</span> Which protein interaction mediates the HIV attachment to the target cell?",
+    "options": [
+      "gp41-CD21",
+      "gp41-CD155",
+      "gp120-CD4",
+      "gp120-CD8"
+    ],
+    "answer": 2,
+    "answerText": "gp120-CD4",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 88</span> Which types of HPV are considered as high risk for cervical cancer?",
+    "options": [
+      "6-18",
+      "11-16",
+      "6-16",
+      "16-18"
+    ],
+    "answer": 3,
+    "answerText": "16-18",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 89</span> Which of the following is NOT an Arbovirus?",
+    "options": [
+      "Rotavirus",
+      "Dengue fever virus",
+      "West Nile virus",
+      "CCHF"
+    ],
+    "answer": 0,
+    "answerText": "Rotavirus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 90</span> What is the mechanism of oseltamivir function?",
+    "options": [
+      "M2 protein inhibitor",
+      "Viral polymerase inhibitor",
+      "Neuraminidase inhibitor",
+      "Inhibition of viral protein synthesis"
+    ],
+    "answer": 2,
+    "answerText": "Neuraminidase inhibitor",
+    "explanation": "",
     "userAnswer": null
   }
 ]
