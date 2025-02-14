@@ -1,28 +1,2328 @@
 [
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events?",
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 195</span> In a study 12 women with uterine cancer and 12 healthy women, a history of estrogen consumption has been asked. Each woman with cancer is matched in terms of age, race, and weight of a healthy woman. What is the design of the study?",
     "options": [
-      "Opening of Na+ channels",
-      "Opening of K+ channels",
-      "Opening of Ca++ voltage-gated channels",
-      "Closing of Cl− channels"
+      "Concurrently cohort study",
+      "Retrospective cohort study",
+      "Case control study",
+      "Analytical sectional study"
     ],
     "answer": 2,
-    "answerText": "Opening of Ca++ voltage-gated channels",
-    "explanation": "The influx of Ca++ through voltage-gated calcium channels triggers neurotransmitter release into the synaptic cleft.",
+    "answerText": "Case control study",
+    "explanation": "",
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?",
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 196</span> In a cohort study of 300 smokers, 84 and out of 5,000 who have not smoked, 87 have been infected with heart disease. Risk of assignment for the exposure group is several in thousand?",
     "options": [
-      "Opening of Na+ channels",
-      "Opening of K+ channels at the surface of the postsynaptic membrane",
-      "Closing of K+ channels",
-      "Depolarization of the membrane"
+      "1.6",
+      "10.6",
+      "17.4",
+      "28"
     ],
     "answer": 1,
-    "answerText": "Opening of K+ channels at the surface of the postsynaptic membrane",
-    "explanation": "Inhibitory neurotransmitters cause hyperpolarization by opening K+ channels, making the postsynaptic membrane less excitable.",
+    "answerText": "10.6",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 197</span> In a screening program, according to the information in the table below, the sensitivity and positive predictive value of a screening test are what percentage, respectively?<br><img src='https://i.imgur.com/CTwwxKF.jpeg' alt='Screening Test Table' style='max-width: 100%; height: auto;'>",
+    "options": [
+      "80 and 33",
+      "80 and 60",
+      "89 and 60",
+      "89 and 33"
+    ],
+    "answer": 0,
+    "answerText": "80 and 33",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 198</span> From the division of the number of new cases of an illness over a given period to the total people-times who have been at risk, which size will be achieved?",
+    "options": [
+      "Cumulative incidence",
+      "Incidence density",
+      "Affected risk",
+      "Relative risk"
+    ],
+    "answer": 1,
+    "answerText": "Incidence density",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 199</span> All changes in explaining the true situation of the procedure of attenuation rate over time is true in a community except:",
+    "options": [
+      "Lifetime",
+      "Incidence of disease",
+      "Age composition of the population",
+      "Encoding the name of the disease"
+    ],
+    "answer": 3,
+    "answerText": "Encoding the name of the disease",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 200</span> If the relative risk is one, what is the concept?",
+    "options": [
+      "The exposure factor doubles the risk of disease",
+      "The exposure factor increases disease risk by one percent",
+      "The exposure factor increases disease risk by one hundred percent",
+      "There is no relationship between exposure and disease"
+    ],
+    "answer": 3,
+    "answerText": "There is no relationship between exposure and disease",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 193</span> Which of the following studies provides a stronger evidence for the existence of a statistical relationship between an exposure and a disease?",
+    "options": [
+      "Cross-Sectional",
+      "Case Study",
+      "Series of cases",
+      "Cohort"
+    ],
+    "answer": 3,
+    "answerText": "Cohort",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 194</span> Which of the following are the characteristics of an epidemic with a source and a common transmission medium?",
+    "options": [
+      "The epidemic begins exploding",
+      "The epidemic curve has several peaks",
+      "A lot of secondary stuff is done",
+      "The process of epidemic is slow"
+    ],
+    "answer": 0,
+    "answerText": "The epidemic begins exploding",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 195</span> Using the following table, what is the probability that a person with positive test results will actually have a disease?<br><img src='https://i.imgur.com/pfyorDC.jpeg' style='max-width: 100%; height: auto;'>",
+    "options": [
+      "45",
+      "25",
+      "3/33",
+      "75"
+    ],
+    "answer": 1,
+    "answerText": "25",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 196</span> In which of the following types of studies are the measurements of exposure done before the outcome is measured?",
+    "options": [
+      "Case Control",
+      "Cross-sectional",
+      "Cohort",
+      "Ecological"
+    ],
+    "answer": 2,
+    "answerText": "Cohort",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 197</span> The purpose of blinding in a clinical trial study is to prevent which type of bias?",
+    "options": [
+      "Selection",
+      "Reminder",
+      "Brickson",
+      "Information"
+    ],
+    "answer": 3,
+    "answerText": "Information",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 198</span> Which criterion for judging the relationship between smoking and death is given in the table below?",
+    "options": [
+      "Power of communication",
+      "The propriety of the relationship",
+      "Relationship-dose response",
+      "Repeatability of the findings"
+    ],
+    "answer": 2,
+    "answerText": "Relationship-dose response",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 199</span> The results of a case-control study are presented in the following table. Which one of the following options is odds ratio?<br><img src='https://i.imgur.com/pmhwkpJ.jpeg' style='max-width: 100%; height: auto;'>",
+    "options": [
+      "3",
+      "0.3",
+      "0.25",
+      "4"
+    ],
+    "answer": 0,
+    "answerText": "3",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 193</span> Which of the following studies provides stronger evidence for the statistical relationship between an exposure and a disease?",
+    "options": [
+      "Cross-sectional",
+      "Case control",
+      "Series of cases",
+      "Cohort"
+    ],
+    "answer": 3,
+    "answerText": "Cohort",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 194</span> In a study of 500 survivors of an earthquake, 100 were diagnosed by a psychiatrist (gold standard) with PTSD. The results of a screening test were positive in 80 of 100 patients, and negative in 360 of 400. What are the specificity and positive predictive value, respectively?",
+    "options": [
+      "90, 67",
+      "90, 80",
+      "80, 67",
+      "80, 80"
+    ],
+    "answer": 1,
+    "answerText": "90, 80",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 195</span> What is it called when a disease does not have a history of being in a community and then emerges?",
+    "options": [
+      "Endemic",
+      "Epizootic",
+      "Sporadic",
+      "Exotic"
+    ],
+    "answer": 3,
+    "answerText": "Exotic",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 196</span> What is the time interval between cell-derived mutations from radiation to the onset of leukemia?",
+    "options": [
+      "Induction period",
+      "Incubation period",
+      "Communicable period",
+      "Secular trend"
+    ],
+    "answer": 0,
+    "answerText": "Induction period",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 197</span> A large study conducted in 1954 to evaluate the effectiveness of the polio vaccine in about one million children is an example of which study?",
+    "options": [
+      "Community trial",
+      "Clinical trial",
+      "Field trial"
+    ],
+    "answer": 2,
+    "answerText": "Field trial",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 198</span> Which option is defined as 'Collecting, analyzing, interpreting, and disseminating timely, continuous, and regular health data'?",
+    "options": [
+      "Vital events",
+      "Care system",
+      "Hospital information system",
+      "Case finding"
+    ],
+    "answer": 3,
+    "answerText": "Case finding",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 219</span> Which of the following indicates the number of new cases diagnosed with a disease in a specific time period?",
+    "options": [
+      "Periodic prevalence",
+      "The point prevalence",
+      "Incidence",
+      "Attack rate"
+    ],
+    "answer": 2,
+    "answerText": "Incidence",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 220</span> In order to determine the precision of the thoracic photograph in diagnosis of tuberculosis, from one hundred patients with tuberculosis and one hundred healthy people chest x-rays were taken. The result of the graphy was positive in 80 cases of tuberculosis patients. Which of the following is correct based on this?",
+    "options": [
+      "Chest X-ray sensitivity is 80% in the diagnosis of tuberculosis patients.",
+      "The chest x-ray specificity is 80% in the diagnosis of tuberculosis patients.",
+      "The positive predictive value of chest x-ray is 80% in the diagnosis of tuberculosis patients.",
+      "The negative predictive value of chest x-ray is 80% in the diagnosis of tuberculosis patients."
+    ],
+    "answer": 0,
+    "answerText": "Chest X-ray sensitivity is 80% in the diagnosis of tuberculosis patients.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 221</span> Which one is epidemiologically appropriate in case of a case of smallpox since there are no cases of smallpox being reported in Iran in recent years?",
+    "options": [
+      "Sporadic",
+      "Epidemic",
+      "Endemic",
+      "Pandemic"
+    ],
+    "answer": 0,
+    "answerText": "Sporadic",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 222</span> How are the case and control groups selected in a case-control study, with a purpose of investigating the relationship between smoking and bladder cancer?",
+    "options": [
+      "Healthy smokers and non-smokers",
+      "Smoker and non-smoker People with bladder cancer",
+      "People with bladder cancer and healthy people",
+      "Smokers are randomly divided into two groups"
+    ],
+    "answer": 2,
+    "answerText": "People with bladder cancer and healthy people",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 223</span> It has been stipulated that in diabetes care system in the city of Kerman all of the age and sex groups should be covered in the diabetes care system, as well as all residents of cities and villages. What feature of the care system does this indicate?",
+    "options": [
+      "Timeliness",
+      "Flexibility",
+      "Acceptability",
+      "Representativeness"
+    ],
+    "answer": 3,
+    "answerText": "Representativeness",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 224</span> A researcher intends to study the effect of occupational exposure A on causation of B disease. Which design is more suitable for this type of research?",
+    "options": [
+      "Cohort",
+      "Case-control",
+      "Cross-sectional",
+      "Clinical trial"
+    ],
+    "answer": 0,
+    "answerText": "Cohort",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 225</span> Which of the following is a characteristic of a cohort study?",
+    "options": [
+      "The higher incidence of cases under study in the exposed group.",
+      "The same incidence of the underlying disease in the exposed and non-exposed groups.",
+      "The higher incidence of cases under study in the non-exposed group.",
+      "The same exposure to risk factors in the studied groups."
+    ],
+    "answer": 0,
+    "answerText": "The higher incidence of cases under study in the exposed group.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 219</span> The time interval between an infectious pathogen infestation and the appearance of the first signs and symptoms of the disease is which one of the following?",
+    "options": [
+      "Settlement period",
+      "Transmission period",
+      "Incubation period",
+      "Infectivity period"
+    ],
+    "answer": 2,
+    "answerText": "Incubation period",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 220</span> In a cohort study aimed at investigating the relationship between smoking and lung cancer, what groups of people are included?",
+    "options": [
+      "Healthy smokers and non-smokers",
+      "Smoker and non-smoker people with lung cancer",
+      "People with lung cancer and healthy people",
+      "Smokers who are randomly divided into two groups"
+    ],
+    "answer": 0,
+    "answerText": "Healthy smokers and non-smokers",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 221</span> In a kindergarten there are 45 children under 5 years of age, of whom 30 are immune to measles. Recently, one of them has been infected with measles, and after that, seven others have suffered measles. How much is the secondary attack rate (SAR) for measles disease in this kindergarten?",
+    "options": [
+      "14%",
+      "46.6%",
+      "50%",
+      "64%"
+    ],
+    "answer": 2,
+    "answerText": "50%",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 222</span> In examining an epidemic, the first action is:",
+    "options": [
+      "Determine the distribution of disease cases in terms of time and place",
+      "Determine the presence or absence of epidemics",
+      "Determination of the agent releasing the agent",
+      "Recommendation for control measures"
+    ],
+    "answer": 0,
+    "answerText": "Determine the distribution of disease cases in terms of time and place",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 223</span> Which criteria for judging the causal relationship are weaker and less important?",
+    "options": [
+      "The power of communication",
+      "Time relationship",
+      "Consistency",
+      "Connection Feature"
+    ],
+    "answer": 0,
+    "answerText": "The power of communication",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 224</span> According to the data in the following table, the sensitivity and specificity of the used test are which one of the following? <br><img src='https://i.imgur.com/chdxZZy.jpeg' style='max-width: 100%; height: auto;'>",
+    "options": [
+      "80% and 20%",
+      "20% and 80%",
+      "80% and 80%",
+      "20% and 20%"
+    ],
+    "answer": 2,
+    "answerText": "80% and 80%",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 225</span> Pandemic is that the disease:",
+    "options": [
+      "is more than expected in the apparent form",
+      "At the same time, a large number of countries must be included.",
+      "It is prevalent at expected and normal range among people.",
+      "There must be a seasonal release between humans and animals"
+    ],
+    "answer": 1,
+    "answerText": "At the same time, a large number of countries must be included.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 193</span> Which of the following studies provides stronger evidence for the existence of a statistical relationship between an exposure and a disease?",
+    "options": [
+      "Cross-Sectional",
+      "Case Study",
+      "Series of cases",
+      "Cohort"
+    ],
+    "answer": 3,
+    "answerText": "Cohort",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 194</span> Which of the following are characteristics of an epidemic with a source and a common transmission medium?",
+    "options": [
+      "The epidemic begins exploding",
+      "The epidemic curve has several peaks",
+      "A lot of secondary cases appear",
+      "The process of epidemic is slow"
+    ],
+    "answer": 0,
+    "answerText": "The epidemic begins exploding",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 195</span> Using the following table, what is the probability that a person with positive test results will actually have a disease? <br><img src='https://i.imgur.com/6WfllId.jpeg' style='max-width: 100%; height: auto;'>",
+    "options": [
+      "45",
+      "25",
+      "3/33",
+      "75"
+    ],
+    "answer": 1,
+    "answerText": "25",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 196</span> In which of the following types of studies are the measurements of exposure done before the outcome is measured?",
+    "options": [
+      "Case Control",
+      "Cross-sectional",
+      "Cohort",
+      "Ecological"
+    ],
+    "answer": 2,
+    "answerText": "Cohort",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 197</span> The purpose of blinding in a clinical trial study is to prevent which type of bias?",
+    "options": [
+      "Selection",
+      "Recall",
+      "Detection",
+      "Information"
+    ],
+    "answer": 3,
+    "answerText": "Information",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 198</span> Which criterion for judging the relationship between smoking and death is demonstrated by the dose-response relationship?",
+    "options": [
+      "Power of association",
+      "The appropriateness of the relationship",
+      "Dose-response relationship",
+      "Repeatability of findings"
+    ],
+    "answer": 2,
+    "answerText": "Dose-response relationship",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 199</span> The results of a case-control study are presented in the following table. What is the odds ratio? <br><img src='https://i.imgur.com/RyZONx8.jpeg' style='max-width: 100%; height: auto;'>",
+    "options": [
+      "3",
+      "0.3",
+      "0.25",
+      "4"
+    ],
+    "answer": 0,
+    "answerText": "3",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 219</span> In the study of diabetes, two groups were compared. The first group included 1,500 people who reported the disease, and the second group included 3,000 healthy and non-diseased individuals. Both groups reported 150 family history of diabetes in their first-degree relatives. What is the odds ratio of diabetes due to family history?",
+    "options": [
+      "2.1 times",
+      "1%",
+      "50 times",
+      "1.5 times"
+    ],
+    "answer": 0,
+    "answerText": "2.1 times",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 220</span> A group of patients with bladder cancer and a group of matched healthy people (age and sex) were compared to examine the relationship with smoking history. What kind of study is this?",
+    "options": [
+      "Intervention",
+      "Case-control",
+      "Cross-section",
+      "Cohort"
+    ],
+    "answer": 1,
+    "answerText": "Case-control",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 221</span> In a region with 10 million people, by the end of the year, there have been 20,000 deaths. Of these, there were 200 cases involving two dozen people with cervical cancer. What is the specific death rate of the cause of cervical cancer and the rate of its disease?",
+    "options": [
+      "2 in 1,000 and 100 in thousand",
+      "10 per thousand and 10 per thousand",
+      "1% and 10%",
+      "10% and 10%"
+    ],
+    "answer": 0,
+    "answerText": "2 in 1,000 and 100 in thousand",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 222</span> Failure to recognize the priority and timing of the occurrence of the relationship (Exposure outcome) cannot be achieved in which of the following epidemiological studies?",
+    "options": [
+      "Case-control",
+      "Cohort",
+      "Intervention",
+      "Cross-section"
+    ],
+    "answer": 3,
+    "answerText": "Cross-section",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 223</span> If in a cohort study, the relative risk (RR) is calculated to be greater than one, what does this indicate?",
+    "options": [
+      "Negative correlation is likely to be a deterrent",
+      "There is no solidarity",
+      "Solidarity cannot be judged",
+      "Solidarity is positive and may be causal"
+    ],
+    "answer": 3,
+    "answerText": "Solidarity is positive and may be causal",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 224</span> On which groups are cross-sectional studies conducted?",
+    "options": [
+      "Only patients",
+      "A random sample of the population",
+      "A group of sick people and a group of seemingly healthy people",
+      "Only healthy people"
+    ],
+    "answer": 1,
+    "answerText": "A random sample of the population",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 225</span> Which of the following studies provides stronger evidence for the existence of a statistical relationship between an exposure and a disease?",
+    "options": [
+      "Cross-section",
+      "Case-control",
+      "Series of cases",
+      "Cohort"
+    ],
+    "answer": 3,
+    "answerText": "Cohort",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 219</span> One doctor believes in the effect of drinking tea on postoperative pain relief in patients. Which type of study do you recommend to prove this?",
+    "options": [
+      "Cross-sectional study",
+      "Case-control study",
+      "Cohort study",
+      "Clinical trial"
+    ],
+    "answer": 3,
+    "answerText": "Clinical trial",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 220</span> Which of the following is not a secondary prevention?",
+    "options": [
+      "Thyroid hormone tests in newborns at birth",
+      "Regular blood pressure measurement in people over thirty years",
+      "Regular blood glucose test in diabetic patients",
+      "Annual mammography in menopausal women"
+    ],
+    "answer": 2,
+    "answerText": "Regular blood glucose test in diabetic patients",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 221</span> Which one of the following is correct regarding the selection of controls in case-control studies?",
+    "options": [
+      "Controls can be selected from the individual neighbors.",
+      "Wives of the case can be selected as the control group.",
+      "Brothers and sisters of the case group cannot be selected as a control group.",
+      "Controls in case-control studies should be randomly selected from the community as a whole."
+    ],
+    "answer": 0,
+    "answerText": "Controls can be selected from the individual neighbors.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 222</span> The following figure represents which one of the cause-effect relationship? Factor A → Disease",
+    "options": [
+      "Factor A is necessary, but not sufficient",
+      "Factor A is neither sufficient nor necessary",
+      "Factor A is both necessary and sufficient",
+      "Factor A is sufficient, but not necessary"
+    ],
+    "answer": 2,
+    "answerText": "Factor A is both necessary and sufficient",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 223</span> Which of the following is not true about measuring secondary attack rate?",
+    "options": [
+      "This indicator can examine the relative role of environmental factors in noncommunicable diseases.",
+      "This indicator can indicate the spread of disease from person to person in epidemics.",
+      "This indicator can be used to survey individuals in a family exposed to the indexed item.",
+      "This indicator cannot evaluate the role of genetic factors in noncommunicable diseases."
+    ],
+    "answer": 0,
+    "answerText": "This indicator can examine the relative role of environmental factors in noncommunicable diseases.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 224</span> Which of the following indicators are relevant in screening tests with fluctuations in the prevalence of disease in the community?",
+    "options": [
+      "Test feature",
+      "Predictive value",
+      "Test sensitivity",
+      "External credit"
+    ],
+    "answer": 1,
+    "answerText": "Predictive value",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 225</span> Which of the following studies provides stronger evidence for the existence of a statistical relationship between an exposure and a disease?",
+    "options": [
+      "Sectional",
+      "Case-control",
+      "Series cases",
+      "Cohort"
+    ],
+    "answer": 3,
+    "answerText": "Cohort",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 195</span> In which study, the relative risk is directly measurable?",
+    "options": [
+      "Case control",
+      "Cohort",
+      "Cross-sectional",
+      "Ecological"
+    ],
+    "answer": 1,
+    "answerText": "Cohort",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 196</span> In a clinical trial study, which method is more suitable for comparative study groups?",
+    "options": [
+      "Individual matching in the studied groups",
+      "Group matching in the studied groups",
+      "Allocation of individuals in groups by random selection",
+      "Determine entry and exit criteria to start the study"
+    ],
+    "answer": 2,
+    "answerText": "Allocation of individuals in groups by random selection",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 197</span> Which one is correct about the 'Outbreak' index?",
+    "options": [
+      "is a very important and useful tool for determining the burden of disease in the community.",
+      "In calculating it, the deductible amount includes new cases of a disease in the population over a specified period of time.",
+      "measures the risk of infection to disease.",
+      "In calculating it, the denominator includes those at risk for disease."
+    ],
+    "answer": 3,
+    "answerText": "In calculating it, the denominator includes those at risk for disease.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 198</span> Which indicator is used to determine the prognosis of a disease?",
+    "options": [
+      "Specific causal mortality rate",
+      "Proportional mortality",
+      "Standardized mortality ratio",
+      "Death rate"
+    ],
+    "answer": 2,
+    "answerText": "Standardized mortality ratio",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 199</span> In a study, to study the association between smoking and lung cancer, the incidence of the disease in the smoker group was 50 per thousand and the incidence of the disease in the non-smoker group was estimated 5 per thousand. What is the risk associated with smoking in the smokers?",
+    "options": [
+      "10 per thousand",
+      "10 percent",
+      "45 per thousand",
+      "90 percent"
+    ],
+    "answer": 2,
+    "answerText": "45 per thousand",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 200</span> All of the following options directly indicate epidemiological goals but:",
+    "options": [
+      "Determine the cause of a disease and its risk factors",
+      "Providing ways to change community health problems",
+      "Determine the extent and burden of disease in society",
+      "Assess existing prevention and treatment programs"
+    ],
+    "answer": 1,
+    "answerText": "Providing ways to change community health problems",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 195</span> During the Ebola outbreak, one member of a family of 11 people simultaneously caused two more of them. How much is the percent of secondary attacks?",
+    "options": [
+      "18%",
+      "20%",
+      "27%",
+      "30%"
+    ],
+    "answer": 1,
+    "answerText": "20%",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 196</span> Which of the following factors increases the incidence of the disease in a population?",
+    "options": [
+      "Increased severity of the disease",
+      "Increased duration of the disease",
+      "Improvement of therapeutic methods",
+      "Immigration of healthy people into the population"
+    ],
+    "answer": 1,
+    "answerText": "Increased duration of the disease",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 197</span> In a study to examine the relationship between color exposure and mental retardation of children, the parents of 1000 mentally retarded children and parents of 1000 healthy children were interviewed on exposure to colored materials. Specify the type of study.",
+    "options": [
+      "Cohort",
+      "Historical cohort",
+      "Cross-sectional",
+      "Case Study"
+    ],
+    "answer": 2,
+    "answerText": "Cross-sectional",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 198</span> After eating at a party, 36 hours later, 30% of people experienced acute food poisoning. What is the type of pandemic?",
+    "options": [
+      "Instant single source",
+      "Continuous single source",
+      "Progressive",
+      "Slow"
+    ],
+    "answer": 0,
+    "answerText": "Instant single source",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 199</span> How does the outbreak affect the accuracy of diagnostic tests?",
+    "options": [
+      "Increased prevalence of the disease reduces sensitivity.",
+      "Reduced prevalence of the disease reduces the negative predictive value.",
+      "Reduced prevalence of the disease increases the severity of the disease.",
+      "Increased prevalence of the disease increases the positive predictive value."
+    ],
+    "answer": 3,
+    "answerText": "Increased prevalence of the disease increases the positive predictive value.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 200</span> All of the following options directly indicate epidemiological goals but:",
+    "options": [
+      "Determine the cause of a disease and its risk factors",
+      "Providing ways to change community health problems",
+      "Determine the extent and burden of disease in society",
+      "Assess existing prevention and treatment programs"
+    ],
+    "answer": 3,
+    "answerText": "Assess existing prevention and treatment programs",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 195</span> According to Hill criteria all of the following might be true about concluding causality relation but:",
+    "options": [
+      "Temporality",
+      "Dose-response",
+      "Value-predictive",
+      "Association of strength"
+    ],
+    "answer": 2,
+    "answerText": "Value-predictive",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 196</span> In a cohort study, out of the 1,000 workers exposed to asbestos, 100 people were diagnosed with lung cancer. Among the 2000 workers, there were also 100 people with lung cancer without exposure to asbestos. How much is the risk ratio of asbestos in lung cancer?",
+    "options": [
+      "1",
+      "2",
+      "10",
+      "20"
+    ],
+    "answer": 1,
+    "answerText": "2",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 197</span> What is the benefit of a complete anti-viral drug treatment in an HIV-positive person?",
+    "options": [
+      "Patient",
+      "Patient’s wife",
+      "Other people in the community",
+      "Patient and other community members"
+    ],
+    "answer": 3,
+    "answerText": "Patient and other community members",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 198</span> Which one of the following is true if a new anticancer drug increases the patient's lifetime?",
+    "options": [
+      "Decreased prevalence",
+      "Increased prevalence",
+      "Increased incidence",
+      "Decreased incidence"
+    ],
+    "answer": 1,
+    "answerText": "Increased prevalence",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 199</span> Which bias is reduced in randomization of patients in a clinical trials study?",
+    "options": [
+      "Bias information",
+      "Bias recall",
+      "Bias interview",
+      "Bias selection"
+    ],
+    "answer": 3,
+    "answerText": "Bias selection",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 200</span> All of the following options directly indicate epidemiological goals but:",
+    "options": [
+      "Determine the cause of a disease and its risk factors",
+      "Providing ways to change community health problems",
+      "Determine the extent and burden of disease in society",
+      "Assess existing prevention and treatment programs"
+    ],
+    "answer": 3,
+    "answerText": "Assess existing prevention and treatment programs",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 172</span> All of the following options directly indicate epidemiological goals but:",
+    "options": [
+      "Determine the cause of a disease and its risk factors",
+      "Providing ways to change community health problems",
+      "Determine the extent and burden of disease in society",
+      "Assess existing prevention and treatment programs"
+    ],
+    "answer": 1,
+    "answerText": "Providing ways to change community health problems",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 173</span> Which one of the following criteria is weaker in determining the causality relation between smoking and lung cancer?",
+    "options": [
+      "Relationship Power",
+      "Relationship stability",
+      "The propriety of the relationship",
+      "Time communication"
+    ],
+    "answer": 2,
+    "answerText": "The propriety of the relationship",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 175</span> The response to a screening test is in a community of 200, with 80 positive and 120 negative results. An authentic test for the condition was approved for 40 patients with positive results and 10 negative results. What is the positive predictive value in percentage?",
+    "options": [
+      "80 percent",
+      "92 percent",
+      "73 percent",
+      "50 percent"
+    ],
+    "answer": 2,
+    "answerText": "73 percent",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 176</span> A researcher intends to examine the effect of regular daily exercise for 30 minutes on controlling migraine headache attacks. What is the best study type for this review?",
+    "options": [
+      "A randomized clinical trial",
+      "Cross-sectional",
+      "Case-Control",
+      "Cohort"
+    ],
+    "answer": 0,
+    "answerText": "A randomized clinical trial",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 177</span> A 35-year-old woman visits the doctor with a positive pregnancy test by Baby Check and asks how likely she is to be pregnant? Which of the diagnostic value indicators has she asked for in a screening test?",
+    "options": [
+      "Sensitivity",
+      "Specificity",
+      "Positive predictive value",
+      "Negative predictive value"
+    ],
+    "answer": 2,
+    "answerText": "Positive predictive value",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 195</span> Low sample size may cause:",
+    "options": [
+      "confounding error",
+      "random error",
+      "measurement bias",
+      "selection bias"
+    ],
+    "answer": 3,
+    "answerText": "selection bias",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 196</span> In a study, 523 patients with renal failure and 600 healthy people were followed up for 5 years and the incidence of death was compared in these two groups. What is the study type?",
+    "options": [
+      "Cross-sectional study",
+      "Case-control study",
+      "Cohort study",
+      "Clinical trial"
+    ],
+    "answer": 2,
+    "answerText": "Cohort study",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 197</span> Which one is correct in a randomized clinical trial?",
+    "options": [
+      "A random sample of patients must be recruited from patient population and then they must be randomly allocated to treatment groups.",
+      "A random sample of patients must be recruited from patient population",
+      "Patients must be randomly selected",
+      "Patients must be randomly allocated to treatment groups"
+    ],
+    "answer": 0,
+    "answerText": "A random sample of patients must be recruited from patient population and then they must be randomly allocated to treatment groups.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 198</span> A physician visits a patient with a positive lab test. Considering the prevalence of the disease in this population, the physician estimates the probability of having the disease in this patient to be 90%. What is the 90%?",
+    "options": [
+      "Sensitivity",
+      "Positive predictive value",
+      "Specificity",
+      "Probability of the disease in the population"
+    ],
+    "answer": 1,
+    "answerText": "Positive predictive value",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 199</span> Which one is correct?",
+    "options": [
+      "Odds is a number between 0 and ∞",
+      "Risk is a number between 0 and ∞",
+      "Relative risk is a number between 0 and 1",
+      "Odds ratio is a number between 0 and 1"
+    ],
+    "answer": 0,
+    "answerText": "Odds is a number between 0 and ∞",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 200</span> All of following statements are directly lead to epidemiology goals, EXCEPT:",
+    "options": [
+      "identifying the cause of one disease and risk elements of it",
+      "implementation the solutions for changing the community health problems",
+      "appointing and specifying the disease expansion and effect of it on society",
+      "evaluating the present preventing and remedial program"
+    ],
+    "answer": 2,
+    "answerText": "appointing and specifying the disease expansion and effect of it on society",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 195</span> All of the following statements are aims of epidemiology EXCEPT:",
+    "options": [
+      "study of natural history and prognostic factors of disease",
+      "determining risk factors and determinants of disease in populations",
+      "determining the cause of leukemia in a case of leukemia",
+      "evaluating new treatments and health services"
+    ],
+    "answer": 2,
+    "answerText": "determining the cause of leukemia in a case of leukemia",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 196</span> Consider the following findings from a case control study. What is the odds ratio exposure in this study?<br/> <br/> <img src='https://i.imgur.com/w40fpAY.jpeg' style='max-width: 100%; height: auto;'>",
+    "options": [
+      "4",
+      "2",
+      "0.5",
+      "0.25"
+    ],
+    "answer": 1,
+    "answerText": "2",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 197</span> Which statement implies the incidence of tuberculosis in a city?",
+    "options": [
+      "30000 individuals had tuberculosis in 2016 in the city",
+      "2% of people in the city have got tuberculosis in 2016",
+      "3% of people had tuberculosis in 2016 in the city",
+      "Number of people with tuberculosis increased to 1% in 2016 in the city"
+    ],
+    "answer": 1,
+    "answerText": "2% of people in the city have got tuberculosis in 2016",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 198</span> All of the following statements are examples of syndromic surveillance system, EXCEPT:",
+    "options": [
+      "report of cases with flu like symptoms",
+      "report of cases with acute flaccid paralysis",
+      "report of cases of maternal mortality",
+      "report of adverse drug reactions to food and drug organization"
+    ],
+    "answer": 3,
+    "answerText": "report of adverse drug reactions to food and drug organization",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 199</span> Fifty out of 200 schoolchildren were diagnosed having refractive error based on an ophthalmologist’s exam (as a gold standard). Of these 50 children, 40 were diagnosed to have refractive error by a screening test. Which one is correct?",
+    "options": [
+      "the specificity of the screening test is 25%",
+      "the sensitivity of the screening test is 25%",
+      "the specificity of the screening test is 80%",
+      "the sensitivity of the screening test is 80%"
+    ],
+    "answer": 3,
+    "answerText": "the sensitivity of the screening test is 80%",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 200</span> Which one of the following techniques are used for addressing observer bias and confounding effects, respectively?",
+    "options": [
+      "decreasing selection bias - improving outcome measurement",
+      "randomization - improving outcome measurement",
+      "matching - non random sampling",
+      "blinding - randomization"
+    ],
+    "answer": 3,
+    "answerText": "blinding - randomization",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 195</span> A case-control study to determine association between alcohol and depression was conducted. Which of the following can be used to determine risk?",
+    "options": [
+      "Relative risk",
+      "Risk difference",
+      "Odds ratio",
+      "Incidence rate"
+    ],
+    "answer": 0,
+    "answerText": "Relative risk",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 196</span> A test was carried out to screen a disease in a population. The false negative results were very low. Which of the following is the characteristic of this test?",
+    "options": [
+      "Low yields",
+      "High specificity",
+      "High sensitivity",
+      "Low negative predictive value"
+    ],
+    "answer": 2,
+    "answerText": "High sensitivity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 197</span> In the first half of the current year, the national campaign of hypertension control was performed. Which level of prevention was the main objective?",
+    "options": [
+      "Primordial",
+      "Secondary",
+      "Primary",
+      "Tertiary"
+    ],
+    "answer": 2,
+    "answerText": "Primary",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 198</span> Chest X-ray is requested for the coal mine workers. What type of screening is this?",
+    "options": [
+      "Multiphasic",
+      "Population Based",
+      "Opportunistic",
+      "Selective"
+    ],
+    "answer": 3,
+    "answerText": "Selective",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 199</span> Which of the following is the relevant term for 'the presence of a disease in a geographical area with a defined population for at least 3 years'?",
+    "options": [
+      "Epidemic",
+      "Endemic",
+      "Pandemic",
+      "Prevalence"
+    ],
+    "answer": 1,
+    "answerText": "Endemic",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 160</span> We have studied the mean fat intake in relation to the incidence of breast cancer in a number of provinces. Which of the following is the study design?",
+    "options": [
+      "Ecologic",
+      "Cross-sectional",
+      "Historical cohort",
+      "Case-control"
+    ],
+    "answer": 0,
+    "answerText": "Ecologic",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 161</span> What kind of bias is more common in randomized clinical trials?",
+    "options": [
+      "Selection",
+      "Response",
+      "Recall",
+      "Publication"
+    ],
+    "answer": 0,
+    "answerText": "Selection",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 162</span> All of the following statements are true about a confounding factor EXCEPT?",
+    "options": [
+      "It is a variable with no association with the outcome.",
+      "It can cause the outcome.",
+      "It can prevent the outcome.",
+      "If not addressed in the study, it may cause spurious findings."
+    ],
+    "answer": 0,
+    "answerText": "It is a variable with no association with the outcome.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 163</span> As a health policy-maker, you are going to use a vaccine in a community based on its efficacy. What is the best kind of evidence to look for?",
+    "options": [
+      "Systematic review",
+      "Field trial",
+      "Community-based case-control study",
+      "Hospital-based case-control study"
+    ],
+    "answer": 0,
+    "answerText": "Systematic review",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 164</span> What kind of prevention is “Doing a Pap smear to find cervical cancer”?",
+    "options": [
+      "Secondary prevention",
+      "Primary prevention",
+      "Primordial prevention",
+      "Tertiary prevention"
+    ],
+    "answer": 0,
+    "answerText": "Secondary prevention",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 165</span> Among guests participating in a party, the incidence of poisoning among individuals who ate a specific food was ten times higher than those who did not. “TEN” indicates which of the following?",
+    "options": [
+      "Relative risk",
+      "Incidence rate",
+      "Attributable risk",
+      "Occurrence rate"
+    ],
+    "answer": 0,
+    "answerText": "Relative risk",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 166</span> In which type of study, it is least possible to detect the time order of cause and effect?",
+    "options": [
+      "Prospective cohort",
+      "Historical cohort",
+      "Clinical trial",
+      "Cross-sectional"
+    ],
+    "answer": 3,
+    "answerText": "Cross-sectional",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 167</span> What is the most important advantage of using multiple control groups in a case-control study?",
+    "options": [
+      "Reducing selection bias",
+      "Reducing information bias",
+      "Controlling confounders",
+      "Better estimate of relative risk"
+    ],
+    "answer": 0,
+    "answerText": "Reducing selection bias",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 168</span> The lung cancer mortality among heavy smokers is 30 times higher than that of non-smokers. Which item is more relevant to this statement?",
+    "options": [
+      "Strength of association",
+      "Specificity",
+      "Consistency",
+      "Dose-response relationship"
+    ],
+    "answer": 0,
+    "answerText": "Strength of association",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 161</span> The prevalence of schizophrenia in the general population is about 1 percent. If the average duration of the disease is 20 years, what is the annual risk percentage in healthy individuals catching schizophrenia?",
+    "options": [
+      "0.05",
+      "0.1",
+      "1",
+      "5"
+    ],
+    "answer": 1,
+    "answerText": "0.1",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 162</span> In most countries, the crude death rate has increased over the past two decades. What is the main reason for this phenomenon?",
+    "options": [
+      "Epidemiological transition",
+      "Increased life expectancy",
+      "Increased prevalence of diabetes and obesity",
+      "Urbanization and sedentary lifestyle"
+    ],
+    "answer": 1,
+    "answerText": "Increased life expectancy",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 163</span> In a population of 1,000,000, within one year 100,000 individuals got respiratory viral infection X, of whom 1000 died of the disease. During the same period, 20,000 individuals got respiratory viral infection Y, due to which 1000 died. Which of the following statements is true about the fatality rate of the two diseases?",
+    "options": [
+      "The fatality rate of X is higher",
+      "The fatality rate of Y is higher",
+      "Both diseases have an equal fatality rate",
+      "The information is not enough for a judgment"
+    ],
+    "answer": 1,
+    "answerText": "The fatality rate of Y is higher",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 164</span> Which of the following choices defines DALYs?",
+    "options": [
+      "The life expectancy adjusted to the disability in a community",
+      "(Disability-free life expectancy + years lost due to disability) in a community",
+      "Years of life lost due to premature deaths resulting from a disease",
+      "(Years of life lost due to premature deaths + years of life lost due to disability) resulting from a disease"
+    ],
+    "answer": 3,
+    "answerText": "(Years of life lost due to premature deaths + years of life lost due to disability) resulting from a disease",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 165</span> Sensitivity and specificity of a COVID-19 antibody test to detect past infection are 85 and 95 percent, respectively. In a community with 20% prevalence of COVID-19 infection, what percentage of the individuals will be found positive by this test?",
+    "options": [
+      "4",
+      "15",
+      "17",
+      "21"
+    ],
+    "answer": 3,
+    "answerText": "21",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 166</span> An international study has shown that the incidence of deaths from road traffic accidents in a population of 100,000 has a reverse relation with the per capita income of countries. The study design is ......... .",
+    "options": [
+      "Case-control",
+      "Cohort",
+      "Ecologic",
+      "Field trial"
+    ],
+    "answer": 2,
+    "answerText": "Ecologic",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 167</span> In a case-control study on the association of dietary factors with stroke, in order to eliminate the confounding variable of 'smoking', both groups of cases and controls were selected from non-smokers. What has been the method used for eliminating the effect of the confounding variable?",
+    "options": [
+      "Matching",
+      "Randomization",
+      "Restriction",
+      "Stratification"
+    ],
+    "answer": 2,
+    "answerText": "Restriction",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 168</span> In a case-control study, 200 out of 2000 COVID-19 cases were health care workers. In the control group, 20 out of 1280 were health care workers. What is the odds ratio of the association between being a health care worker and getting the COVID-19 infection?",
+    "options": [
+      "7",
+      "6",
+      "4",
+      "3"
+    ],
+    "answer": 0,
+    "answerText": "7",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 169</span> The multifactorial nature of non-communicable diseases is opposed to which of Hill’s causality criteria?",
+    "options": [
+      "Strength of association",
+      "Specificity of the association",
+      "Temporality",
+      "Dose-response relationship"
+    ],
+    "answer": 1,
+    "answerText": "Specificity of the association",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 170</span> Assessment of which of the following is the main purpose of Phase-I clinical trials of drugs and biological products?",
+    "options": [
+      "Efficacy",
+      "Effectiveness",
+      "Safety",
+      "Efficiency"
+    ],
+    "answer": 2,
+    "answerText": "Safety",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 161</span> Many COVID-19 cases do not show clinical signs and symptoms and will not progress into developing them. Which of the following defines this kind of COVID-19 cases?",
+    "options": [
+      "Clinical",
+      "Preclinical",
+      "Subclinical",
+      "Persistent"
+    ],
+    "answer": 2,
+    "answerText": "Subclinical",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 162</span> Which of the following statements IS TRUE about herd immunity against a disease in a human population?",
+    "options": [
+      "Herd immunity is possible, even if there is a non-human reservoir for the infection.",
+      "The proportion of the population needed to be immune is consistent for all kinds of infections.",
+      "Herd immunity is achievable only through widespread vaccination.",
+      "If herd immunity is achieved, the probability of getting infection among susceptible individuals will dramatically decrease."
+    ],
+    "answer": 3,
+    "answerText": "If herd immunity is achieved, the probability of getting infection among susceptible individuals will dramatically decrease.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 163</span> Which of the following is an advantage of hospital data for epidemiologic investigations?",
+    "options": [
+      "Accessibility of data in hospital records",
+      "Clarity of denominators for calculation of epidemiologic measures",
+      "Non-selective nature of hospital patients",
+      "Consistency of medical laboratory procedures across different hospitals"
+    ],
+    "answer": 0,
+    "answerText": "Accessibility of data in hospital records",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 164</span> Since the beginning of the COVID-19 epidemic, the proportionate mortality of cancer has decreased. What is the main cause of this phenomenon?",
+    "options": [
+      "Under-reporting of cancer deaths",
+      "Increased number of total deaths due to COVID-19",
+      "Improvement in care of cancer patients",
+      "Decreased number of diagnosis of new cancer cases"
+    ],
+    "answer": 1,
+    "answerText": "Increased number of total deaths due to COVID-19",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 165</span> In a survey among university students, one of the questions is: 'In the past 12 months, have you been diagnosed with depression by a health professional?' Which epidemiologic measure can be calculated on the basis of this question?",
+    "options": [
+      "Cumulative incidence",
+      "Incidence rate",
+      "Point prevalence",
+      "Period prevalence"
+    ],
+    "answer": 3,
+    "answerText": "Period prevalence",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 166</span> Two sequential tests (rapid test and PCR) were applied on nasopharyngeal samples for COVID-19 diagnosis. The sensitivity of rapid and PCR tests were 60 and 80 percent, respectively. What is the percentage of the net sensitivity of the two tests?",
+    "options": [
+      "48",
+      "64",
+      "72",
+      "96"
+    ],
+    "answer": 2,
+    "answerText": "72",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 167</span> A patient with a positive test of fecal occult blood visits their family doctor. The doctor says, 'The probability of colon cancer based on your test is 48%.' Which measure is mentioned by the doctor?",
+    "options": [
+      "Test sensitivity",
+      "Test specificity",
+      "Positive predictive value",
+      "Negative predictive value"
+    ],
+    "answer": 2,
+    "answerText": "Positive predictive value",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 168</span> What is the best study design for evaluation of screening with serum PSA test in prevention of prostate cancer deaths?",
+    "options": [
+      "Cross-sectional",
+      "Randomized trial",
+      "Case-control",
+      "Retrospective cohort"
+    ],
+    "answer": 1,
+    "answerText": "Randomized trial",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 169</span> In a cross-sectional study on 9000 participants, there were 4000 men and 5000 women. The assessments showed that 400 men and 1000 women are affected with depression. What is the Odds Ratio of the relationship between female gender and depression?",
+    "options": [
+      "1.67",
+      "1.8",
+      "2.0",
+      "2.25"
+    ],
+    "answer": 2,
+    "answerText": "2.0",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 170</span> A cohort study showed that the risk ratio of stroke among individuals with systolic blood pressure (SBP) in ranges (160-180), (180-200), and over 200 mmHg compared to those with SBP under 160 mmHg were 2.2, 3.1, and 4.9, respectively. This finding supports which of the causality criteria?",
+    "options": [
+      "Consistency",
+      "Dose-response relationship",
+      "Biological plausibility",
+      "Cessation of exposure"
+    ],
+    "answer": 1,
+    "answerText": "Dose-response relationship",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 161</span> “The ability of a test to correctly identify those who have the disease” is the definition of ……… .",
+    "options": [
+      "specificity",
+      "sensitivity",
+      "reliability",
+      "predictive value"
+    ],
+    "answer": 1,
+    "answerText": "sensitivity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 162</span> Which of the following is the first step in an outbreak investigation?",
+    "options": [
+      "Confirming the disease diagnosis",
+      "Confirming the existence of an outbreak",
+      "Investigating the distribution of disease cases based on time and place",
+      "Hypotheses testing"
+    ],
+    "answer": 1,
+    "answerText": "Confirming the existence of an outbreak",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 163</span> Which of the following investigations can estimate the incidence rate of a disease?",
+    "options": [
+      "Case series",
+      "Cross-sectional",
+      "Cohort",
+      "Case-control"
+    ],
+    "answer": 2,
+    "answerText": "Cohort",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 164</span> A researcher compared 200 afflicted patients with 400 healthy individuals in order to assess the association between smoking and a cardiovascular disease. What is the design of his study?",
+    "options": [
+      "Cohort",
+      "Cross-sectional",
+      "Case series",
+      "Case-control"
+    ],
+    "answer": 3,
+    "answerText": "Case-control",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 165</span> Which of the following is NOT effective in reducing the prevalence of a disease in the society?",
+    "options": [
+      "Shorter duration of the disease",
+      "Higher fatality of the disease",
+      "Prolonged patients’ lives",
+      "Reduced number of new cases of the disease"
+    ],
+    "answer": 2,
+    "answerText": "Prolonged patients’ lives",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 166</span> Which of the following indicators CANNOT show that exposure increases the risk of the disease?",
+    "options": [
+      "Relative risk",
+      "Absolute risk",
+      "Risk difference",
+      "Odds ratio"
+    ],
+    "answer": 1,
+    "answerText": "Absolute risk",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 167</span> Which of the following is NOT a characteristic of a single-source epidemic?",
+    "options": [
+      "It starts from a single place and source.",
+      "It occurs suddenly and the cases of the disease occur simultaneously.",
+      "The number of cases increases rapidly and then decreases.",
+      "The epidemic curve has several waves."
+    ],
+    "answer": 3,
+    "answerText": "The epidemic curve has several waves.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 168</span> “Randomization” is one of the characteristics of the ……… study designs.",
+    "options": [
+      "clinical trial",
+      "cross-sectional",
+      "case-control",
+      "cohort"
+    ],
+    "answer": 0,
+    "answerText": "clinical trial",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 169</span> “Recall bias” is the problem of the ……… study design.",
+    "options": [
+      "cohort",
+      "case-control",
+      "cross-sectional",
+      "case series"
+    ],
+    "answer": 1,
+    "answerText": "case-control",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 170</span> Which of following is correct regarding a disease prevalence?",
+    "options": [
+      "It indicates the risk of the disease in a community.",
+      "The time of the disease occurrence can be determined using this index.",
+      "The new cases of the disease are used to estimate this index.",
+      "It shows the proportion of the afflicted population at a given time."
+    ],
+    "answer": 3,
+    "answerText": "It shows the proportion of the afflicted population at a given time.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 161</span> In a country with a population of 80 million, 5 million confirmed cases and 130 thousand confirmed deaths of COVID-19 were reported during 18 months. If the total number of deaths in the same period was 390 thousand, what is the percentage of the fatality rate of this disease?",
+    "options": [
+      "0.16",
+      "2.60",
+      "6.25",
+      "33.3"
+    ],
+    "answer": 1,
+    "answerText": "2.60",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 162</span> What kind of study design is preferred to assess the efficacy of a vaccine?",
+    "options": [
+      "Randomized controlled trial",
+      "Prospective cohort",
+      "Nested case control",
+      "Cross-sectional study to assess the antibody titer among vaccinated individuals"
+    ],
+    "answer": 0,
+    "answerText": "Randomized controlled trial",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 163</span> If an exposure-outcome relationship is repeatedly found in different populations with different study designs, the relation is most probably considered a causal association. This situation is related to which of the following causality criteria?",
+    "options": [
+      "Temporality",
+      "Strength of association",
+      "Consistency",
+      "Dose-response relationship"
+    ],
+    "answer": 2,
+    "answerText": "Consistency",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 164</span> Twenty percent of a population are infected with SARS-CoV2 virus. If the sensitivity and specificity of an antibody test are 60% and 80%, respectively, how many persons will be found positive in a sample of 1000 individuals?",
+    "options": [
+      "120",
+      "160",
+      "280",
+      "360"
+    ],
+    "answer": 2,
+    "answerText": "280",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 165</span> In a cross-sectional study of 10,000 randomly selected adults, 6000 were consuming high amount of salt (>5 gr/day). It was found that 2000 out of these 6000 individuals and 500 out of 4000 remaining participants (who had normal salt consumption) were hypertensive. What is the odds ratio for the relation of high consumption of salt and hypertension?",
+    "options": [
+      "2.50",
+      "2.67",
+      "3.33",
+      "3.50"
+    ],
+    "answer": 3,
+    "answerText": "3.50",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 166</span> In the epidemiology triangle, the existence of mandatory vaccination laws is related to which tip of the triangle?",
+    "options": [
+      "Host",
+      "Environment",
+      "Agent",
+      "Vector"
+    ],
+    "answer": 1,
+    "answerText": "Environment",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 167</span> In a case-control study to investigate the relationship between opium consumption and Parkinson's disease, which of the following is considered as the case group?",
+    "options": [
+      "The participants afflicted with Parkinson's disease",
+      "The participants with Parkinson's disease who use opium",
+      "The participants with Parkinson's disease who do NOT use opium",
+      "The participants NOT afflicted with Parkinson's disease"
+    ],
+    "answer": 0,
+    "answerText": "The participants afflicted with Parkinson's disease",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 168</span> What is the difference between an 'outbreak' and an 'epidemic'?",
+    "options": [
+      "In outbreaks, the disease is transmitted person-to-person.",
+      "In outbreaks, the disease is transmitted from a common source.",
+      "The time and geographical distribution of an outbreak is more limited.",
+      "In an outbreak, the number of cases in the community has not surpassed the expected number."
+    ],
+    "answer": 2,
+    "answerText": "The time and geographical distribution of an outbreak is more limited.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 169</span> In a study on 250 neighborhoods in a large city, the percentage of subway ridership in each neighborhood was extracted from available transportation data, and the incidence of COVID-19 among 1000 population in each neighborhood was extracted from CDC data. The results showed that the higher the percentage of the subway riders, the higher the incidence of COVID-19 in a neighborhood was. What is the study design?",
+    "options": [
+      "Ecologic",
+      "Cross-sectional",
+      "Cohort",
+      "Case-control"
+    ],
+    "answer": 0,
+    "answerText": "Ecologic",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 170</span> Which of the following errors is more common in cross-sectional studies?",
+    "options": [
+      "Lack of follow-up bias",
+      "Response bias",
+      "Recall bias",
+      "Random error"
+    ],
+    "answer": 1,
+    "answerText": "Response bias",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 159</span> An emerging disease (e.g., COVID-19) has caused an important increase in the number of deaths in a population. If other conditions remain unchanged, which mortality measure of other diseases (e.g., heart diseases) will change? And how?",
+    "options": [
+      "Proportionate mortality - increase",
+      "Proportionate mortality - decrease",
+      "Case-fatality rate - increase",
+      "Case-fatality rate - decrease"
+    ],
+    "answer": 1,
+    "answerText": "Proportionate mortality - decrease",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 160</span> A rapid test for the COVID-19 diagnosis is developed. Among 100 definite cases of Delta variant, 70 are found positive by the new test. For Omicron variant, 40 out of 100 definite cases are positive. Which of the following interpretation is correct?",
+    "options": [
+      "Test specificity is 70% for Delta variant and 40% for Omicron variant.",
+      "Positive predictive value is 70% for Delta variant and 40% for Omicron variant.",
+      "False negative percent is 30% for Delta variant and 60% for Omicron variant.",
+      "Negative predictive value is 30% for Delta variant and 60% for Omicron variant."
+    ],
+    "answer": 2,
+    "answerText": "False negative percent is 30% for Delta variant and 60% for Omicron variant.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 161</span> Which of the following statements about case-control study design is true?",
+    "options": [
+      "It is better to match cases and controls on all variables (except the exposure of interest).",
+      "In selection of hospital controls, it is preferred to select controls from the other patients of the same physicians.",
+      "Selection of controls from the neighbors of cases will match controls and cases on the basis of genetic factors.",
+      "In etiological studies, it is preferred to select incident (new) cases rather than prevalent (available) cases."
+    ],
+    "answer": 3,
+    "answerText": "In etiological studies, it is preferred to select incident (new) cases rather than prevalent (available) cases.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 162</span> In 2011, a study was carried out on 7886, randomly selected, 15-64 years-old population of Iran. The study showed that 13% of the population had major depressive disorders in the past 12 months. What is the study type and which epidemiologic measure does this percentage show?",
+    "options": [
+      "Cross-sectional - Period prevalence",
+      "Cross-sectional - Point prevalence",
+      "Cohort - Period prevalence",
+      "Cohort - Point prevalence"
+    ],
+    "answer": 0,
+    "answerText": "Cross-sectional - Period prevalence",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 163</span> We were able to find the first case of COVID-19 in a district. The percentage of close contacts (family members and other persons in close contact) which developed the disease during the following 14 days was calculated. This proportion refers to ………………",
+    "options": [
+      "Primary attack rate",
+      "Secondary attack rate",
+      "Infectivity rate",
+      "Incidence density"
+    ],
+    "answer": 1,
+    "answerText": "Secondary attack rate",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 164</span> Which of the following is NOT among the causality criteria for an observed association?",
+    "options": [
+      "Replication of findings",
+      "No confounding",
+      "Dose-response relationship",
+      "Temporal relationship"
+    ],
+    "answer": 1,
+    "answerText": "No confounding",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 165</span> We are going to use two sequential tests for HIV among an at-risk population. The first test, which is cheap and can be carried out at point-of-care, has a sensitivity and specificity of 96% and 40%, respectively. The sensitivity and specificity of the second test, which is more expensive and time-consuming, are both 100%. What are the net sensitivity and net specificity of the two-stage testing, respectively?",
+    "options": [
+      "100%, 40%",
+      "100%, 70%",
+      "96%, 70%",
+      "96%, 100%"
+    ],
+    "answer": 3,
+    "answerText": "96%, 100%",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 166</span> An individual who has not received the COVID-19 vaccine shows a high titer of antibody against the SARS-CoV-2. He has no history of disease or the symptoms during the pandemic. Which item correctly explains the disease type?",
+    "options": [
+      "Clinical disease",
+      "Preclinical disease",
+      "Subclinical disease",
+      "Persistent (chronic) disease"
+    ],
+    "answer": 2,
+    "answerText": "Subclinical disease",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 167</span> During a propagated epidemic, the probability of disease occurrence in a susceptible individual is less if he/she lives in a population where most of the people have immunity against the disease. Which of the following refers to this phenomenon?",
+    "options": [
+      "Herd immunity",
+      "Natural immunity",
+      "Cohort effect",
+      "Placebo effect"
+    ],
+    "answer": 0,
+    "answerText": "Herd immunity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 168</span> Which of the following is used to demonstrate the geographical distribution of the occurrence of disease cases?",
+    "options": [
+      "Spot map",
+      "Scatter plot",
+      "Path diagram",
+      "Bar diagram"
+    ],
+    "answer": 0,
+    "answerText": "Spot map",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 169</span> Which of the following statements is NOT an advantage of prospective cohort versus case-control studies?",
+    "options": [
+      "Temporal relationship is more easily shown in a cohort study.",
+      "Recall bias is less likely to occur in a cohort study.",
+      "The sample size needed for a cohort study is less.",
+      "It is possible to calculate absolute risk in a cohort study."
+    ],
+    "answer": 2,
+    "answerText": "The sample size needed for a cohort study is less.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 170</span> Among 1000 COVID-19 deaths, 100 individuals received COVID-19 vaccine. Out of 2000 deaths due to other causes, 1600 individuals received the vaccine. What is the odds ratio of the association between COVID-19 vaccination and COVID-19 death in this case-control study?",
+    "options": [
+      "1/4",
+      "1/8",
+      "1/16",
+      "1/36"
+    ],
+    "answer": 1,
+    "answerText": "1/8",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 161</span> Which of the following is an advantage of active surveillance?",
+    "options": [
+      "It requires fewer human resources.",
+      "It is relatively inexpensive.",
+      "Its reporting system can be developed quickly.",
+      "Its accuracy is increased via reducing the health-care providers’ reporting responsibility."
+    ],
+    "answer": 3,
+    "answerText": "Its accuracy is increased via reducing the health-care providers’ reporting responsibility.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 164</span> The sensitivity and specificity of two diagnostic tests are respectively as follows: test A: %90, %80, test B :%95, %90. If specificity is more important for screening of a disease, which of the following procedures are suggested?",
+    "options": [
+      "Using test B",
+      "Simultaneous use of test A and test B",
+      "Sequential use of test A and test B",
+      "Using test A"
+    ],
+    "answer": 0,
+    "answerText": "Using test B",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 165</span> In a research study, the researcher took a random sample size of 300 patients with myocardial infarction (MI) and evaluated their BMI and smoking status. Which of the following is NOT correct?",
+    "options": [
+      "This design is a cross sectional study in patients with MI",
+      "The prevalence of smoking can be estimated in the MI population",
+      "The association between MI and smoking can be estimated",
+      "The mean score of BMI can be estimated in the MI population"
+    ],
+    "answer": 0,
+    "answerText": "This design is a cross sectional study in patients with MI",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 166</span> What is the main point that distinguishes a case control from a cohort study?",
+    "options": [
+      "Duration of the study",
+      "Cost of the study",
+      "Retrospective versus prospective characteristic of the study",
+      "The mechanism of selecting subjects to enter the study"
+    ],
+    "answer": 2,
+    "answerText": "Retrospective versus prospective characteristic of the study",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 167</span> In a research study, 100 patients received drug A, 90 patients received drug B, 110 patients received drugs A and B and 80 patients received no drugs. What is the design of this study?",
+    "options": [
+      "Cross-over",
+      "Case cross-over",
+      "Factorial",
+      "Nested case control"
+    ],
+    "answer": 2,
+    "answerText": "Factorial",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 168</span> In a research study, the risk of myocardial infarction (MI) in the exposed group was 50% and in the unexposed was 20%. What are the odds of MI in the exposed group and what is the relative risk (RR) of MI for the exposure?",
+    "options": [
+      "Odds: 0.5   RR: 2.5",
+      "Odds: 1      RR: 2.5",
+      "Odds: 0.5   RR: 4",
+      "Odds: 1      RR: 4"
+    ],
+    "answer": 0,
+    "answerText": "Odds: 0.5   RR: 2.5",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 169</span> Regarding temporality as a guideline to assess causality, which of the following sentences is correct?",
+    "options": [
+      "Establishing temporality in retrospective cohort study is easier than other studies.",
+      "The temporal relationship between exposure and disease development is important only regarding the sequence of their occurrence.",
+      "The time interval between exposure and disease initiation is important for establishing temporality.",
+      "In a case of development of lung cancer 3 years after asbestos exposure, temporality exists."
+    ],
+    "answer": 2,
+    "answerText": "The time interval between exposure and disease initiation is important for establishing temporality.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 170</span> Which of the following causal criteria is compatible with the existence of Mycobacterium tuberculosis for development of tuberculosis?",
+    "options": [
+      "Necessary but not sufficient",
+      "Necessary and sufficient",
+      "Not necessary but sufficient",
+      "Neither necessary nor sufficient"
+    ],
+    "answer": 0,
+    "answerText": "Necessary but not sufficient",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 161</span> Which type of study design compares 'exposed versus non-exposed persons initially'?",
+    "options": [
+      "Cross-sectional",
+      "Case-control",
+      "Prospective cohort",
+      "Clinical trial"
+    ],
+    "answer": 2,
+    "answerText": "Prospective cohort",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 162</span> Assuming that the probability of death after septic shock is 3:1, what is the odds of survival in a patient with septic shock?",
+    "options": [
+      "2.7",
+      "1.4",
+      "1.1",
+      "2.3"
+    ],
+    "answer": 1,
+    "answerText": "1.4",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 163</span> In a prospective study, 21 alcoholic individuals were followed up for different years. 11 were diagnosed with alcoholic liver disease. What is the incidence rate based on person-years?",
+    "options": [
+      "2.17",
+      "2.55",
+      "1.4",
+      "2.75"
+    ],
+    "answer": 0,
+    "answerText": "2.17",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 164</span> In a community of 111,111 patients with high blood pressure, 311 had strokes at the beginning of the year. By the end of the year, 111 new stroke cases were recorded. What is the period prevalence and cumulative incidence of stroke?",
+    "options": [
+      "Period prevalence: 2.4%, Cumulative incidence: 2.3%",
+      "Period prevalence: 2.3%, Cumulative incidence: 2.4%",
+      "Period prevalence: 2.4%, Cumulative incidence: 2.1%",
+      "Period prevalence: 2.3%, Cumulative incidence: 2.1%"
+    ],
+    "answer": 1,
+    "answerText": "Period prevalence: 2.3%, Cumulative incidence: 2.4%",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 165</span> Which of the following is true about screening by two simultaneous tests?",
+    "options": [
+      "Increases sensitivity",
+      "Increases specificity",
+      "Sensitivity doesn't change",
+      "Specificity doesn't change"
+    ],
+    "answer": 0,
+    "answerText": "Increases sensitivity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 166</span> Which of the following refers to a condition where the disease is in progress but clinical symptoms haven't appeared yet?",
+    "options": [
+      "Preclinical",
+      "Latent",
+      "Persistent",
+      "Subclinical"
+    ],
+    "answer": 0,
+    "answerText": "Preclinical",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 167</span> Which of the following is NOT a condition for herd immunity?",
+    "options": [
+      "The disease agent must be restricted to a single host species",
+      "Transmission must be indirect among group members",
+      "Pathogen must not have a non-human reservoir",
+      "Infection must induce robust immunity in human hosts"
+    ],
+    "answer": 1,
+    "answerText": "Transmission must be indirect among group members",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 168</span> What is the main purpose of random assignment (randomization) in clinical trials?",
+    "options": [
+      "Facilitating double-blind trial conduction",
+      "Facilitating the measurement of the desired outcome",
+      "Ensuring subjects are representative of the population",
+      "Reducing selection bias"
+    ],
+    "answer": 3,
+    "answerText": "Reducing selection bias",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 155</span> Which of the following measures of disease frequency is expressed as a proportion?",
+    "options": [
+      "Incidence rate",
+      "Prevalence",
+      "Case fatality rate",
+      "Mortality rate"
+    ],
+    "answer": 1,
+    "answerText": "Prevalence",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 156</span> The relative risk (RR) is commonly calculated in which type of study?",
+    "options": [
+      "Case-control study",
+      "Cohort study",
+      "Cross-sectional study",
+      "Ecological study"
+    ],
+    "answer": 1,
+    "answerText": "Cohort study",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 157</span> Which of the following is considered a confounding factor?",
+    "options": [
+      "A factor that directly causes the outcome",
+      "A factor associated with both exposure and outcome but not in the causal pathway",
+      "A variable that mediates the causal relationship",
+      "An effect modifier"
+    ],
+    "answer": 1,
+    "answerText": "A factor associated with both exposure and outcome but not in the causal pathway",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 158</span> What is the main purpose of randomization in clinical trials?",
+    "options": [
+      "To increase sample size",
+      "To eliminate selection bias",
+      "To reduce measurement bias",
+      "To assess the effect of confounding variables"
+    ],
+    "answer": 1,
+    "answerText": "To eliminate selection bias",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 159</span> Which type of study design is best suited for investigating rare diseases?",
+    "options": [
+      "Case-control study",
+      "Cohort study",
+      "Randomized controlled trial",
+      "Cross-sectional study"
+    ],
+    "answer": 0,
+    "answerText": "Case-control study",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 160</span> In a normal distribution, what percentage of observations falls within ±2 standard deviations of the mean?",
+    "options": [
+      "68%",
+      "95%",
+      "99.7%",
+      "90%"
+    ],
+    "answer": 1,
+    "answerText": "95%",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 161</span> Which of the following types of bias occurs when participants in a study are not representative of the target population?",
+    "options": [
+      "Recall bias",
+      "Selection bias",
+      "Observer bias",
+      "Information bias"
+    ],
+    "answer": 1,
+    "answerText": "Selection bias",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 162</span> In epidemiology, the term 'attack rate' is often used in the context of ………",
+    "options": [
+      "chronic diseases",
+      "epidemics",
+      "case-control studies",
+      "mortality studies"
+    ],
+    "answer": 1,
+    "answerText": "epidemics",
+    "explanation": "",
     "userAnswer": null
   }
 ]
