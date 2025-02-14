@@ -1,28 +1,3733 @@
 [
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events?",
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 146</span> The region's population is 100,000 people, every year there are 1,000 cases of a disease in the population and 100 people die of the disease. What is the specific death rate and the rate of death of this disease respectively?",
     "options": [
-      "Opening of Na+ channels",
-      "Opening of K+ channels",
-      "Opening of Ca++ voltage-gated channels",
-      "Closing of Cl− channels"
+      "One in a thousand – ten percent",
+      "One in a thousand – one percent",
+      "One in ten thousand – ten percent",
+      "One in a hundred – one percent"
     ],
-    "answer": 2,
-    "answerText": "Opening of Ca++ voltage-gated channels",
-    "explanation": "The influx of Ca++ through voltage-gated calcium channels triggers neurotransmitter release into the synaptic cleft.",
+    "answer": 0,
+    "answerText": "One in a thousand – ten percent",
+    "explanation": "",
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?",
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 147</span> If a measuring instrument in a fixed condition of the subject and environment of measurement, at intervals, shows the results of the same or close to the same, measuring means has which of the following features?",
     "options": [
-      "Opening of Na+ channels",
-      "Opening of K+ channels at the surface of the postsynaptic membrane",
-      "Closing of K+ channels",
-      "Depolarization of the membrane"
+      "Validity",
+      "Reliability",
+      "Relevancy",
+      "Specificity"
     ],
     "answer": 1,
-    "answerText": "Opening of K+ channels at the surface of the postsynaptic membrane",
-    "explanation": "Inhibitory neurotransmitters cause hyperpolarization by opening K+ channels, making the postsynaptic membrane less excitable.",
+    "answerText": "Reliability",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 148</span> In order to validate one of the diagnostic tests, 400 healthy people and 400 patients were examined and found that this test was positive in 300 patients and 40 healthy people. Specificity of this test fit which of the following numbers?",
+    "options": [
+      "30%",
+      "50%",
+      "75%",
+      "90%"
+    ],
+    "answer": 3,
+    "answerText": "90%",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 149</span> If there is an acute illness that has an effective vaccine to prevent it, and its persistent complications can be cured by surgery, but there is no effective medication for its specific treatment. Which of the levels of prevention have a problem?",
+    "options": [
+      "First level",
+      "Second level",
+      "Third level",
+      "None of above"
+    ],
+    "answer": 1,
+    "answerText": "Second level",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 150</span> According to the symptomatic and asymptomatic patients with the following diseases, in which one of the following accurate separation cannot even prevent the spread of disease?",
+    "options": [
+      "Diphtheria – cholera",
+      "Diphtheria – cholera",
+      "Polio - Hepatitis A",
+      "Pulmonary plague"
+    ],
+    "answer": 2,
+    "answerText": "Polio - Hepatitis A",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 151</span> Cohort study used in all of the following except:",
+    "options": [
+      "When there is good evidence of spread between exposure and disease.",
+      "When exposure is rare, but incidence of illness is high among exposed people.",
+      "When the studied population is relatively constant.",
+      "When the disease is rare among exposed people."
+    ],
+    "answer": 3,
+    "answerText": "When the disease is rare among exposed people.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 152</span> The measurement index of which of the following is the Case Fatality Test?",
+    "options": [
+      "Infectivity",
+      "Pathogenicity",
+      "Virulence",
+      "Communicability"
+    ],
+    "answer": 2,
+    "answerText": "Virulence",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 153</span> Which of the following is true about the ban on vaccination of individuals with AIDS symptoms?",
+    "options": [
+      "BCG vaccine",
+      "All live virus vaccines",
+      "All vaccine program of extension immunization",
+      "IPV vaccine"
+    ],
+    "answer": 1,
+    "answerText": "All live virus vaccines",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 154</span> Which of the following vaccines used in humans can be prepared from the conceived reduced virus?",
+    "options": [
+      "Hepatitis B",
+      "Injectable polio",
+      "Rabies",
+      "Measles"
+    ],
+    "answer": 3,
+    "answerText": "Measles",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 155</span> In catching following diseases using methods of passive immunization with antisera is necessary except:",
+    "options": [
+      "Tetanus",
+      "Rabies",
+      "Botulism",
+      "Pertussis"
+    ],
+    "answer": 3,
+    "answerText": "Pertussis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 156</span> One of the tests in 300 people is a healthy 400-person population and in 100 of the 500 patients in the same community had negative outcome. What is the negative predictive value of this test, which of the following numbers is the following?",
+    "options": [
+      "25%",
+      "50%",
+      "75%",
+      "100%"
+    ],
+    "answer": 2,
+    "answerText": "75%",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 181</span> A pregnant woman should immediately refer to the health center, doctor, or midwife by seeing any of the following symptoms. Except:",
+    "options": [
+      "Visual disturbances and blurred vision",
+      "Sudden increase in body weight",
+      "Cramp of the legs",
+      "Severe headaches"
+    ],
+    "answer": 2,
+    "answerText": "Cramp of the legs",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 182</span> What is the difference between colostrum milk compared to the next milk?",
+    "options": [
+      "More fat - Lower Protein",
+      "More protein - Less fat",
+      "More protein and fat",
+      "Less protein and fat"
+    ],
+    "answer": 1,
+    "answerText": "More protein - Less fat",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 183</span> What are the steps in implementing professional health practices?",
+    "options": [
+      "Identification, Evaluation, Measurement, Control",
+      "Identification, measurement, evaluation, control",
+      "Measurement, evaluation, identification, control",
+      "Measurement, identification, evaluation, control"
+    ],
+    "answer": 1,
+    "answerText": "Identification, measurement, evaluation, control",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 184</span> In which of the following is the denominator the number of live births?",
+    "options": [
+      "Raw birth",
+      "Raw death",
+      "Mother's death",
+      "Causality death"
+    ],
+    "answer": 0,
+    "answerText": "Raw birth",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 185</span> Which of the following conditions should be followed in a girl's aging process?",
+    "options": [
+      "If the menstruation does not occur until age of 14",
+      "If genital hair does not start growing until age of 16",
+      "If menstruation is not regular immediately after menarche",
+      "It menstruation does not occur after three years of breast bud"
+    ],
+    "answer": 3,
+    "answerText": "It menstruation does not occur after three years of breast bud",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 186</span> A baby born at a height of 50 cm, at 4, would have a normal height of … centimeters.",
+    "options": [
+      "75",
+      "100",
+      "125",
+      "150"
+    ],
+    "answer": 1,
+    "answerText": "100",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 187</span> What stage of prevention is the prevention of obesity at a young age to prevent cardiovascular disease?",
+    "options": [
+      "Primary",
+      "First",
+      "Second",
+      "Third"
+    ],
+    "answer": 0,
+    "answerText": "Primary",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 188</span> How many hours maximally is it recommended to take oral contraceptive pills in an emergency after intercourse with the probability of a pregnancy?",
+    "options": [
+      "12",
+      "24",
+      "48",
+      "72"
+    ],
+    "answer": 3,
+    "answerText": "72",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 189</span> What is the first step of changing the behavior?",
+    "options": [
+      "Intent ahead",
+      "Intent",
+      "Preparation",
+      "Action"
+    ],
+    "answer": 0,
+    "answerText": "Intent ahead",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 190</span> On which health care level do the services of public hospitals get categorized?",
+    "options": [
+      "Primary",
+      "First",
+      "Second",
+      "Third"
+    ],
+    "answer": 2,
+    "answerText": "Second",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 191</span> In people who may be in contact with harsh animals due to their occupation, If they don’t mention having a history of severe hypersensitivity to previous vaccines, how is a rabies reminder vaccine injected?",
+    "options": [
+      "A reminder each year",
+      "A reminder each two years",
+      "A reminder each three years",
+      "A reminder will not be injected"
+    ],
+    "answer": 1,
+    "answerText": "A reminder each two years",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 192</span> A 12-year-old child with thalassemia has been referred to the health center for a tetanus vaccine. How many milliliters of the vaccine are injected to this baby?",
+    "options": [
+      "0.1",
+      "0.5",
+      "1",
+      "2"
+    ],
+    "answer": 1,
+    "answerText": "0.5",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 181</span> A pregnant woman should immediately refer to the health center, doctor, or midwife by seeing any of the following symptoms, except:",
+    "options": [
+      "Visual disturbances and blurred vision",
+      "Sudden increase in body weight",
+      "Leg cramps",
+      "Severe headaches"
+    ],
+    "answer": 2,
+    "answerText": "Leg cramps",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 182</span> A person casts a smoke when he sees a billboard that prompts people to stop smoking, and he tells his friend “we’ll die with or without smoke”! According to the Prochaska method, at which stage of behavior change is he in?",
+    "options": [
+      "Preserve",
+      "Intention",
+      "Pre-intention",
+      "Provide"
+    ],
+    "answer": 2,
+    "answerText": "Pre-intention",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 183</span> Which of the following information is required to calculate the 'maternal mortality rate'?",
+    "options": [
+      "Number of pregnant women years",
+      "Number of live births in the year",
+      "Number of women aged 15-44 years",
+      "Number of pregnancies in the year"
+    ],
+    "answer": 1,
+    "answerText": "Number of live births in the year",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 184</span> Which one of the following is the 'population strategy' in the primary prevention of noncommunicable diseases?",
+    "options": [
+      "Use of ear protectors in workers",
+      "Iron supplementation in girl students",
+      "Fastening seat belts in cars",
+      "Enriching flour with zinc"
+    ],
+    "answer": 3,
+    "answerText": "Enriching flour with zinc",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 185</span> The country's information and statistics organization plans to run the next population census using the 'De jure' method. Which categories of people will be counted on this basis?",
+    "options": [
+      "Iranian and non-Iranian nationals residing in the country",
+      "Iranian nationals living inside and outside the country",
+      "Foreigners residing in Iran",
+      "Iranians residing abroad"
+    ],
+    "answer": 0,
+    "answerText": "Iranian and non-Iranian nationals residing in the country",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 186</span> Which of the following measures is not recommended for all newborns according to a national screening plan for infants?",
+    "options": [
+      "Performing a Coombs test",
+      "Taking heel prick blood",
+      "Collecting cord blood",
+      "Examining the pelvic joints"
+    ],
+    "answer": 0,
+    "answerText": "Performing a Coombs test",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 187</span> In a community of 100,000 people, 50 people died within a year. Twenty people were infected with disease 'A' and 18 of these infected people died. What is the mortality rate of the disease?",
+    "options": [
+      "20/100,000",
+      "180/100,000",
+      "18/20",
+      "18/50"
+    ],
+    "answer": 2,
+    "answerText": "18/20",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 188</span> In 1384, 1,000 live births occurred in a region. If the number of dead babies was 10 in that year, and 15 babies died in the first week and 20 died as newborns, what is the perinatal mortality rate per thousand?",
+    "options": [
+      "30",
+      "25",
+      "35",
+      "45"
+    ],
+    "answer": 2,
+    "answerText": "35",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 189</span> What are the characteristics of a point-source epidemic?",
+    "options": [
+      "The epidemic curve has secondary waves",
+      "It is not limited to a location and source",
+      "It begins gradually and cases appear inconsistently",
+      "The duration of the epidemic is as long as the incubation period"
+    ],
+    "answer": 3,
+    "answerText": "The duration of the epidemic is as long as the incubation period",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 190</span> What is the term for the ability of an agent to cause a disease?",
+    "options": [
+      "Pathogenicity",
+      "Infectivity",
+      "Virulence",
+      "Contagiousness"
+    ],
+    "answer": 0,
+    "answerText": "Pathogenicity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 191</span> To compare the effects of two therapies, 300 patients with breast cancer were randomly assigned to two groups: 'A' (surgical procedures alone) and 'B' (chemotherapy-related surgery). Which method is this?",
+    "options": [
+      "Cohort",
+      "Case control",
+      "Clinical trial",
+      "Field trial"
+    ],
+    "answer": 2,
+    "answerText": "Clinical trial",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 192</span> In the case of intramuscular gamma globulin injections, the interval between administration of live viral vaccines (except oral polio vaccine and yellow fever) should be at least how many months after gamma globulin?",
+    "options": [
+      "1",
+      "3",
+      "6",
+      "2"
+    ],
+    "answer": 1,
+    "answerText": "3",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 164</span> Which indicator is more useful to study the effect of acute nutritional crises in children in the event of unexpected accidents?",
+    "options": [
+      "Weight by age",
+      "Height by age",
+      "Weight by height",
+      "Head circumference by age"
+    ],
+    "answer": 2,
+    "answerText": "Weight by height",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 165</span> Which of the following diseases are waterborne diseases?",
+    "options": [
+      "Trachoma",
+      "Schistosomiasis",
+      "Typhoid",
+      "Malaria"
+    ],
+    "answer": 2,
+    "answerText": "Typhoid",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 166</span> In which of the following indices is the denominator different from other ones?",
+    "options": [
+      "Raw birth rate",
+      "Mother's death rate",
+      "Infant death rate",
+      "Newborn infant death rate"
+    ],
+    "answer": 1,
+    "answerText": "Mother's death rate",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 167</span> Which international organization is indirectly related to health?",
+    "options": [
+      "UNESCO",
+      "FAO",
+      "UNICEF",
+      "UNFPA"
+    ],
+    "answer": 1,
+    "answerText": "FAO",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 168</span> Eye examinations at the beginning of the school entrance are categorized as which prevention level?",
+    "options": [
+      "Primary",
+      "1st",
+      "2nd",
+      "3rd"
+    ],
+    "answer": 2,
+    "answerText": "2nd",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 169</span> Which of the following is not part of the health education goals for controlling contagious diseases?",
+    "options": [
+      "Assessing people's beliefs about the disease",
+      "Understanding habits and behaviors associated with the spread of disease",
+      "Strengthening economic foundations in populations at risk",
+      "Provide a solution to modify existing failures"
+    ],
+    "answer": 2,
+    "answerText": "Strengthening economic foundations in populations at risk",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 170</span> One of the solutions used to treat tuberculosis is to improve nutritional status. Which of the following matches this intervention?",
+    "options": [
+      "Therapeutic intervention",
+      "Rehab intervention",
+      "Prevention intervention",
+      "Upgrade intervention"
+    ],
+    "answer": 3,
+    "answerText": "Upgrade intervention",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 171</span> Which one prevents the entrance of the bacteria and viruses to the baby's intestinal tissue?",
+    "options": [
+      "IgG",
+      "IgA",
+      "IgM",
+      "Bifidus factor"
+    ],
+    "answer": 1,
+    "answerText": "IgA",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 172</span> All of the following are the benefits of taking contraceptive pills but:",
+    "options": [
+      "Reduced incidence of benign liver adenoma",
+      "Reduced incidence of endometrial cancer",
+      "Reduced incidence of pelvic inflammatory diseases",
+      "Reduced incidence of ovarian cancer"
+    ],
+    "answer": 0,
+    "answerText": "Reduced incidence of benign liver adenoma",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 173</span> Which of the following is not the basic principle of primary health care?",
+    "options": [
+      "International support",
+      "People's participation",
+      "Appropriate technology",
+      "Coordination of economic social development sectors"
+    ],
+    "answer": 0,
+    "answerText": "International support",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 174</span> According to the country's routine vaccination program, all of the following vaccines are prescribed at birth, but:",
+    "options": [
+      "Polio",
+      "Hepatitis B",
+      "Tetanus",
+      "BCG"
+    ],
+    "answer": 2,
+    "answerText": "Tetanus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 175</span> All of the following are emerging diseases but:",
+    "options": [
+      "Avian influenza",
+      "AIDS",
+      "Hepatitis",
+      "SARS"
+    ],
+    "answer": 2,
+    "answerText": "Hepatitis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 164</span> Which of the theories or health education patterns are used to change behavior?",
+    "options": [
+      "The theory of social learning",
+      "A comprehensive health education model",
+      "Precede-proceed model",
+      "Social marketing"
+    ],
+    "answer": 0,
+    "answerText": "The theory of social learning",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 165</span> All of the following are classified as environmental health programs, except:",
+    "options": [
+      "Hazardous waste control",
+      "Health and safety of food products",
+      "Preventing occupational accidents",
+      "Filtration and disposal of sewage"
+    ],
+    "answer": 2,
+    "answerText": "Preventing occupational accidents",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 166</span> Which of the following microorganisms plays a key role in the development of tooth decay?",
+    "options": [
+      "Streptococcus mutans",
+      "Lactobacillus acidophilus",
+      "Staphylococcus aureus",
+      "Helicobacter pylori"
+    ],
+    "answer": 0,
+    "answerText": "Streptococcus mutans",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 167</span> Which of the following refers to the power of causing disease in an infectious agent such as TB?",
+    "options": [
+      "Infection",
+      "Virulence",
+      "Infectivity",
+      "Pathogenicity"
+    ],
+    "answer": 1,
+    "answerText": "Virulence",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 168</span> Which of the population events only affects the composition of the population?",
+    "options": [
+      "Birth",
+      "Death",
+      "Marriage",
+      "Migration"
+    ],
+    "answer": 3,
+    "answerText": "Migration",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 169</span> Which contraception method has a higher rate of failure than others?",
+    "options": [
+      "Combination pills",
+      "Men's condom",
+      "Norplant",
+      "Copper IUD"
+    ],
+    "answer": 1,
+    "answerText": "Men's condom",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 170</span> What is the intervention category for recommended use of 'safe water'?",
+    "options": [
+      "Promotion",
+      "Prevention",
+      "Therapy",
+      "Rehab"
+    ],
+    "answer": 1,
+    "answerText": "Prevention",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 171</span> What is the most important determinant of puberty in girls?",
+    "options": [
+      "Nutrition status",
+      "Mental state",
+      "Inheritance",
+      "General physical health"
+    ],
+    "answer": 0,
+    "answerText": "Nutrition status",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 172</span> Which one is true about the differences between the breast milk and milk of animals?",
+    "options": [
+      "Animal milk has lower protein content than breast milk.",
+      "Animal milk has more folic acid than breast milk.",
+      "Animal milk has lower lactose content than breast milk.",
+      "Animal milk has lesser minerals than breast milk."
+    ],
+    "answer": 2,
+    "answerText": "Animal milk has lower lactose content than breast milk.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 173</span> What is the nature of BCG vaccine?",
+    "options": [
+      "Toxoid",
+      "Weakened alive microbe",
+      "Killed microbe",
+      "Surface antigen of microbe"
+    ],
+    "answer": 1,
+    "answerText": "Weakened alive microbe",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 174</span> Which international organization is active in the field of reproductive and demographic health?",
+    "options": [
+      "UNDP",
+      "UNEP",
+      "UNFPA",
+      "UNHCR"
+    ],
+    "answer": 2,
+    "answerText": "UNFPA",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 175</span> Eye screening at the time of admission to school in order to detect amblyopia in children is which prevention level?",
+    "options": [
+      "3rd",
+      "4th",
+      "1st",
+      "2nd"
+    ],
+    "answer": 3,
+    "answerText": "2nd",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 181</span> A pregnant woman should immediately refer to the health center, doctor, or midwife by seeing any of the following symptoms, except:",
+    "options": [
+      "Visual disturbances and blurred vision",
+      "Sudden increase in body weight",
+      "Cramp of the legs",
+      "Severe headaches"
+    ],
+    "answer": 2,
+    "answerText": "Cramp of the legs",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 182</span> What is the difference between colostrum milk compared to the next milk?",
+    "options": [
+      "More fat - Lower protein",
+      "More protein - Less fat",
+      "More protein and fat",
+      "Less protein and fat"
+    ],
+    "answer": 1,
+    "answerText": "More protein - Less fat",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 183</span> What are the steps in implementing professional health practices?",
+    "options": [
+      "Identification, Evaluation, Measurement, Control",
+      "Identification, Measurement, Evaluation, Control",
+      "Measurement, Evaluation, Identification, Control",
+      "Measurement, Identification, Evaluation, Control"
+    ],
+    "answer": 1,
+    "answerText": "Identification, Measurement, Evaluation, Control",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 184</span> In which of the following is the denominator the number of live births?",
+    "options": [
+      "Raw birth",
+      "Raw death",
+      "Mother's death",
+      "Causality death"
+    ],
+    "answer": 0,
+    "answerText": "Raw birth",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 185</span> Which of the following conditions should be followed in a girl's aging process?",
+    "options": [
+      "If menstruation does not occur until the age of 14",
+      "If genital hair does not start growing until the age of 16",
+      "If menstruation is not regular immediately after menarche",
+      "If menstruation does not occur after three years of breast bud"
+    ],
+    "answer": 3,
+    "answerText": "If menstruation does not occur after three years of breast bud",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 186</span> A baby born at a height of 50 cm would have a normal height of how many centimeters at the age of 4?",
+    "options": [
+      "75",
+      "100",
+      "125",
+      "150"
+    ],
+    "answer": 1,
+    "answerText": "100",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 187</span> What stage of prevention is the prevention of obesity at a young age to prevent cardiovascular disease?",
+    "options": [
+      "Primary",
+      "First",
+      "Second",
+      "Third"
+    ],
+    "answer": 0,
+    "answerText": "Primary",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 188</span> How many hours maximally is it recommended to take oral contraceptive pills in an emergency after intercourse with the probability of a pregnancy?",
+    "options": [
+      "12",
+      "24",
+      "48",
+      "72"
+    ],
+    "answer": 3,
+    "answerText": "72",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 189</span> What is the first step of changing behavior?",
+    "options": [
+      "Intent ahead",
+      "Intent",
+      "Preparation",
+      "Action"
+    ],
+    "answer": 0,
+    "answerText": "Intent ahead",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 190</span> On which health care level are the services of public hospitals categorized?",
+    "options": [
+      "Primary",
+      "First",
+      "Second",
+      "Third"
+    ],
+    "answer": 2,
+    "answerText": "Second",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 191</span> In people who may be in contact with harsh animals due to their occupation, if they don’t mention having a history of severe hypersensitivity to previous vaccines, how is a rabies reminder vaccine injected?",
+    "options": [
+      "A reminder each year",
+      "A reminder each two years",
+      "A reminder each three years",
+      "A reminder will not be injected"
+    ],
+    "answer": 2,
+    "answerText": "A reminder each three years",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 192</span> A 12-year-old child with thalassemia has been referred to the health center for a tetanus vaccine. How many milliliters of the vaccine are injected into this child?",
+    "options": [
+      "0.1",
+      "0.5",
+      "1",
+      "2"
+    ],
+    "answer": 1,
+    "answerText": "0.5",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 164</span> An infant is able to stand without help, express very first words and use forefinger and thumb to pick up things. How old is he/she approximately?",
+    "options": [
+      "12-14 months",
+      "10-11 months",
+      "9-10 months",
+      "11-12 months"
+    ],
+    "answer": 0,
+    "answerText": "12-14 months",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 165</span> In which of the following should vaccination be repeated?",
+    "options": [
+      "Hepatitis B in premature baby",
+      "BC in the baby's exchange of blood",
+      "Polio drops in severe diarrhea",
+      "Hepatitis B in neonatal jaundice"
+    ],
+    "answer": 0,
+    "answerText": "Hepatitis B in premature baby",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 166</span> In a city with a million population in 1391, all cases of pregnancy were 200 thousand which led to 150 thousand alive births. 30 mothers were dead that year. How much is the maternal mortality rate (MMR)?",
+    "options": [
+      "20 per thousand",
+      "15 per hundred thousand",
+      "20 per hundred thousand",
+      "15 per thousand"
+    ],
+    "answer": 2,
+    "answerText": "20 per hundred thousand",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 167</span> Which of the following are international indices in order to observe and evaluation of health in all countries?",
+    "options": [
+      "At least 3% of GDP is spent on health",
+      "At least 95% of babies have a birth weight of over 2000 grams",
+      "Bringing life expectancy at birth to over 70 years",
+      "Reaching literacy rates to over 70% of all community members in men and women"
+    ],
+    "answer": 2,
+    "answerText": "Bringing life expectancy at birth to over 70 years",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 168</span> Based on the pattern - 'Stages of Behavior Change' at which stage, is the person prepared to make changes in their behavior and planning to achieve a behavioral goal?",
+    "options": [
+      "Intention",
+      "Pre-intention",
+      "Preparation",
+      "Action"
+    ],
+    "answer": 2,
+    "answerText": "Preparation",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 169</span> Which of the indicators are important in identifying cases in the population and intervening interventions among the indicators of the care system?",
+    "options": [
+      "Sensitivity, Specificity",
+      "Specificity, Positive predictive value",
+      "Sensitivity, Positive predictive value",
+      "Specificity, Negative predictive value"
+    ],
+    "answer": 0,
+    "answerText": "Sensitivity, Specificity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 170</span> A health sciences expert inoculates a vaccine in an under one year old child in a health care base. In which preventive stage is this action categorized?",
+    "options": [
+      "Primary",
+      "1st",
+      "2nd",
+      "3rd"
+    ],
+    "answer": 0,
+    "answerText": "Primary",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 171</span> Decrease in infection to which of the following is a benefit of pregnancy preventive hormone pills?",
+    "options": [
+      "Cervix cancer",
+      "Pituitary prolactinoma",
+      "Diabetes",
+      "Pelvic inflammatory diseases"
+    ],
+    "answer": 3,
+    "answerText": "Pelvic inflammatory diseases",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 172</span> Which one isn't a characteristic of fore milk?",
+    "options": [
+      "Colorless and watery",
+      "Rich in energy",
+      "Contains high amounts of protein",
+      "Contains large quantities of lactose"
+    ],
+    "answer": 1,
+    "answerText": "Rich in energy",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 173</span> Which organization has an indirect role in health development?",
+    "options": [
+      "UNESCO",
+      "ILO",
+      "UNICEF",
+      "UNFPA"
+    ],
+    "answer": 0,
+    "answerText": "UNESCO",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 174</span> Which one is considered as ill health in general hygiene?",
+    "options": [
+      "Feeling sick with illness",
+      "Feel sick without disease",
+      "Feeling good health with illness",
+      "Feeling good health without illness"
+    ],
+    "answer": 1,
+    "answerText": "Feel sick without disease",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 175</span> A pregnant woman must refer to a health center or midwife in case of observing each of following signs but:",
+    "options": [
+      "Visual disturbances and blurred vision",
+      "Sudden increase in body weight",
+      "Spasm of the legs",
+      "Severe headaches"
+    ],
+    "answer": 2,
+    "answerText": "Spasm of the legs",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 164</span> Appropriate weight gain for a woman with a height of 170 cm and pre-pregnancy weight of 70 kg, is how many kilograms during pregnancy?",
+    "options": [
+      "6 to 9",
+      "7 to 11.5",
+      "11.5 to 16",
+      "12.5 to 18"
+    ],
+    "answer": 2,
+    "answerText": "11.5 to 16",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 165</span> In the health belief model, which factors have a direct effect on the probability of adopting appropriate sanitary behavior by a person?",
+    "options": [
+      "Motor",
+      "Individual perception of the risk of a disease",
+      "Individual perception of severity",
+      "Individual perception of vulnerability"
+    ],
+    "answer": 1,
+    "answerText": "Individual perception of the risk of a disease",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 166</span> The following are good health features except:",
+    "options": [
+      "Getting angry and then regret",
+      "Self-respect",
+      "Gain respect of others",
+      "Assess your ability to the real level"
+    ],
+    "answer": 0,
+    "answerText": "Getting angry and then regret",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 167</span> Which disease in health care system does not have a phone report?",
+    "options": [
+      "Animal sting",
+      "Tuberculosis",
+      "Neonatal tetanus",
+      "Measles"
+    ],
+    "answer": 0,
+    "answerText": "Animal sting",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 168</span> Which one of the following tests don't you ask according to the country's guidelines, at the first referral of the pregnant woman?",
+    "options": [
+      "Urine test-Fasting blood sugar-Blood cell count",
+      "Fasting blood sugar-VDRL-urine test",
+      "Urine test-VDRL- Measles antibody titer",
+      "Urine test-VDRL- Rubella antibody titer"
+    ],
+    "answer": 2,
+    "answerText": "Urine test-VDRL- Measles antibody titer",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 169</span> Which of the following is not true about the characteristics of breast milk?",
+    "options": [
+      "Colostrum has more fat than normal Mother's milk.",
+      "Breast milk has Bactericidal lysozyme.",
+      "Breast milk is less than cow's milk with minerals.",
+      "Breast milk composition changes over time."
+    ],
+    "answer": 0,
+    "answerText": "Colostrum has more fat than normal Mother's milk.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 170</span> All of the following are child nutrition issues except?",
+    "options": [
+      "Regurgitation",
+      "Allergy and food allergies",
+      "Burp after eating milk",
+      "Gastroesophageal reflux disease"
+    ],
+    "answer": 3,
+    "answerText": "Gastroesophageal reflux disease",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 171</span> What is the absolute ban on taking vaccines?",
+    "options": [
+      "History of jaundice after birth",
+      "Existence history of allergies, asthma and other allergic manifestations",
+      "Family history of seizure",
+      "Severe anaphylactic reaction after vaccine administration"
+    ],
+    "answer": 3,
+    "answerText": "Severe anaphylactic reaction after vaccine administration",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 172</span> What is the most common disability factor in people over 45 years of age and older, especially in behind the desk occupations and drivers?",
+    "options": [
+      "Cardiovascular disease",
+      "Back pain",
+      "Digestive diseases",
+      "Cancers"
+    ],
+    "answer": 1,
+    "answerText": "Back pain",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 173</span> In biodiversity show Population ratio by what area?",
+    "options": [
+      "Total area per hectare",
+      "Total area of the region",
+      "Area in terms of animal habitable areas",
+      "Total area of arable fields"
+    ],
+    "answer": 3,
+    "answerText": "Total area of arable fields",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 174</span> The following are the benefits of contraceptive pills except:",
+    "options": [
+      "Reducing ovarian cancer",
+      "Reducing cervical cancer",
+      "Reducing dysmenorrhea",
+      "Reducing pelvic inflammatory diseases (PID)"
+    ],
+    "answer": 1,
+    "answerText": "Reducing cervical cancer",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 175</span> A pregnant woman should see the health center, doctor, or midwife immediately after seeing the following symptoms, except:",
+    "options": [
+      "Visual disturbances and blurred vision",
+      "Sudden increase in body weight",
+      "Eclipse of the legs",
+      "Severe headaches"
+    ],
+    "answer": 2,
+    "answerText": "Eclipse of the legs",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 146</span> In all cases, the use of the census is recommended, except:",
+    "options": [
+      "Required information for each community member.",
+      "Individuals of the community have a great deal of difference in terms of the measured attribute.",
+      "Data collection is required for short periods.",
+      "The study population is small."
+    ],
+    "answer": 1,
+    "answerText": "Individuals of the community have a great deal of difference in terms of the measured attribute.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 147</span> Which one of the following is correct regarding puberty changes?",
+    "options": [
+      "Growth in boys occurs earlier than girls.",
+      "The duration of growth in boys is longer than girls.",
+      "Maximum growth in girls is one year after the onset of the menstrual period.",
+      "The estrogen sex hormones accelerate bone growth."
+    ],
+    "answer": 2,
+    "answerText": "Maximum growth in girls is one year after the onset of the menstrual period.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 148</span> Which one is correct about breast milk?",
+    "options": [
+      "Breast milk has the highest amount of lactose compared to other milk.",
+      "Except in hot weather, infant milk does not require excess water in the first 6-4 months.",
+      "Breast milk has much higher minerals than cow's milk.",
+      "Breastfeeding causes anemia in the mother."
+    ],
+    "answer": 1,
+    "answerText": "Except in hot weather, infant milk does not require excess water in the first 6-4 months.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 149</span> Which of the following vaccines is naturally the superficial antigen of virus?",
+    "options": [
+      "Polio",
+      "Influenza",
+      "Measles",
+      "Hepatitis B"
+    ],
+    "answer": 3,
+    "answerText": "Hepatitis B",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 150</span> All of the following mechanisms in the use of IUD will prevent pregnancy, except:",
+    "options": [
+      "Local inflammatory reaction",
+      "Increased movements of the uterine tubes",
+      "Endometrial atrophy",
+      "Ovulation inhibition"
+    ],
+    "answer": 3,
+    "answerText": "Ovulation inhibition",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 151</span> All of the following about child growth indicators are true but:",
+    "options": [
+      "For knowing about weight loss, weight is measured with age.",
+      "Lack of weight reflects both acute and chronic malnutrition.",
+      "Slimming is an acute phenomenon that comes from a disease or crisis in the near past.",
+      "BMI is a combination of height and weight for age."
+    ],
+    "answer": 3,
+    "answerText": "BMI is a combination of height and weight for age.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 152</span> Which of the following options reflects the difference between the hopes and expectations of an individual with his current experiences?",
+    "options": [
+      "Sullivan index",
+      "The level of life",
+      "Quality of life",
+      "Life expectancy"
+    ],
+    "answer": 2,
+    "answerText": "Quality of life",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 153</span> Which of the following are the principles of primary health care?",
+    "options": [
+      "Improved nutrition",
+      "People's participation and self-reliance",
+      "Health education",
+      "Vaccination against infectious diseases that can be transmitted in childhood"
+    ],
+    "answer": 1,
+    "answerText": "People's participation and self-reliance",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 154</span> Which of the following is true of the demographic (general) characteristics of the initial prevention?",
+    "options": [
+      "There is a high motivation for the doctor",
+      "There is a high individual motivation",
+      "No need to identify high risk groups",
+      "Temporary effect"
+    ],
+    "answer": 1,
+    "answerText": "There is a high individual motivation",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 155</span> When does the epidemic come to an end?",
+    "options": [
+      "If a incubation period of disease passes and there is no other case.",
+      "If two incubation periods of disease pass and there is no other case.",
+      "If three incubation periods of disease pass and there is no other case.",
+      "It’s not relevant to the calculation of incubation period, whenever the disease is not seen."
+    ],
+    "answer": 1,
+    "answerText": "If two incubation periods of disease pass and there is no other case.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 156</span> What is the level of prevention for ordering glasses to improve vision?",
+    "options": [
+      "Primary",
+      "1st",
+      "2nd",
+      "3rd"
+    ],
+    "answer": 2,
+    "answerText": "2nd",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 146</span> Which one determines social health determinants?",
+    "options": [
+      "Sex",
+      "Security",
+      "Lifestyle",
+      "Nutrition"
+    ],
+    "answer": 2,
+    "answerText": "Lifestyle",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 147</span> At which level of health care are the services of public hospitals?",
+    "options": [
+      "Primary",
+      "1st",
+      "2nd",
+      "3rd"
+    ],
+    "answer": 3,
+    "answerText": "3rd",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 148</span> Carpet-weaving in dark conditions and inappropriate ventilation increases the risk of transmission of which disease?",
+    "options": [
+      "Tuberculosis",
+      "Meningitis",
+      "Typhoid fever",
+      "Brucellosis"
+    ],
+    "answer": 0,
+    "answerText": "Tuberculosis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 149</span> Which of the following is seen only in breast milk?",
+    "options": [
+      "α-Lactalbumin",
+      "Casein",
+      "Lipase enzyme",
+      "Acid folic"
+    ],
+    "answer": 0,
+    "answerText": "α-Lactalbumin",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 150</span> What is the best option for commenting and judging how children grow in a region?",
+    "options": [
+      "One-time measure of growth indices",
+      "Measuring growth indices at regular intervals",
+      "Improvement of the accuracy of measuring growth indices",
+      "Comparing the trend of the growth curve with the standard curve"
+    ],
+    "answer": 3,
+    "answerText": "Comparing the trend of the growth curve with the standard curve",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 151</span> What is the level of prevention of the increase of solid oil taxes relative to liquid oils?",
+    "options": [
+      "Primary",
+      "1st",
+      "2nd",
+      "3rd"
+    ],
+    "answer": 0,
+    "answerText": "Primary",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 152</span> What vaccine is inoculated according to the current national vaccination program at 12 months?",
+    "options": [
+      "MMR",
+      "OPV",
+      "IPV",
+      "DPT"
+    ],
+    "answer": 0,
+    "answerText": "MMR",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 153</span> Which of the following are the primary health care components?",
+    "options": [
+      "Health education",
+      "Community participation",
+      "Inter-segment coordination",
+      "Appropriate technology"
+    ],
+    "answer": 0,
+    "answerText": "Health education",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 154</span> Which organizations or international funds directly contribute to health development?",
+    "options": [
+      "United Nations High Commissioner for Refugees (UNHCR)",
+      "World Trade Organization (WTO)",
+      "United Nations Children's Fund (UNICEF)",
+      "International Labour Organization (ILO)"
+    ],
+    "answer": 2,
+    "answerText": "United Nations Children's Fund (UNICEF)",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 155</span> When does the epidemic come to an end?",
+    "options": [
+      "If one incubation period of the disease passes and there is no other case.",
+      "If two incubation periods of the disease pass and there is no other case.",
+      "If three incubation periods of the disease pass and there is no other case.",
+      "It’s not relevant to calculation of incubation period; whenever the disease is not seen."
+    ],
+    "answer": 1,
+    "answerText": "If two incubation periods of the disease pass and there is no other case.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 156</span> What is the level of prevention for ordering glasses to improve vision?",
+    "options": [
+      "Primary",
+      "1st",
+      "2nd",
+      "3rd"
+    ],
+    "answer": 2,
+    "answerText": "2nd",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 146</span> Which of the following organizations has the main role to contribute to peace and security in the world?",
+    "options": [
+      "World Health Organization",
+      "United Nations Population Fund",
+      "United Nations Children's Fund",
+      "United Nations Educational, Scientific and Cultural Organization"
+    ],
+    "answer": 3,
+    "answerText": "United Nations Educational, Scientific and Cultural Organization",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 147</span> Which level of prevention is for injection of tetanus vaccine during pregnancy to prevent umbilical cord tetanus?",
+    "options": [
+      "Primary",
+      "1st",
+      "2nd",
+      "3rd"
+    ],
+    "answer": 0,
+    "answerText": "Primary",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 148</span> Which of the following vaccines is injected at 18 months in preterm infants?",
+    "options": [
+      "Pentavalent",
+      "DTP - Polio",
+      "DTP - Polio - MMR",
+      "DTP - Polio – Hep B"
+    ],
+    "answer": 2,
+    "answerText": "DTP - Polio - MMR",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 149</span> In a country with 70 million population, during a year 1.5 million babies are born and 45,000 children under one year are dead in the same period. How much is the infant mortality rate (IMR) in thousand?",
+    "options": [
+      "30",
+      "90",
+      "180",
+      "300"
+    ],
+    "answer": 1,
+    "answerText": "90",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 150</span> If the dependency ratio in a geographic region is 0.7, how will the manufacturer-to-consumer ratio be from right to left?",
+    "options": [
+      "7 to 10",
+      "10 to 7",
+      "3 to 7",
+      "10 to 17"
+    ],
+    "answer": 0,
+    "answerText": "7 to 10",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 151</span> The baby's growth curve of an 8 months old is below the third percentile of growth. Which of the following is necessary?",
+    "options": [
+      "The child's growth retardation should be checked as soon as possible",
+      "Food supplements should be given immediately",
+      "According to the information provided, cannot be stated",
+      "Mother should be trained with proper supplemental nutrition"
+    ],
+    "answer": 0,
+    "answerText": "The child's growth retardation should be checked as soon as possible",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 152</span> Which one is the denominator in the maternal mortality rate (MMR)?",
+    "options": [
+      "Number of live births",
+      "Total number of births",
+      "Average population of one year",
+      "The number of women at reproductive age"
+    ],
+    "answer": 0,
+    "answerText": "Number of live births",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 153</span> Which of the following substances and vitamins are greater in breast milk in human than other mammals?",
+    "options": [
+      "Folic Acid",
+      "B12",
+      "B1",
+      "K"
+    ],
+    "answer": 0,
+    "answerText": "Folic Acid",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 154</span> How many children per woman are naturally required to replace the population?",
+    "options": [
+      "9/1",
+      "1/2",
+      "5/2",
+      "6/2"
+    ],
+    "answer": 2,
+    "answerText": "5/2",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 155</span> In all cases, the use of the census is recommended, except:",
+    "options": [
+      "Required information for each community member",
+      "Individuals of the community have a great deal of difference in terms of the measured attribute",
+      "Data collection is required for short periods",
+      "The study population is small"
+    ],
+    "answer": 2,
+    "answerText": "Data collection is required for short periods",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 156</span> What is the level of prevention for ordering glasses to improve vision?",
+    "options": [
+      "Primary",
+      "1st",
+      "2nd",
+      "3rd"
+    ],
+    "answer": 2,
+    "answerText": "2nd",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 161</span> When does the epidemic come to an end?",
+    "options": [
+      "If a Incubation period of disease passes and there is no other case.",
+      "If two Incubation periods of disease pass and there is no other case.",
+      "If three Incubation periods of disease pass and there is no other case.",
+      "It’s not relevant to calculation of incubation period, whenever the disease is not seen."
+    ],
+    "answer": 1,
+    "answerText": "If two Incubation periods of disease pass and there is no other case.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 162</span> What is the level of prevention for ordering glasses to improve vision?",
+    "options": [
+      "Primary",
+      "1st",
+      "2nd",
+      "3rd"
+    ],
+    "answer": 2,
+    "answerText": "2nd",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 163</span> Which of the following organizations does not directly contribute to health development?",
+    "options": [
+      "World Food Programme",
+      "WHO",
+      "United Nations Children's Fund",
+      "The United Nations Population Fund"
+    ],
+    "answer": 0,
+    "answerText": "World Food Programme",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 164</span> Which one shows the professional health care process from right to left correctly?",
+    "options": [
+      "Evaluation - Identification - Measurement - Control",
+      "Evaluation - Measurement - Identification - Control",
+      "Identification - Measurement - Evaluation - Control",
+      "Control - Evaluation - measurement - identification"
+    ],
+    "answer": 2,
+    "answerText": "Identification - Measurement - Evaluation - Control",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 165</span> The term 'prevention prevents the development of risk factors in a country or population group' is the definition of which level of prevention?",
+    "options": [
+      "Primary",
+      "1st",
+      "2nd",
+      "3rd"
+    ],
+    "answer": 0,
+    "answerText": "Primary",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 166</span> The phrase 'Prevention may have a great benefit to society, but its apparent benefit is not too great for a person.' is the definition of which of the following?",
+    "options": [
+      "Contradictory prevention",
+      "Personalized",
+      "Effectiveness cost",
+      "Public prevention"
+    ],
+    "answer": 3,
+    "answerText": "Public prevention",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 167</span> In the vaccination program, a child who has attained the age of 8 without a history of vaccination. What vaccines will be received at the first visit?",
+    "options": [
+      "Td – Polio – BCG – Hep. B",
+      "DTP – Polio – MMR – Hep. B",
+      "Td – Polio – Hep. B – MMR",
+      "DTP – Polio – MMR – BCG"
+    ],
+    "answer": 2,
+    "answerText": "Td – Polio – Hep. B – MMR",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 168</span> Which of the following principles does not apply to the use of social marketing techniques to promote the health of individuals and society?",
+    "options": [
+      "Product",
+      "Addressee",
+      "Propagation",
+      "Place"
+    ],
+    "answer": 1,
+    "answerText": "Addressee",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 169</span> Which of the following don’t you consider to disinfect water with chlorine?",
+    "options": [
+      "Disinfected water does not need to be pure and free from turbidity",
+      "Contact time at least 30 minutes to eliminate sensitive organisms",
+      "The remaining chlorine content after 1 hour of chlorination should be 1 mg/l",
+      "The amount of chlorine remaining in the epidemic is recommended to be 2 mg."
+    ],
+    "answer": 0,
+    "answerText": "Disinfected water does not need to be pure and free from turbidity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 170</span> The age-specific fertility rate (ASFR) is 420 in a city of 42,000 people. How much is the total fertility rate (TFR) in this city?",
+    "options": [
+      "4.2",
+      "2.2",
+      "1",
+      "Unknown"
+    ],
+    "answer": 0,
+    "answerText": "4.2",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 171</span> Which of the following features do you consider in the assessment of the disease-care system in our country?",
+    "options": [
+      "Sensitivity and positive predictive value",
+      "Acceptability",
+      "Flexibility",
+      "Proprietary"
+    ],
+    "answer": 1,
+    "answerText": "Acceptability",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 146</span> A study that compares the prevalence of suspected causal factors in individuals with and without disease is a/an:",
+    "options": [
+      "Cohort study",
+      "Ecologic study",
+      "Case-control study",
+      "Experimental study"
+    ],
+    "answer": 2,
+    "answerText": "Case-control study",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 147</span> Which of the following statements is false?",
+    "options": [
+      "Exclusive breastfeeding of babies should continue for 12 months",
+      "Breastfeeding enhances child spacing as it suppresses ovulation",
+      "Breast milk contains anti-infective agents to help protect the infant from disease",
+      "Breast milk containing growth-stimulating factors for the digestive tract"
+    ],
+    "answer": 3,
+    "answerText": "Breast milk containing growth-stimulating factors for the digestive tract",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 148</span> Incidence includes:",
+    "options": [
+      "Existing cases present at a single time point",
+      "New cases occurring in a defined time period",
+      "New cases, plus existing cases, plus deaths",
+      "New cases, plus existing cases occurring in a defined time period"
+    ],
+    "answer": 1,
+    "answerText": "New cases occurring in a defined time period",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 149</span> In a population of 10,000,000 people, at a given time, 500 individuals have motor neuron disease. What is the point prevalence of motor neuron disease in this population at this given time?",
+    "options": [
+      "0.5 per 100,000",
+      "0.05 per 100,000",
+      "5 per 100,000",
+      "50 per 100,000"
+    ],
+    "answer": 2,
+    "answerText": "5 per 100,000",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 150</span> The science of protecting the population and improving the health of human communities through education is called:",
+    "options": [
+      "Epidemiology",
+      "Public health",
+      "Preventive medicine",
+      "Sociology"
+    ],
+    "answer": 1,
+    "answerText": "Public health",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 151</span> The Body Mass Index (BMI) measure indicates that one would be considered overweight with a BMI of:",
+    "options": [
+      "45-59.9",
+      "25-29.9",
+      "20.9-30.9",
+      "55-69.9"
+    ],
+    "answer": 1,
+    "answerText": "25-29.9",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 152</span> The most important goal of behavioral interventions is:",
+    "options": [
+      "Comprehensive coverage",
+      "Change in behavior",
+      "Sustained behavior change",
+      "Effective use of behavioral theory"
+    ],
+    "answer": 2,
+    "answerText": "Sustained behavior change",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 153</span> The resistance of a population to infection and pathogen spread due to immunity of a large presence of the population is known as:",
+    "options": [
+      "Threshold immunity",
+      "Resistance effect",
+      "Vicarious immunity",
+      "Herd immunity"
+    ],
+    "answer": 3,
+    "answerText": "Herd immunity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 154</span> Infections resulting from pathogens acquired by patients while in a hospital or nursing facility are known as:",
+    "options": [
+      "Community infections",
+      "Social infections",
+      "Nosocomial infections",
+      "Vector-borne infections"
+    ],
+    "answer": 2,
+    "answerText": "Nosocomial infections",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 155</span> When do we consider the epidemic situation solved and finished?",
+    "options": [
+      "At the time that one window period passed without any other case diagnosed",
+      "At the time that two window periods passed without any other case diagnosed",
+      "When after passing of three window periods, any other case diagnosed",
+      "When there is not any case reported without any relation to the window period"
+    ],
+    "answer": 3,
+    "answerText": "When there is not any case reported without any relation to the window period",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 156</span> Wearing glasses in order to adjust vision is a part of … prevention:",
+    "options": [
+      "Primary",
+      "First",
+      "Second",
+      "Third"
+    ],
+    "answer": 2,
+    "answerText": "Second",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 146</span>Virulence of a disease is indicated by:",
+    "options": [
+      "Case fatality rate",
+      "Proportional mortality rate",
+      "Specific mortality rate",
+      "Amount of GDP spent on the disease"
+    ],
+    "answer": 0,
+    "answerText": "Case fatality rate",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 147</span>If the incidence of the disease in females is 3 times as in males, but the prevalence is equal in males and females, which of the following is true for this incidence?",
+    "options": [
+      "Mortality is less in males",
+      "Mortality is more in females",
+      "Less duration of the disease in males",
+      "Mortality is equal in males and females"
+    ],
+    "answer": 1,
+    "answerText": "Mortality is more in females",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 148</span>Which of the following diseases must be reported promptly?",
+    "options": [
+      "HIV infection",
+      "Tuberculosis",
+      "Acute flaccid paralysis",
+      "Shigellosis"
+    ],
+    "answer": 2,
+    "answerText": "Acute flaccid paralysis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 149</span>Which of the following is more effective in continuing breastfeeding?",
+    "options": [
+      "It is better that mother should not be employed outside of the house",
+      "The regular breast feeding every 3-4 hours is recommended",
+      "Mother breast must be washed by simple water",
+      "The duration of breastfeeding must be infant desire"
+    ],
+    "answer": 1,
+    "answerText": "The regular breast feeding every 3-4 hours is recommended",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 150</span>Which of the following statements is false about Herd Immunity?",
+    "options": [
+      "There is no relation between Herd Immunity and vaccination",
+      "It is considered as an active immunity",
+      "It increases after epidemics of communicable disease",
+      "There is no relation between Herd Immunity and maternal antibodies"
+    ],
+    "answer": 0,
+    "answerText": "There is no relation between Herd Immunity and vaccination",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 151</span>Prevention of emergence of risk factor is?",
+    "options": [
+      "Tertiary prevention",
+      "Primary prevention",
+      "Secondary prevention",
+      "Primordial prevention"
+    ],
+    "answer": 3,
+    "answerText": "Primordial prevention",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 152</span>Incidence rate includes?",
+    "options": [
+      "New cases occurring in a defined time period",
+      "Existing cases present at a single time point",
+      "A new case, plus existing cases plus deaths",
+      "New cases plus existing cases occurring in a defined time period"
+    ],
+    "answer": 0,
+    "answerText": "New cases occurring in a defined time period",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 153</span>Which of the following statements is the denominator of 'Maternal Mortality Rate'?",
+    "options": [
+      "Number of women in reproductive age",
+      "Number of pregnancies",
+      "Number of live births",
+      "Number of deliveries"
+    ],
+    "answer": 1,
+    "answerText": "Number of pregnancies",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 154</span>In all of the following statements, the use of 'population census' is recommended EXCEPT:",
+    "options": [
+      "When the studied population is small",
+      "When high valid and reliable data are needed",
+      "When person by person data of population are needed",
+      "When the characteristics of the persons are different in population"
+    ],
+    "answer": 0,
+    "answerText": "When the studied population is small",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 155</span>A mother has brought her child to a health center because there was no scar after BCG vaccination. What suggestion and action is appropriate in this case?",
+    "options": [
+      "Convincing the mother that there is no need for repeating vaccination",
+      "Repeating vaccination with a double dose of the previous one",
+      "Repeating vaccination with similar dose of the previous one",
+      "Suggestion of going to the health center after 3 months"
+    ],
+    "answer": 3,
+    "answerText": "Suggestion of going to the health center after 3 months",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 156</span>Which of the following suggests the difference and gap between the hopes and expectation of a person with his present experiences?",
+    "options": [
+      "Living standard",
+      "Economic and social success",
+      "Life quality",
+      "Occupation status"
+    ],
+    "answer": 2,
+    "answerText": "Life quality",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 191</span> Which of the following is NOT true about dental fluorosis?",
+    "options": [
+      "Enamel lesions result from an increase in fluoride use",
+      "Dentine lesions result from an increase in fluoride use",
+      "It starts firstly as white patches on enamel",
+      "Use of fluoridated toothpaste under one year of age causes mild fluorosis"
+    ],
+    "answer": 1,
+    "answerText": "Dentine lesions result from an increase in fluoride use",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 192</span> Which of the following is the definition of a clinical trial study?",
+    "options": [
+      "Summarization of previous studies",
+      "Investigation of a disease at a certain time section",
+      "Investigation of treatment effects of an intervention",
+      "Detailed investigation of a rare case"
+    ],
+    "answer": 2,
+    "answerText": "Investigation of treatment effects of an intervention",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 193</span> What is the current recommendation for a reminder dose for dentists receiving a complete series of hepatitis B vaccinations in childhood?",
+    "options": [
+      "No need for a reminder dose",
+      "Inoculation of a single reminder dose",
+      "Inoculation of a repeated complete series",
+      "Making a decision based on the antibody titer"
+    ],
+    "answer": 0,
+    "answerText": "No need for a reminder dose",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 194</span> Oral examination of pregnant women in order to diagnose dental caries early can be considered as which level of prevention?",
+    "options": [
+      "Primitive",
+      "Primary",
+      "Secondary",
+      "Tertiary"
+    ],
+    "answer": 2,
+    "answerText": "Secondary",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 195</span> A woman feels a mass in her breast when performing a self-test. She goes for mammography, and breast cancer is diagnosed. Which term is true about her condition?",
+    "options": [
+      "Disease",
+      "Illness",
+      "Dysfunction",
+      "Ill health"
+    ],
+    "answer": 0,
+    "answerText": "Disease",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 196</span> A mother takes her 4-month-old infant to the health center stating that her infant is restless and sucks his fingers. The mother is worried about the insufficiency of her milk for the infant. Based on which index is it possible to judge the sufficiency of the mother's milk?",
+    "options": [
+      "Frequent demand of the infant for milk",
+      "Restlessness and sleeplessness of the infant",
+      "Sucking fingers by the infant and statements by the mother",
+      "The amount of the infant’s weight gain"
+    ],
+    "answer": 3,
+    "answerText": "The amount of the infant’s weight gain",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 197</span> Dentists and their assistants are at risk of exposure to all types of viral hepatitis EXCEPT:",
+    "options": [
+      "HBV",
+      "HCV",
+      "HDV",
+      "HEV"
+    ],
+    "answer": 3,
+    "answerText": "HEV",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 198</span> All of the following are characteristics of the third epidemiologic transition, EXCEPT:",
+    "options": [
+      "Increase in deaths caused by chronic diseases",
+      "Decrease in maternal and child deaths",
+      "Population decrease",
+      "Population aging"
+    ],
+    "answer": 2,
+    "answerText": "Population decrease",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 199</span> After birth and inoculation of the hepatitis B vaccine for the neonate, it is revealed that the mother is HBsAg positive. What is the maximum time to receive hepatitis B specific immunoglobulin after birth?",
+    "options": [
+      "24 hours",
+      "48 hours",
+      "Three days",
+      "One week"
+    ],
+    "answer": 0,
+    "answerText": "24 hours",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 200</span> What is the level of prevention focusing on the inhibition of the creation and establishment of disease risk factors?",
+    "options": [
+      "Primitive",
+      "Primary",
+      "Secondary",
+      "Tertiary"
+    ],
+    "answer": 1,
+    "answerText": "Primary",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 146</span> All of the following components in mother's milk are more than cow's milk except:",
+    "options": [
+      "Vitamin C",
+      "Essential Fatty acid",
+      "Protein",
+      "Lactose"
+    ],
+    "answer": 3,
+    "answerText": "Lactose",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 147</span> All of the following leads to population size change except:",
+    "options": [
+      "Immigration",
+      "Marriage",
+      "Birth",
+      "Death"
+    ],
+    "answer": 1,
+    "answerText": "Marriage",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 148</span> If the 'Dependent Rate' in a country is 0.6, what level of development and population characteristic will be expected for the country?",
+    "options": [
+      "Developing with aging population",
+      "Developing with young population",
+      "Developed with young population",
+      "Developed with aging population"
+    ],
+    "answer": 2,
+    "answerText": "Developed with young population",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 149</span> Which one is considered as the last sign of female puberty?",
+    "options": [
+      "Menarche",
+      "Pubarche",
+      "Height increase",
+      "Thelarche"
+    ],
+    "answer": 0,
+    "answerText": "Menarche",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 150</span> Based on clinical studies, what is the primary complaint of most psychiatric patients, and which service providers do they want to meet mostly?",
+    "options": [
+      "Anxiety, counselors and psychologists",
+      "Anxiety, psychiatrists",
+      "Depression, general physicians",
+      "Physical complaints, general physicians"
+    ],
+    "answer": 0,
+    "answerText": "Anxiety, counselors and psychologists",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 151</span> All of the following are principles of Primary Health Care except:",
+    "options": [
+      "Community participation",
+      "Health education",
+      "Equity and equality",
+      "Inter-sectoral approach"
+    ],
+    "answer": 3,
+    "answerText": "Inter-sectoral approach",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 152</span> A smoker person has understood the consequences of smoking. Therefore, he wants to quit; but he does not have enough commitment yet. What is his stage of behavioral change model?",
+    "options": [
+      "Pre-contemplation",
+      "Maintenance",
+      "Contemplation",
+      "Preparation"
+    ],
+    "answer": 3,
+    "answerText": "Preparation",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 153</span> Which of the following is primordial prevention for Coronary artery Disease?",
+    "options": [
+      "Life style modification",
+      "High risk people screening",
+      "Periodic clinical examination",
+      "Control of blood pressure"
+    ],
+    "answer": 0,
+    "answerText": "Life style modification",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 154</span> In which of the following diseases, the pathogen lives some part of its life in aquatic host body?",
+    "options": [
+      "Schistosomiasis",
+      "Cholera",
+      "Trachoma",
+      "Typhoid"
+    ],
+    "answer": 0,
+    "answerText": "Schistosomiasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 155</span> In which of the following states, use of OCP is not contraindicated?",
+    "options": [
+      "Cerebrovascular disease",
+      "Age more than 35 years",
+      "Breast cancer",
+      "Liver neoplasia"
+    ],
+    "answer": 1,
+    "answerText": "Age more than 35 years",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 156</span> As chronic diseases such as cancer, diabetes, and cardiovascular diseases do not have absolute and complete cure, therefore in addition to regular care, which of the following items is critically important in early diagnosis?",
+    "options": [
+      "Vaccination",
+      "Screening",
+      "Treatment",
+      "Rehabilitation"
+    ],
+    "answer": 1,
+    "answerText": "Screening",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 149</span> Considering the ecological and educational evaluation phase of Prisid model, which of the following options refers to the concept of the underlying factors?",
+    "options": [
+      "Factors causing hopefulness and hopelessness in one's behavior.",
+      "Beliefs, values and perceptions that enhance motivation in one's behavior.",
+      "Encouragement and feedback received from others following the new behavior.",
+      "Sources, skills and factors that facilitate the behavior."
+    ],
+    "answer": 3,
+    "answerText": "Sources, skills and factors that facilitate the behavior.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 150</span> If after the assessment of the health condition of a person complaining of having disease symptoms; no particular indication is detected, which of the following terms is applicable to this person?",
+    "options": [
+      "Disease",
+      "Illness",
+      "Ill health",
+      "Discomfort"
+    ],
+    "answer": 1,
+    "answerText": "Illness",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 151</span> Considering the primary care services framework in dealing with health-related problems in reducing the prevalence and controlling the progress of iron-deficiency anemia, which of the following measures involves a fight against parasitic diseases?",
+    "options": [
+      "Promotive interventions",
+      "Rehabilitative interventions",
+      "Therapeutic interventions",
+      "Preventive interventions"
+    ],
+    "answer": 3,
+    "answerText": "Preventive interventions",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 152</span> Which of the following statements is a proper index to assess children's suitable nutrition status?",
+    "options": [
+      "Birth rate of at least 90% of neonates with a weight of over 2500 grams",
+      "Birth rate of at least 50% of neonates with a weight of over 3000 grams",
+      "A decline in mortality rate to 50 per thousand in children under one year old",
+      "Having an appropriate ratio of height and weight in all stages of their lives"
+    ],
+    "answer": 3,
+    "answerText": "Having an appropriate ratio of height and weight in all stages of their lives",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 153</span> A persistent disease with high prevalence, similarly affecting all ages is called?",
+    "options": [
+      "Endemic",
+      "Epidemic",
+      "Pandemic",
+      "Semi-endemic"
+    ],
+    "answer": 0,
+    "answerText": "Endemic",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 154</span> Which of the following definitions is more in line with “health education”?",
+    "options": [
+      "The transfer of health knowledge to people with limited knowledge about disease prevention.",
+      "A series of activities planned to improve health condition of the society.",
+      "The change process is a behavior that establishes a link between health knowledge and its implementations.",
+      "A type of education that provides the necessary information about healthy lifestyle to individuals."
+    ],
+    "answer": 2,
+    "answerText": "The change process is a behavior that establishes a link between health knowledge and its implementations.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 155</span> All of the following belong to primary health care elements EXCEPT?",
+    "options": [
+      "Improving nutrition status",
+      "Expanding immunization programs",
+      "Achieving justice",
+      "Providing essential drugs"
+    ],
+    "answer": 2,
+    "answerText": "Achieving justice",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 156</span> Which of the following options denotes the most important concept of “health promotion”?",
+    "options": [
+      "Enabling people to decide on their own health",
+      "Enhancing people's health information to change their behavior",
+      "Changing people's health culture for social and economic development",
+      "Establishing intra-sectorial coordination for social health development"
+    ],
+    "answer": 0,
+    "answerText": "Enabling people to decide on their own health",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 157</span> All of the following statements are true about nosocomial infection EXCEPT?",
+    "options": [
+      "The patient is without infection on admission.",
+      "The infection signs and symptoms of the disease may appear after discharge.",
+      "The infection originates from hospital equipment and services.",
+      "The patient has been in the incubation period of infection on admission."
+    ],
+    "answer": 3,
+    "answerText": "The patient has been in the incubation period of infection on admission.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 158</span> The clinical examination of the breast and fastening the seat belt in a vehicle are considered as ............. prevention, respectively.",
+    "options": [
+      "Secondary, primary",
+      "Secondary, secondary",
+      "Primary, secondary",
+      "Primary, primary"
+    ],
+    "answer": 0,
+    "answerText": "Secondary, primary",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 159</span> The virulence of a pathogenic agent to enter, survive and proliferate in the host is known as ............ .",
+    "options": [
+      "Infectiousness",
+      "Infectivity",
+      "Infection",
+      "Contamination"
+    ],
+    "answer": 1,
+    "answerText": "Infectivity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 149</span> A person presents with symptoms which can suggest colon cancer; his/her condition is confirmed after physical examination and medical tests. Which of the following terms is applied to this state?",
+    "options": [
+      "Illness",
+      "Ill Health",
+      "Disease",
+      "Discomfort"
+    ],
+    "answer": 2,
+    "answerText": "Disease",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 150</span> Which of the following is needed for assessing neonatal mortality rate? The number of ……..",
+    "options": [
+      "Neonatal deaths younger than 28 days at a certain period and the average population of the country at the same period",
+      "Neonatal deaths younger than 1 year and the number of live births at the same period",
+      "Neonatal deaths younger than 28 days and the number of live births at the same period",
+      "Maternal deaths due to delivery, the number of live births at a certain period, and the average population of the country at the same period"
+    ],
+    "answer": 2,
+    "answerText": "Neonatal deaths younger than 28 days and the number of live births at the same period",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 151</span> What is meant by the comprehensive primary health care services?",
+    "options": [
+      "Providing resources and facilities to all people in the community regardless of their differences",
+      "Employing all facilities, means, methods and human resources fitting the conditions of the community in the provision of healthcare services",
+      "Engaging all individuals in the community in the development, maintenance and the use of health services and prevention",
+      "Including promotional, preventive and rehabilitative interventions in primary health care services"
+    ],
+    "answer": 3,
+    "answerText": "Including promotional, preventive and rehabilitative interventions in primary health care services",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 152</span> Which of the following is regarded as a promotional intervention about 'diarrhea' within the framework of primary health care?",
+    "options": [
+      "Providing food safety",
+      "Breastfeeding",
+      "Oral rehydration",
+      "Personal health education"
+    ],
+    "answer": 1,
+    "answerText": "Breastfeeding",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 153</span> According to the national strategy of cooperation between the Islamic Republic of Iran and WHO…………….. is among the most important strategic aspects of WHO cooperation with Iran.",
+    "options": [
+      "Eradication of polio",
+      "Coping with the consequences of demographic and epidemiologic transition",
+      "Reforms in the health information system",
+      "Assistance in conducting applied research"
+    ],
+    "answer": 1,
+    "answerText": "Coping with the consequences of demographic and epidemiologic transition",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 154</span> According to the fourth stage of planning model of Precede-Proceed (Educational and Ecological Evaluation), which of the following factors belongs to reinforcing factors?",
+    "options": [
+      "Attitudes and behaviors of health staff and peers",
+      "Rules and regulations",
+      "Beliefs and knowledge of individuals about a certain topic",
+      "Personal skills in doing things"
+    ],
+    "answer": 0,
+    "answerText": "Attitudes and behaviors of health staff and peers",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 155</span> According to the model of change stages (Prochaska et al., 1979), to which stages does a person in the following condition belong? 'In the behavior change process, a person realizes a problem during behavior change and considers the behavior change but is not yet ready to accept the obligation to change.'",
+    "options": [
+      "Pre-intention",
+      "Preparation",
+      "Intention",
+      "Preservation"
+    ],
+    "answer": 0,
+    "answerText": "Pre-intention",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 156</span> Which of the following is among the technical challenges of environmental health?",
+    "options": [
+      "Awareness of headquarters procedures used in programs of environmental health management",
+      "Understanding the general problems of environmental health and health priorities",
+      "Capability of determining acceptability and taking legal measures",
+      "Awareness of food-borne diseases and ways of controlling them"
+    ],
+    "answer": 3,
+    "answerText": "Awareness of food-borne diseases and ways of controlling them",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 157</span> Which of the following techniques is used in occupational health to investigate machine-human interference and detect potential errors of human performance, such as surgeons' duties?",
+    "options": [
+      "Failure mode and effect analysis",
+      "Change analysis",
+      "Critical incidence technique",
+      "Action error analysis"
+    ],
+    "answer": 2,
+    "answerText": "Critical incidence technique",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 158</span> In an interview to determine students' health status, they are asked, 'Have you ever caught X disease?' Their response can help us determine ......... .",
+    "options": [
+      "Point prevalence",
+      "Cumulative incidence",
+      "Periodical prevalence",
+      "Attack rate"
+    ],
+    "answer": 2,
+    "answerText": "Periodical prevalence",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 159</span> A randomized clinical trial on the effect of two drugs showed different results. If the two drugs actually have the same effect in reality, this would be an example of ......... .",
+    "options": [
+      "Type 1 error α",
+      "Type 2 error β",
+      "α-1",
+      "β-1"
+    ],
+    "answer": 0,
+    "answerText": "Type 1 error α",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 160</span> Which of the following research designs is suitable for this context: 'Did mothers with newborns suffering from cataract have more exposure to rubella during a rubella epidemic than mothers with non-cataract newborns?' ",
+    "options": [
+      "Cross-sectional",
+      "Synchronous cohort",
+      "Case-control",
+      "Retrospective cohort"
+    ],
+    "answer": 2,
+    "answerText": "Case-control",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 149</span> Which of the following is correct about the definitions of 'health'?",
+    "options": [
+      "The definition of health is influenced by different cultural and geographical conditions.",
+      "According to the statistical definition of health, the prevalence of a psychologically abnormal trait is not considered normal in society.",
+      "The dynamics of the health process have no effect on its concept over time.",
+      "In the statistical model of health definition, all values within two standard deviations from the mean are normal."
+    ],
+    "answer": 0,
+    "answerText": "The definition of health is influenced by different cultural and geographical conditions.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 150</span> In an area, the size of the spleen in 2-to-9-year-old children is more than 50%, and in adults, it is more than 25%. According to the World Health Organization classification of Endemic Malaria, which class does this region fall into?",
+    "options": [
+      "Hypoendemic",
+      "Holoendemic",
+      "Hyperendemic",
+      "Mesoendemic"
+    ],
+    "answer": 2,
+    "answerText": "Hyperendemic",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 151</span> To calculate the sensitivity of a screening test, which of the following data are needed for the numerator?",
+    "options": [
+      "Number of healthy (normal) individuals diagnosed as negative",
+      "Number of unhealthy individuals diagnosed as negative",
+      "Number of healthy (normal) individuals diagnosed as positive",
+      "Number of unhealthy individuals diagnosed as positive"
+    ],
+    "answer": 3,
+    "answerText": "Number of unhealthy individuals diagnosed as positive",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 152</span> Which of the following is correct about defining the periodic prevalence of diseases?",
+    "options": [
+      "The total number of people who had a disease or feature at any given time in a given period.",
+      "The total number of people infected with a particular disease or feature at a given point in time.",
+      "The total number of people with the disease or feature at any time during the year.",
+      "The number of people who had the disease or feature at least once in their lives."
+    ],
+    "answer": 0,
+    "answerText": "The total number of people who had a disease or feature at any given time in a given period.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 153</span> Which of the following is among the general challenges of environmental health?",
+    "options": [
+      "Food compounds",
+      "Population and housing",
+      "Environmental harms",
+      "Professional attitudes"
+    ],
+    "answer": 2,
+    "answerText": "Environmental harms",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 154</span> In a smoking cessation program, if necessary support is provided by the cultural centers to which a person belongs, which level of impact has been considered in this program based on the social ecological model (McLeroy et al.)?",
+    "options": [
+      "Interpersonal",
+      "Organizational",
+      "Societal",
+      "Political"
+    ],
+    "answer": 1,
+    "answerText": "Organizational",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 155</span> In a society with a high prevalence of skin cancer, experts intend to promote the use of sunscreen through the theory of innovation diffusion. In the process of program implementation and classification of individuals, a group of them were interested in performing the behavior but needed external motivation to accept the behavior. What category does this group fall into?",
+    "options": [
+      "Innovators",
+      "Early adopters",
+      "Early majority",
+      "Laggards"
+    ],
+    "answer": 2,
+    "answerText": "Early majority",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 156</span> Which UN organizations or programs are directly involved in health development?",
+    "options": [
+      "United Nations Educational, Scientific, and Cultural Organization",
+      "Organization of the Prohibition of Chemical Weapons",
+      "World Food Program",
+      "United Nations Environmental Program"
+    ],
+    "answer": 2,
+    "answerText": "World Food Program",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 157</span> Which of the following is correct about the purpose of the measles control program in the world?",
+    "options": [
+      "Reduction of measles cases by 100% by 1995",
+      "Reduction of measles deaths by 95% by 1995",
+      "Increase in measles vaccination coverage to more than 50%",
+      "Increase in measles vaccination coverage to more than 90%"
+    ],
+    "answer": 3,
+    "answerText": "Increase in measles vaccination coverage to more than 90%",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 158</span> Within the framework of primary health care, which of the following statements for 'Anemia' falls into the group of therapeutic interventions?",
+    "options": [
+      "Iron prescription",
+      "Patient screening",
+      "Integrated services",
+      "Using nutritional supplements"
+    ],
+    "answer": 0,
+    "answerText": "Iron prescription",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 159</span> Which of the following is NOT correct about primary health care?",
+    "options": [
+      "Primary health care services cover all prevention, promotion, therapeutic, and rehabilitative services.",
+      "The complexity of health control in health care centers is less than at the community level.",
+      "The frequency of health problems in the community is higher than in hospitals.",
+      "In promotional interventions in primary health care, the impact on the underlying causes of health problems is considered."
+    ],
+    "answer": 1,
+    "answerText": "The complexity of health control in health care centers is less than at the community level.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 160</span> Which hazard identification technique in occupational health is applicable to all accidents?",
+    "options": [
+      "Action error analysis",
+      "Cause-effect analysis",
+      "Management faults and negligence analysis",
+      "Energy trace and barrier analysis"
+    ],
+    "answer": 3,
+    "answerText": "Energy trace and barrier analysis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 149</span> Which of the following is NOT true about the definitions of “Health”?",
+    "options": [
+      "Health is not an absolute concept.",
+      "The concept of health is influenced by time.",
+      "The definition of health is not influenced by different cultural situations.",
+      "The definition of health is influenced by individuals’ knowledge."
+    ],
+    "answer": 2,
+    "answerText": "The definition of health is not influenced by different cultural situations.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 150</span> A person presents with symptoms suggesting gastric cancer which is not confirmed after physical examination and medical tests. Which of the following terms is applied to this situation?",
+    "options": [
+      "Illness",
+      "Ill Health",
+      "Disease",
+      "Discomfort"
+    ],
+    "answer": 0,
+    "answerText": "Illness",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 151</span> Which of the following statements is correct about the evaluation indicators of Health for All (HFA)?",
+    "options": [
+      "Spending at least 20% of GDP on health",
+      "Giving birth to at least 60% of infants with more than 2500gr birth weight",
+      "Increasing life expectancy at birth to more than 70 years",
+      "Increasing the literacy rate to more than 70% in the whole population"
+    ],
+    "answer": 2,
+    "answerText": "Increasing life expectancy at birth to more than 70 years",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 152</span> Which of the following is the most accurate statement about using appropriate methods as one of the principles of providing primary health care?",
+    "options": [
+      "Using methods, tools, equipment and staff in providing care by taking into account the capital and current costs",
+      "Using methods, tools, equipment and staff in providing care, in accordance with the community’s needs and socioeconomic conditions",
+      "Using methods, tools, equipment and staff in providing care in a way that is acceptable to the community",
+      "Using methods, tools, equipment and staff to provide care in the areas where it is mostly needed"
+    ],
+    "answer": 1,
+    "answerText": "Using methods, tools, equipment and staff in providing care, in accordance with the community’s needs and socioeconomic conditions",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 153</span> Which of the following is regarded as a therapeutic intervention about “Tuberculosis” within the framework of primary health care?",
+    "options": [
+      "Nutritional supplement",
+      "Integrated services",
+      "Nutritional support",
+      "Blood transfusion"
+    ],
+    "answer": 1,
+    "answerText": "Integrated services",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 154</span> Which of the following is NOT considered as the goal of the United Nations International Children's Emergency Fund (UNICEF)?",
+    "options": [
+      "Promoting respect for human rights, especially for women",
+      "Enhancing awareness and capacity building to meet the needs of family planning",
+      "Following social justice in developing programs related to children",
+      "Guiding children-related laws, policies and measures"
+    ],
+    "answer": 1,
+    "answerText": "Enhancing awareness and capacity building to meet the needs of family planning",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 155</span> In order to measure the specificity of a screening test, which of the following data are needed for the denominator?",
+    "options": [
+      "False positive - True positive",
+      "True positive - False negative",
+      "False negative - True negative",
+      "False positive - True negative"
+    ],
+    "answer": 3,
+    "answerText": "False positive - True negative",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 156</span> If the prevalence of a disease in an area starts from the beginning of life and mostly affects children, while it is less prevalent in adults, it is a/an ……… disease.",
+    "options": [
+      "holoendemic",
+      "hyperendemic",
+      "endemic",
+      "hypoendemic"
+    ],
+    "answer": 0,
+    "answerText": "holoendemic",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 157</span> In the process of controlling human environmental-related diseases, the basic environmental health strategy focuses on ……… .",
+    "options": [
+      "the source and modes of disease transmission",
+      "individuals’ sensitivity and control of pathogens in the environment",
+      "the source, modes of disease transmission, and individuals’ sensitivity",
+      "pathogens, modes of disease transmission, and reservoirs"
+    ],
+    "answer": 2,
+    "answerText": "the source, modes of disease transmission, and individuals’ sensitivity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 158</span> In a society, experts intend to promote the Quit Smoking Program through the stages of the Change Theory. In the planning and classification process, some individuals notice the side effects of smoking and plan to quit smoking. What category does this group fall into?",
+    "options": [
+      "Pre-contemplation",
+      "Contemplation",
+      "Preparation",
+      "Action"
+    ],
+    "answer": 1,
+    "answerText": "Contemplation",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 159</span> Which of the following factors belongs to enabling factors according to the planning model of Precede-Proceed (Educational and Ecological Evaluation)?",
+    "options": [
+      "Rules and regulations",
+      "Attitudes and behavior of peers",
+      "Behaviors of health workers",
+      "Awareness and knowledge of individuals"
+    ],
+    "answer": 0,
+    "answerText": "Rules and regulations",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 160</span> Which of the following measures is taken at the “Identification” stage as one of the administrative phases in occupational health?",
+    "options": [
+      "Diagnosis of the process",
+      "Determination of hazardous factor",
+      "Replacement",
+      "Comparing situation with standards"
+    ],
+    "answer": 1,
+    "answerText": "Determination of hazardous factor",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 149</span> In the administrative operations of occupational health, which of the following measures should be taken after determining the risk?",
+    "options": [
+      "Measurement",
+      "Identification",
+      "Control actions",
+      "Interpretation of results"
+    ],
+    "answer": 2,
+    "answerText": "Control actions",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 150</span> According to the principles of environmental health, in the process of controlling human diseases in which the environment is involved, pest management is one of the measures in ..........",
+    "options": [
+      "source control",
+      "disease transmission control",
+      "sensitivity control",
+      "control of susceptible agents"
+    ],
+    "answer": 0,
+    "answerText": "source control",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 151</span> According to the principles of environmental health, which of the following measures is used in human disease control processes in which the environment is involved?",
+    "options": [
+      "Isolating the healthy individuals during the period of disease transmission",
+      "Educating people and changing the health-related habits and behaviors",
+      "Providing proper housing and environmental health",
+      "Eliminating the carriers and insects"
+    ],
+    "answer": 1,
+    "answerText": "Educating people and changing the health-related habits and behaviors",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 152</span> Which of the following is correct about the definition of health promotion?",
+    "options": [
+      "It refers to the activities performed to increase people's awareness and knowledge about health-related issues.",
+      "It is a set of changes made in the economic and social environment in order to create a suitable environment for changing health behavior.",
+      "It is a set of educational actions and environmental supports that takes place to change health behaviors.",
+      "It is a set of actions that aims to bridge the gap between attitude and awareness."
+    ],
+    "answer": 2,
+    "answerText": "It is a set of educational actions and environmental supports that takes place to change health behaviors.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 153</span> If we use the social marketing planning model in the health promotion program to help others quit smoking, which of the following is considered a product?",
+    "options": [
+      "Walking from home to the smoking cessation center",
+      "Experiencing physical discomfort caused by smoking cessation",
+      "Informing others about smoking cessation strategies via the Internet",
+      "Participating in smoking cessation workshops"
+    ],
+    "answer": 3,
+    "answerText": "Participating in smoking cessation workshops",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 154</span> If you want to calculate the total fertility rate in a community, which of the following information do you need for the numerator?",
+    "options": [
+      "Total age-specific fertility rates",
+      "Number of births in a given period",
+      "Number of crude birth",
+      "Mean population"
+    ],
+    "answer": 0,
+    "answerText": "Total age-specific fertility rates",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 155</span> The prevalence rate of a disease depends on the ..........",
+    "options": [
+      "average duration of disease, the number of disease cases",
+      "number of new disease cases, mortality rate",
+      "point prevalence rate, period prevalence rate",
+      "incidence rate, average duration of the disease"
+    ],
+    "answer": 3,
+    "answerText": "incidence rate, average duration of the disease",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 156</span> Which of the following interventions is considered in the comprehensive approach to primary health care?",
+    "options": [
+      "Prevention - screening - therapy - rehabilitation",
+      "Promotion - prevention - reclamation - rehabilitation",
+      "Promotion - prevention - therapy - rehabilitation",
+      "Promotion - screening - therapy - rehabilitation"
+    ],
+    "answer": 2,
+    "answerText": "Promotion - prevention - therapy - rehabilitation",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 157</span> Which of the following is true about nosocomial infections?",
+    "options": [
+      "The person who is referred to the hospital has been infected on arrival.",
+      "The person who is referred to the hospital has been in the incubation period on arrival.",
+      "The patient shows symptoms of the disease after discharge from the hospital.",
+      "It is originated from outside the hospital and symptoms occur on admission."
+    ],
+    "answer": 2,
+    "answerText": "The patient shows symptoms of the disease after discharge from the hospital.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 158</span> Which of the following is true about biological transmission?",
+    "options": [
+      "Infection agent enters the susceptible host's body through the biological products, including the blood and serum.",
+      "The infection agent necessarily goes through the incubation period in the body of an arthropod after entry.",
+      "It occurs through contamination of the oral appendages or the passage of the infection agent through the gastrointestinal tract of the insect without the need for reproduction.",
+      "The infection agent is transmitted directly into the mouth and conjunctiva of the eye after reproduction in humid physical environment."
+    ],
+    "answer": 1,
+    "answerText": "The infection agent necessarily goes through the incubation period in the body of an arthropod after entry.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 159</span> A person's feeling about his/her health and its effect on his/her daily life is referred to as .............",
+    "options": [
+      "ill-health",
+      "disease",
+      "good health",
+      "illness"
+    ],
+    "answer": 3,
+    "answerText": "illness",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 160</span> Which of the following is true about the definition of mental health?",
+    "options": [
+      "Ability of establishing the relationships and maintaining them",
+      "Ability of rational and clear thinking",
+      "Absence of obvious psychological disease or problems",
+      "Ability of recognizing and understanding the emotions"
+    ],
+    "answer": 1,
+    "answerText": "Ability of rational and clear thinking",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 149</span> Which of the following is correct about the endemic disease?",
+    "options": [
+      "A disease that has a high prevalence at the beginning of life, reaches equilibrium in adults and is less common in children than adults.",
+      "High and persistent prevalence of infectious diseases in an area that is measurable and affects most children.",
+      "A disease that is permanently present with a high prevalence or incidence and affects all ages equally.",
+      "Permanent presence (at least for 3 consecutive years) of a disease or infectious agent in a certain geographical area or population."
+    ],
+    "answer": 3,
+    "answerText": "Permanent presence (at least for 3 consecutive years) of a disease or infectious agent in a certain geographical area or population.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 150</span> According to the formula determined by the World Health Organization, to calculate the prenatal mortality rate, which of the following options do we need in the denominator of the deduction?",
+    "options": [
+      "Number of fetal deaths (28 weeks pregnancy) or more",
+      "Number of live births in a year",
+      "Number of deaths in the first week of life",
+      "Number of deaths in the first week of life plus the number of fetal deaths"
+    ],
+    "answer": 1,
+    "answerText": "Number of live births in a year",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 151</span> All of the following organizations are directly involved in health development EXCEPT ……… .",
+    "options": [
+      "United Nations Environmental Program",
+      "United Nations Children’s Fund",
+      "World Health Organization",
+      "United Nations Population Fund"
+    ],
+    "answer": 0,
+    "answerText": "United Nations Environmental Program",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 152</span> According to the social marketing planning model, to change the behavior of 'waste separation at home', which of the following marketing principles is included?",
+    "options": [
+      "Price",
+      "Place",
+      "Product",
+      "Promotion"
+    ],
+    "answer": 3,
+    "answerText": "Promotion",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 153</span> Which of the following is the index disease of water-related insect-borne diseases?",
+    "options": [
+      "Schistosomiasis",
+      "Trachoma",
+      "Typhoid",
+      "Malaria"
+    ],
+    "answer": 3,
+    "answerText": "Malaria",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 154</span> According to which of the theories and models of behavior change, adolescents are more likely to smoke without the need for direct experience and only by observing drug use by friends?",
+    "options": [
+      "Diffusion of innovation",
+      "Social learning",
+      "Health Belief",
+      "Planned behavior"
+    ],
+    "answer": 1,
+    "answerText": "Social learning",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 155</span> A person presents with symptoms of breast cancer but her condition is not confirmed after physical examination and medical tests (no particular indication is detected). Which of the following terms is applied to this state?",
+    "options": [
+      "Disease",
+      "Illness",
+      "Ill health",
+      "Discomfort"
+    ],
+    "answer": 1,
+    "answerText": "Illness",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 156</span> Which of the following is correct about the statistical definition of normal (health)?",
+    "options": [
+      "In the majority of societies with different conditions, all human characteristics follow the normal distribution.",
+      "It is possible to use the same model for the distribution of human characteristics in all societies for correct judgment.",
+      "To judge the distribution of some characteristics such as weight in a society, it is not necessary to determine the characteristics of that society.",
+      "Prevalence of an abnormal trait in the psychological dimension of a society is sometimes considered normal."
+    ],
+    "answer": 3,
+    "answerText": "Prevalence of an abnormal trait in the psychological dimension of a society is sometimes considered normal.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 157</span> Which of the following is correct about the basic philosophy of 'Primary Health Care'?",
+    "options": [
+      "Fair distribution of health resources in the society",
+      "Reducing the prevalence of diseases by providing preventive interventions",
+      "Use of local facilities and resources in providing services",
+      "Coordinating different sections of society that affect people's health"
+    ],
+    "answer": 0,
+    "answerText": "Fair distribution of health resources in the society",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 158</span> Which of the following is correct about 'Primary Health Care'?",
+    "options": [
+      "Based on PHC service levels, basic medical treatment services are provided in general hospitals.",
+      "The health problems of the majority of people are related to the third level of the PHC pyramid.",
+      "The complexity of health care is less at the basic level of the PHC pyramid.",
+      "In PHC, comprehensiveness of services means providing a set of promotional and prevention services."
+    ],
+    "answer": 2,
+    "answerText": "The complexity of health care is less at the basic level of the PHC pyramid.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 149</span> Which of the following is needed to calculate the Sullivan Index?",
+    "options": [
+      "Life expectancy - possible duration of hospitalization and inability to perform major functions",
+      "Quality of life - degree of disability - life expectancy at birth",
+      "Economic status - death rate in children under one year of age - life expectancy",
+      "Probable duration of hospitalization and inability to perform major functions - mortality rate - quality of life"
+    ],
+    "answer": 1,
+    "answerText": "Quality of life - degree of disability - life expectancy at birth",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 150</span> All the following options about primary health care are correct, EXCEPT:",
+    "options": [
+      "The frequency of health-related problems at the level of health centers is lower than that of hospitals",
+      "Based on the classification of services in primary health care, basic treatment services are provided in Health Houses",
+      "Access to mental health care is not among the minimum mandatory measures for all communities",
+      "In promotional interventions in primary health care, the impact on the basic causes of health problems is focused on"
+    ],
+    "answer": 2,
+    "answerText": "Access to mental health care is not among the minimum mandatory measures for all communities",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 151</span> Which of the following interventions includes the provision of social integration services in controlling the tuberculosis disease?",
+    "options": [
+      "Promotion",
+      "Prevention",
+      "Rehabilitation",
+      "Treatment"
+    ],
+    "answer": 2,
+    "answerText": "Rehabilitation",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 152</span> Based on monitoring and evaluation indicators of 'Health for All', vaccination against all the following diseases is examined in the children's immunization program, EXCEPT:",
+    "options": [
+      "diphtheria",
+      "hepatitis B",
+      "measles",
+      "whooping cough"
+    ],
+    "answer": 1,
+    "answerText": "hepatitis B",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 153</span> Which of the following is correct about the unfulfilled goals of the World Health Organization regarding acute respiratory infections (ARI)?",
+    "options": [
+      "One-third reduction in the mortality rate of children under 5 years of age due to ARI in the 1990s",
+      "Complete elimination of ARI in children in developing countries by 2000",
+      "A 95% reduction in ARI mortality rate in the 1990s",
+      "Eradication of ARI by 2000 in all countries with different socioeconomic conditions"
+    ],
+    "answer": 1,
+    "answerText": "Complete elimination of ARI in children in developing countries by 2000",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 154</span> Which of the following conferences approved the primary health care as the key to achieve the goal of 'Health for All'?",
+    "options": [
+      "The last International Health Conference in 1938",
+      "International Health Conference in 1946",
+      "The Joint International Conference of WHO and UNICEF in 1978",
+      "The First International Health Conference in 1851"
+    ],
+    "answer": 2,
+    "answerText": "The Joint International Conference of WHO and UNICEF in 1978",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 155</span> Based on the social marketing model in the cigarette health promotion program, which of the following items is considered as a cost?",
+    "options": [
+      "Participating in a smoking cessation workshop",
+      "Walking the distance to the smoking cessation center",
+      "Having regular physical activity",
+      "Using mass media for education"
+    ],
+    "answer": 1,
+    "answerText": "Walking the distance to the smoking cessation center",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 156</span> Surveys in the urban areas of the country show that an important factor that affects the physical activity status of young people is the lack of proper physical activity among their friends. Based on the precede-proceed model, which of the following items involves this important factor?",
+    "options": [
+      "Underlying",
+      "Reinforcing",
+      "Enabling",
+      "Predisposing"
+    ],
+    "answer": 3,
+    "answerText": "Predisposing",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 157</span> If the rules for maintaining the quality of food products are established and implemented to prevent human diseases induced by the environment, which of the following basic elements of environmental health is used?",
+    "options": [
+      "Controlling the disease agent",
+      "Controlling and reducing sensitivity",
+      "Fighting the vectors",
+      "Controlling the ways of transmission"
+    ],
+    "answer": 3,
+    "answerText": "Controlling the ways of transmission",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 158</span> If permission is NOT issued to create industrial estate around the cities to control risks and diseases, which hazard control program is used?",
+    "options": [
+      "Hazard elimination",
+      "Hazard limitation",
+      "Escape and survival",
+      "Isolation"
+    ],
+    "answer": 1,
+    "answerText": "Hazard limitation",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 159</span> Which of the risk identification techniques in occupational health is used to investigate human error in work performance?",
+    "options": [
+      "Change analysis",
+      "Cause-effect analysis",
+      "Trace & barrier analysis",
+      "Critical incidents"
+    ],
+    "answer": 3,
+    "answerText": "Critical incidents",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 160</span> Which of the following is correct about the definition of gradient of infection?",
+    "options": [
+      "Manifestation of illness in the host that indicates his/her reaction to an infectious agent.",
+      "The length of time that an infectious agent can be directly transmitted from an infected person to another.",
+      "The time interval between the onset of the causal effect of an infectious agent and the development of disease symptoms.",
+      "The time intervals of infectious diseases incidence in a community based on the immunity status of people."
+    ],
+    "answer": 2,
+    "answerText": "The time interval between the onset of the causal effect of an infectious agent and the development of disease symptoms.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 149</span> During recent years, using asbestos in petrochemical industries is prohibited. By this action, which preventive measure has been mentioned?",
+    "options": [
+      "Prevention of unnecessary and excessive treatment",
+      "No risk factor development",
+      "Early diagnosis and timely treatment",
+      "Prevent the onset of disease"
+    ],
+    "answer": 3,
+    "answerText": "Prevent the onset of disease",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 150</span> Which level of prevention is designing a clinical guideline in order to rational CT-SCAN prescription for diagnosis of COVID-19?",
+    "options": [
+      "Primary",
+      "Secondary",
+      "Tertiary",
+      "Quaternary"
+    ],
+    "answer": 3,
+    "answerText": "Quaternary",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 151</span> Which level of prevention is considered while using sunscreens to prevent skin cancer?",
+    "options": [
+      "Primary",
+      "Secondary",
+      "Tertiary",
+      "Quaternary"
+    ],
+    "answer": 0,
+    "answerText": "Primary",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 152</span> Which type of health needs are reasonable and should be answered based on scientific evidence and documentation?",
+    "options": [
+      "Perceived",
+      "Expressed",
+      "Competitive",
+      "Essential"
+    ],
+    "answer": 1,
+    "answerText": "Expressed",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 153</span> In which of the following stages, it is determined how much the final aims of a program have been reached?",
+    "options": [
+      "Monitoring",
+      "Evaluation",
+      "Performance",
+      "Process"
+    ],
+    "answer": 1,
+    "answerText": "Evaluation",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 154</span> According to the health and disease axis, what is the aim of secondary prevention?",
+    "options": [
+      "To prevent unnecessary and excessive treatment",
+      "No risk factor development",
+      "To prevent disease occurrence",
+      "Early diagnosis and timely intervention"
+    ],
+    "answer": 3,
+    "answerText": "Early diagnosis and timely intervention",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 155</span> Which of the following is not a component of 'Primary Health Care'?",
+    "options": [
+      "Equity in access to services",
+      "Access to essential medicines",
+      "Access to safe drinking water",
+      "Disease prevention and control"
+    ],
+    "answer": 2,
+    "answerText": "Access to safe drinking water",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 156</span> In which of the following models and theories, 'vulnerability to disease' is considered a major component?",
+    "options": [
+      "Transtheoretical model",
+      "Social learning theory",
+      "Health belief model",
+      "Comprehensive model of health education"
+    ],
+    "answer": 2,
+    "answerText": "Health belief model",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 157</span> Which of the following is classified as laws and regulations in terms of the Precede-Proceed model of ecology?",
+    "options": [
+      "Reinforcement factors",
+      "Enabler factors",
+      "Predisposing factors",
+      "Environmental factors"
+    ],
+    "answer": 3,
+    "answerText": "Environmental factors",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 158</span> Which unit of the World Health Organization is responsible for implementing the policies approved by the World Health Assembly?",
+    "options": [
+      "Secretariat",
+      "Technical committee",
+      "Executive Board",
+      "World Health Council"
+    ],
+    "answer": 2,
+    "answerText": "Executive Board",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 159</span> Where is the headquarter of the Eastern Mediterranean Region Office of the World Health Organization located?",
+    "options": [
+      "Iran",
+      "India",
+      "Philippines",
+      "Egypt"
+    ],
+    "answer": 3,
+    "answerText": "Egypt",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 160</span> Which of the following organizations’ responsibility is exclusively dedicated to children?",
+    "options": [
+      "UNICEF",
+      "UNESCO",
+      "UNFPA",
+      "UNEP"
+    ],
+    "answer": 0,
+    "answerText": "UNICEF",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 143</span> Which of the following is NOT considered a direct method of disease transmission?",
+    "options": [
+      "Droplet spread",
+      "Vector transmission",
+      "Direct physical contact",
+      "Vertical transmission"
+    ],
+    "answer": 1,
+    "answerText": "Vector transmission",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 144</span> The infant mortality rate is calculated as the number of deaths of infants ………. per 1000 live births in a year.",
+    "options": [
+      "under one month of age",
+      "under one year of age",
+      "under five years of age",
+      "under six months of age"
+    ],
+    "answer": 1,
+    "answerText": "under one year of age",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 145</span> Which of the following diseases is considered a Category A bioterrorism agent?",
+    "options": [
+      "Plague",
+      "Cholera",
+      "Tuberculosis",
+      "Anthrax"
+    ],
+    "answer": 3,
+    "answerText": "Anthrax",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 146</span> The mode of action of Oral Rehydration Salts (ORS) primarily relies on which mechanism?",
+    "options": [
+      "Increasing potassium uptake",
+      "Enhancing sodium-glucose co-transport",
+      "Stimulating ADH secretion",
+      "Blocking sodium channels"
+    ],
+    "answer": 1,
+    "answerText": "Enhancing sodium-glucose co-transport",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 147</span> Which of the following vaccines contains live attenuated organisms?",
+    "options": [
+      "DTaP",
+      "Hepatitis B",
+      "MMR",
+      "Inactivated polio vaccine"
+    ],
+    "answer": 2,
+    "answerText": "MMR",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 148</span> Herd immunity provides indirect protection to susceptible individuals by ………",
+    "options": [
+      "boosting individual immunity",
+      "reducing pathogen circulation",
+      "stimulating innate immunity",
+      "enhancing pathogen virulence"
+    ],
+    "answer": 1,
+    "answerText": "reducing pathogen circulation",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 149</span> Which of the following diseases is waterborne?",
+    "options": [
+      "Measles",
+      "Hepatitis A",
+      "Hepatitis B",
+      "Leptospirosis"
+    ],
+    "answer": 1,
+    "answerText": "Hepatitis A",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 150</span> Which indicator is used to assess the nutritional status of a population?",
+    "options": [
+      "BMI for age",
+      "Crude birth rate",
+      "Total fertility rate",
+      "Age-specific mortality rate"
+    ],
+    "answer": 0,
+    "answerText": "BMI for age",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 151</span> The safe disposal of biomedical waste is critical for preventing the spread of ………",
+    "options": [
+      "vector-borne diseases",
+      "waterborne diseases",
+      "nosocomial infections",
+      "airborne diseases"
+    ],
+    "answer": 2,
+    "answerText": "nosocomial infections",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 152</span> Which of the following is NOT a component of the health belief model?",
+    "options": [
+      "Perceived susceptibility",
+      "Perceived severity",
+      "Perceived immunity",
+      "Perceived benefits"
+    ],
+    "answer": 2,
+    "answerText": "Perceived immunity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 153</span> What is the most effective public health intervention for reducing the incidence of neonatal tetanus?",
+    "options": [
+      "Providing sterile delivery kits",
+      "Promoting exclusive breastfeeding",
+      "Vaccinating pregnant women",
+      "Postnatal vitamin A supplementation"
+    ],
+    "answer": 2,
+    "answerText": "Vaccinating pregnant women",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 154</span> Which of the following is the main purpose of conducting a cohort study?",
+    "options": [
+      "To determine disease prevalence",
+      "To establish a cause-effect relationship",
+      "To evaluate a treatment efficacy",
+      "To identify disease risk factors"
+    ],
+    "answer": 1,
+    "answerText": "To establish a cause-effect relationship",
+    "explanation": "",
     "userAnswer": null
   }
 ]
