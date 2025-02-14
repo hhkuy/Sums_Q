@@ -1,28 +1,3551 @@
 [
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events?",
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 51</span> What is the most common mixed malaria infection in Iran?",
     "options": [
-      "Opening of Na+ channels",
-      "Opening of K+ channels",
-      "Opening of Ca++ voltage-gated channels",
-      "Closing of Cl− channels"
+      "Vivax – falciparum",
+      "Falciparum-malaria",
+      "Malaria-Oval",
+      "Oval-Vivax"
     ],
-    "answer": 2,
-    "answerText": "Opening of Ca++ voltage-gated channels",
-    "explanation": "The influx of Ca++ through voltage-gated calcium channels triggers neurotransmitter release into the synaptic cleft.",
+    "answer": 0,
+    "answerText": "Vivax – falciparum",
+    "explanation": "",
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?",
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 52</span> What is the main cause of disseminated skin leishmaniasis (DCL)?",
     "options": [
-      "Opening of Na+ channels",
-      "Opening of K+ channels at the surface of the postsynaptic membrane",
-      "Closing of K+ channels",
-      "Depolarization of the membrane"
+      "L. tropica",
+      "L. aethiopica",
+      "L. braziliensis",
+      "L. infantum"
     ],
     "answer": 1,
-    "answerText": "Opening of K+ channels at the surface of the postsynaptic membrane",
-    "explanation": "Inhibitory neurotransmitters cause hyperpolarization by opening K+ channels, making the postsynaptic membrane less excitable.",
+    "answerText": "L. aethiopica",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 53</span> The location of which of the protozoans is under the large intestine?",
+    "options": [
+      "Balantidium coli",
+      "Isospora belli",
+      "Giardia lamblia",
+      "Cryptosporidium parvum"
+    ],
+    "answer": 0,
+    "answerText": "Balantidium coli",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 54</span> An epileptic in children is important in catching which one of the following worm diseases?",
+    "options": [
+      "Toxocariasis",
+      "Dracunculiasis",
+      "Trichuriasis",
+      "Trichostrongyliasis"
+    ],
+    "answer": 0,
+    "answerText": "Toxocariasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 55</span> Which one of the following options is a selective drug for the treatment of schistosoma haematobium infection?",
+    "options": [
+      "Triclabendazole",
+      "Praziquantel",
+      "Ivermectin",
+      "Mebendazole"
+    ],
+    "answer": 1,
+    "answerText": "Praziquantel",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 56</span> Observing the eggs of the following worms in a human stool test indicates the infection with the parasite, with the exception of:",
+    "options": [
+      "Oxyuris-trichocephalus",
+      "Fasciola-Dicrocoelium",
+      "Ascaris-oxyuris",
+      "Taenia Saginata-Taenia Solium"
+    ],
+    "answer": 1,
+    "answerText": "Fasciola-Dicrocoelium",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 57</span> In the patient with severe eye pain, light-emitting and history of contact lens use which of following sub-specimens are suspected?",
+    "options": [
+      "Naegleria",
+      "Acanthamoeba",
+      "Entamoeba",
+      "Endolimax"
+    ],
+    "answer": 1,
+    "answerText": "Acanthamoeba",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 58</span> In diagnosing human hepatic hydatid cyst which one of the following method is the more valuable?",
+    "options": [
+      "Casoni Test",
+      "Liver biopsy",
+      "CT Scan",
+      "Tubazh duodenum"
+    ],
+    "answer": 2,
+    "answerText": "CT Scan",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 61</span> The cause of which one of the following disease is transmitted by the carriers from bacteria?",
+    "options": [
+      "Dengue fever",
+      "Carrion’s disease",
+      "Epidemic relapsing fever",
+      "Endemic typhus"
+    ],
+    "answer": 1,
+    "answerText": "Carrion’s disease",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 62</span> Which option is not the way of Transmission Tularemia patient?",
+    "options": [
+      "Drinking contaminated water",
+      "Ixodidae insect bite",
+      "Respiratory tract",
+      "Argasid tick bite"
+    ],
+    "answer": 3,
+    "answerText": "Argasid tick bite",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 119</span> In a patient with visceral migraine larvae, you may see the following symptoms but:",
+    "options": [
+      "Eosinophilia",
+      "Hepatomegaly",
+      "Increased specified antibodies",
+      "Dysentery"
+    ],
+    "answer": 3,
+    "answerText": "Dysentery",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 120</span> In which of the following parasites secretion of enzymes and cytotoxic materials plays a role in the pathogenesis?",
+    "options": [
+      "Giardia lamblia",
+      "Entamoeba histolytica",
+      "Cryptosporidium parvum",
+      "Entamoeba Dispar"
+    ],
+    "answer": 1,
+    "answerText": "Entamoeba histolytica",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 121</span> In which of the protozoan parasitic disease is Lactose intolerance and malabsorption seen?",
+    "options": [
+      "Trichomoniasis",
+      "Amoebiasis",
+      "Giardiasis",
+      "Accuntamoebiasis"
+    ],
+    "answer": 2,
+    "answerText": "Giardiasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 122</span> Anemia, leukopenia, bone marrow involvement and monocytosis are effects of which of the following parasitic diseases?",
+    "options": [
+      "Kala-azar",
+      "Malaria",
+      "Amoebiasis",
+      "Giardiasis"
+    ],
+    "answer": 0,
+    "answerText": "Kala-azar",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 123</span> What is the best common practice for screening for laboratory diagnosis of malaria?",
+    "options": [
+      "Thick blood smear",
+      "Culturing",
+      "Serology",
+      "Molecular"
+    ],
+    "answer": 0,
+    "answerText": "Thick blood smear",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 124</span> For which of the following intestinal parasitic diseases is Ivermectin used?",
+    "options": [
+      "Enterobiusis",
+      "Ascariasis",
+      "Taeniasis",
+      "Strongyloides"
+    ],
+    "answer": 3,
+    "answerText": "Strongyloides",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 125</span> A person gets anaphylactic shock after receiving a heavy blow in the abdomen. Doctors related the created shock with one parasitic disease. What is he probably suffering from?",
+    "options": [
+      "Fasciolosis",
+      "Hydatidosis",
+      "Cysticercosis",
+      "Schistosomiasis"
+    ],
+    "answer": 1,
+    "answerText": "Hydatidosis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 126</span> Which of the following is the most important cause of pathogenesis in Schistosomiasis?",
+    "options": [
+      "Entrance of the head of the worm into the skin",
+      "Establishment of adult worms in blood vessels",
+      "Releasing parasitic antigens inside the blood flow",
+      "Formation of granuloma around eggs in tissues"
+    ],
+    "answer": 3,
+    "answerText": "Formation of granuloma around eggs in tissues",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 127</span> In which of the following parasites does retro infection occur?",
+    "options": [
+      "Ascaris lumbricoides",
+      "Trichuris trichiura",
+      "Trichostrongylus Orbitalis",
+      "Enterobius vermicularis"
+    ],
+    "answer": 3,
+    "answerText": "Enterobius vermicularis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 139</span> Which type of Phlebotomus is the most important vector of cutaneous leishmaniasis in Iran?",
+    "options": [
+      "Papatasi",
+      "Sergenti",
+      "Najor",
+      "Cacasicus"
+    ],
+    "answer": 0,
+    "answerText": "Papatasi",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 140</span> Which mosquitoes are the carriers of the yellow fever virus, the Dengue and Zika fever?",
+    "options": [
+      "Anopheles",
+      "Culex",
+      "Aedes",
+      "Mansonia"
+    ],
+    "answer": 2,
+    "answerText": "Aedes",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 119</span> In a patient with visceral migraine larvae, you may see the following symptoms but:",
+    "options": [
+      "Eosinophilia",
+      "Enlarged liver",
+      "Increased specific antibodies",
+      "Dysentery"
+    ],
+    "answer": 3,
+    "answerText": "Dysentery",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 120</span> Which of the following leishmanias is part of the Leishmania donovani complex group?",
+    "options": [
+      "L. tropica",
+      "L. infantum",
+      "L. major",
+      "L. mexicana"
+    ],
+    "answer": 1,
+    "answerText": "L. infantum",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 121</span> What is the most dangerous clinical form of toxoplasmosis in people with immunodeficiency?",
+    "options": [
+      "Lymphadenopathy",
+      "Chorioretinitis",
+      "Rash",
+      "Encephalitis"
+    ],
+    "answer": 3,
+    "answerText": "Encephalitis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 122</span> Hemoglobinuria and black urine have been reported in patients with every-other-day fever and chills. Which Plasmodium is the most likely cause of the disease?",
+    "options": [
+      "P. malariae",
+      "P. vivax",
+      "P. falciparum",
+      "P. ovale"
+    ],
+    "answer": 2,
+    "answerText": "P. falciparum",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 123</span> A male agricultural worker suffering from dysentery in one of the villages in Khuzestan is suspected of having which of the following diseases?",
+    "options": [
+      "Cryptosporidiosis",
+      "Giardiasis",
+      "Isosporiasis",
+      "Balantidiasis"
+    ],
+    "answer": 3,
+    "answerText": "Balantidiasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 124</span> In the life cycle of which parasite is the only host human?",
+    "options": [
+      "Ascaris lumbricoides",
+      "Echinococcus granulosus",
+      "Fasciola hepatica",
+      "Trichostrongylus colubriformis"
+    ],
+    "answer": 0,
+    "answerText": "Ascaris lumbricoides",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 125</span> A patient presents with symptoms of 'fever, chills, pain in the upper and right quadrant of the abdomen, tender liver, and high eosinophilia'. Which of the following parasites is most likely the cause of the infection?",
+    "options": [
+      "Trichuris trichiura",
+      "Fasciola hepatica",
+      "Diphyllobothrium latum",
+      "Enterobius vermicularis"
+    ],
+    "answer": 1,
+    "answerText": "Fasciola hepatica",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 126</span> In human infections with which of the following parasitic diseases does a stool test have diagnostic value?",
+    "options": [
+      "Hydatidosis",
+      "Toxocariasis",
+      "Hymenolepiasis",
+      "Sarcocystosis"
+    ],
+    "answer": 2,
+    "answerText": "Hymenolepiasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 127</span> Nematode larvae have been observed in the urine and sputum of a 75-year-old patient. Which parasite infection is more likely?",
+    "options": [
+      "Trichostrongylus",
+      "Necator",
+      "Oxyuris",
+      "Strongyloidiasis"
+    ],
+    "answer": 3,
+    "answerText": "Strongyloidiasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 139</span> Which of the following arthropods plays a major role in the transmission of arboviruses?",
+    "options": [
+      "Flies",
+      "Lice",
+      "Mosquitoes",
+      "Bed bugs"
+    ],
+    "answer": 2,
+    "answerText": "Mosquitoes",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 140</span> What are the carriers of plague and Crimean-Congo Hemorrhagic Fever (CCHF) respectively in Iran?",
+    "options": [
+      "Mosquitoes",
+      "Lynx and sandfly",
+      "Ticks and sandfly",
+      "Ticks and lice"
+    ],
+    "answer": 3,
+    "answerText": "Ticks and lice",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 58</span> Praziquantel is ordered in all of the following worm infections but:",
+    "options": [
+      "Schistosoma mansoni",
+      "Hymenolepis nana",
+      "Taenia saginata",
+      "Ascaris lumbricoides"
+    ],
+    "answer": 3,
+    "answerText": "Ascaris lumbricoides",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 59</span> How is the human infected with fascioliasis?",
+    "options": [
+      "Drinking contaminated water or eating contaminated vegetables",
+      "Eating a contaminated snail",
+      "Cercariae penetration into the skin",
+      "Eating contaminated liver of sheep"
+    ],
+    "answer": 0,
+    "answerText": "Drinking contaminated water or eating contaminated vegetables",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 60</span> Which worm infection is more common among children?",
+    "options": [
+      "Hookworm",
+      "Hymenolepis nana",
+      "Taenia saginata",
+      "Echinococcus granulosus"
+    ],
+    "answer": 1,
+    "answerText": "Hymenolepis nana",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 61</span> Which of the following cells has a more important role in the defensive reactions of the host against worm infections?",
+    "options": [
+      "Neutrophil",
+      "Basophil",
+      "Eosinophil",
+      "Lymphocyte"
+    ],
+    "answer": 2,
+    "answerText": "Eosinophil",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 62</span> A thin peripheral blood culture is prepared from a patient with suspected cerebral malaria. Which of the following parasitic forms is visible in the blood culture?",
+    "options": [
+      "Young trophozoite",
+      "Amoeboid trophozoite",
+      "Unripe schizont",
+      "Mature schizont"
+    ],
+    "answer": 0,
+    "answerText": "Young trophozoite",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 63</span> A 5-year-old child living in Firozabad, Fars is referred by splenomegaly and the physician is suspected of visceral leishmaniasis. All of the following laboratory findings are visible in the patient but:",
+    "options": [
+      "Leukopenia",
+      "Hypogammaglobulinemia",
+      "Thrombocytopenia",
+      "Anemia"
+    ],
+    "answer": 1,
+    "answerText": "Hypogammaglobulinemia",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 64</span> In a hot summer, a 19-year-old man is referred with symptoms of acute meningoencephalitis a few days after swimming in a pond. Which of the following parasitic infections is more likely?",
+    "options": [
+      "Acanthamoeba castellanii",
+      "Toxoplasma gondii",
+      "Naegleria fowleri",
+      "Entamoeba histolytica"
+    ],
+    "answer": 2,
+    "answerText": "Naegleria fowleri",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 65</span> What kind of parasite is present in Toxoplasma gondii contaminated meat?",
+    "options": [
+      "Oocyst",
+      "Tissue cyst",
+      "Tachyzoite",
+      "Schizont"
+    ],
+    "answer": 1,
+    "answerText": "Tissue cyst",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 66</span> Anal itching is a common symptom of infection with which of the following parasitic worms?",
+    "options": [
+      "Trichostrongylus",
+      "Ascaris",
+      "Trichocephalus",
+      "Oxyure"
+    ],
+    "answer": 3,
+    "answerText": "Oxyure",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 69</span> What is the main carrier of yellow fever?",
+    "options": [
+      "Mansonia",
+      "Aedes",
+      "Culex",
+      "Anophele"
+    ],
+    "answer": 1,
+    "answerText": "Aedes",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 70</span> All of the following insects can be involved in transmission of diseases to humans but:",
+    "options": [
+      "Male anopheles",
+      "Female anopheles",
+      "Male flea",
+      "Female flea"
+    ],
+    "answer": 0,
+    "answerText": "Male anopheles",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 79</span> Which of the following trematodes have two interface hosts in the evolutionary path?",
+    "options": [
+      "Dicrocoelium dendriticum",
+      "Paragonimus westermani",
+      "Clonorchis sinensis",
+      "Schistosoma haematobium"
+    ],
+    "answer": 3,
+    "answerText": "Schistosoma haematobium",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 80</span> A number of larvae have been reported in the sputum of a patient following long-term corticosteroid use. Which of the following is the diagnosis?",
+    "options": [
+      "Strongyloides",
+      "Trichostrongylus",
+      "Trichocephalus",
+      "Hookworm"
+    ],
+    "answer": 0,
+    "answerText": "Strongyloides",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 81</span> Which parasite in the cycle of life needs to evolve in the body of the insect?",
+    "options": [
+      "Dipylidium caninum",
+      "Diphyllobothrium latum",
+      "Taenia solium",
+      "Echinococcus granulosus"
+    ],
+    "answer": 0,
+    "answerText": "Dipylidium caninum",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 82</span> After surgery in order to treat which worm infection is there a possibility of anaphylactic shock?",
+    "options": [
+      "Taenia solium",
+      "Echinococcus granulosus",
+      "Diphyllobothrium latum",
+      "Hymenolepis nana"
+    ],
+    "answer": 1,
+    "answerText": "Echinococcus granulosus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 83</span> What does the presence of high anti-toxoplasma IgM antibody index in the serum of a person indicate?",
+    "options": [
+      "Acute infection",
+      "Chronic infection",
+      "Subacute infection",
+      "No infection"
+    ],
+    "answer": 0,
+    "answerText": "Acute infection",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 84</span> Reoccurrence (recrudescence) is more common in the infection of which plasmodium?",
+    "options": [
+      "Falciparum",
+      "Ovale",
+      "Vivax",
+      "Knowlesi"
+    ],
+    "answer": 2,
+    "answerText": "Vivax",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 85</span> In which protozoan infection is deficiency in absorption of fat-soluble vitamins more common?",
+    "options": [
+      "Entamoeba histolytica",
+      "Dientamoeba fragilis",
+      "Balantidium coli",
+      "Giardia lamblia"
+    ],
+    "answer": 3,
+    "answerText": "Giardia lamblia",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 86</span> What is the best method for cryptosporidiosis laboratory diagnosis?",
+    "options": [
+      "Acid fast",
+      "Trichrome",
+      "Lugol",
+      "Iron hematoxylin"
+    ],
+    "answer": 0,
+    "answerText": "Acid fast",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 87</span> The puncture of which of the following is more effective in the diagnosis of visceral leishmaniasis?",
+    "options": [
+      "Liver",
+      "Spleen",
+      "Bone marrow",
+      "Lymphatic glands"
+    ],
+    "answer": 1,
+    "answerText": "Spleen",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 90</span> Drainage and filling of water pits to fight arthropods carriers is to reduce the incidence of which diseases?",
+    "options": [
+      "Leishmania",
+      "Plague",
+      "Malaria",
+      "Chagas"
+    ],
+    "answer": 2,
+    "answerText": "Malaria",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 91</span> Which of the pathogenic arthropods is very sensitive to temperature variations and at a temperature above 40°C cannot feed?",
+    "options": [
+      "Bed bugs",
+      "Blattodea",
+      "Flea",
+      "Louse"
+    ],
+    "answer": 3,
+    "answerText": "Louse",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 119</span> In a patient with visceral migraine larvae, you may see the following symptoms but:",
+    "options": [
+      "Eosinophilia",
+      "Hepatomegaly",
+      "Increased specified antibodies",
+      "Dysentery"
+    ],
+    "answer": 3,
+    "answerText": "Dysentery",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 120</span> In which of the following parasites does the secretion of enzymes and cytotoxic materials play a role in the pathogenesis?",
+    "options": [
+      "Giardia lamblia",
+      "Entamoeba histolytica",
+      "Cryptosporidium parvum",
+      "Entamoeba dispar"
+    ],
+    "answer": 1,
+    "answerText": "Entamoeba histolytica",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 121</span> In which protozoan parasitic disease is lactose intolerance and malabsorption seen?",
+    "options": [
+      "Trichomoniasis",
+      "Amoebiasis",
+      "Giardiasis",
+      "Accuntamoebiasis"
+    ],
+    "answer": 2,
+    "answerText": "Giardiasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 122</span> Anemia, leukopenia, bone marrow involvement, and monocytosis are effects of which of the following parasitic diseases?",
+    "options": [
+      "Kala-azar",
+      "Malaria",
+      "Amoebiasis",
+      "Giardiasis"
+    ],
+    "answer": 0,
+    "answerText": "Kala-azar",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 123</span> What is the best common practice for screening for laboratory diagnosis of malaria?",
+    "options": [
+      "Thick blood smear",
+      "Culturing",
+      "Serology",
+      "Molecular testing"
+    ],
+    "answer": 0,
+    "answerText": "Thick blood smear",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 124</span> For which of the following intestinal parasitic diseases is Ivermectin used?",
+    "options": [
+      "Enterobiasis",
+      "Ascariasis",
+      "Taeniasis",
+      "Strongyloidiasis"
+    ],
+    "answer": 3,
+    "answerText": "Strongyloidiasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 125</span> A person gets anaphylactic shock after receiving a heavy blow in the abdomen. Doctors related the shock to one parasitic disease. What is he probably suffering from?",
+    "options": [
+      "Fasciolosis",
+      "Hydatidosis",
+      "Cysticercosis",
+      "Schistosomiasis"
+    ],
+    "answer": 1,
+    "answerText": "Hydatidosis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 126</span> What is the most important cause of pathogenesis in Schistosomiasis?",
+    "options": [
+      "Entrance of the head of the worm into the skin",
+      "Establishment of adult worms in blood vessels",
+      "Releasing parasitic antigens into the blood flow",
+      "Formation of granuloma around eggs in tissues"
+    ],
+    "answer": 3,
+    "answerText": "Formation of granuloma around eggs in tissues",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 127</span> In which of the following parasites does retro infection occur?",
+    "options": [
+      "Ascaris lumbricoides",
+      "Trichuris trichiura",
+      "Trichostrongylus orbitalis",
+      "Enterobius vermicularis"
+    ],
+    "answer": 3,
+    "answerText": "Enterobius vermicularis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 139</span> Which type of Phlebotomus is the most important vector of cutaneous leishmaniasis in Iran?",
+    "options": [
+      "Papatasi",
+      "Sergenti",
+      "Najor",
+      "Cacasicus"
+    ],
+    "answer": 0,
+    "answerText": "Papatasi",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 140</span> Which mosquitoes are the carriers of the yellow fever virus, Dengue, and Zika fever?",
+    "options": [
+      "Anopheles",
+      "Culex",
+      "Aedes",
+      "Mansonia"
+    ],
+    "answer": 2,
+    "answerText": "Aedes",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 79</span> Which of the following causes more deaths in falciparum malaria?",
+    "options": [
+      "Brain lesions",
+      "Microcytic anemia",
+      "Blackwater fever",
+      "Malaria attacks"
+    ],
+    "answer": 2,
+    "answerText": "Blackwater fever",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 80</span> Ameboma in the intestinal amoebiasis is:",
+    "options": [
+      "Bottle-shaped ulcers in intestine",
+      "Honeycomb ulcers detaching a part of the intestinal mucus",
+      "Atrophy of intestinal mucosal cells",
+      "Intestinal mucus granulation"
+    ],
+    "answer": 1,
+    "answerText": "Honeycomb ulcers detaching a part of the intestinal mucus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 81</span> In laboratory diagnosis of which of the following parasites is bone marrow biopsy used?",
+    "options": [
+      "Pneumocystis carinii",
+      "Leishmania infantum",
+      "Trypanosoma gambiense",
+      "Plasmodium vivax"
+    ],
+    "answer": 1,
+    "answerText": "Leishmania infantum",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 82</span> Strawberry-like syndrome is an effect of which unicellular organism?",
+    "options": [
+      "Giardia lamblia",
+      "Balantidium coli",
+      "Entamoeba histolytica",
+      "Trichomonas vaginalis"
+    ],
+    "answer": 0,
+    "answerText": "Giardia lamblia",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 83</span> In infected people with which of the following parasites is fibrosis and bile duct cancer seen?",
+    "options": [
+      "Dicrocoelium dendriticum",
+      "Fasciola hepatica",
+      "Heterophyes heterophyes",
+      "Clonorchis sinensis"
+    ],
+    "answer": 3,
+    "answerText": "Clonorchis sinensis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 84</span> For which of the following parasites is the human an accidental host?",
+    "options": [
+      "Hymenolepis nana",
+      "Schistosoma mansoni",
+      "Dicrocoelium dendriticum",
+      "Strongyloides stercoralis"
+    ],
+    "answer": 2,
+    "answerText": "Dicrocoelium dendriticum",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 85</span> Which of the following parasites causes illness by eating half-cooked boar meat?",
+    "options": [
+      "Trichinella spiralis",
+      "Diphyllobothrium latum",
+      "Taenia saginata",
+      "Dipylidium caninum"
+    ],
+    "answer": 0,
+    "answerText": "Trichinella spiralis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 86</span> Epilepsy is common in infection with which of the following parasites?",
+    "options": [
+      "Taeniasis",
+      "Cysticercosis",
+      "Fascioliasis",
+      "Fasciolopsiasis"
+    ],
+    "answer": 1,
+    "answerText": "Cysticercosis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 87</span> In a patient with visceral migratory larvae, which of the following symptoms might you see, but not?",
+    "options": [
+      "Eosinophilia",
+      "Hepatomegaly",
+      "Increased specific antibodies",
+      "Dysentery"
+    ],
+    "answer": 3,
+    "answerText": "Dysentery",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 90</span> Larva of which insect causes myiasis?",
+    "options": [
+      "Mosquito",
+      "Fly",
+      "Louse",
+      "Flea"
+    ],
+    "answer": 1,
+    "answerText": "Fly",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 91</span> Arboviruses of yellow fever and dengue fever are transmitted by which insect?",
+    "options": [
+      "Anopheles",
+      "Culex",
+      "Mansonia",
+      "Aedes"
+    ],
+    "answer": 3,
+    "answerText": "Aedes",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 79</span> The end of the infection period in which of the Plasmodium is longer?",
+    "options": [
+      "Vivax",
+      "Malaria",
+      "Falciparum",
+      "Oval"
+    ],
+    "answer": 1,
+    "answerText": "Malaria",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 80</span> What is the most important sign of visceral leishmaniasis?",
+    "options": [
+      "Headache, dizziness and exophthalemia",
+      "Edema around the eye, fever and muscle weakness",
+      "Fever, hives and itching",
+      "Fever, enlargement of the spleen and anemia"
+    ],
+    "answer": 3,
+    "answerText": "Fever, enlargement of the spleen and anemia",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 81</span> In which of the following protozoan cells, the parasite sexual and non-sexual life cycle can take place in one host?",
+    "options": [
+      "Toxoplasma",
+      "Trypanosome",
+      "Malaria",
+      "Leishmania"
+    ],
+    "answer": 2,
+    "answerText": "Malaria",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 82</span> In visceral leishmaniasis parasite in which of the body tissues is more established?",
+    "options": [
+      "Bone marrow",
+      "Liver",
+      "Spleen",
+      "Blood"
+    ],
+    "answer": 2,
+    "answerText": "Spleen",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 83</span> What is the smallest intestinal cystitism in humans?",
+    "options": [
+      "Hymenolepis nana",
+      "Strongyloides",
+      "Echinococcus granulosus",
+      "Diplidium caninum"
+    ],
+    "answer": 0,
+    "answerText": "Hymenolepis nana",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 84</span> Pulmonary symptoms can be seen in all of the following except:",
+    "options": [
+      "Strongyloides",
+      "Visceral migratory larvae",
+      "Ascaris",
+      "Whipworm"
+    ],
+    "answer": 3,
+    "answerText": "Whipworm",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 85</span> What is the main and effective method of controlling Fasciola parasites to reduce human infections?",
+    "options": [
+      "Wide spraying of pastures against snail",
+      "Capture and eliminate infected liver",
+      "General and seasonal treatment of livestock",
+      "Effective treatment for all people with parasites"
+    ],
+    "answer": 2,
+    "answerText": "General and seasonal treatment of livestock",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 86</span> Egg in which of the following groups converts to the larvae when leaving the body of female worm?",
+    "options": [
+      "Ascaris",
+      "Strongyloides",
+      "Trichocephal",
+      "Hook worms"
+    ],
+    "answer": 1,
+    "answerText": "Strongyloides",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 87</span> In a patient with visceral migraine larvae, the following symptoms may be observed, with the exception of:",
+    "options": [
+      "Eosinophilia",
+      "Splenomegaly",
+      "Increase proprietary antibodies",
+      "Dysentery"
+    ],
+    "answer": 3,
+    "answerText": "Dysentery",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 88</span> Often is created in the presence of AIDS?",
+    "options": [
+      "Mucormycosis",
+      "Pneumocytosis",
+      "Aspergilloma",
+      "Rhinosporidiosis"
+    ],
+    "answer": 1,
+    "answerText": "Pneumocytosis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 89</span> What is the cause of chronic dermatophytosis on the sole of the foot?",
+    "options": [
+      "Trichophyton verocosome",
+      "Microsporum genesis",
+      "Microsporium chipsome",
+      "Trichophyton rubrum"
+    ],
+    "answer": 3,
+    "answerText": "Trichophyton rubrum",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 90</span> In which of the following diseases, the Female insect can transmit the disease to the next generation (vertical transmission)?",
+    "options": [
+      "Papatasi fever",
+      "Cutaneous rural leishmaniasis",
+      "Malaria",
+      "Epidemic typhus"
+    ],
+    "answer": 0,
+    "answerText": "Papatasi fever",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 91</span> Which arthropods are more important in terms of health and medicine?",
+    "options": [
+      "Diptera",
+      "Siphonaptera",
+      "Phtiraptera",
+      "Coleopletra"
+    ],
+    "answer": 0,
+    "answerText": "Diptera",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 59</span> What is the most sensitive macromolecule against ionizer rays?",
+    "options": [
+      "Lipid",
+      "Protein",
+      "RNA",
+      "DNA"
+    ],
+    "answer": 3,
+    "answerText": "DNA",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 60</span> Which method of placing of electrodes in diathermy is more effective in profound treatment?",
+    "options": [
+      "Monopole electrodes",
+      "Micro-electrodes",
+      "Facing electrodes",
+      "Juxtaposition electrodes"
+    ],
+    "answer": 2,
+    "answerText": "Facing electrodes",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 61</span> Source of electron production in x-ray tube is:",
+    "options": [
+      "Cathode",
+      "Anode",
+      "Focal cap",
+      "Lamp chest"
+    ],
+    "answer": 0,
+    "answerText": "Cathode",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 62</span> In beta-negative radiation, what is the mass number and atomic number of the daughter's nucleus relative to the mother?",
+    "options": [
+      "One less - Equals",
+      "One more - One less",
+      "Equal - One more",
+      "Equal - One less"
+    ],
+    "answer": 2,
+    "answerText": "Equal - One more",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 63</span> The indirect effects of ionizing rays is a result of encountering with:",
+    "options": [
+      "Cell nucleus DNA and their two-link fracture",
+      "Vital molecules of cells and their destruction",
+      "Intracellular water and free radicals in it",
+      "Cell membrane and their destruction"
+    ],
+    "answer": 2,
+    "answerText": "Intracellular water and free radicals in it",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 64</span> Electromagnetic rays in visual spectrum with short wavelengths get absorbed in ..... tissues in human skin and cause ..... effects.",
+    "options": [
+      "Deep - Thermal",
+      "Deep - Photochemical",
+      "Superficial - Thermal",
+      "Superficial - Photochemical"
+    ],
+    "answer": 3,
+    "answerText": "Superficial - Photochemical",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 65</span> …… is the most prominent feature of active memory (short term)?",
+    "options": [
+      "Reminder error",
+      "Widespread span",
+      "Limited Capacity",
+      "Exclusive to verbal information"
+    ],
+    "answer": 2,
+    "answerText": "Limited Capacity",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 66</span> Egocentrism is the main characteristic of which of Piaget's theory?",
+    "options": [
+      "Sensorimotor stage",
+      "Pre-operational",
+      "Concrete Operational",
+      "Formal operational"
+    ],
+    "answer": 1,
+    "answerText": "Pre-operational",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 67</span> What kind of defense mechanism is exiting threatening or very painful impulses or memories from alertness?",
+    "options": [
+      "Repression",
+      "Reverse reaction",
+      "Deny",
+      "Displacement"
+    ],
+    "answer": 0,
+    "answerText": "Repression",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 68</span> Which test is used to measure intelligence?",
+    "options": [
+      "Wexler",
+      "T.A.T",
+      "MMPI",
+      "Rorschach"
+    ],
+    "answer": 0,
+    "answerText": "Wexler",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 69</span> Which of the following represents self-prosperity behaviors?",
+    "options": [
+      "Being honest and avoiding ostentation",
+      "Identify your mental defenses and timely deployment of them",
+      "Assessing your experiences with majority views and traditions",
+      "Follow safe and secure ways in life"
+    ],
+    "answer": 0,
+    "answerText": "Being honest and avoiding ostentation",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 70</span> What is a long-term encryption in memory?",
+    "options": [
+      "Visual",
+      "Auditory",
+      "Cognitive",
+      "Spatial"
+    ],
+    "answer": 2,
+    "answerText": "Cognitive",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 81</span> Proventricular valve closure in which of the following carriers causes the transmission of disease to humans?",
+    "options": [
+      "Anopheles mosquitoes",
+      "Sand mosquitoes",
+      "Lice",
+      "Flea"
+    ],
+    "answer": 3,
+    "answerText": "Flea",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 82</span> Which of the following pathogen carriers has an ootheca?",
+    "options": [
+      "Ticks",
+      "Blattodea",
+      "Flies",
+      "Bed bugs"
+    ],
+    "answer": 1,
+    "answerText": "Blattodea",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 71</span> Jaundice is an effect of which parasitic disease?",
+    "options": [
+      "Schistosomiasis",
+      "Fascioliasis",
+      "Paragonimiasis",
+      "Fasciolopsiasis"
+    ],
+    "answer": 1,
+    "answerText": "Fascioliasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 72</span> Surgery is the decisive treatment for which Cestoda infection in human?",
+    "options": [
+      "Taenia saginata",
+      "Echinococcus granulosus",
+      "Hymenolepis nana",
+      "Dipylidium caninum"
+    ],
+    "answer": 1,
+    "answerText": "Echinococcus granulosus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 73</span> What kind of parasite nematode infection is with malabsorption syndrome associated with Steatorrhea?",
+    "options": [
+      "Toxocara canis",
+      "Ascaris lumbricoides",
+      "Strongyloides stercoralis",
+      "Enterobius vermicularis"
+    ],
+    "answer": 2,
+    "answerText": "Strongyloides stercoralis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 74</span> Which city in Iran is an endemic area of kala-azar?",
+    "options": [
+      "Tonekabon",
+      "Sabzevar",
+      "Bam",
+      "Meshgin Shahr"
+    ],
+    "answer": 3,
+    "answerText": "Meshgin Shahr",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 75</span> What is the most commonly diagnosed parasitic agent of congenital chorioretinitis in the world?",
+    "options": [
+      "Acanthamoeba",
+      "Toxoplasma",
+      "Plasmodium",
+      "Leishmania"
+    ],
+    "answer": 1,
+    "answerText": "Toxoplasma",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 76</span> In which anatomical position of the body is ameboma (amebic granuloma) formed?",
+    "options": [
+      "Colon",
+      "Duodenum",
+      "Jejunum",
+      "Stomach"
+    ],
+    "answer": 0,
+    "answerText": "Colon",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 77</span> In people with acquired immunodeficiency syndrome, which one of the worm infections has more side effects?",
+    "options": [
+      "Trichostrongylus",
+      "Strongyloides",
+      "Trichocephalida",
+      "Oxyure"
+    ],
+    "answer": 1,
+    "answerText": "Strongyloides",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 78</span> Which of the following is more prudent about the differentiation of the Plasmodium Phalliparum Malaria from Vivax Malaria?",
+    "options": [
+      "Anemia type",
+      "Fever type",
+      "Morphological forms of parasite",
+      "Epidemiological characteristics"
+    ],
+    "answer": 2,
+    "answerText": "Morphological forms of parasite",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 81</span> Which of the following Mites is the transmitter of disease?",
+    "options": [
+      "Sarcoptes scabie",
+      "Demodex brevis",
+      "Demodex folliculorum",
+      "Leptotrombidium akamushi"
+    ],
+    "answer": 3,
+    "answerText": "Leptotrombidium akamushi",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 82</span> Which louse is the transmitter of epidemic typhoid?",
+    "options": [
+      "Pediculus humanus",
+      "Pediculus capitis",
+      "Phthirus pubis",
+      "Phthirus humanus"
+    ],
+    "answer": 0,
+    "answerText": "Pediculus humanus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 71</span> Which parasital infection results in bladder cancer?",
+    "options": [
+      "Fasciola hepatica",
+      "Dicrocoelium dendriticum",
+      "Paragonimus westermani",
+      "Schistosoma haematobium"
+    ],
+    "answer": 3,
+    "answerText": "Schistosoma haematobium",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 72</span> In which parasite infection is full baking of meat effective?",
+    "options": [
+      "Taenia saginata",
+      "Fasciola hepatica",
+      "Hymenolepis nana",
+      "Echinococcus granulosus"
+    ],
+    "answer": 0,
+    "answerText": "Taenia saginata",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 73</span> In which of the following parasital infection unknown fevers with hepatomegaly and high eosinophilia is seen?",
+    "options": [
+      "Loiasis",
+      "Trichuriasis",
+      "Toxocariasis",
+      "Enterobiasis"
+    ],
+    "answer": 2,
+    "answerText": "Toxocariasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 74</span> Which one is the first line treatment of Leishmaniasis in Iran?",
+    "options": [
+      "Chloroquine",
+      "Glucantime",
+      "Paromomycin",
+      "Amphotericin B"
+    ],
+    "answer": 1,
+    "answerText": "Glucantime",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 75</span> Infection to what kind of Plasmodium is more common in Nephrotic Syndrome?",
+    "options": [
+      "Ovale",
+      "Vivax",
+      "Malariae",
+      "Falciparum"
+    ],
+    "answer": 2,
+    "answerText": "Malariae",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 76</span> What kind of parasite are people with major thalassemia resistant to?",
+    "options": [
+      "Leishmania tropica",
+      "Toxoplasma gondii",
+      "Trypanosoma cruzi",
+      "Plasmodium falciparum"
+    ],
+    "answer": 3,
+    "answerText": "Plasmodium falciparum",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 77</span> Which drug is commonly used in treatment of hydatid cyst?",
+    "options": [
+      "Levamisole",
+      "Ornidazole",
+      "Albendazole",
+      "Tinidazole"
+    ],
+    "answer": 2,
+    "answerText": "Albendazole",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 78</span> Which of the following parasite eggs is infectious for the host immediately after repulse?",
+    "options": [
+      "Ascaris lumbricoides",
+      "Fasciola hepatica",
+      "Trichuris trichiura",
+      "Hymenolepis nana"
+    ],
+    "answer": 3,
+    "answerText": "Hymenolepis nana",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 81</span> What is the first line drug for the treatment of chloroquine-resistant falciparum malaria?",
+    "options": [
+      "Fansidar",
+      "Artesunate",
+      "Quinine",
+      "Fansidar + Artesunate"
+    ],
+    "answer": 1,
+    "answerText": "Artesunate",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 82</span> What is the main way of transmission of Crimean Congo Hemorrhagic Fever (CCHF) to human?",
+    "options": [
+      "Contaminated tick bite",
+      "Contact with contaminated domesticated animal blood",
+      "Eating contaminated meat",
+      "Contact with contaminated water and domesticated animal urine"
+    ],
+    "answer": 1,
+    "answerText": "Contact with contaminated domesticated animal blood",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 107</span> In people with acquired immunodeficiency syndrome, which one of the worm infections has more side effects?",
+    "options": [
+      "Trichostrongylus",
+      "Strongyloides",
+      "Trichocephalida",
+      "Oxyure"
+    ],
+    "answer": 1,
+    "answerText": "Strongyloides",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 108</span> Which of the following is more prudent about the differentiation of the Plasmodium Phalliparum Malaria from Vivax Malaria?",
+    "options": [
+      "Anemia type",
+      "Fever type",
+      "Morphological forms of parasite",
+      "Epidemiological characteristics"
+    ],
+    "answer": 2,
+    "answerText": "Morphological forms of parasite",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 109</span> The neck stiffness is reported after an examination of a person who had a headache and severe fever after swimming in a pool in a farm. What do you order for the patient?",
+    "options": [
+      "Spinal fluid test for Entamoeba dispar",
+      "Blood smear for Plasmodium falciparum",
+      "Spinal cord fluid test for Naegleria fowleri",
+      "Blood smear for Toxoplasma gondii"
+    ],
+    "answer": 2,
+    "answerText": "Spinal cord fluid test for Naegleria fowleri",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 110</span> Ground itching is seen in infection of which of the following worms?",
+    "options": [
+      "Taenia saginata",
+      "Ascaris lumbricoides",
+      "Necator americanus",
+      "Enterobius vermicularis"
+    ],
+    "answer": 2,
+    "answerText": "Necator americanus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 111</span> A child from North Khorasan has been experiencing long and irregular fever, having splenomegaly and hepatomegaly. Bone marrow test results: Hyperplasia and blood: Leukopenia and thrombocytopenia. Which of the following commands do you choose to diagnose a disease?",
+    "options": [
+      "Blood culture + antibiogram + appropriate antibiotic administration",
+      "Protein Electrophoresis + Gene formula test + Liver Biopsy",
+      "Liver ultrasound + Ultrasound of the spleen + Blood culture",
+      "Direct spinal fluid + spinal fluid culture + antibiogram"
+    ],
+    "answer": 2,
+    "answerText": "Liver ultrasound + Ultrasound of the spleen + Blood culture",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 112</span> What is the most important way to prevent cystic fibrosis?",
+    "options": [
+      "Complete baking of beef",
+      "Disinfect and clean the vegetables properly",
+      "Treatment of sheep-dog and guard dogs with Albendazole",
+      "Complete baking of pork"
+    ],
+    "answer": 1,
+    "answerText": "Disinfect and clean the vegetables properly",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 113</span> In the blood test of pregnant women for toxoplasmosis, IgG negative results have been reported. Which order do you choose?",
+    "options": [
+      "The pregnant woman is healthy and no action is required.",
+      "The amount of IgM must be measured.",
+      "Two weeks later, the IgG should be re-calculated.",
+      "Start treatment if IgM is positive."
+    ],
+    "answer": 1,
+    "answerText": "The amount of IgM must be measured.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 114</span> Pulmonary indisposition is seen in infection of which of the following parasites?",
+    "options": [
+      "Enterobius vermicularis",
+      "Diphyllobothrium latum",
+      "Trichuris trichiura",
+      "Paragonimus westermani"
+    ],
+    "answer": 3,
+    "answerText": "Paragonimus westermani",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 124</span> In a sample of skin lesions of a patient with rosacea, a long arthropod with a length of 0.40 mm is observed. What is the name of this arthropod?",
+    "options": [
+      "Pulex",
+      "Cimex",
+      "Demodex",
+      "Culex"
+    ],
+    "answer": 2,
+    "answerText": "Demodex",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 125</span> The condition is accompanied by complaining of itching in the groin area. A direct insect is seen with three pairs of legs and fifth-row tentacles. Which one is correct?",
+    "options": [
+      "Sarcoptes",
+      "Phthirus",
+      "Musca",
+      "Tabanus"
+    ],
+    "answer": 1,
+    "answerText": "Phthirus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 71</span> Which one of the following conditions can cause signs and symptoms of *Trichomonas vaginalis*?",
+    "options": [
+      "The increase of estrogen hormone concentration",
+      "The increase of Lactobacillus doderline",
+      "The increase of vaginal aciditise",
+      "The increase of vaginal pH to 5-6"
+    ],
+    "answer": 3,
+    "answerText": "The increase of vaginal pH to 5-6",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 72</span> In which of the following serological tests may more commonly be used in the diagnosis of leishmaniasis?",
+    "options": [
+      "Rural cutaneous leishmaniasis",
+      "Visceral leishmaniasis",
+      "Urban cutaneous leishmaniasis",
+      "Recidivan leishmaniasis"
+    ],
+    "answer": 1,
+    "answerText": "Visceral leishmaniasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 73</span> In which protozoan parasites may cause abortion in pregnant women?",
+    "options": [
+      "*Entamoeba histolytica*",
+      "*Toxoplasma gondii*",
+      "*Trichomonas vaginalis*",
+      "*Cryptosporidium parvum*"
+    ],
+    "answer": 1,
+    "answerText": "*Toxoplasma gondii*",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 74</span> Not eating liver before stool examination is important for the diagnosis of infection with ....?",
+    "options": [
+      "*Schistosoma haematobium*",
+      "*Fasciola hepatica*",
+      "*Taenia saginata*",
+      "*Hymenolepis nana*"
+    ],
+    "answer": 1,
+    "answerText": "*Fasciola hepatica*",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 75</span> Risk of disruption of cysts during surgery and formation of secondary cysts is important in ....?",
+    "options": [
+      "Filariasis",
+      "Toxocariasis",
+      "Hydatidosis",
+      "Dracunculiasis"
+    ],
+    "answer": 2,
+    "answerText": "Hydatidosis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 76</span> For which of the following parasites, auto-infection leads to hyperinfection syndrome in immunodeficient patients?",
+    "options": [
+      "*Trichostrongylus orientalis*",
+      "*Necator americanus*",
+      "*Trichuris trichiura*",
+      "*Strongyloides stercoralis*"
+    ],
+    "answer": 3,
+    "answerText": "*Strongyloides stercoralis*",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 77</span> In people with AIDS, infecting with which of the pathologic worms causes the most impact?",
+    "options": [
+      "*Trichostrongylus*",
+      "*Strongyloides*",
+      "*Trichocephalus*",
+      "*Oxyur*"
+    ],
+    "answer": 1,
+    "answerText": "*Strongyloides*",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 78</span> Which one of the following items is more reliable in differentiation of malaria caused by *P. falciparum* and *Vivax*?",
+    "options": [
+      "Type of anemia",
+      "Type of fever",
+      "Parasite morphology",
+      "Epidemiology index"
+    ],
+    "answer": 2,
+    "answerText": "Parasite morphology",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 81</span> Which of the vector-borne diseases have not been reported from Iran?",
+    "options": [
+      "Anthroponetic cutaneous leishmaniasis - malaria",
+      "Crimean-Congo hemorrhagic fever-tick borne relapsing fever - zoonotic cutaneous leishmaniasis",
+      "Visceral leishmaniasis - plague",
+      "Lyme disease - yellow fever - onchocerciasis - chagas disease - chikungunya"
+    ],
+    "answer": 3,
+    "answerText": "Lyme disease - yellow fever - onchocerciasis - chagas disease - chikungunya",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 82</span> What are the causative agents and vectors of Dengue and Zika?",
+    "options": [
+      "Virus - mosquito",
+      "Bacteria - sandfly",
+      "Protozoa - lice",
+      "Helminth - tick"
+    ],
+    "answer": 0,
+    "answerText": "Virus - mosquito",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 71</span> Which of the following is the target cell for Leishmania species in man?",
+    "options": [
+      "Plasma cell",
+      "Lymphocyte",
+      "Basophil",
+      "Macrophage"
+    ],
+    "answer": 3,
+    "answerText": "Macrophage",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 72</span> Which of the following method is the diagnostic choice of amebic colitis?",
+    "options": [
+      "Serologic method using ELISA test",
+      "Stool exam using concentrated method",
+      "Observation of many WBC in stool exam",
+      "Trichrome staining of stool sample"
+    ],
+    "answer": 1,
+    "answerText": "Stool exam using concentrated method",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 73</span> In the life cycle of malaria parasites, which of the following in the disease started?",
+    "options": [
+      "Gametocyte",
+      "Sporozoite",
+      "Merozoite",
+      "Oocyst"
+    ],
+    "answer": 1,
+    "answerText": "Sporozoite",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 74</span> All the following trematodes are parasites of biliary passages, EXCEPT:",
+    "options": [
+      "Clonorchis",
+      "Fasciola",
+      "Heterophyes",
+      "Dicrocoelium"
+    ],
+    "answer": 2,
+    "answerText": "Heterophyes",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 75</span> When hydatid cyst is sterile, it means the cyst is without:",
+    "options": [
+      "Laminated layer",
+      "Germinal layer",
+      "Sand",
+      "Fluid"
+    ],
+    "answer": 2,
+    "answerText": "Sand",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 76</span> Hematologic malignancies are risk factor for overwhelming infection of:",
+    "options": [
+      "Taenia saginata",
+      "Fasciola hepatica",
+      "Dicrocoelium dendriticum",
+      "Strongyloides stercoralis"
+    ],
+    "answer": 3,
+    "answerText": "Strongyloides stercoralis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 77</span> What part of the eye involves in patient with eye toxoplasmosis?",
+    "options": [
+      "Conjunctiva",
+      "Sclera",
+      "Cornea",
+      "Retina"
+    ],
+    "answer": 3,
+    "answerText": "Retina",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 78</span> Which of the following results from the presence of hypnozoites in liver of malaria patient?",
+    "options": [
+      "Relapse",
+      "Recrudescence",
+      "Black water fever",
+      "Cerebral malaria"
+    ],
+    "answer": 0,
+    "answerText": "Relapse",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 81</span> What is the main measure for control of mosquito borne diseases in the epidemic situation?",
+    "options": [
+      "Space spraying",
+      "Larviciding",
+      "Indoor residual spraying",
+      "Using insecticide impregnated net"
+    ],
+    "answer": 1,
+    "answerText": "Larviciding",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 82</span> What is the agent and vector of dengue fever?",
+    "options": [
+      "Bacteria, Culex pipiens",
+      "Protozoa, Anopheles culicifasciens",
+      "Virus, Aedes aegypti",
+      "Helminth, Phlebotomus papatasi"
+    ],
+    "answer": 2,
+    "answerText": "Virus, Aedes aegypti",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 83</span> Which symbiotic relationship exists between human and *Entamoeba gingivalis*?",
+    "options": [
+      "Parasitism",
+      "Mutualism",
+      "Phoresis",
+      "Commensalism"
+    ],
+    "answer": 3,
+    "answerText": "Commensalism",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 84</span> Lack of mouth and dental hygienic measures increases probability of infectivity with this organism:",
+    "options": [
+      "*Trichomonas tenax*",
+      "*Entamoeba histolytica*",
+      "*Leishmania major*",
+      "*Toxoplasma gondii*"
+    ],
+    "answer": 0,
+    "answerText": "*Trichomonas tenax*",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 85</span> Egg of this parasite is infectious directly after release:",
+    "options": [
+      "*Ascaris lumbricoides*",
+      "*Enterobius vermicularis*",
+      "*Trichuris trichiura*",
+      "*Necator americanus*"
+    ],
+    "answer": 1,
+    "answerText": "*Enterobius vermicularis*",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 71</span> Which one of morphological shape of Leishmania parasite is demonstrated in bone-marrow aspiration in visceral leishmaniasis (Kala-azar) patient?",
+    "options": [
+      "Promastigote",
+      "Amastigote",
+      "Epimastigote",
+      "Trypomastigote"
+    ],
+    "answer": 1,
+    "answerText": "Amastigote",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 72</span> Nephrotic syndrome in malaria caused by which species of Plasmodium is more?",
+    "options": [
+      "P. vivax",
+      "P. ovale",
+      "P. falciparum",
+      "P. malariae"
+    ],
+    "answer": 2,
+    "answerText": "P. falciparum",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 73</span> Which one of the following parasite is multiplied within the epithelial cells of the small intestine?",
+    "options": [
+      "Entamoeba histolytica",
+      "Balantidium coli",
+      "Cryptosporidium parvum",
+      "Giardia lamblia"
+    ],
+    "answer": 2,
+    "answerText": "Cryptosporidium parvum",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 74</span> Larvae of which of the following helminthes leads to cerebral lesions in infected patients?",
+    "options": [
+      "Necator americanus",
+      "Hymenolepis nana",
+      "Ascaris lumbricoides",
+      "Taenia solium"
+    ],
+    "answer": 3,
+    "answerText": "Taenia solium",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 75</span> In which of the following diseases there is a risk of disseminated infection in patient following organ transplantation?",
+    "options": [
+      "Trichuriasis",
+      "Strongyloidiasis",
+      "Nacatoriasis",
+      "Trichostrongyliasis"
+    ],
+    "answer": 1,
+    "answerText": "Strongyloidiasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 76</span> Which of the following parasites burrows into the liver parenchyma of human?",
+    "options": [
+      "Fasciola hepatica",
+      "Hymenolepis nana",
+      "Trichuris trichiura",
+      "Enterobius vermicularis"
+    ],
+    "answer": 0,
+    "answerText": "Fasciola hepatica",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 77</span> Which is the most appropriate laboratory diagnosis of acquired toxoplasmosis?",
+    "options": [
+      "Biopsy of lymphatic gland and staining with Giemsa",
+      "Measurement of anti-Toxoplasma IgM",
+      "Toxoplasmin skin test",
+      "Culture in non-cellular culture media"
+    ],
+    "answer": 1,
+    "answerText": "Measurement of anti-Toxoplasma IgM",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 78</span> Culture of human stool is more common for the laboratory diagnosis of infection with which of the following helminthes?",
+    "options": [
+      "Ascaris lumbricoides",
+      "Ancylostoma duodenale",
+      "Trichuris trichiura",
+      "Strongyloides stercoralis"
+    ],
+    "answer": 3,
+    "answerText": "Strongyloides stercoralis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 81</span> Which fly causes the Obligatory Myiasis?",
+    "options": [
+      "Chrysomya bezziana",
+      "Calliphora vicina",
+      "Lucilia sericata",
+      "Musca domestica"
+    ],
+    "answer": 0,
+    "answerText": "Chrysomya bezziana",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 82</span> What is the most important vector of plague and how does it transmit plague?",
+    "options": [
+      "Ctenocephalides felis - Feces of infected flea",
+      "Pulex irritans - Salivary glands of infected flea",
+      "Xenopsylla cheopis - Bites of infected flea",
+      "Nosopsyllus fasciatus - Hemolymph of infected flea"
+    ],
+    "answer": 2,
+    "answerText": "Xenopsylla cheopis - Bites of infected flea",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 73</span> Which of the following parasites can cause anemia in humans?",
+    "options": [
+      "E. granulosus",
+      "N. americanus",
+      "A. lumbricoides",
+      "E. vermicularis"
+    ],
+    "answer": 1,
+    "answerText": "N. americanus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 74</span> Dromedary fever, with two peaks in a day, is the specific clinical sign of which of the following parasitic diseases?",
+    "options": [
+      "Extra-intestinal amoebiasis",
+      "Acquired toxoplasmosis",
+      "African trypanosomiasis",
+      "Visceral leishmaniasis"
+    ],
+    "answer": 3,
+    "answerText": "Visceral leishmaniasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 75</span> Which species of Plasmodium causes the highest percentage of RBC parasitemia?",
+    "options": [
+      "P. falciparum",
+      "P. vivax",
+      "P. malariae",
+      "P. ovale"
+    ],
+    "answer": 0,
+    "answerText": "P. falciparum",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 76</span> Which parasitic protozoon can cause internal autoinfection?",
+    "options": [
+      "Isospora belli",
+      "Cyclospora cayetanensis",
+      "Cryptosporidium parvum",
+      "Toxoplasma gondii"
+    ],
+    "answer": 2,
+    "answerText": "Cryptosporidium parvum",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 77</span> Percutaneous-Aspiration-Injection-Reaspiration (PAIR) can be effective in the treatment of which parasitic disease?",
+    "options": [
+      "Fasciolosis",
+      "Hydatidosis",
+      "Trichinellosis",
+      "Dicrocoelosis"
+    ],
+    "answer": 1,
+    "answerText": "Hydatidosis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 78</span> Which parasite is usually observed in appendicitis?",
+    "options": [
+      "Ancylostoma duodenale",
+      "Strongyloides stercoralis",
+      "Trichinella spiralis",
+      "Enterobius vermicularis"
+    ],
+    "answer": 3,
+    "answerText": "Enterobius vermicularis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 79</span> What is the medication for tapeworm (Cestodes)?",
+    "options": [
+      "Niclosamide",
+      "Triclabendazole",
+      "Levamizole",
+      "Metronidazole"
+    ],
+    "answer": 0,
+    "answerText": "Niclosamide",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 80</span> What is the most prevalent human trematode in Iran?",
+    "options": [
+      "Schistosoma haematobium",
+      "Fasciola hepatica",
+      "Dicrocoelium dendriticum",
+      "Clonorchis sinensis"
+    ],
+    "answer": 2,
+    "answerText": "Dicrocoelium dendriticum",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 81</span> A patient with dysentery, acidic stool, and Charcot-Leyden crystals is probably afflicted with ................?",
+    "options": [
+      "Cyclosporiasis",
+      "Balantidiasis",
+      "Giardiasis",
+      "Intestinal amoebiasis"
+    ],
+    "answer": 3,
+    "answerText": "Intestinal amoebiasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 82</span> The infection resulting from which of the following parasites is aggravated if the immune system is weakened?",
+    "options": [
+      "Toxoplasma",
+      "Acantamoeba",
+      "Entamoeba",
+      "Trichomonas"
+    ],
+    "answer": 0,
+    "answerText": "Toxoplasma",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 83</span> Which of the following are the main agent and vector of Dengue fever?",
+    "options": [
+      "Virus - Anopheles",
+      "Rickettsia - Aedes",
+      "Virus - Aedes",
+      "Virus - Culex"
+    ],
+    "answer": 2,
+    "answerText": "Virus - Aedes",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 84</span> Which insect has a role in transmission of Dipylidium caninum?",
+    "options": [
+      "Human louse",
+      "Flea",
+      "Bed bug",
+      "Triatomid bug"
+    ],
+    "answer": 1,
+    "answerText": "Flea",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 73</span> The most effective preventive measures against Tinea saginata is ......... .",
+    "options": [
+      "Hand washing before meal",
+      "Rinsing and disinfecting vegetables",
+      "Avoiding contact with animals",
+      "Using well-cooked beef"
+    ],
+    "answer": 3,
+    "answerText": "Using well-cooked beef",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 74</span> Which organ is the site of Stromgyloides stercoralis in immunocompetent people?",
+    "options": [
+      "Lung",
+      "Small intestine",
+      "Large intestine",
+      "Bile ducts"
+    ],
+    "answer": 1,
+    "answerText": "Small intestine",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 75</span> Which helminthes (parasitic worm) can cause intestinal obstruction?",
+    "options": [
+      "Ancylostoma duodenale",
+      "Trichuris trichura",
+      "Ascaris lumbricoides",
+      "Trichostrongylus orientalis"
+    ],
+    "answer": 2,
+    "answerText": "Ascaris lumbricoides",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 76</span> Which helminthes (parasitic worm) is the main cause of cercarial dermatitis in humans?",
+    "options": [
+      "Paragonimus westermani",
+      "Animal schistosomas",
+      "Human schistosomas",
+      "Fasciola hepatica"
+    ],
+    "answer": 1,
+    "answerText": "Animal schistosomas",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 77</span> All of the following techniques are used in the diagnosis of human hydatid cyst, EXCEPT ......... .",
+    "options": [
+      "Ultrasonography",
+      "Elisa",
+      "Stool test",
+      "Pathology test"
+    ],
+    "answer": 2,
+    "answerText": "Stool test",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 78</span> In which part of the digestive system is Trophozoites of Giardia lamblia situated?",
+    "options": [
+      "Stomach",
+      "Small intestine",
+      "Large intestine",
+      "Rectum"
+    ],
+    "answer": 1,
+    "answerText": "Small intestine",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 79</span> The drug for Toxoplasma gondii is currently effective on which form of parasite in humans?",
+    "options": [
+      "Oocyst",
+      "Bradyzoite",
+      "Tachyzoite",
+      "Tissue cyst"
+    ],
+    "answer": 2,
+    "answerText": "Tachyzoite",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 80</span> Which of the following creatures is/are the major reservoir of anthroponotic cutaneous leishmaniasis (ACL)?",
+    "options": [
+      "Human",
+      "Dog",
+      "Rodents",
+      "Cat"
+    ],
+    "answer": 0,
+    "answerText": "Human",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 81</span> What is the main complication of Plasmodium malariae in humans?",
+    "options": [
+      "Cerebral malaria",
+      "Algid malaria",
+      "Hypoglycemia",
+      "Nephrotic syndrome"
+    ],
+    "answer": 3,
+    "answerText": "Nephrotic syndrome",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 82</span> Which amoeba causes amebic liver abscess?",
+    "options": [
+      "Entamoeba dispar",
+      "Entamoeba coli",
+      "Entamoeba histolytica",
+      "Entamoeba gigivalis"
+    ],
+    "answer": 2,
+    "answerText": "Entamoeba histolytica",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 83</span> Which of the following pathogens both multiplies and transforms within the vector’s body?",
+    "options": [
+      "Yersinia pestis within fleas",
+      "Plasmodium within anopheles",
+      "Bacteria within cockroaches",
+      "Rickettsia within lice"
+    ],
+    "answer": 1,
+    "answerText": "Plasmodium within anopheles",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 84</span> Which fly causes obligatory myiasis?",
+    "options": [
+      "Lucilia sericata",
+      "Musca domestica",
+      "Calliphora vicina",
+      "Chrysomaya bezziana"
+    ],
+    "answer": 3,
+    "answerText": "Chrysomaya bezziana",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 73</span> 'Strawberry cervix' is the specific clinical sign of which of the following parasitic diseases?",
+    "options": [
+      "Amoebiasis",
+      "Toxoplasmosis",
+      "Trichomoniasis",
+      "Giardiasis"
+    ],
+    "answer": 2,
+    "answerText": "Trichomoniasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 74</span> During blood sucking by an infected female sandfly, which morphological shape of Leishmania parasite can be transmitted to human's body?",
+    "options": [
+      "Promastigote",
+      "Epimastigote",
+      "Trypomastigote",
+      "Amastigote"
+    ],
+    "answer": 0,
+    "answerText": "Promastigote",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 75</span> All of the following drugs are blood schizontocidal on human Plasmodium species EXCEPT:",
+    "options": [
+      "Primaquine",
+      "Sulfadoxine",
+      "Artemisinin",
+      "Chloroquine"
+    ],
+    "answer": 0,
+    "answerText": "Primaquine",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 76</span> Which one of the following creatures is the natural reservoir host of Entamoeba histolytica?",
+    "options": [
+      "Swine",
+      "Dog",
+      "Human",
+      "Cat"
+    ],
+    "answer": 2,
+    "answerText": "Human",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 77</span> Which of the following morphological shapes of Toxoplasma gondii is affected by the current anti-toxoplasma drugs?",
+    "options": [
+      "Tissue schizont",
+      "Tachyzoite",
+      "Tissue cyst",
+      "Oocyst"
+    ],
+    "answer": 1,
+    "answerText": "Tachyzoite",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 78</span> Which of the following human parasitic diseases can be diagnosed by stool examination?",
+    "options": [
+      "Toxocariasis",
+      "Hydatidosis",
+      "Strongyloidiasis",
+      "Bilharziosis"
+    ],
+    "answer": 2,
+    "answerText": "Strongyloidiasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 79</span> Which of the following parasitic diseases can be diagnosed by Graham's method?",
+    "options": [
+      "Enterobiasis",
+      "Ascariasis",
+      "Trichuriasis",
+      "Ankylostomiasis"
+    ],
+    "answer": 0,
+    "answerText": "Enterobiasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 80</span> Microfilaria of which of the following filarial helminths can be found subcutaneously in an infected human?",
+    "options": [
+      "Wuchereria bancrofti",
+      "Brugia malayi",
+      "Mansonella ozzardi",
+      "Onchocerca volvulus"
+    ],
+    "answer": 3,
+    "answerText": "Onchocerca volvulus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 81</span> In the life cycle of Hymenolepis nana, in which part of the human body do the cysticercoids develop?",
+    "options": [
+      "Liver",
+      "Small intestine",
+      "Vascular endothelium",
+      "Kidney"
+    ],
+    "answer": 1,
+    "answerText": "Small intestine",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 82</span> 'Triclabendazole' is the drug of choice for treatment of which parasitic disease?",
+    "options": [
+      "Hydatidosis",
+      "Toxocariasis",
+      "Strongyloidiasis",
+      "Fascioliasis"
+    ],
+    "answer": 3,
+    "answerText": "Fascioliasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 83</span> Which of the following disease/ diseases is/ are NOT transmitted by sand fly (Psychodidae)?",
+    "options": [
+      "Leishmaniasis",
+      "Papatasi fever",
+      "Dengue fever and Zika",
+      "Carrion's disease"
+    ],
+    "answer": 2,
+    "answerText": "Dengue fever and Zika",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 84</span> Anopheles mosquitoes are involved in transmission of which of the following diseases?",
+    "options": [
+      "Human malaria, filariasis, some arbovirus diseases",
+      "Human malaria, yellow fever, trench fever",
+      "Filariasis, human malaria, relapsing fever",
+      "Filariasis, relapsing fever, some arbovirus diseases"
+    ],
+    "answer": 0,
+    "answerText": "Human malaria, filariasis, some arbovirus diseases",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 73</span> Which of the following parasites can produce hydrocele in human?",
+    "options": [
+      "Onchocerca volvulus",
+      "Dracunculus medinensis",
+      "Wuchereria bancrofti",
+      "Loa loa"
+    ],
+    "answer": 2,
+    "answerText": "Wuchereria bancrofti",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 74</span> Hand washing after defecation is effective in the prevention of infection with ……… .",
+    "options": [
+      "Echinococcus granulosus",
+      "Taenia saginata",
+      "Diphilobothrium latum",
+      "Hymenolepis nana"
+    ],
+    "answer": 3,
+    "answerText": "Hymenolepis nana",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 75</span> Which complication is the most probable in hydatid cyst rupture during surgery?",
+    "options": [
+      "Vein thrombosis",
+      "Secondary hydatid cyst",
+      "Infected hydatid cyst",
+      "Daughter cyst"
+    ],
+    "answer": 1,
+    "answerText": "Secondary hydatid cyst",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 76</span> Which of the following is effective in the prevention of human fascioliasis?",
+    "options": [
+      "Completely cooked lamb liver",
+      "Completely cooked beef",
+      "Hygienic lavatories",
+      "Cooked vegetables"
+    ],
+    "answer": 0,
+    "answerText": "Completely cooked lamb liver",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 77</span> All of the following factors have a role in the transmission of Giardia lamblia to humans, EXCEPT ……… .",
+    "options": [
+      "healthy carriers",
+      "water",
+      "vegetables",
+      "insect bite"
+    ],
+    "answer": 3,
+    "answerText": "insect bite",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 78</span> Snails function as an intermediate host in the life cycles of the following parasites, EXCEPT …….",
+    "options": [
+      "Diphilobothrium",
+      "Dicrocoelium",
+      "Schistosoma",
+      "Fasciolopsis"
+    ],
+    "answer": 0,
+    "answerText": "Diphilobothrium",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 79</span> Which of the following is the most common site for amoebic abscesses?",
+    "options": [
+      "Brain",
+      "Lung",
+      "Liver",
+      "Skin"
+    ],
+    "answer": 2,
+    "answerText": "Liver",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 80</span> For the detection and observation of the amastigote forms of Leishmania in the human body, which of the following cells are suggested for microscopic analysis?",
+    "options": [
+      "Neutrophil",
+      "Macrophage",
+      "Lymphocyte",
+      "Platelet"
+    ],
+    "answer": 1,
+    "answerText": "Macrophage",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 81</span> Which drugs are used to interrupt the transmission cycle of malaria parasites by the female anopheles?",
+    "options": [
+      "Blood schizontocidal",
+      "Primary tissue schizontocidal",
+      "Secondary tissue schizontocidal",
+      "Gametocytocidal"
+    ],
+    "answer": 3,
+    "answerText": "Gametocytocidal",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 82</span> The mature oocyst of which of the following coccidian parasites lacks sporocyst and contains only four sporozoites?",
+    "options": [
+      "Toxoplasma gondii",
+      "Cystoisospora belli",
+      "Cryptosporidium parvum",
+      "Cyclospora cayetanensis"
+    ],
+    "answer": 2,
+    "answerText": "Cryptosporidium parvum",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 83</span> Which of the following life stages of Wohlfahrtia magnifica indicates its medical importance?",
+    "options": [
+      "Egg",
+      "Adult",
+      "Pupa",
+      "Larva"
+    ],
+    "answer": 3,
+    "answerText": "Larva",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 84</span> Which of the following feeding behaviors of adult Phlebotominae is correct?",
+    "options": [
+      "Only females feed on blood.",
+      "Only males feed on blood.",
+      "Both males and females feed on blood.",
+      "Both males and females just feed on plants’ nectar."
+    ],
+    "answer": 0,
+    "answerText": "Only females feed on blood.",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 73</span> Which of the following parasites needs more than one intermediate host for completing the life cycle?",
+    "options": [
+      "Fasciola",
+      "Schistosoma",
+      "Diphyllobothrium",
+      "Hymenolepis"
+    ],
+    "answer": 3,
+    "answerText": "Hymenolepis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 74</span> All of the following parasites may cause appendicitis EXCEPT:",
+    "options": [
+      "Dracunculus",
+      "Enterobius",
+      "Ascaris",
+      "Taenia"
+    ],
+    "answer": 3,
+    "answerText": "Taenia",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 75</span> Which of the following parasitic diseases is more significant than the others in Iran at present?",
+    "options": [
+      "Schistosomiasis",
+      "Taeniasis",
+      "Dicrocoeliasis",
+      "Fascioliasis"
+    ],
+    "answer": 2,
+    "answerText": "Dicrocoeliasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 76</span> All of the following drugs may be used for the treatment of human hydatidosis, EXCEPT:",
+    "options": [
+      "Albendazole",
+      "Praziquantel",
+      "Mebendazole",
+      "Thiabendazole"
+    ],
+    "answer": 0,
+    "answerText": "Albendazole",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 77</span> Which of the following parasites can infect the human by both ova and larvae?",
+    "options": [
+      "Echinococcus granulosus",
+      "Echinococcus multilocularis",
+      "Taenia solium",
+      "Taenia saginata"
+    ],
+    "answer": 2,
+    "answerText": "Taenia solium",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 78</span> All of the following stages of Toxoplasma gondii may be produced in the intermediate hosts, EXCEPT:",
+    "options": [
+      "Schizont",
+      "Tachyzoite",
+      "Pseudocyst",
+      "Tissue cyst"
+    ],
+    "answer": 1,
+    "answerText": "Tachyzoite",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 79</span> What is the main route of Naegleria fowleri transmission to the brain?",
+    "options": [
+      "Lymphatics",
+      "Veins",
+      "Olfactory nerve",
+      "Mouth"
+    ],
+    "answer": 0,
+    "answerText": "Lymphatics",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 80</span> Which of the following Plasmodium species usually invades old RBCs?",
+    "options": [
+      "P. vivax",
+      "P. malaria",
+      "P. falciparum",
+      "P. ovale"
+    ],
+    "answer": 3,
+    "answerText": "P. ovale",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 81</span> Which of the following diagnostic methods is the most appropriate approach for cutaneous leishmaniasis?",
+    "options": [
+      "Microscopic examination",
+      "Leishmanin skin test",
+      "Inoculation of mice",
+      "Serological methods"
+    ],
+    "answer": 0,
+    "answerText": "Microscopic examination",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 82</span> In severe giardiasis, the parasite localizes in all of the following parts of the intestine, EXCEPT:",
+    "options": [
+      "Duodenum",
+      "Jejunum",
+      "Ileum",
+      "Caecum"
+    ],
+    "answer": 3,
+    "answerText": "Caecum",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 83</span> What is the most important vector of Plague and how does it transmit?",
+    "options": [
+      "Xenopsylla ceopis - bite of infected flea",
+      "Ctenocephalides felis - feces of infected flea",
+      "Pulex irritans - salivary gland of infected flea",
+      "Nosopsyllus fasciatus - hemolymph of infected flea"
+    ],
+    "answer": 0,
+    "answerText": "Xenopsylla ceopis - bite of infected flea",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 84</span> What is the most important method to control hard tick?",
+    "options": [
+      "To improve the environment",
+      "Tick bath of animals",
+      "Residual spraying of shelter",
+      "Spraying rangelands"
+    ],
+    "answer": 2,
+    "answerText": "Residual spraying of shelter",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 73</span> Which of the parasitic diseases below has the specific clinical signs of fever, hepatomegaly and liver lymphangitis?",
+    "options": [
+      "Ascariasis",
+      "Fascioliasis",
+      "Trichuriasis",
+      "Schistosomiasis"
+    ],
+    "answer": 1,
+    "answerText": "Fascioliasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 74</span> Which one of the following larval stages of helminthic parasite causes 'ground itch' in patients?",
+    "options": [
+      "Necator",
+      "Fasciola",
+      "Trichuris",
+      "Enterobius"
+    ],
+    "answer": 0,
+    "answerText": "Necator",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 75</span> Infection caused by which one of the following helminths can be transmitted to people by taking vegetables?",
+    "options": [
+      "Schistosoma",
+      "Wuchereria",
+      "Echinococcus",
+      "Dicrocoelium"
+    ],
+    "answer": 3,
+    "answerText": "Dicrocoelium",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 76</span> In which of the following parasitic diseases 'internal autoinfection' could occur?",
+    "options": [
+      "Ascariasis",
+      "Fascioliasis",
+      "Trichinellosis",
+      "Strongyloidiasis"
+    ],
+    "answer": 3,
+    "answerText": "Strongyloidiasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 77</span> Which one of the following helminthic parasites is associated with the clinical signs of microcytic anemia?",
+    "options": [
+      "Enterobius",
+      "Hymenolepis",
+      "Ancylostoma",
+      "Ascaris"
+    ],
+    "answer": 2,
+    "answerText": "Ancylostoma",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 78</span> Which of the parasitic protozoa causes 'Endodyogeny' (internal budding)?",
+    "options": [
+      "Giardia",
+      "Plasmodium",
+      "Leishmania",
+      "Toxoplasma"
+    ],
+    "answer": 3,
+    "answerText": "Toxoplasma",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 79</span> Which of the following is the principal agent of zoonotic cutaneous leishmaniasis in Iran?",
+    "options": [
+      "L. major",
+      "L. tropica",
+      "L. infantum",
+      "L. donovani"
+    ],
+    "answer": 0,
+    "answerText": "L. major",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 80</span> Plasmodium falciparum has an appropriate response to all the following drugs EXCEPT:",
+    "options": [
+      "Quinine",
+      "Fansidar",
+      "Chloroquine",
+      "Artesunate"
+    ],
+    "answer": 2,
+    "answerText": "Chloroquine",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 81</span> Which of the following protozoa is similar to Entamoeba histolytica microscopically?",
+    "options": [
+      "Entamoeba coli",
+      "Entamoeba dispar",
+      "Entamoeba hartmanni",
+      "Entamoeba gingivalis"
+    ],
+    "answer": 1,
+    "answerText": "Entamoeba dispar",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 82</span> For the identification of the oocyst form in which protozoa below do we use the Ziehl-Neelsen method of staining?",
+    "options": [
+      "Isospora",
+      "Giardia",
+      "Entamoeba",
+      "Cryptosporidium"
+    ],
+    "answer": 3,
+    "answerText": "Cryptosporidium",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 83</span> Which mosquito genus carries the Dengue fever virus?",
+    "options": [
+      "Anopheles",
+      "Culex",
+      "Aedes",
+      "Culiseta"
+    ],
+    "answer": 2,
+    "answerText": "Aedes",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 84</span> Soft carrier ticks are able to transmit…",
+    "options": [
+      "Crimean-Congo Hemorrhagic fever",
+      "Tick-borne relapsing fever",
+      "Omsk hemorrhagic fever",
+      "Tick-borne encephalitis"
+    ],
+    "answer": 1,
+    "answerText": "Tick-borne relapsing fever",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 73</span> All of the following are blood schizontocidal on malaria parasites, EXCEPT:",
+    "options": [
+      "primaquine",
+      "chloroquine",
+      "quinine",
+      "artesunate"
+    ],
+    "answer": 0,
+    "answerText": "primaquine",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 74</span> Lesions due to ocular toxoplasmosis are usually formed in ……… of the eye.",
+    "options": [
+      "sclera",
+      "vitreous",
+      "retina",
+      "cornea"
+    ],
+    "answer": 2,
+    "answerText": "retina",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 75</span> Which of the following laboratory diagnostic methods of visceral leishmaniasis is known as a rapid test?",
+    "options": [
+      "Microscopy exam",
+      "Culture",
+      "Leishmanin skin test",
+      "Dipstick rK39"
+    ],
+    "answer": 3,
+    "answerText": "Dipstick rK39",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 76</span> All of the following protozoa are pathogens, EXCEPT:",
+    "options": [
+      "Balantidium coli",
+      "Trichomonas vaginalis",
+      "Endolimax nana",
+      "Cryptosporidium parvum"
+    ],
+    "answer": 2,
+    "answerText": "Endolimax nana",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 77</span> Larva can be observed in fresh feces in helminthic infection of ……….",
+    "options": [
+      "Ascaris lumbricoides",
+      "Strongyloides stercoralis",
+      "Enterobius vermicularis",
+      "Ancylostoma duodenale"
+    ],
+    "answer": 1,
+    "answerText": "Strongyloides stercoralis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 78</span> Which helminth causes specific clinical features of dyspnea, cough, pulmonary fibrosis, and hemoptysis?",
+    "options": [
+      "Clonorchis sinensis",
+      "Heterophyes heterophyes",
+      "Fasciolopsis buski",
+      "Paragonimus westermani"
+    ],
+    "answer": 3,
+    "answerText": "Paragonimus westermani",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 79</span> Which of the following helminths lives in human lymphatic vessels?",
+    "options": [
+      "Wuchereria bancrofti",
+      "Ancylostoma duodenale",
+      "Onchocerca volvulus",
+      "Ascaris lumbricoides"
+    ],
+    "answer": 0,
+    "answerText": "Wuchereria bancrofti",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 80</span> In which of the following parasitic helminths does a dog have a dominant role in the transmission cycle?",
+    "options": [
+      "Hymenolepis nana",
+      "Echinococcus granulosus",
+      "Ascaris lumbricoides",
+      "Enterobius vermicularis"
+    ],
+    "answer": 1,
+    "answerText": "Echinococcus granulosus",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 81</span> All of the following parasitic protozoa, EXCEPT ………, can be transmitted by the cyst from an infected person to a healthy one.",
+    "options": [
+      "Giardia lamblia",
+      "Balantidium coli",
+      "Iodamoeba butschlii",
+      "Trichomonas tenax"
+    ],
+    "answer": 3,
+    "answerText": "Trichomonas tenax",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 82</span> Chills, fever, and sweating are specific clinical features of ……….",
+    "options": [
+      "malaria",
+      "kala-azar",
+      "amoebiasis",
+      "toxoplasmosis"
+    ],
+    "answer": 0,
+    "answerText": "malaria",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 83</span> Which genus of the following arthropods is the causative agent of scabies?",
+    "options": [
+      "Xenopsylla",
+      "Demodex",
+      "Sarcoptes",
+      "Pulex"
+    ],
+    "answer": 2,
+    "answerText": "Sarcoptes",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 84</span> Bedbug can cause all of the following, EXCEPT:",
+    "options": [
+      "allergic reaction after bite",
+      "stress and anxiety",
+      "transmission of infectious diseases",
+      "insomnia"
+    ],
+    "answer": 2,
+    "answerText": "transmission of infectious diseases",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 73</span> Which of the following helminth’s egg may pass through the intestinal wall and cause granulomatosis in the heart and the brain?",
+    "options": [
+      "Fasciolopsis buski",
+      "Fasciola hepatica",
+      "Heterophyes heterophyes",
+      "Dicrocoelium dendriticum"
+    ],
+    "answer": 0,
+    "answerText": "Fasciolopsis buski",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 74</span> Personal hygiene measurements have the main role in the prevention of which of the following helminths?",
+    "options": [
+      "Trichinella spiralis",
+      "Hymenolepis nana",
+      "Taenia saginata",
+      "Wuchereria bancrofti"
+    ],
+    "answer": 1,
+    "answerText": "Hymenolepis nana",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 75</span> Which of the following Leishmania species is the causative agent of urban cutaneous leishmaniasis?",
+    "options": [
+      "Leishmania major",
+      "Leishmania braziliensis",
+      "Leishmania infantum",
+      "Leishmania tropica"
+    ],
+    "answer": 3,
+    "answerText": "Leishmania tropica",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 76</span> What is the main cause of mortality in Plasmodium falciparum-induced malaria?",
+    "options": [
+      "Glomerulonephritis",
+      "Algid malaria",
+      "Black water fever",
+      "Cerebral malaria"
+    ],
+    "answer": 3,
+    "answerText": "Cerebral malaria",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 77</span> What is the main common location of hydatid cyst in humans?",
+    "options": [
+      "Liver and brain",
+      "Lung and peritoneum",
+      "Liver and lung",
+      "Lung and brain"
+    ],
+    "answer": 2,
+    "answerText": "Liver and lung",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 78</span> Retinoblastoma may be misdiagnosed with ocular manifestation of which of the following parasites?",
+    "options": [
+      "Toxoplasma gondii",
+      "Toxocara canis",
+      "Trichinella spiralis",
+      "Loa loa"
+    ],
+    "answer": 0,
+    "answerText": "Toxoplasma gondii",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 79</span> Which of the following parasites causes amoebic keratitis?",
+    "options": [
+      "Dientamoeba fragilis",
+      "Naegleria",
+      "Entamoeba histolytica",
+      "Acanthamoeba"
+    ],
+    "answer": 3,
+    "answerText": "Acanthamoeba",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 80</span> Which of the following is the main drug for the treatment of human fascioliasis?",
+    "options": [
+      "Triclabendazole",
+      "Ivermectin",
+      "Praziquantel",
+      "Mebendazole"
+    ],
+    "answer": 0,
+    "answerText": "Triclabendazole",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 81</span> Entamoeba histolytica can be transmitted to humans through which of the following routes?",
+    "options": [
+      "Ingestion of quadri-nucleate cyst",
+      "Ingestion of bi-nucleate cyst",
+      "Ingestion of invasive trophozoite",
+      "Ingestion of non-invasive trophozoite"
+    ],
+    "answer": 0,
+    "answerText": "Ingestion of quadri-nucleate cyst",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 82</span> In Toxoplasma life cycle, merogony (schizogony) occurs in which of the following cells of the definitive host?",
+    "options": [
+      "Epithelial cells",
+      "Endothelial cells",
+      "Nerve cells",
+      "Muscle cells"
+    ],
+    "answer": 0,
+    "answerText": "Epithelial cells",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 83</span> Nasopharyngeal Myiasis is caused by the larvae of ………….. flies.",
+    "options": [
+      "Lucilia sericata",
+      "Musca domestica",
+      "Calliphora regina",
+      "Oestrus ovis"
+    ],
+    "answer": 3,
+    "answerText": "Oestrus ovis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 84</span> Which of the following is the causative agent of Scabies?",
+    "options": [
+      "Demodex Mites",
+      "Sarcoptes Mites",
+      "Pyroglyphus Mites",
+      "Pediculus Louse"
+    ],
+    "answer": 1,
+    "answerText": "Sarcoptes Mites",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 70</span> Which larval stage of the following helminths is associated with ocular complications?",
+    "options": [
+      "Dicrocoelium dendriticum",
+      "Toxocara canis",
+      "Ascaris lumbricoides",
+      "Necator americanus"
+    ],
+    "answer": 1,
+    "answerText": "Toxocara canis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 71</span> In which of the following helminthic diseases, immunosuppression plays an important role in hyper-parasitemia?",
+    "options": [
+      "Strongyloidiasis",
+      "Ascariasis",
+      "Hydatidosis",
+      "Fascioliasis"
+    ],
+    "answer": 0,
+    "answerText": "Strongyloidiasis",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 72</span> In the life cycle of which of the following helminths does an insect play an important role?",
+    "options": [
+      "Fasciola hepatica",
+      "Fasciolopsis buski",
+      "Dicrocoelium dendriticum",
+      "Clonorchis sinensis"
+    ],
+    "answer": 2,
+    "answerText": "Dicrocoelium dendriticum",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 73</span> Man is considered as the intermediate and final host for which of the following cestodes?",
+    "options": [
+      "Echinococcus granulosus",
+      "Diphyllobothrium latum",
+      "Dipylidium caninum",
+      "Hymenolepis nana"
+    ],
+    "answer": 3,
+    "answerText": "Hymenolepis nana",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 74</span> Which of the following parasites can cause keratitis by contact lenses?",
+    "options": [
+      "Acanthamoeba castellanii",
+      "Toxoplasma gondii",
+      "Entamoeba hartmanni",
+      "Toxocara canis"
+    ],
+    "answer": 0,
+    "answerText": "Acanthamoeba castellanii",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 75</span> Which of the following parasites can cause watery diarrhea in immunocompromised patients?",
+    "options": [
+      "Balantidium coli",
+      "Giardia lamblia",
+      "Entamoeba coli",
+      "Cryptosporidium parvum"
+    ],
+    "answer": 3,
+    "answerText": "Cryptosporidium parvum",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 76</span> Big RBCs are infected by which common Plasmodium spp. in Iran?",
+    "options": [
+      "P. vivax",
+      "P. malariae",
+      "P. ovale",
+      "P. falciparum"
+    ],
+    "answer": 0,
+    "answerText": "P. vivax",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 77</span> In serum electrophoresis of kala-azar patients, the level of Albumin and Gamma-globulin ………",
+    "options": [
+      "both increase",
+      "both decrease",
+      "Albumin increases and Gamma-globulin decreases",
+      "Albumin decreases and Gamma-globulin increases"
+    ],
+    "answer": 3,
+    "answerText": "Albumin decreases and Gamma-globulin increases",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 78</span> The risk of transmission and abortion in toxoplasmosis increases in which pregnancy trimesters, respectively?",
+    "options": [
+      "First trimester - second trimester",
+      "Second trimester - third trimester",
+      "First trimester - third trimester",
+      "Third trimester - first trimester"
+    ],
+    "answer": 2,
+    "answerText": "First trimester - third trimester",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 79</span> Which of the following insects cannot transmit infectious diseases to humans?",
+    "options": [
+      "Triatoma bug",
+      "Body lice",
+      "Bed bug",
+      "Hard tick"
+    ],
+    "answer": 2,
+    "answerText": "Bed bug",
+    "explanation": "",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 80</span> In which parts of an adult's body are Scabiasis lesions mostly observed?",
+    "options": [
+      "Body and neck",
+      "Interdigital areas of hands and genitalia",
+      "Foot fingers and ankle",
+      "Knee and legs"
+    ],
+    "answer": 1,
+    "answerText": "Interdigital areas of hands and genitalia",
+    "explanation": "",
     "userAnswer": null
   }
 ]
