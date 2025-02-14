@@ -306,5 +306,15 @@
         "file": "data/nervous_system_block_embryology.json"
       }
     ]
+  },
+  {
+    "topicName": "test",
+    "description": "",
+    "subTopics": [
+      {
+        "name": "anatomy",
+        "file": "data/test_anatomy.json"
+      }
+    ]
   }
 ]
