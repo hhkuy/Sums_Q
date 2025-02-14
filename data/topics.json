@@ -1,5 +1,55 @@
 [
   {
+    "topicName": "BEQs ( T.U.M.S )",
+    "description": "All Basic Exam Past Paper Questions For Tehran University of Medical Sciences",
+    "subTopics": [
+      {
+        "name": "Anatomical Sciences",
+        "file": "data/basic_exam_past_paper_(_beqs_t.u.m.s_)_anatomical_sciences.json"
+      },
+      {
+        "name": "Physiology",
+        "file": "data/basic_exam_past_paper_(_beqs_t.u.m.s_)_physiology.json"
+      },
+      {
+        "name": "Biochemistry",
+        "file": "data/basic_exam_past_paper_(_beqs_t.u.m.s_)_biochemistry.json"
+      },
+      {
+        "name": "Microbiology or Bacteriology",
+        "file": "data/basic_exam_past_paper_(_beqs_t.u.m.s_)_microbiology_or_bacteriology.json"
+      },
+      {
+        "name": "Parasitology and Entomology",
+        "file": "data/beqs_(_t.u.m.s_)_parasitology_and_entomology.json"
+      },
+      {
+        "name": "Mycology",
+        "file": "data/beqs_(_t.u.m.s_)_mycology.json"
+      },
+      {
+        "name": "Virology",
+        "file": "data/beqs_(_t.u.m.s_)_virology.json"
+      },
+      {
+        "name": "Public Health or general hygiene",
+        "file": "data/beqs_(_t.u.m.s_)_public_health_or_general_hygiene.json"
+      },
+      {
+        "name": "Epidemiology",
+        "file": "data/beqs_(_t.u.m.s_)_epidemiology.json"
+      },
+      {
+        "name": "Medical Terminology",
+        "file": "data/beqs_(_t.u.m.s_)_medical_terminology.json"
+      },
+      {
+        "name": "Immunology",
+        "file": "data/beqs_(_t.u.m.s_)_immunology.json"
+      }
+    ]
+  },
+  {
     "topicName": "Tissue, Development and Function block",
     "description": "Related to the first Semster",
     "subTopics": [
