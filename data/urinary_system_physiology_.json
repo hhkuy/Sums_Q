@@ -271,5 +271,278 @@
     "answerText": "Equal to plasma",
     "explanation": "Sodium concentration at the end of the proximal tubule is approximately equal to that of plasma due to the reabsorption of water along with sodium.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 1</span> What percentage of the blood entering the kidney flows directly into the medulla without passing through the cortex?",
+    "options": [
+      "10%",
+      "5%",
+      "Zero",
+      "20%"
+    ],
+    "answer": 2,
+    "answerText": "Zero",
+    "explanation": "All blood entering the kidney initially passes through the cortex before reaching the medulla.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 2</span> The highest percentage of sodium is reabsorbed in:",
+    "options": [
+      "Distal tubule",
+      "Loop of Henle",
+      "Proximal tubule",
+      "Collecting duct"
+    ],
+    "answer": 2,
+    "answerText": "Proximal tubule",
+    "explanation": "The proximal tubule is responsible for reabsorbing the majority of sodium.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 3</span> Which system is responsible for auto-regulation?",
+    "options": [
+      "Juxta-glomerular apparatus",
+      "Afferent arteriole",
+      "Efferent arteriole",
+      "Collecting duct"
+    ],
+    "answer": 0,
+    "answerText": "Juxta-glomerular apparatus",
+    "explanation": "The juxta-glomerular apparatus is crucial for regulating renal blood flow and GFR.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 4</span> Secretion of creatinine occurs in men by:",
+    "options": [
+      "Proximal tubule",
+      "Loop of Henle",
+      "Collecting duct",
+      "Distal tubule"
+    ],
+    "answer": 0,
+    "answerText": "Proximal tubule",
+    "explanation": "Creatinine is secreted primarily in the proximal tubule.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 5</span> The concentration of which ion is less in filtrate than in plasma?",
+    "options": [
+      "Sodium",
+      "Calcium",
+      "Potassium",
+      "Chloride"
+    ],
+    "answer": 1,
+    "answerText": "Calcium",
+    "explanation": "Calcium is bound to proteins in plasma, reducing its concentration in filtrate.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 6</span> Which one is reabsorbed in exchange with sodium in the proximal tubule?",
+    "options": [
+      "Potassium",
+      "Chloride",
+      "Hydrogen",
+      "Calcium"
+    ],
+    "answer": 2,
+    "answerText": "Hydrogen",
+    "explanation": "Hydrogen ions are secreted into the tubular fluid in exchange for sodium reabsorption.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 7</span> A moderate increase in efferent arteriolar resistance will have what effect on GFR and systemic pressure, respectively?",
+    "options": [
+      "Increase - Increase",
+      "Increase - Decrease",
+      "Decrease - Increase",
+      "Decrease - Decrease"
+    ],
+    "answer": 0,
+    "answerText": "Increase - Increase",
+    "explanation": "Moderate efferent arteriolar constriction increases GFR and systemic pressure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 8</span> Calculate how much sodium is filtered by the kidneys per day:",
+    "options": [
+      "2,500 mEq",
+      "25 Eq",
+      "500 mEq",
+      "10 Eq"
+    ],
+    "answer": 1,
+    "answerText": "25 Eq",
+    "explanation": "The kidneys filter approximately 25 Eq of sodium per day.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 9</span> Which one has a higher renal clearance?",
+    "options": [
+      "Glucose",
+      "Sodium",
+      "Potassium",
+      "Urea"
+    ],
+    "answer": 2,
+    "answerText": "Potassium",
+    "explanation": "Potassium is actively secreted and has a higher renal clearance compared to glucose.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 10</span> After infusion, the concentration of inulin in the plasma of renal veins is:",
+    "options": [
+      "Zero",
+      "Equal to renal arteries",
+      "Lower than renal arteries",
+      "Higher than renal arteries"
+    ],
+    "answer": 2,
+    "answerText": "Lower than renal arteries",
+    "explanation": "Inulin is freely filtered, so its concentration is lower in renal veins compared to renal arteries.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 11</span> What is the effect of stimulation of the sympathetic nervous system on GFR and urine output, respectively?",
+    "options": [
+      "Increase - Increase",
+      "Decrease - Increase",
+      "Decrease - Decrease",
+      "Increase - Decrease"
+    ],
+    "answer": 2,
+    "answerText": "Decrease - Decrease",
+    "explanation": "Sympathetic stimulation constricts renal vessels, reducing GFR and urine output.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 12</span> ADH induces water channels (aquaporins) in the:",
+    "options": [
+      "Loop of Henle",
+      "Distal tubule",
+      "Luminal membrane of collecting ducts",
+      "Proximal tubule"
+    ],
+    "answer": 2,
+    "answerText": "Luminal membrane of collecting ducts",
+    "explanation": "ADH promotes the insertion of aquaporins in the luminal membrane of collecting ducts.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 13</span> Which one occurs in aldosterone deficiency?",
+    "options": [
+      "Metabolic alkalosis",
+      "Metabolic acidosis",
+      "Respiratory alkalosis",
+      "Hypokalemia"
+    ],
+    "answer": 1,
+    "answerText": "Metabolic acidosis",
+    "explanation": "Aldosterone deficiency leads to potassium retention and metabolic acidosis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 14</span> The main function of intercalated type A cells is…….. and they are located in …………:",
+    "options": [
+      "Hydrogen ion secretion – Loop of Henle",
+      "Hydrogen ion secretion – Collecting ducts",
+      "Sodium absorption – Proximal tubule",
+      "Bicarbonate reabsorption – Distal tubule"
+    ],
+    "answer": 1,
+    "answerText": "Hydrogen ion secretion – Collecting ducts",
+    "explanation": "Intercalated type A cells secrete hydrogen ions and are found in the collecting ducts.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 15</span> Fanconi’s syndrome occurs as a result of damage to which cells?",
+    "options": [
+      "Loop of Henle",
+      "Collecting ducts",
+      "Proximal tubule",
+      "Distal tubule"
+    ],
+    "answer": 2,
+    "answerText": "Proximal tubule",
+    "explanation": "Fanconi’s syndrome results from dysfunction in the proximal tubule, impairing reabsorption.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 16</span> Hyperosmolarity in the kidney medullary part is a result of the accumulation of:",
+    "options": [
+      "Sodium only",
+      "Urea only",
+      "NaCl and urea",
+      "Potassium and chloride"
+    ],
+    "answer": 2,
+    "answerText": "NaCl and urea",
+    "explanation": "The medullary osmotic gradient is primarily created by NaCl and urea.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 17</span> Upon acid load entrance to blood, which one is the best and more available buffer system to fight against acidosis?",
+    "options": [
+      "Phosphate",
+      "Hemoglobin",
+      "Bicarbonate",
+      "Ammonia"
+    ],
+    "answer": 1,
+    "answerText": "Hemoglobin",
+    "explanation": "Hemoglobin acts as a rapid and efficient buffer against blood acidity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 18</span> In the presence of ADH, the highest percentage of water reabsorption occurs in:",
+    "options": [
+      "Collecting ducts",
+      "Loop of Henle",
+      "Proximal tubule",
+      "Distal tubule"
+    ],
+    "answer": 2,
+    "answerText": "Proximal tubule",
+    "explanation": "Regardless of ADH, most water is reabsorbed in the proximal tubule.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 19</span> An increased pH, reduced hydrogen concentration, and a pCO2 of less than normal, followed by a reduced bicarbonate concentration is:",
+    "options": [
+      "Respiratory acidosis",
+      "Metabolic alkalosis",
+      "Respiratory alkalosis",
+      "Metabolic acidosis"
+    ],
+    "answer": 2,
+    "answerText": "Respiratory alkalosis",
+    "explanation": "This pattern describes respiratory alkalosis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 20</span> In a person with renal failure, changes in plasma urea and GFR are as follows:",
+    "options": [
+      "Decreased – Decreased",
+      "Increased – Increased",
+      "Increased – Decreased",
+      "Decreased – Increased"
+    ],
+    "answer": 2,
+    "answerText": "Increased – Decreased",
+    "explanation": "In renal failure, GFR decreases, causing plasma urea to increase.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 21</span> To maintain the concentration of penicillin in plasma:",
+    "options": [
+      "Increase its reabsorption",
+      "Decrease its filtration",
+      "Inhibit its secretion",
+      "Increase its secretion"
+    ],
+    "answer": 2,
+    "answerText": "Inhibit its secretion",
+    "explanation": "Inhibiting secretion prolongs penicillin’s presence in the plasma.",
+    "userAnswer": null
   }
 ]
