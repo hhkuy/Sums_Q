@@ -258,5 +258,265 @@
     "answerText": "Prostatic",
     "explanation": "The prostatic part of the urethra contains the urethral crest, which is a longitudinal ridge on its posterior wall.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 1</span> Which muscle is attached to the lateral border of the anterior two-thirds of the iliac crest?",
+    "options": [
+      "Internal oblique abdominis",
+      "Transversus abdominis",
+      "External oblique abdominis",
+      "Rectus abdominis"
+    ],
+    "answer": 2,
+    "answerText": "External oblique abdominis",
+    "explanation": "The external oblique abdominis muscle originates from the lateral border of the anterior two-thirds of the iliac crest.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 2</span> Which muscle leaves the pelvis through the lesser sciatic foramen?",
+    "options": [
+      "Piriformis",
+      "Obturator externus",
+      "Obturator internus",
+      "Coccygeus"
+    ],
+    "answer": 2,
+    "answerText": "Obturator internus",
+    "explanation": "The obturator internus muscle exits the pelvis via the lesser sciatic foramen.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 3</span> Which one is a branch of the posterior trunk of the internal iliac artery?",
+    "options": [
+      "Obturator artery",
+      "Iliolumbar artery",
+      "Umbilical artery",
+      "Internal pudendal artery"
+    ],
+    "answer": 1,
+    "answerText": "Iliolumbar artery",
+    "explanation": "The iliolumbar artery arises from the posterior trunk of the internal iliac artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 4</span> What is the name of the pointed area?<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739634486536_IMG_4693.png' alt='Image for Q4' style='max-width:100%; height:auto;' data-filepath='pic/1739634486536_IMG_4693.png'>",
+    "options": [
+      "Sacral promontory",
+      "Iliac tubercle",
+      "Ischial spine",
+      "Acetabular notch"
+    ],
+    "answer": 0,
+    "answerText": "Sacral promontory",
+    "explanation": "The sacral promontory is a prominent bony projection at the anterior part of the sacrum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 5</span> Which artery leaves the pelvic cavity via the greater sciatic foramen, inferior to the piriformis muscle, turns around the ischial spine and sacrospinous ligament, and enters the lesser sciatic foramen?",
+    "options": [
+      "Superior gluteal artery",
+      "Obturator artery",
+      "Internal pudendal artery",
+      "Lateral sacral artery"
+    ],
+    "answer": 2,
+    "answerText": "Internal pudendal artery",
+    "explanation": "The internal pudendal artery follows this characteristic pathway in the pelvis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 6</span> The ureter at the level of L3 crosses which structure?",
+    "options": [
+      "Testicular artery",
+      "Ovarian artery",
+      "Common iliac artery",
+      "External iliac artery"
+    ],
+    "answer": 1,
+    "answerText": "Ovarian artery",
+    "explanation": "At the level of L3, the ureter crosses the ovarian artery in females.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 7</span> The left testicular vein drains into the …",
+    "options": [
+      "Inferior vena cava",
+      "Common iliac vein",
+      "Left renal vein",
+      "External iliac vein"
+    ],
+    "answer": 2,
+    "answerText": "Left renal vein",
+    "explanation": "The left testicular vein drains into the left renal vein, unlike the right side, which drains into the inferior vena cava.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 8</span> All of the following structures have a relationship with the anterior surface of the right kidney, EXCEPT:",
+    "options": [
+      "Liver",
+      "Duodenum",
+      "Colon",
+      "Body of the stomach"
+    ],
+    "answer": 3,
+    "answerText": "Body of the stomach",
+    "explanation": "The body of the stomach is related to the anterior surface of the left kidney, not the right.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 9</span> The anterior surface of the left kidney, between the spleen, adrenal gland, and tail of the pancreas, has a relationship with …",
+    "options": [
+      "Colon",
+      "Small intestine",
+      "Stomach",
+      "Liver"
+    ],
+    "answer": 2,
+    "answerText": "Stomach",
+    "explanation": "The stomach lies anterior to the upper part of the left kidney.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 10</span> Which of the following is related to the male pelvis?",
+    "options": [
+      "Wider pelvic inlet",
+      "Greater pelvic outlet",
+      "Lesser pelvic outlet",
+      "Shallower pelvic cavity"
+    ],
+    "answer": 2,
+    "answerText": "Lesser pelvic outlet",
+    "explanation": "The male pelvis is characterized by a smaller, narrower pelvic outlet compared to the female pelvis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 11</span> Which part of the levator ani muscle originates from the tendinous arch of the obturator fascia?",
+    "options": [
+      "Puborectalis",
+      "Iliococcygeus",
+      "Coccygeus",
+      "Ischiocavernosus"
+    ],
+    "answer": 1,
+    "answerText": "Iliococcygeus",
+    "explanation": "The iliococcygeus part of the levator ani arises from the tendinous arch of the obturator fascia.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 12</span> The superior vesical artery is a branch of the …",
+    "options": [
+      "Internal pudendal artery",
+      "Obturator artery",
+      "Umbilical artery",
+      "Inferior gluteal artery"
+    ],
+    "answer": 2,
+    "answerText": "Umbilical artery",
+    "explanation": "The superior vesical artery arises from the umbilical artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 13</span> Impotence may occur after prostatectomy; which structure is damaged in this condition?",
+    "options": [
+      "Hypogastric nerve",
+      "Pudendal nerve",
+      "Inferior hypogastric plexus",
+      "Sacral plexus"
+    ],
+    "answer": 2,
+    "answerText": "Inferior hypogastric plexus",
+    "explanation": "Damage to the inferior hypogastric plexus during prostatectomy can lead to impotence.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 14</span> All of the following nerves have a relationship with the posterior surface of the kidney, EXCEPT:",
+    "options": [
+      "Subcostal nerve",
+      "Iliohypogastric nerve",
+      "Ilioinguinal nerve",
+      "Genitofemoral nerve"
+    ],
+    "answer": 3,
+    "answerText": "Genitofemoral nerve",
+    "explanation": "The genitofemoral nerve is more anterior and does not directly relate to the posterior surface of the kidney.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 15</span> Which structure, after covering the kidney, extends medially and covers the inferior vena cava and aorta?",
+    "options": [
+      "Peritoneum",
+      "Renal capsule",
+      "Renal fascia",
+      "Psoas fascia"
+    ],
+    "answer": 2,
+    "answerText": "Renal fascia",
+    "explanation": "The renal fascia encloses the kidney and extends medially to cover the inferior vena cava and aorta.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 16</span> In the pelvis of men, the ureter is crossed by:",
+    "options": [
+      "Testicular artery",
+      "Ductus deferens",
+      "Internal pudendal artery",
+      "Obturator nerve"
+    ],
+    "answer": 1,
+    "answerText": "Ductus deferens",
+    "explanation": "In men, the ductus deferens crosses over the ureter near the bladder.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 17</span> Which structure is attached to the apex of the urinary bladder?",
+    "options": [
+      "Median umbilical ligament",
+      "Medial umbilical ligament",
+      "Urachus",
+      "Round ligament"
+    ],
+    "answer": 0,
+    "answerText": "Median umbilical ligament",
+    "explanation": "The median umbilical ligament extends from the apex of the urinary bladder to the umbilicus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 18</span> What is the name of the small area between the openings of the ureters and the opening of the urethra, inside the urinary bladder?",
+    "options": [
+      "Trigone",
+      "Fundus",
+      "Apex",
+      "Neck"
+    ],
+    "answer": 0,
+    "answerText": "Trigone",
+    "explanation": "The trigone is a triangular area within the bladder defined by the two ureteric openings and the internal urethral orifice.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 19</span> What is the name of the most inferior and fixed part of the urinary bladder?",
+    "options": [
+      "Fundus",
+      "Apex",
+      "Neck",
+      "Trigone"
+    ],
+    "answer": 2,
+    "answerText": "Neck",
+    "explanation": "The neck is the most inferior and fixed part of the bladder, leading to the urethra.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First batch (2024-06-23) - Dr. Hasanzadeh - Question 20</span> In men, which part of the urethra passes through the deep perineal space and has a sphincter?",
+    "options": [
+      "Prostatic urethra",
+      "Membranous urethra",
+      "Spongy urethra",
+      "Penile urethra"
+    ],
+    "answer": 1,
+    "answerText": "Membranous urethra",
+    "explanation": "The membranous urethra passes through the deep perineal space and is surrounded by the external urethral sphincter.",
+    "userAnswer": null
   }
 ]
