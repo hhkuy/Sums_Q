@@ -1,5 +1,265 @@
 [
   {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 1</span> Which of the following develops from the genital tubercle and genital swelling respectively?",
+    "options": [
+      "Clitoris – Labia minora",
+      "Clitoris – Scrotum",
+      "Penis – Labia majora",
+      "Clitoris – Penis"
+    ],
+    "answer": 1,
+    "answerText": "Clitoris – Scrotum",
+    "explanation": "The genital tubercle develops into the clitoris or penis, while the genital swelling develops into the scrotum in males or the labia majora in females.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 2</span> In the development of the genital system:",
+    "options": [
+      "All are correct",
+      "Primitive sex cords arise from epithelium of the genital ridge in embryos of both sexes",
+      "Genital tubercle forms the ovary",
+      "Genital ridge forms only in males"
+    ],
+    "answer": 1,
+    "answerText": "Primitive sex cords arise from epithelium of the genital ridge in embryos of both sexes",
+    "explanation": "Primitive sex cords arise from the genital ridge epithelium in both male and female embryos and contribute to gonadal development.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 3</span> Congenital adrenal hyperplasia causes producing excess .......... resulting in ambiguous genitalia development in ............",
+    "options": [
+      "Androgens – Females",
+      "Estrogens – Males",
+      "Progesterone – Females",
+      "Testosterone – Males"
+    ],
+    "answer": 0,
+    "answerText": "Androgens – Females",
+    "explanation": "CAH causes excess androgen production, leading to masculinization and ambiguous genitalia in genetic females.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 4</span> After the sinovaginal bulbs have proliferated and fused, they form a solid core of ............. cells known as the .................",
+    "options": [
+      "Mesodermal – Vaginal plate",
+      "Endodermal – Vaginal plate",
+      "Endodermal – Müllerian duct",
+      "Mesodermal – Urogenital sinus"
+    ],
+    "answer": 1,
+    "answerText": "Endodermal – Vaginal plate",
+    "explanation": "The sinovaginal bulbs form a solid core of endodermal cells called the vaginal plate, which contributes to vaginal development.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 5</span> Which part of the genital system arises from mesonephric tubules and mesonephric ducts respectively?",
+    "options": [
+      "Ductus deferens – Efferent ductules",
+      "Efferent ductules – Ductus deferens",
+      "Epididymis – Prostate",
+      "Ureter – Seminal vesicle"
+    ],
+    "answer": 1,
+    "answerText": "Efferent ductules – Ductus deferens",
+    "explanation": "Efferent ductules arise from mesonephric tubules, while the ductus deferens originates from the mesonephric duct.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 6</span> Which gland produces the most nutrients for the sperm cells?, and which gland produce most of the fluid that makes up semen?",
+    "options": [
+      "Seminal vesicle – Seminal vesicle",
+      "Seminal vesicle – Prostate",
+      "Prostate – Seminal vesicle",
+      "Prostate – Prostate"
+    ],
+    "answer": 0,
+    "answerText": "Seminal vesicle – Seminal vesicle",
+    "explanation": "The seminal vesicle produces most of the nutrients and fluid that contribute to semen.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 7</span> Which part of prostate can become benign hyperplasia and prostate cancer respectively?",
+    "options": [
+      "Mucosal glands – Submucosal glands",
+      "Mucosal glands – Main glands",
+      "Main glands – Mucosal glands",
+      "Submucosal glands – Main glands"
+    ],
+    "answer": 1,
+    "answerText": "Mucosal glands – Main glands",
+    "explanation": "Benign hyperplasia typically affects the mucosal glands, while prostate cancer often arises in the main glands (peripheral zone).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 8</span> The function of Sertoli cells includes all of the following EXCEPT:",
+    "options": [
+      "Nourishment of developing sperm",
+      "Secretion of inhibin",
+      "Formation of blood-testis barrier",
+      "Secretion of testosterone"
+    ],
+    "answer": 3,
+    "answerText": "Secretion of testosterone",
+    "explanation": "Sertoli cells support spermatogenesis but do not secrete testosterone; Leydig cells produce testosterone.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 9</span> Which cells secrete testosterone and androgen binding protein respectively?",
+    "options": [
+      "Leydig – Sertoli",
+      "Sertoli – Leydig",
+      "Theca – Granulosa",
+      "Granulosa – Theca"
+    ],
+    "answer": 0,
+    "answerText": "Leydig – Sertoli",
+    "explanation": "Leydig cells secrete testosterone, while Sertoli cells produce androgen-binding protein (ABP).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 10</span> What type of epithelium lines the vas deferens and the spaces within erectile tissue respectively?",
+    "options": [
+      "Pseudostratified – Simple squamous",
+      "Simple columnar – Simple squamous",
+      "Stratified squamous – Simple squamous",
+      "Pseudostratified – Stratified squamous"
+    ],
+    "answer": 0,
+    "answerText": "Pseudostratified – Simple squamous",
+    "explanation": "The vas deferens is lined by pseudostratified epithelium, while spaces within erectile tissue are lined by simple squamous epithelium.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 11</span> All of the following cells divide, either mitotically or meiotically, EXCEPT:",
+    "options": [
+      "Spermatogonia",
+      "Spermatocytes",
+      "Spermatid",
+      "Primary oocyte"
+    ],
+    "answer": 2,
+    "answerText": "Spermatid",
+    "explanation": "Spermatids are post-meiotic cells that differentiate into sperm without further division.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 12</span> Which statement about primary oocytes is not true?",
+    "options": [
+      "They are arrested in meiosis",
+      "They are formed after birth",
+      "They are surrounded by follicular cells",
+      "They are present at birth"
+    ],
+    "answer": 3,
+    "answerText": "They are present at birth",
+    "explanation": "Primary oocytes are formed before birth and are arrested in prophase I of meiosis until puberty.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 13</span> What type of epithelium lines the vagina and uterus respectively?",
+    "options": [
+      "Stratified squamous – Simple columnar",
+      "Stratified squamous – Pseudostratified",
+      "Simple columnar – Stratified squamous",
+      "Simple squamous – Simple columnar"
+    ],
+    "answer": 0,
+    "answerText": "Stratified squamous – Simple columnar",
+    "explanation": "The vagina is lined by stratified squamous epithelium, while the uterus is lined by simple columnar epithelium.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 14</span> The .................. phase begins after ovulation and in this phase, the endometrial glands secrete a ............. - rich secretion.",
+    "options": [
+      "Proliferative – Protein",
+      "Secretory – Glycogen",
+      "Menstrual – Lipid",
+      "Luteal – Estrogen"
+    ],
+    "answer": 1,
+    "answerText": "Secretory – Glycogen",
+    "explanation": "The secretory phase occurs after ovulation, characterized by glycogen-rich secretions from endometrial glands.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 15</span> The ................ convert androgens into ................, and secrete it.",
+    "options": [
+      "Granulosa cells – Estrogen",
+      "Theca cells – Progesterone",
+      "Sertoli cells – Inhibin",
+      "Leydig cells – Testosterone"
+    ],
+    "answer": 0,
+    "answerText": "Granulosa cells – Estrogen",
+    "explanation": "Granulosa cells convert androgens from theca cells into estrogen via aromatase enzyme.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 16</span> The ............. completes its first meiotic division in the ............... follicle shortly ................ ovulation.",
+    "options": [
+      "Primary oocyte – Graafian – Before",
+      "Primary oocyte – Primary – After",
+      "Secondary oocyte – Secondary – After",
+      "Primary oocyte – Graafian – After"
+    ],
+    "answer": 0,
+    "answerText": "Primary oocyte – Graafian – Before",
+    "explanation": "The primary oocyte completes its first meiotic division just before ovulation within the Graafian follicle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 17</span> The appearance of the antrum is a characteristic of which stage of follicular development?",
+    "options": [
+      "Primordial follicle",
+      "Primary follicle",
+      "Secondary follicle",
+      "Graafian follicle"
+    ],
+    "answer": 2,
+    "answerText": "Secondary follicle",
+    "explanation": "The secondary follicle is characterized by the formation of the fluid-filled antrum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 18</span> A mature ovarian follicle contains the following EXCEPT:",
+    "options": [
+      "Zona pellucida",
+      "Theca lutein cells",
+      "Granulosa cells",
+      "Theca interna cells"
+    ],
+    "answer": 3,
+    "answerText": "Theca interna cells",
+    "explanation": "Theca lutein cells are found after ovulation in the corpus luteum, not in a mature follicle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 19</span> Which of the following is a remnant of the gubernaculum?",
+    "options": [
+      "Proper ovarian ligament",
+      "Suspensory ligament",
+      "Round ligament",
+      "Broad ligament"
+    ],
+    "answer": 0,
+    "answerText": "Proper ovarian ligament",
+    "explanation": "The proper ovarian ligament is a remnant of the gubernaculum, anchoring the ovary to the uterus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 20</span> Which of the following is both endodermal and mesodermal?",
+    "options": [
+      "Uterus",
+      "Vagina",
+      "Fallopian tube",
+      "Ovary"
+    ],
+    "answer": 1,
+    "answerText": "Vagina",
+    "explanation": "The vagina develops from both the mesoderm (Müllerian ducts) and endoderm (sinovaginal bulbs).",
+    "userAnswer": null
+  },
+  {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) - Histo. & Embryo. - Dr. Golshan - Question 1</span> Which of the following develops from the genital swelling and genital fold respectively?",
     "options": [
       "Scrotum - Labia minora",
