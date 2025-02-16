@@ -1,5 +1,109 @@
 [
   {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Panahi - Question 1</span> Which of the following is the most important buffer system in the blood?",
+    "options": [
+      "Phosphate buffer system",
+      "Bicarbonate buffer system",
+      "Protein buffer system",
+      "Hemoglobin buffer system"
+    ],
+    "answer": 1,
+    "answerText": "Bicarbonate buffer system",
+    "explanation": "The bicarbonate buffer system is the most important buffer system in the blood, helping to maintain pH balance by regulating carbonic acid and bicarbonate levels.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Panahi - Question 2</span> How do the kidneys respond to metabolic alkalosis?",
+    "options": [
+      "Increase hydrogen ion secretion",
+      "Decrease bicarbonate reabsorption",
+      "Increase bicarbonate reabsorption",
+      "Decrease hydrogen ion secretion"
+    ],
+    "answer": 1,
+    "answerText": "Decrease bicarbonate reabsorption",
+    "explanation": "In metabolic alkalosis, the kidneys reduce bicarbonate reabsorption to compensate for the elevated blood pH.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Panahi - Question 3</span> Which of the following is a primary cause of hypernatremia?",
+    "options": [
+      "Syndrome of inappropriate antidiuretic hormone (SIADH)",
+      "Dehydration",
+      "Congestive heart failure",
+      "Addison’s disease"
+    ],
+    "answer": 1,
+    "answerText": "Dehydration",
+    "explanation": "Dehydration is the most common cause of hypernatremia, leading to an increased concentration of sodium in the blood.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Panahi - Question 4</span> Given the following arterial blood gas results: pH = 7.33, PaCO2 = 60 mmHg, HCO3- = 34 mEq/L. What is the condition?",
+    "options": [
+      "Uncompensated respiratory acidosis",
+      "Partially compensated respiratory acidosis",
+      "Fully compensated metabolic acidosis",
+      "Partially compensated metabolic alkalosis"
+    ],
+    "answer": 1,
+    "answerText": "Partially compensated respiratory acidosis",
+    "explanation": "Elevated PaCO2 with an increased HCO3- indicates partially compensated respiratory acidosis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Panahi - Question 5</span> By interpreting the following arterial blood gas results: pH = 7.55, PaCO2 = 44 mmHg, HCO3- = 36 mEq/L. What is the condition?",
+    "options": [
+      "Partially compensated metabolic alkalosis",
+      "Uncompensated metabolic alkalosis",
+      "Uncompensated respiratory alkalosis",
+      "Partially compensated respiratory alkalosis"
+    ],
+    "answer": 1,
+    "answerText": "Uncompensated metabolic alkalosis",
+    "explanation": "A high pH with elevated HCO3- and normal PaCO2 indicates uncompensated metabolic alkalosis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Panahi - Question 6</span> In which of the following scenarios would you expect to find hyperkalemia?",
+    "options": [
+      "Insulin overdose",
+      "Rhabdomyolysis",
+      "Metabolic alkalosis",
+      "Diarrhea"
+    ],
+    "answer": 1,
+    "answerText": "Rhabdomyolysis",
+    "explanation": "Rhabdomyolysis causes the release of potassium from damaged muscle cells, leading to hyperkalemia.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Panahi - Question 7</span> Which condition is characterized by an increase in the volume of the extracellular fluid (ECF) without a change in osmolarity?",
+    "options": [
+      "Isotonic expansion",
+      "Hypotonic expansion",
+      "Hypertonic expansion",
+      "Isotonic contraction"
+    ],
+    "answer": 0,
+    "answerText": "Isotonic expansion",
+    "explanation": "Isotonic expansion occurs when both water and solutes increase proportionally, maintaining osmolarity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Panahi - Question 8</span> What condition is likely to cause hypotonic expansion of the ECF?",
+    "options": [
+      "SIADH",
+      "Dehydration",
+      "Hyperaldosteronism",
+      "Diabetes insipidus"
+    ],
+    "answer": 0,
+    "answerText": "SIADH",
+    "explanation": "SIADH (Syndrome of Inappropriate Antidiuretic Hormone) causes water retention, diluting the ECF and leading to hypotonic expansion.",
+    "userAnswer": null
+  },
+  {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 1</span> Which of the following is NOT a cause of Respiratory alkalosis?",
     "options": [
       "Anxiety",
