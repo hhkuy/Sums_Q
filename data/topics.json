@@ -352,5 +352,15 @@
         "file": "data/nervous_system_block_embryology.json"
       }
     ]
+  },
+  {
+    "topicName": "Mycology",
+    "description": "Related to Fourth Semester",
+    "subTopics": [
+      {
+        "name": "Mycology",
+        "file": "data/mycology_mycology.json"
+      }
+    ]
   }
 ]
