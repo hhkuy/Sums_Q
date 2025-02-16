@@ -282,12 +282,8 @@
         "file": "data/endocrine_system_physiology.json"
       },
       {
-        "name": "Histology",
+        "name": "Histology & Embryology",
         "file": "data/endocrine_system_histology.json"
-      },
-      {
-        "name": "Embryology ",
-        "file": "data/endocrine_system_embryology_.json"
       }
     ]
   },
