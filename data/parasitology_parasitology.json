@@ -1,0 +1,652 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 1</span> Intermediate hosts of Echinococcus granulosus and Fasciola hepatica are which of the following animals, respectively?",
+    "options": [
+      "Herbivores - Snail",
+      "Snail - Fish",
+      "Dog - Snail",
+      "Herbivores - Fish"
+    ],
+    "answer": 0,
+    "answerText": "Herbivores - Snail",
+    "explanation": "The intermediate host of Echinococcus granulosus is herbivores, and for Fasciola hepatica, it is a snail.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 2</span> What is the drug of choice for the treatment of strongyloidiasis and onchocerciasis?",
+    "options": [
+      "Albendazole",
+      "Diethylcarbamazine",
+      "Ivermectin",
+      "Praziquantel"
+    ],
+    "answer": 2,
+    "answerText": "Ivermectin",
+    "explanation": "Ivermectin is the drug of choice for treating both strongyloidiasis and onchocerciasis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 3</span> Which of the following options is a method of treatment for human cystic echinococcosis (hydatidosis)?",
+    "options": [
+      "PAIR (Puncture-Aspiration-Injection-Reaspiration)",
+      "Surgical removal only",
+      "Albendazole alone",
+      "Chemotherapy with praziquantel"
+    ],
+    "answer": 0,
+    "answerText": "PAIR (Puncture-Aspiration-Injection-Reaspiration)",
+    "explanation": "PAIR is a minimally invasive technique used for treating cystic echinococcosis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 4</span> Which of the following clinical findings is more common in tissue-invading helminthic infections?",
+    "options": [
+      "Onchocercoma",
+      "Hypereosinophilia",
+      "Rectal prolapse",
+      "Lymphadenopathy"
+    ],
+    "answer": 1,
+    "answerText": "Hypereosinophilia",
+    "explanation": "Hypereosinophilia is often seen in tissue-invasive helminthic infections due to the immune response.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 5</span> Rupture of the cyst and development of secondary cysts are pathological consequences of which of the following parasitic diseases?",
+    "options": [
+      "Cystic echinococcosis",
+      "Schistosomiasis",
+      "Taeniasis",
+      "Fascioliasis"
+    ],
+    "answer": 0,
+    "answerText": "Cystic echinococcosis",
+    "explanation": "Rupture of a hydatid cyst in echinococcosis can lead to dissemination and formation of secondary cysts.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 6</span> The drug of choice for the treatment of all the following parasitic diseases is praziquantel, except:",
+    "options": [
+      "Schistosomiasis",
+      "Fascioliasis",
+      "Clonorchiasis",
+      "Paragonimiasis"
+    ],
+    "answer": 1,
+    "answerText": "Fascioliasis",
+    "explanation": "Fascioliasis is treated with triclabendazole, not praziquantel.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 7</span> “Corticosteroid therapy” is a predisposing factor for overwhelming infections of which of the following helminthes?",
+    "options": [
+      "Strongyloides stercoralis",
+      "Ascaris lumbricoides",
+      "Enterobius vermicularis",
+      "Taenia saginata"
+    ],
+    "answer": 0,
+    "answerText": "Strongyloides stercoralis",
+    "explanation": "Immunosuppression (e.g., corticosteroids) can cause severe disseminated strongyloidiasis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 8</span> A 9-year-old boy suffering from unilateral retinopathy has been admitted to a pediatric clinic. He has a history of close contact with pet dogs. Which of the following infections is most suspected for this child?",
+    "options": [
+      "Hookworm",
+      "Toxocariasis",
+      "Onchocerciasis",
+      "Ascariasis"
+    ],
+    "answer": 1,
+    "answerText": "Toxocariasis",
+    "explanation": "Toxocariasis, caused by Toxocara canis, is associated with ocular larva migrans and dog contact.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 9</span> “Swimmer’s itch” is related to the species of which of the following genus of helminthes?",
+    "options": [
+      "Fasciola",
+      "Schistosoma",
+      "Paragonimus",
+      "Clonorchis"
+    ],
+    "answer": 1,
+    "answerText": "Schistosoma",
+    "explanation": "Swimmer’s itch is a skin reaction caused by the penetration of Schistosoma cercariae.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 10</span> Loffler’s syndrome and intestinal blockage are related to the infectivity of humans with which of the following helminthes?",
+    "options": [
+      "Strongyloides stercoralis",
+      "Ascaris lumbricoides",
+      "Enterobius vermicularis",
+      "Ancylostoma duodenale"
+    ],
+    "answer": 1,
+    "answerText": "Ascaris lumbricoides",
+    "explanation": "Ascaris lumbricoides can cause Loffler’s syndrome (pulmonary eosinophilia) and intestinal obstruction.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 11</span> Which of the following diseases is due to the larval stage of Taenia solium and can lead to epileptic seizures in humans?",
+    "options": [
+      "Taeniasis",
+      "Cysticercosis",
+      "Echinococcosis",
+      "Strongyloidiasis"
+    ],
+    "answer": 1,
+    "answerText": "Cysticercosis",
+    "explanation": "Neurocysticercosis is caused by the larval stage of Taenia solium and can lead to seizures.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 12</span> Appendicitis is a clinical consequence of human infectivity with which of the following infections?",
+    "options": [
+      "Enterobius vermicularis",
+      "Taeniasis",
+      "Ascaris lumbricoides",
+      "Trichuris trichiura"
+    ],
+    "answer": 1,
+    "answerText": "Taeniasis",
+    "explanation": "Taenia species segments can sometimes enter the appendix and cause appendicitis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 13</span> Which of the following complaints is stated more by the patients infected with Taenia saginata?",
+    "options": [
+      "Prolapse of rectum",
+      "Proglottids discharge",
+      "Anal itching",
+      "Abdominal pain"
+    ],
+    "answer": 1,
+    "answerText": "Proglottids discharge",
+    "explanation": "Taenia saginata infection is often associated with the active passage of proglottids.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 14</span> Perianal itching is a clinical consequence of this infection in children, and diagnosis is by using scotch tape:",
+    "options": [
+      "Strongyloides stercoralis",
+      "Enterobius vermicularis",
+      "Ascaris lumbricoides",
+      "Hookworm"
+    ],
+    "answer": 1,
+    "answerText": "Enterobius vermicularis",
+    "explanation": "Enterobius vermicularis (pinworm) causes perianal itching, diagnosed using the scotch tape method.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 15</span> All the following statements about human helminthic parasites are true, except:",
+    "options": [
+      "Hookworms can cause anemia.",
+      "Schistosoma species can cause bladder fibrosis.",
+      "In human infectivity with cystic echinococcosis and alveolar echinococcosis, the kidney is the most affected organ",
+      "Ascaris lumbricoides can cause intestinal obstruction."
+    ],
+    "answer": 2,
+    "answerText": "In human infectivity with cystic echinococcosis and alveolar echinococcosis, the kidney is the most affected organ",
+    "explanation": "The liver is the most affected organ in echinococcosis, not the kidney.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 16</span> Which of the following parasites is classified among the protozoan parasites?",
+    "options": [
+      "Isospora",
+      "Schistosoma",
+      "Taenia",
+      "Fasciola"
+    ],
+    "answer": 0,
+    "answerText": "Isospora",
+    "explanation": "Isospora (now Cystoisospora) is a protozoan parasite.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 17</span> Which of the following protozoan parasite is known as intra-erythrocytic parasite?",
+    "options": [
+      "Giardia",
+      "Babesia",
+      "Entamoeba",
+      "Cryptosporidium"
+    ],
+    "answer": 1,
+    "answerText": "Babesia",
+    "explanation": "Babesia is an intra-erythrocytic parasite, similar to Plasmodium.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 18</span> Which of the following protozoan parasites has been known as the largest human intestinal medical protozoa?",
+    "options": [
+      "Entamoeba histolytica",
+      "Balantidium coli",
+      "Giardia lamblia",
+      "Cryptosporidium"
+    ],
+    "answer": 1,
+    "answerText": "Balantidium coli",
+    "explanation": "Balantidium coli is the largest protozoan parasite that infects humans.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 19</span> Which of the following parasites belongs to the phylum of Apicomplexa?",
+    "options": [
+      "Toxoplasma gondii",
+      "Trichomonas vaginalis",
+      "Entamoeba coli",
+      "Giardia lamblia"
+    ],
+    "answer": 0,
+    "answerText": "Toxoplasma gondii",
+    "explanation": "Toxoplasma gondii is an apicomplexan protozoan parasite.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 20</span> Which of the following insects is the invertebrate host of human malaria parasites?",
+    "options": [
+      "Tsetse fly",
+      "Female Anopheles mosquito",
+      "Sandfly",
+      "Culex mosquito"
+    ],
+    "answer": 1,
+    "answerText": "Female Anopheles mosquito",
+    "explanation": "The female Anopheles mosquito transmits Plasmodium species, causing malaria.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 21</span> All the following stages can be seen in the Plasmodium parasites, except:",
+    "options": [
+      "Sporozoite",
+      "Pseudopode",
+      "Trophozoite",
+      "Schizont"
+    ],
+    "answer": 1,
+    "answerText": "Pseudopode",
+    "explanation": "Plasmodium does not form pseudopodia; this is a characteristic of amoebae.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 22</span> All the following stages of parasite are found in Toxoplasma gondii, except:",
+    "options": [
+      "Tachyzoite",
+      "Bradyzoite",
+      "Tissue cyst",
+      "Pseudopode"
+    ],
+    "answer": 3,
+    "answerText": "Pseudopode",
+    "explanation": "Toxoplasma gondii does not form pseudopodia; it exists as tachyzoites, bradyzoites, and tissue cysts.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 23</span> All genus of the following medical protozoa belongs to phylum of Sarcomastigophora, except:",
+    "options": [
+      "Giardia",
+      "Entamoeba",
+      "Cryptosporidium parvum",
+      "Trichomonas"
+    ],
+    "answer": 2,
+    "answerText": "Cryptosporidium parvum",
+    "explanation": "Cryptosporidium belongs to the phylum Apicomplexa, not Sarcomastigophora.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 24</span> In which species of Trypanosoma, all 4 morphological shapes (Promastigote, Epimastigote, Trypomastigote and Amastigote) are formed in its life cycle?",
+    "options": [
+      "Trypanosoma cruzi",
+      "Trypanosoma brucei",
+      "Trypanosoma rangeli",
+      "Leishmania donovani"
+    ],
+    "answer": 0,
+    "answerText": "Trypanosoma cruzi",
+    "explanation": "Trypanosoma cruzi exhibits all four forms in its life cycle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 25</span> “Xenodiagnosis” is applicable for the laboratory diagnosis of which one of the following parasitic diseases?",
+    "options": [
+      "Chronic Chagas",
+      "Chronic cutaneous leishmaniasis",
+      "Visceral leishmaniasis",
+      "Amoebiasis"
+    ],
+    "answer": 0,
+    "answerText": "Chronic Chagas",
+    "explanation": "Xenodiagnosis is a method used to diagnose chronic Chagas disease by allowing uninfected vectors to feed on a patient and later examining them for parasites.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 26</span> In transmission cycle of the following Leishmania species, all need animal reservoir host(s), except:",
+    "options": [
+      "Leishmania tropica",
+      "Leishmania chagasi",
+      "Leishmania donovani",
+      "Leishmania major"
+    ],
+    "answer": 2,
+    "answerText": "Leishmania donovani",
+    "explanation": "Leishmania donovani is mainly anthroponotic (human reservoir), unlike other species that require animal reservoirs.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 27</span> All the following drugs have anti-leishmanial effects, except:",
+    "options": [
+      "Amphotericin B",
+      "Glucantime®",
+      "Miltefosine",
+      "Sulfadiazine"
+    ],
+    "answer": 3,
+    "answerText": "Sulfadiazine",
+    "explanation": "Sulfadiazine is not used for leishmaniasis; it is more commonly used for toxoplasmosis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 28</span> All the following diseases are caused by Acanthamoeba as free living amoeba in human, except:",
+    "options": [
+      "Keratitis",
+      "Skin granulomatous",
+      "Primary amoebic meningoencephalitis (PAM)",
+      "Granulomatous amebic encephalitis (GAE)"
+    ],
+    "answer": 2,
+    "answerText": "Primary amoebic meningoencephalitis (PAM)",
+    "explanation": "Primary amoebic meningoencephalitis is caused by Naegleria fowleri, not Acanthamoeba.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 29</span> Species of the following Amoeba are microscopically undistinguished, except:",
+    "options": [
+      "Entamoeba dispar",
+      "Entamoeba moshkovskii",
+      "Entamoeba coli",
+      "Entamoeba histolytica"
+    ],
+    "answer": 2,
+    "answerText": "Entamoeba coli",
+    "explanation": "Entamoeba coli is distinguishable microscopically by its characteristic nuclei and cyst morphology.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 30</span> Which drug is recommended for the treatment of asymptomatic (healthy) Entamoeba histolytica cyst pass individuals?",
+    "options": [
+      "Metronidazole",
+      "Diloxanide furoate",
+      "Tinidazole",
+      "Chloroquine"
+    ],
+    "answer": 1,
+    "answerText": "Diloxanide furoate",
+    "explanation": "Diloxanide furoate is used to treat asymptomatic carriers of Entamoeba histolytica cysts.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 31</span> Pathogenesis of Giardia duodenalis is related to all the following factors, except:",
+    "options": [
+      "Mechanical irritation",
+      "Malabsorption",
+      "Allergic reaction",
+      "Enterocyte apoptosis"
+    ],
+    "answer": 2,
+    "answerText": "Allergic reaction",
+    "explanation": "Allergic reactions are not a major factor in Giardia pathogenesis; it mainly causes malabsorption and mechanical irritation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 32</span> What is the standard approach for the detection of Trichomonas vaginalis in infected women?",
+    "options": [
+      "Wet–mount examination of vaginal discharge",
+      "Combination of wet-mount examination and culture",
+      "Serological test",
+      "PCR only"
+    ],
+    "answer": 1,
+    "answerText": "Combination of wet-mount examination and culture",
+    "explanation": "The standard approach involves a combination of wet-mount microscopy and culture for more accurate detection.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 33</span> Which of the following items is considered as vector of “Dengue Fever”?",
+    "options": [
+      "Anopheles mosquito",
+      "Aedes aegypti",
+      "Culex mosquito",
+      "Phlebotomus sandfly"
+    ],
+    "answer": 1,
+    "answerText": "Aedes aegypti",
+    "explanation": "Aedes aegypti is the primary vector for Dengue Fever.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 34</span> Which of the following items is the vector of Leishmania major?",
+    "options": [
+      "Glossina",
+      "Phlebotomus papatasi",
+      "Anopheles",
+      "Aedes"
+    ],
+    "answer": 1,
+    "answerText": "Phlebotomus papatasi",
+    "explanation": "Phlebotomus papatasi is the sandfly responsible for transmitting Leishmania major.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 35</span> The pathogen responsible for louse-borne relapsing fever is:",
+    "options": [
+      "Borrelia recurrentis",
+      "Yersinia pestis",
+      "Rickettsia prowazekii",
+      "Bartonella bacilliformis"
+    ],
+    "answer": 0,
+    "answerText": "Borrelia recurrentis",
+    "explanation": "Borrelia recurrentis is the causative agent of louse-borne relapsing fever.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 36</span> What is vagabond and hobo term in medical entomology?",
+    "options": [
+      "The pigmented and tough skin",
+      "The name of an urban cockroach",
+      "A type of mosquito",
+      "The common bedbug"
+    ],
+    "answer": 0,
+    "answerText": "The pigmented and tough skin",
+    "explanation": "Vagabond and hobo terms refer to a skin condition with pigmentation and thickening due to chronic infestation with body lice.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 37</span> For which of the following helminthes infectivity of humans happens through ingestion of metacercaria in raw aquatic vegetables?",
+    "options": [
+      "Fasciola hepatica",
+      "Schistosoma mansoni",
+      "Paragonimus westermani",
+      "Clonorchis sinensis"
+    ],
+    "answer": 0,
+    "answerText": "Fasciola hepatica",
+    "explanation": "Fasciola hepatica infection occurs through ingestion of metacercaria in raw aquatic plants.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 38</span> A patient refers to a clinic complaining of hematuria. Further examinations reveal the fibrosis of the bladder. Which of the following infections is suspected?",
+    "options": [
+      "Schistosomiasis",
+      "Filariasis",
+      "Cysticercosis",
+      "Echinococcosis"
+    ],
+    "answer": 0,
+    "answerText": "Schistosomiasis",
+    "explanation": "Schistosoma haematobium infection is associated with hematuria and bladder fibrosis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 39</span> Which of the following parasites has more public health importance in Iraq?",
+    "options": [
+      "Schistosoma haematobium",
+      "Echinococcus granulosus",
+      "Leishmania tropica",
+      "Trichinella spiralis"
+    ],
+    "answer": 0,
+    "answerText": "Schistosoma haematobium",
+    "explanation": "Schistosoma haematobium is a significant public health concern in Iraq.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 40</span> River blindness and lymphadenitis are clinical features of which of the two following helminthes, respectively?",
+    "options": [
+      "Onchocerca volvulus - Wuchereria bancrofti",
+      "Hymenolepis nana - Toxocara canis",
+      "Strongyloides stercoralis - Loa loa",
+      "Schistosoma mansoni - Enterobius vermicularis"
+    ],
+    "answer": 0,
+    "answerText": "Onchocerca volvulus - Wuchereria bancrofti",
+    "explanation": "Onchocerca volvulus causes river blindness, and Wuchereria bancrofti causes lymphadenitis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 41</span> Which of the following helminthes is zoonosis, and avoiding the use of ruminant manure as fertilizer is important for their control?",
+    "options": [
+      "Enterobius vermicularis",
+      "Trichostrongylus spp.",
+      "Strongyloides stercoralis",
+      "Ancylostoma duodenale"
+    ],
+    "answer": 1,
+    "answerText": "Trichostrongylus spp.",
+    "explanation": "Trichostrongylus spp. is a zoonotic parasite, and avoiding ruminant manure helps prevent infection.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 42</span> All the following infections are due to the consumption of raw or undercooked fish, except:",
+    "options": [
+      "Clonorchiasis",
+      "Dicrocoeliasis",
+      "Diphyllobothriasis",
+      "Heterophyiasis"
+    ],
+    "answer": 1,
+    "answerText": "Dicrocoeliasis",
+    "explanation": "Dicrocoeliasis is transmitted through ingestion of infected ants, not raw fish.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 43</span> For which of the following pairs of helminthes, the use of mosquito nets has an important role in the control of their diseases?",
+    "options": [
+      "Onchocerca volvulus - Wuchereria bancrofti",
+      "Toxocara canis - Clonorchis sinensis",
+      "Ascaris lumbricoides - Taenia saginata",
+      "Trichuris trichiura - Schistosoma mansoni"
+    ],
+    "answer": 0,
+    "answerText": "Onchocerca volvulus - Wuchereria bancrofti",
+    "explanation": "Mosquito nets prevent bites from vectors of Onchocerca volvulus and Wuchereria bancrofti.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 44</span> Which of the following reproductive process in protozoan parasites containing microgametocyte and macrogametocyte?",
+    "options": [
+      "Binary fission",
+      "Sexual reproduction",
+      "Multiple fission",
+      "Schizogony"
+    ],
+    "answer": 1,
+    "answerText": "Sexual reproduction",
+    "explanation": "Sexual reproduction in protozoa involves the formation of microgametocytes and macrogametocytes, seen in Apicomplexa like Plasmodium.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 45</span> Which of the following parasites can cause intestinal infections in humans?",
+    "options": [
+      "Plasmodium",
+      "Cryptosporidium",
+      "Trypanosoma",
+      "Leishmania"
+    ],
+    "answer": 1,
+    "answerText": "Cryptosporidium",
+    "explanation": "Cryptosporidium is a protozoan parasite that causes diarrheal illness in humans.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 46</span> Which of the following species of human Plasmodium can rapidly produce cerebral malaria?",
+    "options": [
+      "Plasmodium ovale",
+      "Plasmodium vivax",
+      "Plasmodium falciparum",
+      "Plasmodium malariae"
+    ],
+    "answer": 2,
+    "answerText": "Plasmodium falciparum",
+    "explanation": "Plasmodium falciparum is the most virulent species and can cause cerebral malaria.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 47</span> Balantidiosis is a ………..",
+    "options": [
+      "Zoonotic disease",
+      "Bird disease",
+      "Human-specific disease",
+      "Viral infection"
+    ],
+    "answer": 0,
+    "answerText": "Zoonotic disease",
+    "explanation": "Balantidiosis is a zoonotic disease caused by Balantidium coli, typically transmitted from pigs.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 48</span> Which of the following diagnostic procedure is gold standard for the diagnosis of cutaneous leishmaniasis?",
+    "options": [
+      "Microscopy",
+      "Serology",
+      "PCR",
+      "Xenodiagnosis"
+    ],
+    "answer": 0,
+    "answerText": "Microscopy",
+    "explanation": "Microscopy of lesion samples is the gold standard for diagnosing cutaneous leishmaniasis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 49</span> Which of the following item considers as “Mechanical Transmission”?",
+    "options": [
+      "The pathogen of plague within flea",
+      "The pathogen on or in housefly",
+      "The pathogen inside mosquito",
+      "The pathogen inside tsetse fly"
+    ],
+    "answer": 1,
+    "answerText": "The pathogen on or in housefly",
+    "explanation": "Mechanical transmission occurs when a pathogen is carried passively on the surface of an insect, such as a housefly.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 50</span> Which species known as \"Itch mite\"?",
+    "options": [
+      "Lucilia sericata",
+      "Sarcoptes scabiei",
+      "Demodex folliculorum",
+      "Pediculus humanus"
+    ],
+    "answer": 1,
+    "answerText": "Sarcoptes scabiei",
+    "explanation": "Sarcoptes scabiei is known as the itch mite and causes scabies.",
+    "userAnswer": null
+  }
+]
