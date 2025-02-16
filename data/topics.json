@@ -68,7 +68,7 @@
     ]
   },
   {
-    "topicName": "Cell and molecules block؛",
+    "topicName": "Cell and molecules block",
     "description": "Related to Second Semster",
     "subTopics": [
       {
@@ -360,6 +360,24 @@
       {
         "name": "Mycology",
         "file": "data/mycology_mycology.json"
+      }
+    ]
+  },
+  {
+    "topicName": "Special Senses",
+    "description": "Related to Fourth Semester",
+    "subTopics": [
+      {
+        "name": "Anatomy",
+        "file": "data/special_senses_anatomy.json"
+      },
+      {
+        "name": "Physiology",
+        "file": "data/special_senses_physiology.json"
+      },
+      {
+        "name": "Histology & Embryology",
+        "file": "data/special_senses_histology_&_embryology.json"
       }
     ]
   }
