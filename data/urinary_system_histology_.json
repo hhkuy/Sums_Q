@@ -1,210 +1,106 @@
 [
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) - Histo. & Embryo. - Dr. Golshan - Question 1</span> The collecting duct is composed of ................ cells with .................. proteins.",
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 1</span> The bladder is composed of ................ cells with dense plaques of .................. proteins.",
     "options": [
-      "Intercalated - aquaporin",
-      "Intercalated - uroplakin",
-      "Principal - uroplakin",
-      "Principal - aquaporin"
-    ],
-    "answer": 3,
-    "answerText": "Principal - aquaporin",
-    "explanation": "The principal cells in the collecting duct express aquaporins, which are water channels regulated by antidiuretic hormone (ADH).",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) - Histo. & Embryo. - Dr. Golshan - Question 2</span> The penile urethra passes through ..................... and is lined by .................. epithelium.",
-    "options": [
-      "Corpus cavernosum - stratified squamous",
-      "Corpus spongiosum - stratified squamous",
-      "Corpus cavernosum - transitional epithelium",
-      "Corpus spongiosum - stratified columnar and pseudostratified columnar"
-    ],
-    "answer": 3,
-    "answerText": "Corpus spongiosum - stratified columnar and pseudostratified columnar",
-    "explanation": "The penile urethra passes through the corpus spongiosum and is primarily lined by stratified columnar and pseudostratified columnar epithelium.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) - Histo. & Embryo. - Dr. Golshan - Question 3</span> Antidiuretic hormone (ADH) affects on ................. and the rate of Na+ absorption from .................. is regulated by aldosterone.",
-    "options": [
-      "Collecting ducts - distal tubules",
-      "Distal tubules - proximal tubules",
-      "Loop of Henle - proximal tubules",
-      "Collecting ducts - proximal tubules"
+      "Umbrella – Uroplakin",
+      "Podocyte – Nephrin",
+      "Transitional – Cadherin",
+      "Squamous – Integrin"
     ],
     "answer": 0,
-    "answerText": "Collecting ducts - distal tubules",
-    "explanation": "ADH increases water reabsorption in the collecting ducts, while aldosterone regulates Na+ absorption in the distal tubules.",
+    "answerText": "Umbrella – Uroplakin",
+    "explanation": "The bladder is lined by umbrella cells with uroplakin proteins, which strengthen the membrane and prevent urine permeability.",
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) - Histo. & Embryo. - Dr. Golshan - Question 4</span> The ...................... branching from ................ are in association with the loops of Henle and collecting ducts.",
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 2</span> The .................. urethra passes through corpus spongiosum and is lined by .................. epithelium.",
     "options": [
-      "Vasa recta - afferent arterioles",
-      "Vasa recta - efferent arterioles",
-      "Peritubular capillaries - afferent arterioles",
-      "Peritubular capillaries - efferent arterioles"
+      "Penile – Urothelium",
+      "Penile – Stratified columnar and pseudostratified columnar",
+      "Membranous – Simple cuboidal",
+      "Prostatic – Stratified squamous"
     ],
     "answer": 1,
-    "answerText": "Vasa recta - efferent arterioles",
-    "explanation": "The vasa recta arise from the efferent arterioles and closely follow the loops of Henle and collecting ducts, contributing to the countercurrent exchange system.",
+    "answerText": "Penile – Stratified columnar and pseudostratified columnar",
+    "explanation": "The penile urethra passes through the corpus spongiosum and is lined primarily by stratified and pseudostratified columnar epithelium.",
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) - Histo. & Embryo. - Dr. Golshan - Question 5</span> The distal tubule forms the ................... and the smooth muscle cells of afferent arteriole are modified as ..................",
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 3</span> Antidiuretic hormone (ADH) affects on ................. and the rate of Na+ absorption from .................. is regulated by aldosterone.",
     "options": [
-      "Juxtaglomerular apparatus - macula densa cells",
-      "Macula densa - mesangial cells",
-      "Macula densa - juxtaglomerular granular cells",
-      "Juxtaglomerular apparatus - mesangial cells"
+      "Loops of Henle – Distal tubules",
+      "Collecting ducts – Distal tubules",
+      "Proximal tubules – Loops of Henle",
+      "Distal tubules – Collecting ducts"
     ],
-    "answer": 2,
-    "answerText": "Macula densa - juxtaglomerular granular cells",
-    "explanation": "The macula densa is a specialized region of the distal tubule, and the juxtaglomerular granular cells of the afferent arteriole secrete renin.",
+    "answer": 1,
+    "answerText": "Collecting ducts – Distal tubules",
+    "explanation": "ADH increases water reabsorption in the collecting ducts, while aldosterone promotes sodium reabsorption in the distal tubules.",
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) - Histo. & Embryo. - Dr. Golshan - Question 6</span> The .................. of .............. helps maintain acid-base balance.",
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 4</span> The distal tubule forms the ................... and the smooth muscle cells of afferent arteriole are modified as .................. .",
     "options": [
-      "Intercalated cells - proximal tubule",
-      "Principal cells - collecting duct",
-      "Intercalated cells - collecting duct",
-      "Mesangial cells - loop of Henle"
+      "Juxtaglomerular apparatus – Podocytes",
+      "Macula densa – Juxtaglomerular granular cells",
+      "Collecting duct – Intercalated cells",
+      "Bowman’s capsule – Mesangial cells"
     ],
-    "answer": 2,
-    "answerText": "Intercalated cells - collecting duct",
-    "explanation": "Intercalated cells in the collecting duct secrete hydrogen ions and reabsorb bicarbonate to regulate acid-base balance.",
+    "answer": 1,
+    "answerText": "Macula densa – Juxtaglomerular granular cells",
+    "explanation": "The distal tubule forms the macula densa, while afferent arteriole smooth muscle cells are modified into juxtaglomerular granular cells, which secrete renin.",
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) - Histo. & Embryo. - Dr. Golshan - Question 7</span> Which cells have renin granules?",
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 5</span> The ................. of .............. helps maintain acid-base balance.",
+    "options": [
+      "Podocytes – Collecting duct",
+      "Intercalated cells – Collecting duct",
+      "Macula densa – Distal tubule",
+      "Principal cells – Proximal tubule"
+    ],
+    "answer": 1,
+    "answerText": "Intercalated cells – Collecting duct",
+    "explanation": "Intercalated cells in the collecting duct regulate acid-base balance by secreting hydrogen ions and reabsorbing bicarbonate.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 6</span> Which cells have renin granules?",
     "options": [
       "Podocytes",
-      "Mesangial cells",
-      "Juxtaglomerular cells",
-      "Macula densa cells"
+      "Macula densa",
+      "Juxtaglomerular only",
+      "Mesangial cells"
     ],
     "answer": 2,
-    "answerText": "Juxtaglomerular cells",
-    "explanation": "Juxtaglomerular cells of the kidney contain renin granules and release renin in response to low blood pressure or sympathetic stimulation.",
+    "answerText": "Juxtaglomerular only",
+    "explanation": "Juxtaglomerular cells, located in the afferent arteriole, contain renin granules that play a role in blood pressure regulation.",
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) - Histo. & Embryo. - Dr. Golshan - Question 8</span> Slit diaphragms are modified and specialized .................. composed of ..................",
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 7</span> Slit diaphragms are modified and specialized .................. composed of ..................",
     "options": [
-      "Tight junctions - nephrin",
-      "Adherens junctions - claudin",
-      "Desmosomes - laminin",
-      "Gap junctions - actin"
+      "Tight junctions – Nephrin",
+      "Desmosomes – Cadherin",
+      "Gap junctions – Connexin",
+      "Adherens junctions – Integrin"
     ],
     "answer": 0,
-    "answerText": "Tight junctions - nephrin",
-    "explanation": "Slit diaphragms are specialized tight junctions between podocyte foot processes and are composed primarily of nephrin.",
+    "answerText": "Tight junctions – Nephrin",
+    "explanation": "Slit diaphragms are specialized tight junctions composed of nephrin, which help regulate filtration in the glomerulus.",
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) - Histo. & Embryo. - Dr. Golshan - Question 9</span> Which of the following is derived from the metanephric cap and ureteric bud respectively?",
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 8</span> The vasa recta branching from ................ are in association with the ..................",
     "options": [
-      "Distal tubule - loop of Henle",
-      "Loop of Henle - collecting duct",
-      "Proximal tubule - ureter",
-      "Collecting duct - glomerulus"
+      "Afferent arterioles – Distal tubules and collecting ducts",
+      "Efferent arterioles – Loops of Henle and collecting ducts",
+      "Peritubular capillaries – Proximal tubules",
+      "Interlobular arteries – Glomeruli"
     ],
     "answer": 1,
-    "answerText": "Loop of Henle - collecting duct",
-    "explanation": "The loop of Henle arises from the metanephric cap, while the collecting duct is derived from the ureteric bud.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) - Histo. & Embryo. - Dr. Golshan - Question 10</span> How late does the formation of nephrons continue? And, when does the lobulation of the fetal kidney disappear?",
-    "options": [
-      "1 month post-birth - birth",
-      "Birth - after birth",
-      "End of gestation - 1 month post-birth",
-      "2 months post-birth - 1 year post-birth"
-    ],
-    "answer": 1,
-    "answerText": "Birth - after birth",
-    "explanation": "Nephron formation is completed by birth, while the lobulated appearance of the fetal kidney disappears after birth.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) - Histo. & Embryo. - Dr. Golshan - Question 11</span> Incomplete division of the ureteric bud can lead to ................ and the ................ can form if the degeneration of the allantois is not completed.",
-    "options": [
-      "Supernumerary kidneys - urachal sinus",
-      "Supernumerary kidneys - urachal cyst",
-      "Bifid ureters - bladder diverticulum",
-      "Horseshoe kidney - urachal cyst"
-    ],
-    "answer": 1,
-    "answerText": "Supernumerary kidneys - urachal cyst",
-    "explanation": "Incomplete division of the ureteric bud may result in supernumerary kidneys, and failure of allantois degeneration can lead to a urachal cyst.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) - Histo. & Embryo. - Dr. Golshan - Question 12</span> Which one results in horseshoe kidney?",
-    "options": [
-      "Failure of nephron development",
-      "Abnormal branching of the ureteric bud",
-      "Fusion of the lower poles of the kidneys",
-      "Fusion of the upper poles of the kidneys"
-    ],
-    "answer": 2,
-    "answerText": "Fusion of the lower poles of the kidneys",
-    "explanation": "Horseshoe kidney occurs when the lower poles of the kidneys fuse during development and fail to ascend properly.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) - Histo. & Embryo. - Dr. Golshan - Question 13</span> Which of the following is a remnant of the allantois?",
-    "options": [
-      "Lateral umbilical ligament",
-      "Urachal sinus",
-      "Median umbilical ligament",
-      "Medial umbilical ligament"
-    ],
-    "answer": 2,
-    "answerText": "Median umbilical ligament",
-    "explanation": "The median umbilical ligament is a remnant of the allantois, which connects the fetal bladder to the umbilicus.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) - Histo. & Embryo. - Dr. Golshan - Question 14</span> Which duct is NOT associated with urinary system development?",
-    "options": [
-      "Mesonephric duct",
-      "Paramesonephric duct",
-      "Ureteric bud",
-      "Metanephric duct"
-    ],
-    "answer": 1,
-    "answerText": "Paramesonephric duct",
-    "explanation": "The paramesonephric (Müllerian) duct is primarily involved in the development of the female reproductive system and does not contribute to the urinary system.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) - Histo. & Embryo. - Dr. Golshan - Question 15</span> The .................. can be a symptom of bilateral renal agenesis.",
-    "options": [
-      "Polyhydramnios",
-      "Oligohydramnios",
-      "Urachal cyst",
-      "Horseshoe kidney"
-    ],
-    "answer": 1,
-    "answerText": "Oligohydramnios",
-    "explanation": "Bilateral renal agenesis results in oligohydramnios due to the absence of fetal urine output, which contributes to the amniotic fluid.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) - Histo. & Embryo. - Dr. Golshan - Question 16</span> What gives rise to the muscle of the bladder and mesonephros respectively?",
-    "options": [
-      "Endoderm - mesoderm",
-      "Ectoderm - endoderm",
-      "Mesoderm - mesoderm",
-      "Endoderm - endoderm"
-    ],
-    "answer": 2,
-    "answerText": "Mesoderm - mesoderm",
-    "explanation": "The muscle of the bladder and the mesonephros are both derived from mesoderm during embryological development.",
+    "answerText": "Efferent arterioles – Loops of Henle and collecting ducts",
+    "explanation": "The vasa recta arise from efferent arterioles and are closely associated with the loops of Henle and collecting ducts, playing a role in the countercurrent exchange mechanism.",
     "userAnswer": null
   }
 ]
