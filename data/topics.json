@@ -380,5 +380,15 @@
         "file": "data/special_senses_histology_&_embryology.json"
       }
     ]
+  },
+  {
+    "topicName": "Parasitology",
+    "description": "Related to Fifth Semester",
+    "subTopics": [
+      {
+        "name": "Parasitology",
+        "file": "data/parasitology_parasitology.json"
+      }
+    ]
   }
 ]
