@@ -190,7 +190,11 @@
         "file": "data/urinary_system_histology_.json"
       },
       {
-        "name": "Embryology ",
+        "name": "Embryology",
+        "file": "data/urinary_system_embryology.json"
+      },
+      {
+        "name": "Histology & Embryology ",
         "file": "data/urinary_system_embryology_.json"
       }
     ]
