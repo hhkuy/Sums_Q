@@ -1,5 +1,57 @@
 [
   {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Panahi - Question 1</span> Which enzyme converts testosterone to dihydrotestosterone (DHT) in target tissues?",
+    "options": [
+      "5-alpha reductase",
+      "Aromatase",
+      "17-beta hydroxysteroid dehydrogenase",
+      "21-hydroxylase"
+    ],
+    "answer": 0,
+    "answerText": "5-alpha reductase",
+    "explanation": "5-alpha reductase converts testosterone into dihydrotestosterone (DHT), which is a more potent androgen responsible for male secondary sexual characteristics.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Panahi - Question 2</span> Which hormone is essential for maintaining pregnancy after implantation?",
+    "options": [
+      "Progesterone",
+      "Estrogen",
+      "hCG",
+      "Oxytocin"
+    ],
+    "answer": 0,
+    "answerText": "Progesterone",
+    "explanation": "Progesterone maintains the uterine lining after implantation and is crucial for sustaining pregnancy.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Panahi - Question 3</span> Which symptom is commonly associated with high levels of testosterone in females?",
+    "options": [
+      "Hirsutism",
+      "Amenorrhea",
+      "Acne",
+      "Infertility"
+    ],
+    "answer": 0,
+    "answerText": "Hirsutism",
+    "explanation": "Hirsutism (excessive hair growth in a male pattern) is a common symptom of elevated testosterone levels in females.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Panahi - Question 4</span> Which condition is characterized by increased androgen production and can be diagnosed by elevated levels of testosterone and DHEA-S?",
+    "options": [
+      "Hyperthyroidism",
+      "Polycystic ovary syndrome (PCOS)",
+      "Congenital adrenal hyperplasia (CAH)",
+      "Hypothyroidism"
+    ],
+    "answer": 2,
+    "answerText": "Congenital adrenal hyperplasia (CAH)",
+    "explanation": "Congenital adrenal hyperplasia (CAH) is characterized by excessive androgen production, often diagnosed with elevated testosterone and DHEA-S levels.",
+    "userAnswer": null
+  },
+  {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Panahi - Question 1</span> Which symptom is commonly associated with high levels of androgens in females?",
     "options": [
       "Galactorrhea",
