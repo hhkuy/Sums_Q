@@ -1,0 +1,236 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 1</span> All of the following nerves passing from common tendinous ring, Except:",
+    "options": [
+      "Optic nerve",
+      "Oculomotor nerve",
+      "Abducent nerve",
+      "Trochlear nerve"
+    ],
+    "answer": 3,
+    "answerText": "Trochlear nerve",
+    "explanation": "The trochlear nerve passes outside the common tendinous ring, while the other listed nerves pass through it.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 2</span> All of the following structures are related to the vascular layer of the eyeball EXCEPT:",
+    "options": [
+      "Choroid",
+      "Iris",
+      "Ciliary body",
+      "Sclera"
+    ],
+    "answer": 3,
+    "answerText": "Sclera",
+    "explanation": "The sclera is part of the fibrous layer of the eyeball, not the vascular layer.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 3</span> Sphincter pupillae can .................. pupil and is innervated by ............... nerve.",
+    "options": [
+      "Dilates - Sympathetic nerve",
+      "Constricts - Parasympathetic nerve",
+      "Dilates - Parasympathetic nerve",
+      "Constricts - Sympathetic nerve"
+    ],
+    "answer": 1,
+    "answerText": "Constricts - Parasympathetic nerve",
+    "explanation": "The sphincter pupillae muscle constricts the pupil and is supplied by parasympathetic fibers.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 4</span> Highest visual sensitivity in retina is .........",
+    "options": [
+      "Fovea centralis",
+      "Optic disc",
+      "Macula lutea",
+      "Periphery of retina"
+    ],
+    "answer": 0,
+    "answerText": "Fovea centralis",
+    "explanation": "The fovea centralis is the area with the highest visual sensitivity and is rich in cones.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 5</span> All of the following sensory nerves supply the skin of the auricle EXCEPT:",
+    "options": [
+      "Vagus nerve",
+      "Facial nerve",
+      "Trigeminal nerve",
+      "Great auricular nerve"
+    ],
+    "answer": 2,
+    "answerText": "Trigeminal nerve",
+    "explanation": "The auricle is supplied by branches of the vagus, facial, and great auricular nerves, but not primarily by the trigeminal nerve.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 6</span> Sensory innervation of the mucous membrane on the inner surface of the tympanic membrane is .............. .",
+    "options": [
+      "Vagus nerve",
+      "Trigeminal nerve",
+      "Glossopharyngeal nerve",
+      "Facial nerve"
+    ],
+    "answer": 2,
+    "answerText": "Glossopharyngeal nerve",
+    "explanation": "The glossopharyngeal nerve supplies the inner surface of the tympanic membrane.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 7</span> Floor of the middle ear separates it from which structure?",
+    "options": [
+      "Internal carotid artery",
+      "Jugular vein",
+      "Facial nerve",
+      "Sigmoid sinus"
+    ],
+    "answer": 1,
+    "answerText": "Jugular vein",
+    "explanation": "The floor of the middle ear is related to the jugular vein (jugular bulb).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 8</span> Which nerve goes out from the anterior wall of the tympanic cavity?",
+    "options": [
+      "Chorda tympani",
+      "Glossopharyngeal nerve",
+      "Facial nerve",
+      "Vagus nerve"
+    ],
+    "answer": 0,
+    "answerText": "Chorda tympani",
+    "explanation": "The chorda tympani nerve exits through the anterior wall of the tympanic cavity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 9</span> Tensor tympani muscle is innervated by ..........",
+    "options": [
+      "Mandibular nerve",
+      "Facial nerve",
+      "Glossopharyngeal nerve",
+      "Vagus nerve"
+    ],
+    "answer": 0,
+    "answerText": "Mandibular nerve",
+    "explanation": "The tensor tympani is supplied by the mandibular nerve (V3).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 10</span> Bony labyrinth consists of all the following parts EXCEPT:",
+    "options": [
+      "Vestibule",
+      "Semicircular canals",
+      "Cochlea",
+      "Saccule"
+    ],
+    "answer": 3,
+    "answerText": "Saccule",
+    "explanation": "The saccule is part of the membranous labyrinth, not the bony labyrinth.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 11</span> What is the innervation of the levator palpebrae superioris muscle?",
+    "options": [
+      "CN III",
+      "CN IV",
+      "CN VI",
+      "CN VII"
+    ],
+    "answer": 0,
+    "answerText": "CN III",
+    "explanation": "The levator palpebrae superioris is innervated by the oculomotor nerve (CN III).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 12</span> All of the following structures pass from the internal acoustic meatus EXCEPT:",
+    "options": [
+      "Facial nerve",
+      "Vestibulocochlear nerve",
+      "Labyrinthine artery",
+      "Chorda tympanic nerve"
+    ],
+    "answer": 3,
+    "answerText": "Chorda tympanic nerve",
+    "explanation": "The chorda tympani does not pass through the internal acoustic meatus; it branches from the facial nerve later.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 13</span> Eustachian tube opens in which wall of the tympanic cavity?",
+    "options": [
+      "Anterior",
+      "Medial",
+      "Posterior",
+      "Lateral"
+    ],
+    "answer": 0,
+    "answerText": "Anterior",
+    "explanation": "The Eustachian tube opens into the anterior wall of the tympanic cavity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 14</span> All of the following structures can be seen in the medial wall of the tympanic cavity EXCEPT:",
+    "options": [
+      "Promontory",
+      "Oval window",
+      "Round window",
+      "Pyramidal eminence"
+    ],
+    "answer": 3,
+    "answerText": "Pyramidal eminence",
+    "explanation": "The pyramidal eminence is located on the posterior wall of the tympanic cavity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 15</span> Anterior lacrimal crest is located in ..........",
+    "options": [
+      "Maxillary bone",
+      "Lacrimal bone",
+      "Ethmoid bone",
+      "Zygomatic bone"
+    ],
+    "answer": 0,
+    "answerText": "Maxillary bone",
+    "explanation": "The anterior lacrimal crest is part of the maxillary bone.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 16</span> Which nerve stimulates the secretion of the lacrimal gland?",
+    "options": [
+      "Greater petrosal nerve from facial nerve",
+      "Greater petrosal nerve from trigeminal nerve",
+      "Lacrimal nerve",
+      "Oculomotor nerve"
+    ],
+    "answer": 0,
+    "answerText": "Greater petrosal nerve from facial nerve",
+    "explanation": "The greater petrosal nerve is a branch of the facial nerve, carrying parasympathetic fibers to the lacrimal gland.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 17</span> Which nerve passes from the inside of the cavernous sinus?",
+    "options": [
+      "Optic nerve",
+      "Oculomotor nerve",
+      "Abducent nerve",
+      "Trochlear nerve"
+    ],
+    "answer": 2,
+    "answerText": "Abducent nerve",
+    "explanation": "The abducent nerve passes through the cavernous sinus, while the others lie in its lateral wall.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 18</span> In which disease does the opacity of the lens increase?",
+    "options": [
+      "Glaucoma",
+      "Cataracts",
+      "Retinitis",
+      "Macular degeneration"
+    ],
+    "answer": 1,
+    "answerText": "Cataracts",
+    "explanation": "Cataracts are characterized by the opacity of the lens, leading to reduced vision.",
+    "userAnswer": null
+  }
+]
