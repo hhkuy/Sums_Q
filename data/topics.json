@@ -254,12 +254,8 @@
         "file": "data/reproductive_system_biochemistry.json"
       },
       {
-        "name": "Histology",
+        "name": "Histology & Embryology",
         "file": "data/reproductive_system_histology.json"
-      },
-      {
-        "name": "Embryology",
-        "file": "data/reproductive_system_embryology.json"
       }
     ]
   },
