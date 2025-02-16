@@ -1,0 +1,275 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 1</span> Which retinal cell is stimulated earlier when light is projected into the eye?",
+    "options": [
+      "Bipolar cells",
+      "Rods and cones",
+      "Amacrine cells",
+      "Ganglion cells"
+    ],
+    "answer": 1,
+    "answerText": "Rods and cones",
+    "explanation": "Rods and cones are the photoreceptor cells that are stimulated first when light enters the eye.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 2</span> Which one is correct about the foveola?",
+    "options": [
+      "It is located around the fovea",
+      "It is 0.3 mm in diameter",
+      "It is the region with no cones",
+      "It is the region with only rods"
+    ],
+    "answer": 1,
+    "answerText": "It is 0.3 mm in diameter",
+    "explanation": "The foveola is a small central pit within the fovea, about 0.3 mm in diameter, and is the area with the highest visual acuity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 3</span> Which of the following effectors in the photoreceptors is activated by light?",
+    "options": [
+      "Transducin",
+      "Rhodopsin",
+      "Phosphodiesterase",
+      "Arrestin"
+    ],
+    "answer": 0,
+    "answerText": "Transducin",
+    "explanation": "Transducin is a G-protein activated by light in photoreceptor cells, leading to the phototransduction cascade.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 4</span> Off-center ganglion cells are activated when light hits the …… (of the) receptive field.",
+    "options": [
+      "Center",
+      "Surround",
+      "Periphery",
+      "Entire receptive field"
+    ],
+    "answer": 1,
+    "answerText": "Surround",
+    "explanation": "Off-center ganglion cells are excited when light hits the surrounding area of their receptive field and inhibited when light hits the center.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 5</span> Retinal projections to which of the following targets is involved in the regulation of circadian rhythmicity?",
+    "options": [
+      "Superior colliculus",
+      "Suprachiasmatic nucleus",
+      "Lateral geniculate nucleus",
+      "Pretectal nucleus"
+    ],
+    "answer": 1,
+    "answerText": "Suprachiasmatic nucleus",
+    "explanation": "The suprachiasmatic nucleus receives retinal input and regulates circadian rhythms.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 6</span> Damage to which part of the visual pathway may cause blindness in the lateral visual field on both sides?",
+    "options": [
+      "Optic chiasm",
+      "Optic tract",
+      "Optic radiation",
+      "Optic nerve"
+    ],
+    "answer": 0,
+    "answerText": "Optic chiasm",
+    "explanation": "Lesion at the optic chiasm causes bitemporal hemianopia, affecting the lateral visual fields of both eyes.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 7</span> The output fibers from the lateral half of the right retina projects to ...... lateral geniculate body.",
+    "options": [
+      "Layer 5 of the left",
+      "Layer 5 of the right",
+      "Layer 6 of the left",
+      "Layer 4 of the right"
+    ],
+    "answer": 1,
+    "answerText": "Layer 5 of the right",
+    "explanation": "The lateral half of the right retina sends fibers to the ipsilateral (right) lateral geniculate body, particularly layer 5.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 8</span> Which one is NOT correct about simple cells?",
+    "options": [
+      "They respond to specific orientations of lines",
+      "They respond when a line moves laterally in the receptive field",
+      "They have excitatory and inhibitory regions",
+      "They are found in the primary visual cortex"
+    ],
+    "answer": 1,
+    "answerText": "They respond when a line moves laterally in the receptive field",
+    "explanation": "Simple cells respond best to stationary lines of specific orientation, not to lateral movement.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 9</span> How much change happens in the force exerted by a sound at the oval window when it passes from the tympanic membrane through the ossicular system?",
+    "options": [
+      "10 times increase",
+      "22 times increase",
+      "5 times increase",
+      "2 times increase"
+    ],
+    "answer": 1,
+    "answerText": "22 times increase",
+    "explanation": "The ossicular system increases sound force by approximately 22 times to compensate for the impedance difference between air and fluid.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 10</span> Which of the following is NOT part of the mechanism for activation of inner hair cells?",
+    "options": [
+      "Opening Ca++ channels",
+      "Bending the stereocilia toward the tallest one",
+      "Opening K+ channels for repolarization",
+      "Bending the stereocilia toward the shortest one"
+    ],
+    "answer": 3,
+    "answerText": "Bending the stereocilia toward the shortest one",
+    "explanation": "Inner hair cells are activated when stereocilia bend toward the tallest one, not the shortest.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 11</span> The average life span of taste cells is about:",
+    "options": [
+      "5 days",
+      "10 days",
+      "30 days",
+      "60 days"
+    ],
+    "answer": 1,
+    "answerText": "10 days",
+    "explanation": "Taste cells are replaced every 10 days.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 12</span> Which of the following receptors mediate salty taste sensation?",
+    "options": [
+      "ENaC",
+      "TRPM5",
+      "T1R2/T1R3",
+      "T2R"
+    ],
+    "answer": 0,
+    "answerText": "ENaC",
+    "explanation": "ENaC (epithelial sodium channel) is responsible for detecting salty taste.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 13</span> Which of the following cells do NOT have their soma in the olfactory bulb?",
+    "options": [
+      "Mitral cells",
+      "Granule cells",
+      "Olfactory sensory cells",
+      "Tufted cells"
+    ],
+    "answer": 2,
+    "answerText": "Olfactory sensory cells",
+    "explanation": "Olfactory sensory cells have their soma in the olfactory epithelium, not in the olfactory bulb.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 14</span> Which of the following chemicals can combine with scotopsin to make rhodopsin?",
+    "options": [
+      "All-trans retinal",
+      "11-cis retinal",
+      "Vitamin D",
+      "Opsin"
+    ],
+    "answer": 1,
+    "answerText": "11-cis retinal",
+    "explanation": "Rhodopsin is formed by the combination of scotopsin and 11-cis retinal.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 15</span> Which of the following is inhibited during a voluntary saccade?",
+    "options": [
+      "Substantia nigra",
+      "Superior colliculus",
+      "Pretectal nucleus",
+      "Pulvinar"
+    ],
+    "answer": 0,
+    "answerText": "Substantia nigra",
+    "explanation": "During a saccade, the substantia nigra (pars reticulata) is inhibited, allowing the superior colliculus to initiate eye movement.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 16</span> Which of the following is correct about outer hair cells?",
+    "options": [
+      "There are about 3500 of them in each cochlea",
+      "Their activation may signal a very loud sound",
+      "They primarily transmit auditory signals to the brain",
+      "They are responsible for the perception of high-frequency sounds"
+    ],
+    "answer": 1,
+    "answerText": "Their activation may signal a very loud sound",
+    "explanation": "Outer hair cells amplify sound and can contract in response to loud sounds, providing a protective mechanism.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 17</span> Which of the following is correct about the attenuation reflex?",
+    "options": [
+      "It increases hearing sensitivity to one’s own speech",
+      "It reduces low-frequency sounds by 30-40 dB",
+      "It protects the inner ear by reducing high-frequency sounds",
+      "It enhances the perception of quiet sounds"
+    ],
+    "answer": 1,
+    "answerText": "It reduces low-frequency sounds by 30-40 dB",
+    "explanation": "The attenuation reflex reduces low-frequency sound transmission to protect the inner ear, particularly from loud noises.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 18</span> Taste buds in fungiform papilla send their signals through:",
+    "options": [
+      "Facial nerve",
+      "Glossopharyngeal nerve",
+      "Hypoglossal nerve",
+      "Vagus nerve"
+    ],
+    "answer": 0,
+    "answerText": "Facial nerve",
+    "explanation": "Fungiform papilla taste buds are innervated by the facial nerve (chorda tympani branch).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 19</span> Licking the lips in response to the smell of food is a function of:",
+    "options": [
+      "Cortical portion of the amygdaloid nuclei",
+      "Medial olfactory area",
+      "Lateral olfactory area",
+      "Hypothalamus"
+    ],
+    "answer": 1,
+    "answerText": "Medial olfactory area",
+    "explanation": "The medial olfactory area is involved in primitive olfactory responses, including feeding behavior.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2024-08-05) - Dr. Riahi - Question 20</span> A 5-year-old boy was referred to the clinic for a hearing test because he did not pass a kindergarten screening test in his ears. His parents reported that he said “Huh?” frequently. He had passed his newborn hearing screening, and he had experienced a few ear infections. Below you can see an audiogram from this boy.\nThe triangles indicate the bone conduction thresholds. The circles and the crosses represent air conduction threshold in the right and left ear, respectively. The x-axis shows sound frequency in Hz and the y-axis shows hearing level in dB.\nConsidering the audiogram, how would you interpret the problem?<br><img src=\"https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739748861896_SmartSelect___WebtoPDFconverterPro.jpg\" alt=\"Image for Q20\" style=\"max-width:100%; height:auto;\">",
+    "options": [
+      "Normal hearing sensitivity",
+      "Bone conduction threshold is increased",
+      "Air conduction threshold is increased in both ears",
+      "Sensorineural hearing loss"
+    ],
+    "answer": 2,
+    "answerText": "Air conduction threshold is increased in both ears",
+    "explanation": "Increased air conduction threshold with normal bone conduction suggests conductive hearing loss.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 21</span> Based on the above audiogram, there is a:",
+    "options": [
+      "Normal hearing sensitivity",
+      "Sensorineural hearing loss",
+      "Conductive hearing loss",
+      "Mixed hearing loss"
+    ],
+    "answer": 2,
+    "answerText": "Conductive hearing loss",
+    "explanation": "Conductive hearing loss is indicated when air conduction thresholds are increased, but bone conduction is normal.",
+    "userAnswer": null
+  }
+]
