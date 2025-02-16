@@ -1,5 +1,148 @@
 [
   {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 1</span> Very early in embryonic development, testosterone is formed within the male embryo. What is the function of this hormone at this stage of development?",
+    "options": [
+      "Stimulation of development of skeletal muscle",
+      "Stimulation of development of male sex organs",
+      "Stimulation of bone growth",
+      "Stimulation of spermatogenesis"
+    ],
+    "answer": 1,
+    "answerText": "Stimulation of development of male sex organs",
+    "explanation": "Testosterone in early embryonic development is crucial for the development of male sex organs.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 2</span> Which one is not considered as accessory gland for male reproductive system?",
+    "options": [
+      "Seminal vesicles",
+      "Bulbourethral gland",
+      "Prostate gland",
+      "Urethra"
+    ],
+    "answer": 3,
+    "answerText": "Urethra",
+    "explanation": "The urethra is a passage for urine and semen, not an accessory gland of the male reproductive system.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 3</span> What happened after sudden surge of LH in the middle of ovarian cycle?",
+    "options": [
+      "Follicular development",
+      "Ovulation",
+      "Corpus luteum formation",
+      "Menstruation"
+    ],
+    "answer": 1,
+    "answerText": "Ovulation",
+    "explanation": "The LH surge triggers ovulation, causing the release of the mature egg from the ovary.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 4</span> Which cell has both FSH and LH receptors?",
+    "options": [
+      "Theca",
+      "Granulosa",
+      "Sertoli",
+      "Leydig"
+    ],
+    "answer": 1,
+    "answerText": "Granulosa",
+    "explanation": "Granulosa cells have both FSH and LH receptors, playing a key role in follicular development and estrogen production.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 5</span> Which option is not correct regarding sperm capacitation?",
+    "options": [
+      "Increase in sperm motility",
+      "Removal of glycoprotein coat",
+      "A lot of sodium enters the sperm",
+      "Enhanced ability to penetrate egg"
+    ],
+    "answer": 2,
+    "answerText": "A lot of sodium enters the sperm",
+    "explanation": "Capacitation involves changes to the sperm membrane and increased motility, but sodium influx is not a key feature.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 6</span> Which types of cell(s) can produce Activin?",
+    "options": [
+      "Leydig",
+      "Sertoli",
+      "Theca",
+      "Granulosa"
+    ],
+    "answer": 1,
+    "answerText": "Sertoli",
+    "explanation": "Sertoli cells in males and granulosa cells in females produce Activin, which stimulates FSH secretion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 7</span> Which one is not in function of Sertoli cells?",
+    "options": [
+      "Nourishing developing sperm",
+      "Formation of blood-testis barrier",
+      "Phagocytosis of residual bodies",
+      "Production of testosterone"
+    ],
+    "answer": 3,
+    "answerText": "Production of testosterone",
+    "explanation": "Testosterone is produced by Leydig cells, not Sertoli cells.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 8</span> What is the role of 5-alpha reductase in male reproductive system?",
+    "options": [
+      "Conversion of testosterone to estrogen",
+      "Produce Dihydro-testosterone",
+      "Stimulate spermatogenesis",
+      "Support Leydig cells"
+    ],
+    "answer": 1,
+    "answerText": "Produce Dihydro-testosterone",
+    "explanation": "5-alpha reductase converts testosterone to dihydrotestosterone (DHT), which is essential for external male genitalia development and prostate growth.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 9</span> A female athlete who took testosterone-like steroids for several months stopped having normal menstrual cycles. What is the best explanation for this observation?",
+    "options": [
+      "Increased estrogen levels",
+      "Testosterone inhibits the hypothalamic secretion of GnRH and the pituitary secretion of LH and FSH",
+      "Direct suppression of the ovary",
+      "Increased FSH secretion"
+    ],
+    "answer": 1,
+    "answerText": "Testosterone inhibits the hypothalamic secretion of GnRH and the pituitary secretion of LH and FSH",
+    "explanation": "Exogenous testosterone suppresses GnRH, LH, and FSH, disrupting the normal menstrual cycle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 10</span> Which hormone has the most impact on the stimulation of primary follicle growth in the ovary?",
+    "options": [
+      "LH",
+      "FSH",
+      "Progesterone",
+      "Estrogen"
+    ],
+    "answer": 1,
+    "answerText": "FSH",
+    "explanation": "FSH stimulates the growth of primary follicles during the early stages of the ovarian cycle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 11</span> Which hormone is not considered as female reproductive system hormone?",
+    "options": [
+      "Estrogen",
+      "Progesterone",
+      "TRH",
+      "LH"
+    ],
+    "answer": 2,
+    "answerText": "TRH",
+    "explanation": "TRH (Thyrotropin-releasing hormone) is involved in thyroid regulation, not directly in the female reproductive system.",
+    "userAnswer": null
+  },
+  {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 1</span> What is the role of Follicle Stimulating Hormone (FSH) during the menstrual cycle?",
     "options": [
       "Stimulates ovulation",
