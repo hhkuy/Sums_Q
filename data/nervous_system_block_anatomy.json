@@ -518,5 +518,265 @@
     "answerText": "Straight sinus",
     "explanation": "The straight sinus is located where the falx cerebri meets the tentorium cerebelli and drains blood from deep brain structures.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 1</span> Where is location of the cauda equina?",
+    "options": [
+      "Upper half of vertebral canal",
+      "Middle one third of vertebral canal",
+      "Lower one third of vertebral canal",
+      "Within the spinal cord itself"
+    ],
+    "answer": 2,
+    "answerText": "Lower one third of vertebral canal",
+    "explanation": "The cauda equina is located in the lower one third of the vertebral canal.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 2</span> All of the following structures are related to hearing, EXCEPT:",
+    "options": [
+      "Inferior colliculus",
+      "Lateral geniculate body",
+      "Medial geniculate body",
+      "Cochlear nucleus"
+    ],
+    "answer": 1,
+    "answerText": "Lateral geniculate body",
+    "explanation": "The lateral geniculate body is part of the visual pathway, not the auditory system.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 3</span> Which thalamic nuclei are related to motor coordination?",
+    "options": [
+      "Ventral Anterior & Ventral Lateral",
+      "Medial Geniculate",
+      "Posterior Lateral",
+      "Anterior Nucleus"
+    ],
+    "answer": 0,
+    "answerText": "Ventral Anterior & Ventral Lateral",
+    "explanation": "The ventral anterior and ventral lateral nuclei of the thalamus are involved in motor coordination.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 4</span> Which cranial nerve emerges from the medial border of the cerebral peduncle?",
+    "options": [
+      "Trochlear nerve",
+      "Oculomotor nerve",
+      "Abducent nerve",
+      "Trigeminal nerve"
+    ],
+    "answer": 1,
+    "answerText": "Oculomotor nerve",
+    "explanation": "The oculomotor nerve emerges from the medial border of the cerebral peduncle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 5</span> Which nucleus has dopaminergic neurons?",
+    "options": [
+      "Substantia nigra pars compacta",
+      "Red nucleus",
+      "Ventral anterior nucleus",
+      "Hypothalamic nucleus"
+    ],
+    "answer": 0,
+    "answerText": "Substantia nigra pars compacta",
+    "explanation": "Dopaminergic neurons are primarily found in the substantia nigra pars compacta.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 6</span> All of the following regions are related to the pathway of corticospinal tract, EXCEPT:",
+    "options": [
+      "Corona radiata",
+      "Posterior limb of the internal capsule",
+      "Anterior limb of the internal capsule",
+      "Pyramids of medulla"
+    ],
+    "answer": 2,
+    "answerText": "Anterior limb of the internal capsule",
+    "explanation": "The corticospinal tract does not pass through the anterior limb of the internal capsule.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 7</span> Which nucleus is between the internal and external capsules?",
+    "options": [
+      "Caudate nucleus",
+      "Thalamus",
+      "Subthalamic nucleus",
+      "Lentiform nucleus"
+    ],
+    "answer": 3,
+    "answerText": "Lentiform nucleus",
+    "explanation": "The lentiform nucleus is located between the internal and external capsules.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 8</span> Which one is in the medial surface of the occipital lobe?",
+    "options": [
+      "Cuneus",
+      "Lingual gyrus",
+      "Precentral gyrus",
+      "Uncus"
+    ],
+    "answer": 0,
+    "answerText": "Cuneus",
+    "explanation": "The cuneus is a wedge-shaped area located on the medial surface of the occipital lobe.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 9</span> Where is the location of the motor speech area?",
+    "options": [
+      "Superior temporal gyrus",
+      "Precentral gyrus",
+      "Inferior frontal gyrus",
+      "Angular gyrus"
+    ],
+    "answer": 2,
+    "answerText": "Inferior frontal gyrus",
+    "explanation": "The motor speech area (Broca’s area) is located in the inferior frontal gyrus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 10</span> Which one is afferents of anterior thalamic nuclei?",
+    "options": [
+      "Optic tract",
+      "Mammillothalamic tract",
+      "Spinothalamic tract",
+      "Corticospinal tract"
+    ],
+    "answer": 1,
+    "answerText": "Mammillothalamic tract",
+    "explanation": "The anterior thalamic nuclei receive afferents from the mammillothalamic tract.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 11</span> All of the following structures are related to archicerebellum, EXCEPT:",
+    "options": [
+      "Flocculus",
+      "Nodulus",
+      "Fastigial nucleus",
+      "Tonsils"
+    ],
+    "answer": 3,
+    "answerText": "Tonsils",
+    "explanation": "The tonsils are part of the posterior lobe of the cerebellum, not the archicerebellum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 12</span> Motor and sensory parts of cortex for lower limb are supplied by which artery?",
+    "options": [
+      "Anterior cerebral artery",
+      "Middle cerebral artery",
+      "Posterior cerebral artery",
+      "Vertebral artery"
+    ],
+    "answer": 0,
+    "answerText": "Anterior cerebral artery",
+    "explanation": "The anterior cerebral artery supplies the medial part of the cerebral hemisphere, including the motor and sensory cortices for the lower limb.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 13</span> Which neuron has a soma in the deep layers of the cerebral cortex and axon terminals in the molecular layer?",
+    "options": [
+      "Martinotti cell",
+      "Pyramidal cell",
+      "Fusiform cell",
+      "Stellate cell"
+    ],
+    "answer": 0,
+    "answerText": "Martinotti cell",
+    "explanation": "Martinotti cells have their soma in the deep layers of the cortex and send their axons to the molecular layer.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 14</span> Which tract is located in the posterior funiculus of the spinal cord?",
+    "options": [
+      "Spinothalamic tract",
+      "Corticospinal tract",
+      "Reticulospinal tract",
+      "Fasciculus cuneatus"
+    ],
+    "answer": 3,
+    "answerText": "Fasciculus cuneatus",
+    "explanation": "The fasciculus cuneatus is part of the dorsal column pathway, located in the posterior funiculus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 15</span> All of the following nuclei are related to the vagus nerve, EXCEPT:",
+    "options": [
+      "Spinal nucleus of the trigeminal nerve",
+      "Inferior salivatory nucleus",
+      "Nucleus ambiguus",
+      "Dorsal motor nucleus"
+    ],
+    "answer": 1,
+    "answerText": "Inferior salivatory nucleus",
+    "explanation": "The inferior salivatory nucleus is related to the glossopharyngeal nerve, not the vagus nerve.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 16</span> Which structure is located in the interpeduncular fossa?",
+    "options": [
+      "Substantia nigra",
+      "Red nucleus",
+      "Mammillary bodies",
+      "Posterior perforated substance"
+    ],
+    "answer": 3,
+    "answerText": "Posterior perforated substance",
+    "explanation": "The posterior perforated substance is located in the interpeduncular fossa.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 17</span> Which part of the brain lacks neurons and blood-brain barrier?",
+    "options": [
+      "Hypothalamus",
+      "Area postrema",
+      "Pineal body",
+      "Substantia nigra"
+    ],
+    "answer": 2,
+    "answerText": "Pineal body",
+    "explanation": "The pineal body lacks a blood-brain barrier and is involved in hormone secretion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 18</span> Which nucleus is the parasympathetic nucleus of the oculomotor nerve?",
+    "options": [
+      "Edinger-Westphal nucleus",
+      "Dorsal motor nucleus",
+      "Superior salivatory nucleus",
+      "Inferior salivatory nucleus"
+    ],
+    "answer": 0,
+    "answerText": "Edinger-Westphal nucleus",
+    "explanation": "The Edinger-Westphal nucleus is the parasympathetic nucleus of the oculomotor nerve, controlling pupillary constriction.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 19</span> Where is the location of the Emboliform nucleus?",
+    "options": [
+      "Archicerebellum",
+      "Neocerebellum",
+      "Paleocerebellum",
+      "Spinocerebellum"
+    ],
+    "answer": 2,
+    "answerText": "Paleocerebellum",
+    "explanation": "The emboliform nucleus is located in the paleocerebellum, part of the cerebellar deep nuclei.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 20</span> Which sulcus is located in the medial surface of the occipital lobe?",
+    "options": [
+      "Central sulcus",
+      "Parieto-occipital sulcus",
+      "Lateral sulcus",
+      "Calcarine sulcus"
+    ],
+    "answer": 3,
+    "answerText": "Calcarine sulcus",
+    "explanation": "The calcarine sulcus is located on the medial surface of the occipital lobe and is associated with the primary visual cortex.",
+    "userAnswer": null
   }
 ]
