@@ -1,5 +1,577 @@
 [
   {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 1</span> Carbapenems are known for their:",
+    "options": [
+      "Toxicity",
+      "Broad spectrum activity",
+      "Resistance to many β-lactamases",
+      "Inhibition of DNA synthesis"
+    ],
+    "answer": 2,
+    "answerText": "Resistance to many β-lactamases",
+    "explanation": "Carbapenems are β-lactam antibiotics known for their resistance to many β-lactamases, making them effective against multidrug-resistant bacteria.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 2</span> Which class of antibiotics inhibits RNA polymerase function?",
+    "options": [
+      "Aminoglycosides",
+      "Rifampin",
+      "Macrolides",
+      "Carbapenems"
+    ],
+    "answer": 1,
+    "answerText": "Rifampin",
+    "explanation": "Rifampin inhibits bacterial RNA polymerase, preventing transcription and bacterial growth.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 3</span> Which of the following is a characteristic of ethylene oxide?",
+    "options": [
+      "A type of liquid disinfectant",
+      "Explosive and flammable",
+      "Non-toxic to humans",
+      "High-level antiseptic"
+    ],
+    "answer": 1,
+    "answerText": "Explosive and flammable",
+    "explanation": "Ethylene oxide is a gaseous sterilant that is highly explosive and flammable.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 4</span> Which agent is NOT typically used in antisepsis?",
+    "options": [
+      "Chlorhexidine",
+      "Alcohol",
+      "Povidone-iodine",
+      "Sodium hypochlorite"
+    ],
+    "answer": 3,
+    "answerText": "Sodium hypochlorite",
+    "explanation": "Sodium hypochlorite (bleach) is a disinfectant, not commonly used in antisepsis due to its corrosive nature.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 5</span> Which of the following is used for low-level disinfection?",
+    "options": [
+      "Alcohol",
+      "Quaternary ammonium compounds",
+      "Glutaraldehyde",
+      "Hydrogen peroxide"
+    ],
+    "answer": 1,
+    "answerText": "Quaternary ammonium compounds",
+    "explanation": "Quaternary ammonium compounds are low-level disinfectants effective against most vegetative bacteria and some viruses.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 6</span> Which process of gene transfer between bacteria involves pilus?",
+    "options": [
+      "Transformation",
+      "Transduction",
+      "Conjugation",
+      "Transposition"
+    ],
+    "answer": 2,
+    "answerText": "Conjugation",
+    "explanation": "Conjugation involves the transfer of genetic material through a pilus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 7</span> In which phase of the bacterial growth curve are cells more susceptible to antibiotics like penicillin?",
+    "options": [
+      "Lag",
+      "Log",
+      "Stationary",
+      "Death"
+    ],
+    "answer": 1,
+    "answerText": "Log",
+    "explanation": "Bacteria are most susceptible to cell wall-targeting antibiotics like penicillin during the log (exponential) phase due to active cell division.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 8</span> From each glucose molecule during the process of ethanol fermentation, how many ATP and NADH molecules are produced, respectively (from left to right)?",
+    "options": [
+      "2 and 0",
+      "2 and 2",
+      "4 and 2",
+      "1 and 1"
+    ],
+    "answer": 1,
+    "answerText": "2 and 2",
+    "explanation": "Ethanol fermentation produces 2 ATP and 2 NADH molecules per glucose.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 9</span> Which of the following is the most common type of nosocomial infection?",
+    "options": [
+      "Surgical site infections",
+      "Pneumonia",
+      "Urinary tract infections",
+      "Bloodstream infections"
+    ],
+    "answer": 2,
+    "answerText": "Urinary tract infections",
+    "explanation": "Urinary tract infections are the most common hospital-acquired infections, often related to catheter use.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 10</span> Which of the following is true about “Virulence”?",
+    "options": [
+      "The ability of an infectious agent to cause disease",
+      "The degree of pathogenicity of a pathogen",
+      "The invasiveness of a microorganism",
+      "The production of toxins"
+    ],
+    "answer": 1,
+    "answerText": "The degree of pathogenicity of a pathogen",
+    "explanation": "Virulence refers to the degree of pathogenicity, indicating how severe the disease caused by a pathogen is.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 11</span> Which of the following is one of the outcomes of lipopolysaccharide in the blood?",
+    "options": [
+      "Hypertension",
+      "Hypoglycemia",
+      "Leukocytosis",
+      "Bradycardia"
+    ],
+    "answer": 0,
+    "answerText": "Hypertension",
+    "explanation": "Lipopolysaccharide (endotoxin) can trigger septic shock, leading to hypertension in some stages.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 12</span> Which toxin is a pore forming toxin?",
+    "options": [
+      "Cholera toxin",
+      "Streptolysin O by Streptococcus pyogenes",
+      "Tetanus toxin",
+      "Diphtheria toxin"
+    ],
+    "answer": 1,
+    "answerText": "Streptolysin O by Streptococcus pyogenes",
+    "explanation": "Streptolysin O is a pore-forming cytotoxin produced by Streptococcus pyogenes.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 13</span> Which of the following is the outermost spore layer?",
+    "options": [
+      "Cortex",
+      "Coat",
+      "Exosporium",
+      "Core"
+    ],
+    "answer": 2,
+    "answerText": "Exosporium",
+    "explanation": "The exosporium is the outermost layer of a bacterial spore, providing additional protection.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 14</span> Which secretion device injects molecules directly from bacterial cytoplasm to the host cytoplasm?",
+    "options": [
+      "Type I",
+      "Type II",
+      "Type III",
+      "Type IV"
+    ],
+    "answer": 2,
+    "answerText": "Type III",
+    "explanation": "Type III secretion system is a needle-like structure used by some Gram-negative bacteria to inject effectors into host cells.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 15</span> What is the correct order of lipopolysaccharide components from the inner to the outer part of a Gram-negative bacterial cell?",
+    "options": [
+      "Core polysaccharide, Lipid A, O-antigen",
+      "Lipid A, Core Polysaccharide, O-antigen",
+      "O-antigen, Core Polysaccharide, Lipid A",
+      "Core polysaccharide, O-antigen, Lipid A"
+    ],
+    "answer": 1,
+    "answerText": "Lipid A, Core Polysaccharide, O-antigen",
+    "explanation": "LPS is organized as Lipid A (inner), Core Polysaccharide (middle), and O-antigen (outer).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 16</span> Which of the following is found only in Gram-positive bacteria?",
+    "options": [
+      "Teichoic Acid",
+      "Lipopolysaccharide",
+      "Outer membrane",
+      "Periplasmic space"
+    ],
+    "answer": 0,
+    "answerText": "Teichoic Acid",
+    "explanation": "Teichoic acid is unique to Gram-positive bacteria and contributes to cell wall integrity and immune evasion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 17</span> What is the primary function of Protein A in Staphylococcus aureus?",
+    "options": [
+      "It plays an important role in abscess formation",
+      "It inhibits antiphagocytosis",
+      "It causes hemolysis",
+      "It mediates toxin production"
+    ],
+    "answer": 1,
+    "answerText": "It inhibits antiphagocytosis",
+    "explanation": "Protein A binds to the Fc region of antibodies, inhibiting phagocytosis and immune recognition.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 18</span> When furuncles extend to deeper subcutaneous tissue, they are referred to as……….",
+    "options": [
+      "Abscess",
+      "Carbuncles",
+      "Cellulitis",
+      "Erysipelas"
+    ],
+    "answer": 1,
+    "answerText": "Carbuncles",
+    "explanation": "Carbuncles are clusters of furuncles (boils) that extend into deeper tissue, often with multiple drainage points.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 19</span> A 65-year-old man develops an abscess on the back of his neck. Culture yields Staphylococcus aureus. The isolate is tested and found to be positive for the mecA gene, which means that",
+    "options": [
+      "The isolate is susceptible to penicillin",
+      "The isolate is susceptible to vancomycin",
+      "The isolate is resistant to vancomycin",
+      "The isolate is susceptible to methicillin"
+    ],
+    "answer": 1,
+    "answerText": "The isolate is susceptible to vancomycin",
+    "explanation": "The mecA gene encodes PBP2a, conferring methicillin resistance (MRSA), but vancomycin is typically still effective.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 20</span> Which one of the following statements is correct about Staphylococcus saprophyticus?",
+    "options": [
+      "It is typically non-hemolytic and causes urinary tract infections",
+      "It is coagulase positive",
+      "It is resistant to novobiocin",
+      "It is a common cause of food poisoning"
+    ],
+    "answer": 0,
+    "answerText": "It is typically non-hemolytic and causes urinary tract infections",
+    "explanation": "Staphylococcus saprophyticus is coagulase-negative, non-hemolytic, and commonly causes urinary tract infections, especially in young women.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 21</span> Which one of the following bacteria produces secretory IgA protease?",
+    "options": [
+      "Neisseria gonorrhoeae",
+      "Streptococcus pneumoniae",
+      "Group A Streptococcus",
+      "Staphylococcus aureus"
+    ],
+    "answer": 1,
+    "answerText": "Streptococcus pneumoniae",
+    "explanation": "Streptococcus pneumoniae produces IgA protease, which helps it evade mucosal immunity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 22</span> Which antibiotic is NOT recommended for treating infections caused by vancomycin and ampicillin-resistant Enterococcus faecium?",
+    "options": [
+      "Linezolid",
+      "Daptomycin",
+      "Cephalosporin",
+      "Tigecycline"
+    ],
+    "answer": 2,
+    "answerText": "Cephalosporin",
+    "explanation": "Enterococcus faecium is intrinsically resistant to cephalosporins.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 23</span> The use of vaginal/rectal swabs and LIM broth medium increases the recovery of…………",
+    "options": [
+      "Streptococcus pyogenes",
+      "Streptococcus pneumoniae",
+      "Streptococcus agalactiae",
+      "Streptococcus viridans"
+    ],
+    "answer": 2,
+    "answerText": "Streptococcus agalactiae",
+    "explanation": "LIM broth is a selective medium that enhances the detection of Streptococcus agalactiae (Group B Streptococcus), especially in pregnant women.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 24</span> Which of the following cell components produced by Neisseria gonorrhoeae is responsible for motility and transfer of genetic material?",
+    "options": [
+      "Capsule",
+      "Pili",
+      "Outer membrane protein",
+      "Lipopolysaccharide"
+    ],
+    "answer": 1,
+    "answerText": "Pili",
+    "explanation": "Pili facilitate motility and genetic exchange (e.g., conjugation) in Neisseria gonorrhoeae.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 25</span> A 25-year-old woman presents with septic arthritis of the knee. The fluid aspirate grows a Gram-negative diplococcus on chocolate agar after 48 hours of incubation. The isolate is oxidase positive and oxidizes glucose but not maltose. You suspect infection with",
+    "options": [
+      "Neisseria meningitidis",
+      "Neisseria gonorrhoeae",
+      "Moraxella catarrhalis",
+      "Haemophilus influenzae"
+    ],
+    "answer": 1,
+    "answerText": "Neisseria gonorrhoeae",
+    "explanation": "Neisseria gonorrhoeae is a glucose fermenter but does not ferment maltose, differentiating it from Neisseria meningitidis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 26</span> Which of the following diseases due to Neisseria gonorrhoeae can lead to ectopic pregnancy or infertility?",
+    "options": [
+      "Gonococcal arthritis",
+      "Pelvic inflammatory disease",
+      "Ophthalmia neonatorum",
+      "Waterhouse-Friderichsen syndrome"
+    ],
+    "answer": 1,
+    "answerText": "Pelvic inflammatory disease",
+    "explanation": "Pelvic inflammatory disease (PID) is a complication of gonorrhea, potentially leading to infertility or ectopic pregnancy.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 27</span> What is the preferred regimen for treating Pelvic inflammatory disease caused by Neisseria gonorrhoeae?",
+    "options": [
+      "Ceftriaxone plus penicillin",
+      "Ceftriaxone plus doxycycline",
+      "Azithromycin alone",
+      "Ciprofloxacin"
+    ],
+    "answer": 1,
+    "answerText": "Ceftriaxone plus doxycycline",
+    "explanation": "Ceftriaxone and doxycycline are the preferred combination therapy for PID caused by N. gonorrhoeae.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 28</span> Which one of the following produces Protective Antigen as an important virulence factor?",
+    "options": [
+      "Clostridium tetani",
+      "Bacillus anthracis",
+      "Corynebacterium diphtheriae",
+      "Clostridium perfringens"
+    ],
+    "answer": 1,
+    "answerText": "Bacillus anthracis",
+    "explanation": "Bacillus anthracis produces Protective Antigen (PA), a component of its anthrax toxin.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 29</span> Select the best answer;<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739751682343_SmartSelect___WebtoPDFconverterPro.jpg' alt='Image for Q29' style='max-width:100%; height:auto;' data-filepath='pic/1739751682343_SmartSelect___WebtoPDFconverterPro.jpg'>",
+    "options": [
+      "1, 2, and 4 are correct",
+      "1, 3, and 4 are correct",
+      "Only 3 is correct",
+      "All options are correct"
+    ],
+    "answer": 1,
+    "answerText": "1, 3, and 4 are correct",
+    "explanation": "Bacillus cereus, Bordetella pertussis, and Haemophilus influenzae type b (Hib) are accurately described in the table.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 30</span> A 5-year-old boy presents with 3 days of fever, and malaise. He has no records of vaccination. Other physical findings include middle ear infection and conjunctivitis. He appears pale and presents with some stiffness in his neck, and moderate shortness of breath. His blood cultures grow a hemolytic pleomorphic Gram (-) rod that is tested positive for X and V factor. The most likely causative pathogen is:",
+    "options": [
+      "Haemophilus influenzae",
+      "Neisseria meningitidis",
+      "Streptococcus pneumoniae",
+      "Moraxella catarrhalis"
+    ],
+    "answer": 0,
+    "answerText": "Haemophilus influenzae",
+    "explanation": "Haemophilus influenzae type b requires both X (hemin) and V (NAD) factors for growth and is a common cause of invasive infections in unvaccinated children.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 31</span> A 45-year-old fisherman was injured by a fishhook into his finger. After 5 days, he had fever, severe pain, and swelling of the injured finger with a red-violet nodule, which was aspirated and cultured. After 48 hours, colonies of a Gram (+) bacillus that was weakly hemolytic (greenish discoloration of blood agar) was seen that formed long filaments in the broth culture. The most likely cause of this infection is;",
+    "options": [
+      "Actinobacillus actinomycetemcomitans",
+      "Erysipelothrix rhusiopathiae",
+      "Vibrio vulnificus",
+      "Pasteurella multocida"
+    ],
+    "answer": 1,
+    "answerText": "Erysipelothrix rhusiopathiae",
+    "explanation": "Erysipelothrix rhusiopathiae is a Gram-positive rod associated with fish and animal handling injuries, causing erysipeloid skin infections.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 32</span> An 8-year-old girl was bitten by a stray dog. Two days later, the bite wound was red and swollen, and drained purulent (pus) fluid. Examination reveals that she had low-grade fever, headache, and enlarged lymph nodes in her left axilla. Culture of fluid from her wound recovered colonies of a Gram (-) bacillus. Her signs and symptoms improved after treatment with appropriate doses of Penicillin G. Based on the patient’s history and physical examination, which of the following will be the most likely cause of this infection?",
+    "options": [
+      "Bartonella henselae",
+      "Pasteurella multocida",
+      "Bacteroides bacilliformis",
+      "Capnocytophaga canimorsus"
+    ],
+    "answer": 1,
+    "answerText": "Pasteurella multocida",
+    "explanation": "Pasteurella multocida is a Gram-negative rod commonly transmitted through animal bites, especially from dogs and cats.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 33</span> Which antibiotic is known for its potential to cause aplastic anemia?",
+    "options": [
+      "Vancomycin",
+      "Chloramphenicol",
+      "Gentamicin",
+      "Linezolid"
+    ],
+    "answer": 1,
+    "answerText": "Chloramphenicol",
+    "explanation": "Chloramphenicol can cause rare but serious side effects, including aplastic anemia.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 34</span> Vancomycin is primarily effective against:",
+    "options": [
+      "Gram-negative bacteria",
+      "Anaerobic bacteria",
+      "Gram-positive bacteria",
+      "Mycobacteria"
+    ],
+    "answer": 2,
+    "answerText": "Gram-positive bacteria",
+    "explanation": "Vancomycin is primarily effective against Gram-positive bacteria, including MRSA.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 35</span> What type of disinfection destroys all microbial pathogens except “bacterial spores”?",
+    "options": [
+      "Low-level disinfection",
+      "Intermediate-level disinfection",
+      "High-level disinfection",
+      "Sterilization"
+    ],
+    "answer": 1,
+    "answerText": "Intermediate-level disinfection",
+    "explanation": "Intermediate-level disinfection eliminates vegetative bacteria, most viruses, and fungi but does not kill bacterial spores.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 36</span> Which of the following is an example of growth factors?",
+    "options": [
+      "Carbohydrates",
+      "Amino acids",
+      "Water",
+      "Nucleic acids"
+    ],
+    "answer": 1,
+    "answerText": "Amino acids",
+    "explanation": "Amino acids are growth factors that bacteria require for protein synthesis and growth.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 37</span> Group A streptococci are the most common bacterial cause of pharyngitis in school-age children 5–15 years of age. All of the following components involved in adherence of this bacteria to fibronectin Except",
+    "options": [
+      "M protein",
+      "Lipoteichoic acid",
+      "A protein",
+      "F protein"
+    ],
+    "answer": 2,
+    "answerText": "A protein",
+    "explanation": "M protein, lipoteichoic acid, and F protein are adhesion factors for Group A streptococci; A protein is a virulence factor of Staphylococcus aureus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 38</span> Which of the following bacteria can cause a zoonotic infection (can be transmitted from animals)?",
+    "options": [
+      "Legionella pneumophila",
+      "Brucella melitensis",
+      "Shigella dysenteriae",
+      "Bordetella pertussis"
+    ],
+    "answer": 1,
+    "answerText": "Brucella melitensis",
+    "explanation": "Brucella melitensis is a zoonotic pathogen transmitted through contact with infected animals or unpasteurized dairy products.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 39</span> Which of the following bacteria is a well-known cause of a sexually transmitted disease (STD)?",
+    "options": [
+      "Haemophilus ducreyi",
+      "Chlamydia pneumoniae",
+      "Escherichia coli",
+      "Staphylococcus saprophyticus"
+    ],
+    "answer": 0,
+    "answerText": "Haemophilus ducreyi",
+    "explanation": "Haemophilus ducreyi causes chancroid, a sexually transmitted genital ulcer disease.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 40</span> Select the best statement regarding Listeria monocytogenes;",
+    "options": [
+      "It grows at refrigeration temperature.",
+      "It can cause neonatal sepsis.",
+      "It is an intracellular pathogen.",
+      "All of the options are correct"
+    ],
+    "answer": 3,
+    "answerText": "All of the options are correct",
+    "explanation": "Listeria monocytogenes is a foodborne pathogen with the ability to grow at refrigeration temperatures and cause severe infections, including neonatal sepsis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 41</span> Select the best choice, regarding Pontiac Fever and Legionnaire’s disease;",
+    "options": [
+      "Both are caused by Legionella pneumophila serotype 1, and both are seasonal diseases.",
+      "Pontiac Fever commonly presents as a mild self-limiting disease",
+      "Legionnaire’s disease is a mild febrile illness without pneumonia.",
+      "Pontiac Fever requires antibiotic treatment."
+    ],
+    "answer": 1,
+    "answerText": "Pontiac Fever commonly presents as a mild self-limiting disease",
+    "explanation": "Pontiac Fever is a mild, self-limiting illness, while Legionnaire’s disease is a severe pneumonia requiring treatment.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 42</span> Select the best choice;<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739751684078_SmartSelect___WebtoPDFconverterPro.jpg' alt='Image for Q42' style='max-width:100%; height:auto;' data-filepath='pic/1739751684078_SmartSelect___WebtoPDFconverterPro.jpg'>",
+    "options": [
+      "Only 1 is correct",
+      "Only 2 is correct",
+      "All options are correct",
+      "None are correct"
+    ],
+    "answer": 2,
+    "answerText": "All options are correct",
+    "explanation": "The culture conditions for Legionella pneumophila, Haemophilus influenzae, and Bacteroides fragilis are accurately described in the table.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 43</span> All the following statements regarding anaerobes are true, EXCEPT;",
+    "options": [
+      "Many species are part of the normal human microbiota.",
+      "They are often involved in polymicrobial infections.",
+      "They are commonly isolated from deep abscesses.",
+      "They possess the enzyme cytochrome oxidase"
+    ],
+    "answer": 3,
+    "answerText": "They possess the enzyme cytochrome oxidase",
+    "explanation": "Anaerobes lack cytochrome oxidase, which is involved in aerobic respiration.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 44</span> Select the best choice;<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739751686077_SmartSelect___WebtoPDFconverterPro.jpg' alt='Image for Q44' style='max-width:100%; height:auto;' data-filepath='pic/1739751686077_SmartSelect___WebtoPDFconverterPro.jpg'>",
+    "options": [
+      "Only 1 is correct",
+      "1, 2, and 3 are correct",
+      "Only 2 is correct",
+      "2 and 3 are correct"
+    ],
+    "answer": 1,
+    "answerText": "1, 2, and 3 are correct",
+    "explanation": "Bacillus anthracis, Haemophilus ducreyi, and Corynebacterium diphtheriae are accurately described in the table.",
+    "userAnswer": null
+  },
+  {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 1</span> What is the primary function of Protein A in Staphylococcus aureus?",
     "options": [
       "It promotes bacterial motility",
@@ -1089,578 +1661,6 @@
     "answer": 1,
     "answerText": "A Gram-stain of her endocervical specimen would show C. trachomatis inside polymorphonuclear cells",
     "explanation": "Chlamydia trachomatis is an intracellular pathogen often found within polymorphonuclear cells in Gram-stained endocervical specimens.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 1</span> Carbapenems are known for their:",
-    "options": [
-      "Toxicity",
-      "Broad spectrum activity",
-      "Resistance to many β-lactamases",
-      "Inhibition of DNA synthesis"
-    ],
-    "answer": 2,
-    "answerText": "Resistance to many β-lactamases",
-    "explanation": "Carbapenems are β-lactam antibiotics known for their resistance to many β-lactamases, making them effective against multidrug-resistant bacteria.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 2</span> Which class of antibiotics inhibits RNA polymerase function?",
-    "options": [
-      "Aminoglycosides",
-      "Rifampin",
-      "Macrolides",
-      "Carbapenems"
-    ],
-    "answer": 1,
-    "answerText": "Rifampin",
-    "explanation": "Rifampin inhibits bacterial RNA polymerase, preventing transcription and bacterial growth.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 3</span> Which of the following is a characteristic of ethylene oxide?",
-    "options": [
-      "A type of liquid disinfectant",
-      "Explosive and flammable",
-      "Non-toxic to humans",
-      "High-level antiseptic"
-    ],
-    "answer": 1,
-    "answerText": "Explosive and flammable",
-    "explanation": "Ethylene oxide is a gaseous sterilant that is highly explosive and flammable.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 4</span> Which agent is NOT typically used in antisepsis?",
-    "options": [
-      "Chlorhexidine",
-      "Alcohol",
-      "Povidone-iodine",
-      "Sodium hypochlorite"
-    ],
-    "answer": 3,
-    "answerText": "Sodium hypochlorite",
-    "explanation": "Sodium hypochlorite (bleach) is a disinfectant, not commonly used in antisepsis due to its corrosive nature.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 5</span> Which of the following is used for low-level disinfection?",
-    "options": [
-      "Alcohol",
-      "Quaternary ammonium compounds",
-      "Glutaraldehyde",
-      "Hydrogen peroxide"
-    ],
-    "answer": 1,
-    "answerText": "Quaternary ammonium compounds",
-    "explanation": "Quaternary ammonium compounds are low-level disinfectants effective against most vegetative bacteria and some viruses.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 6</span> Which process of gene transfer between bacteria involves pilus?",
-    "options": [
-      "Transformation",
-      "Transduction",
-      "Conjugation",
-      "Transposition"
-    ],
-    "answer": 2,
-    "answerText": "Conjugation",
-    "explanation": "Conjugation involves the transfer of genetic material through a pilus.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 7</span> In which phase of the bacterial growth curve are cells more susceptible to antibiotics like penicillin?",
-    "options": [
-      "Lag",
-      "Log",
-      "Stationary",
-      "Death"
-    ],
-    "answer": 1,
-    "answerText": "Log",
-    "explanation": "Bacteria are most susceptible to cell wall-targeting antibiotics like penicillin during the log (exponential) phase due to active cell division.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 8</span> From each glucose molecule during the process of ethanol fermentation, how many ATP and NADH molecules are produced, respectively (from left to right)?",
-    "options": [
-      "2 and 0",
-      "2 and 2",
-      "4 and 2",
-      "1 and 1"
-    ],
-    "answer": 1,
-    "answerText": "2 and 2",
-    "explanation": "Ethanol fermentation produces 2 ATP and 2 NADH molecules per glucose.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 9</span> Which of the following is the most common type of nosocomial infection?",
-    "options": [
-      "Surgical site infections",
-      "Pneumonia",
-      "Urinary tract infections",
-      "Bloodstream infections"
-    ],
-    "answer": 2,
-    "answerText": "Urinary tract infections",
-    "explanation": "Urinary tract infections are the most common hospital-acquired infections, often related to catheter use.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 10</span> Which of the following is true about “Virulence”?",
-    "options": [
-      "The ability of an infectious agent to cause disease",
-      "The degree of pathogenicity of a pathogen",
-      "The invasiveness of a microorganism",
-      "The production of toxins"
-    ],
-    "answer": 1,
-    "answerText": "The degree of pathogenicity of a pathogen",
-    "explanation": "Virulence refers to the degree of pathogenicity, indicating how severe the disease caused by a pathogen is.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 11</span> Which of the following is one of the outcomes of lipopolysaccharide in the blood?",
-    "options": [
-      "Hypertension",
-      "Hypoglycemia",
-      "Leukocytosis",
-      "Bradycardia"
-    ],
-    "answer": 0,
-    "answerText": "Hypertension",
-    "explanation": "Lipopolysaccharide (endotoxin) can trigger septic shock, leading to hypertension in some stages.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 12</span> Which toxin is a pore forming toxin?",
-    "options": [
-      "Cholera toxin",
-      "Streptolysin O by Streptococcus pyogenes",
-      "Tetanus toxin",
-      "Diphtheria toxin"
-    ],
-    "answer": 1,
-    "answerText": "Streptolysin O by Streptococcus pyogenes",
-    "explanation": "Streptolysin O is a pore-forming cytotoxin produced by Streptococcus pyogenes.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 13</span> Which of the following is the outermost spore layer?",
-    "options": [
-      "Cortex",
-      "Coat",
-      "Exosporium",
-      "Core"
-    ],
-    "answer": 2,
-    "answerText": "Exosporium",
-    "explanation": "The exosporium is the outermost layer of a bacterial spore, providing additional protection.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 14</span> Which secretion device injects molecules directly from bacterial cytoplasm to the host cytoplasm?",
-    "options": [
-      "Type I",
-      "Type II",
-      "Type III",
-      "Type IV"
-    ],
-    "answer": 2,
-    "answerText": "Type III",
-    "explanation": "Type III secretion system is a needle-like structure used by some Gram-negative bacteria to inject effectors into host cells.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 15</span> What is the correct order of lipopolysaccharide components from the inner to the outer part of a Gram-negative bacterial cell?",
-    "options": [
-      "Core polysaccharide, Lipid A, O-antigen",
-      "Lipid A, Core Polysaccharide, O-antigen",
-      "O-antigen, Core Polysaccharide, Lipid A",
-      "Core polysaccharide, O-antigen, Lipid A"
-    ],
-    "answer": 1,
-    "answerText": "Lipid A, Core Polysaccharide, O-antigen",
-    "explanation": "LPS is organized as Lipid A (inner), Core Polysaccharide (middle), and O-antigen (outer).",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 16</span> Which of the following is found only in Gram-positive bacteria?",
-    "options": [
-      "Teichoic Acid",
-      "Lipopolysaccharide",
-      "Outer membrane",
-      "Periplasmic space"
-    ],
-    "answer": 0,
-    "answerText": "Teichoic Acid",
-    "explanation": "Teichoic acid is unique to Gram-positive bacteria and contributes to cell wall integrity and immune evasion.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 17</span> What is the primary function of Protein A in Staphylococcus aureus?",
-    "options": [
-      "It plays an important role in abscess formation",
-      "It inhibits antiphagocytosis",
-      "It causes hemolysis",
-      "It mediates toxin production"
-    ],
-    "answer": 1,
-    "answerText": "It inhibits antiphagocytosis",
-    "explanation": "Protein A binds to the Fc region of antibodies, inhibiting phagocytosis and immune recognition.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 18</span> When furuncles extend to deeper subcutaneous tissue, they are referred to as……….",
-    "options": [
-      "Abscess",
-      "Carbuncles",
-      "Cellulitis",
-      "Erysipelas"
-    ],
-    "answer": 1,
-    "answerText": "Carbuncles",
-    "explanation": "Carbuncles are clusters of furuncles (boils) that extend into deeper tissue, often with multiple drainage points.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 19</span> A 65-year-old man develops an abscess on the back of his neck. Culture yields Staphylococcus aureus. The isolate is tested and found to be positive for the mecA gene, which means that",
-    "options": [
-      "The isolate is susceptible to penicillin",
-      "The isolate is susceptible to vancomycin",
-      "The isolate is resistant to vancomycin",
-      "The isolate is susceptible to methicillin"
-    ],
-    "answer": 1,
-    "answerText": "The isolate is susceptible to vancomycin",
-    "explanation": "The mecA gene encodes PBP2a, conferring methicillin resistance (MRSA), but vancomycin is typically still effective.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 20</span> Which one of the following statements is correct about Staphylococcus saprophyticus?",
-    "options": [
-      "It is typically non-hemolytic and causes urinary tract infections",
-      "It is coagulase positive",
-      "It is resistant to novobiocin",
-      "It is a common cause of food poisoning"
-    ],
-    "answer": 0,
-    "answerText": "It is typically non-hemolytic and causes urinary tract infections",
-    "explanation": "Staphylococcus saprophyticus is coagulase-negative, non-hemolytic, and commonly causes urinary tract infections, especially in young women.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 21</span> Which one of the following bacteria produces secretory IgA protease?",
-    "options": [
-      "Neisseria gonorrhoeae",
-      "Streptococcus pneumoniae",
-      "Group A Streptococcus",
-      "Staphylococcus aureus"
-    ],
-    "answer": 1,
-    "answerText": "Streptococcus pneumoniae",
-    "explanation": "Streptococcus pneumoniae produces IgA protease, which helps it evade mucosal immunity.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 22</span> Which antibiotic is NOT recommended for treating infections caused by vancomycin and ampicillin-resistant Enterococcus faecium?",
-    "options": [
-      "Linezolid",
-      "Daptomycin",
-      "Cephalosporin",
-      "Tigecycline"
-    ],
-    "answer": 2,
-    "answerText": "Cephalosporin",
-    "explanation": "Enterococcus faecium is intrinsically resistant to cephalosporins.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 23</span> The use of vaginal/rectal swabs and LIM broth medium increases the recovery of…………",
-    "options": [
-      "Streptococcus pyogenes",
-      "Streptococcus pneumoniae",
-      "Streptococcus agalactiae",
-      "Streptococcus viridans"
-    ],
-    "answer": 2,
-    "answerText": "Streptococcus agalactiae",
-    "explanation": "LIM broth is a selective medium that enhances the detection of Streptococcus agalactiae (Group B Streptococcus), especially in pregnant women.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 24</span> Which of the following cell components produced by Neisseria gonorrhoeae is responsible for motility and transfer of genetic material?",
-    "options": [
-      "Capsule",
-      "Pili",
-      "Outer membrane protein",
-      "Lipopolysaccharide"
-    ],
-    "answer": 1,
-    "answerText": "Pili",
-    "explanation": "Pili facilitate motility and genetic exchange (e.g., conjugation) in Neisseria gonorrhoeae.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 25</span> A 25-year-old woman presents with septic arthritis of the knee. The fluid aspirate grows a Gram-negative diplococcus on chocolate agar after 48 hours of incubation. The isolate is oxidase positive and oxidizes glucose but not maltose. You suspect infection with",
-    "options": [
-      "Neisseria meningitidis",
-      "Neisseria gonorrhoeae",
-      "Moraxella catarrhalis",
-      "Haemophilus influenzae"
-    ],
-    "answer": 1,
-    "answerText": "Neisseria gonorrhoeae",
-    "explanation": "Neisseria gonorrhoeae is a glucose fermenter but does not ferment maltose, differentiating it from Neisseria meningitidis.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 26</span> Which of the following diseases due to Neisseria gonorrhoeae can lead to ectopic pregnancy or infertility?",
-    "options": [
-      "Gonococcal arthritis",
-      "Pelvic inflammatory disease",
-      "Ophthalmia neonatorum",
-      "Waterhouse-Friderichsen syndrome"
-    ],
-    "answer": 1,
-    "answerText": "Pelvic inflammatory disease",
-    "explanation": "Pelvic inflammatory disease (PID) is a complication of gonorrhea, potentially leading to infertility or ectopic pregnancy.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 27</span> What is the preferred regimen for treating Pelvic inflammatory disease caused by Neisseria gonorrhoeae?",
-    "options": [
-      "Ceftriaxone plus penicillin",
-      "Ceftriaxone plus doxycycline",
-      "Azithromycin alone",
-      "Ciprofloxacin"
-    ],
-    "answer": 1,
-    "answerText": "Ceftriaxone plus doxycycline",
-    "explanation": "Ceftriaxone and doxycycline are the preferred combination therapy for PID caused by N. gonorrhoeae.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 28</span> Which one of the following produces Protective Antigen as an important virulence factor?",
-    "options": [
-      "Clostridium tetani",
-      "Bacillus anthracis",
-      "Corynebacterium diphtheriae",
-      "Clostridium perfringens"
-    ],
-    "answer": 1,
-    "answerText": "Bacillus anthracis",
-    "explanation": "Bacillus anthracis produces Protective Antigen (PA), a component of its anthrax toxin.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 29</span> Select the best answer;<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739751682343_SmartSelect___WebtoPDFconverterPro.jpg' alt='Image for Q29' style='max-width:100%; height:auto;' data-filepath='pic/1739751682343_SmartSelect___WebtoPDFconverterPro.jpg'>",
-    "options": [
-      "1, 2, and 4 are correct",
-      "1, 3, and 4 are correct",
-      "Only 3 is correct",
-      "All options are correct"
-    ],
-    "answer": 1,
-    "answerText": "1, 3, and 4 are correct",
-    "explanation": "Bacillus cereus, Bordetella pertussis, and Haemophilus influenzae type b (Hib) are accurately described in the table.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 30</span> A 5-year-old boy presents with 3 days of fever, and malaise. He has no records of vaccination. Other physical findings include middle ear infection and conjunctivitis. He appears pale and presents with some stiffness in his neck, and moderate shortness of breath. His blood cultures grow a hemolytic pleomorphic Gram (-) rod that is tested positive for X and V factor. The most likely causative pathogen is:",
-    "options": [
-      "Haemophilus influenzae",
-      "Neisseria meningitidis",
-      "Streptococcus pneumoniae",
-      "Moraxella catarrhalis"
-    ],
-    "answer": 0,
-    "answerText": "Haemophilus influenzae",
-    "explanation": "Haemophilus influenzae type b requires both X (hemin) and V (NAD) factors for growth and is a common cause of invasive infections in unvaccinated children.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 31</span> A 45-year-old fisherman was injured by a fishhook into his finger. After 5 days, he had fever, severe pain, and swelling of the injured finger with a red-violet nodule, which was aspirated and cultured. After 48 hours, colonies of a Gram (+) bacillus that was weakly hemolytic (greenish discoloration of blood agar) was seen that formed long filaments in the broth culture. The most likely cause of this infection is;",
-    "options": [
-      "Actinobacillus actinomycetemcomitans",
-      "Erysipelothrix rhusiopathiae",
-      "Vibrio vulnificus",
-      "Pasteurella multocida"
-    ],
-    "answer": 1,
-    "answerText": "Erysipelothrix rhusiopathiae",
-    "explanation": "Erysipelothrix rhusiopathiae is a Gram-positive rod associated with fish and animal handling injuries, causing erysipeloid skin infections.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 32</span> An 8-year-old girl was bitten by a stray dog. Two days later, the bite wound was red and swollen, and drained purulent (pus) fluid. Examination reveals that she had low-grade fever, headache, and enlarged lymph nodes in her left axilla. Culture of fluid from her wound recovered colonies of a Gram (-) bacillus. Her signs and symptoms improved after treatment with appropriate doses of Penicillin G. Based on the patient’s history and physical examination, which of the following will be the most likely cause of this infection?",
-    "options": [
-      "Bartonella henselae",
-      "Pasteurella multocida",
-      "Bacteroides bacilliformis",
-      "Capnocytophaga canimorsus"
-    ],
-    "answer": 1,
-    "answerText": "Pasteurella multocida",
-    "explanation": "Pasteurella multocida is a Gram-negative rod commonly transmitted through animal bites, especially from dogs and cats.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 33</span> Which antibiotic is known for its potential to cause aplastic anemia?",
-    "options": [
-      "Vancomycin",
-      "Chloramphenicol",
-      "Gentamicin",
-      "Linezolid"
-    ],
-    "answer": 1,
-    "answerText": "Chloramphenicol",
-    "explanation": "Chloramphenicol can cause rare but serious side effects, including aplastic anemia.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 34</span> Vancomycin is primarily effective against:",
-    "options": [
-      "Gram-negative bacteria",
-      "Anaerobic bacteria",
-      "Gram-positive bacteria",
-      "Mycobacteria"
-    ],
-    "answer": 2,
-    "answerText": "Gram-positive bacteria",
-    "explanation": "Vancomycin is primarily effective against Gram-positive bacteria, including MRSA.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 35</span> What type of disinfection destroys all microbial pathogens except “bacterial spores”?",
-    "options": [
-      "Low-level disinfection",
-      "Intermediate-level disinfection",
-      "High-level disinfection",
-      "Sterilization"
-    ],
-    "answer": 1,
-    "answerText": "Intermediate-level disinfection",
-    "explanation": "Intermediate-level disinfection eliminates vegetative bacteria, most viruses, and fungi but does not kill bacterial spores.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 36</span> Which of the following is an example of growth factors?",
-    "options": [
-      "Carbohydrates",
-      "Amino acids",
-      "Water",
-      "Nucleic acids"
-    ],
-    "answer": 1,
-    "answerText": "Amino acids",
-    "explanation": "Amino acids are growth factors that bacteria require for protein synthesis and growth.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 37</span> Group A streptococci are the most common bacterial cause of pharyngitis in school-age children 5–15 years of age. All of the following components involved in adherence of this bacteria to fibronectin Except",
-    "options": [
-      "M protein",
-      "Lipoteichoic acid",
-      "A protein",
-      "F protein"
-    ],
-    "answer": 2,
-    "answerText": "A protein",
-    "explanation": "M protein, lipoteichoic acid, and F protein are adhesion factors for Group A streptococci; A protein is a virulence factor of Staphylococcus aureus.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 38</span> Which of the following bacteria can cause a zoonotic infection (can be transmitted from animals)?",
-    "options": [
-      "Legionella pneumophila",
-      "Brucella melitensis",
-      "Shigella dysenteriae",
-      "Bordetella pertussis"
-    ],
-    "answer": 1,
-    "answerText": "Brucella melitensis",
-    "explanation": "Brucella melitensis is a zoonotic pathogen transmitted through contact with infected animals or unpasteurized dairy products.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 39</span> Which of the following bacteria is a well-known cause of a sexually transmitted disease (STD)?",
-    "options": [
-      "Haemophilus ducreyi",
-      "Chlamydia pneumoniae",
-      "Escherichia coli",
-      "Staphylococcus saprophyticus"
-    ],
-    "answer": 0,
-    "answerText": "Haemophilus ducreyi",
-    "explanation": "Haemophilus ducreyi causes chancroid, a sexually transmitted genital ulcer disease.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 40</span> Select the best statement regarding Listeria monocytogenes;",
-    "options": [
-      "It grows at refrigeration temperature.",
-      "It can cause neonatal sepsis.",
-      "It is an intracellular pathogen.",
-      "All of the options are correct"
-    ],
-    "answer": 3,
-    "answerText": "All of the options are correct",
-    "explanation": "Listeria monocytogenes is a foodborne pathogen with the ability to grow at refrigeration temperatures and cause severe infections, including neonatal sepsis.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 41</span> Select the best choice, regarding Pontiac Fever and Legionnaire’s disease;",
-    "options": [
-      "Both are caused by Legionella pneumophila serotype 1, and both are seasonal diseases.",
-      "Pontiac Fever commonly presents as a mild self-limiting disease",
-      "Legionnaire’s disease is a mild febrile illness without pneumonia.",
-      "Pontiac Fever requires antibiotic treatment."
-    ],
-    "answer": 1,
-    "answerText": "Pontiac Fever commonly presents as a mild self-limiting disease",
-    "explanation": "Pontiac Fever is a mild, self-limiting illness, while Legionnaire’s disease is a severe pneumonia requiring treatment.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 42</span> Select the best choice;<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739751684078_SmartSelect___WebtoPDFconverterPro.jpg' alt='Image for Q42' style='max-width:100%; height:auto;' data-filepath='pic/1739751684078_SmartSelect___WebtoPDFconverterPro.jpg'>",
-    "options": [
-      "Only 1 is correct",
-      "Only 2 is correct",
-      "All options are correct",
-      "None are correct"
-    ],
-    "answer": 2,
-    "answerText": "All options are correct",
-    "explanation": "The culture conditions for Legionella pneumophila, Haemophilus influenzae, and Bacteroides fragilis are accurately described in the table.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 43</span> All the following statements regarding anaerobes are true, EXCEPT;",
-    "options": [
-      "Many species are part of the normal human microbiota.",
-      "They are often involved in polymicrobial infections.",
-      "They are commonly isolated from deep abscesses.",
-      "They possess the enzyme cytochrome oxidase"
-    ],
-    "answer": 3,
-    "answerText": "They possess the enzyme cytochrome oxidase",
-    "explanation": "Anaerobes lack cytochrome oxidase, which is involved in aerobic respiration.",
-    "userAnswer": null
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 44</span> Select the best choice;<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739751686077_SmartSelect___WebtoPDFconverterPro.jpg' alt='Image for Q44' style='max-width:100%; height:auto;' data-filepath='pic/1739751686077_SmartSelect___WebtoPDFconverterPro.jpg'>",
-    "options": [
-      "Only 1 is correct",
-      "1, 2, and 3 are correct",
-      "Only 2 is correct",
-      "2 and 3 are correct"
-    ],
-    "answer": 1,
-    "answerText": "1, 2, and 3 are correct",
-    "explanation": "Bacillus anthracis, Haemophilus ducreyi, and Corynebacterium diphtheriae are accurately described in the table.",
     "userAnswer": null
   }
 ]
