@@ -388,5 +388,265 @@
     "answerText": "Long thoracic nerve",
     "explanation": "The long thoracic nerve innervates the serratus anterior, which is essential for scapular protraction and stabilization.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 1</span> Which one is located in the anterior mediastinum?",
+    "options": [
+      "Trachea",
+      "Left atrium",
+      "Thymus",
+      "Esophagus"
+    ],
+    "answer": 2,
+    "answerText": "Thymus",
+    "explanation": "The thymus is located in the anterior mediastinum, while the trachea and esophagus are found in the superior and posterior mediastinum, respectively.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 2</span> Where is location of apex of the heart?",
+    "options": [
+      "Right 6th intercostal space",
+      "Left 5th intercostal space",
+      "Right 4th intercostal space",
+      "Left 6th intercostal space"
+    ],
+    "answer": 1,
+    "answerText": "Left 5th intercostal space",
+    "explanation": "The apex of the heart is located at the left 5th intercostal space, typically near the midclavicular line.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 3</span> Which one is located on the lateral wall of the right atrium?",
+    "options": [
+      "Crista terminalis",
+      "Tricuspid valve",
+      "Coronary sinus",
+      "AV node"
+    ],
+    "answer": 0,
+    "answerText": "Crista terminalis",
+    "explanation": "The crista terminalis is a muscular ridge on the lateral wall of the right atrium, marking the boundary between the smooth and rough parts.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 4</span> Where is location of moderator band or septomarginal trabecula?",
+    "options": [
+      "Right atrium",
+      "Right ventricle",
+      "Left ventricle",
+      "Pulmonary trunk"
+    ],
+    "answer": 1,
+    "answerText": "Right ventricle",
+    "explanation": "The moderator band is a muscular structure found in the right ventricle, extending from the interventricular septum to the anterior papillary muscle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 5</span> Apex of the heart is formed by:",
+    "options": [
+      "Right ventricle",
+      "Left ventricle",
+      "Left atrium",
+      "Right atrium"
+    ],
+    "answer": 1,
+    "answerText": "Left ventricle",
+    "explanation": "The apex of the heart is primarily formed by the left ventricle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 6</span> Where is location of coronary sinus?",
+    "options": [
+      "Between left atrium and left ventricle",
+      "Between right atrium and right ventricle",
+      "In the anterior interventricular groove",
+      "Behind the pulmonary trunk"
+    ],
+    "answer": 0,
+    "answerText": "Between left atrium and left ventricle",
+    "explanation": "The coronary sinus is located posteriorly between the left atrium and the left ventricle, draining venous blood from the heart.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 7</span> Which one is located in the bottom of the right atrium near septum?",
+    "options": [
+      "Atrioventricular bundle",
+      "AV node",
+      "Crista terminalis",
+      "Coronary sinus"
+    ],
+    "answer": 1,
+    "answerText": "AV node",
+    "explanation": "The AV node is situated at the bottom of the right atrium near the septum, crucial for electrical conduction.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 8</span> 7th anterior intercostal artery is a branch of the:",
+    "options": [
+      "Internal thoracic artery",
+      "Musculophrenic artery",
+      "Subclavian artery",
+      "Superior epigastric artery"
+    ],
+    "answer": 1,
+    "answerText": "Musculophrenic artery",
+    "explanation": "The 7th anterior intercostal artery arises from the musculophrenic artery, a branch of the internal thoracic artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 9</span> Lateral cutaneous branch of which intercostal nerve contributes in innervation of medial surface of the arm?",
+    "options": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "answer": 1,
+    "answerText": "T2",
+    "explanation": "The lateral cutaneous branch of the second intercostal nerve (T2), also called the intercostobrachial nerve, innervates the medial surface of the arm.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 10</span> Which part of the rib is articulated to articular facet of the transverse process of thoracic vertebra?",
+    "options": [
+      "Head",
+      "Neck",
+      "Tubercle",
+      "Costal groove"
+    ],
+    "answer": 2,
+    "answerText": "Tubercle",
+    "explanation": "The tubercle of the rib articulates with the transverse process of the corresponding thoracic vertebra.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 11</span> Scalene tubercle is a tubercle on the superior surface of:",
+    "options": [
+      "First rib",
+      "Second rib",
+      "Third rib",
+      "Clavicle"
+    ],
+    "answer": 0,
+    "answerText": "First rib",
+    "explanation": "The scalene tubercle is a bony prominence on the first rib where the anterior scalene muscle attaches.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 12</span> In the anatomical position, jugular notch is at the level of which vertebra?",
+    "options": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "answer": 1,
+    "answerText": "T2",
+    "explanation": "The jugular notch is located at the level of the T2 vertebra in the anatomical position.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 13</span> Base of the breast vertically extends from … rib to … rib.",
+    "options": [
+      "Second - sixth",
+      "First - fifth",
+      "Third - seventh",
+      "Fourth - eighth"
+    ],
+    "answer": 0,
+    "answerText": "Second - sixth",
+    "explanation": "The base of the breast extends vertically from the second to the sixth ribs.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 14</span> Nipple of the breast is innervated by:",
+    "options": [
+      "3rd intercostal nerve",
+      "4th intercostal nerve",
+      "5th intercostal nerve",
+      "6th intercostal nerve"
+    ],
+    "answer": 1,
+    "answerText": "4th intercostal nerve",
+    "explanation": "The nipple is innervated by the 4th intercostal nerve.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 15</span> Serratus anterior muscle is innervated by:",
+    "options": [
+      "Medial pectoral nerve",
+      "Lateral pectoral nerve",
+      "Long thoracic nerve",
+      "Thoracodorsal nerve"
+    ],
+    "answer": 2,
+    "answerText": "Long thoracic nerve",
+    "explanation": "The serratus anterior muscle is supplied by the long thoracic nerve, which arises from C5, C6, and C7.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 16</span> Anterior interventricular artery is a branch of:",
+    "options": [
+      "Right coronary artery",
+      "Left coronary artery",
+      "Circumflex artery",
+      "Marginal artery"
+    ],
+    "answer": 1,
+    "answerText": "Left coronary artery",
+    "explanation": "The anterior interventricular artery is a branch of the left coronary artery, also known as the left anterior descending artery (LAD).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 17</span> Which one passes through diaphragm at the level of T8?",
+    "options": [
+      "Esophagus",
+      "Inferior vena cava",
+      "Aorta",
+      "Thoracic duct"
+    ],
+    "answer": 1,
+    "answerText": "Inferior vena cava",
+    "explanation": "The inferior vena cava passes through the diaphragm at the level of T8.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 18</span> Which one is insertion of the pectoralis minor muscle?",
+    "options": [
+      "Acromion",
+      "Coracoid process",
+      "Clavicle",
+      "Greater tubercle"
+    ],
+    "answer": 1,
+    "answerText": "Coracoid process",
+    "explanation": "The pectoralis minor muscle inserts on the coracoid process of the scapula.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 19</span> Which one has pectinate muscles?",
+    "options": [
+      "Posterior part of the right atrium",
+      "Left auricle",
+      "Right ventricle",
+      "Coronary sinus"
+    ],
+    "answer": 1,
+    "answerText": "Left auricle",
+    "explanation": "Pectinate muscles are present in the left auricle and the right atrium.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Hasanzadeh - Question 20</span> Sternal angle is at the level of:",
+    "options": [
+      "T2",
+      "Intervertebral disc between T4 and T5",
+      "T6",
+      "T8"
+    ],
+    "answer": 1,
+    "answerText": "Intervertebral disc between T4 and T5",
+    "explanation": "The sternal angle is at the level of the intervertebral disc between T4 and T5, an important anatomical landmark.",
+    "userAnswer": null
   }
 ]
