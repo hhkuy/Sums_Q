@@ -258,5 +258,395 @@
     "answerText": "Thyroid cartilage",
     "explanation": "The laryngeal prominence (Adam’s apple) is formed by the thyroid cartilage in the larynx.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 1</span> Which laryngeal muscle is innervated by external laryngeal nerve?",
+    "options": [
+      "Posterior cricoarytenoid",
+      "Lateral cricoarytenoid",
+      "Cricothyroid",
+      "Thyroarytenoid"
+    ],
+    "answer": 2,
+    "answerText": "Cricothyroid",
+    "explanation": "The external laryngeal nerve innervates only the cricothyroid muscle, which tenses the vocal cords.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 2</span> Which type of epithelium is in the maxillary sinus?",
+    "options": [
+      "Simple squamous",
+      "Stratified squamous",
+      "Pseudostratified",
+      "Cuboidal"
+    ],
+    "answer": 2,
+    "answerText": "Pseudostratified",
+    "explanation": "The maxillary sinus is lined by pseudostratified columnar epithelium with cilia, typical of respiratory epithelium.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 3</span> Vocal folds are lined by which type of the epithelium?",
+    "options": [
+      "Pseudostratified",
+      "Simple cuboidal",
+      "Squamous stratified",
+      "Simple squamous"
+    ],
+    "answer": 2,
+    "answerText": "Squamous stratified",
+    "explanation": "Vocal folds are covered by non-keratinized stratified squamous epithelium to withstand mechanical stress.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 4</span> Where is the location of Galen anastomosis?",
+    "options": [
+      "Aryepiglottic fold",
+      "Piriform recess",
+      "Vestibular fold",
+      "Vallecula"
+    ],
+    "answer": 1,
+    "answerText": "Piriform recess",
+    "explanation": "Galen anastomosis is a connection between the internal and recurrent laryngeal nerves located near the piriform recess.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 5</span> In which part of the tracheobronchial tree are there more Clara’s cells?",
+    "options": [
+      "Main bronchus",
+      "Segmental bronchus",
+      "Respiratory bronchiole",
+      "Trachea"
+    ],
+    "answer": 2,
+    "answerText": "Respiratory bronchiole",
+    "explanation": "Clara cells, which secrete surfactant-like protein, are more abundant in the respiratory bronchioles.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 6</span> After 30 years smoking in the 60-year-old man epithelium of the trachea becomes squamous stratified, what is the name of this transition?",
+    "options": [
+      "Dysplasia",
+      "Hyperplasia",
+      "Metaplasia",
+      "Neoplasia"
+    ],
+    "answer": 2,
+    "answerText": "Metaplasia",
+    "explanation": "Metaplasia is the reversible change of one epithelial type to another due to chronic irritation, like smoking.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 7</span> Which structures pass through thyrohyoid membrane?",
+    "options": [
+      "Recurrent laryngeal nerve and inferior thyroid artery",
+      "External laryngeal nerve and superior thyroid vein",
+      "Internal laryngeal nerve and superior laryngeal artery",
+      "Ansa cervicalis and inferior laryngeal artery"
+    ],
+    "answer": 2,
+    "answerText": "Internal laryngeal nerve and superior laryngeal artery",
+    "explanation": "The internal laryngeal nerve and superior laryngeal artery pierce the thyrohyoid membrane to supply the larynx.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 8</span> Which one has simple columnar epithelium, without Goblet cells and lack of glands and cartilage?",
+    "options": [
+      "Respiratory bronchiole",
+      "Terminal bronchiole",
+      "Segmental bronchus",
+      "Trachea"
+    ],
+    "answer": 1,
+    "answerText": "Terminal bronchiole",
+    "explanation": "Terminal bronchioles are lined with simple columnar epithelium without goblet cells, glands, or cartilage.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 9</span> In the structure of which laryngeal cartilage are there hyaline and elastic cartilages?",
+    "options": [
+      "Thyroid",
+      "Arytenoid",
+      "Cricoid",
+      "Epiglottis"
+    ],
+    "answer": 1,
+    "answerText": "Arytenoid",
+    "explanation": "The arytenoid cartilage has a hyaline base and elastic apex and processes.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 10</span> In the mid axillary line inferior border of the pleura is at the level of which rib?",
+    "options": [
+      "8th",
+      "9th",
+      "10th",
+      "11th"
+    ],
+    "answer": 2,
+    "answerText": "10th",
+    "explanation": "In the mid-axillary line, the pleura extends down to the 10th rib.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 11</span> Which cell in the respiratory epithelium is a stem cell that repairs other cells?",
+    "options": [
+      "Goblet cell",
+      "Basal cell",
+      "Clara cell",
+      "Pneumocyte type I"
+    ],
+    "answer": 1,
+    "answerText": "Basal cell",
+    "explanation": "Basal cells serve as stem cells, regenerating other epithelial cells.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 12</span> Right bronchiolar artery is a branch of which one?",
+    "options": [
+      "3rd right intercostal artery",
+      "6th right intercostal artery",
+      "Right bronchial vein",
+      "Aortic arch"
+    ],
+    "answer": 0,
+    "answerText": "3rd right intercostal artery",
+    "explanation": "The right bronchial artery commonly arises from the 3rd right posterior intercostal artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 13</span> Which one is the first stage in development of the lung?",
+    "options": [
+      "Canalicular",
+      "Saccular",
+      "Alveolar",
+      "Pseudoglandular"
+    ],
+    "answer": 3,
+    "answerText": "Pseudoglandular",
+    "explanation": "The pseudoglandular stage is the earliest phase of lung development (weeks 5-17).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 14</span> Where is the location of suprapleural (Sibson’s) membrane?",
+    "options": [
+      "Between first rib and transverse process of the C7",
+      "Between first rib and clavicle",
+      "Above the apex of the heart",
+      "Over the sternum"
+    ],
+    "answer": 0,
+    "answerText": "Between first rib and transverse process of the C7",
+    "explanation": "Sibson’s membrane reinforces the pleura over the apex of the lung, attached to the first rib and C7 transverse process.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 15</span> Which structure is located between neck of the first rib and apex of the lung?",
+    "options": [
+      "Stellate ganglion",
+      "Brachial plexus",
+      "Internal thoracic artery",
+      "Phrenic nerve"
+    ],
+    "answer": 0,
+    "answerText": "Stellate ganglion",
+    "explanation": "The stellate ganglion is found between the neck of the first rib and the apex of the lung.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 16</span> Why inhaled foreign bodies tend to lodge more frequently on the right main bronchus than on the left?",
+    "options": [
+      "Right main bronchus is longer",
+      "Right main bronchus is wider",
+      "Left main bronchus is straighter",
+      "Left main bronchus is shorter"
+    ],
+    "answer": 1,
+    "answerText": "Right main bronchus is wider",
+    "explanation": "The right main bronchus is shorter, wider, and more vertical than the left, favoring foreign body entry.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 17</span> Which one is called eparterial bronchus?",
+    "options": [
+      "Inferior lobar bronchus on the right side",
+      "Superior lobar bronchus on the left side",
+      "Superior lobar bronchus on the right side",
+      "Middle lobar bronchus"
+    ],
+    "answer": 2,
+    "answerText": "Superior lobar bronchus on the right side",
+    "explanation": "The superior lobar bronchus on the right is termed “eparterial” as it passes above the pulmonary artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 18</span> Where is the location of pharyngeal tonsil?",
+    "options": [
+      "Superior wall of the nasopharynx",
+      "Inferior wall of the nasopharynx",
+      "Posterior wall of the oropharynx",
+      "Anterior wall of the oropharynx"
+    ],
+    "answer": 0,
+    "answerText": "Superior wall of the nasopharynx",
+    "explanation": "The pharyngeal tonsil is located on the superior posterior wall of the nasopharynx.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 19</span> Which one is between nasopharynx and oropharynx?",
+    "options": [
+      "Soft palate",
+      "Epiglottis",
+      "Uvula",
+      "Palatine tonsil"
+    ],
+    "answer": 0,
+    "answerText": "Soft palate",
+    "explanation": "The soft palate separates the nasopharynx from the oropharynx.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 20</span> Which one is epithelium of the nasopharynx?",
+    "options": [
+      "Pseudostratified",
+      "Stratified squamous",
+      "Simple columnar",
+      "Simple squamous"
+    ],
+    "answer": 0,
+    "answerText": "Pseudostratified",
+    "explanation": "The nasopharynx is lined with pseudostratified columnar epithelium with cilia.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 21</span> Which structure is related to the creation of the nasal cycle?",
+    "options": [
+      "Swell body",
+      "Vibrissae",
+      "Concha",
+      "Meatus"
+    ],
+    "answer": 0,
+    "answerText": "Swell body",
+    "explanation": "The swell body is involved in regulating airflow alternately between nasal cavities, causing the nasal cycle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 22</span> Which paranasal sinus drains into the sphenoethmoidal recess?",
+    "options": [
+      "Maxillary",
+      "Frontal",
+      "Sphenoid",
+      "Ethmoid"
+    ],
+    "answer": 2,
+    "answerText": "Sphenoid",
+    "explanation": "The sphenoid sinus drains into the sphenoethmoidal recess.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 23</span> Superior free border of the conus elasticus makes which one?",
+    "options": [
+      "Vocal ligament",
+      "Vestibular ligament",
+      "Cricothyroid membrane",
+      "Aryepiglottic fold"
+    ],
+    "answer": 0,
+    "answerText": "Vocal ligament",
+    "explanation": "The upper free edge of the conus elasticus forms the vocal ligament.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 24</span> Which nerve innervates mucosa of the larynx superior to vocal folds?",
+    "options": [
+      "Recurrent laryngeal nerve",
+      "External laryngeal nerve",
+      "Internal laryngeal nerve",
+      "Superior cervical ganglion"
+    ],
+    "answer": 2,
+    "answerText": "Internal laryngeal nerve",
+    "explanation": "The internal laryngeal nerve innervates the mucosa above the vocal folds.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 25</span> Which one is a branch of the ophthalmic artery?",
+    "options": [
+      "Anterior ethmoidal",
+      "Superior thyroid",
+      "Inferior alveolar",
+      "Lingual"
+    ],
+    "answer": 0,
+    "answerText": "Anterior ethmoidal",
+    "explanation": "The anterior ethmoidal artery is a branch of the ophthalmic artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 26</span> When paranasal sinuses reach maximum size?",
+    "options": [
+      "At birth",
+      "At puberty",
+      "At age 5",
+      "At age 3"
+    ],
+    "answer": 1,
+    "answerText": "At puberty",
+    "explanation": "Paranasal sinuses enlarge significantly and reach their maximum size at puberty.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 27</span> Which part of the pleura is innervated by phrenic nerve?",
+    "options": [
+      "Visceral pleura",
+      "Costal pleura",
+      "Mediastinal pleura",
+      "Diaphragmatic pleura (peripheral part)"
+    ],
+    "answer": 2,
+    "answerText": "Mediastinal pleura",
+    "explanation": "The phrenic nerve supplies the mediastinal pleura and the central part of the diaphragmatic pleura.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 28</span> Which cell is called dust cell?",
+    "options": [
+      "Pneumocyte type I",
+      "Pneumocyte type II",
+      "Macrophage in the alveolus",
+      "Clara cell"
+    ],
+    "answer": 2,
+    "answerText": "Macrophage in the alveolus",
+    "explanation": "Dust cells are alveolar macrophages responsible for cleaning debris in the alveoli.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 29</span> Which one is the origin of laryngeal cartilages?",
+    "options": [
+      "2nd pharyngeal arch",
+      "3rd pharyngeal arch",
+      "4th and 6th pharyngeal arches",
+      "1st pharyngeal arch"
+    ],
+    "answer": 2,
+    "answerText": "4th and 6th pharyngeal arches",
+    "explanation": "Laryngeal cartilages develop from the 4th and 6th pharyngeal arches.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-10-28) Dr. Hasanzadeh - Question 30</span> Which congenital malformation is related to incomplete formation of the tracheoesophageal septum?",
+    "options": [
+      "Tracheomalacia",
+      "Esophageal atresia",
+      "Laryngomalacia",
+      "Esophageal hernia"
+    ],
+    "answer": 1,
+    "answerText": "Esophageal atresia",
+    "explanation": "Esophageal atresia results from incomplete formation of the tracheoesophageal septum during development.",
+    "userAnswer": null
   }
 ]
