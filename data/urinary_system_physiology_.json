@@ -273,6 +273,136 @@
     "userAnswer": null
   },
   {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Mehri Kadkhodaee - Question 1</span> The majority of secretion and reabsorption in the kidneys occur in:",
+    "options": [
+      "Henle",
+      "Distal tubule",
+      "Collecting ducts",
+      "Proximal"
+    ],
+    "answer": 3,
+    "answerText": "Proximal",
+    "explanation": "The proximal tubule is responsible for the majority of secretion and reabsorption in the kidneys.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Mehri Kadkhodaee - Question 2</span> The concentration of which ion is less in filtrate than plasma?",
+    "options": [
+      "Sodium",
+      "Potassium",
+      "Calcium",
+      "Bicarbonate"
+    ],
+    "answer": 2,
+    "answerText": "Calcium",
+    "explanation": "Calcium concentration is lower in the filtrate compared to plasma due to protein binding.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Mehri Kadkhodaee - Question 3</span> Which one is secreted in exchange with sodium in the distal tubule?",
+    "options": [
+      "Potassium",
+      "Hydrogen ion",
+      "Bicarbonate",
+      "Sodium"
+    ],
+    "answer": 0,
+    "answerText": "Potassium",
+    "explanation": "Potassium is secreted in exchange for sodium in the distal tubule under the influence of aldosterone.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Mehri Kadkhodaee - Question 4</span> The main function of principal (P) cells is…….. and they are located in …………:",
+    "options": [
+      "Sodium reabsorption – collecting ducts",
+      "Hydrogen ion secretion – collecting ducts",
+      "Potassium secretion – proximal tubule",
+      "Water reabsorption – loop of Henle"
+    ],
+    "answer": 0,
+    "answerText": "Sodium reabsorption – collecting ducts",
+    "explanation": "Principal cells in the collecting ducts primarily regulate sodium reabsorption and potassium secretion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Mehri Kadkhodaee - Question 5</span> A decreased pH, higher hydrogen concentration, pCO2 of more than normal, which will be followed with an increased bicarbonate concentration is:",
+    "options": [
+      "Respiratory acidosis",
+      "Respiratory alkalosis",
+      "Metabolic acidosis",
+      "Metabolic alkalosis"
+    ],
+    "answer": 0,
+    "answerText": "Respiratory acidosis",
+    "explanation": "Respiratory acidosis results from increased CO2, causing decreased pH and increased bicarbonate as compensation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Mehri Kadkhodaee - Question 6</span> Which one has a lower renal clearance?",
+    "options": [
+      "Sodium",
+      "Potassium",
+      "Glucose",
+      "Bicarbonate"
+    ],
+    "answer": 2,
+    "answerText": "Glucose",
+    "explanation": "Glucose has the lowest renal clearance under normal conditions as it is almost completely reabsorbed.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Mehri Kadkhodaee - Question 7</span> In the absence of ADH, the highest percentage of water reabsorption occurs in:",
+    "options": [
+      "Collecting ducts",
+      "Henle",
+      "Proximal",
+      "Distal tubule"
+    ],
+    "answer": 2,
+    "answerText": "Proximal",
+    "explanation": "In the absence of ADH, most water reabsorption occurs in the proximal tubule.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Mehri Kadkhodaee - Question 8</span> In the presence of ADH, the highest percentage of water reabsorption occurs in:",
+    "options": [
+      "Collecting ducts",
+      "Henle",
+      "Proximal",
+      "Distal tubule"
+    ],
+    "answer": 2,
+    "answerText": "Proximal",
+    "explanation": "Even with ADH, the proximal tubule still reabsorbs the highest percentage of water.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Mehri Kadkhodaee - Question 9</span> What is the effect of stimulation of the sympathetic nervous system on reabsorption in the kidneys?",
+    "options": [
+      "Increase",
+      "Decrease",
+      "No effect",
+      "Sodium secretion"
+    ],
+    "answer": 0,
+    "answerText": "Increase",
+    "explanation": "Sympathetic stimulation increases sodium and water reabsorption in the kidneys.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Mehri Kadkhodaee - Question 10</span> Bartter syndrome occurs as a result of damage of which cells?",
+    "options": [
+      "Henle",
+      "Distal",
+      "Proximal",
+      "Collecting ducts"
+    ],
+    "answer": 0,
+    "answerText": "Henle",
+    "explanation": "Bartter syndrome is associated with a defect in the thick ascending limb of the loop of Henle, impairing sodium, potassium, and chloride reabsorption.",
+    "userAnswer": null
+  },
+  {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 1</span> How much is the renal blood flow (RBF) every minute?",
     "options": [
       "125 ml",
