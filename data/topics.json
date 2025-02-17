@@ -154,7 +154,11 @@
         "file": "data/cardiovascular_system_block_embryology.json"
       },
       {
-        "name": "Anatomy, histology & embryology",
+        "name": "Histology & Embryology",
+        "file": "data/cardiovascular_system_block_histology_&_embryology.json"
+      },
+      {
+        "name": "Anatomy, Histology & Embryology",
         "file": "data/cardiovascular_system_block_anatomy,_histology_&_embryology.json"
       }
     ]
