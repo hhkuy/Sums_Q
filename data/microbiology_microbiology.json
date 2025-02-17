@@ -1144,6 +1144,526 @@
     "userAnswer": null
   },
   {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 1</span> Which drug is used for the treatment Leprosy?",
+    "options": [
+      "Moxifloxacin",
+      "Dapson",
+      "Rifampin",
+      "Clofazimine"
+    ],
+    "answer": 1,
+    "answerText": "Dapson",
+    "explanation": "Dapson is the mainstay of leprosy treatment, often combined with rifampin and clofazimine.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 2</span> Select the correct Mycobacterium that is Scotochromogen:",
+    "options": [
+      "M. microtii",
+      "M. scrofulaceum",
+      "M. tuberculosis",
+      "M. kansasii"
+    ],
+    "answer": 1,
+    "answerText": "M. scrofulaceum",
+    "explanation": "M. scrofulaceum is a scotochromogen, meaning it produces a yellow pigment in both light and dark conditions.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 3</span> All the following tests can evaluate the cell-mediated immunity response Except:",
+    "options": [
+      "Tuberculin skin test",
+      "Interferon-gamma release assay (IGRA)",
+      "Direct smear Microscopy",
+      "Lymphocyte proliferation test"
+    ],
+    "answer": 2,
+    "answerText": "Direct smear Microscopy",
+    "explanation": "Direct smear microscopy detects bacteria but does not assess cell-mediated immunity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 4</span> Which of the following choices is correct about the Rapidly growing mycobacteria?",
+    "options": [
+      "Growth in less than 7 days",
+      "Growth in more than 14 days",
+      "Growth in less than 24 hours",
+      "Non-culturable"
+    ],
+    "answer": 0,
+    "answerText": "Growth in less than 7 days",
+    "explanation": "Rapidly growing mycobacteria grow within 7 days, unlike typical slow-growing mycobacteria.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 5</span> All the following conditions predispose the patients to Nocardiosis Except:",
+    "options": [
+      "HIV infection",
+      "Organ transplantation",
+      "Cystic fibrosis, Steroid therapy",
+      "Immunotherapy to trigger the immunity"
+    ],
+    "answer": 3,
+    "answerText": "Immunotherapy to trigger the immunity",
+    "explanation": "Immunotherapy boosts immunity, whereas Nocardiosis is more common in immunocompromised patients.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 6</span> Complete the sentence with one of the following choices:",
+    "options": [
+      "Mycobacterium",
+      "Tsukamurella",
+      "Nocardia",
+      "Corynebacterium"
+    ],
+    "answer": 1,
+    "answerText": "Tsukamurella",
+    "explanation": "Tsukamurella is a partially acid-fast bacterium associated with catheter-related infections.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 7</span> Which toxin of Clostridium perfringens breaks lecithin?",
+    "options": [
+      "Enterotoxin",
+      "Theta-toxin",
+      "α-toxin",
+      "β-toxin"
+    ],
+    "answer": 2,
+    "answerText": "α-toxin",
+    "explanation": "α-toxin is a phospholipase (lecithinase) that hydrolyzes lecithin in cell membranes.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 8</span> All the following specimens can be used for laboratory diagnosis of pig bell disease (enteritis necroticans) Except:",
+    "options": [
+      "Stool",
+      "Intestinal content",
+      "Sputum",
+      "Tissue samples"
+    ],
+    "answer": 2,
+    "answerText": "Sputum",
+    "explanation": "Pig bell disease is an intestinal condition caused by Clostridium perfringens; sputum is not relevant.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 9</span> Select the correct choice to complete the following sentence",
+    "options": [
+      "Clostridium perfringens",
+      "Clostridium tetani",
+      "Clostridium difficile",
+      "Clostridium botulinum"
+    ],
+    "answer": 1,
+    "answerText": "Clostridium tetani",
+    "explanation": "Opisthotonos is a characteristic spasm caused by tetanus due to Clostridium tetani.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 10</span> Which of the following drugs is used against Clostridium difficile?",
+    "options": [
+      "Clindamycin",
+      "Metronidazole",
+      "Erythromycin",
+      "Vancomycin"
+    ],
+    "answer": 1,
+    "answerText": "Metronidazole",
+    "explanation": "Metronidazole is a first-line treatment for mild Clostridium difficile infections.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 11</span> Which of the following bacteria produces heat-labile toxins (LT)?",
+    "options": [
+      "Enteropathogenic E. coli (EPEC)",
+      "Enterotoxigenic E. coli (ETEC)",
+      "Enterohemorrhagic E. coli (EHEC)",
+      "Enteroinvasive E. coli (EIEC)"
+    ],
+    "answer": 1,
+    "answerText": "Enterotoxigenic E. coli (ETEC)",
+    "explanation": "ETEC produces heat-labile toxin (LT) and heat-stable toxin (ST), leading to watery diarrhea.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 12</span> Which of the following Escherichia coli (E. coli) pathotype mostly causes hemolytic uremic syndrome (HUS)?",
+    "options": [
+      "Enteropathogenic E. coli (EPEC)",
+      "Enterotoxigenic E. coli (ETEC)",
+      "Shiga toxin–producing E. coli (STEC)",
+      "Enteroinvasive E. coli (EIEC)"
+    ],
+    "answer": 2,
+    "answerText": "Shiga toxin–producing E. coli (STEC)",
+    "explanation": "STEC (e.g., E. coli O157:H7) produces Shiga toxin, causing HUS.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 13</span> Which of the following bacteria produces large quantities of urease and causes renal (kidney) stones?",
+    "options": [
+      "Proteus mirabilis",
+      "Klebsiella pneumoniae",
+      "Escherichia coli",
+      "Pseudomonas aeruginosa"
+    ],
+    "answer": 0,
+    "answerText": "Proteus mirabilis",
+    "explanation": "Proteus mirabilis produces urease, alkalinizing urine and leading to struvite kidney stones.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 14</span> All of the following bacteria usually invade into the bloodstream, Except:",
+    "options": [
+      "Salmonella Typhi",
+      "Escherichia coli",
+      "Acinetobacter lwoffii",
+      "Shigella boydii"
+    ],
+    "answer": 3,
+    "answerText": "Shigella boydii",
+    "explanation": "Shigella is primarily confined to the intestinal mucosa and rarely causes bacteremia.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 15</span> For Vibrio cholera, if culture will be delayed, the specimen should be mixed in a ………medium.",
+    "options": [
+      "Alkaline peptone water",
+      "Stuart’s transport medium",
+      "Cary-Blair transport",
+      "Amies transport medium"
+    ],
+    "answer": 2,
+    "answerText": "Cary-Blair transport",
+    "explanation": "Cary-Blair transport medium preserves Vibrio species during transport.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 16</span> Burn patients often develop nosocomial infection caused by……………..:",
+    "options": [
+      "Escherichia coli",
+      "Klebsiella pneumoniae",
+      "Staphylococcus aureus",
+      "Pseudomonas aeruginosa"
+    ],
+    "answer": 3,
+    "answerText": "Pseudomonas aeruginosa",
+    "explanation": "Pseudomonas aeruginosa is a common pathogen in burn wound infections.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 17</span> All the following drugs can be used in infections caused by Pseudomonas aeruginosa Except:",
+    "options": [
+      "Piperacillin-tazobactam",
+      "Ceftazidime",
+      "Trimethoprim sulfamethoxazole",
+      "Carbapenems"
+    ],
+    "answer": 2,
+    "answerText": "Trimethoprim sulfamethoxazole",
+    "explanation": "Pseudomonas is often resistant to trimethoprim-sulfamethoxazole.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 18</span> Which of the following bacteria produces grape-like odor?",
+    "options": [
+      "Klebsiella pneumoniae",
+      "Pseudomonas aeruginosa",
+      "Escherichia coli",
+      "Proteus mirabilis"
+    ],
+    "answer": 1,
+    "answerText": "Pseudomonas aeruginosa",
+    "explanation": "Pseudomonas aeruginosa produces a characteristic grape-like odor due to 2-aminoacetophenone.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 19</span> Which of the following bacteria is a causative agent of enteric fever?",
+    "options": [
+      "Escherichia coli",
+      "Salmonella Typhi",
+      "Shigella flexneri",
+      "Campylobacter jejuni"
+    ],
+    "answer": 1,
+    "answerText": "Salmonella Typhi",
+    "explanation": "Salmonella Typhi causes enteric (typhoid) fever.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 20</span> The O side chain of ………….. is antigenically similar to the Lewis blood group antigens.",
+    "options": [
+      "Escherichia coli",
+      "Helicobacter pylori",
+      "Klebsiella pneumoniae",
+      "Pseudomonas aeruginosa"
+    ],
+    "answer": 1,
+    "answerText": "Helicobacter pylori",
+    "explanation": "Helicobacter pylori’s O-antigen mimics Lewis blood group antigens, aiding immune evasion.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 21</span> Which of the following bacteria is a causative agent of bubonic plague?",
+    "options": [
+      "Francisella tularensis",
+      "Yersinia pestis",
+      "Brucella melitensis",
+      "Pasteurella multocida"
+    ],
+    "answer": 1,
+    "answerText": "Yersinia pestis",
+    "explanation": "Yersinia pestis is the causative agent of bubonic plague, transmitted by flea bites.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 22</span> Which bacteria can cause zoonotic infections (transmitted from animals)?",
+    "options": [
+      "Brucella melitensis",
+      "Escherichia coli",
+      "Streptococcus pyogenes",
+      "Haemophilus influenzae"
+    ],
+    "answer": 0,
+    "answerText": "Brucella melitensis",
+    "explanation": "Brucella melitensis is a zoonotic bacterium transmitted through infected animals and unpasteurized dairy products.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 23</span> Nontreponemal serological tests:",
+    "options": [
+      "Measure antibodies against lipids (e.g. cardiolipin) released from damaged cells.",
+      "Detect specific antibodies against Treponema pallidum antigens.",
+      "Use PCR to identify spirochetes in blood.",
+      "Detect antigens of Treponema pallidum."
+    ],
+    "answer": 0,
+    "answerText": "Measure antibodies against lipids (e.g. cardiolipin) released from damaged cells.",
+    "explanation": "Nontreponemal tests like VDRL and RPR measure antibodies against cardiolipin released from damaged host cells.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 24</span> Which one the following bacteria is NOT an obligate intracellular parasite?",
+    "options": [
+      "Rickettsia akari",
+      "Coxiella burnetii",
+      "Mycoplasma hominis",
+      "Ehrlichia chaffeensis"
+    ],
+    "answer": 2,
+    "answerText": "Mycoplasma hominis",
+    "explanation": "Mycoplasma hominis is a facultative extracellular bacterium, unlike Rickettsia and Ehrlichia.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 25</span> Which bacteria causes atypical pneumonia, called walking pneumonia?",
+    "options": [
+      "Streptococcus pneumoniae",
+      "Legionella pneumophila",
+      "Mycoplasma pneumoniae",
+      "Klebsiella pneumoniae"
+    ],
+    "answer": 2,
+    "answerText": "Mycoplasma pneumoniae",
+    "explanation": "Mycoplasma pneumoniae is a common cause of walking pneumonia, characterized by a mild, persistent cough.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 26</span> Due to weak Gram staining, Giemsa (or Gimenez) staining is recommended for all bacteria below, EXCEPT;",
+    "options": [
+      "Rickettsia typhi",
+      "Coxiella burnetii",
+      "Leptospira interrogans",
+      "Bartonella henselae"
+    ],
+    "answer": 2,
+    "answerText": "Leptospira interrogans",
+    "explanation": "Leptospira is best visualized with dark-field microscopy or silver stain, not Giemsa.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 27</span> Tick is the vector for transmission of all the bacterial infections below, EXCEPT;",
+    "options": [
+      "Anaplasma phagocytophilum",
+      "Borrelia burgdorferi",
+      "Coxiella burnetii",
+      "Rickettsia rickettsii"
+    ],
+    "answer": 2,
+    "answerText": "Coxiella burnetii",
+    "explanation": "Coxiella burnetii is transmitted through inhalation of contaminated aerosols, not ticks.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 28</span> All the following statements all are true, EXCEPT;",
+    "options": [
+      "Mycoplasma pneumoniae lacks a cell wall.",
+      "Nucleic acid amplification tests are not sensitive to test Mycoplasma pneumoniae",
+      "Mycoplasma pneumoniae is resistant to β-lactam antibiotics.",
+      "Mycoplasma pneumoniae is a common cause of atypical pneumonia."
+    ],
+    "answer": 1,
+    "answerText": "Nucleic acid amplification tests are not sensitive to test Mycoplasma pneumoniae",
+    "explanation": "NAATs are highly sensitive for Mycoplasma pneumoniae detection.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 29</span> All the following statements regarding Pontiac Fever and Legionnaire’s disease are true, EXCEPT",
+    "options": [
+      "Pontiac Fever is a mild self-limiting illness.",
+      "Legionnaire’s disease can cause pneumonia.",
+      "Both diseases cause high fever and have an incubation period of 7–10 days.",
+      "Legionnaire’s disease requires antibiotic treatment."
+    ],
+    "answer": 2,
+    "answerText": "Both diseases cause high fever and have an incubation period of 7–10 days.",
+    "explanation": "Pontiac fever has a short incubation period (1–2 days), unlike Legionnaire’s disease.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 30</span> All of the below diseases are commonly associated with Chlamydia trachomatis infections; EXCEPT,",
+    "options": [
+      "Trachoma",
+      "Urethritis",
+      "Cardiomegaly associated with chronic endocarditis",
+      "Pelvic inflammatory disease"
+    ],
+    "answer": 2,
+    "answerText": "Cardiomegaly associated with chronic endocarditis",
+    "explanation": "Chlamydia trachomatis is not associated with cardiomegaly or endocarditis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 31</span> Select the best choice;<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739751887607_SmartSelect___WebtoPDFconverterPro.jpg' alt='Image for Q31' style='max-width:100%; height:auto;' data-filepath='pic/1739751887607_SmartSelect___WebtoPDFconverterPro.jpg'>",
+    "options": [
+      "Only 1 and 3 are correct",
+      "Only 2 and 3 are correct",
+      "All choices are correct",
+      "None are correct"
+    ],
+    "answer": 2,
+    "answerText": "All choices are correct",
+    "explanation": "The diagnostic and treatment methods for Legionella pneumophila, Chlamydia trachomatis, and Mycoplasma pneumoniae are accurately described in the table.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 32</span> Select the best choice;<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739751889628_SmartSelect___WebtoPDFconverterPro.jpg' alt='Image for Q32' style='max-width:100%; height:auto;' data-filepath='pic/1739751889628_SmartSelect___WebtoPDFconverterPro.jpg'>",
+    "options": [
+      "Only 1 is correct",
+      "1, 2, and 3 are correct",
+      "Only 2 is correct",
+      "2 and 3 are correct"
+    ],
+    "answer": 1,
+    "answerText": "1, 2, and 3 are correct",
+    "explanation": "The details about Coxiella burnetii, Ehrlichia chaffeensis, and Rickettsia typhi are accurate, but Rickettsia prowazekii is transmitted by lice, not ticks.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 33</span> Select the best choice;<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739751891798_SmartSelect___WebtoPDFconverterPro.jpg' alt='Image for Q33' style='max-width:100%; height:auto;' data-filepath='pic/1739751891798_SmartSelect___WebtoPDFconverterPro.jpg'>",
+    "options": [
+      "Only 2 and 3 are correct",
+      "Only 2 and 4 are correct",
+      "Only 1 and 4 are correct",
+      "All choices are correct"
+    ],
+    "answer": 1,
+    "answerText": "Only 2 and 4 are correct",
+    "explanation": "Borrelia burgdorferi (Lyme disease) and Treponema pallidum (syphilis) are accurately matched, while the Rocky Mountain Spotted Fever entry is incorrect.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 34</span> A 19-year-old man develops cough and fever. A chest radiograph shows consolidation of the left lower lobe. He was diagnosed with community-acquired pneumonia. Which of the following bacteria is a most frequent cause of community-acquired pneumonia?",
+    "options": [
+      "Mycoplasma pneumoniae",
+      "Streptococcus pneumoniae",
+      "Klebsiella pneumoniae",
+      "Haemophilus influenzae"
+    ],
+    "answer": 1,
+    "answerText": "Streptococcus pneumoniae",
+    "explanation": "Streptococcus pneumoniae is the most common cause of community-acquired pneumonia.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 35</span> A 47-year-old man presents with slowly progressive arthritis in his knees. He enjoys hiking. He did not notice a tick on his body, but recalls an expanding red rash weeks ago that healed. The result of a borreliosis EIA for Lyme disease was (+). Which is the best recommendation now?",
+    "options": [
+      "Knee joint’s synovial fluid specimen should be cultured on blood and chocolate agar for B. burgdorferi.",
+      "His serum specimen should be tested for antibodies reactive with B. burgdorferi antigens by immunoblot assay",
+      "Start empirical antifungal therapy.",
+      "Perform PCR on blood for Borrelia burgdorferi."
+    ],
+    "answer": 1,
+    "answerText": "His serum specimen should be tested for antibodies reactive with B. burgdorferi antigens by immunoblot assay",
+    "explanation": "Confirmation of Lyme disease requires a two-step process: EIA screening followed by immunoblot assay (Western blot).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 36</span> A 24-year-old man had acute respiratory distress with history of nasal congestion, headaches, myalgia, and mild dyspnea. His cough was productive and he had pleuritic pain, fever, chills, and diarrhea. A careful history revealed that he had been exposed to his pet birds. Radiographs of lungs showed patchy infiltrates in the left lower lobe. His pulmonary status improved after 7 days of treatment with erythromycin, doxycycline, and ceftriaxone, and was discharged a month later. The diagnosis was made by growing a bacteria in cell culture and serologic tests. The most likely cause of this infection is;",
+    "options": [
+      "Mycoplasma pneumoniae",
+      "Chlamydia psittaci",
+      "Legionella pneumophila",
+      "Klebsiella pneumoniae"
+    ],
+    "answer": 1,
+    "answerText": "Chlamydia psittaci",
+    "explanation": "Chlamydia psittaci causes psittacosis (ornithosis), often transmitted from birds.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 37</span> Which of the following compounds consists cord-factor in Mycobacterium tuberculosis?",
+    "options": [
+      "Trehalose dimycolate (trehalose and two mycolic acids)",
+      "Lipoarabinomannan",
+      "Peptidoglycan",
+      "Arabinogalactan"
+    ],
+    "answer": 0,
+    "answerText": "Trehalose dimycolate (trehalose and two mycolic acids)",
+    "explanation": "Trehalose dimycolate is a virulence factor known as cord-factor, contributing to Mycobacterium tuberculosis pathogenicity.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 38</span> Select the correct choice about Nocardia",
+    "options": [
+      "Highly prevalent in hospital-acquired infection",
+      "Susceptible to Trimethoprim/sulfamethoxazole",
+      "Common cause of endocarditis",
+      "Causes pseudomembranous colitis"
+    ],
+    "answer": 1,
+    "answerText": "Susceptible to Trimethoprim/sulfamethoxazole",
+    "explanation": "Nocardia infections are treated with trimethoprim/sulfamethoxazole.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 39</span> Which of the following bacteria plays the greatest role in causing lung infection in people with chronic granulomatous genetic disease (CGD)?",
+    "options": [
+      "Vibrio vulnificus",
+      "Burkholderia cepacia complex",
+      "Klebsiella pneumoniae",
+      "Escherichia coli"
+    ],
+    "answer": 1,
+    "answerText": "Burkholderia cepacia complex",
+    "explanation": "Burkholderia cepacia is a significant pathogen in CGD patients due to their impaired oxidative burst.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 40</span> Transmission of which bacteria is similar to Treponema pallidum?",
+    "options": [
+      "Leptospira interrogans",
+      "Chlamydia trachomatis",
+      "Borrelia recurrentis",
+      "Rickettsia prowazekii"
+    ],
+    "answer": 1,
+    "answerText": "Chlamydia trachomatis",
+    "explanation": "Chlamydia trachomatis, like Treponema pallidum, is transmitted primarily through sexual contact.",
+    "userAnswer": null
+  },
+  {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 1</span> All the following describe the routes of transmission of Leprosy to humans EXCEPT:",
     "options": [
       "Respiratory droplets",
