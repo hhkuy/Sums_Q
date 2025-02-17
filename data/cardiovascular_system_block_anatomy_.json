@@ -648,5 +648,395 @@
     "answerText": "Intervertebral disc between T4 and T5",
     "explanation": "The sternal angle is at the level of the intervertebral disc between T4 and T5, an important anatomical landmark.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 1</span> Which muscle is covered by clavipectoral fascia?",
+    "options": [
+      "Pectoralis major",
+      "Pectoralis minor",
+      "Serratus anterior",
+      "External intercostal muscle"
+    ],
+    "answer": 1,
+    "answerText": "Pectoralis minor",
+    "explanation": "The clavipectoral fascia covers the pectoralis minor muscle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 2</span> Serratus anterior muscle is innervated by ….",
+    "options": [
+      "Lateral pectoral nerve",
+      "Long thoracic nerve",
+      "Axillary nerve",
+      "Musculocutaneous nerve"
+    ],
+    "answer": 1,
+    "answerText": "Long thoracic nerve",
+    "explanation": "The serratus anterior muscle is supplied by the long thoracic nerve.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 3</span> Most lymphatics of the breast drain into which lymph nodes?",
+    "options": [
+      "Axillary",
+      "Parasternal",
+      "Cervical",
+      "Subclavian"
+    ],
+    "answer": 0,
+    "answerText": "Axillary",
+    "explanation": "The majority of lymph from the breast drains into the axillary lymph nodes.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 4</span> Esophagus passes through the diaphragm at the level of which vertebra?",
+    "options": [
+      "T8",
+      "T10",
+      "T12",
+      "L1"
+    ],
+    "answer": 1,
+    "answerText": "T10",
+    "explanation": "The esophagus passes through the diaphragm at the level of T10.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 5</span> Bifurcation of the trachea is at the level of ….",
+    "options": [
+      "Third costal cartilage",
+      "Intervertebral disc between T4 and T5",
+      "Manubrium",
+      "T6"
+    ],
+    "answer": 1,
+    "answerText": "Intervertebral disc between T4 and T5",
+    "explanation": "The trachea bifurcates at the level of the intervertebral disc between T4 and T5.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 6</span> Which costal cartilage is articulated to the sternal angle?",
+    "options": [
+      "First",
+      "Second",
+      "Third",
+      "Fourth"
+    ],
+    "answer": 1,
+    "answerText": "Second",
+    "explanation": "The second costal cartilage articulates with the sternal angle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 7</span> External intercostal muscle in the anterior part of the intercostal space changes to the …",
+    "options": [
+      "External intercostal membrane",
+      "Internal intercostal membrane",
+      "Innermost intercostal muscle",
+      "Transversus thoracis"
+    ],
+    "answer": 0,
+    "answerText": "External intercostal membrane",
+    "explanation": "The external intercostal muscle becomes the external intercostal membrane anteriorly.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 8</span> The breast is innervated by which nerves?",
+    "options": [
+      "T2-T6",
+      "T1-T4",
+      "T4-T9",
+      "T7-T12"
+    ],
+    "answer": 0,
+    "answerText": "T2-T6",
+    "explanation": "The breast is supplied by the anterior and lateral cutaneous branches of intercostal nerves T2-T6.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 9</span> Which muscle is located only in the middle two fourths of the intercostal spaces?",
+    "options": [
+      "External intercostal",
+      "Internal intercostal",
+      "Innermost intercostal",
+      "Subcostal"
+    ],
+    "answer": 2,
+    "answerText": "Innermost intercostal",
+    "explanation": "The innermost intercostal muscle is present only in the middle two-fourths of the intercostal spaces.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 10</span> Where is the location of the coronary sinus?",
+    "options": [
+      "Anterior surface of the heart",
+      "Inferior surface of the heart between left atrium and left ventricle",
+      "Posterior surface of the right atrium",
+      "Base of the heart"
+    ],
+    "answer": 1,
+    "answerText": "Inferior surface of the heart between left atrium and left ventricle",
+    "explanation": "The coronary sinus is located on the inferior surface of the heart between the left atrium and left ventricle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 11</span> Which structure is located on the superior part of the crista terminalis, lateral to the opening of the superior vena cava?",
+    "options": [
+      "Atrioventricular node",
+      "Sinoatrial node",
+      "Coronary sinus",
+      "Bundle of His"
+    ],
+    "answer": 1,
+    "answerText": "Sinoatrial node",
+    "explanation": "The sinoatrial node is located at the superior end of the crista terminalis near the opening of the superior vena cava.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 12</span> Where is the location of the moderator band?",
+    "options": [
+      "Left ventricle",
+      "Right ventricle",
+      "Right atrium",
+      "Left atrium"
+    ],
+    "answer": 1,
+    "answerText": "Right ventricle",
+    "explanation": "The moderator band is a muscular band of heart tissue found in the right ventricle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 13</span> Anterior interventricular artery is a branch of ….",
+    "options": [
+      "Right coronary artery",
+      "Left coronary artery",
+      "Circumflex artery",
+      "Marginal artery"
+    ],
+    "answer": 1,
+    "answerText": "Left coronary artery",
+    "explanation": "The anterior interventricular artery (also called the left anterior descending artery) is a branch of the left coronary artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 14</span> Posterior intercostal artery of the second intercostal space is formed by ….",
+    "options": [
+      "Thoracic aorta",
+      "Supreme intercostal artery",
+      "Internal thoracic artery",
+      "Musculophrenic artery"
+    ],
+    "answer": 1,
+    "answerText": "Supreme intercostal artery",
+    "explanation": "The posterior intercostal arteries of the first and second intercostal spaces arise from the supreme intercostal artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 15</span> Anterior intercostal artery in the 9th intercostal space is a branch of which artery?",
+    "options": [
+      "Internal thoracic artery",
+      "Musculophrenic artery",
+      "Superior epigastric artery",
+      "Thoracic aorta"
+    ],
+    "answer": 1,
+    "answerText": "Musculophrenic artery",
+    "explanation": "The anterior intercostal arteries of the lower spaces, including the 9th, arise from the musculophrenic artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 16</span> Superior intercostal vein on the right side drains into which vein?",
+    "options": [
+      "Azygos vein",
+      "Arch of azygos vein",
+      "Superior vena cava",
+      "Brachiocephalic vein"
+    ],
+    "answer": 1,
+    "answerText": "Arch of azygos vein",
+    "explanation": "The superior intercostal vein on the right side drains into the arch of the azygos vein.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 17</span> Where is the location of bifurcation of the internal thoracic artery?",
+    "options": [
+      "5th intercostal space",
+      "6th intercostal space",
+      "7th intercostal space",
+      "8th intercostal space"
+    ],
+    "answer": 1,
+    "answerText": "6th intercostal space",
+    "explanation": "The internal thoracic artery bifurcates at the level of the 6th intercostal space.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 18</span> Where is the location of the Haller’s oblique sinus?",
+    "options": [
+      "Between left atrium and esophagus",
+      "Between right atrium and esophagus",
+      "Between left ventricle and esophagus",
+      "Behind the aorta"
+    ],
+    "answer": 0,
+    "answerText": "Between left atrium and esophagus",
+    "explanation": "Haller’s oblique sinus is a pericardial recess located between the left atrium and the esophagus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 19</span> Which one is located in the superior and anterior mediastinum?",
+    "options": [
+      "Thymus",
+      "Trachea",
+      "Esophagus",
+      "Aortic arch"
+    ],
+    "answer": 0,
+    "answerText": "Thymus",
+    "explanation": "The thymus is located in the superior and anterior mediastinum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 20</span> Which one is located in the superior and posterior mediastinum?",
+    "options": [
+      "Esophagus",
+      "Trachea",
+      "Thymus",
+      "Thoracic duct"
+    ],
+    "answer": 0,
+    "answerText": "Esophagus",
+    "explanation": "The esophagus is located in the superior and posterior mediastinum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 21</span> Where is the bifurcation of the brachiocephalic trunk?",
+    "options": [
+      "Posterior to the left sternoclavicular joint",
+      "Posterior to the right sternoclavicular joint",
+      "Posterior to the manubrium",
+      "At the level of T3"
+    ],
+    "answer": 1,
+    "answerText": "Posterior to the right sternoclavicular joint",
+    "explanation": "The brachiocephalic trunk bifurcates posterior to the right sternoclavicular joint.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 22</span> Which structure is located anterior to the 3 main branches of the arch of aorta?",
+    "options": [
+      "Trachea",
+      "Left brachiocephalic vein",
+      "Right vagus nerve",
+      "Phrenic nerve"
+    ],
+    "answer": 1,
+    "answerText": "Left brachiocephalic vein",
+    "explanation": "The left brachiocephalic vein crosses anterior to the branches of the arch of the aorta.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 23</span> Which nerve passes posterior to the pulmonary root?",
+    "options": [
+      "Phrenic nerve",
+      "Vagus nerve",
+      "Recurrent laryngeal nerve",
+      "Sympathetic trunk"
+    ],
+    "answer": 1,
+    "answerText": "Vagus nerve",
+    "explanation": "The vagus nerve passes posterior to the pulmonary root.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 24</span> Four inferior left posterior intercostal veins drain into the …",
+    "options": [
+      "Accessory hemiazygos vein",
+      "Hemiazygos vein",
+      "Azygos vein",
+      "Superior intercostal vein"
+    ],
+    "answer": 1,
+    "answerText": "Hemiazygos vein",
+    "explanation": "The four inferior left posterior intercostal veins drain into the hemiazygos vein.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 25</span> Left superior intercostal vein drains into the ….",
+    "options": [
+      "Arch of azygos vein",
+      "Left brachiocephalic vein",
+      "Hemiazygos vein",
+      "Superior vena cava"
+    ],
+    "answer": 1,
+    "answerText": "Left brachiocephalic vein",
+    "explanation": "The left superior intercostal vein drains into the left brachiocephalic vein.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 26</span> Where is the location of the thoracic duct in the posterior mediastinum?",
+    "options": [
+      "Anterior to the descending aorta",
+      "Posterior to the esophagus",
+      "Lateral to the azygos vein",
+      "Medial to the thoracic aorta"
+    ],
+    "answer": 1,
+    "answerText": "Posterior to the esophagus",
+    "explanation": "The thoracic duct lies posterior to the esophagus in the posterior mediastinum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 27</span> Which vertebrae have long and oblique spinous processes?",
+    "options": [
+      "Cervical",
+      "Thoracic",
+      "Lumbar",
+      "Sacral"
+    ],
+    "answer": 1,
+    "answerText": "Thoracic",
+    "explanation": "Thoracic vertebrae have long and oblique spinous processes.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 28</span> Which vertebrae have large bodies and triangular vertebral foramen?",
+    "options": [
+      "Cervical",
+      "Thoracic",
+      "Lumbar",
+      "Sacral"
+    ],
+    "answer": 2,
+    "answerText": "Lumbar",
+    "explanation": "Lumbar vertebrae have large bodies and triangular vertebral foramina.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 29</span> Central gelatinous part of the intervertebral disc is called …",
+    "options": [
+      "Nucleus pulposus",
+      "Anulus fibrosus",
+      "Ligamentum flavum",
+      "Vertebral body"
+    ],
+    "answer": 0,
+    "answerText": "Nucleus pulposus",
+    "explanation": "The central gelatinous part of the intervertebral disc is called the nucleus pulposus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) Retake Exam - Dr. Hasanzadeh - Question 30</span> Increasing of the anterior convexity of the lumbar part of the vertebral column is named …",
+    "options": [
+      "Kyphosis",
+      "Lordosis",
+      "Scoliosis",
+      "Flattening"
+    ],
+    "answer": 1,
+    "answerText": "Lordosis",
+    "explanation": "An increase in the anterior convexity of the lumbar spine is called lordosis.",
+    "userAnswer": null
   }
 ]
