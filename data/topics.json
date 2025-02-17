@@ -196,12 +196,8 @@
         "file": "data/respiratory_system_physiology.json"
       },
       {
-        "name": "Histology",
+        "name": "Histology & Embryology",
         "file": "data/respiratory_system_histology.json"
-      },
-      {
-        "name": "Embryology ",
-        "file": "data/respiratory_system_embryology_.json"
       }
     ]
   },
