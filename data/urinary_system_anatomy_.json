@@ -299,15 +299,15 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 4</span> All of following nerves have relationship with posterior surface of two kidneys, EXCEPT:",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 4</span> All of following nerves have relationship with posterior surface of two kidneys, EXCEPT:",
     "options": [
       "Internal oblique abdominis",
       "Genitofemoral nerve",
       "Psoas major",
       "Lateral sacral artery"
     ],
-    "answer": 0,
-    "answerText": "Internal oblique abdominis",
+    "answer": 1,
+    "answerText": "Genitofemoral nerve",
     "explanation": "Internal oblique abdominis is not in direct relation to the posterior surface of the kidneys.",
     "userAnswer": null
   },
