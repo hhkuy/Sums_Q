@@ -260,6 +260,266 @@
     "userAnswer": null
   },
   {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 1</span> Where is location of pecten pubis?",
+    "options": [
+      "Superior border of superior ramus of the pubis",
+      "Lateral border of body of the pubis",
+      "Apex of the urinary bladder",
+      "Trigone"
+    ],
+    "answer": 0,
+    "answerText": "Superior border of superior ramus of the pubis",
+    "explanation": "Pecten pubis is located on the superior border of the superior ramus of the pubis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 2</span> Which one has relationship with the anterior surface of the left kidney?",
+    "options": [
+      "Tail of the pancreas",
+      "Duodenum",
+      "Seminal vesicles",
+      "Skene’s gland"
+    ],
+    "answer": 0,
+    "answerText": "Tail of the pancreas",
+    "explanation": "The tail of the pancreas is an important anterior relation to the left kidney.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 3</span> Superior vesical artery is a branch of the ....",
+    "options": [
+      "Umbilical artery",
+      "Lateral sacral artery",
+      "Left renal vein",
+      "Internal oblique abdominis"
+    ],
+    "answer": 0,
+    "answerText": "Umbilical artery",
+    "explanation": "The superior vesical artery arises from the umbilical artery, which is a branch of the internal iliac artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 4</span> All of following nerves have relationship with posterior surface of two kidneys, EXCEPT:",
+    "options": [
+      "Internal oblique abdominis",
+      "Genitofemoral nerve",
+      "Psoas major",
+      "Lateral sacral artery"
+    ],
+    "answer": 0,
+    "answerText": "Internal oblique abdominis",
+    "explanation": "Internal oblique abdominis is not in direct relation to the posterior surface of the kidneys.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 5</span> Which one is more important relationship of the ureter in females?",
+    "options": [
+      "Crossing with the uterine artery",
+      "Perirenal fat",
+      "Tail of the pancreas",
+      "Left renal vein"
+    ],
+    "answer": 0,
+    "answerText": "Crossing with the uterine artery",
+    "explanation": "In females, the ureter crosses under the uterine artery, a clinically significant relationship.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 6</span> Which one passes between aorta and superior mesenteric artery?",
+    "options": [
+      "Left renal vein",
+      "Superior vesical artery",
+      "Genitofemoral nerve",
+      "Skene’s gland"
+    ],
+    "answer": 0,
+    "answerText": "Left renal vein",
+    "explanation": "The left renal vein passes between the aorta and superior mesenteric artery, known as the \"nutcracker angle.\"",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 7</span> Which one is a branch of the posterior trunk of the internal iliac artery?",
+    "options": [
+      "Lateral sacral artery",
+      "Superior vesical artery",
+      "Umbilical artery",
+      "Internal oblique abdominis"
+    ],
+    "answer": 0,
+    "answerText": "Lateral sacral artery",
+    "explanation": "The lateral sacral artery is a branch from the posterior trunk of the internal iliac artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 8</span> Which one has relationship with the anterior surface of the right kidney?",
+    "options": [
+      "Duodenum",
+      "Tail of the pancreas",
+      "Perirenal fat",
+      "Psoas major"
+    ],
+    "answer": 0,
+    "answerText": "Duodenum",
+    "explanation": "The duodenum is closely related to the anterior surface of the right kidney.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 9</span> Where is crossing of the ureter and testicular artery?",
+    "options": [
+      "At the level of L3",
+      "Lateral border of body of the pubis",
+      "Superior border of the superior ramus of the pubis",
+      "Crossing with the uterine artery"
+    ],
+    "answer": 0,
+    "answerText": "At the level of L3",
+    "explanation": "The ureter crosses the testicular artery at the level of L3.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 10</span> Which muscle is located on the posterior wall of the lesser pelvis?",
+    "options": [
+      "Piriformis",
+      "Puborectalis",
+      "Psoas major",
+      "Internal oblique abdominis"
+    ],
+    "answer": 0,
+    "answerText": "Piriformis",
+    "explanation": "The piriformis muscle forms part of the posterior wall of the lesser pelvis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 11</span> Which one is common in males and females?",
+    "options": [
+      "External urethral sphincter",
+      "Navicular fossa",
+      "Superior vesical artery",
+      "Skene’s gland"
+    ],
+    "answer": 0,
+    "answerText": "External urethral sphincter",
+    "explanation": "The external urethral sphincter is present in both males and females.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 12</span> Where is location of the Retzius fossa?",
+    "options": [
+      "Anterior to the urinary bladder",
+      "Lateral to the urinary bladder",
+      "Posterior surface of the urinary bladder",
+      "Apex of the urinary bladder"
+    ],
+    "answer": 0,
+    "answerText": "Anterior to the urinary bladder",
+    "explanation": "The Retzius fossa is located anterior to the urinary bladder, also known as the retropubic space.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 13</span> Which part of the urinary system is covered by the prostate?",
+    "options": [
+      "A part of urethra before membranous part",
+      "Apex of the urinary bladder",
+      "Navicular fossa",
+      "Trigone"
+    ],
+    "answer": 0,
+    "answerText": "A part of urethra before membranous part",
+    "explanation": "The prostatic urethra is the part of the urethra that is covered by the prostate.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 14</span> Which one is between renal capsule and renal fascia?",
+    "options": [
+      "Perirenal fat",
+      "Tail of the pancreas",
+      "Lateral sacral artery",
+      "Genitofemoral nerve"
+    ],
+    "answer": 0,
+    "answerText": "Perirenal fat",
+    "explanation": "Perirenal fat is situated between the renal capsule and renal fascia, providing cushioning and support.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 15</span> Where is location of renal arteries that originate from aorta?",
+    "options": [
+      "Intervertebral disc between L1 and L2",
+      "Intervertebral disc between L3 and L4",
+      "At the level of L3",
+      "Superior border of superior ramus of the pubis"
+    ],
+    "answer": 0,
+    "answerText": "Intervertebral disc between L1 and L2",
+    "explanation": "Renal arteries originate from the abdominal aorta at the level of the intervertebral disc between L1 and L2.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 16</span> Which one is related to the female urethra?",
+    "options": [
+      "Skene’s gland",
+      "Bulbourethral gland",
+      "Navicular fossa",
+      "External urethral sphincter"
+    ],
+    "answer": 0,
+    "answerText": "Skene’s gland",
+    "explanation": "Skene’s glands are located near the external urethral opening in females and are analogous to the male prostate.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 17</span> Which one is located on the posterior surface of the urinary bladder?",
+    "options": [
+      "Seminal vesicles",
+      "Tail of the pancreas",
+      "Uterine artery",
+      "Lateral sacral artery"
+    ],
+    "answer": 0,
+    "answerText": "Seminal vesicles",
+    "explanation": "The seminal vesicles are located on the posterior surface of the male urinary bladder.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 18</span> Which part of the urinary bladder is located near to the superior border of the pubic symphyses?",
+    "options": [
+      "Apex",
+      "Trigone",
+      "Lateral to the urinary bladder",
+      "Perirenal fat"
+    ],
+    "answer": 0,
+    "answerText": "Apex",
+    "explanation": "The apex of the urinary bladder is situated near the superior border of the pubic symphysis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 19</span> Which one is larger in men in comparison to women?",
+    "options": [
+      "Acetabulum",
+      "Navicular fossa",
+      "External urethral sphincter",
+      "Skene’s gland"
+    ],
+    "answer": 0,
+    "answerText": "Acetabulum",
+    "explanation": "The acetabulum is generally larger in men compared to women to accommodate the larger femoral head.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Hasanzadeh - Question 20</span> All of the following muscles have relationship with the posterior surface of the kidneys, EXCEPT:",
+    "options": [
+      "Internal oblique abdominis",
+      "Psoas major",
+      "Piriformis",
+      "Puborectalis"
+    ],
+    "answer": 0,
+    "answerText": "Internal oblique abdominis",
+    "explanation": "The internal oblique abdominis is not in direct contact with the posterior surface of the kidneys.",
+    "userAnswer": null
+  },
+  {
     "question": "<span style='color: darkred; font-weight:bold;'>Second batch (2024) - Dr. Hasanzadeh - Question 1</span> Which muscle is attached to the medial border of anterior two thirds of the iliac crest?",
     "options": [
       "Rectus abdominis",
