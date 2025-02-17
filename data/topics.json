@@ -332,10 +332,6 @@
       {
         "name": "Embryology",
         "file": "data/nervous_system_block_embryology.json"
-      },
-      {
-        "name": "Anatomy & Histology & Embryology",
-        "file": "data/nervous_system_block_anatomy_&_histology_&_embryology.json"
       }
     ]
   },
