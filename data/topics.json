@@ -170,36 +170,6 @@
     ]
   },
   {
-    "topicName": "Urinary System",
-    "description": "related third semester",
-    "subTopics": [
-      {
-        "name": "Anatomy ",
-        "file": "data/urinary_system_anatomy_.json"
-      },
-      {
-        "name": "physiology ",
-        "file": "data/urinary_system_physiology_.json"
-      },
-      {
-        "name": "Biochemistry",
-        "file": "data/urinary_system_biochemistry.json"
-      },
-      {
-        "name": "Histology ",
-        "file": "data/urinary_system_histology_.json"
-      },
-      {
-        "name": "Embryology",
-        "file": "data/urinary_system_embryology.json"
-      },
-      {
-        "name": "Histology & Embryology ",
-        "file": "data/urinary_system_embryology_.json"
-      }
-    ]
-  },
-  {
     "topicName": "Medical Physics",
     "description": "Related to Second Semester",
     "subTopics": [
@@ -242,6 +212,16 @@
     ]
   },
   {
+    "topicName": "Epidemiology",
+    "description": "Related to Third Semster",
+    "subTopics": [
+      {
+        "name": "Epidemiology",
+        "file": "data/epidemiology_epidemiology.json"
+      }
+    ]
+  },
+  {
     "topicName": "Reproductive system",
     "description": "Related to Third Semester",
     "subTopics": [
@@ -264,12 +244,32 @@
     ]
   },
   {
-    "topicName": "Virology",
-    "description": "Related 3rd & 5th Semester",
+    "topicName": "Urinary System",
+    "description": "Related to Third Semester",
     "subTopics": [
       {
-        "name": "Virology ",
-        "file": "data/virology_virology_.json"
+        "name": "Anatomy ",
+        "file": "data/urinary_system_anatomy_.json"
+      },
+      {
+        "name": "physiology ",
+        "file": "data/urinary_system_physiology_.json"
+      },
+      {
+        "name": "Biochemistry",
+        "file": "data/urinary_system_biochemistry.json"
+      },
+      {
+        "name": "Histology ",
+        "file": "data/urinary_system_histology_.json"
+      },
+      {
+        "name": "Embryology",
+        "file": "data/urinary_system_embryology.json"
+      },
+      {
+        "name": "Histology & Embryology ",
+        "file": "data/urinary_system_embryology_.json"
       }
     ]
   },
@@ -292,38 +292,8 @@
     ]
   },
   {
-    "topicName": "Religion",
-    "description": "Related Third Semester",
-    "subTopics": [
-      {
-        "name": "Religion",
-        "file": "data/religion_religion.json"
-      }
-    ]
-  },
-  {
-    "topicName": "Microbiology",
-    "description": "Related 3rd & 5th Semester",
-    "subTopics": [
-      {
-        "name": "Microbiology",
-        "file": "data/microbiology_microbiology.json"
-      }
-    ]
-  },
-  {
-    "topicName": "Epidemiology",
-    "description": "Related to the first Semster",
-    "subTopics": [
-      {
-        "name": "Epidemiology",
-        "file": "data/epidemiology_epidemiology.json"
-      }
-    ]
-  },
-  {
     "topicName": "Digestive system",
-    "description": "Related to the third Semster",
+    "description": "Related to the Third Semester",
     "subTopics": [
       {
         "name": "Anatomy & histology & Embrology",
@@ -337,7 +307,7 @@
   },
   {
     "topicName": "Nervous system block",
-    "description": "Related to the third Semster",
+    "description": "Related to the Third Semster",
     "subTopics": [
       {
         "name": "Anatomy",
@@ -382,12 +352,42 @@
     ]
   },
   {
+    "topicName": "Microbiology",
+    "description": "Related Third & Fifth Semesters",
+    "subTopics": [
+      {
+        "name": "Microbiology",
+        "file": "data/microbiology_microbiology.json"
+      }
+    ]
+  },
+  {
+    "topicName": "Virology",
+    "description": "Related 3rd & 5th Semester",
+    "subTopics": [
+      {
+        "name": "Virology ",
+        "file": "data/virology_virology_.json"
+      }
+    ]
+  },
+  {
     "topicName": "Parasitology",
     "description": "Related to Fifth Semester",
     "subTopics": [
       {
         "name": "Parasitology",
         "file": "data/parasitology_parasitology.json"
+      }
+    ]
+  },
+  {
+    "topicName": "Religion",
+    "description": "Related to Third & Fifth Semesters",
+    "subTopics": [
+      {
+        "name": "Religion",
+        "file": "data/religion_religion.json"
       }
     ]
   }
