@@ -104,6 +104,110 @@
     "userAnswer": null
   },
   {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Panahi - Question 1</span> In metabolic alkalosis, the primary disturbance is:",
+    "options": [
+      "Dehydration",
+      "Increased bicarbonate",
+      "Renal failure",
+      "Administering potassium"
+    ],
+    "answer": 1,
+    "answerText": "Increased bicarbonate",
+    "explanation": "Metabolic alkalosis is characterized by an increase in bicarbonate concentration, leading to an elevated blood pH.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Panahi - Question 2</span> Which condition is characterized by an increase in carbon dioxide levels leading to respiratory acidosis?",
+    "options": [
+      "Asthma",
+      "Anxiety and hyperventilation",
+      "Syndrome of inappropriate antidiuretic hormone secretion (SIADH)",
+      "Cushing's syndrome"
+    ],
+    "answer": 0,
+    "answerText": "Asthma",
+    "explanation": "Respiratory acidosis results from hypoventilation, leading to an accumulation of CO2. Asthma can cause this by restricting airflow.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Panahi - Question 3</span> Which of the following is a common cause of hyponatremia?",
+    "options": [
+      "Syndrome of inappropriate antidiuretic hormone secretion (SIADH)",
+      "Dehydration",
+      "Renal failure",
+      "Anxiety and hyperventilation"
+    ],
+    "answer": 0,
+    "answerText": "Syndrome of inappropriate antidiuretic hormone secretion (SIADH)",
+    "explanation": "SIADH causes water retention, leading to dilutional hyponatremia.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Panahi - Question 4</span> Which of the following conditions can lead to hyperkalemia?",
+    "options": [
+      "Renal failure",
+      "Cushing's syndrome",
+      "Increased bicarbonate",
+      "Sodium"
+    ],
+    "answer": 0,
+    "answerText": "Renal failure",
+    "explanation": "Renal failure reduces potassium excretion, leading to hyperkalemia.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Panahi - Question 5</span> Which of the following conditions may lead to respiratory alkalosis?",
+    "options": [
+      "Anxiety and hyperventilation",
+      "Asthma",
+      "Administering potassium",
+      "Renal failure"
+    ],
+    "answer": 0,
+    "answerText": "Anxiety and hyperventilation",
+    "explanation": "Hyperventilation lowers CO2 levels, leading to respiratory alkalosis. Anxiety is a common cause.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Panahi - Question 6</span> Which of the following is a major extracellular fluid (ECF) component?",
+    "options": [
+      "Sodium",
+      "Potassium",
+      "Dehydration",
+      "Increased bicarbonate"
+    ],
+    "answer": 0,
+    "answerText": "Sodium",
+    "explanation": "Sodium is the major cation in the extracellular fluid and plays a crucial role in fluid balance.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Panahi - Question 7</span> Which hormone is primarily responsible for regulating sodium and water balance?",
+    "options": [
+      "Aldosterone",
+      "Antidiuretic hormone (ADH)",
+      "Renin",
+      "Syndrome of inappropriate antidiuretic hormone secretion (SIADH)"
+    ],
+    "answer": 0,
+    "answerText": "Aldosterone",
+    "explanation": "Aldosterone increases sodium reabsorption in the kidneys, which in turn promotes water retention.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Panahi - Question 8</span> The management of metabolic acidosis may include:",
+    "options": [
+      "Administering sodium bicarbonate",
+      "Administering potassium",
+      "Anxiety and hyperventilation",
+      "Increased bicarbonate"
+    ],
+    "answer": 0,
+    "answerText": "Administering sodium bicarbonate",
+    "explanation": "Sodium bicarbonate is often administered to correct metabolic acidosis by neutralizing excess acid in the blood.",
+    "userAnswer": null
+  },
+  {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 1</span> Which of the following is NOT a cause of Respiratory alkalosis?",
     "options": [
       "Anxiety",
