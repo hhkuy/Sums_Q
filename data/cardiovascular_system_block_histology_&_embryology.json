@@ -1,0 +1,418 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 1</span> The … are thin-walled, closed-ended tubules and the … are the sites of exchange between blood and tissues.",
+    "options": [
+      "Metarterioles – blood capillaries",
+      "Lymphatic capillaries – blood capillaries",
+      "Arterioles – venules",
+      "Venules – lymphatic capillaries"
+    ],
+    "answer": 1,
+    "answerText": "Lymphatic capillaries – blood capillaries",
+    "explanation": "Lymphatic capillaries are thin-walled, closed-ended tubules, and blood capillaries are the sites of exchange between blood and tissues.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 2</span> Where is the conducting system of the heart located in?",
+    "options": [
+      "Subendocardial layer and myocardium",
+      "Subepicardial layer and myocardium",
+      "Endocardial layer and myocardium",
+      "Epicardial layer and myocardium"
+    ],
+    "answer": 0,
+    "answerText": "Subendocardial layer and myocardium",
+    "explanation": "The conducting system of the heart is located in the subendocardial layer and myocardium.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 3</span> Where are vasa vasorum and nerves located in the wall of vessels, respectively?",
+    "options": [
+      "Media – media",
+      "Adventitia and media – adventitia",
+      "Intima – adventitia",
+      "Intima – media"
+    ],
+    "answer": 1,
+    "answerText": "Adventitia and media – adventitia",
+    "explanation": "Vasa vasorum is located in the adventitia, while nerves are found in both the adventitia and media.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 4</span> The … are the primary site at which white blood cells leave the circulation.",
+    "options": [
+      "Arterioles",
+      "Capillaries",
+      "Postcapillary venules",
+      "Muscular venules"
+    ],
+    "answer": 2,
+    "answerText": "Postcapillary venules",
+    "explanation": "Postcapillary venules are the primary site where white blood cells leave the circulation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 5</span> Fenestrated capillaries are found in which organs?",
+    "options": [
+      "Choroid plexus, kidneys, intestine",
+      "Brain, muscle, lungs",
+      "Liver, spleen, bone marrow",
+      "Skin, thymus, heart"
+    ],
+    "answer": 0,
+    "answerText": "Choroid plexus, kidneys, intestine",
+    "explanation": "Fenestrated capillaries are found in the choroid plexus, kidneys, and intestine.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 6</span> The carotid sinus, having thinner …, monitors …, and the carotid bodies monitor ….",
+    "options": [
+      "Media – blood pressure – blood CO2, O2, and pH",
+      "Adventitia – blood pressure – blood CO2, O2, and pH",
+      "Intima – blood volume – blood Na+, K+, and pH",
+      "Media – blood volume – blood Na+, K+, and pH"
+    ],
+    "answer": 0,
+    "answerText": "Media – blood pressure – blood CO2, O2, and pH",
+    "explanation": "The carotid sinus has a thinner media and monitors blood pressure, while carotid bodies monitor blood CO2, O2, and pH.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 7</span> An artery has a … lumen and its … is the thickest layer.",
+    "options": [
+      "Large – adventitia",
+      "Regular – media",
+      "Small – intima",
+      "Irregular – adventitia"
+    ],
+    "answer": 1,
+    "answerText": "Regular – media",
+    "explanation": "Arteries have a regular lumen, and their thickest layer is the media.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 8</span> Which lymphoid organ does not contain lymphoid follicles?",
+    "options": [
+      "Thymus",
+      "Spleen",
+      "Lymph node",
+      "Tonsil"
+    ],
+    "answer": 0,
+    "answerText": "Thymus",
+    "explanation": "The thymus does not contain lymphoid follicles.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 9</span> Which organ contains stave cells and Hassall’s corpuscles, respectively?",
+    "options": [
+      "Thymus – spleen",
+      "Spleen – thymus",
+      "Lymph node – thymus",
+      "Bone marrow – spleen"
+    ],
+    "answer": 1,
+    "answerText": "Spleen – thymus",
+    "explanation": "Stave cells are found in the spleen, while Hassall’s corpuscles are found in the thymus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 10</span> The red pulp of the spleen consists of …, while the white pulp consists of ….",
+    "options": [
+      "Sinusoids – splenic cords",
+      "Splenic cords – periarteriolar lymphoid sheaths (PALS)",
+      "Venous sinuses – periarteriolar lymphoid sheaths (PALS)",
+      "Splenic cords – germinal centers"
+    ],
+    "answer": 1,
+    "answerText": "Splenic cords – periarteriolar lymphoid sheaths (PALS)",
+    "explanation": "The red pulp consists of splenic cords, while the white pulp consists of periarteriolar lymphoid sheaths (PALS).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 11</span> What is the main organ involved in filtration of lymph and blood, respectively?",
+    "options": [
+      "Lymph node – spleen",
+      "Spleen – liver",
+      "Bone marrow – spleen",
+      "Lymph node – liver"
+    ],
+    "answer": 0,
+    "answerText": "Lymph node – spleen",
+    "explanation": "The lymph node filters lymph, while the spleen filters blood.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 12</span> Which sinuses converge as the efferent lymphatic vessel of a lymph node?",
+    "options": [
+      "Subcapsular sinuses",
+      "Cortical sinuses",
+      "Medullary sinuses",
+      "Paracortical sinuses"
+    ],
+    "answer": 2,
+    "answerText": "Medullary sinuses",
+    "explanation": "Medullary sinuses converge to form the efferent lymphatic vessel of a lymph node.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 13</span> The … is not surrounded by a tight layer of TECs, and mature T lymphocytes exit the thymus by passing through the walls of ….",
+    "options": [
+      "Cortex – venules and efferent lymphatics",
+      "Medulla – venules and efferent lymphatics",
+      "Capsule – capillaries and lymphatics",
+      "Medulla – capillaries and lymphatics"
+    ],
+    "answer": 1,
+    "answerText": "Medulla – venules and efferent lymphatics",
+    "explanation": "The medulla is not surrounded by a tight layer of TECs, and mature T lymphocytes exit through venules and efferent lymphatics.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 14</span> Which organ has afferent and efferent lymphatics?",
+    "options": [
+      "Spleen",
+      "Lymph node",
+      "Thymus",
+      "Bone marrow"
+    ],
+    "answer": 1,
+    "answerText": "Lymph node",
+    "explanation": "The lymph node is the only organ with both afferent and efferent lymphatics.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 15</span> Lymphoid nodules consist largely of developing … and occupy much of the … of the lymph node.",
+    "options": [
+      "T lymphocytes – medulla",
+      "B lymphocytes – cortex",
+      "B lymphocytes – medulla",
+      "T lymphocytes – cortex"
+    ],
+    "answer": 1,
+    "answerText": "B lymphocytes – cortex",
+    "explanation": "Lymphoid nodules consist mainly of B lymphocytes and occupy much of the cortex.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 16</span> The … are known as MALT.",
+    "options": [
+      "Tonsils, Peyer patches, appendix",
+      "Thymus, spleen, tonsils",
+      "Lymph nodes, spleen, thymus",
+      "Bone marrow, lymph nodes, appendix"
+    ],
+    "answer": 0,
+    "answerText": "Tonsils, Peyer patches, appendix",
+    "explanation": "MALT refers to mucosa-associated lymphoid tissue, including tonsils, Peyer patches, and appendix.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 17</span> Which of the following is TRUE in normal fetal circulation?",
+    "options": [
+      "The umbilical arteries carry oxygenated blood from the placenta to the embryo",
+      "Blood from the placenta bypasses the sinusoidal plexus of the liver in the ductus venosus",
+      "Blood from the placenta enters the right ventricle directly",
+      "The foramen ovale connects the right ventricle to the left atrium"
+    ],
+    "answer": 1,
+    "answerText": "Blood from the placenta bypasses the sinusoidal plexus of the liver in the ductus venosus",
+    "explanation": "In fetal circulation, blood from the placenta bypasses the liver via the ductus venosus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 18</span> What is the most common heart defect?",
+    "options": [
+      "Atrial septal defect",
+      "Patent ductus arteriosus",
+      "Ventricular septal defect",
+      "Tetralogy of Fallot"
+    ],
+    "answer": 2,
+    "answerText": "Ventricular septal defect",
+    "explanation": "Ventricular septal defect is the most common congenital heart defect.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 19</span> Which of the following is NOT part of Tetralogy of Fallot?",
+    "options": [
+      "Pulmonary stenosis",
+      "Right ventricular hypertrophy",
+      "Ventricular septal defect",
+      "Patent foramen ovale"
+    ],
+    "answer": 3,
+    "answerText": "Patent foramen ovale",
+    "explanation": "The four components of Tetralogy of Fallot are pulmonary stenosis, right ventricular hypertrophy, ventricular septal defect, and overriding aorta. Patent foramen ovale is not part of it.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 20</span> The proximal part of the aorta and coronary sinus are derived from which of the following, respectively?",
+    "options": [
+      "Bulbus cordis – left sinus horn",
+      "Truncus arteriosus – left sinus horn",
+      "Primitive ventricle – right sinus horn",
+      "Conus arteriosus – left sinus horn"
+    ],
+    "answer": 1,
+    "answerText": "Truncus arteriosus – left sinus horn",
+    "explanation": "The proximal part of the aorta is derived from the truncus arteriosus, and the coronary sinus is derived from the left sinus horn.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 21</span> The left ventricle of the heart is formed primarily from which embryonic structure?",
+    "options": [
+      "Primitive ventricle",
+      "Bulbus cordis",
+      "Truncus arteriosus",
+      "Sinus venosus"
+    ],
+    "answer": 0,
+    "answerText": "Primitive ventricle",
+    "explanation": "The left ventricle develops mainly from the primitive ventricle during embryonic development.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 22</span> The foramen ovale forms in which structure?",
+    "options": [
+      "Septum primum",
+      "Septum secundum",
+      "Conotruncal septum",
+      "Endocardial cushions"
+    ],
+    "answer": 1,
+    "answerText": "Septum secundum",
+    "explanation": "The foramen ovale forms in the septum secundum to allow blood flow between the right and left atria during fetal life.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 23</span> Transposition of the great arteries is a cardiac malformation that involves which of the following septa?",
+    "options": [
+      "Interventricular septum",
+      "Interatrial septum",
+      "Conotruncal septum",
+      "Endocardial cushion"
+    ],
+    "answer": 2,
+    "answerText": "Conotruncal septum",
+    "explanation": "Transposition of the great arteries results from abnormal development of the conotruncal septum.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 24</span> A change in pressure between … at birth holds the septum primum closed against the septum secundum, and the … becomes permanently sealed.",
+    "options": [
+      "Atria – foramen ovale",
+      "Atria – ductus arteriosus",
+      "Ventricles – foramen ovale",
+      "Ventricles – ductus venosus"
+    ],
+    "answer": 0,
+    "answerText": "Atria – foramen ovale",
+    "explanation": "At birth, increased left atrial pressure closes the septum primum against the septum secundum, sealing the foramen ovale.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 25</span> The following embryonic structures are involved in the formation of the foramen ovale EXCEPT:",
+    "options": [
+      "Septum primum",
+      "Septum secundum",
+      "Endocardial cushions",
+      "Ostium primum"
+    ],
+    "answer": 3,
+    "answerText": "Ostium primum",
+    "explanation": "Ostium primum is part of the atrial septum formation but not specifically involved in the formation of the foramen ovale.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 26</span> The … is the development of new blood vessels from … .",
+    "options": [
+      "Vasculogenesis – angioblasts",
+      "Angiogenesis – angioblasts",
+      "Angiogenesis – capillaries",
+      "Vasculogenesis – endothelial cells"
+    ],
+    "answer": 0,
+    "answerText": "Vasculogenesis – angioblasts",
+    "explanation": "Vasculogenesis is the development of blood vessels from angioblasts during embryogenesis.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 27</span> Which aortic arch artery forms part of the aorta and maxillary artery, respectively?",
+    "options": [
+      "Aortic arch III – aortic arch I",
+      "Aortic arch IV – aortic arch I",
+      "Aortic arch II – aortic arch III",
+      "Aortic arch VI – aortic arch IV"
+    ],
+    "answer": 1,
+    "answerText": "Aortic arch IV – aortic arch I",
+    "explanation": "Aortic arch IV contributes to part of the aorta, while aortic arch I forms the maxillary artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 28</span> Two weeks after birth, a cyanotic baby is found to be tachycardic and has a wide pulse pressure. What is the most likely diagnosis?",
+    "options": [
+      "Ventricular septal defect",
+      "Atrial septal defect",
+      "Patent ductus arteriosus",
+      "Tetralogy of Fallot"
+    ],
+    "answer": 2,
+    "answerText": "Patent ductus arteriosus",
+    "explanation": "A patent ductus arteriosus can cause cyanosis, tachycardia, and wide pulse pressure due to abnormal blood flow between the aorta and pulmonary artery.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 29</span> Which of the following embryonic blood vessels contains purely oxygenated blood?",
+    "options": [
+      "Umbilical arteries",
+      "Umbilical vein",
+      "Vitelline vein",
+      "Cardinal vein"
+    ],
+    "answer": 1,
+    "answerText": "Umbilical vein",
+    "explanation": "The umbilical vein carries oxygenated blood from the placenta to the fetus.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 30</span> The ductus venosus shunted blood from the … to the … during fetal life, bypassing the ….",
+    "options": [
+      "Vitelline vein – inferior vena cava – liver",
+      "Umbilical vein – inferior vena cava – liver",
+      "Umbilical artery – right atrium – kidneys",
+      "Cardinal vein – left atrium – lungs"
+    ],
+    "answer": 1,
+    "answerText": "Umbilical vein – inferior vena cava – liver",
+    "explanation": "The ductus venosus shunts oxygenated blood from the umbilical vein to the inferior vena cava, bypassing the liver.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 31</span> The embryonic aortic arches give origin to all of the following postnatal structures EXCEPT:",
+    "options": [
+      "Pulmonary arteries",
+      "Ascending aorta",
+      "Common carotid arteries",
+      "Subclavian arteries"
+    ],
+    "answer": 1,
+    "answerText": "Ascending aorta",
+    "explanation": "The ascending aorta is derived from the truncus arteriosus, not the aortic arches.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 32</span> What is the portal vein derived from?",
+    "options": [
+      "Umbilical vein",
+      "Vitelline vein",
+      "Cardinal vein",
+      "Aortic arch IV"
+    ],
+    "answer": 1,
+    "answerText": "Vitelline vein",
+    "explanation": "The portal vein is derived from the vitelline vein during embryonic development.",
+    "userAnswer": null
+  }
+]
