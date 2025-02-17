@@ -208,15 +208,15 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 17</span> Upon acid load entrance to blood, which one is the best and more available buffer system to fight against acidosis?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2024-06-23) Dr. Mehri Kadkhodaee - Question 17</span> Upon acid load entrance to blood, which one is the best and more available buffer system to fight against acidosis?",
     "options": [
       "Phosphate",
       "Hemoglobin",
       "Bicarbonate",
       "Ammonia"
     ],
-    "answer": 1,
-    "answerText": "Hemoglobin",
+    "answer": 2,
+    "answerText": "Bicarbonate",
     "explanation": "Hemoglobin acts as a rapid and efficient buffer against blood acidity.",
     "userAnswer": null
   },
