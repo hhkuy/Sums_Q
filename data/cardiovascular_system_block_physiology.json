@@ -754,6 +754,396 @@
     "userAnswer": null
   },
   {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 1</span> When does the mitral valve open?",
+    "options": [
+      "Left ventricular pressure is higher than aorta pressure",
+      "Left ventricular pressure is less than left atrial pressure",
+      "Left ventricular pressure is equal to right atrial pressure",
+      "Left atrial pressure is higher than aorta pressure"
+    ],
+    "answer": 1,
+    "answerText": "Left ventricular pressure is less than left atrial pressure",
+    "explanation": "The mitral valve opens when the pressure in the left ventricle becomes less than the pressure in the left atrium.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 2</span> Which ion currents lead to the depolarization phase of the action potential in SA node?",
+    "options": [
+      "Na+ influx",
+      "K+ efflux",
+      "Ca2+ influx",
+      "Cl− influx"
+    ],
+    "answer": 2,
+    "answerText": "Ca2+ influx",
+    "explanation": "The depolarization phase of the SA node action potential is primarily driven by the influx of calcium ions (Ca2+).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 3</span> Which one of the following effects takes place in the AV node by sympathetic stimulation?",
+    "options": [
+      "A decrease in calcium influx",
+      "An increase in prepotential steep",
+      "A decrease in prepotential steep",
+      "A decrease in Na+ influx"
+    ],
+    "answer": 1,
+    "answerText": "An increase in prepotential steep",
+    "explanation": "Sympathetic stimulation increases the steepness of the prepotential in the AV node, leading to an increase in heart rate.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 4</span> How many degrees is the axis of lead II in the normal electrocardiogram?",
+    "options": [
+      "0°",
+      "30°",
+      "60°",
+      "90°"
+    ],
+    "answer": 2,
+    "answerText": "60°",
+    "explanation": "The electrical axis of lead II in a normal ECG is approximately +60°.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 5</span> What is the PR interval on an ECG?",
+    "options": [
+      "From the end of the P wave to the end of the QRS complex",
+      "From the beginning of the P wave to the beginning of the QRS complex",
+      "From the peak of the P wave to the end of the T wave",
+      "From the beginning of the QRS complex to the end of the T wave"
+    ],
+    "answer": 1,
+    "answerText": "From the beginning of the P wave to the beginning of the QRS complex",
+    "explanation": "The PR interval is measured from the beginning of the P wave to the beginning of the QRS complex, representing atrial depolarization and AV node conduction.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 6</span> During diastole, in which phase does the largest amount of blood enter the left ventricle from the left atrium?",
+    "options": [
+      "First 1/3 of filling",
+      "Middle 1/3 of filling",
+      "Last 1/3 of filling",
+      "Isovolumetric relaxation"
+    ],
+    "answer": 0,
+    "answerText": "First 1/3 of filling",
+    "explanation": "The largest portion of blood enters the left ventricle during the first 1/3 of the diastolic filling phase.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 7</span> What is afterload in the right ventricle?",
+    "options": [
+      "The remaining volume of blood in the right ventricle at the end of systole",
+      "Pulmonary arterial pressure",
+      "Right atrial pressure",
+      "Right ventricular end-diastolic pressure"
+    ],
+    "answer": 1,
+    "answerText": "Pulmonary arterial pressure",
+    "explanation": "Afterload in the right ventricle is primarily determined by the pulmonary arterial pressure.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 8</span> What is the main function of chordae tendineae in atrioventricular valves?",
+    "options": [
+      "To prevent their bulging backward toward the atria during ventricular contraction",
+      "To open the valve during ventricular contraction",
+      "To prevent the valve from opening",
+      "To increase the valve area during diastole"
+    ],
+    "answer": 0,
+    "answerText": "To prevent their bulging backward toward the atria during ventricular contraction",
+    "explanation": "Chordae tendineae prevent the AV valves from bulging back into the atria during ventricular contraction.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 9</span> What is the main source of energy production in the heart?",
+    "options": [
+      "Glucose",
+      "Fatty acids",
+      "Lactate",
+      "Proteins"
+    ],
+    "answer": 1,
+    "answerText": "Fatty acids",
+    "explanation": "The primary source of energy for the heart is fatty acids.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 10</span> Which factor leads to an increase in oxygen consumption in the heart?",
+    "options": [
+      "A decrease in strength of contraction",
+      "Activation of sympathetic system",
+      "Decrease in heart rate",
+      "Reduction of preload"
+    ],
+    "answer": 1,
+    "answerText": "Activation of sympathetic system",
+    "explanation": "Sympathetic activation increases heart rate and contractility, raising oxygen demand in the heart.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 11</span> Based on Poiseuille's law, which factor has more effect on blood flow?",
+    "options": [
+      "Viscosity of blood",
+      "Radius of vessel",
+      "Pressure gradient",
+      "Length of vessel"
+    ],
+    "answer": 1,
+    "answerText": "Radius of vessel",
+    "explanation": "According to Poiseuille’s law, the radius of the vessel has the greatest effect on blood flow, as flow is proportional to the fourth power of the radius.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 12</span> Suppose that the flow rate of a vessel is 100 cm³/sec, what happens if viscosity is doubled?",
+    "options": [
+      "Blood flow increases to 200 cm³/sec",
+      "Blood flow decreases to 50 cm³/sec",
+      "Blood flow remains the same",
+      "Blood flow decreases to 25 cm³/sec"
+    ],
+    "answer": 1,
+    "answerText": "Blood flow decreases to 50 cm³/sec",
+    "explanation": "According to Poiseuille’s law, doubling viscosity will halve the blood flow.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 13</span> Based on Poiseuille's law, all factors affect blood flow except:",
+    "options": [
+      "Length",
+      "Radius",
+      "Air pressure",
+      "Viscosity"
+    ],
+    "answer": 2,
+    "answerText": "Air pressure",
+    "explanation": "Poiseuille’s law is concerned with fluid flow in vessels and does not consider air pressure as a factor.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 14</span> Which sentence is not correct about baroreceptor?",
+    "options": [
+      "Baroreceptors located in the aortic arch and carotid sinus",
+      "They are sensitive to pressure increase",
+      "They are sensitive to pressure decrease",
+      "They regulate blood pressure"
+    ],
+    "answer": 2,
+    "answerText": "They are sensitive to pressure decrease",
+    "explanation": "Baroreceptors are sensitive to increases in pressure, not decreases.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 15</span> Diastolic pressure….",
+    "options": [
+      "It is the highest arterial pressure during a cardiac cycle",
+      "It is measured after the relaxation of the heart",
+      "It is the pressure during ventricular contraction",
+      "It is equal to venous pressure"
+    ],
+    "answer": 1,
+    "answerText": "It is measured after the relaxation of the heart",
+    "explanation": "Diastolic pressure is the pressure in the arteries when the heart is relaxed.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 16</span> Choose the best one about vein.",
+    "options": [
+      "They have high pressure and the largest blood volume",
+      "They have low pressure and the largest blood volume",
+      "They have thick muscular walls",
+      "They carry oxygen-rich blood"
+    ],
+    "answer": 1,
+    "answerText": "They have low pressure and the largest blood volume",
+    "explanation": "Veins have low pressure and contain the largest volume of blood in the circulatory system.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 17</span> Blood flow has….",
+    "options": [
+      "Direct relationship with the resistance",
+      "Direct relation with the pressure difference",
+      "Inverse relationship with pressure difference",
+      "No relation with pressure"
+    ],
+    "answer": 1,
+    "answerText": "Direct relation with the pressure difference",
+    "explanation": "Blood flow is directly proportional to the pressure difference across the vessel.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 18</span> Where is the greatest reduction in pressure in vessels?",
+    "options": [
+      "Arteries",
+      "Veins",
+      "Arterioles",
+      "Capillaries"
+    ],
+    "answer": 2,
+    "answerText": "Arterioles",
+    "explanation": "The greatest pressure drop occurs across the arterioles, which are the primary resistance vessels.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 19</span> How many oxygen atoms can be transported by each hemoglobin molecule?",
+    "options": [
+      "4",
+      "8",
+      "6",
+      "2"
+    ],
+    "answer": 1,
+    "answerText": "8",
+    "explanation": "Each hemoglobin molecule binds to 4 oxygen molecules (O2), equivalent to 8 oxygen atoms.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 20</span> What function do vitamin B12 and folic acid perform that is critical to hematopoiesis?",
+    "options": [
+      "Serve as cofactors for iron uptake",
+      "Support production of thymidine triphosphate",
+      "Stimulate erythropoietin production",
+      "Promote iron storage"
+    ],
+    "answer": 1,
+    "answerText": "Support production of thymidine triphosphate",
+    "explanation": "Vitamin B12 and folic acid are essential for DNA synthesis, specifically for the production of thymidine triphosphate.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 21</span> During the second trimester of pregnancy, where is the predominant site of RBC production?",
+    "options": [
+      "Bone marrow",
+      "Liver",
+      "Spleen",
+      "Yolk sac"
+    ],
+    "answer": 1,
+    "answerText": "Liver",
+    "explanation": "During the second trimester, the liver is the primary site of red blood cell production.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 22</span> After a person is placed in an atmosphere with low oxygen, how long does it take for increased numbers of erythrocytes to develop?",
+    "options": [
+      "1 day",
+      "3 days",
+      "5 days",
+      "7 days"
+    ],
+    "answer": 2,
+    "answerText": "5 days",
+    "explanation": "It typically takes about 5 days for increased erythrocyte production in response to hypoxia.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 23</span> Which phagocytes can extrude digestion products and continue to survive and function for many months?",
+    "options": [
+      "Neutrophils",
+      "Macrophages",
+      "Eosinophils",
+      "Basophils"
+    ],
+    "answer": 1,
+    "answerText": "Macrophages",
+    "explanation": "Macrophages can extrude digestion products and survive for months.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 24</span> During an inflammatory response, what is the correct order of cellular events?",
+    "options": [
+      "Activation of tissue macrophages, infiltration of neutrophils from the blood, infiltration of monocytes from blood, increased production of neutrophils",
+      "Activation of neutrophils, activation of monocytes, macrophage production, platelet aggregation",
+      "Histamine release, neutrophil activation, monocyte infiltration, vasodilation",
+      "Platelet aggregation, neutrophil activation, macrophage production, fibrin deposition"
+    ],
+    "answer": 0,
+    "answerText": "Activation of tissue macrophages, infiltration of neutrophils from the blood, infiltration of monocytes from blood, increased production of neutrophils",
+    "explanation": "This is the proper sequence of cellular events during inflammation.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 25</span> Adhesion of WBCs to the endothelium is….",
+    "options": [
+      "Due to the inhibition of histamine release",
+      "Dependent on activation of integrins",
+      "Caused by platelet aggregation",
+      "Mediated by prostaglandins"
+    ],
+    "answer": 1,
+    "answerText": "Dependent on activation of integrins",
+    "explanation": "Adhesion of white blood cells to the endothelium is primarily dependent on the activation of integrins.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 26</span> What is the primary mechanism by which heparin prevents blood coagulation?",
+    "options": [
+      "Activation of antithrombin III",
+      "Inhibition of thromboxane A2",
+      "Blocking vitamin K",
+      "Platelet aggregation inhibition"
+    ],
+    "answer": 0,
+    "answerText": "Activation of antithrombin III",
+    "explanation": "Heparin prevents blood coagulation by activating antithrombin III, which inhibits thrombin and other clotting factors.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 27</span> Which coagulation pathway begins with tissue thromboplastin?",
+    "options": [
+      "Intrinsic pathway",
+      "Extrinsic pathway",
+      "Common pathway",
+      "Platelet pathway"
+    ],
+    "answer": 1,
+    "answerText": "Extrinsic pathway",
+    "explanation": "The extrinsic pathway of coagulation is initiated by tissue thromboplastin (factor III).",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 28</span> What condition leads to a deficiency in factor IX that can be corrected by an intravenous injection of vitamin K?",
+    "options": [
+      "Bile duct obstruction",
+      "Liver failure",
+      "Hemophilia B",
+      "Iron deficiency"
+    ],
+    "answer": 0,
+    "answerText": "Bile duct obstruction",
+    "explanation": "Bile duct obstruction impairs fat absorption, leading to vitamin K deficiency and reduced production of clotting factors like factor IX.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 29</span> Which agent is not effective as an in vitro anticoagulant?",
+    "options": [
+      "Heparin",
+      "Warfarin",
+      "Citrate",
+      "EDTA"
+    ],
+    "answer": 1,
+    "answerText": "Warfarin",
+    "explanation": "Warfarin is effective as an anticoagulant in vivo but not in vitro.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 30</span> Fluid exudation into the tissue in an acute inflammatory reaction is due to which of the following?",
+    "options": [
+      "Decreased protein in the interstitium",
+      "Increased vascular permeability",
+      "Decreased hydrostatic pressure",
+      "Increased lymphatic drainage"
+    ],
+    "answer": 1,
+    "answerText": "Increased vascular permeability",
+    "explanation": "Increased vascular permeability allows fluid, proteins, and cells to move from the blood into tissues during inflammation.",
+    "userAnswer": null
+  },
+  {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-29) Dr. Mina ranjbaran & Dr. Ashabi & Dr. Amani - Question 1</span> When does the aortic valve close?",
     "options": [
       "Left ventricular pressure is higher than aortic pressure",
