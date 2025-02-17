@@ -296,6 +296,10 @@
     "description": "Related to the Third Semester",
     "subTopics": [
       {
+        "name": "Anatomy",
+        "file": "data/digestive_system_anatomy.json"
+      },
+      {
         "name": "Anatomy & histology & Embrology",
         "file": "data/digestive_system_anatomy_&_histology_&_embrology.json"
       },
