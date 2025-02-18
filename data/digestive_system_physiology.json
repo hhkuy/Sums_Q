@@ -260,15 +260,15 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 1</span> Which of the following is not TRUE?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 1</span> Which of the following is not TRUE?",
     "options": [
       "Trypsin can not activates all pancreatic enzymes",
       "Trypsin activates all pancreatic enzymes",
       "Trypsin inhibits pancreatic enzyme secretion",
       "Trypsin is secreted in its active form"
     ],
-    "answer": 0,
-    "answerText": "Trypsin can not activates all pancreatic enzymes",
+    "answer": 1,
+    "answerText": "Trypsin activates all pancreatic enzymes",
     "explanation": "Trypsin activates most pancreatic enzymes, but not all, making the statement \"Trypsin can not activates all pancreatic enzymes\" the correct choice.",
     "userAnswer": null
   },
