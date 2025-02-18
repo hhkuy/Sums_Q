@@ -1,15 +1,15 @@
 [
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 1</span> Which of the following is FALSE?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 1</span> Which of the following is FALSE?",
     "options": [
-      "Trypsin activates some pancreatic enzymes",
+      "Trypsin activates some pancreatic enzymes ( not all pancreatic enzymes )",
       "Trypsin is activated by enterokinase",
       "Trypsin activates all pancreatic enzymes",
       "Trypsin is a proteolytic enzyme"
     ],
-    "answer": 2,
-    "answerText": "Trypsin activates all pancreatic enzymes",
-    "explanation": "Trypsin activates many but not all pancreatic enzymes.",
+    "answer": 0,
+    "answerText": "Trypsin activates some pancreatic enzymes ( not all pancreatic enzymes )",
+    "explanation": "Trypsin activates all pancreatic enzymes.",
     "userAnswer": null
   },
   {
@@ -267,9 +267,9 @@
       "Trypsin inhibits pancreatic enzyme secretion",
       "Trypsin is secreted in its active form"
     ],
-    "answer": 1,
-    "answerText": "Trypsin activates all pancreatic enzymes",
-    "explanation": "Trypsin activates most pancreatic enzymes, but not all, making the statement \"Trypsin can not activates all pancreatic enzymes\" the correct choice.",
+    "answer": 0,
+    "answerText": "Trypsin can not activates all pancreatic enzymes",
+    "explanation": "Trypsin activates all pancreatic enzymes, making the statement \"Trypsin can not activates all pancreatic enzymes\" the correct choice because it is not true .",
     "userAnswer": null
   },
   {
