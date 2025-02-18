@@ -271,5 +271,265 @@
     "answerText": "Conductive hearing loss",
     "explanation": "Conductive hearing loss is indicated when air conduction thresholds are increased, but bone conduction is normal.",
     "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 1</span> Which retinal cell is stimulated last when light is projected into the eye?",
+    "options": [
+      "Bipolar cells",
+      "Horizontal cells",
+      "Retinal ganglion cells",
+      "Amacrine cells"
+    ],
+    "answer": 2,
+    "answerText": "Retinal ganglion cells",
+    "explanation": "Retinal ganglion cells are the final output neurons of the retina, transmitting visual information to the brain.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 2</span> Which one is correct about the foveola?",
+    "options": [
+      "It is composed entirely of rods",
+      "It is composed entirely of cones",
+      "It contains both rods and cones",
+      "It lacks photoreceptors"
+    ],
+    "answer": 1,
+    "answerText": "It is composed entirely of cones",
+    "explanation": "The foveola is the center of the fovea and is composed entirely of cones for high-acuity vision.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 3</span> All-trans retinal is converted to 11-cis retinal by:",
+    "options": [
+      "Dehydrogenase",
+      "Isomerase",
+      "Reductase",
+      "Kinase"
+    ],
+    "answer": 1,
+    "answerText": "Isomerase",
+    "explanation": "Isomerase is the enzyme that converts all-trans retinal to 11-cis retinal in the visual cycle.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 4</span> Which of the following components in rods is NOT active in the dark?",
+    "options": [
+      "Transducin",
+      "Phosphodiesterase",
+      "Rhodopsin",
+      "cGMP"
+    ],
+    "answer": 2,
+    "answerText": "Rhodopsin",
+    "explanation": "Rhodopsin is inactive in the dark and becomes activated upon exposure to light.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 5</span> On-center ganglion cells are best activated when light is directed onto the …… (of the) receptive field.",
+    "options": [
+      "Surround",
+      "Center",
+      "Entire",
+      "Periphery"
+    ],
+    "answer": 1,
+    "answerText": "Center",
+    "explanation": "On-center ganglion cells are activated when light is directed onto the center of their receptive field.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 6</span> Retinal projections to which of the following targets is involved in the regulation of pupil size in response to changes in light?",
+    "options": [
+      "Lateral geniculate body",
+      "Superior colliculus",
+      "Pretectal nucleus",
+      "Suprachiasmatic nucleus"
+    ],
+    "answer": 2,
+    "answerText": "Pretectal nucleus",
+    "explanation": "The pretectal nucleus is involved in the pupillary light reflex.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 7</span> Damage to which part of the visual pathway may cause blindness in one eye?",
+    "options": [
+      "Optic tract",
+      "Optic chiasm",
+      "Optic nerve",
+      "Lateral geniculate body"
+    ],
+    "answer": 2,
+    "answerText": "Optic nerve",
+    "explanation": "Damage to the optic nerve can result in complete blindness in the affected eye.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 8</span> Conscious perception of smells is a function of:",
+    "options": [
+      "Medial olfactory area",
+      "Orbitofrontal cortex",
+      "Lateral olfactory tract",
+      "Olfactory bulb"
+    ],
+    "answer": 1,
+    "answerText": "Orbitofrontal cortex",
+    "explanation": "The orbitofrontal cortex is responsible for the conscious perception of odors.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 9</span> The output fibers from the nasal part of the left retina projects to ... lateral geniculate body.",
+    "options": [
+      "Layer 2 of the right",
+      "Layer 3 of the right",
+      "Layer 4 of the right",
+      "Layer 5 of the right"
+    ],
+    "answer": 2,
+    "answerText": "Layer 4 of the right",
+    "explanation": "Nasal fibers from the left retina cross to the right lateral geniculate body, projecting to layer 4.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 10</span> Simple cells are mainly sensitive to ……… of lines.",
+    "options": [
+      "Orientation",
+      "Length",
+      "Contrast",
+      "Color"
+    ],
+    "answer": 0,
+    "answerText": "Orientation",
+    "explanation": "Simple cells in the visual cortex are primarily sensitive to the orientation of lines.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 11</span> Which eye movement are vestibular nuclei involved in?",
+    "options": [
+      "Smooth pursuit",
+      "Saccadic",
+      "Vergence",
+      "Optokinetic"
+    ],
+    "answer": 0,
+    "answerText": "Smooth pursuit",
+    "explanation": "Vestibular nuclei contribute to smooth pursuit eye movements to maintain gaze stability.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 12</span> Which of the following is NOT a factor determining impedance matching?",
+    "options": [
+      "Lever action of ossicles",
+      "Area of tympanic membrane",
+      "Area of round window",
+      "Curvature of tympanic membrane"
+    ],
+    "answer": 2,
+    "answerText": "Area of round window",
+    "explanation": "The area of the round window is not a factor in impedance matching.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 13</span> Which of the following is correct about inner hair cells?",
+    "options": [
+      "They receive 90-95 percent of auditory fibers",
+      "They are more numerous than outer hair cells",
+      "They have electromotility",
+      "They detect low-frequency sounds only"
+    ],
+    "answer": 0,
+    "answerText": "They receive 90-95 percent of auditory fibers",
+    "explanation": "Inner hair cells are the primary sensory receptors and receive the majority of auditory nerve fibers.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 14</span> A sound with a pressure ten times greater than the reference pressure (0.0002 × dyne/cm^2) has the level:",
+    "options": [
+      "1 dB",
+      "10 dB",
+      "20 dB",
+      "100 dB"
+    ],
+    "answer": 2,
+    "answerText": "20 dB",
+    "explanation": "A tenfold increase in sound pressure corresponds to an increase of 20 dB.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 15</span> Hair cells are repolarized by:",
+    "options": [
+      "Inward movement of Na ion",
+      "Outward movement of K ion",
+      "Inward movement of Cl ion",
+      "Outward movement of Ca ion"
+    ],
+    "answer": 1,
+    "answerText": "Outward movement of K ion",
+    "explanation": "Hair cells repolarize through the outward movement of K+ ions.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 16</span> Which frequency of sound can be detected by volley principle?",
+    "options": [
+      "100 Hz",
+      "1000 Hz",
+      "10000 Hz",
+      "20000 Hz"
+    ],
+    "answer": 0,
+    "answerText": "100 Hz",
+    "explanation": "The volley principle explains phase-locked firing of neurons, which is effective for low frequencies like 100 Hz.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 17</span> Taste buds on the anterior 1/3 of the tongue send their signals through:",
+    "options": [
+      "Glossopharyngeal nerve",
+      "Facial nerve",
+      "Vagus nerve",
+      "Trigeminal nerve"
+    ],
+    "answer": 1,
+    "answerText": "Facial nerve",
+    "explanation": "The facial nerve (chorda tympani branch) transmits taste from the anterior tongue.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 18</span> Taste signals from the taste buds first enter:",
+    "options": [
+      "Thalamus",
+      "Solitary nucleus",
+      "Gustatory cortex",
+      "Hypothalamus"
+    ],
+    "answer": 1,
+    "answerText": "Solitary nucleus",
+    "explanation": "Taste information from the tongue is first relayed to the solitary nucleus in the medulla.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 19</span> Which of the following receptors mediate sour taste sensation?",
+    "options": [
+      "T1R2/T1R3",
+      "ENaC",
+      "Otopetrin 1",
+      "P2X receptors"
+    ],
+    "answer": 2,
+    "answerText": "Otopetrin 1",
+    "explanation": "Otopetrin 1 (OTOP1) is involved in the detection of sour taste.",
+    "userAnswer": null
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 20</span> Olfactory nerve contains fibers of:",
+    "options": [
+      "Mitral cells",
+      "Tufted cells",
+      "Olfactory cells",
+      "Granule cells"
+    ],
+    "answer": 2,
+    "answerText": "Olfactory cells",
+    "explanation": "The olfactory nerve is composed of axons of olfactory receptor cells.",
+    "userAnswer": null
   }
 ]
