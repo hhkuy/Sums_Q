@@ -169,15 +169,15 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Golshan - Question 14</span> The otic vesicle does NOT develop into the:",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2024-08-05) - Dr. Golshan - Question 14</span> The otic vesicle does NOT develop into the:",
     "options": [
       "Cochlea",
       "Saccule",
       "Semicircular canals",
       "External ear"
     ],
-    "answer": 3,
-    "answerText": "External ear",
+    "answer": 2,
+    "answerText": "Semicircular canals",
     "explanation": "The otic vesicle develops into the inner ear structures (cochlea, saccule, utricle, semicircular canals), but not the external ear.",
     "userAnswer": null
   },
