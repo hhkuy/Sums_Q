@@ -156,11 +156,11 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-8-8) Dr. Imani - Question 13</span> What is the cause of “physiological dead space” occurrence?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">Second Batch (2024-8-8) Dr. Imani - Question 13</span> What is the cause of “physiological dead space” occurrence?",
     "options": [
       "Decreased VA/Q ratio",
       "An increase in VA/Q ratio more than normal value",
-      "Low perfusion",
+      "high perfusion",
       "Decreased alveolar compliance"
     ],
     "answer": 1,
