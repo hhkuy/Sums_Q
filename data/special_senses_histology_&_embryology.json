@@ -351,15 +351,15 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 12</span> The otic vesicle does NOT develop into the:",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 12</span> The otic vesicle does NOT develop into the:",
     "options": [
       "Cochlea",
       "Semicircular canals",
       "Tympanic membrane",
       "Utricle"
     ],
-    "answer": 2,
-    "answerText": "Tympanic membrane",
+    "answer": 1,
+    "answerText": "Semicircular canals",
     "explanation": "The otic vesicle gives rise to the inner ear structures but not the tympanic membrane.",
     "userAnswer": null
   },
