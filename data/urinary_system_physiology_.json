@@ -212,11 +212,11 @@
     "options": [
       "Phosphate",
       "Hemoglobin",
-      "Bicarbonate",
-      "Ammonia"
+      "Ammonia",
+      "Non of them"
     ],
-    "answer": 2,
-    "answerText": "Bicarbonate",
+    "answer": 1,
+    "answerText": "Hemoglobin",
     "explanation": "Hemoglobin acts as a rapid and efficient buffer against blood acidity.",
     "userAnswer": null
   },
@@ -624,12 +624,12 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 18</span> Upon an acid load entrance, which one is the best buffer system to fight against acidosis in blood?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">Second Batch (2024-1-12) Dr. Mehri Kadkhodaee - Question 18</span> Upon an acid load entrance, which one is the best buffer system to fight against acidosis in blood?",
     "options": [
       "Phosphate buffer",
-      "Hemoglobin buffer",
+      "Protein buffer",
       "Bicarbonate buffer",
-      "Protein buffer"
+      "Non of them"
     ],
     "answer": 2,
     "answerText": "Bicarbonate buffer",
