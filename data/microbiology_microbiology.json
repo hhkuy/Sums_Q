@@ -1859,12 +1859,12 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 16</span> Guillain-Barré syndrome is an autoimmune disorder of the peripheral nervous system. Which of the following bacteria causes this syndrome?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 16</span> Guillain-Barré syndrome is an autoimmune disorder of the peripheral nervous system. Which of the following bacteria causes this syndrome?",
     "options": [
-      "Campylobacter jejuni",
+      "Campylobacter fetus",
       "Campylobacter coli",
       "Campylobacter upsaliensis",
-      "Campylobacter fetus"
+      "Non of them"
     ],
     "answer": 2,
     "answerText": "Campylobacter upsaliensis",
