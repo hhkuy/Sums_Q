@@ -1131,16 +1131,16 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 24</span> Which of the following are enantiomers:",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">Second Batch (2024-2-3) Dr.SeyyedEbrahimi - Dr.Panahi - Question 24</span> Which of the following are enantiomers:",
     "options": [
       "D-Glucose and D-Galactose",
-      "D-Glucose and L-Glucose",
+      "D-Glucose and α-Glucose",
       "D-Galactose and L-Galactose",
       "α-glucose and β-glucose"
     ],
     "answer": 2,
     "answerText": "D-Galactose and L-Galactose",
-    "explanation": null,
+    "explanation": "",
     "userAnswer": null
   },
   {
