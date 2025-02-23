@@ -715,14 +715,14 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 16</span> Which structure is located in the interpeduncular fossa?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2024-10-07) Retake Exam - Dr. Hasanzadeh - Question 16</span> Which structure is located in the interpeduncular fossa?",
     "options": [
       "Substantia nigra",
       "Red nucleus",
-      "Mammillary bodies",
-      "Posterior perforated substance"
+      "Posterior perforated substance",
+      "Non of them"
     ],
-    "answer": 3,
+    "answer": 2,
     "answerText": "Posterior perforated substance",
     "explanation": "The posterior perforated substance is located in the interpeduncular fossa.",
     "userAnswer": null
