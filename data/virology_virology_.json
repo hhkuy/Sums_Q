@@ -364,14 +364,14 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 29</span> Which of the following virus families has the ability to cause cancer in humans?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 29</span> Which of the following virus families has the ability to cause cancer in humans?",
     "options": [
       "Poxviruses",
       "Rhabdoviruses",
       "Adenoviruses",
       "Orthomyxoviruses"
     ],
-    "answer": 4,
+    "answer": 0,
     "answerText": "Poxviruses",
     "explanation": "Some poxviruses have oncogenic potential, though adenoviruses can also induce tumors in experimental animals, they are not a common human cancer cause.",
     "userAnswer": null
