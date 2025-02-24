@@ -143,15 +143,15 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 12</span> Which statement about primary oocytes is not true?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2024-07-21) - Dr. Golshan - Question 12</span> Which statement about primary oocytes is not true?",
     "options": [
       "They are arrested in meiosis",
       "They are formed after birth",
       "They are surrounded by follicular cells",
       "They are present at birth"
     ],
-    "answer": 3,
-    "answerText": "They are present at birth",
+    "answer": 1,
+    "answerText": "They are formed after birth",
     "explanation": "Primary oocytes are formed before birth and are arrested in prophase I of meiosis until puberty.",
     "userAnswer": null
   },
@@ -221,15 +221,15 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Golshan - Question 18</span> A mature ovarian follicle contains the following EXCEPT:",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2024-07-21) - Dr. Golshan - Question 18</span> A mature ovarian follicle contains the following EXCEPT:",
     "options": [
       "Zona pellucida",
       "Theca lutein cells",
       "Granulosa cells",
       "Theca interna cells"
     ],
-    "answer": 3,
-    "answerText": "Theca interna cells",
+    "answer": 1,
+    "answerText": "Theca lutein cells",
     "explanation": "Theca lutein cells are found after ovulation in the corpus luteum, not in a mature follicle.",
     "userAnswer": null
   },
