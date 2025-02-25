@@ -130,15 +130,15 @@
     "userAnswer": null
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 11</span> What is the role of type 1 interferons in antiviral defense?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 11</span> What is the role of type 1 interferons in antiviral defense?",
     "options": [
       "Inhibiting DNA replication of herpesviruses",
       "Blocking ribosomal assembly and degrading viral mRNA",
       "Preventing viral fusion with host membranes",
       "Inhibiting viral attachment to host cells"
     ],
-    "answer": 0,
-    "answerText": "Inhibiting DNA replication of herpesviruses",
+    "answer": 1,
+    "answerText": "Blocking ribosomal assembly and degrading viral mRNA",
     "explanation": "Type 1 interferons (IFN-α and IFN-β) inhibit viral DNA and RNA synthesis and activate antiviral pathways.",
     "userAnswer": null
   },
