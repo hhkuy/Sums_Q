@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>SUMS Questions - Quiz Application + Custom Quiz</title>
+  <title>SUMS Questions - Quiz Application</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
@@ -25,9 +25,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   
   <style>
-    /******************************************************
-     *            (1) التنسيقات الأصلية للصفحة            *
-     ******************************************************/
+    /*================ Reset & Base Styles ================*/
     * {
       box-sizing: border-box;
       margin: 0;
@@ -74,22 +72,7 @@
     .hero-content p {
       font-size: 1.2rem;
     }
-    /* زر الانتقال إلى قسم الاختبار المخصص */
-    .custom-quiz-btn {
-      margin-top: 20px;
-      padding: 14px 24px;
-      font-size: 1rem;
-      border: none;
-      border-radius: 8px;
-      color: #fff;
-      background-color: #28a745;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-    .custom-quiz-btn:hover {
-      background-color: #218838;
-    }
-
+    
     /*================ Topics Page ================*/
     #topics-page {
       width: 90%;
@@ -150,6 +133,7 @@
       box-shadow: 0 8px 16px rgba(0,0,0,0.15);
     }
     
+    /*=== آلية ترتيب المواضيع والـ subtopics والوصف ===*/
     .topic-header {
       display: flex;
       flex-direction: column;
@@ -201,7 +185,7 @@
       width: 90%;
       max-width: 900px;
       margin: 40px auto;
-      display: none; /* بالأساس مخفية */
+      display: none;
     }
     #quiz-title {
       text-align: center;
@@ -211,6 +195,7 @@
       font-weight: 700;
     }
     
+    /*--------------- Quiz - Questions & Options ---------------*/
     .question-container {
       margin-bottom: 20px;
       padding-bottom: 20px;
@@ -289,6 +274,7 @@
       border: 2px solid #28a745;
     }
     
+    /*--------------- Quiz Buttons ---------------*/
     .quiz-container button {
       margin-top: 15px;
       margin-right: 5px;
@@ -423,6 +409,7 @@
       color: #fff;
     }
     
+    /*================ Answer Cards ================*/
     .answer {
       display: none;
       margin-top: 10px;
@@ -469,6 +456,7 @@
       background-color: #c82333;
     }
     
+    /*================ Filters ================*/
     .filter-button {
       padding: 12px;
       margin: 5px;
@@ -493,6 +481,7 @@
       color: white;
     }
     
+    /*================ Search Results ================*/
     #search-results {
       max-height: 300px;
       overflow-y: auto;
@@ -509,6 +498,7 @@
     #search-results li {
       margin: 10px 0;
     }
+    /* تعديل حجم خانة البحث في زر البحث داخل الأسئلة */
     #jump-input {
       width: 250px;
       height: 35px;
@@ -538,7 +528,8 @@
     #search-results li button mark {
       background-color: yellow;
     }
-
+    
+    /*================ Revert ألوان أزرار Show Unanswered Questions & Show All Questions ================*/
     .filter-button.unanswered {
       background-color: #ffc107;
       color: black;
@@ -547,6 +538,9 @@
       background-color: #007bff;
       color: white;
     }
+    
+    /*================ Revert ألوان أزرار MCQs Mode & Flashcard Mode ================*/
+    /* ألوان أزرار Show Answer, Shuffle Options, Clear في MCQs Mode */
     .show-answer-button {
       background-color: #28a745;
       color: white;
@@ -583,12 +577,79 @@
     .clear-button:hover {
       background-color: #c82333;
     }
-
-    /* زر تحميل الـ PDF */
-    #download-pdf {
-      background-color: orange !important;
+    
+    /* ألوان أزرار Flashcard Mode: Show Answer & Clear */
+    .flashcard-show-answer-button {
+      background-color: #28a745;
+      color: white;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
     }
+    .flashcard-show-answer-button:hover {
+      background-color: #218838;
+    }
+    .flashcard-clear-button {
+      background-color: #dc3545;
+      color: white;
+      padding: 8px 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .flashcard-clear-button:hover {
+      background-color: #c82333;
+    }
+    
+    /*================ CSS إضافي لأزرار Flashcard Mode في الـ Filters ================*/
+    .filter-button.yes-button {
+      background-color: #28a745;
+      color: white;
+    }
+    .filter-button.no-button {
+      background-color: #dc3545;
+      color: white;
+    }
+    .filter-button.unanswered-button {
+      background-color: #ffc107;
+      color: black;
+    }
+    .filter-button.all-button {
+      background-color: #007bff;
+      color: white;
+    }
+    
+    /*================ Modal (Categories) ================*/
+    .modal-content select {
+      width: 80%;
+      max-width: 300px;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ced4da;
+      background: #fff;
+      display: block;
+      margin: 0 auto;
+    }
+    .modal-content select:focus {
+      outline: none;
+      border-color: #80bdff;
+      box-shadow: 0 0 3px rgba(0,123,255,.5);
+    }
+    .category-modal-buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 15px;
+    }
+    .category-modal-buttons button {
+      margin: 0 5px;
+    }
+
     @media print {
+      /* إجبار المتصفح على الحفاظ على الألوان والخلفيات */
       * {
         -webkit-print-color-adjust: exact !important;
         color-adjust: exact !important;
@@ -596,237 +657,34 @@
       }
     }
 
-    /******************************************************
-     *        (2) تنسيقات قسم الاختبار المخصص الجديد      *
-     ******************************************************/
-    #custom-quiz-section {
-      display: none;
-      width: 90%;
-      max-width: 1200px;
-      margin: 40px auto;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      padding: 20px;
-    }
-    #custom-quiz-section h2 {
-      margin-bottom: 20px;
-    }
-    .cq-topics-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-      margin-bottom: 20px;
-    }
-    .cq-topic-item {
-      background-color: #f8f9fa;
-      padding: 8px 12px;
-      border-radius: 6px;
-      border: 1px solid #ccc;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-    }
-    .cq-topic-item:hover {
-      background-color: #e9ecef;
-    }
-    .cq-topic-item input {
-      margin-right: 6px;
-    }
-    .cq-subtopics-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-      margin-bottom: 20px;
-    }
-    .cq-subtopic-item {
-      background-color: #f8f9fa;
-      padding: 8px 12px;
-      border-radius: 6px;
-      border: 1px solid #ccc;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-    }
-    .cq-subtopic-item:hover {
-      background-color: #e9ecef;
-    }
-    .cq-subtopic-item input {
-      margin-right: 6px;
-    }
-
-    .cq-settings {
-      max-width: 400px;
-      margin-bottom: 20px;
-    }
-    .cq-settings label {
-      display: block;
-      margin-bottom: 5px;
-      font-weight: 600;
-    }
-    .cq-settings input[type="number"], .cq-settings select {
-      width: 100%;
-      padding: 10px;
-      font-size: 1rem;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-    }
-    .cq-settings .checkbox-container {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-top: 10px;
-    }
-    .cq-settings .checkbox-container input {
-      transform: scale(1.2);
-      margin-right: 8px;
-      cursor: pointer;
-    }
-
-    .cq-btn {
-      margin-top: 15px;
-      padding: 12px 20px;
-      font-size: 1rem;
-      border: none;
-      border-radius: 8px;
-      color: #fff;
-      background-color: #28a745;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-    .cq-btn:hover {
-      background-color: #218838;
-    }
-
-    .cq-quiz-display {
-      display: none;
-      margin-top: 30px;
-    }
-    .cq-timer-container {
-      margin-bottom: 20px;
-      font-size: 1.2rem;
-      color: #d9534f;
-      font-weight: 700;
-    }
-    .cq-progress-bar-container {
-      width: 100%;
-      background-color: #e9ecef;
-      height: 20px;
-      border-radius: 10px;
-      overflow: hidden;
-      margin-bottom: 20px;
-    }
-    .cq-progress-bar-fill {
-      height: 100%;
-      background-color: #007bff;
-      width: 0%;
-      transition: width 0.3s;
-    }
-    .cq-question-container {
-      margin-bottom: 20px;
-    }
-    .cq-question-container h3 {
-      margin-bottom: 10px;
-      font-size: 1.2rem;
-    }
-    .cq-options .cq-option {
-      background-color: #f8f9fa;
-      padding: 10px;
-      border-radius: 6px;
-      margin-bottom: 8px;
-      display: flex;
-      align-items: center;
-      cursor: pointer;
-    }
-    .cq-option:hover {
-      background-color: #e9ecef;
-    }
-    .cq-option input[type="radio"] {
-      margin-right: 8px;
-      transform: scale(1.1);
-    }
-    .cq-nav-buttons {
-      display: flex;
-      gap: 10px;
-      margin-bottom: 30px;
-    }
-    .cq-nav-buttons button {
-      padding: 10px 16px;
-      font-size: 1rem;
-      border: none;
-      border-radius: 8px;
-      color: #fff;
-      cursor: pointer;
-    }
-    .cq-btn-prev {
-      background-color: #6c757d;
-    }
-    .cq-btn-prev:hover {
-      background-color: #5a6268;
-    }
-    .cq-btn-next {
-      background-color: #007bff;
-    }
-    .cq-btn-next:hover {
-      background-color: #0056b3;
-    }
-    .cq-btn-submit {
-      background-color: #28a745;
-    }
-    .cq-btn-submit:hover {
-      background-color: #218838;
-    }
-
-    .cq-result-section {
-      display: none;
-      margin-top: 40px;
-      text-align: center;
-    }
-    .cq-result-section h3 {
-      margin-bottom: 20px;
-      font-size: 1.6rem;
-    }
-    .cq-restart-btn {
-      margin-top: 20px;
-      padding: 14px 24px;
-      font-size: 1rem;
-      border: none;
-      border-radius: 8px;
-      color: #fff;
-      background-color: #dc3545;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-    .cq-restart-btn:hover {
-      background-color: #c82333;
+    /*------------------------------------------*/
+    /*  إعادة لون زر التحميل إلى اللون البرتقالي */
+    /*------------------------------------------*/
+    #download-pdf {
+      background-color: orange !important;
     }
   </style>
 </head>
 <body>
 
-  <!-- (A) قسم الهيرو الأصلي -->
+  <!-- قسم الهيرو (ترحيبي) -->
   <div class="hero-section">
     <div class="hero-content">
       <h1>Welcome to SUMS Questions Bank (SQB)</h1>
       <p>Your gateway to comprehensive quizzes and topic exploration!</p>
       <!-- عرض العدد الكلي للأسئلة في الموقع -->
       <p id="site-total-questions">Total Questions: Loading...</p>
-
-      <!-- زر إظهار/إخفاء قسم الاختبار المخصص -->
-      <button class="custom-quiz-btn" onclick="toggleCustomQuizSection()">
-        إنشاء اختبار مخصص
-      </button>
     </div>
   </div>
 
-  <!-- (B) القسم الخاص بعرض المواضيع الأصلية -->
+  <!-- القسم الخاص بعرض المواضيع -->
   <div id="topics-page">
     <div class="topic-search-bar">
       <input type="text" id="topic-search-input" placeholder="Search topics...">
       <button onclick="manualSearchTopics()">Search</button>
     </div>
     <div class="topics-grid" id="topics-grid">
-      <!-- بطاقات المواضيع يتم إنشاؤها ديناميكياً -->
+      <!-- مثال على بطاقة موضوع -->
       <div class="topic-card">
         <div class="topic-header">
           <h2 class="topic-title">عنوان الموضوع الأطول هنا</h2>
@@ -840,10 +698,11 @@
           </div>
         </div>
       </div>
+      <!-- المزيد من البطاقات ... -->
     </div>
   </div>
 
-  <!-- (C) حاوية الكويز الأصلي -->
+  <!-- حاوية الكويز -->
   <div class="quiz-container" id="quiz-container">
     <button id="back-to-topics" type="button" onclick="goBackToTopics()">← Back to Topics</button>
     <button id="download-pdf" type="button" onclick="downloadPDF()">Download PDF</button>
@@ -863,13 +722,13 @@
     <div id="result"></div>
   </div>
 
-  <!-- (D) الأزرار العائمة -->
+  <!-- الأزرار العائمة (للكويز) -->
   <div class="floating-button-container" id="floating-buttons">
     <button id="scroll-button" class="floating-button" onclick="handleScrollButton()" title="Scroll between answered and bottom">↓</button>
     <button id="jump-button" class="floating-button" onclick="openJumpModal()" title="Search Questions">🔍</button>
   </div>
 
-  <!-- (E) مودال إعادة التهيئة (Reset) -->
+  <!-- مودال إعادة التهيئة (Reset) -->
   <div id="reset-modal" class="modal">
     <div class="modal-content">
       <p>Are you sure you want to reset the quiz?</p>
@@ -878,7 +737,7 @@
     </div>
   </div>
 
-  <!-- (F) مودال البحث (Jump) -->
+  <!-- مودال البحث (Jump) -->
   <div id="jump-modal" class="modal">
     <div class="modal-content">
       <p>Search in currently displayed questions:</p>
@@ -889,1607 +748,22 @@
     </div>
   </div>
 
-  <!-- (G) مودال فلترة الفئات (Categories) -->
+  <!-- مودال فلترة الفئات (Categories) -->
   <div id="category-modal" class="modal">
     <div class="modal-content">
       <p>Select Categories:</p>
       <select id="category-filter" multiple></select>
       <div class="category-modal-buttons">
-        <button id="select-all-categories-btn"
-                style="padding:8px; font-size:14px; border:none; border-radius:5px; background-color:#007bff; color:#fff;">
-          Select/Unselect All
-        </button>
+        <button id="select-all-categories-btn" style="padding:8px; font-size:14px; border:none; border-radius:5px; background-color:#007bff; color:#fff;">Select/Unselect All</button>
         <button class="modal-button yes" onclick="applyCategoryFilter()">OK</button>
         <button class="modal-button no" onclick="closeCategoryModal()">Cancel</button>
       </div>
     </div>
   </div>
 
-  <!-- (H) قسم الاختبار المخصص (Custom Quiz) -->
-  <div id="custom-quiz-section">
-    <h2>إنشاء اختبار مخصص من المواضيع الموجودة</h2>
+  <!-- ملف الجافاسكربت الأساسي -->
+  <script src="js/main.js"></script>
 
-    <!-- عرض المواضيع والمواضيع الفرعية (checkboxes) -->
-    <div class="cq-topics-container" id="cq-topics-container"></div>
-    <div class="cq-subtopics-container" id="cq-subtopics-container"></div>
-
-    <!-- إعدادات الاختبار -->
-    <div class="cq-settings">
-      <label for="cq-question-count">عدد الأسئلة المطلوب:</label>
-      <input type="number" id="cq-question-count" placeholder="مثال: 30" min="1">
-
-      <div class="checkbox-container">
-        <input type="checkbox" id="cq-randomize-questions">
-        <label for="cq-randomize-questions">اختيار الأسئلة عشوائيًا</label>
-      </div>
-
-      <label for="cq-timer-type">نوع المؤقت:</label>
-      <select id="cq-timer-type">
-        <option value="none">بدون مؤقت</option>
-        <option value="total">مؤقت عام</option>
-        <option value="per-question">مؤقت لكل سؤال</option>
-      </select>
-
-      <div id="cq-timer-settings" style="margin-top:10px; display:none;">
-        <label id="cq-timer-label" for="cq-timer-value"></label>
-        <input type="number" id="cq-timer-value" placeholder="أدخل الوقت بالثواني" min="1">
-      </div>
-    </div>
-
-    <button class="cq-btn" id="cq-start-btn">ابدأ الاختبار</button>
-
-    <!-- عرض الأسئلة نفسها -->
-    <div class="cq-quiz-display" id="cq-quiz-display">
-      <div class="cq-timer-container" id="cq-timer-container"></div>
-      <div class="cq-progress-bar-container">
-        <div class="cq-progress-bar-fill" id="cq-progress-bar-fill"></div>
-      </div>
-      <div class="cq-question-container" id="cq-question-container"></div>
-      <div class="cq-nav-buttons">
-        <button class="cq-btn-prev" id="cq-prev-btn">السابق</button>
-        <button class="cq-btn-next" id="cq-next-btn">التالي</button>
-        <button class="cq-btn-submit" id="cq-submit-btn" style="display:none;">إنهاء</button>
-      </div>
-    </div>
-
-    <!-- قسم النتيجة -->
-    <div class="cq-result-section" id="cq-result-section">
-      <h3>نتيجتك النهائية</h3>
-      <div id="cq-result-details"></div>
-      <button class="cq-restart-btn" id="cq-restart-btn">إعادة التحميل</button>
-    </div>
-  </div>
-
-  <!-- (I) سكربت الـ main.js الأصلي (جميع الدوال دون أي حذف) -->
-  <script>
-  /***************************************************************
-   *          الكود الأصلي (كما في main.js) - بدون نقص            *
-   ***************************************************************/
-  document.addEventListener('DOMContentLoaded', () => {
-    loadTopicsList(); // عند تحميل الصفحة، نجلب قائمة المواضيع
-    setupTopicSearchListener(); // تجهيز الاستماع لحقل البحث (المواضيع)
-    // في نهاية التحميل، نهيّئ قسم الاختبار المخصص (لنملأه بالمواضيع)
-  });
-
-  // المسار الخاص بملف المواضيع
-  const TOPICS_JSON_FILE = 'data/topics.json';
-
-  // متغيرات الأسئلة
-  let quizData = [];
-  let originalQuizData = [];
-
-  // الفئات (للفلترة)
-  let originalCategories = [];
-  let categoryFilterSelected = [];
-
-  // متغيرات أخرى
-  let mode = 'mcq';
-  let currentCorrectnessFilter = 'all';
-  let scrollState = 0;
-  let lastAnsweredIndex = -1;
-
-  // عناصر الـDOM
-  const topicsPage = document.getElementById('topics-page');
-  const topicsGrid = document.getElementById('topics-grid');
-  const quizContainer = document.getElementById('quiz-container');
-  const quizForm = document.getElementById('quiz-form');
-  const resultElement = document.getElementById('result');
-  const scrollButton = document.getElementById('scroll-button');
-  const floatingButtons = document.getElementById('floating-buttons');
-  const quizTitleElement = document.getElementById('quiz-title');
-
-  // سنحتفظ بقائمة المواضيع كاملة في متغير allTopics
-  let allTopics = [];
-
-  function loadTopicsList() {
-    fetch(TOPICS_JSON_FILE)
-      .then(response => response.json())
-      .then(topics => {
-        allTopics = topics;
-        displayTopics(allTopics);
-        updateSiteTotalQuestions(topics);
-
-        // بعد تحميل كل المواضيع، نعرضها في قسم الاختبار المخصص
-        renderCustomQuizTopics(); // <-- لعرض المواضيع في التشيك بوكس
-      })
-      .catch(err => console.error('Error loading topics.json:', err));
-  }
-
-  function displayTopics(topicsArray) {
-    topicsGrid.innerHTML = '';
-    if (!topicsArray || topicsArray.length === 0) {
-      const msg = document.createElement('p');
-      msg.textContent = 'No topics found.';
-      msg.style.fontSize = '1.2rem';
-      msg.style.color = '#555';
-      topicsGrid.appendChild(msg);
-      return;
-    }
-    topicsArray.forEach(topic => {
-      const topicCard = document.createElement('div');
-      topicCard.classList.add('topic-card');
-      
-      const titleEl = document.createElement('h3');
-      titleEl.classList.add('topic-title');
-      titleEl.textContent = topic.topicName;
-      topicCard.appendChild(titleEl);
-      
-      const descEl = document.createElement('p');
-      descEl.classList.add('topic-description');
-      descEl.textContent = topic.description ? topic.description : 'No description available.';
-      topicCard.appendChild(descEl);
-      
-      const subtopicContainer = document.createElement('div');
-      subtopicContainer.classList.add('subtopic-buttons');
-      
-      if (!topic.subTopics || topic.subTopics.length === 0) {
-        if (topic.file) {
-          const btn = document.createElement('button');
-          btn.textContent = 'Open Topic';
-          btn.addEventListener('click', () => {
-            loadQuestionsJSON(topic.file, topic.topicName);
-          });
-          subtopicContainer.appendChild(btn);
-        } else {
-          const btn = document.createElement('button');
-          btn.textContent = 'No subtopics available';
-          btn.disabled = true;
-          subtopicContainer.appendChild(btn);
-        }
-      } else {
-        topic.subTopics.forEach(sub => {
-          const btn = document.createElement('button');
-          btn.textContent = sub.name;
-          btn.addEventListener('click', () => {
-            const newTitle = topic.topicName + " - " + sub.name;
-            loadQuestionsJSON(sub.file, newTitle);
-          });
-          subtopicContainer.appendChild(btn);
-        });
-      }
-      
-      topicCard.appendChild(subtopicContainer);
-      topicsGrid.appendChild(topicCard);
-    });
-  }
-
-  function updateSiteTotalQuestions(topics) {
-    let files = [];
-    topics.forEach(topic => {
-      if (topic.file) {
-        files.push(topic.file);
-      }
-      if (topic.subTopics && topic.subTopics.length > 0) {
-        topic.subTopics.forEach(sub => {
-          if (sub.file) {
-            files.push(sub.file);
-          }
-        });
-      }
-    });
-    files = [...new Set(files)];
-
-    const fetchPromises = files.map(file => {
-      return fetch(file)
-        .then(response => response.json())
-        .then(data => Array.isArray(data) ? data.length : 0)
-        .catch(err => {
-          console.error("Error fetching file", file, err);
-          return 0;
-        });
-    });
-
-    Promise.all(fetchPromises).then(counts => {
-      const total = counts.reduce((acc, cur) => acc + cur, 0);
-      const siteTotalQuestionsElement = document.getElementById('site-total-questions');
-      if (siteTotalQuestionsElement) {
-        siteTotalQuestionsElement.textContent = `Total Questions: ${total}`;
-      }
-    });
-  }
-
-  function setupTopicSearchListener() {
-    const searchInput = document.getElementById('topic-search-input');
-    if (!searchInput) return;
-    searchInput.addEventListener('input', () => {
-      const query = searchInput.value.trim().toLowerCase();
-      filterTopicCards(query);
-    });
-  }
-
-  function manualSearchTopics() {
-    const searchInput = document.getElementById('topic-search-input');
-    if (!searchInput) return;
-    const query = searchInput.value.trim().toLowerCase();
-    filterTopicCards(query);
-  }
-
-  function filterTopicCards(query) {
-    if (!query) {
-      displayTopics(allTopics);
-      return;
-    }
-    const filtered = allTopics.filter(topic => {
-      const nameMatch = topic.topicName.toLowerCase().includes(query);
-      const descMatch = (topic.description || '').toLowerCase().includes(query);
-      return nameMatch || descMatch;
-    });
-    displayTopics(filtered);
-  }
-
-  function loadQuestionsJSON(jsonFilePath, quizTitle) {
-    fetch(jsonFilePath)
-      .then(response => response.json())
-      .then(data => {
-        quizData = JSON.parse(JSON.stringify(data));
-        originalQuizData = JSON.parse(JSON.stringify(data));
-        initOriginalCategories();
-        topicsPage.style.display = 'none';
-        quizContainer.style.display = 'block';
-        floatingButtons.style.display = 'flex';
-        quizTitleElement.textContent = quizTitle ? quizTitle : "Quiz Application";
-        loadQuiz();
-        categoryFilterSelected = [];
-        applyAllFilters();
-        if (resultElement) resultElement.innerHTML = '';
-        scrollState = 0;
-        lastAnsweredIndex = -1;
-        updateScrollButtonIcon();
-        MathJax.typesetPromise([quizForm]).catch(err => console.error(err));
-      })
-      .catch(err => console.error('Error loading quiz JSON:', err));
-  }
-
-  function goBackToTopics() {
-    quizContainer.style.display = 'none';
-    topicsPage.style.display = 'flex';
-    floatingButtons.style.display = 'none';
-    if (resultElement) resultElement.innerHTML = '';
-  }
-
-  function initOriginalCategories() {
-    const cats = originalQuizData.map(q => extractCategoryFromQuestion(q.question)).filter(c => c);
-    originalCategories = [...new Set(cats)];
-  }
-
-  function loadQuiz() {
-    if (!quizForm) return;
-    quizForm.innerHTML = '';
-    
-    quizData.forEach((data, index) => {
-      const questionContainer = document.createElement('div');
-      questionContainer.classList.add('question-container');
-      questionContainer.id = `question-container-${index}`;
-      
-      const questionDiv = document.createElement('div');
-      questionDiv.classList.add('question');
-      questionDiv.id = `question-${index}`;
-      
-      const questionNumberSpan = document.createElement('span');
-      questionNumberSpan.classList.add('question-number');
-      questionNumberSpan.textContent = `${index + 1}.`;
-      
-      const questionTextSpan = document.createElement('span');
-      questionTextSpan.innerHTML = data.question;
-      
-      const lightbulbIcon = document.createElement('span');
-      lightbulbIcon.classList.add('lightbulb-icon');
-      lightbulbIcon.innerHTML = '💡';
-      lightbulbIcon.dataset.index = index;
-      lightbulbIcon.addEventListener('click', () => {
-        toggleExplanation(index);
-      });
-      
-      questionDiv.appendChild(questionNumberSpan);
-      questionDiv.appendChild(questionTextSpan);
-      questionDiv.appendChild(lightbulbIcon);
-      questionContainer.appendChild(questionDiv);
-      
-      const explanationDiv = document.createElement('div');
-      explanationDiv.classList.add('explanation');
-      explanationDiv.id = `explanation-${index}`;
-      explanationDiv.textContent = data.explanation || '';
-      questionContainer.appendChild(explanationDiv);
-      
-      if (mode === 'mcq') {
-        const optionsContainer = document.createElement('div');
-        optionsContainer.classList.add('options-container');
-        optionsContainer.id = `options-container-${index}`;
-        
-        data.options.forEach((option, optionIndex) => {
-          const optionDiv = document.createElement('div');
-          optionDiv.classList.add('option');
-          optionDiv.dataset.index = index;
-          optionDiv.dataset.optionIndex = optionIndex;
-          
-          const radioInput = document.createElement('input');
-          radioInput.type = 'radio';
-          radioInput.id = `question-${index}-option-${optionIndex}`;
-          radioInput.name = `question-${index}`;
-          radioInput.value = optionIndex;
-          
-          optionDiv.appendChild(radioInput);
-          
-          const optionLabel = document.createElement('label');
-          optionLabel.innerHTML = option; 
-          optionDiv.appendChild(optionLabel);
-          optionsContainer.appendChild(optionDiv);
-        });
-        
-        questionContainer.appendChild(optionsContainer);
-        
-        const showAnswerButton = document.createElement('button');
-        showAnswerButton.type = 'button';
-        showAnswerButton.textContent = 'Show Answer';
-        showAnswerButton.classList.add('show-answer-button');
-        showAnswerButton.addEventListener('click', (e) => {
-          e.stopPropagation();
-          showIndividualAnswer(index);
-        });
-        
-        const shuffleOptionsButton = document.createElement('button');
-        shuffleOptionsButton.type = 'button';
-        shuffleOptionsButton.textContent = 'Shuffle Options';
-        shuffleOptionsButton.classList.add('shuffle-options-button');
-        shuffleOptionsButton.addEventListener('click', (e) => {
-          e.stopPropagation();
-          shuffleOptionsForQuestion(index);
-        });
-        
-        const clearButton = document.createElement('button');
-        clearButton.type = 'button';
-        clearButton.textContent = 'Clear';
-        clearButton.classList.add('clear-button');
-        clearButton.addEventListener('click', (e) => {
-          e.stopPropagation();
-          clearIndividualQuestion(index);
-        });
-        
-        const buttonContainer = document.createElement('div');
-        buttonContainer.appendChild(showAnswerButton);
-        buttonContainer.appendChild(shuffleOptionsButton);
-        buttonContainer.appendChild(clearButton);
-        questionContainer.appendChild(buttonContainer);
-        
-      } else if (mode === 'flashcard') {
-        const buttonGroup = document.createElement('div');
-        buttonGroup.classList.add('button-group');
-        
-        const showAnswerButton = document.createElement('button');
-        showAnswerButton.type = 'button';
-        showAnswerButton.textContent = 'Show Answer';
-        showAnswerButton.classList.add('show-answer-button');
-        showAnswerButton.addEventListener('click', (e) => {
-          e.stopPropagation();
-          toggleAnswer(index);
-        });
-        
-        const clearButton = document.createElement('button');
-        clearButton.type = 'button';
-        clearButton.textContent = 'Clear';
-        clearButton.classList.add('clear-button');
-        clearButton.addEventListener('click', (e) => {
-          e.stopPropagation();
-          clearUserAnswer(index);
-        });
-        
-        const indicator = document.createElement('span');
-        indicator.classList.add('indicator');
-        indicator.id = `indicator-${index}`;
-        
-        buttonGroup.appendChild(showAnswerButton);
-        buttonGroup.appendChild(clearButton);
-        buttonGroup.appendChild(indicator);
-        questionContainer.appendChild(buttonGroup);
-        
-        const answerDiv = document.createElement('div');
-        answerDiv.classList.add('answer');
-        answerDiv.id = `answer-${index}`;
-        answerDiv.textContent = data.answerText ? `Answer: ${data.answerText}` : '';
-        questionContainer.appendChild(answerDiv);
-        
-        const isCorrectDiv = document.createElement('div');
-        isCorrectDiv.classList.add('is-correct');
-        isCorrectDiv.textContent = 'Is your answer correct?';
-        questionContainer.appendChild(isCorrectDiv);
-        
-        const yesNoGroup = document.createElement('div');
-        yesNoGroup.classList.add('yes-no-group');
-        
-        const yesButton = document.createElement('button');
-        yesButton.type = 'button';
-        yesButton.textContent = 'Yes';
-        yesButton.classList.add('yes-button');
-        yesButton.addEventListener('click', (e) => {
-          e.stopPropagation();
-          setUserAnswer(index, 'yes');
-        });
-        
-        const noButton = document.createElement('button');
-        noButton.type = 'button';
-        noButton.textContent = 'No';
-        noButton.classList.add('no-button');
-        noButton.addEventListener('click', (e) => {
-          e.stopPropagation();
-          setUserAnswer(index, 'no');
-        });
-        
-        yesNoGroup.appendChild(yesButton);
-        yesNoGroup.appendChild(noButton);
-        questionContainer.appendChild(yesNoGroup);
-      }
-      
-      quizForm.appendChild(questionContainer);
-    });
-    
-    document.getElementById('total-questions').textContent = quizData.length;
-    MathJax.typesetPromise([quizForm]).catch(err => console.error(err));
-  }
-
-  if (quizForm) {
-    quizForm.addEventListener('click', (event) => {
-      const target = event.target;
-      if (mode === 'mcq') {
-        if (target.matches('.option, .option *')) {
-          const optionDiv = target.closest('.option');
-          const radioInput = optionDiv.querySelector('input[type="radio"]');
-          if (!radioInput.checked) {
-            radioInput.checked = true;
-          }
-          const index = parseInt(radioInput.name.split('-')[1]);
-          scrollState = 0;
-          lastAnsweredIndex = index;
-          updateScrollButtonIcon();
-        }
-      }
-    });
-  }
-
-  function toggleExplanation(index) {
-    const explanationDiv = document.getElementById(`explanation-${index}`);
-    if (!explanationDiv) return;
-    explanationDiv.style.display = (explanationDiv.style.display === 'block') ? 'none' : 'block';
-  }
-
-  function showIndividualAnswer(index) {
-    if (mode === 'mcq') {
-      const selectedOption = document.querySelector(`input[name="question-${index}"]:checked`);
-      const options = document.querySelectorAll(`#options-container-${index} .option`);
-      
-      options.forEach(optionDiv => {
-        optionDiv.classList.remove('correct', 'wrong', 'correct-answer', 'unanswered');
-      });
-      
-      requestAnimationFrame(() => {
-        options.forEach(optionDiv => {
-          const input = optionDiv.querySelector('input');
-          const optionIndex = parseInt(input.value);
-          
-          if (optionIndex === quizData[index].answer) {
-            optionDiv.classList.add('correct-answer');
-          }
-          
-          if (selectedOption) {
-            if (optionIndex === parseInt(selectedOption.value)) {
-              if (optionIndex === quizData[index].answer) {
-                optionDiv.classList.add('correct');
-              } else {
-                optionDiv.classList.add('wrong');
-              }
-            }
-          } else {
-            optionDiv.classList.add('unanswered');
-          }
-        });
-      });
-    } else if (mode === 'flashcard') {
-      toggleAnswer(index);
-    }
-  }
-
-  function clearIndividualQuestion(index) {
-    if (mode === 'mcq') {
-      const options = document.querySelectorAll(`#options-container-${index} .option`);
-      options.forEach(optionDiv => {
-        optionDiv.classList.remove('correct', 'wrong', 'correct-answer', 'unanswered');
-        const input = optionDiv.querySelector('input');
-        input.checked = false;
-      });
-    } else if (mode === 'flashcard') {
-      clearUserAnswer(index);
-    }
-  }
-
-  function shuffleOptionsForQuestion(index) {
-    const data = quizData[index];
-    const optionsContainer = document.getElementById(`options-container-${index}`);
-    if (!optionsContainer) return;
-    
-    const selectedInput = optionsContainer.querySelector('input:checked');
-    const selectedOptionIndex = selectedInput ? parseInt(selectedInput.value) : null;
-    
-    const currentOptions = data.options.map((option, i) => ({ option, index: i }));
-    const shuffledOptions = shuffleArray(currentOptions);
-    
-    data.options = shuffledOptions.map(o => o.option);
-    data.answer = shuffledOptions.findIndex(o => o.index === data.answer);
-    
-    const fragment = document.createDocumentFragment();
-    
-    data.options.forEach((option, optionIndex) => {
-      const optionDiv = document.createElement('div');
-      optionDiv.classList.add('option');
-      optionDiv.dataset.index = index;
-      optionDiv.dataset.optionIndex = optionIndex;
-      
-      const radioInput = document.createElement('input');
-      radioInput.type = 'radio';
-      radioInput.id = `question-${index}-option-${optionIndex}`;
-      radioInput.name = `question-${index}`;
-      radioInput.value = optionIndex;
-      
-      if (optionIndex === selectedOptionIndex) {
-        radioInput.checked = true;
-      }
-      
-      optionDiv.appendChild(radioInput);
-      
-      const optionLabel = document.createElement('label');
-      optionLabel.innerHTML = option;
-      optionDiv.appendChild(optionLabel);
-      
-      fragment.appendChild(optionDiv);
-    });
-    
-    optionsContainer.innerHTML = '';
-    optionsContainer.appendChild(fragment);
-    optionsContainer.querySelectorAll('.option').forEach(optionDiv => {
-      optionDiv.classList.remove('correct', 'wrong', 'correct-answer', 'unanswered');
-    });
-    MathJax.typesetPromise([optionsContainer]).catch(err => console.error(err));
-  }
-
-  function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-  }
-
-  function shuffleVisibleQuestions() {
-    const visibleIndexes = getVisibleQuestionIndexes();
-    let visibleQuestions = visibleIndexes.map(i => quizData[i]);
-    visibleQuestions = shuffleArray(visibleQuestions);
-    for (let v = 0; v < visibleIndexes.length; v++) {
-      quizData[visibleIndexes[v]] = visibleQuestions[v];
-    }
-    loadQuiz();
-    applyAllFilters();
-  }
-
-  function shuffleAllOptions() {
-    if (mode === 'mcq') {
-      quizData.forEach((_, index) => {
-        shuffleOptionsForQuestion(index);
-      });
-    }
-  }
-
-  function showResult() {
-    showAllExplanations();
-    const visibleIndexes = getVisibleQuestionIndexes();
-    let score = 0;
-    let unanswered = 0;
-    let yesCount = 0;
-    let noCount = 0;
-    
-    if (mode === 'mcq') {
-      visibleIndexes.forEach(index => {
-        const data = quizData[index];
-        const selectedOption = document.querySelector(`input[name="question-${index}"]:checked`);
-        const options = document.querySelectorAll(`#options-container-${index} .option`);
-        
-        options.forEach(optionDiv => {
-          optionDiv.classList.remove('correct', 'wrong', 'correct-answer', 'unanswered');
-        });
-        
-        options.forEach(optionDiv => {
-          const input = optionDiv.querySelector('input');
-          const optionIndex = parseInt(input.value);
-          if (optionIndex === data.answer) {
-            optionDiv.classList.add('correct-answer');
-          }
-        });
-        
-        if (selectedOption) {
-          const selectedValue = parseInt(selectedOption.value);
-          if (selectedValue === data.answer) {
-            score++;
-            selectedOption.parentNode.classList.add('correct');
-          } else {
-            selectedOption.parentNode.classList.add('wrong');
-          }
-        } else {
-          unanswered++;
-          options.forEach(optionDiv => {
-            optionDiv.classList.add('unanswered');
-          });
-        }
-      });
-      
-      const total = visibleIndexes.length;
-      const wrongAnswers = total - score - unanswered;
-      resultElement.innerHTML = 
-        `<p>Your score is ${score} out of ${total}.</p>
-         <p>Correct Answers: ${score}</p>
-         <p>Wrong Answers: ${wrongAnswers}</p>
-         <p>Unanswered Questions: ${unanswered}</p>`;
-         
-    } else if (mode === 'flashcard') {
-      visibleIndexes.forEach(index => {
-        const data = quizData[index];
-        const answerDiv = document.getElementById(`answer-${index}`);
-        if (answerDiv && (answerDiv.style.display === 'none' || answerDiv.style.display === '')) {
-          answerDiv.style.display = 'block';
-        }
-        if (data.userAnswer === 'yes') {
-          yesCount++;
-        } else if (data.userAnswer === 'no') {
-          noCount++;
-        } else {
-          unanswered++;
-        }
-      });
-      
-      const total = visibleIndexes.length;
-      resultElement.innerHTML = 
-        `<p>Your Score:</p>
-         <p>Correct (Yes): ${yesCount}</p>
-         <p>Incorrect (No): ${noCount}</p>
-         <p>Unanswered Questions: ${unanswered}</p>
-         <p>Total visible Questions: ${total}</p>`;
-    }
-    addFilterButtons();
-  }
-
-  function addFilterButtons() {
-    const oldContainer = document.getElementById('filter-container');
-    if (oldContainer) oldContainer.remove();
-    
-    const filterContainer = document.createElement('div');
-    filterContainer.id = 'filter-container';
-    filterContainer.style.marginTop = '20px';
-    filterContainer.style.display = 'flex';
-    filterContainer.style.flexWrap = 'wrap';
-    filterContainer.style.justifyContent = 'center';
-    
-    if (mode === 'mcq') {
-      const showCorrectButton = document.createElement('button');
-      showCorrectButton.textContent = 'Show Correct Answers';
-      showCorrectButton.classList.add('filter-button', 'correct');
-      showCorrectButton.addEventListener('click', () => {
-        currentCorrectnessFilter = 'correct';
-        applyAllFilters();
-      });
-      
-      const showWrongButton = document.createElement('button');
-      showWrongButton.textContent = 'Show Wrong Answers';
-      showWrongButton.classList.add('filter-button', 'wrong');
-      showWrongButton.addEventListener('click', () => {
-        currentCorrectnessFilter = 'wrong';
-        applyAllFilters();
-      });
-      
-      const showUnansweredButton = document.createElement('button');
-      showUnansweredButton.textContent = 'Show Unanswered Questions';
-      showUnansweredButton.classList.add('filter-button', 'unanswered');
-      showUnansweredButton.addEventListener('click', () => {
-        currentCorrectnessFilter = 'unanswered';
-        applyAllFilters();
-      });
-      
-      const showAllButton = document.createElement('button');
-      showAllButton.textContent = 'Show All Questions';
-      showAllButton.classList.add('filter-button', 'all');
-      showAllButton.addEventListener('click', () => {
-        currentCorrectnessFilter = 'all';
-        applyAllFilters();
-      });
-      
-      filterContainer.appendChild(showCorrectButton);
-      filterContainer.appendChild(showWrongButton);
-      filterContainer.appendChild(showUnansweredButton);
-      filterContainer.appendChild(showAllButton);
-      
-    } else {
-      const showCorrectButton = document.createElement('button');
-      showCorrectButton.textContent = 'Show Correct Answers';
-      showCorrectButton.classList.add('filter-button', 'yes-button');
-      showCorrectButton.addEventListener('click', () => {
-        currentCorrectnessFilter = 'yes';
-        applyAllFilters();
-      });
-      
-      const showIncorrectButton = document.createElement('button');
-      showIncorrectButton.textContent = 'Show Incorrect Answers';
-      showIncorrectButton.classList.add('filter-button', 'no-button');
-      showIncorrectButton.addEventListener('click', () => {
-        currentCorrectnessFilter = 'no';
-        applyAllFilters();
-      });
-      
-      const showUnansweredButton = document.createElement('button');
-      showUnansweredButton.textContent = 'Show Unanswered Questions';
-      showUnansweredButton.classList.add('filter-button', 'unanswered-button');
-      showUnansweredButton.addEventListener('click', () => {
-        currentCorrectnessFilter = 'unanswered';
-        applyAllFilters();
-      });
-      
-      const showAllButton = document.createElement('button');
-      showAllButton.textContent = 'Show All Questions';
-      showAllButton.classList.add('filter-button', 'all-button');
-      showAllButton.addEventListener('click', () => {
-        currentCorrectnessFilter = 'all';
-        applyAllFilters();
-      });
-      
-      filterContainer.appendChild(showCorrectButton);
-      filterContainer.appendChild(showIncorrectButton);
-      filterContainer.appendChild(showUnansweredButton);
-      filterContainer.appendChild(showAllButton);
-    }
-    
-    if (resultElement) {
-      resultElement.appendChild(filterContainer);
-    }
-  }
-
-  function filterQuestionsCorrectness() {
-    const visibleIndexesAfterCategory = getVisibleQuestionIndexesByCategory();
-    
-    visibleIndexesAfterCategory.forEach(index => {
-      const questionContainer = document.getElementById(`question-container-${index}`);
-      let shouldDisplay = false;
-      
-      if (mode === 'mcq') {
-        const selectedOption = document.querySelector(`input[name="question-${index}"]:checked`);
-        const data = quizData[index];
-        if (currentCorrectnessFilter === 'correct') {
-          if (selectedOption && parseInt(selectedOption.value) === data.answer) {
-            shouldDisplay = true;
-          }
-        } else if (currentCorrectnessFilter === 'wrong') {
-          if (selectedOption && parseInt(selectedOption.value) !== data.answer) {
-            shouldDisplay = true;
-          }
-        } else if (currentCorrectnessFilter === 'unanswered') {
-          if (!selectedOption) {
-            shouldDisplay = true;
-          }
-        } else {
-          shouldDisplay = true;
-        }
-      } else {
-        const data = quizData[index];
-        const ua = data.userAnswer;
-        
-        if (currentCorrectnessFilter === 'yes') {
-          if (ua === 'yes') shouldDisplay = true;
-        } else if (currentCorrectnessFilter === 'no') {
-          if (ua === 'no') shouldDisplay = true;
-        } else if (currentCorrectnessFilter === 'unanswered') {
-          if (!ua) shouldDisplay = true;
-        } else {
-          shouldDisplay = true;
-        }
-      }
-      
-      questionContainer.style.display = shouldDisplay ? 'block' : 'none';
-    });
-  }
-
-  function applyAllFilters() {
-    const selectedOptions = categoryFilterSelected || [];
-    
-    quizData.forEach((data, index) => {
-      const questionContainer = document.getElementById(`question-container-${index}`);
-      const category = extractCategoryFromQuestion(data.question);
-      
-      if (selectedOptions.length === 0 || selectedOptions.includes(category)) {
-        questionContainer.style.display = 'block';
-      } else {
-        questionContainer.style.display = 'none';
-      }
-    });
-    
-    filterQuestionsCorrectness();
-    renumberVisibleQuestions();
-    
-    const visibleCount = getVisibleQuestionIndexes().length;
-    const totalQEl = document.getElementById('total-questions');
-    if (totalQEl) totalQEl.textContent = visibleCount;
-  }
-
-  function renumberVisibleQuestions() {
-    const visibleIndexes = getVisibleQuestionIndexes();
-    visibleIndexes.forEach((index, i) => {
-      const questionNumberSpan = document.querySelector(`#question-container-${index} .question-number`);
-      if (questionNumberSpan) {
-        questionNumberSpan.textContent = (i + 1) + ".";
-      }
-    });
-  }
-
-  function getVisibleQuestionIndexes() {
-    const containers = document.querySelectorAll('.question-container');
-    const visibleIndexes = [];
-    containers.forEach((c, i) => {
-      if (c.style.display !== 'none') {
-        visibleIndexes.push(i);
-      }
-    });
-    return visibleIndexes;
-  }
-
-  function getVisibleQuestionIndexesByCategory() {
-    const selectedOptions = categoryFilterSelected || [];
-    const indexes = [];
-    
-    quizData.forEach((data, i) => {
-      const category = extractCategoryFromQuestion(data.question);
-      if (selectedOptions.length === 0 || selectedOptions.includes(category)) {
-        indexes.push(i);
-      }
-    });
-    
-    return indexes;
-  }
-
-  function openResetModal() {
-    document.getElementById('reset-modal').style.display = 'block';
-  }
-
-  function closeResetModal() {
-    document.getElementById('reset-modal').style.display = 'none';
-  }
-
-  function confirmResetQuiz() {
-    quizData = JSON.parse(JSON.stringify(originalQuizData));
-    loadQuiz();
-    requestAnimationFrame(() => {
-      if (resultElement) resultElement.innerHTML = '';
-      scrollState = 0;
-      lastAnsweredIndex = -1;
-      updateScrollButtonIcon();
-      currentCorrectnessFilter = 'all';
-      categoryFilterSelected = [];
-      applyAllFilters();
-      closeResetModal();
-    });
-  }
-
-  function resetQuiz() {
-    openResetModal();
-  }
-
-  function openJumpModal() {
-    document.getElementById('jump-modal').style.display = 'block';
-    document.getElementById('jump-input').focus();
-  }
-
-  function closeJumpModal() {
-    document.getElementById('jump-modal').style.display = 'none';
-    clearSearchResults();
-  }
-
-  function displaySearchResults(results) {
-    const searchResultsContainer = document.getElementById('search-results');
-    if (!searchResultsContainer) return;
-    searchResultsContainer.innerHTML = '';
-    
-    if (results.length === 0) {
-      const noResults = document.createElement('p');
-      noResults.textContent = 'No matching questions found.';
-      searchResultsContainer.appendChild(noResults);
-    } else {
-      const resultsList = document.createElement('ul');
-      results.forEach(result => {
-        const listItem = document.createElement('li');
-        const resultButton = document.createElement('button');
-        resultButton.innerHTML = `Question ${result.index + 1}: ${result.questionSnippet}`;
-        resultButton.addEventListener('click', () => {
-          document.getElementById(`question-${result.index}`).scrollIntoView({ behavior: 'smooth', block: 'start' });
-          closeJumpModal();
-        });
-        listItem.appendChild(resultButton);
-        resultsList.appendChild(listItem);
-      });
-      searchResultsContainer.appendChild(resultsList);
-      MathJax.typesetPromise([searchResultsContainer]).catch(err => console.error(err));
-    }
-  }
-
-  function clearSearchResults() {
-    const searchResultsContainer = document.getElementById('search-results');
-    if (searchResultsContainer) {
-      searchResultsContainer.innerHTML = '';
-    }
-  }
-
-  function jumpToQuestion() {
-    const input = document.getElementById('jump-input').value.trim();
-    if (input === '') return;
-    const visibleIndexes = getVisibleQuestionIndexes();
-    const results = [];
-    const query = input.toLowerCase();
-    
-    for (let j = 0; j < visibleIndexes.length; j++) {
-      const i = visibleIndexes[j];
-      const data = quizData[i];
-      let matchFound = false;
-      let snippet = "";
-      
-      const questionText = stripHTML(data.question);
-      if (questionText.toLowerCase().includes(query)) {
-        matchFound = true;
-        snippet = highlightTerm(questionText, input);
-      }
-      
-      if (!matchFound && data.options && Array.isArray(data.options)) {
-        for (let k = 0; k < data.options.length; k++) {
-          const optionText = data.options[k];
-          if (optionText.toLowerCase().includes(query)) {
-            matchFound = true;
-            snippet = highlightTerm(questionText, input) + " (Option: " + highlightTerm(optionText, input) + ")";
-            break;
-          }
-        }
-      }
-      
-      if (!matchFound && data.explanation) {
-        const explanationText = data.explanation.toLowerCase();
-        if (explanationText.includes(query)) {
-          matchFound = true;
-          snippet = highlightTerm(questionText, input) + " (Explanation: " + highlightTerm(data.explanation, input) + ")";
-        }
-      }
-      
-      if (matchFound) {
-        results.push({
-          index: i,
-          questionSnippet: snippet
-        });
-      }
-    }
-    
-    if (results.length === 0 && !isNaN(input)) {
-      const num = parseInt(input);
-      const idx = num - 1;
-      if (visibleIndexes.includes(idx)) {
-        results.push({
-          index: idx,
-          questionSnippet: `Question ${num}`
-        });
-      }
-    }
-    
-    displaySearchResults(results);
-  }
-
-  function stripHTML(str) {
-    return str.replace(/<[^>]*>?/gm, '');
-  }
-
-  function highlightTerm(text, term) {
-    const re = new RegExp(term, 'gi');
-    return text.replace(re, matched => `<mark>${matched}</mark>`);
-  }
-
-  function toggleAnswer(index) {
-    const answerDiv = document.getElementById(`answer-${index}`);
-    if (!answerDiv) return;
-    answerDiv.style.display = (answerDiv.style.display === 'block') ? 'none' : 'block';
-  }
-
-  function setUserAnswer(index, answer) {
-    quizData[index].userAnswer = answer;
-    lastAnsweredIndex = index;
-    updateScrollButtonIcon();
-    updateIndicator(index, answer);
-  }
-
-  function updateIndicator(index, answer) {
-    const indicator = document.getElementById(`indicator-${index}`);
-    if (!indicator) return;
-    indicator.innerHTML = (answer === 'yes') ? '✔️' : (answer === 'no') ? '❌' : '';
-  }
-
-  function clearUserAnswer(index) {
-    quizData[index].userAnswer = null;
-    const indicator = document.getElementById(`indicator-${index}`);
-    if (indicator) indicator.innerHTML = '';
-    const answerDiv = document.getElementById(`answer-${index}`);
-    if (answerDiv) answerDiv.style.display = 'none';
-  }
-
-  function extractCategoryFromQuestion(questionHTML) {
-    const div = document.createElement('div');
-    div.innerHTML = questionHTML;
-    const span = div.querySelector('span[style*="darkred"]');
-    if (span) {
-      let text = span.textContent.trim();
-      const questionIndex = text.toLowerCase().indexOf('question');
-      if (questionIndex !== -1) {
-        text = text.substring(0, questionIndex).trim();
-        text = text.replace(/\-\s*$/, '').trim();
-      }
-      return text;
-    }
-    return '';
-  }
-
-  const selectAllBtn = document.getElementById('select-all-categories-btn');
-  if (selectAllBtn) {
-    selectAllBtn.addEventListener('click', () => {
-      const categorySelect = document.getElementById('category-filter');
-      if (!categorySelect) return;
-      const allSelected = Array.from(categorySelect.options).every(option => option.selected);
-      for (let i = 0; i < categorySelect.options.length; i++) {
-        categorySelect.options[i].selected = !allSelected;
-      }
-    });
-  }
-
-  function openCategoryModal() {
-    document.getElementById('category-modal').style.display = 'block';
-    updateCategoryFilter();
-  }
-  function closeCategoryModal() {
-    document.getElementById('category-modal').style.display = 'none';
-  }
-  function updateCategoryFilter() {
-    const categorySelect = document.getElementById('category-filter');
-    if (!categorySelect) return;
-    categorySelect.innerHTML = '';
-    originalCategories.forEach(cat => {
-      const option = document.createElement('option');
-      option.value = cat;
-      option.textContent = cat;
-      if (categoryFilterSelected.includes(cat)) {
-        option.selected = true;
-      }
-      categorySelect.appendChild(option);
-    });
-  }
-  function applyCategoryFilter() {
-    const categorySelect = document.getElementById('category-filter');
-    if (!categorySelect) return;
-    categoryFilterSelected = Array.from(categorySelect.selectedOptions).map(o => o.value);
-    closeCategoryModal();
-    applyAllFilters();
-  }
-
-  function switchMode() {
-    if (mode === 'mcq') {
-      mode = 'flashcard';
-      document.getElementById('switch-mode').textContent = 'Switch to MCQs Mode';
-      document.getElementById('shuffle-options').style.display = 'none';
-    } else {
-      mode = 'mcq';
-      document.getElementById('switch-mode').textContent = 'Switch to Flashcard Mode';
-      document.getElementById('shuffle-options').style.display = 'inline-block';
-    }
-    loadQuiz();
-    if (resultElement) resultElement.innerHTML = '';
-    currentCorrectnessFilter = 'all';
-    applyAllFilters();
-  }
-
-  function showAllExplanations() {
-    const visibleIndexes = getVisibleQuestionIndexes();
-    visibleIndexes.forEach(index => {
-      const explanationDiv = document.getElementById(`explanation-${index}`);
-      if (explanationDiv) {
-        explanationDiv.style.display = 'block';
-      }
-    });
-  }
-
-  function handleScrollButton() {
-    if (lastAnsweredIndex === -1) {
-      if (scrollState === 0 || scrollState === 2) {
-        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-        scrollState = 3;
-      } else if (scrollState === 3) {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-        scrollState = 2;
-      }
-    } else {
-      if (scrollState === 0) {
-        document.getElementById(`question-${lastAnsweredIndex}`).scrollIntoView({ behavior: 'smooth', block: 'start' });
-        scrollState = 1;
-      } else if (scrollState === 1) {
-        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-        scrollState = 2;
-      } else if (scrollState === 2) {
-        document.getElementById(`question-${lastAnsweredIndex}`).scrollIntoView({ behavior: 'smooth', block: 'start' });
-        scrollState = 3;
-      } else if (scrollState === 3) {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-        scrollState = 1;
-      }
-    }
-    updateScrollButtonIcon();
-  }
-
-  function updateScrollButtonIcon() {
-    if (!scrollButton) return;
-    if (lastAnsweredIndex === -1) {
-      if (scrollState === 0 || scrollState === 2) {
-        scrollButton.textContent = '↓';
-      } else if (scrollState === 3) {
-        scrollButton.textContent = '↑';
-      }
-    } else {
-      if (scrollState === 0) {
-        scrollButton.textContent = '⇄';
-      } else if (scrollState === 1) {
-        scrollButton.textContent = '↓';
-      } else if (scrollState === 2) {
-        scrollButton.textContent = '⇄';
-      } else if (scrollState === 3) {
-        scrollButton.textContent = '↑';
-      }
-    }
-  }
-
-  function downloadPDF() {
-    const printWindow = window.open('about:blank', '_blank', 'width=1000,height=800');
-    if (!printWindow) {
-      alert('Popup blocked! Please allow popups for this site to enable printing.');
-      return;
-    }
-    const fullHTML = '<!DOCTYPE html>\n<html>' + document.documentElement.innerHTML + '\n</html>';
-    printWindow.document.open();
-    printWindow.document.write(fullHTML);
-    printWindow.document.close();
-    printWindow.onload = function() {
-      if (typeof printWindow.MathJax !== 'undefined') {
-        printWindow.MathJax.typesetPromise()
-        .then(() => {
-          printWindow.focus();
-          printWindow.print();
-        })
-        .catch(() => {
-          printWindow.focus();
-          printWindow.print();
-        });
-      } else {
-        printWindow.focus();
-        printWindow.print();
-      }
-    };
-    return;
-  }
-  </script>
-
-  <!-- (J) سكربت الاختبار المخصص (مرتبط بـ allTopics) -->
-  <script>
-  /************************************************************
-   *        (1) الدوال الخاصة بالاختبار المخصص                 *
-   ************************************************************/
-  let cqSelectedTopics = new Set();
-  let cqSelectedSubtopics = new Set();
-  let cqFinalQuestions = [];
-  let cqUserAnswers = [];
-  let cqCurrentQuestionIndex = 0;
-
-  let cqTimerType = 'none';
-  let cqTimerValue = 0;
-  let cqTimeRemaining = 0;
-  let cqTimerInterval = null;
-
-  // عناصر DOM خاصة بقسم الاختبار المخصص
-  const customQuizSection   = document.getElementById('custom-quiz-section');
-  const cqTopicsContainer   = document.getElementById('cq-topics-container');
-  const cqSubtopicsContainer= document.getElementById('cq-subtopics-container');
-  const cqQuestionCountInput= document.getElementById('cq-question-count');
-  const cqRandomizeCheckbox = document.getElementById('cq-randomize-questions');
-  const cqTimerTypeSelect   = document.getElementById('cq-timer-type');
-  const cqTimerSettings     = document.getElementById('cq-timer-settings');
-  const cqTimerLabel        = document.getElementById('cq-timer-label');
-  const cqTimerValueInput   = document.getElementById('cq-timer-value');
-  const cqStartBtn          = document.getElementById('cq-start-btn');
-  const cqQuizDisplay       = document.getElementById('cq-quiz-display');
-  const cqTimerContainer    = document.getElementById('cq-timer-container');
-  const cqProgressBarFill   = document.getElementById('cq-progress-bar-fill');
-  const cqQuestionContainer = document.getElementById('cq-question-container');
-  const cqPrevBtn           = document.getElementById('cq-prev-btn');
-  const cqNextBtn           = document.getElementById('cq-next-btn');
-  const cqSubmitBtn         = document.getElementById('cq-submit-btn');
-  const cqResultSection     = document.getElementById('cq-result-section');
-  const cqResultDetails     = document.getElementById('cq-result-details');
-  const cqRestartBtn        = document.getElementById('cq-restart-btn');
-
-  // عند تغيير نوع المؤقت
-  cqTimerTypeSelect.addEventListener('change', () => {
-    cqTimerType = cqTimerTypeSelect.value;
-    if (cqTimerType === 'none') {
-      cqTimerSettings.style.display = 'none';
-    } else if (cqTimerType === 'total') {
-      cqTimerSettings.style.display = 'block';
-      cqTimerLabel.textContent = 'الوقت الكلي (بالثواني):';
-    } else if (cqTimerType === 'per-question') {
-      cqTimerSettings.style.display = 'block';
-      cqTimerLabel.textContent = 'الوقت لكل سؤال (بالثواني):';
-    }
-  });
-
-  // زر ابدأ الاختبار
-  cqStartBtn.addEventListener('click', handleStartCustomQuiz);
-
-  // أزرار التنقل
-  cqPrevBtn.addEventListener('click', () => {
-    if (cqCurrentQuestionIndex > 0) {
-      cqCurrentQuestionIndex--;
-      renderCQQuestion();
-    }
-  });
-  cqNextBtn.addEventListener('click', () => {
-    if (cqCurrentQuestionIndex < cqFinalQuestions.length - 1) {
-      cqCurrentQuestionIndex++;
-      renderCQQuestion();
-    }
-  });
-  cqSubmitBtn.addEventListener('click', finishCQQuiz);
-
-  // زر إعادة التحميل
-  cqRestartBtn.addEventListener('click', () => {
-    location.reload(); 
-  });
-
-  // دالة لإظهار/إخفاء قسم الاختبار المخصص
-  function toggleCustomQuizSection() {
-    if (customQuizSection.style.display === 'block') {
-      // إخفاء
-      customQuizSection.style.display = 'none';
-      topicsPage.style.display = 'flex';
-      quizContainer.style.display = 'none';
-    } else {
-      // إظهار
-      customQuizSection.style.display = 'block';
-      topicsPage.style.display = 'none';
-      quizContainer.style.display = 'none';
-    }
-  }
-
-  // نعرض المواضيع والمواضيع الفرعية ضمن قسم الاختبار المخصص
-  function renderCustomQuizTopics() {
-    // تفريغ المحتوى السابق
-    cqTopicsContainer.innerHTML = '';
-    cqSubtopicsContainer.innerHTML = '';
-    cqSelectedTopics.clear();
-    cqSelectedSubtopics.clear();
-
-    // إنشاء checkbox لكل موضوع
-    allTopics.forEach((topic, tIndex) => {
-      const topicDiv = document.createElement('div');
-      topicDiv.classList.add('cq-topic-item');
-      
-      const topicInput = document.createElement('input');
-      topicInput.type = 'checkbox';
-      topicInput.value = tIndex;
-      topicInput.addEventListener('change', e => {
-        if (e.target.checked) {
-          cqSelectedTopics.add(tIndex);
-        } else {
-          cqSelectedTopics.delete(tIndex);
-        }
-        renderSubtopics();
-      });
-      
-      const label = document.createElement('label');
-      label.textContent = topic.topicName;
-
-      topicDiv.appendChild(topicInput);
-      topicDiv.appendChild(label);
-      cqTopicsContainer.appendChild(topicDiv);
-    });
-  }
-
-  // بناء قائمة المواضيع الفرعية حسب المواضيع المختارة
-  function renderSubtopics() {
-    cqSubtopicsContainer.innerHTML = '';
-    cqSelectedSubtopics.clear();
-
-    // مر على كل موضوع مختار
-    cqSelectedTopics.forEach(topicIndex => {
-      const topic = allTopics[topicIndex];
-      if (topic.subTopics && topic.subTopics.length > 0) {
-        topic.subTopics.forEach((sub, sIndex) => {
-          const subDiv = document.createElement('div');
-          subDiv.classList.add('cq-subtopic-item');
-
-          const subInput = document.createElement('input');
-          subInput.type = 'checkbox';
-          subInput.value = JSON.stringify({topicIndex, subIndex: sIndex});
-          subInput.addEventListener('change', e => {
-            const {topicIndex, subIndex} = JSON.parse(e.target.value);
-            const key = `${topicIndex}-${subIndex}`;
-            if (e.target.checked) {
-              cqSelectedSubtopics.add(key);
-            } else {
-              cqSelectedSubtopics.delete(key);
-            }
-          });
-
-          const label = document.createElement('label');
-          label.textContent = sub.name;
-
-          subDiv.appendChild(subInput);
-          subDiv.appendChild(label);
-          cqSubtopicsContainer.appendChild(subDiv);
-        });
-      }
-    });
-  }
-
-  // جمع الأسئلة من الملفات (حسب المواضيع/الفروع المختارة)
-  function handleStartCustomQuiz() {
-    const desiredCount = parseInt(cqQuestionCountInput.value) || 0;
-    if (desiredCount < 1) {
-      alert('فضلاً أدخل عدد الأسئلة المطلوب (1 فأكثر).');
-      return;
-    }
-    cqTimerValue = parseInt(cqTimerValueInput.value) || 0;
-
-    // سنجمع الملفات (التي لا تحوي subTopics) + المواضيع الفرعية
-    let filesList = [];
-    cqSelectedTopics.forEach(tIndex => {
-      const topic = allTopics[tIndex];
-      if (topic.file && (!topic.subTopics || topic.subTopics.length === 0)) {
-        // موضوع بملف مباشر
-        filesList.push({file: topic.file, sourceTitle: topic.topicName});
-      }
-    });
-    cqSelectedSubtopics.forEach(code => {
-      const [tIndex, sIndex] = code.split('-').map(Number);
-      const sub = allTopics[tIndex].subTopics[sIndex];
-      if (sub.file) {
-        filesList.push({file: sub.file, sourceTitle: sub.name});
-      }
-    });
-
-    if (filesList.length === 0) {
-      alert('لم يتم اختيار أي موضوع يملك ملف أسئلة!');
-      return;
-    }
-
-    // جلب الأسئلة من هذه الملفات
-    cqFinalQuestions = [];
-    function fetchFile(fileObj) {
-      return fetch(fileObj.file)
-        .then(r => r.json())
-        .then(arr => arr.map(q => {
-          q.sourceTitle = fileObj.sourceTitle;
-          return q;
-        }))
-        .catch(err => {
-          console.error('Error fetching', fileObj.file, err);
-          return [];
-        });
-    }
-
-    let chain = Promise.resolve();
-    filesList.forEach(obj => {
-      chain = chain.then(() => fetchFile(obj)).then(ques => {
-        cqFinalQuestions.push(...ques);
-      });
-    });
-
-    chain.then(() => {
-      if (cqFinalQuestions.length === 0) {
-        alert('لم يتم العثور على أسئلة فعلية في الملفات المختارة!');
-        return;
-      }
-      // تطبيق العشوائية لو لازم
-      if (cqRandomizeCheckbox.checked) {
-        shuffleArray(cqFinalQuestions);
-      }
-      // قصّ العدد المطلوب
-      const finalCount = Math.min(desiredCount, cqFinalQuestions.length);
-      cqFinalQuestions = cqFinalQuestions.slice(0, finalCount);
-
-      cqUserAnswers = new Array(cqFinalQuestions.length).fill(null);
-      cqCurrentQuestionIndex = 0;
-
-      cqStartBtn.style.display = 'none';
-      cqQuizDisplay.style.display = 'block';
-      if (cqTimerType !== 'none' && cqTimerValue > 0) {
-        startCQTimer();
-      }
-      renderCQQuestion();
-    });
-  }
-
-  function renderCQQuestion() {
-    if (cqTimerType === 'per-question') {
-      clearInterval(cqTimerInterval);
-      cqTimeRemaining = cqTimerValue;
-      startPerQuestionTimer();
-    }
-
-    if (cqCurrentQuestionIndex === 0) {
-      cqPrevBtn.disabled = true;
-    } else {
-      cqPrevBtn.disabled = false;
-    }
-    if (cqCurrentQuestionIndex === cqFinalQuestions.length - 1) {
-      cqNextBtn.style.display = 'none';
-      cqSubmitBtn.style.display = 'inline-block';
-    } else {
-      cqNextBtn.style.display = 'inline-block';
-      cqSubmitBtn.style.display = 'none';
-    }
-
-    const percent = ((cqCurrentQuestionIndex + 1) / cqFinalQuestions.length) * 100;
-    cqProgressBarFill.style.width = percent + '%';
-
-    const q = cqFinalQuestions[cqCurrentQuestionIndex];
-    cqQuestionContainer.innerHTML = '';
-    const h3 = document.createElement('h3');
-    h3.innerHTML = `السؤال ${cqCurrentQuestionIndex + 1}: <span>${q.question}</span>`;
-    cqQuestionContainer.appendChild(h3);
-
-    if (q.options && Array.isArray(q.options)) {
-      const optionsDiv = document.createElement('div');
-      optionsDiv.classList.add('cq-options');
-      q.options.forEach((opt, idx) => {
-        const optDiv = document.createElement('div');
-        optDiv.classList.add('cq-option');
-        const radio = document.createElement('input');
-        radio.type = 'radio';
-        radio.name = 'cq-q-' + cqCurrentQuestionIndex;
-        radio.value = idx;
-        if (cqUserAnswers[cqCurrentQuestionIndex] === idx) {
-          radio.checked = true;
-        }
-        radio.addEventListener('change', () => {
-          cqUserAnswers[cqCurrentQuestionIndex] = idx;
-        });
-        const spanLabel = document.createElement('span');
-        spanLabel.innerHTML = opt;
-
-        optDiv.appendChild(radio);
-        optDiv.appendChild(spanLabel);
-        optionsDiv.appendChild(optDiv);
-      });
-      cqQuestionContainer.appendChild(optionsDiv);
-    } else {
-      // سؤال نصي
-      const txtInput = document.createElement('input');
-      txtInput.type = 'text';
-      txtInput.style.width = '100%';
-      txtInput.style.padding = '10px';
-      txtInput.style.fontSize = '1rem';
-      if (cqUserAnswers[cqCurrentQuestionIndex] != null) {
-        txtInput.value = cqUserAnswers[cqCurrentQuestionIndex];
-      }
-      txtInput.addEventListener('input', e => {
-        cqUserAnswers[cqCurrentQuestionIndex] = e.target.value;
-      });
-      cqQuestionContainer.appendChild(txtInput);
-    }
-
-    MathJax.typesetPromise([cqQuestionContainer]).catch(err => console.error(err));
-  }
-
-  function finishCQQuiz() {
-    clearInterval(cqTimerInterval);
-    cqQuizDisplay.style.display = 'none';
-
-    let correctCount = 0;
-    let unanswered = 0;
-
-    // حساب النتيجة
-    cqFinalQuestions.forEach((q, i) => {
-      if (q.options && Array.isArray(q.options)) {
-        if (cqUserAnswers[i] == null) {
-          unanswered++;
-        } else if (parseInt(cqUserAnswers[i]) === q.answer) {
-          correctCount++;
-        }
-      } else {
-        if (!cqUserAnswers[i] || cqUserAnswers[i].trim() === '') {
-          unanswered++;
-        }
-      }
-    });
-    const total = cqFinalQuestions.length;
-    const wrongCount = total - correctCount - unanswered;
-
-    cqResultDetails.innerHTML = `
-      <p>مجموع الأسئلة: ${total}</p>
-      ${
-        (cqFinalQuestions[0].options && Array.isArray(cqFinalQuestions[0].options))
-        ? `
-        <p>إجابات صحيحة: ${correctCount}</p>
-        <p>إجابات خاطئة: ${wrongCount}</p>
-        <p>غير مجاب عنها: ${unanswered}</p>
-        <p>نسبتك: ${(correctCount / total * 100).toFixed(2)}%</p>
-        `
-        : `<p>عدد الأسئلة النصية التي لم تُجب عليها: ${unanswered}</p>`
-      }
-    `;
-    cqResultSection.style.display = 'block';
-  }
-
-  // المؤقت
-  function startCQTimer() {
-    if (cqTimerValue <= 0) return;
-    if (cqTimerType === 'total') {
-      cqTimeRemaining = cqTimerValue;
-      updateCQTimer();
-      cqTimerInterval = setInterval(() => {
-        cqTimeRemaining--;
-        updateCQTimer();
-        if (cqTimeRemaining <= 0) {
-          clearInterval(cqTimerInterval);
-          finishCQQuiz();
-        }
-      }, 1000);
-    } else if (cqTimerType === 'per-question') {
-      cqTimeRemaining = cqTimerValue;
-      startPerQuestionTimer();
-    }
-  }
-
-  function startPerQuestionTimer() {
-    updateCQTimer();
-    cqTimerInterval = setInterval(() => {
-      cqTimeRemaining--;
-      updateCQTimer();
-      if (cqTimeRemaining <= 0) {
-        clearInterval(cqTimerInterval);
-        // عدّ الوقت على هذا السؤال انتهى
-        cqUserAnswers[cqCurrentQuestionIndex] = null; 
-        if (cqCurrentQuestionIndex < cqFinalQuestions.length - 1) {
-          cqCurrentQuestionIndex++;
-          renderCQQuestion();
-        } else {
-          finishCQQuiz();
-        }
-      }
-    }, 1000);
-  }
-
-  function updateCQTimer() {
-    if (cqTimeRemaining < 0) cqTimeRemaining = 0;
-    cqTimerContainer.textContent = 'الوقت المتبقي: ' + cqTimeRemaining + ' ثانية';
-  }
-  </script>
-
+  <!-- بعد تحميل main.js نترك MathJax يقوم بمعالجة المعادلات تلقائيًا -->
 </body>
 </html>
