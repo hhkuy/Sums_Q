@@ -26,7 +26,7 @@
   
   <style>
     /******************************************************
-     *              (1) الـ Styles الأصلي للصفحة          *
+     *            (1) التنسيقات الأصلية للصفحة            *
      ******************************************************/
     * {
       box-sizing: border-box;
@@ -74,8 +74,7 @@
     .hero-content p {
       font-size: 1.2rem;
     }
-
-    /* زر الانتقال إلى الاختبار المخصص */
+    /* زر الانتقال إلى قسم الاختبار المخصص */
     .custom-quiz-btn {
       margin-top: 20px;
       padding: 14px 24px;
@@ -90,7 +89,7 @@
     .custom-quiz-btn:hover {
       background-color: #218838;
     }
-    
+
     /*================ Topics Page ================*/
     #topics-page {
       width: 90%;
@@ -212,7 +211,6 @@
       font-weight: 700;
     }
     
-    /*--------------- Quiz - Questions & Options ---------------*/
     .question-container {
       margin-bottom: 20px;
       padding-bottom: 20px;
@@ -291,7 +289,6 @@
       border: 2px solid #28a745;
     }
     
-    /*--------------- Quiz Buttons ---------------*/
     .quiz-container button {
       margin-top: 15px;
       margin-right: 5px;
@@ -426,7 +423,6 @@
       color: #fff;
     }
     
-    /*================ Answer Cards ================*/
     .answer {
       display: none;
       margin-top: 10px;
@@ -473,7 +469,6 @@
       background-color: #c82333;
     }
     
-    /*================ Filters ================*/
     .filter-button {
       padding: 12px;
       margin: 5px;
@@ -498,7 +493,6 @@
       color: white;
     }
     
-    /*================ Search Results ================*/
     #search-results {
       max-height: 300px;
       overflow-y: auto;
@@ -544,8 +538,7 @@
     #search-results li button mark {
       background-color: yellow;
     }
-    
-    /*================ Revert Button Colors ================*/
+
     .filter-button.unanswered {
       background-color: #ffc107;
       color: black;
@@ -590,70 +583,10 @@
     .clear-button:hover {
       background-color: #c82333;
     }
-    .flashcard-show-answer-button {
-      background-color: #28a745;
-      color: white;
-      padding: 8px 12px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-    .flashcard-show-answer-button:hover {
-      background-color: #218838;
-    }
-    .flashcard-clear-button {
-      background-color: #dc3545;
-      color: white;
-      padding: 8px 12px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-    .flashcard-clear-button:hover {
-      background-color: #c82333;
-    }
-    .filter-button.yes-button {
-      background-color: #28a745;
-      color: white;
-    }
-    .filter-button.no-button {
-      background-color: #dc3545;
-      color: white;
-    }
-    .filter-button.unanswered-button {
-      background-color: #ffc107;
-      color: black;
-    }
-    .filter-button.all-button {
-      background-color: #007bff;
-      color: white;
-    }
-    
-    .modal-content select {
-      width: 80%;
-      max-width: 300px;
-      padding: 10px;
-      font-size: 16px;
-      border-radius: 5px;
-      border: 1px solid #ced4da;
-      background: #fff;
-      display: block;
-      margin: 0 auto;
-    }
-    .modal-content select:focus {
-      outline: none;
-      border-color: #80bdff;
-      box-shadow: 0 0 3px rgba(0,123,255,.5);
-    }
-    .category-modal-buttons {
-      display: flex;
-      justify-content: center;
-      margin-top: 15px;
-    }
-    .category-modal-buttons button {
-      margin: 0 5px;
+
+    /* زر تحميل الـ PDF */
+    #download-pdf {
+      background-color: orange !important;
     }
     @media print {
       * {
@@ -662,15 +595,10 @@
         print-color-adjust: exact !important;
       }
     }
-    #download-pdf {
-      background-color: orange !important;
-    }
-
 
     /******************************************************
-     *     (2) الـ Styles الإضافي للاختبار المخصص        *
+     *        (2) تنسيقات قسم الاختبار المخصص الجديد      *
      ******************************************************/
-    /* نجعل قسماً منفصلاً ومخفياً بشكل افتراضي */
     #custom-quiz-section {
       display: none;
       width: 90%;
@@ -684,64 +612,79 @@
     #custom-quiz-section h2 {
       margin-bottom: 20px;
     }
-
-    .cq-steps {
-      margin-bottom: 30px;
-    }
-    .cq-steps h3 {
-      margin-bottom: 15px;
-      font-size: 1.4rem;
-    }
-    .cq-topics-list, .cq-subtopics-list {
+    .cq-topics-container {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 15px;
+      margin-bottom: 20px;
     }
-    .cq-topic-item, .cq-subtopic-item {
+    .cq-topic-item {
       background-color: #f8f9fa;
       padding: 8px 12px;
       border-radius: 6px;
-      cursor: pointer;
       border: 1px solid #ccc;
+      cursor: pointer;
       display: flex;
       align-items: center;
     }
-    .cq-topic-item:hover, .cq-subtopic-item:hover {
+    .cq-topic-item:hover {
       background-color: #e9ecef;
     }
-    .cq-topic-item input, .cq-subtopic-item input {
+    .cq-topic-item input {
+      margin-right: 6px;
+    }
+    .cq-subtopics-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+    .cq-subtopic-item {
+      background-color: #f8f9fa;
+      padding: 8px 12px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+    .cq-subtopic-item:hover {
+      background-color: #e9ecef;
+    }
+    .cq-subtopic-item input {
       margin-right: 6px;
     }
 
-    .cq-quiz-settings {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
+    .cq-settings {
       max-width: 400px;
+      margin-bottom: 20px;
     }
-    .cq-quiz-settings label {
-      font-weight: 600;
+    .cq-settings label {
+      display: block;
       margin-bottom: 5px;
+      font-weight: 600;
     }
-    .cq-quiz-settings input[type="number"],
-    .cq-quiz-settings select {
+    .cq-settings input[type="number"], .cq-settings select {
       width: 100%;
       padding: 10px;
       font-size: 1rem;
       border: 1px solid #ccc;
       border-radius: 8px;
     }
-    .cq-quiz-settings .checkbox-container {
+    .cq-settings .checkbox-container {
       display: flex;
       align-items: center;
       gap: 10px;
+      margin-top: 10px;
     }
-    .cq-quiz-settings .checkbox-container input {
+    .cq-settings .checkbox-container input {
       transform: scale(1.2);
+      margin-right: 8px;
+      cursor: pointer;
     }
 
     .cq-btn {
-      margin-top: 20px;
+      margin-top: 15px;
       padding: 12px 20px;
       font-size: 1rem;
       border: none;
@@ -755,19 +698,16 @@
       background-color: #218838;
     }
 
-    /* قسم عرض الأسئلة في الاختبار المخصص */
-    #cq-quiz-display {
-      margin-top: 30px;
+    .cq-quiz-display {
       display: none;
+      margin-top: 30px;
     }
-
     .cq-timer-container {
       margin-bottom: 20px;
-      font-weight: 700;
       font-size: 1.2rem;
       color: #d9534f;
+      font-weight: 700;
     }
-
     .cq-progress-bar-container {
       width: 100%;
       background-color: #e9ecef;
@@ -782,30 +722,29 @@
       width: 0%;
       transition: width 0.3s;
     }
-
     .cq-question-container {
       margin-bottom: 20px;
     }
     .cq-question-container h3 {
       margin-bottom: 10px;
+      font-size: 1.2rem;
     }
     .cq-options .cq-option {
       background-color: #f8f9fa;
-      margin: 6px 0;
       padding: 10px;
       border-radius: 6px;
+      margin-bottom: 8px;
       display: flex;
       align-items: center;
       cursor: pointer;
     }
-    .cq-options .cq-option:hover {
+    .cq-option:hover {
       background-color: #e9ecef;
     }
-    .cq-options .cq-option input[type="radio"] {
+    .cq-option input[type="radio"] {
       margin-right: 8px;
       transform: scale(1.1);
     }
-
     .cq-nav-buttons {
       display: flex;
       gap: 10px;
@@ -843,8 +782,9 @@
       margin-top: 40px;
       text-align: center;
     }
-    .cq-result-section h2 {
+    .cq-result-section h3 {
       margin-bottom: 20px;
+      font-size: 1.6rem;
     }
     .cq-restart-btn {
       margin-top: 20px;
@@ -860,12 +800,11 @@
     .cq-restart-btn:hover {
       background-color: #c82333;
     }
-
   </style>
 </head>
 <body>
 
-  <!-- (1) قسم الهيرو الأصلي -->
+  <!-- (A) قسم الهيرو الأصلي -->
   <div class="hero-section">
     <div class="hero-content">
       <h1>Welcome to SUMS Questions Bank (SQB)</h1>
@@ -873,20 +812,21 @@
       <!-- عرض العدد الكلي للأسئلة في الموقع -->
       <p id="site-total-questions">Total Questions: Loading...</p>
 
-      <!-- زر للانتقال (إظهار/إخفاء) قسم الاختبار المخصص -->
-      <button class="custom-quiz-btn" onclick="toggleCustomQuiz()">إنشاء اختبار مخصص</button>
-
+      <!-- زر إظهار/إخفاء قسم الاختبار المخصص -->
+      <button class="custom-quiz-btn" onclick="toggleCustomQuizSection()">
+        إنشاء اختبار مخصص
+      </button>
     </div>
   </div>
 
-  <!-- (2) القسم الخاص بعرض المواضيع -->
+  <!-- (B) القسم الخاص بعرض المواضيع الأصلية -->
   <div id="topics-page">
     <div class="topic-search-bar">
       <input type="text" id="topic-search-input" placeholder="Search topics...">
       <button onclick="manualSearchTopics()">Search</button>
     </div>
     <div class="topics-grid" id="topics-grid">
-      <!-- بطاقات المواضيع يتم إنشاؤها ديناميكيًا -->
+      <!-- بطاقات المواضيع يتم إنشاؤها ديناميكياً -->
       <div class="topic-card">
         <div class="topic-header">
           <h2 class="topic-title">عنوان الموضوع الأطول هنا</h2>
@@ -903,7 +843,7 @@
     </div>
   </div>
 
-  <!-- (3) حاوية الكويز الأصلي -->
+  <!-- (C) حاوية الكويز الأصلي -->
   <div class="quiz-container" id="quiz-container">
     <button id="back-to-topics" type="button" onclick="goBackToTopics()">← Back to Topics</button>
     <button id="download-pdf" type="button" onclick="downloadPDF()">Download PDF</button>
@@ -923,13 +863,13 @@
     <div id="result"></div>
   </div>
 
-  <!-- (4) الأزرار العائمة -->
+  <!-- (D) الأزرار العائمة -->
   <div class="floating-button-container" id="floating-buttons">
     <button id="scroll-button" class="floating-button" onclick="handleScrollButton()" title="Scroll between answered and bottom">↓</button>
     <button id="jump-button" class="floating-button" onclick="openJumpModal()" title="Search Questions">🔍</button>
   </div>
 
-  <!-- (5) مودال إعادة التهيئة (Reset) -->
+  <!-- (E) مودال إعادة التهيئة (Reset) -->
   <div id="reset-modal" class="modal">
     <div class="modal-content">
       <p>Are you sure you want to reset the quiz?</p>
@@ -938,7 +878,7 @@
     </div>
   </div>
 
-  <!-- (6) مودال البحث (Jump) -->
+  <!-- (F) مودال البحث (Jump) -->
   <div id="jump-modal" class="modal">
     <div class="modal-content">
       <p>Search in currently displayed questions:</p>
@@ -949,56 +889,57 @@
     </div>
   </div>
 
-  <!-- (7) مودال فلترة الفئات (Categories) -->
+  <!-- (G) مودال فلترة الفئات (Categories) -->
   <div id="category-modal" class="modal">
     <div class="modal-content">
       <p>Select Categories:</p>
       <select id="category-filter" multiple></select>
       <div class="category-modal-buttons">
-        <button id="select-all-categories-btn" style="padding:8px; font-size:14px; border:none; border-radius:5px; background-color:#007bff; color:#fff;">Select/Unselect All</button>
+        <button id="select-all-categories-btn"
+                style="padding:8px; font-size:14px; border:none; border-radius:5px; background-color:#007bff; color:#fff;">
+          Select/Unselect All
+        </button>
         <button class="modal-button yes" onclick="applyCategoryFilter()">OK</button>
         <button class="modal-button no" onclick="closeCategoryModal()">Cancel</button>
       </div>
     </div>
   </div>
 
-  <!-- (8) قسم الاختبار المخصص (Custom Quiz) -->
+  <!-- (H) قسم الاختبار المخصص (Custom Quiz) -->
   <div id="custom-quiz-section">
-    <h2>إنشاء اختبار مخصص</h2>
-    <div class="cq-steps">
-      <h3>1) اختر المواضيع والمواضيع الفرعية</h3>
-      <div id="cq-topics-list" class="cq-topics-list"></div>
-      <div id="cq-subtopics-list" class="cq-subtopics-list" style="margin-top:20px;"></div>
-    </div>
-    <div class="cq-steps">
-      <h3>2) إعدادات الاختبار</h3>
-      <div class="cq-quiz-settings">
-        <div>
-          <label for="cq-question-count">عدد الأسئلة المطلوب:</label>
-          <input type="number" id="cq-question-count" placeholder="مثال: 30" min="1">
-        </div>
-        <div class="checkbox-container">
-          <input type="checkbox" id="cq-randomize-questions">
-          <label for="cq-randomize-questions">اختيار الأسئلة عشوائيًا</label>
-        </div>
-        <div>
-          <label for="cq-timer-type">اختر نوع المؤقت:</label>
-          <select id="cq-timer-type">
-            <option value="none">بدون مؤقت</option>
-            <option value="total">مؤقت عام</option>
-            <option value="per-question">مؤقت لكل سؤال</option>
-          </select>
-        </div>
-        <div id="cq-timer-input-container" style="display:none;">
-          <label id="cq-timer-label" for="cq-timer-value"></label>
-          <input type="number" id="cq-timer-value" placeholder="بالثواني" min="1">
-        </div>
+    <h2>إنشاء اختبار مخصص من المواضيع الموجودة</h2>
+
+    <!-- عرض المواضيع والمواضيع الفرعية (checkboxes) -->
+    <div class="cq-topics-container" id="cq-topics-container"></div>
+    <div class="cq-subtopics-container" id="cq-subtopics-container"></div>
+
+    <!-- إعدادات الاختبار -->
+    <div class="cq-settings">
+      <label for="cq-question-count">عدد الأسئلة المطلوب:</label>
+      <input type="number" id="cq-question-count" placeholder="مثال: 30" min="1">
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="cq-randomize-questions">
+        <label for="cq-randomize-questions">اختيار الأسئلة عشوائيًا</label>
+      </div>
+
+      <label for="cq-timer-type">نوع المؤقت:</label>
+      <select id="cq-timer-type">
+        <option value="none">بدون مؤقت</option>
+        <option value="total">مؤقت عام</option>
+        <option value="per-question">مؤقت لكل سؤال</option>
+      </select>
+
+      <div id="cq-timer-settings" style="margin-top:10px; display:none;">
+        <label id="cq-timer-label" for="cq-timer-value"></label>
+        <input type="number" id="cq-timer-value" placeholder="أدخل الوقت بالثواني" min="1">
       </div>
     </div>
-    <button class="cq-btn" id="cq-start-quiz-btn">ابدأ الاختبار</button>
 
-    <!-- عرض الاختبار -->
-    <div id="cq-quiz-display">
+    <button class="cq-btn" id="cq-start-btn">ابدأ الاختبار</button>
+
+    <!-- عرض الأسئلة نفسها -->
+    <div class="cq-quiz-display" id="cq-quiz-display">
       <div class="cq-timer-container" id="cq-timer-container"></div>
       <div class="cq-progress-bar-container">
         <div class="cq-progress-bar-fill" id="cq-progress-bar-fill"></div>
@@ -1011,35 +952,43 @@
       </div>
     </div>
 
-    <!-- قسم عرض النتيجة -->
+    <!-- قسم النتيجة -->
     <div class="cq-result-section" id="cq-result-section">
-      <h2>نتيجتك النهائية</h2>
+      <h3>نتيجتك النهائية</h3>
       <div id="cq-result-details"></div>
-      <button class="cq-restart-btn" id="cq-restart-btn">إعادة الاختبار</button>
+      <button class="cq-restart-btn" id="cq-restart-btn">إعادة التحميل</button>
     </div>
   </div>
-  
-  <!-- (9) السكربت الأصلي (main.js) مضمن كاملًا -->
+
+  <!-- (I) سكربت الـ main.js الأصلي (جميع الدوال دون أي حذف) -->
   <script>
-  /***********************************************************
-   *                الكود الأصلي الموجود في main.js          *
-   ***********************************************************/
+  /***************************************************************
+   *          الكود الأصلي (كما في main.js) - بدون نقص            *
+   ***************************************************************/
   document.addEventListener('DOMContentLoaded', () => {
     loadTopicsList(); // عند تحميل الصفحة، نجلب قائمة المواضيع
     setupTopicSearchListener(); // تجهيز الاستماع لحقل البحث (المواضيع)
+    // في نهاية التحميل، نهيّئ قسم الاختبار المخصص (لنملأه بالمواضيع)
   });
 
+  // المسار الخاص بملف المواضيع
   const TOPICS_JSON_FILE = 'data/topics.json';
 
+  // متغيرات الأسئلة
   let quizData = [];
   let originalQuizData = [];
+
+  // الفئات (للفلترة)
   let originalCategories = [];
   let categoryFilterSelected = [];
+
+  // متغيرات أخرى
   let mode = 'mcq';
   let currentCorrectnessFilter = 'all';
   let scrollState = 0;
   let lastAnsweredIndex = -1;
 
+  // عناصر الـDOM
   const topicsPage = document.getElementById('topics-page');
   const topicsGrid = document.getElementById('topics-grid');
   const quizContainer = document.getElementById('quiz-container');
@@ -1048,6 +997,8 @@
   const scrollButton = document.getElementById('scroll-button');
   const floatingButtons = document.getElementById('floating-buttons');
   const quizTitleElement = document.getElementById('quiz-title');
+
+  // سنحتفظ بقائمة المواضيع كاملة في متغير allTopics
   let allTopics = [];
 
   function loadTopicsList() {
@@ -1057,6 +1008,9 @@
         allTopics = topics;
         displayTopics(allTopics);
         updateSiteTotalQuestions(topics);
+
+        // بعد تحميل كل المواضيع، نعرضها في قسم الاختبار المخصص
+        renderCustomQuizTopics(); // <-- لعرض المواضيع في التشيك بوكس
       })
       .catch(err => console.error('Error loading topics.json:', err));
   }
@@ -1134,6 +1088,7 @@
       }
     });
     files = [...new Set(files)];
+
     const fetchPromises = files.map(file => {
       return fetch(file)
         .then(response => response.json())
@@ -1143,6 +1098,7 @@
           return 0;
         });
     });
+
     Promise.all(fetchPromises).then(counts => {
       const total = counts.reduce((acc, cur) => acc + cur, 0);
       const siteTotalQuestionsElement = document.getElementById('site-total-questions');
@@ -1275,8 +1231,7 @@
           optionDiv.appendChild(radioInput);
           
           const optionLabel = document.createElement('label');
-          optionLabel.innerHTML = option;
-          
+          optionLabel.innerHTML = option; 
           optionDiv.appendChild(optionLabel);
           optionsContainer.appendChild(optionDiv);
         });
@@ -1943,6 +1898,15 @@
     displaySearchResults(results);
   }
 
+  function stripHTML(str) {
+    return str.replace(/<[^>]*>?/gm, '');
+  }
+
+  function highlightTerm(text, term) {
+    const re = new RegExp(term, 'gi');
+    return text.replace(re, matched => `<mark>${matched}</mark>`);
+  }
+
   function toggleAnswer(index) {
     const answerDiv = document.getElementById(`answer-${index}`);
     if (!answerDiv) return;
@@ -2101,15 +2065,6 @@
     }
   }
 
-  function stripHTML(str) {
-    return str.replace(/<[^>]*>?/gm, '');
-  }
-
-  function highlightTerm(text, term) {
-    const re = new RegExp(term, 'gi');
-    return text.replace(re, matched => `<mark>${matched}</mark>`);
-  }
-
   function downloadPDF() {
     const printWindow = window.open('about:blank', '_blank', 'width=1000,height=800');
     if (!printWindow) {
@@ -2140,236 +2095,258 @@
   }
   </script>
 
-
-  <!-- (10) السكربت الخاص بالاختبار المخصص (دمج محتوى custom-quiz) -->
+  <!-- (J) سكربت الاختبار المخصص (مرتبط بـ allTopics) -->
   <script>
-  /***********************************************************
-   *           سكربت دمج ميزة الاختبار المخصص (Custom Quiz)  *
-   ***********************************************************/
-  let cq_selectedTopics = new Set();
-  let cq_selectedSubtopics = new Set();
-  let cq_allSelectedQuestions = [];
-  let cq_userAnswers = [];
-  let cq_currentQuestionIndex = 0;
-  let cq_timerType = 'none';
-  let cq_timerValue = 0;
-  let cq_timeRemaining = 0;
-  let cq_timerInterval = null;
+  /************************************************************
+   *        (1) الدوال الخاصة بالاختبار المخصص                 *
+   ************************************************************/
+  let cqSelectedTopics = new Set();
+  let cqSelectedSubtopics = new Set();
+  let cqFinalQuestions = [];
+  let cqUserAnswers = [];
+  let cqCurrentQuestionIndex = 0;
 
-  const cqTopicsList = document.getElementById('cq-topics-list');
-  const cqSubtopicsList = document.getElementById('cq-subtopics-list');
-  const cqQuestionCountInput = document.getElementById('cq-question-count');
-  const cqRandomizeQuestions = document.getElementById('cq-randomize-questions');
-  const cqTimerTypeSelect = document.getElementById('cq-timer-type');
-  const cqTimerInputContainer = document.getElementById('cq-timer-input-container');
-  const cqTimerLabel = document.getElementById('cq-timer-label');
-  const cqTimerValueInput = document.getElementById('cq-timer-value');
-  const cqStartQuizBtn = document.getElementById('cq-start-quiz-btn');
-  const cqQuizDisplay = document.getElementById('cq-quiz-display');
-  const cqTimerContainer = document.getElementById('cq-timer-container');
-  const cqProgressBarFill = document.getElementById('cq-progress-bar-fill');
+  let cqTimerType = 'none';
+  let cqTimerValue = 0;
+  let cqTimeRemaining = 0;
+  let cqTimerInterval = null;
+
+  // عناصر DOM خاصة بقسم الاختبار المخصص
+  const customQuizSection   = document.getElementById('custom-quiz-section');
+  const cqTopicsContainer   = document.getElementById('cq-topics-container');
+  const cqSubtopicsContainer= document.getElementById('cq-subtopics-container');
+  const cqQuestionCountInput= document.getElementById('cq-question-count');
+  const cqRandomizeCheckbox = document.getElementById('cq-randomize-questions');
+  const cqTimerTypeSelect   = document.getElementById('cq-timer-type');
+  const cqTimerSettings     = document.getElementById('cq-timer-settings');
+  const cqTimerLabel        = document.getElementById('cq-timer-label');
+  const cqTimerValueInput   = document.getElementById('cq-timer-value');
+  const cqStartBtn          = document.getElementById('cq-start-btn');
+  const cqQuizDisplay       = document.getElementById('cq-quiz-display');
+  const cqTimerContainer    = document.getElementById('cq-timer-container');
+  const cqProgressBarFill   = document.getElementById('cq-progress-bar-fill');
   const cqQuestionContainer = document.getElementById('cq-question-container');
-  const cqPrevBtn = document.getElementById('cq-prev-btn');
-  const cqNextBtn = document.getElementById('cq-next-btn');
-  const cqSubmitBtn = document.getElementById('cq-submit-btn');
-  const cqResultSection = document.getElementById('cq-result-section');
-  const cqResultDetails = document.getElementById('cq-result-details');
-  const cqRestartBtn = document.getElementById('cq-restart-btn');
-  const customQuizSection = document.getElementById('custom-quiz-section');
+  const cqPrevBtn           = document.getElementById('cq-prev-btn');
+  const cqNextBtn           = document.getElementById('cq-next-btn');
+  const cqSubmitBtn         = document.getElementById('cq-submit-btn');
+  const cqResultSection     = document.getElementById('cq-result-section');
+  const cqResultDetails     = document.getElementById('cq-result-details');
+  const cqRestartBtn        = document.getElementById('cq-restart-btn');
 
-  // نجعل الصفحة تُحمّل قائمة المواضيع نفسها (allTopics) ونستخدمها
-  // بمجرد جاهزية الصفحة الأصلية، ستكون allTopics متوفرة
-  // لذلك نضيف مستمع للأحداث مثل:
-  document.addEventListener('DOMContentLoaded', () => {
-    // سننشئ دالة خاصة لعرض المواضيع داخل قسمنا المخصص
-    cq_displayTopicsForCustomQuiz(allTopics);
-    cqTimerTypeSelect.addEventListener('change', cq_onTimerTypeChange);
-    cqStartQuizBtn.addEventListener('click', cq_onStartQuiz);
-    cqPrevBtn.addEventListener('click', cq_onPrevQuestion);
-    cqNextBtn.addEventListener('click', cq_onNextQuestion);
-    cqSubmitBtn.addEventListener('click', cq_onSubmitQuiz);
-    cqRestartBtn.addEventListener('click', () => location.reload());
+  // عند تغيير نوع المؤقت
+  cqTimerTypeSelect.addEventListener('change', () => {
+    cqTimerType = cqTimerTypeSelect.value;
+    if (cqTimerType === 'none') {
+      cqTimerSettings.style.display = 'none';
+    } else if (cqTimerType === 'total') {
+      cqTimerSettings.style.display = 'block';
+      cqTimerLabel.textContent = 'الوقت الكلي (بالثواني):';
+    } else if (cqTimerType === 'per-question') {
+      cqTimerSettings.style.display = 'block';
+      cqTimerLabel.textContent = 'الوقت لكل سؤال (بالثواني):';
+    }
   });
 
-  function cq_displayTopicsForCustomQuiz(topicsArray) {
-    cqTopicsList.innerHTML = '';
-    topicsArray.forEach((topic, index) => {
+  // زر ابدأ الاختبار
+  cqStartBtn.addEventListener('click', handleStartCustomQuiz);
+
+  // أزرار التنقل
+  cqPrevBtn.addEventListener('click', () => {
+    if (cqCurrentQuestionIndex > 0) {
+      cqCurrentQuestionIndex--;
+      renderCQQuestion();
+    }
+  });
+  cqNextBtn.addEventListener('click', () => {
+    if (cqCurrentQuestionIndex < cqFinalQuestions.length - 1) {
+      cqCurrentQuestionIndex++;
+      renderCQQuestion();
+    }
+  });
+  cqSubmitBtn.addEventListener('click', finishCQQuiz);
+
+  // زر إعادة التحميل
+  cqRestartBtn.addEventListener('click', () => {
+    location.reload(); 
+  });
+
+  // دالة لإظهار/إخفاء قسم الاختبار المخصص
+  function toggleCustomQuizSection() {
+    if (customQuizSection.style.display === 'block') {
+      // إخفاء
+      customQuizSection.style.display = 'none';
+      topicsPage.style.display = 'flex';
+      quizContainer.style.display = 'none';
+    } else {
+      // إظهار
+      customQuizSection.style.display = 'block';
+      topicsPage.style.display = 'none';
+      quizContainer.style.display = 'none';
+    }
+  }
+
+  // نعرض المواضيع والمواضيع الفرعية ضمن قسم الاختبار المخصص
+  function renderCustomQuizTopics() {
+    // تفريغ المحتوى السابق
+    cqTopicsContainer.innerHTML = '';
+    cqSubtopicsContainer.innerHTML = '';
+    cqSelectedTopics.clear();
+    cqSelectedSubtopics.clear();
+
+    // إنشاء checkbox لكل موضوع
+    allTopics.forEach((topic, tIndex) => {
       const topicDiv = document.createElement('div');
       topicDiv.classList.add('cq-topic-item');
-      const input = document.createElement('input');
-      input.type = 'checkbox';
-      input.value = index;
-      input.addEventListener('change', cq_onTopicChecked);
+      
+      const topicInput = document.createElement('input');
+      topicInput.type = 'checkbox';
+      topicInput.value = tIndex;
+      topicInput.addEventListener('change', e => {
+        if (e.target.checked) {
+          cqSelectedTopics.add(tIndex);
+        } else {
+          cqSelectedTopics.delete(tIndex);
+        }
+        renderSubtopics();
+      });
+      
       const label = document.createElement('label');
       label.textContent = topic.topicName;
 
-      topicDiv.appendChild(input);
+      topicDiv.appendChild(topicInput);
       topicDiv.appendChild(label);
-      cqTopicsList.appendChild(topicDiv);
+      cqTopicsContainer.appendChild(topicDiv);
     });
   }
 
-  function cq_onTopicChecked(e) {
-    const idx = parseInt(e.target.value);
-    if (e.target.checked) {
-      cq_selectedTopics.add(idx);
-    } else {
-      cq_selectedTopics.delete(idx);
-    }
-    // بعد اختيار أي موضوع، نعرض المواضيع الفرعية التابعة له
-    cq_displaySubtopics();
-  }
+  // بناء قائمة المواضيع الفرعية حسب المواضيع المختارة
+  function renderSubtopics() {
+    cqSubtopicsContainer.innerHTML = '';
+    cqSelectedSubtopics.clear();
 
-  function cq_displaySubtopics() {
-    cqSubtopicsList.innerHTML = '';
-    cq_selectedSubtopics.clear();
-    cq_selectedTopics.forEach(topicIndex => {
+    // مر على كل موضوع مختار
+    cqSelectedTopics.forEach(topicIndex => {
       const topic = allTopics[topicIndex];
       if (topic.subTopics && topic.subTopics.length > 0) {
-        topic.subTopics.forEach((sub, subIndex) => {
+        topic.subTopics.forEach((sub, sIndex) => {
           const subDiv = document.createElement('div');
           subDiv.classList.add('cq-subtopic-item');
-          const input = document.createElement('input');
-          input.type = 'checkbox';
-          input.value = JSON.stringify({topicIndex, subIndex});
-          input.addEventListener('change', cq_onSubtopicChecked);
+
+          const subInput = document.createElement('input');
+          subInput.type = 'checkbox';
+          subInput.value = JSON.stringify({topicIndex, subIndex: sIndex});
+          subInput.addEventListener('change', e => {
+            const {topicIndex, subIndex} = JSON.parse(e.target.value);
+            const key = `${topicIndex}-${subIndex}`;
+            if (e.target.checked) {
+              cqSelectedSubtopics.add(key);
+            } else {
+              cqSelectedSubtopics.delete(key);
+            }
+          });
+
           const label = document.createElement('label');
           label.textContent = sub.name;
 
-          subDiv.appendChild(input);
+          subDiv.appendChild(subInput);
           subDiv.appendChild(label);
-          cqSubtopicsList.appendChild(subDiv);
+          cqSubtopicsContainer.appendChild(subDiv);
         });
       }
     });
   }
 
-  function cq_onSubtopicChecked(e) {
-    const { topicIndex, subIndex } = JSON.parse(e.target.value);
-    const code = `${topicIndex}-${subIndex}`;
-    if (e.target.checked) {
-      cq_selectedSubtopics.add(code);
-    } else {
-      cq_selectedSubtopics.delete(code);
-    }
-  }
-
-  function cq_onTimerTypeChange(e) {
-    cq_timerType = e.target.value;
-    if (cq_timerType === 'none') {
-      cqTimerInputContainer.style.display = 'none';
-    } else if (cq_timerType === 'total') {
-      cqTimerInputContainer.style.display = 'block';
-      cqTimerLabel.textContent = 'الوقت الكلي (بالثواني)';
-    } else if (cq_timerType === 'per-question') {
-      cqTimerInputContainer.style.display = 'block';
-      cqTimerLabel.textContent = 'الوقت لكل سؤال (بالثواني)';
-    }
-  }
-
-  function cq_onStartQuiz() {
-    const count = parseInt(cqQuestionCountInput.value) || 0;
-    if (count < 1) {
-      alert('الرجاء إدخال عدد الأسئلة المطلوب (1 فأكثر)');
+  // جمع الأسئلة من الملفات (حسب المواضيع/الفروع المختارة)
+  function handleStartCustomQuiz() {
+    const desiredCount = parseInt(cqQuestionCountInput.value) || 0;
+    if (desiredCount < 1) {
+      alert('فضلاً أدخل عدد الأسئلة المطلوب (1 فأكثر).');
       return;
     }
-    cq_timerValue = parseInt(cqTimerValueInput.value) || 0;
-    // نجمع الأسئلة من المواضيع والمواضيع الفرعية المختارة
-    cq_gatherQuestions();
-  }
+    cqTimerValue = parseInt(cqTimerValueInput.value) || 0;
 
-  function cq_gatherQuestions() {
-    cq_allSelectedQuestions = [];
-
-    // المواضيع ذات الملف المباشر (بدون subTopics) إن وجدت
-    cq_selectedTopics.forEach(topicIndex => {
-      const t = allTopics[topicIndex];
-      if (t.file && (!t.subTopics || t.subTopics.length === 0)) {
-        cq_allSelectedQuestions.push({ file: t.file, sourceTitle: t.topicName });
+    // سنجمع الملفات (التي لا تحوي subTopics) + المواضيع الفرعية
+    let filesList = [];
+    cqSelectedTopics.forEach(tIndex => {
+      const topic = allTopics[tIndex];
+      if (topic.file && (!topic.subTopics || topic.subTopics.length === 0)) {
+        // موضوع بملف مباشر
+        filesList.push({file: topic.file, sourceTitle: topic.topicName});
+      }
+    });
+    cqSelectedSubtopics.forEach(code => {
+      const [tIndex, sIndex] = code.split('-').map(Number);
+      const sub = allTopics[tIndex].subTopics[sIndex];
+      if (sub.file) {
+        filesList.push({file: sub.file, sourceTitle: sub.name});
       }
     });
 
-    // المواضيع الفرعية
-    cq_selectedSubtopics.forEach(code => {
-      const [topicIndex, subIndex] = code.split('-').map(Number);
-      const sub = allTopics[topicIndex].subTopics[subIndex];
-      cq_allSelectedQuestions.push({ file: sub.file, sourceTitle: sub.name });
-    });
+    if (filesList.length === 0) {
+      alert('لم يتم اختيار أي موضوع يملك ملف أسئلة!');
+      return;
+    }
 
-    // الآن نجلب محتوى هذه الملفات فعليًا
-    cq_finalQuestions = []; // سنجمع بها كل أسئلة الملفات
-    
-    function fetchQuestionsFromFile(path, sourceTitle) {
-      return fetch(path)
-        .then(resp => resp.json())
-        .then(jsonArr => {
-          // نضع لكل سؤال حقل sourceTitle اختياري
-          return jsonArr.map(q => {
-            q.sourceTitle = sourceTitle;
-            return q;
-          });
-        })
+    // جلب الأسئلة من هذه الملفات
+    cqFinalQuestions = [];
+    function fetchFile(fileObj) {
+      return fetch(fileObj.file)
+        .then(r => r.json())
+        .then(arr => arr.map(q => {
+          q.sourceTitle = fileObj.sourceTitle;
+          return q;
+        }))
         .catch(err => {
-          console.error('Error loading', path, err);
+          console.error('Error fetching', fileObj.file, err);
           return [];
         });
     }
 
     let chain = Promise.resolve();
-    cq_allSelectedQuestions.forEach(item => {
-      chain = chain.then(() => fetchQuestionsFromFile(item.file, item.sourceTitle))
-      .then(questions => {
-        cq_finalQuestions.push(...questions);
+    filesList.forEach(obj => {
+      chain = chain.then(() => fetchFile(obj)).then(ques => {
+        cqFinalQuestions.push(...ques);
       });
     });
 
     chain.then(() => {
-      cq_finalizeStartQuiz();
+      if (cqFinalQuestions.length === 0) {
+        alert('لم يتم العثور على أسئلة فعلية في الملفات المختارة!');
+        return;
+      }
+      // تطبيق العشوائية لو لازم
+      if (cqRandomizeCheckbox.checked) {
+        shuffleArray(cqFinalQuestions);
+      }
+      // قصّ العدد المطلوب
+      const finalCount = Math.min(desiredCount, cqFinalQuestions.length);
+      cqFinalQuestions = cqFinalQuestions.slice(0, finalCount);
+
+      cqUserAnswers = new Array(cqFinalQuestions.length).fill(null);
+      cqCurrentQuestionIndex = 0;
+
+      cqStartBtn.style.display = 'none';
+      cqQuizDisplay.style.display = 'block';
+      if (cqTimerType !== 'none' && cqTimerValue > 0) {
+        startCQTimer();
+      }
+      renderCQQuestion();
     });
   }
 
-  let cq_finalQuestions = [];
-
-  function cq_finalizeStartQuiz() {
-    if (cq_finalQuestions.length === 0) {
-      alert('لم يتم العثور على أسئلة في الملفات المختارة!');
-      return;
-    }
-    const count = parseInt(cqQuestionCountInput.value) || 0;
-    if (count > cq_finalQuestions.length) {
-      alert('عدد الأسئلة المطلوب أكبر من المتاح، سيتم أخذ جميع الأسئلة.');
-    }
-    if (cqRandomizeQuestions.checked) {
-      shuffleArray(cq_finalQuestions);
-    }
-    const finalCount = Math.min(count, cq_finalQuestions.length);
-    cq_finalQuestions = cq_finalQuestions.slice(0, finalCount);
-    cq_userAnswers = new Array(cq_finalQuestions.length).fill(null);
-    cq_currentQuestionIndex = 0;
-
-    // أخفاء إعدادات الاختبار وعرض قسم الأسئلة
-    cqStartQuizBtn.style.display = 'none';
-    cqQuizDisplay.style.display = 'block';
-
-    if (cq_timerType !== 'none' && cq_timerValue > 0) {
-      cq_startTimer();
-    }
-    cq_renderQuestion();
-  }
-
-  function cq_renderQuestion() {
-    if (cq_timerType === 'per-question') {
-      clearInterval(cq_timerInterval);
-      cq_timeRemaining = cq_timerValue;
-      cq_startPerQuestionTimer();
+  function renderCQQuestion() {
+    if (cqTimerType === 'per-question') {
+      clearInterval(cqTimerInterval);
+      cqTimeRemaining = cqTimerValue;
+      startPerQuestionTimer();
     }
 
-    if (cq_currentQuestionIndex === 0) {
+    if (cqCurrentQuestionIndex === 0) {
       cqPrevBtn.disabled = true;
     } else {
       cqPrevBtn.disabled = false;
     }
-    if (cq_currentQuestionIndex === cq_finalQuestions.length - 1) {
+    if (cqCurrentQuestionIndex === cqFinalQuestions.length - 1) {
       cqNextBtn.style.display = 'none';
       cqSubmitBtn.style.display = 'inline-block';
     } else {
@@ -2377,168 +2354,140 @@
       cqSubmitBtn.style.display = 'none';
     }
 
-    const percent = ((cq_currentQuestionIndex + 1) / cq_finalQuestions.length) * 100;
+    const percent = ((cqCurrentQuestionIndex + 1) / cqFinalQuestions.length) * 100;
     cqProgressBarFill.style.width = percent + '%';
 
-    const qData = cq_finalQuestions[cq_currentQuestionIndex];
+    const q = cqFinalQuestions[cqCurrentQuestionIndex];
     cqQuestionContainer.innerHTML = '';
-
     const h3 = document.createElement('h3');
-    h3.innerHTML = `السؤال ${cq_currentQuestionIndex + 1}: <span>${qData.question}</span>`;
+    h3.innerHTML = `السؤال ${cqCurrentQuestionIndex + 1}: <span>${q.question}</span>`;
     cqQuestionContainer.appendChild(h3);
 
-    if (qData.options && Array.isArray(qData.options)) {
+    if (q.options && Array.isArray(q.options)) {
       const optionsDiv = document.createElement('div');
       optionsDiv.classList.add('cq-options');
-      qData.options.forEach((optText, optIndex) => {
+      q.options.forEach((opt, idx) => {
         const optDiv = document.createElement('div');
         optDiv.classList.add('cq-option');
         const radio = document.createElement('input');
         radio.type = 'radio';
-        radio.name = 'cq-question-' + cq_currentQuestionIndex;
-        radio.value = optIndex;
-        if (cq_userAnswers[cq_currentQuestionIndex] === optIndex) {
+        radio.name = 'cq-q-' + cqCurrentQuestionIndex;
+        radio.value = idx;
+        if (cqUserAnswers[cqCurrentQuestionIndex] === idx) {
           radio.checked = true;
         }
         radio.addEventListener('change', () => {
-          cq_userAnswers[cq_currentQuestionIndex] = optIndex;
+          cqUserAnswers[cqCurrentQuestionIndex] = idx;
         });
-        const labelSpan = document.createElement('span');
-        labelSpan.innerHTML = optText;
+        const spanLabel = document.createElement('span');
+        spanLabel.innerHTML = opt;
 
         optDiv.appendChild(radio);
-        optDiv.appendChild(labelSpan);
+        optDiv.appendChild(spanLabel);
         optionsDiv.appendChild(optDiv);
       });
       cqQuestionContainer.appendChild(optionsDiv);
     } else {
       // سؤال نصي
-      const inputTxt = document.createElement('input');
-      inputTxt.type = 'text';
-      inputTxt.style.width = '100%';
-      inputTxt.style.fontSize = '1rem';
-      inputTxt.style.padding = '10px';
-      if (cq_userAnswers[cq_currentQuestionIndex] !== null) {
-        inputTxt.value = cq_userAnswers[cq_currentQuestionIndex];
+      const txtInput = document.createElement('input');
+      txtInput.type = 'text';
+      txtInput.style.width = '100%';
+      txtInput.style.padding = '10px';
+      txtInput.style.fontSize = '1rem';
+      if (cqUserAnswers[cqCurrentQuestionIndex] != null) {
+        txtInput.value = cqUserAnswers[cqCurrentQuestionIndex];
       }
-      inputTxt.addEventListener('input', e => {
-        cq_userAnswers[cq_currentQuestionIndex] = e.target.value;
+      txtInput.addEventListener('input', e => {
+        cqUserAnswers[cqCurrentQuestionIndex] = e.target.value;
       });
-      cqQuestionContainer.appendChild(inputTxt);
+      cqQuestionContainer.appendChild(txtInput);
     }
 
     MathJax.typesetPromise([cqQuestionContainer]).catch(err => console.error(err));
   }
 
-  function cq_onPrevQuestion() {
-    if (cq_currentQuestionIndex > 0) {
-      cq_currentQuestionIndex--;
-      cq_renderQuestion();
-    }
-  }
-
-  function cq_onNextQuestion() {
-    if (cq_currentQuestionIndex < cq_finalQuestions.length - 1) {
-      cq_currentQuestionIndex++;
-      cq_renderQuestion();
-    }
-  }
-
-  function cq_onSubmitQuiz() {
-    clearInterval(cq_timerInterval);
+  function finishCQQuiz() {
+    clearInterval(cqTimerInterval);
     cqQuizDisplay.style.display = 'none';
+
     let correctCount = 0;
     let unanswered = 0;
-    cq_finalQuestions.forEach((q, i) => {
+
+    // حساب النتيجة
+    cqFinalQuestions.forEach((q, i) => {
       if (q.options && Array.isArray(q.options)) {
-        if (cq_userAnswers[i] === null) {
+        if (cqUserAnswers[i] == null) {
           unanswered++;
-        } else if (cq_userAnswers[i] === q.answer) {
+        } else if (parseInt(cqUserAnswers[i]) === q.answer) {
           correctCount++;
         }
       } else {
-        if (cq_userAnswers[i] === null || cq_userAnswers[i].trim() === '') {
+        if (!cqUserAnswers[i] || cqUserAnswers[i].trim() === '') {
           unanswered++;
         }
       }
     });
-    const total = cq_finalQuestions.length;
+    const total = cqFinalQuestions.length;
     const wrongCount = total - correctCount - unanswered;
+
     cqResultDetails.innerHTML = `
-      <p>عدد الأسئلة: ${total}</p>
+      <p>مجموع الأسئلة: ${total}</p>
       ${
-        (cq_finalQuestions[0].options && Array.isArray(cq_finalQuestions[0].options)) ?
-        `
+        (cqFinalQuestions[0].options && Array.isArray(cqFinalQuestions[0].options))
+        ? `
         <p>إجابات صحيحة: ${correctCount}</p>
         <p>إجابات خاطئة: ${wrongCount}</p>
-        <p>غير مجاب عليها: ${unanswered}</p>
+        <p>غير مجاب عنها: ${unanswered}</p>
         <p>نسبتك: ${(correctCount / total * 100).toFixed(2)}%</p>
         `
-        : `<p>عدد الأسئلة التي لم تُجب عليها: ${unanswered}</p>`
+        : `<p>عدد الأسئلة النصية التي لم تُجب عليها: ${unanswered}</p>`
       }
     `;
     cqResultSection.style.display = 'block';
   }
 
-  function cq_startTimer() {
-    if (cq_timerValue <= 0) {
-      return;
-    }
-    if (cq_timerType === 'total') {
-      cq_timeRemaining = cq_timerValue;
-      cq_updateTimer();
-      cq_timerInterval = setInterval(() => {
-        cq_timeRemaining--;
-        cq_updateTimer();
-        if (cq_timeRemaining <= 0) {
-          clearInterval(cq_timerInterval);
-          cq_onSubmitQuiz();
+  // المؤقت
+  function startCQTimer() {
+    if (cqTimerValue <= 0) return;
+    if (cqTimerType === 'total') {
+      cqTimeRemaining = cqTimerValue;
+      updateCQTimer();
+      cqTimerInterval = setInterval(() => {
+        cqTimeRemaining--;
+        updateCQTimer();
+        if (cqTimeRemaining <= 0) {
+          clearInterval(cqTimerInterval);
+          finishCQQuiz();
         }
       }, 1000);
-    } else if (cq_timerType === 'per-question') {
-      cq_timeRemaining = cq_timerValue;
-      cq_startPerQuestionTimer();
+    } else if (cqTimerType === 'per-question') {
+      cqTimeRemaining = cqTimerValue;
+      startPerQuestionTimer();
     }
   }
 
-  function cq_startPerQuestionTimer() {
-    cq_updateTimer();
-    cq_timerInterval = setInterval(() => {
-      cq_timeRemaining--;
-      cq_updateTimer();
-      if (cq_timeRemaining <= 0) {
-        clearInterval(cq_timerInterval);
-        cq_userAnswers[cq_currentQuestionIndex] = null; 
-        if (cq_currentQuestionIndex < cq_finalQuestions.length - 1) {
-          cq_currentQuestionIndex++;
-          cq_renderQuestion();
+  function startPerQuestionTimer() {
+    updateCQTimer();
+    cqTimerInterval = setInterval(() => {
+      cqTimeRemaining--;
+      updateCQTimer();
+      if (cqTimeRemaining <= 0) {
+        clearInterval(cqTimerInterval);
+        // عدّ الوقت على هذا السؤال انتهى
+        cqUserAnswers[cqCurrentQuestionIndex] = null; 
+        if (cqCurrentQuestionIndex < cqFinalQuestions.length - 1) {
+          cqCurrentQuestionIndex++;
+          renderCQQuestion();
         } else {
-          cq_onSubmitQuiz();
+          finishCQQuiz();
         }
       }
     }, 1000);
   }
 
-  function cq_updateTimer() {
-    if (cq_timeRemaining < 0) cq_timeRemaining = 0;
-    cqTimerContainer.textContent = 'الوقت المتبقي: ' + cq_timeRemaining + ' ثانية';
-  }
-
-  /**********************************************************
-   *            دالة لإظهار/إخفاء قسم الاختبار المخصص       *
-   **********************************************************/
-  function toggleCustomQuiz() {
-    // إذا كان قسم الاختبار المخصص مخفيًّا، نظهره ونخفي قسم المواضيع
-    // وإذا كان ظاهرًا، نعكس العملية.
-    if (customQuizSection.style.display === 'block') {
-      customQuizSection.style.display = 'none';
-      topicsPage.style.display = 'flex'; // إرجاع صفحة المواضيع
-      quizContainer.style.display = 'none';
-    } else {
-      customQuizSection.style.display = 'block';
-      topicsPage.style.display = 'none';
-      quizContainer.style.display = 'none';
-    }
+  function updateCQTimer() {
+    if (cqTimeRemaining < 0) cqTimeRemaining = 0;
+    cqTimerContainer.textContent = 'الوقت المتبقي: ' + cqTimeRemaining + ' ثانية';
   }
   </script>
 
