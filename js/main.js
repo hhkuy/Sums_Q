@@ -1330,6 +1330,7 @@ function generateCustomQuiz() {
       document.getElementById('custom-quiz-container').style.display = 'block';
       document.getElementById('custom-quiz-timer').textContent = '';
       document.getElementById('question-progress-bar').style.width = '0%';
+      generateQuizLink(); // إنشاء رابط المشاركة بعد إظهار الاختبار المخصص
       showCustomQuizQuestion();
       startCustomQuizTimer();
     })
@@ -1491,7 +1492,42 @@ function updateCustomQuizTimerDisplay() {
   const seconds = customQuizTimeLeft % 60;
   timerElem.textContent = `Time left: ${minutes}:${(seconds < 10 ? '0'+seconds : seconds)}`;
 }
+// --- Begin: Share Quiz Link Functions ---
+function generateQuizLink() {
+    // افترض أن لديك عناصر اختيار المواضيع والمواضيع الفرعية تحمل الاسماء التالية:
+    // (يمكنك تعديل أسماء العناصر حسب الكود الحالي)
+    const selectedTopics = Array.from(document.querySelectorAll('#custom-topics-checkboxes input:checked'))
+        .map(input => input.value)
+        .join(',');
+    const selectedSubtopics = Array.from(document.querySelectorAll('#custom-subtopics-checkboxes input:checked'))
+        .map(input => input.value)
+        .join(',');
+    const numQuestions = document.getElementById('custom-questions-count').value;
+    const randomizeQuestions = document.getElementById('random-questions').checked ? '1' : '0';
+    const randomizeOptions = document.getElementById('random-options').checked ? '1' : '0';
 
+    const quizLink = `${window.location.origin}${window.location.pathname}?custom_quiz=1&topics=${encodeURIComponent(selectedTopics)}&subtopics=${encodeURIComponent(selectedSubtopics)}&num=${numQuestions}&randQ=${randomizeQuestions}&randOpt=${randomizeOptions}`;
+
+    const linkContainer = document.getElementById('quiz-link-container');
+    if (linkContainer) {
+        linkContainer.innerHTML = `
+            <p><strong>Share this quiz:</strong></p>
+            <input type="text" id="quiz-share-link" value="${quizLink}" readonly>
+            <button onclick="copyQuizLink()">Copy</button>
+        `;
+        linkContainer.style.display = 'block';
+    }
+}
+
+function copyQuizLink() {
+    const linkInput = document.getElementById('quiz-share-link');
+    if (linkInput) {
+        linkInput.select();
+        document.execCommand('copy');
+        alert('Quiz link copied to clipboard!');
+    }
+}
+// --- End: Share Quiz Link Functions ---
 /*****************************************************************
  *              دوال تنزيل الـ PDF (كما في الكود الأصلي)         *
  *****************************************************************/
