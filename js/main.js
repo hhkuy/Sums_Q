@@ -1,6 +1,6 @@
 /**
  * main.js
- * Full code with Custom Quiz functionality and the "Make Quizz" page display fix.
+ * Full code with final modifications for counting correct/wrong answers in the Custom Quiz.
  */
 
 /***
@@ -412,7 +412,7 @@ if (quizForm) {
 }
 
 /*****************************************************************
- *         دوال التصحيح والفلترة والتنقل داخل الكويز             *
+ * بقية الدوال المساندة (التصحيح، الفلترة، إلخ)
  *****************************************************************/
 function toggleExplanation(index) {
   const explanationDiv = document.getElementById(`explanation-${index}`);
@@ -1010,11 +1010,9 @@ function openCategoryModal() {
   document.getElementById('category-modal').style.display = 'block';
   updateCategoryFilter();
 }
-
 function closeCategoryModal() {
   document.getElementById('category-modal').style.display = 'none';
 }
-
 function updateCategoryFilter() {
   const categorySelect = document.getElementById('category-filter');
   if (!categorySelect) return;
@@ -1029,7 +1027,6 @@ function updateCategoryFilter() {
     categorySelect.appendChild(option);
   });
 }
-
 function applyCategoryFilter() {
   const categorySelect = document.getElementById('category-filter');
   if (!categorySelect) return;
@@ -1121,24 +1118,24 @@ let customQuizAllQuestions = [];
 let customQuizCurrentIndex = 0;
 let customQuizCount = 10;
 let customQuizTimerType = 'none';
-let customQuizTimerValue = 0; // بعد تحويلها للثواني
+let customQuizTimerValue = 0; 
 let customQuizTimeLeft = 0;
 let customQuizTimerInterval = null;
 let customQuizRandomQuestions = true;
 let customQuizRandomOptions = true;
 let customQuizAnsweredCount = 0;
 
+/** إضافة لتتبع الأسئلة الصحيحة والخاطئة في الاختبار المخصص */
+let customQuizCorrectCount = 0;
+let customQuizWrongCount = 0;
+
 /** عند الضغط على زر Make Quizz **/
 function showCustomQuizPage() {
-  // إخفاء الصفحات الأخرى
   topicsPage.style.display = 'none';
   quizContainer.style.display = 'none';
   floatingButtons.style.display = 'none';
   
-  // عرض صفحة الإنشاء
   document.getElementById('create-custom-quiz-page').style.display = 'block';
-
-  // تعبئة قائمة المواضيع في checkboxes
   populateCustomTopicsCheckboxes();
 }
 
@@ -1193,7 +1190,6 @@ function populateSubtopicsCheckboxes() {
         container.appendChild(label);
       });
     } else {
-      // إذا لا يوجد subTopics ولكن يوجد ملف واحد للموضوع
       if (topic.file) {
         const label = document.createElement('label');
         const input = document.createElement('input');
@@ -1264,6 +1260,8 @@ function generateCustomQuiz() {
   customQuizAllQuestions = [];
   customQuizCurrentIndex = 0;
   customQuizAnsweredCount = 0;
+  customQuizCorrectCount = 0;
+  customQuizWrongCount = 0;
 
   const questionsInput = document.getElementById('custom-questions-count');
   customQuizCount = parseInt(questionsInput.value) || 10;
@@ -1272,7 +1270,6 @@ function generateCustomQuiz() {
   
   let timeVal = parseInt(document.getElementById('time-value').value) || 60;
   let timeUnit = document.getElementById('time-unit').value;
-  // تحويل الوقت إلى ثوانٍ
   if (timeUnit === 'minutes') timeVal *= 60;
   if (timeUnit === 'hours') timeVal *= 3600;
   customQuizTimerValue = timeVal;
@@ -1331,12 +1328,9 @@ function generateCustomQuiz() {
       document.getElementById('create-custom-quiz-page').style.display = 'none';
       // عرض صفحة الاختبار المخصص
       document.getElementById('custom-quiz-container').style.display = 'block';
-      // تصفير المؤقت
       document.getElementById('custom-quiz-timer').textContent = '';
       document.getElementById('question-progress-bar').style.width = '0%';
-      // إظهار السؤال الأول
       showCustomQuizQuestion();
-      // بدء المؤقت
       startCustomQuizTimer();
     })
     .catch(err => {
@@ -1395,6 +1389,13 @@ function checkCustomOption(selectedIndex) {
     }
   });
 
+  // تحديث الإحصائيات
+  if (selectedIndex === correctIndex) {
+    customQuizCorrectCount++;
+  } else {
+    customQuizWrongCount++;
+  }
+
   customQuizAnsweredCount++;
   document.getElementById('next-question-btn').disabled = false;
 }
@@ -1422,13 +1423,17 @@ function endCustomQuiz() {
   document.getElementById('next-question-btn').disabled = true;
 
   const total = customQuizAllQuestions.length;
-  const resultText = `
+  const unanswered = total - customQuizAnsweredCount;
+  // إظهار النتائج
+  const resultEl = document.getElementById('custom-quiz-result');
+  resultEl.innerHTML = `
     <p>Quiz finished!</p>
     <p>Total Questions: ${total}</p>
-    <p>Answered: ${customQuizAnsweredCount}</p>
-    <p>Unanswered: ${total - customQuizAnsweredCount}</p>
+    <p>Correct: ${customQuizCorrectCount}</p>
+    <p>Wrong: ${customQuizWrongCount}</p>
+    <p>Unanswered: ${unanswered}</p>
+    <p>Your Score: ${customQuizCorrectCount} out of ${total}.</p>
   `;
-  document.getElementById('custom-quiz-result').innerHTML = resultText;
 }
 
 /** إعادة الاختبار **/
@@ -1439,6 +1444,8 @@ function restartCustomQuiz() {
   customQuizAllQuestions = [];
   customQuizCurrentIndex = 0;
   customQuizAnsweredCount = 0;
+  customQuizCorrectCount = 0;
+  customQuizWrongCount = 0;
   document.getElementById('question-progress-bar').style.width = '0%';
   document.getElementById('custom-quiz-timer').textContent = '';
 }
@@ -1489,7 +1496,6 @@ function updateCustomQuizTimerDisplay() {
  *              دوال تنزيل الـ PDF (كما في الكود الأصلي)         *
  *****************************************************************/
 function downloadPDF() {
-  // افتح نافذة فارغة دون إغلاق
   const printWindow = window.open('about:blank', '_blank', 'width=1000,height=800');
   if (!printWindow) {
     alert('Popup blocked! Please allow popups for this site to enable printing.');
@@ -1519,8 +1525,7 @@ function downloadPDF() {
   };
   return;
 
-  // بقية كود jsPDF (غير مستخدم فعلياً الآن):
-  // ...
+  // بقية كود jsPDF (غير مستخدم فعلياً الآن)...
 }
 
 /*****************************************************************
