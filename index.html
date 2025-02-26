@@ -19,7 +19,7 @@
     };
   </script>
   <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-  
+
   <!-- jsPDF for PDF download -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
@@ -626,7 +626,7 @@
     }
 
     @media print {
-      /* Make sure the browser keeps colors and backgrounds when printing */
+      /* Keep colors and backgrounds when printing */
       * {
         -webkit-print-color-adjust: exact !important;
         color-adjust: exact !important;
@@ -639,12 +639,9 @@
       background-color: orange !important;
     }
 
-    /*==================================*/
-    /*==== Custom Quiz Page (Bootstrap) =====*/
-    /*==================================*/
+    /*================ Custom Quiz Page (Bootstrap) ================*/
     #create-custom-quiz-page {
       display: none; 
-      /* بقية التنسيقات عبر Bootstrap */
       background-color: #fff;
       border-radius: 15px;
       box-shadow: 0 10px 30px rgba(0,0,0,0.1);
@@ -672,8 +669,6 @@
       font-size: 0.95rem;
       color: #555;
     }
-
-    /* زر إنشاء الكويز */
     #generate-quiz-btn {
       font-size: 1.1rem;
       font-weight: 500;
@@ -684,6 +679,13 @@
     #generate-quiz-btn:hover {
       transform: translateY(-3px);
       box-shadow: 0 5px 15px rgba(0,123,255,0.3);
+    }
+
+    /* إعادة ترتيب الشيك بوكسات للمواضيع والمواضيع الفرعية */
+    .custom-quiz-checkboxes {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px 20px;
     }
 
     /*================ Custom Quiz Container ================*/
@@ -990,7 +992,7 @@
     <button id="custom-quiz-restart-btn" onclick="restartCustomQuiz()">Restart</button>
   </div>
 
-  <!-- main.js (No changes made) -->
+  <!-- main.js (with final modifications) -->
   <script src="js/main.js"></script>
   
   <!-- Bootstrap 5 JS (Bundle) -->
