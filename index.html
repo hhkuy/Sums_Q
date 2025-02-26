@@ -22,6 +22,11 @@
   
   <!-- jsPDF for PDF download -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   
   <style>
     /*================ Reset & Base Styles ================*/
@@ -635,87 +640,50 @@
     }
 
     /*==================================*/
-    /*==== Custom Quiz Page Design =====*/
+    /*==== Custom Quiz Page (Bootstrap) =====*/
     /*==================================*/
     #create-custom-quiz-page {
-      display: none;
-      width: 90%;
-      max-width: 900px;
-      margin: 40px auto;
+      display: none; 
+      /* بقية التنسيقات عبر Bootstrap */
       background-color: #fff;
-      border-radius: 12px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      margin: 40px auto;
+      max-width: 900px;
       padding: 30px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
     #create-custom-quiz-page h2 {
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
       font-size: 1.8rem;
       color: #343a40;
+      font-weight: 600;
     }
-    .custom-quiz-form-group {
-      margin-bottom: 15px;
+    #custom-quiz-back-btn {
+      margin-bottom: 20px;
     }
     .custom-quiz-form-group label {
-      display: block;
       font-weight: 600;
+      color: #555;
       margin-bottom: 5px;
-      font-size: 1rem;
-      color: #333;
-    }
-    .custom-quiz-checkboxes {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin: 10px 0;
-    }
-    .custom-quiz-checkboxes label {
-      display: inline-flex;
-      align-items: center;
-      gap: 5px;
-      font-weight: normal;
-      font-size: 0.95rem;
-    }
-    .custom-quiz-checkboxes input[type="checkbox"] {
-      cursor: pointer;
     }
     #custom-quiz-details {
       margin-top: 10px;
-      font-size: 0.9rem;
+      font-size: 0.95rem;
       color: #555;
     }
+
+    /* زر إنشاء الكويز */
     #generate-quiz-btn {
-      background-color: #007bff;
-      color: #fff;
-      margin-right: 0;
-      display: block;
+      font-size: 1.1rem;
+      font-weight: 500;
+      padding: 12px 20px;
+      border-radius: 50px;
       width: 100%;
-      padding: 14px;
-      font-size: 1rem;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background-color 0.3s;
     }
     #generate-quiz-btn:hover {
-      background-color: #0056b3;
-    }
-    .time-settings {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-top: 10px;
-    }
-    .time-settings input {
-      width: 80px;
-      padding: 6px;
-      font-size: 0.95rem;
-    }
-    .time-settings select {
-      padding: 6px;
-      font-size: 0.95rem;
-      border-radius: 5px;
-      border: 1px solid #ccc;
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0,123,255,0.3);
     }
 
     /*================ Custom Quiz Container ================*/
@@ -819,22 +787,6 @@
     #custom-quiz-restart-btn:hover {
       background-color: #5a6268;
     }
-
-    /* Button to go back from custom quiz page */
-    #custom-quiz-back-btn {
-      background-color: #d3d3d3;
-      color: #333;
-      padding: 10px 16px;
-      border-radius: 8px;
-      border: none;
-      font-size: 1rem;
-      margin-bottom: 20px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-    #custom-quiz-back-btn:hover {
-      background-color: #b1b1b1;
-    }
   </style>
 </head>
 <body>
@@ -935,66 +887,93 @@
   </div>
 
   <!-- Custom Quiz Page -->
-  <div id="create-custom-quiz-page">
+  <div id="create-custom-quiz-page" class="container">
     <!-- A back button to return to topics page -->
-    <button id="custom-quiz-back-btn" onclick="goBackToTopics()">← Back</button>
+    <button id="custom-quiz-back-btn" class="btn btn-outline-secondary mb-3" onclick="goBackToTopics()">
+      <i class="bi bi-arrow-left-circle"></i> Back
+    </button>
     
-    <h2>Create a Custom Quiz</h2>
-    <div class="custom-quiz-form-group">
-      <label>Select Topics:</label>
-      <div class="custom-quiz-checkboxes" id="custom-topics-checkboxes">
-        <!-- Dynamically filled from allTopics -->
+    <h2><i class="bi bi-check2-circle"></i> Create a Custom Quiz</h2>
+
+    <div class="row mb-3">
+      <div class="custom-quiz-form-group">
+        <label class="form-label">Select Topics:</label>
+        <div class="custom-quiz-checkboxes" id="custom-topics-checkboxes">
+          <!-- Dynamically filled from allTopics -->
+        </div>
       </div>
     </div>
-    <div class="custom-quiz-form-group">
-      <label>Select Subtopics (if available):</label>
-      <div class="custom-quiz-checkboxes" id="custom-subtopics-checkboxes">
-        <!-- Dynamically filled when topics are selected -->
+    
+    <div class="row mb-3">
+      <div class="custom-quiz-form-group">
+        <label class="form-label">Select Subtopics (if available):</label>
+        <div class="custom-quiz-checkboxes" id="custom-subtopics-checkboxes">
+          <!-- Dynamically filled when topics are selected -->
+        </div>
       </div>
     </div>
-    <div class="custom-quiz-form-group">
-      <label for="custom-questions-count">Number of Questions:</label>
-      <input type="number" id="custom-questions-count" min="1" value="10" style="width:100px;">
-    </div>
-    <div class="custom-quiz-form-group">
-      <label>Timer Settings:</label>
-      <div>
-        <input type="radio" id="no-timer" name="timer-type" value="none" checked>
-        <label for="no-timer">No Timer</label>
-      </div>
-      <div>
-        <input type="radio" id="global-timer" name="timer-type" value="global">
-        <label for="global-timer">Global Timer</label>
-      </div>
-      <div>
-        <input type="radio" id="per-question-timer" name="timer-type" value="per-question">
-        <label for="per-question-timer">Timer per Question</label>
-      </div>
-      <div class="time-settings" id="time-settings-inputs" style="display:none;">
-        <label for="time-value">Duration:</label>
-        <input type="number" id="time-value" min="1" value="60">
-        <select id="time-unit">
-          <option value="seconds">Seconds</option>
-          <option value="minutes">Minutes</option>
-          <option value="hours">Hours</option>
-        </select>
+
+    <div class="row mb-3">
+      <div class="custom-quiz-form-group">
+        <label for="custom-questions-count" class="form-label">Number of Questions:</label>
+        <input type="number" id="custom-questions-count" min="1" value="10" class="form-control" style="max-width:180px;">
       </div>
     </div>
-    <div class="custom-quiz-form-group">
-      <label>Other Options:</label>
-      <div>
-        <input type="checkbox" id="random-questions" checked>
-        <label for="random-questions">Randomize Questions</label>
-      </div>
-      <div>
-        <input type="checkbox" id="random-options" checked>
-        <label for="random-options">Randomize Options</label>
+
+    <div class="row mb-3">
+      <div class="custom-quiz-form-group">
+        <label class="form-label">Timer Settings:</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" id="no-timer" name="timer-type" value="none" checked>
+          <label class="form-check-label" for="no-timer">No Timer</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" id="global-timer" name="timer-type" value="global">
+          <label class="form-check-label" for="global-timer">Global Timer</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" id="per-question-timer" name="timer-type" value="per-question">
+          <label class="form-check-label" for="per-question-timer">Timer per Question</label>
+        </div>
+        <div class="time-settings row mt-2" id="time-settings-inputs" style="display:none;">
+          <div class="col-auto">
+            <label for="time-value" class="form-label">Duration:</label>
+          </div>
+          <div class="col-auto">
+            <input type="number" id="time-value" min="1" value="60" class="form-control">
+          </div>
+          <div class="col-auto">
+            <select id="time-unit" class="form-select">
+              <option value="seconds">Seconds</option>
+              <option value="minutes">Minutes</option>
+              <option value="hours">Hours</option>
+            </select>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="custom-quiz-form-group">
-      <button id="generate-quiz-btn" onclick="generateCustomQuiz()">Create the Quiz</button>
+
+    <div class="row mb-3">
+      <div class="custom-quiz-form-group">
+        <label class="form-label">Other Options:</label>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="random-questions" checked>
+          <label class="form-check-label" for="random-questions">Randomize Questions</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="random-options" checked>
+          <label class="form-check-label" for="random-options">Randomize Options</label>
+        </div>
+      </div>
     </div>
+
     <div id="custom-quiz-details"></div>
+
+    <div class="mt-4">
+      <button id="generate-quiz-btn" class="btn btn-primary btn-lg" onclick="generateCustomQuiz()">
+        <i class="bi bi-send-check"></i> Create the Quiz
+      </button>
+    </div>
   </div>
 
   <!-- Custom Quiz Container for question-by-question view -->
@@ -1011,7 +990,10 @@
     <button id="custom-quiz-restart-btn" onclick="restartCustomQuiz()">Restart</button>
   </div>
 
-  <!-- main.js (with needed modifications) -->
+  <!-- main.js (No changes made) -->
   <script src="js/main.js"></script>
+  
+  <!-- Bootstrap 5 JS (Bundle) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
