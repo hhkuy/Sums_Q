@@ -286,8 +286,7 @@ function loadQuiz() {
         optionDiv.appendChild(radioInput);
         
         const optionLabel = document.createElement('label');
-        optionLabel.innerHTML = option; // تغيير من textContent إلى innerHTML لدعم الرموز
-        
+        optionLabel.innerHTML = option; // لدعم HTML
         optionDiv.appendChild(optionLabel);
         optionsContainer.appendChild(optionDiv);
       });
@@ -423,7 +422,7 @@ if (quizForm) {
 }
 
 /***
- * بقية الدوال المساندة (التصحيح، الفلترة، إلخ) — بدون تعديل
+ * بقية الدوال المساندة (التصحيح، الفلترة، إلخ)
  ***/
 function toggleExplanation(index) {
   const explanationDiv = document.getElementById(`explanation-${index}`);
@@ -1229,7 +1228,7 @@ function downloadPDF() {
 
   return;
 
-  // *** بقية كود jsPDF كما هو دون حذف ***
+  // * بقية كود jsPDF كما هو دون حذف *
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
   let y = 20;
