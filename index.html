@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- إعداد MathJax لدعم المعادلات الرياضية داخل \( ... \) و $$ ... $$ و \[ ... \] -->
+  <!-- MathJax setup -->
   <script>
     window.MathJax = {
       tex: {
@@ -18,10 +18,9 @@
       }
     };
   </script>
-  <!-- ربط مكتبة MathJax من CDN (نسخة 3) -->
   <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
   
-  <!-- إضافة مكتبة jsPDF من CDN لتحميل PDF -->
+  <!-- jsPDF for PDF download -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   
   <style>
@@ -84,11 +83,12 @@
     }
     .topic-search-bar {
       width: 100%;
-      max-width: 600px;
+      max-width: 800px;
       display: flex;
       align-items: center;
       gap: 10px;
       margin-bottom: 30px;
+      flex-wrap: wrap;
     }
     .topic-search-bar input {
       flex: 1;
@@ -133,7 +133,7 @@
       box-shadow: 0 8px 16px rgba(0,0,0,0.15);
     }
     
-    /*=== آلية ترتيب المواضيع والـ subtopics والوصف ===*/
+    /*--------------- Topic Layout ---------------*/
     .topic-header {
       display: flex;
       flex-direction: column;
@@ -498,7 +498,6 @@
     #search-results li {
       margin: 10px 0;
     }
-    /* تعديل حجم خانة البحث في زر البحث داخل الأسئلة */
     #jump-input {
       width: 250px;
       height: 35px;
@@ -529,7 +528,7 @@
       background-color: yellow;
     }
     
-    /*================ Revert ألوان أزرار Show Unanswered Questions & Show All Questions ================*/
+    /*================ Revert some button colors for filters ================*/
     .filter-button.unanswered {
       background-color: #ffc107;
       color: black;
@@ -539,8 +538,7 @@
       color: white;
     }
     
-    /*================ Revert ألوان أزرار MCQs Mode & Flashcard Mode ================*/
-    /* ألوان أزرار Show Answer, Shuffle Options, Clear في MCQs Mode */
+    /*================ MCQs Mode & Flashcard Mode buttons ================*/
     .show-answer-button {
       background-color: #28a745;
       color: white;
@@ -578,33 +576,7 @@
       background-color: #c82333;
     }
     
-    /* ألوان أزرار Flashcard Mode: Show Answer & Clear */
-    .flashcard-show-answer-button {
-      background-color: #28a745;
-      color: white;
-      padding: 8px 12px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-    .flashcard-show-answer-button:hover {
-      background-color: #218838;
-    }
-    .flashcard-clear-button {
-      background-color: #dc3545;
-      color: white;
-      padding: 8px 12px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-    .flashcard-clear-button:hover {
-      background-color: #c82333;
-    }
-    
-    /*================ CSS إضافي لأزرار Flashcard Mode في الـ Filters ================*/
+    /* Flashcard mode filter buttons */
     .filter-button.yes-button {
       background-color: #28a745;
       color: white;
@@ -649,7 +621,7 @@
     }
 
     @media print {
-      /* إجبار المتصفح على الحفاظ على الألوان والخلفيات */
+      /* Make sure the browser keeps colors and backgrounds when printing */
       * {
         -webkit-print-color-adjust: exact !important;
         color-adjust: exact !important;
@@ -657,15 +629,13 @@
       }
     }
 
-    /*------------------------------------------*/
-    /*  إعادة لون زر التحميل إلى اللون البرتقالي */
-    /*------------------------------------------*/
+    /* PDF download button color */
     #download-pdf {
       background-color: orange !important;
     }
 
     /*==================================*/
-    /*==== الصفحة الجديدة للاختبار ====*/
+    /*==== Custom Quiz Page Design =====*/
     /*==================================*/
     #create-custom-quiz-page {
       display: none;
@@ -680,14 +650,18 @@
     #create-custom-quiz-page h2 {
       text-align: center;
       margin-bottom: 20px;
+      font-size: 1.8rem;
+      color: #343a40;
     }
     .custom-quiz-form-group {
       margin-bottom: 15px;
     }
     .custom-quiz-form-group label {
       display: block;
-      font-weight: bold;
+      font-weight: 600;
       margin-bottom: 5px;
+      font-size: 1rem;
+      color: #333;
     }
     .custom-quiz-checkboxes {
       display: flex;
@@ -700,6 +674,7 @@
       align-items: center;
       gap: 5px;
       font-weight: normal;
+      font-size: 0.95rem;
     }
     .custom-quiz-checkboxes input[type="checkbox"] {
       cursor: pointer;
@@ -715,6 +690,12 @@
       margin-right: 0;
       display: block;
       width: 100%;
+      padding: 14px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
     }
     #generate-quiz-btn:hover {
       background-color: #0056b3;
@@ -727,9 +708,17 @@
     }
     .time-settings input {
       width: 80px;
+      padding: 6px;
+      font-size: 0.95rem;
+    }
+    .time-settings select {
+      padding: 6px;
+      font-size: 0.95rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
     }
 
-    /*================ حاوية عرض الاختبار المخصص سؤال سؤال ================*/
+    /*================ Custom Quiz Container ================*/
     #custom-quiz-container {
       display: none;
       width: 90%;
@@ -765,6 +754,7 @@
     #custom-question-text {
       font-size: 1.2rem;
       margin-bottom: 15px;
+      color: #343a40;
     }
     .custom-option {
       background-color: #f8f9fa;
@@ -805,11 +795,11 @@
       font-size: 1rem;
       margin-top: 15px;
       cursor: pointer;
+      transition: background-color 0.3s;
     }
     #next-question-btn:hover {
       background-color: #0056b3;
     }
-    /* رسالة النتيجة في نهاية الاختبار المخصص */
     #custom-quiz-result {
       margin-top: 20px;
       text-align: center;
@@ -820,55 +810,72 @@
       background-color: #6c757d;
       color: #fff;
       margin-top: 20px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
     }
     #custom-quiz-restart-btn:hover {
       background-color: #5a6268;
+    }
+
+    /* Button to go back from custom quiz page */
+    #custom-quiz-back-btn {
+      background-color: #d3d3d3;
+      color: #333;
+      padding: 10px 16px;
+      border-radius: 8px;
+      border: none;
+      font-size: 1rem;
+      margin-bottom: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    #custom-quiz-back-btn:hover {
+      background-color: #b1b1b1;
     }
   </style>
 </head>
 <body>
 
-  <!-- قسم الهيرو (ترحيبي) -->
+  <!-- Hero Section -->
   <div class="hero-section">
     <div class="hero-content">
       <h1>Welcome to SUMS Questions Bank (SQB)</h1>
       <p>Your gateway to comprehensive quizzes and topic exploration!</p>
-      <!-- عرض العدد الكلي للأسئلة في الموقع -->
       <p id="site-total-questions">Total Questions: Loading...</p>
     </div>
   </div>
 
-  <!-- القسم الخاص بعرض المواضيع -->
+  <!-- Topics Page -->
   <div id="topics-page">
     <div class="topic-search-bar">
       <input type="text" id="topic-search-input" placeholder="Search topics...">
       <button onclick="manualSearchTopics()">Search</button>
+      <!-- New "Make Quizz" button next to search -->
+      <button style="background-color:#28a745;" onclick="showCustomQuizPage()">Make Quizz</button>
     </div>
     <div class="topics-grid" id="topics-grid">
-      <!-- سيتم تحميل بطاقات المواضيع ديناميكياً -->
+      <!-- Example topic card -->
       <div class="topic-card">
         <div class="topic-header">
-          <h2 class="topic-title">عنوان الموضوع الأطول هنا</h2>
-          <p class="topic-description">هذا هو الوصف الخاص بالموضوع، والذي يبدأ مباشرة بعد اسم الموضوع بحيث يتم محاذاته مع باقي الأوصاف.</p>
+          <h2 class="topic-title">Example Topic Title</h2>
+          <p class="topic-description">This is an example description for the topic.</p>
         </div>
         <div class="subtopics-container">
           <div class="subtopic-buttons">
-            <button>فرعي 1</button>
-            <button>فرعي 2</button>
-            <button>فرعي 3</button>
+            <button>Subtopic 1</button>
+            <button>Subtopic 2</button>
+            <button>Subtopic 3</button>
           </div>
         </div>
       </div>
-      <!-- المزيد من البطاقات ... -->
-    </div>
-    <!-- زر للانتقال إلى صفحة إنشاء اختبار مخصص -->
-    <div style="margin-top:20px;">
-      <button style="padding:14px 20px; border:none; border-radius:8px; background-color:#28a745; color:#fff; font-size:16px; cursor:pointer;"
-        onclick="showCustomQuizPage()">إنشاء اختبار مخصص</button>
+      <!-- more topic cards will be loaded dynamically... -->
     </div>
   </div>
 
-  <!-- حاوية الكويز -->
+  <!-- Main Quiz Container -->
   <div class="quiz-container" id="quiz-container">
     <button id="back-to-topics" type="button" onclick="goBackToTopics()">← Back to Topics</button>
     <button id="download-pdf" type="button" onclick="downloadPDF()">Download PDF</button>
@@ -888,13 +895,13 @@
     <div id="result"></div>
   </div>
 
-  <!-- الأزرار العائمة (للكويز) -->
+  <!-- Floating Buttons (Quiz) -->
   <div class="floating-button-container" id="floating-buttons">
     <button id="scroll-button" class="floating-button" onclick="handleScrollButton()" title="Scroll between answered and bottom">↓</button>
     <button id="jump-button" class="floating-button" onclick="openJumpModal()" title="Search Questions">🔍</button>
   </div>
 
-  <!-- مودال إعادة التهيئة (Reset) -->
+  <!-- Reset Modal -->
   <div id="reset-modal" class="modal">
     <div class="modal-content">
       <p>Are you sure you want to reset the quiz?</p>
@@ -903,7 +910,7 @@
     </div>
   </div>
 
-  <!-- مودال البحث (Jump) -->
+  <!-- Jump (Search) Modal -->
   <div id="jump-modal" class="modal">
     <div class="modal-content">
       <p>Search in currently displayed questions:</p>
@@ -914,7 +921,7 @@
     </div>
   </div>
 
-  <!-- مودال فلترة الفئات (Categories) -->
+  <!-- Category Filter Modal -->
   <div id="category-modal" class="modal">
     <div class="modal-content">
       <p>Select Categories:</p>
@@ -927,495 +934,84 @@
     </div>
   </div>
 
-  <!-- صفحة/قسم إنشاء اختبار مخصص جديد -->
+  <!-- Custom Quiz Page -->
   <div id="create-custom-quiz-page">
-    <h2>إنشاء اختبار مخصص</h2>
+    <!-- A back button to return to topics page -->
+    <button id="custom-quiz-back-btn" onclick="goBackToTopics()">← Back</button>
+    
+    <h2>Create a Custom Quiz</h2>
     <div class="custom-quiz-form-group">
-      <label>اختر المواضيع المطلوبة:</label>
+      <label>Select Topics:</label>
       <div class="custom-quiz-checkboxes" id="custom-topics-checkboxes">
-        <!-- سيتم تعبئتها ديناميكياً من قائمة المواضيع -->
+        <!-- Dynamically filled from allTopics -->
       </div>
     </div>
     <div class="custom-quiz-form-group">
-      <label>اختر المواضيع الفرعية (عند توفرها):</label>
+      <label>Select Subtopics (if available):</label>
       <div class="custom-quiz-checkboxes" id="custom-subtopics-checkboxes">
-        <!-- سيتم تعبئتها ديناميكياً عند اختيار أي Topic -->
+        <!-- Dynamically filled when topics are selected -->
       </div>
     </div>
     <div class="custom-quiz-form-group">
-      <label for="custom-questions-count">عدد الأسئلة:</label>
+      <label for="custom-questions-count">Number of Questions:</label>
       <input type="number" id="custom-questions-count" min="1" value="10" style="width:100px;">
     </div>
     <div class="custom-quiz-form-group">
-      <label>ضبط الوقت:</label>
+      <label>Timer Settings:</label>
       <div>
         <input type="radio" id="no-timer" name="timer-type" value="none" checked>
-        <label for="no-timer">بدون مؤقت</label>
+        <label for="no-timer">No Timer</label>
       </div>
       <div>
         <input type="radio" id="global-timer" name="timer-type" value="global">
-        <label for="global-timer">مؤقت عام</label>
+        <label for="global-timer">Global Timer</label>
       </div>
       <div>
         <input type="radio" id="per-question-timer" name="timer-type" value="per-question">
-        <label for="per-question-timer">مؤقت لكل سؤال</label>
+        <label for="per-question-timer">Timer per Question</label>
       </div>
       <div class="time-settings" id="time-settings-inputs" style="display:none;">
-        <label for="time-value">المدة:</label>
+        <label for="time-value">Duration:</label>
         <input type="number" id="time-value" min="1" value="60">
         <select id="time-unit">
-          <option value="seconds">ثوانٍ</option>
-          <option value="minutes">دقائق</option>
-          <option value="hours">ساعات</option>
+          <option value="seconds">Seconds</option>
+          <option value="minutes">Minutes</option>
+          <option value="hours">Hours</option>
         </select>
       </div>
     </div>
     <div class="custom-quiz-form-group">
-      <label>خيارات أخرى:</label>
+      <label>Other Options:</label>
       <div>
         <input type="checkbox" id="random-questions" checked>
-        <label for="random-questions">ترتيب الأسئلة عشوائي</label>
+        <label for="random-questions">Randomize Questions</label>
       </div>
       <div>
         <input type="checkbox" id="random-options" checked>
-        <label for="random-options">ترتيب الخيارات عشوائي</label>
+        <label for="random-options">Randomize Options</label>
       </div>
     </div>
     <div class="custom-quiz-form-group">
-      <button id="generate-quiz-btn" onclick="generateCustomQuiz()">إنشاء الاختبار</button>
+      <button id="generate-quiz-btn" onclick="generateCustomQuiz()">Create the Quiz</button>
     </div>
     <div id="custom-quiz-details"></div>
   </div>
 
-  <!-- عرض الاختبار المخصص سؤال بسؤال -->
+  <!-- Custom Quiz Container for question-by-question view -->
   <div id="custom-quiz-container">
-    <h1 id="custom-quiz-title">اختبار مخصص</h1>
+    <h1 id="custom-quiz-title">Custom Quiz</h1>
     <div class="custom-timer" id="custom-quiz-timer"></div>
     <div id="question-progress">
       <div id="question-progress-bar"></div>
     </div>
     <div id="custom-question-text"></div>
     <div id="custom-options-container"></div>
-    <button id="next-question-btn" onclick="handleNextQuestion()">السؤال التالي</button>
+    <button id="next-question-btn" onclick="handleNextQuestion()">Next Question</button>
     <div id="custom-quiz-result"></div>
-    <button id="custom-quiz-restart-btn" onclick="restartCustomQuiz()">إعادة الاختبار</button>
+    <button id="custom-quiz-restart-btn" onclick="restartCustomQuiz()">Restart</button>
   </div>
 
-  <!-- ملف الجافاسكربت الأساسي -->
+  <!-- main.js (No changes made) -->
   <script src="js/main.js"></script>
-
-  <!-- بعد تحميل main.js نترك MathJax يقوم بمعالجة المعادلات تلقائيًا -->
-  
-  <!-- يمكن إضافة سكربت الميزة الجديدة أيضاً داخل نفس الملف أو ملف منفصل؛
-       أدناه تمت إضافته في نفس الصفحة للمحافظة على الكل في index.html -->
-  <script>
-  /******************************************/
-  /*     كود الميزة الجديدة للاختبار المخصص  */
-  /******************************************/
-  let selectedTopicsForCustom = [];
-  let selectedSubtopicsForCustom = [];
-  let customQuizAllQuestions = [];
-  let customQuizCurrentIndex = 0;
-  let customQuizCount = 10;
-  let customQuizTimerType = 'none';
-  let customQuizTimerValue = 0; // بعد تحويلها للثواني
-  let customQuizTimeLeft = 0;
-  let customQuizTimerInterval = null;
-  let customQuizRandomQuestions = true;
-  let customQuizRandomOptions = true;
-  let customQuizAnsweredCount = 0;
-
-  // دالة لإظهار صفحة إنشاء الاختبار المخصص
-  function showCustomQuizPage() {
-    // إخفاء الصفحات الأخرى
-    document.getElementById('topics-page').style.display = 'none';
-    document.getElementById('quiz-container').style.display = 'none';
-    document.getElementById('floating-buttons').style.display = 'none';
-    
-    // عرض صفحة الإنشاء
-    document.getElementById('create-custom-quiz-page').style.display = 'block';
-
-    // تعبئة قائمة المواضيع في checkboxes
-    populateCustomTopicsCheckboxes();
-  }
-
-  // تعبئة المواضيع في صفحة الاختبار المخصص
-  function populateCustomTopicsCheckboxes() {
-    const container = document.getElementById('custom-topics-checkboxes');
-    container.innerHTML = '';
-    allTopics.forEach((topic, idx) => {
-      const label = document.createElement('label');
-      const input = document.createElement('input');
-      input.type = 'checkbox';
-      input.value = idx;
-      input.addEventListener('change', (e) => {
-        handleTopicSelectionChange(e, topic);
-      });
-      label.appendChild(input);
-      label.appendChild(document.createTextNode(topic.topicName));
-      container.appendChild(label);
-    });
-  }
-
-  // عند تغيير اختيار أي توبك
-  function handleTopicSelectionChange(e, topic) {
-    if (e.target.checked) {
-      selectedTopicsForCustom.push(topic);
-    } else {
-      selectedTopicsForCustom = selectedTopicsForCustom.filter(t => t !== topic);
-    }
-    populateSubtopicsCheckboxes();
-    updateCustomQuizDetails();
-  }
-
-  // تعبئة المواضيع الفرعية بناءً على المواضيع المختارة
-  function populateSubtopicsCheckboxes() {
-    const container = document.getElementById('custom-subtopics-checkboxes');
-    container.innerHTML = '';
-    selectedSubtopicsForCustom = [];
-
-    selectedTopicsForCustom.forEach(topic => {
-      if (topic.subTopics && topic.subTopics.length > 0) {
-        topic.subTopics.forEach((sub, idx) => {
-          const label = document.createElement('label');
-          const input = document.createElement('input');
-          input.type = 'checkbox';
-          input.value = sub.file;
-          input.dataset.parent = topic.topicName;
-          input.addEventListener('change', (e) => {
-            handleSubtopicSelectionChange(e, sub, topic.topicName);
-          });
-          label.appendChild(input);
-          label.appendChild(document.createTextNode(topic.topicName + ' - ' + sub.name));
-          container.appendChild(label);
-        });
-      } else {
-        // إذا لا يوجد subTopics ولكن يوجد ملف واحد للموضوع
-        if (topic.file) {
-          const label = document.createElement('label');
-          const input = document.createElement('input');
-          input.type = 'checkbox';
-          input.value = topic.file;
-          input.dataset.parent = topic.topicName;
-          input.addEventListener('change', (e) => {
-            handleSubtopicSelectionChange(e, {name: topic.topicName, file: topic.file}, topic.topicName);
-          });
-          label.appendChild(input);
-          label.appendChild(document.createTextNode(topic.topicName));
-          container.appendChild(label);
-        }
-      }
-    });
-  }
-
-  function handleSubtopicSelectionChange(e, sub, parentTopicName) {
-    if (e.target.checked) {
-      selectedSubtopicsForCustom.push({ parent: parentTopicName, sub: sub });
-    } else {
-      selectedSubtopicsForCustom = selectedSubtopicsForCustom.filter(s => s.sub !== sub);
-    }
-    updateCustomQuizDetails();
-  }
-
-  // تحديث المعلومات الإرشادية بعد اختيار المواضيع والفرعية
-  function updateCustomQuizDetails() {
-    const details = document.getElementById('custom-quiz-details');
-    const totalFiles = new Set();
-    selectedSubtopicsForCustom.forEach(s => {
-      if (s.sub.file) {
-        totalFiles.add(s.sub.file);
-      } else if (s.sub.file === undefined && s.sub.name === s.parent) {
-        // احتياط في حال لا يوجد ملف فرعي وتم تمريره بطرق مختلفة
-      }
-    });
-
-    // حساب عدد الأسئلة المتوفرة لجميع الملفات المحددة
-    const fetchPromises = [];
-    totalFiles.forEach(filePath => {
-      const pr = fetch(filePath)
-        .then(r => r.json())
-        .then(json => Array.isArray(json) ? json.length : 0)
-        .catch(() => 0);
-      fetchPromises.push(pr);
-    });
-
-    Promise.all(fetchPromises).then(counts => {
-      const sum = counts.reduce((a, c) => a + c, 0);
-      details.textContent = `عدد الملفات المحددة: ${totalFiles.size} - مجموع الأسئلة المتوفرة: ${sum}`;
-    });
-  }
-
-  // إظهار/إخفاء حقل الوقت
-  const timerTypeRadios = document.querySelectorAll('input[name="timer-type"]');
-  timerTypeRadios.forEach(radio => {
-    radio.addEventListener('change', () => {
-      customQuizTimerType = radio.value;
-      const timeSettings = document.getElementById('time-settings-inputs');
-      if (radio.value === 'global' || radio.value === 'per-question') {
-        timeSettings.style.display = 'flex';
-      } else {
-        timeSettings.style.display = 'none';
-      }
-    });
-  });
-
-  function generateCustomQuiz() {
-    customQuizAllQuestions = [];
-    customQuizCurrentIndex = 0;
-    customQuizAnsweredCount = 0;
-
-    const questionsInput = document.getElementById('custom-questions-count');
-    customQuizCount = parseInt(questionsInput.value) || 10;
-
-    customQuizTimerType = document.querySelector('input[name="timer-type"]:checked').value;
-    
-    let timeVal = parseInt(document.getElementById('time-value').value) || 60;
-    let timeUnit = document.getElementById('time-unit').value;
-    // تحويل الوقت إلى ثوانٍ
-    if (timeUnit === 'minutes') timeVal *= 60;
-    if (timeUnit === 'hours') timeVal *= 3600;
-    customQuizTimerValue = timeVal;
-
-    customQuizRandomQuestions = document.getElementById('random-questions').checked;
-    customQuizRandomOptions = document.getElementById('random-options').checked;
-
-    // جمع كل الملفات المحددة من subtopics
-    const filePaths = [];
-    selectedSubtopicsForCustom.forEach(s => {
-      if (s.sub.file) {
-        filePaths.push(s.sub.file);
-      }
-    });
-    // إزالة التكرارات
-    const uniqueFilePaths = [...new Set(filePaths)];
-
-    if (uniqueFilePaths.length === 0) {
-      alert('الرجاء اختيار مواضيع ومواضيع فرعية متوفرة!');
-      return;
-    }
-
-    // جلب جميع الأسئلة من الملفات
-    const fetchPromises = uniqueFilePaths.map(fp => {
-      return fetch(fp)
-        .then(r => r.json())
-        .then(data => Array.isArray(data) ? data : []);
-    });
-
-    Promise.all(fetchPromises)
-      .then(results => {
-        // دمج جميع الأسئلة في مصفوفة واحدة
-        results.forEach(arr => {
-          customQuizAllQuestions = customQuizAllQuestions.concat(arr);
-        });
-
-        // إن كانت عشوائية الأسئلة
-        if (customQuizRandomQuestions) {
-          customQuizAllQuestions = shuffleArray(customQuizAllQuestions);
-        }
-
-        // اقتطاع العدد المطلوب
-        if (customQuizCount < customQuizAllQuestions.length) {
-          customQuizAllQuestions = customQuizAllQuestions.slice(0, customQuizCount);
-        }
-
-        // في حالة عشوائية الخيارات
-        if (customQuizRandomOptions) {
-          customQuizAllQuestions.forEach(q => {
-            if (q.options && Array.isArray(q.options)) {
-              // بنفس الأسلوب في الدوال القديمة
-              const currentOptions = q.options.map((option, i) => ({ option, index: i }));
-              const shuffledOptions = shuffleArray(currentOptions);
-              // إعادة ترتيب
-              const newOptions = shuffledOptions.map(o => o.option);
-              const correctIndex = shuffledOptions.findIndex(o => o.index === q.answer);
-              q.options = newOptions;
-              q.answer = correctIndex;
-            }
-          });
-        }
-
-        // إخفاء صفحة الإنشاء
-        document.getElementById('create-custom-quiz-page').style.display = 'none';
-        // عرض صفحة الاختبار
-        document.getElementById('custom-quiz-container').style.display = 'block';
-        // إعادة تهيئة المؤقت
-        document.getElementById('custom-quiz-timer').textContent = '';
-        // تهيئة progress bar
-        document.getElementById('question-progress-bar').style.width = '0%';
-        // إظهار السؤال الأول
-        showCustomQuizQuestion();
-        // تشغيل المؤقت (إن وجد)
-        startCustomQuizTimer();
-      })
-      .catch(err => {
-        console.error(err);
-        alert('حدث خطأ أثناء تحميل الأسئلة. يرجى المحاولة مرة أخرى.');
-      });
-  }
-
-  // عرض السؤال الحالي
-  function showCustomQuizQuestion() {
-    if (customQuizCurrentIndex >= customQuizAllQuestions.length) {
-      endCustomQuiz();
-      return;
-    }
-
-    const currentQ = customQuizAllQuestions[customQuizCurrentIndex];
-
-    // ضبط نص السؤال
-    document.getElementById('custom-question-text').innerHTML = currentQ.question;
-
-    // تعبئة الخيارات
-    const optionsContainer = document.getElementById('custom-options-container');
-    optionsContainer.innerHTML = '';
-    if (currentQ.options && Array.isArray(currentQ.options)) {
-      currentQ.options.forEach((opt, idx) => {
-        const divOpt = document.createElement('div');
-        divOpt.classList.add('custom-option');
-        divOpt.innerHTML = opt;
-        divOpt.addEventListener('click', () => {
-          // عند اختيار أي خيار، نظهر التصحيح مباشرة
-          checkCustomOption(idx);
-        });
-        optionsContainer.appendChild(divOpt);
-      });
-    } else {
-      // سؤال نصي/بدون خيارات
-      const divOpt = document.createElement('div');
-      divOpt.textContent = 'لا توجد خيارات لهذا السؤال.';
-      optionsContainer.appendChild(divOpt);
-    }
-
-    // تحديث شريط التقدم
-    const progress = ((customQuizCurrentIndex) / customQuizAllQuestions.length) * 100;
-    document.getElementById('question-progress-bar').style.width = progress + '%';
-
-    // إعادة ضبط زر "التالي"
-    document.getElementById('next-question-btn').disabled = true;
-  }
-
-  // عند اختيار أحد الخيارات
-  function checkCustomOption(selectedIndex) {
-    const currentQ = customQuizAllQuestions[customQuizCurrentIndex];
-    const correctIndex = currentQ.answer;
-    const optionsElems = document.querySelectorAll('#custom-options-container .custom-option');
-
-    optionsElems.forEach((optElem, idx) => {
-      optElem.style.cursor = 'default'; // منع النقر المتكرر
-      if (idx === correctIndex) {
-        optElem.classList.add('correct');
-      }
-      if (idx === selectedIndex && selectedIndex !== correctIndex) {
-        optElem.classList.add('wrong');
-      }
-    });
-
-    // عند الإجابة (صحيحة أو خاطئة) نعتبره سؤال تمت الإجابة عليه
-    customQuizAnsweredCount++;
-    // تفعيل زر التالي
-    document.getElementById('next-question-btn').disabled = false;
-  }
-
-  // زر "السؤال التالي"
-  function handleNextQuestion() {
-    customQuizCurrentIndex++;
-    if (customQuizTimerType === 'per-question') {
-      // إعادة ضبط الوقت لكل سؤال
-      stopCustomQuizTimer();
-      startCustomQuizTimer();
-    }
-    if (customQuizCurrentIndex < customQuizAllQuestions.length) {
-      showCustomQuizQuestion();
-    } else {
-      endCustomQuiz();
-    }
-  }
-
-  // عند انتهاء كل الأسئلة
-  function endCustomQuiz() {
-    // أوقف المؤقت
-    stopCustomQuizTimer();
-    // ملء التقدم 100%
-    document.getElementById('question-progress-bar').style.width = '100%';
-    // إخفاء عناصر السؤال
-    document.getElementById('custom-question-text').innerHTML = '';
-    document.getElementById('custom-options-container').innerHTML = '';
-    document.getElementById('next-question-btn').disabled = true;
-    // إظهار النتيجة
-    const total = customQuizAllQuestions.length;
-    const resultText = `
-      <p>لقد أنهيت الاختبار!</p>
-      <p>عدد الأسئلة: ${total}</p>
-      <p>عدد الأسئلة المُجاب عليها: ${customQuizAnsweredCount}</p>
-      <p>عدد الأسئلة غير المُجاب عليها: ${total - customQuizAnsweredCount}</p>
-    `;
-    document.getElementById('custom-quiz-result').innerHTML = resultText;
-  }
-
-  // إعادة الاختبار
-  function restartCustomQuiz() {
-    // إخفاء حاوية الاختبار
-    document.getElementById('custom-quiz-container').style.display = 'none';
-    // إعادة إظهار صفحة الإنشاء
-    document.getElementById('create-custom-quiz-page').style.display = 'block';
-    // مسح العرض السابق
-    document.getElementById('custom-quiz-result').innerHTML = '';
-    customQuizAllQuestions = [];
-    customQuizCurrentIndex = 0;
-    customQuizAnsweredCount = 0;
-    document.getElementById('question-progress-bar').style.width = '0%';
-    document.getElementById('custom-quiz-timer').textContent = '';
-  }
-
-  // بدء المؤقت
-  function startCustomQuizTimer() {
-    if (customQuizTimerType === 'none') return;
-    stopCustomQuizTimer(); // احتياط
-    
-    if (customQuizTimerType === 'global') {
-      // إذا كان المؤقت العام لم يبدأ من قبل، نعيد ضبطه على القيمة الكاملة
-      if (customQuizCurrentIndex === 0) {
-        customQuizTimeLeft = customQuizTimerValue;
-      }
-    } else if (customQuizTimerType === 'per-question') {
-      customQuizTimeLeft = customQuizTimerValue;
-    }
-
-    updateCustomQuizTimerDisplay();
-
-    customQuizTimerInterval = setInterval(() => {
-      customQuizTimeLeft--;
-      updateCustomQuizTimerDisplay();
-      if (customQuizTimeLeft <= 0) {
-        // انتهى الوقت
-        stopCustomQuizTimer();
-        if (customQuizTimerType === 'global') {
-          // إنهاء الاختبار بالكامل
-          endCustomQuiz();
-        } else {
-          // لكل سؤال
-          handleNextQuestion();
-        }
-      }
-    }, 1000);
-  }
-
-  // إيقاف المؤقت
-  function stopCustomQuizTimer() {
-    if (customQuizTimerInterval) {
-      clearInterval(customQuizTimerInterval);
-      customQuizTimerInterval = null;
-    }
-  }
-
-  // تحديث واجهة المؤقت
-  function updateCustomQuizTimerDisplay() {
-    const timerElem = document.getElementById('custom-quiz-timer');
-    const minutes = Math.floor(customQuizTimeLeft / 60);
-    const seconds = customQuizTimeLeft % 60;
-    timerElem.textContent = `الوقت المتبقي: ${minutes}:${(seconds < 10 ? '0'+seconds : seconds)}`;
-  }
-  </script>
-
 </body>
 </html>
