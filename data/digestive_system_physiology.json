@@ -10,7 +10,8 @@
     "answer": 0,
     "answerText": "Trypsin activates some pancreatic enzymes ( not all pancreatic enzymes )",
     "explanation": "Trypsin activates all pancreatic enzymes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 2</span> Which of the following type of intestinal contraction is only seen in the colon?",
@@ -23,7 +24,8 @@
     "answer": 2,
     "answerText": "Mass movement",
     "explanation": "Mass movements are strong, propulsive contractions specific to the colon.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 3</span> Which of the following statements is FALSE?",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Cl- is actively transported by pump into the lumen of stomach",
     "explanation": "Cl- is not actively pumped but follows H+ passively into the stomach lumen.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 4</span> Gastrin:",
@@ -49,7 +52,8 @@
     "answer": 0,
     "answerText": "Increases secretion with gastric distention",
     "explanation": "Gastrin secretion is stimulated by gastric distention, enhancing acid production.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 5</span> Which of the following is NOT a function of the digestive tract?",
@@ -62,7 +66,8 @@
     "answer": 2,
     "answerText": "Gas exchange",
     "explanation": "Gas exchange is a function of the respiratory system, not the digestive tract.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 6</span> Which of the following is not TRUE?",
@@ -75,7 +80,8 @@
     "answer": 1,
     "answerText": "Chief cells secrete pepsinogen & gastrin",
     "explanation": "Chief cells secrete pepsinogen but not gastrin; gastrin is secreted by G cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 7</span> The migrating motor complex in humans:",
@@ -88,7 +94,8 @@
     "answer": 1,
     "answerText": "Occurs in young people",
     "explanation": "The migrating motor complex occurs in fasting individuals, including young people.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 8</span> Vitamin B12 is absorbed primarily in the:",
@@ -101,7 +108,8 @@
     "answer": 2,
     "answerText": "Ileum",
     "explanation": "Vitamin B12 is absorbed in the ileum, facilitated by intrinsic factor.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 9</span> The hormone involved in the initiation of the migrating motor complex is:",
@@ -114,7 +122,8 @@
     "answer": 2,
     "answerText": "Motilin",
     "explanation": "Motilin triggers the migrating motor complex during fasting.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 10</span> The origin of electrical slow wave activity in gastrointestinal tract smooth muscle is:",
@@ -127,7 +136,8 @@
     "answer": 1,
     "answerText": "Interstitial cells of Cajal",
     "explanation": "Interstitial cells of Cajal act as pacemakers generating slow wave activity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 11</span> Absorption of fat-soluble vitamins requires:",
@@ -140,7 +150,8 @@
     "answer": 0,
     "answerText": "Pancreatic lipase",
     "explanation": "Pancreatic lipase aids in fat digestion, facilitating fat-soluble vitamin absorption.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 12</span> Which of the following sugars is absorbed from the small intestine by facilitated diffusion?",
@@ -153,7 +164,8 @@
     "answer": 2,
     "answerText": "Fructose",
     "explanation": "Fructose is absorbed by facilitated diffusion, unlike glucose and galactose.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 13</span> The major factor that protects the duodenal mucosa from damage by gastric acid is:",
@@ -166,7 +178,8 @@
     "answer": 0,
     "answerText": "Pancreatic bicarbonate secretion",
     "explanation": "Pancreatic bicarbonate neutralizes acid entering the duodenum.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 14</span> The rate of gastric emptying increases with an increase in:",
@@ -179,7 +192,8 @@
     "answer": 0,
     "answerText": "Intragastric volume",
     "explanation": "Greater gastric volume promotes faster emptying.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 15</span> After secretion of trypsinogen into the duodenum, the enzyme is converted into its active form, trypsin, by:",
@@ -192,7 +206,8 @@
     "answer": 1,
     "answerText": "Enterokinase",
     "explanation": "Enterokinase activates trypsinogen to trypsin in the small intestine.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 16</span> Which of the following statements is TRUE?",
@@ -205,7 +220,8 @@
     "answer": 1,
     "answerText": "Parietal cells secrete intrinsic factor",
     "explanation": "Parietal cells secrete intrinsic factor, necessary for vitamin B12 absorption.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 17</span> Which one of the following processes applies to the stomach?",
@@ -218,7 +234,8 @@
     "answer": 1,
     "answerText": "Retropulsion",
     "explanation": "Retropulsion is a mixing process in the stomach during gastric emptying.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 18</span> The principal paracrine secretion involved in the stimulatory regulation of gastric acid secretion is:",
@@ -231,7 +248,8 @@
     "answer": 0,
     "answerText": "Histamine",
     "explanation": "Histamine stimulates acid secretion by acting on parietal cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 19</span> Which one of the following statements about gastric emptying is correct?",
@@ -244,7 +262,8 @@
     "answer": 1,
     "answerText": "Ach increases gastric emptying",
     "explanation": "Acetylcholine enhances gastric motility, promoting emptying.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-02) - Dr. Nabavi Zadeh - Question 20</span> Contraction of the gallbladder is correctly described by which of the following statements?",
@@ -257,7 +276,8 @@
     "answer": 0,
     "answerText": "It occurs in response to cholecystokinin",
     "explanation": "Cholecystokinin stimulates gallbladder contraction, releasing bile.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q20"
   },
   {
     "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 1</span> Which of the following is not TRUE?",
@@ -270,7 +290,8 @@
     "answer": 0,
     "answerText": "Trypsin can not activates all pancreatic enzymes",
     "explanation": "Trypsin activates all pancreatic enzymes, making the statement \"Trypsin can not activates all pancreatic enzymes\" the correct choice because it is not true .",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 2</span> Which of the following type of intestinal contraction is only seen in the colon?",
@@ -283,7 +304,8 @@
     "answer": 2,
     "answerText": "Massive contraction",
     "explanation": "Massive contractions (also called mass movements) are characteristic of the colon and help move feces towards the rectum.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 3</span> Which of the following statement is FALSE?",
@@ -296,7 +318,8 @@
     "answer": 2,
     "answerText": "Cl- is actively transported by pump into the lumen of stomach",
     "explanation": "H+ is actively transported, but Cl- diffuses passively into the stomach lumen.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 4</span> Gastrin:",
@@ -309,7 +332,8 @@
     "answer": 0,
     "answerText": "Secretion increases with gastric distention",
     "explanation": "Gastrin secretion is stimulated by gastric distention and promotes acid secretion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 5</span> CCK does NOT:",
@@ -322,7 +346,8 @@
     "answer": 1,
     "answerText": "Inhibits insulin secretion",
     "explanation": "CCK stimulates gall bladder contraction, enzyme secretion, and sphincter relaxation; it does not inhibit insulin secretion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 6</span> Which of the following is not TRUE?",
@@ -335,7 +360,8 @@
     "answer": 0,
     "answerText": "Chief cells - secretes pepsinogen & gastrin",
     "explanation": "Chief cells secrete pepsinogen but not gastrin; gastrin is secreted by G cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 7</span> The migrating motor complex in humans:",
@@ -348,7 +374,8 @@
     "answer": 1,
     "answerText": "Occurs in young people",
     "explanation": "Migrating motor complex (MMC) is a fasting state motility pattern that occurs mainly in young and healthy individuals.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 8</span> Vitamin B12 is absorbed primarily in the:",
@@ -361,7 +388,8 @@
     "answer": 2,
     "answerText": "Ileum",
     "explanation": "Vitamin B12 is absorbed in the ileum, aided by intrinsic factor.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 9</span> The hormone involved in the initiation of the migrating motor complex is:",
@@ -374,7 +402,8 @@
     "answer": 3,
     "answerText": "Motilin",
     "explanation": "Motilin triggers the migrating motor complex during fasting.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 10</span> The origin of electrical slow wave activity in gastrointestinal tract smooth muscle is:",
@@ -387,7 +416,8 @@
     "answer": 2,
     "answerText": "The interstitial cells of Cajal",
     "explanation": "Interstitial cells of Cajal act as pacemakers in the gastrointestinal tract.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 11</span> Absorption of fat-soluble vitamins requires:",
@@ -400,7 +430,8 @@
     "answer": 2,
     "answerText": "Pancreatic lipase",
     "explanation": "Pancreatic lipase is crucial for fat digestion and absorption of fat-soluble vitamins.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 12</span> Which of the following sugars is absorbed from the small intestine by facilitated diffusion?",
@@ -413,7 +444,8 @@
     "answer": 2,
     "answerText": "Fructose",
     "explanation": "Fructose is absorbed by facilitated diffusion via GLUT5 transporters.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 13</span> The major factor that protects the duodenal mucosa from damage by gastric acid is:",
@@ -426,7 +458,8 @@
     "answer": 1,
     "answerText": "Pancreatic bicarbonate secretion",
     "explanation": "Pancreatic bicarbonate neutralizes gastric acid in the duodenum.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 14</span> The rate of gastric emptying increases with an increase in:",
@@ -439,7 +472,8 @@
     "answer": 1,
     "answerText": "Intragastric volume",
     "explanation": "Gastric emptying is faster with increased intragastric volume.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 15</span> After secretion of trypsinogen into the duodenum, the enzyme is converted into its active form, trypsin, by:",
@@ -452,7 +486,8 @@
     "answer": 1,
     "answerText": "Enterokinase",
     "explanation": "Enterokinase activates trypsinogen to form trypsin.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 16</span> Contraction of the gallbladder is correctly described by which of the following statements?",
@@ -465,7 +500,8 @@
     "answer": 0,
     "answerText": "It occurs in response to cholecystokinin",
     "explanation": "CCK stimulates gallbladder contraction and bile release.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 17</span> Which one of the following processes applies to the stomachs?",
@@ -478,7 +514,8 @@
     "answer": 3,
     "answerText": "Retropulsion",
     "explanation": "Retropulsion is the backward movement of gastric contents during mixing.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 18</span> The principal paracrine secretion involved in the stimulatory regulation of gastric acid secretion is?",
@@ -491,7 +528,8 @@
     "answer": 2,
     "answerText": "Histamine",
     "explanation": "Histamine is the main paracrine stimulant of gastric acid secretion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 19</span> Which one of the following statements about gastric emptying is correct?",
@@ -504,7 +542,8 @@
     "answer": 2,
     "answerText": "Ach increase gastric emptying",
     "explanation": "Acetylcholine (Ach) increases gastric motility and emptying.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 20</span> Which of the following type of intestinal contraction is only seen in the small intestine?",
@@ -517,7 +556,8 @@
     "answer": 1,
     "answerText": "Segmental contraction",
     "explanation": "Segmental contractions mix contents in the small intestine.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q40"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 21</span> Which of the following is NOT a function of the digestive tract?",
@@ -530,7 +570,8 @@
     "answer": 2,
     "answerText": "To perform gas exchange",
     "explanation": "Gas exchange is a respiratory function, not digestive.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q41"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 22</span> Which of the following enzymes in the human body starts the digestion of proteins?",
@@ -543,7 +584,8 @@
     "answer": 2,
     "answerText": "Pepsin",
     "explanation": "Pepsin initiates protein digestion in the stomach.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q42"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Nabavi Zadeh - Question 23</span> Which of the following statements is TRUE?",
@@ -556,6 +598,7 @@
     "answer": 2,
     "answerText": "Parietal cells secretes intrinsic factor",
     "explanation": "Parietal cells secrete HCl and intrinsic factor, which is essential for Vitamin B12 absorption.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-phys-q43"
   }
 ]
