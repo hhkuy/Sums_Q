@@ -10,7 +10,8 @@
     "answer": 1,
     "answerText": "Behavior",
     "explanation": "Psychology is the study of behavior and mental processes, including thoughts, emotions, and actions.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 2</span> …………….. psychologists are concerned with human development and the factors that shape behavior from birth to old age.",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Developmental",
     "explanation": "Developmental psychologists study physical, cognitive, and emotional growth throughout the lifespan.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 3</span> They apply psychological principles to the diagnosis and treatment of emotional and behavioral problems, including mental illness, drug addiction, and marital and family conflict.",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Clinical psychologists",
     "explanation": "Clinical psychologists specialize in diagnosing and treating mental health disorders and behavioral issues.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 4</span> The basic unit of the nervous system is a specialized type of cell called a …………….. .",
@@ -49,7 +52,8 @@
     "answer": 2,
     "answerText": "Neuron",
     "explanation": "Neurons are the fundamental cells responsible for transmitting information in the nervous system.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 5</span> There are four basic kinds of learning; all options are correct except:",
@@ -62,7 +66,8 @@
     "answer": 3,
     "answerText": "Memory",
     "explanation": "Memory is a cognitive process, not a type of learning. Learning involves acquiring new behaviors or knowledge.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 6</span> Three stages of memory; all options are correct except:",
@@ -75,7 +80,8 @@
     "answer": 0,
     "answerText": "Sensory memory",
     "explanation": "Sensory memory is a part of the memory process, but the three main stages are short-term, long-term, and working memory.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 7</span> In the ‘iceberg’ model of the mind or personality structure, all of the id and most of the ego and superego are submerged in the ……………………. .",
@@ -88,7 +94,8 @@
     "answer": 2,
     "answerText": "Unconscious",
     "explanation": "Freud’s iceberg model suggests that most of the mind operates at the unconscious level.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 8</span> Piaget’s stages of cognitive development; all options are correct except:",
@@ -101,7 +108,8 @@
     "answer": 3,
     "answerText": "Conditioning",
     "explanation": "Conditioning is a learning process, not a cognitive development stage in Piaget’s theory.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 9</span> ………………………. may be defined as a relatively permanent change in behavior that is the result of practice.",
@@ -114,7 +122,8 @@
     "answer": 1,
     "answerText": "Learning",
     "explanation": "Learning is a lasting change in behavior due to experience and practice.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 10</span> Emotional intelligence is thought to have four components; all options are correct except:",
@@ -127,7 +136,8 @@
     "answer": 3,
     "answerText": "Problem-solving",
     "explanation": "Problem-solving is a cognitive ability, whereas emotional intelligence focuses on managing emotions.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 11</span> People with higher ……………. tend to be healthier psychologically and physically.",
@@ -140,7 +150,8 @@
     "answer": 0,
     "answerText": "Emotional intelligence",
     "explanation": "Emotional intelligence helps individuals manage stress and maintain better relationships, contributing to well-being.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 12</span> The graph (in the book) shows the percentage of virus-exposed people who developed colds as a function of the degree of ………….. reported.",
@@ -153,7 +164,8 @@
     "answer": 1,
     "answerText": "Stress",
     "explanation": "Studies have shown a link between high stress levels and increased susceptibility to illnesses.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 13</span> The General Adaptation Syndrome includes three stages; all stages are correct except:",
@@ -166,7 +178,8 @@
     "answer": 3,
     "answerText": "Learned helplessness",
     "explanation": "Learned helplessness is a psychological condition, not a stage in the General Adaptation Syndrome.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 14</span> The General Adaptation Syndrome includes three stages; all stages are correct except:",
@@ -179,7 +192,8 @@
     "answer": 3,
     "answerText": "Helplessness",
     "explanation": "Helplessness is not a stage in the stress response model proposed by Hans Selye.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 15</span> Defining abnormality includes:",
@@ -192,7 +206,8 @@
     "answer": 3,
     "answerText": "All the choices",
     "explanation": "Abnormality in psychology is often defined using multiple criteria, including statistical, social, and distress-related factors.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 16</span> Obsessive-compulsive disorder is one of …………………….. disorders.",
@@ -205,7 +220,8 @@
     "answer": 1,
     "answerText": "Anxiety",
     "explanation": "OCD is classified as an anxiety disorder, characterized by obsessive thoughts and compulsive behaviors.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 17</span> ICD-10 and ……….. are the classification systems used for mental health problems.",
@@ -218,7 +234,8 @@
     "answer": 0,
     "answerText": "DSM-IV",
     "explanation": "ICD-10 and DSM-IV (now DSM-5) are the primary systems for diagnosing mental disorders.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 18</span> The …………………………. are characterized by severe and lasting impairment in several areas of development, including social interaction, communication, everyday behaviors, interests, and activities.",
@@ -231,7 +248,8 @@
     "answer": 1,
     "answerText": "Pervasive developmental disorders (PDDs)",
     "explanation": "PDDs, such as autism and Asperger’s syndrome, affect multiple areas of functioning.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 19</span> The ‘iceberg’ model of the mind or personality structure is from:",
@@ -244,7 +262,8 @@
     "answer": 2,
     "answerText": "Freud",
     "explanation": "Sigmund Freud introduced the iceberg model to illustrate the conscious and unconscious mind.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Moslehi - Question 20</span> The biggest changes in life (based on the Life Events Scale) include all of these except:",
@@ -257,7 +276,8 @@
     "answer": 3,
     "answerText": "Final exams in school",
     "explanation": "Final exams are stressful but not considered a major life event compared to events like death or divorce.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 1</span> Psychology can be defined as the scientific study of …………… and mental processes.",
@@ -270,7 +290,8 @@
     "answer": 1,
     "answerText": "Behavior",
     "explanation": "Psychology focuses on understanding human behavior and mental functions using scientific methods.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 2</span> …………….. psychologists are concerned with human development and the factors that shape behavior from birth to old age.",
@@ -283,7 +304,8 @@
     "answer": 1,
     "answerText": "Developmental",
     "explanation": "Developmental psychologists study how people grow and change throughout their lifespan.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 3</span> They apply psychological principles to the diagnosis and treatment of emotional and behavioral problems, including mental illness, drug addiction, and marital and family conflict.",
@@ -296,7 +318,8 @@
     "answer": 2,
     "answerText": "Clinical psychologists",
     "explanation": "Clinical psychologists specialize in diagnosing and treating psychological disorders.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 4</span> The basic unit of the nervous system is a specialized type of cell called a ……………..",
@@ -309,7 +332,8 @@
     "answer": 1,
     "answerText": "Neuron",
     "explanation": "The neuron is the fundamental cellular unit that transmits signals within the nervous system.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 5</span> The Piaget’s stages of cognitive development:",
@@ -322,7 +346,8 @@
     "answer": 3,
     "answerText": "Conditioning",
     "explanation": "Conditioning is not one of Piaget’s cognitive stages; it refers to a learning process.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 6</span> … may be defined as a relatively permanent change in behavior that is the result of practice.",
@@ -335,7 +360,8 @@
     "answer": 0,
     "answerText": "Learning",
     "explanation": "Learning involves acquiring new knowledge or skills, leading to lasting behavioral changes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 7</span> There are four basic kinds of learning; All options are correct except:",
@@ -348,7 +374,8 @@
     "answer": 3,
     "answerText": "Memory",
     "explanation": "Memory is not a form of learning but is closely related to storing learned information.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 8</span> Three stages of memory:",
@@ -361,7 +388,8 @@
     "answer": 0,
     "answerText": "Sensory memory",
     "explanation": "Sensory memory is a brief stage but often overlooked in discussions of memory processing.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 9</span> Emotional intelligence is thought to have four components:",
@@ -374,7 +402,8 @@
     "answer": 2,
     "answerText": "Problem-solving",
     "explanation": "Problem-solving is not a core component of emotional intelligence.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 10</span> People with higher ……………. tend to be healthier psychologically and physically.",
@@ -387,7 +416,8 @@
     "answer": 1,
     "answerText": "Emotional intelligence",
     "explanation": "Emotional intelligence contributes to better stress management and overall well-being.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 11</span> ‘Iceberg’ model of the mind or personality structure is for:",
@@ -400,7 +430,8 @@
     "answer": 2,
     "answerText": "Freud",
     "explanation": "Freud proposed the iceberg model, illustrating the conscious and unconscious mind.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 12</span> In ‘iceberg’ model of the mind or personality structure, all of the id and most of the ego and superego are submerged in the …………………….",
@@ -413,7 +444,8 @@
     "answer": 2,
     "answerText": "Unconscious",
     "explanation": "According to Freud, the unconscious mind stores desires and memories below conscious awareness.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 13</span> Physiological reactions to stress:",
@@ -426,7 +458,8 @@
     "answer": 0,
     "answerText": "Increased metabolic rate",
     "explanation": "Stress triggers an increase in metabolic rate as part of the body’s fight-or-flight response.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 14</span> Biggest changes in life based on the Life Events Scale are all of these except:",
@@ -439,7 +472,8 @@
     "answer": 2,
     "answerText": "Final exams in school",
     "explanation": "Final exams are considered minor compared to major life events on the scale.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 15</span> The graph (in book) shows the percentage of virus-exposed people who developed colds as a function of the degree of ………….. reported.",
@@ -452,7 +486,8 @@
     "answer": 3,
     "answerText": "Stress",
     "explanation": "The graph demonstrates that higher stress levels correlate with an increased risk of illness.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 16</span> The General Adaptation Syndrome includes three stages; All stages are correct except:",
@@ -465,7 +500,8 @@
     "answer": 3,
     "answerText": "Learned helplessness",
     "explanation": "Learned helplessness is a separate concept from the stages of stress adaptation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 17</span> There are three components to hardiness; All components are correct except:",
@@ -478,7 +514,8 @@
     "answer": 3,
     "answerText": "Helplessness",
     "explanation": "Hardiness includes control, commitment, and challenge as protective factors against stress.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 18</span> \"Relaxation training\" is one of …………………….. techniques in managing stress.",
@@ -491,7 +528,8 @@
     "answer": 0,
     "answerText": "Behavioral techniques",
     "explanation": "Behavioral techniques, including relaxation training, help reduce physical and mental stress.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 19</span> Defining abnormality includes:",
@@ -504,7 +542,8 @@
     "answer": 3,
     "answerText": "All the choices",
     "explanation": "Abnormality can be defined using multiple criteria, such as statistical, societal, or functional.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-21) - Dr. Moslehi - Question 20</span> Being able to …………… the occurrence of a stressful event usually …………… the severity of the stress, and it's called ………….",
@@ -517,6 +556,7 @@
     "answer": 2,
     "answerText": "Predict-reduces-Predictability",
     "explanation": "Predictability can help reduce stress by minimizing uncertainty and promoting coping strategies.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "psyc-psyc-q40"
   }
 ]
