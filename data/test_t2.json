@@ -1,6 +1,6 @@
 [
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Yasin - Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">Dr. hasaa - Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events?",
     "options": [
       "Opening of Na+ channels",
       "Opening of K+ channels",
@@ -14,7 +14,7 @@
     "qID": "test-t2-q1"
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Yasin - Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">Dr. hasaa - Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?",
     "options": [
       "Opening of Na+ channels",
       "Opening of K+ channels at the surface of the postsynaptic membrane",
