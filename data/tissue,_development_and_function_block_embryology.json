@@ -10,7 +10,8 @@
     "answer": 1,
     "answerText": "Haploid - 23",
     "explanation": "Gametes are haploid cells containing 23 chromosomes, ensuring that upon fertilization, the zygote has a diploid number of 46.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 2</span> During meiosis, one ………..... gives rise to four daughter cells, each with 22 plus 1 X chromosome.",
@@ -23,7 +24,8 @@
     "answer": 2,
     "answerText": "Primary oocyte",
     "explanation": "The primary oocyte undergoes meiosis to form four daughter cells, one functional ovum, and three polar bodies, each containing 22 autosomes and 1 X chromosome.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 3</span> Spermatogenesis, which begins at …..……, includes all of the events by which ……..…… are transformed into spermatozoa.",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Puberty - Spermatogonia",
     "explanation": "Spermatogenesis starts at puberty, transforming spermatogonia into mature spermatozoa through mitotic and meiotic divisions.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 4</span> Corpus luteum of pregnancy is active until the end of the …..……. month of pregnancy.",
@@ -49,7 +52,8 @@
     "answer": 2,
     "answerText": "Fourth",
     "explanation": "The corpus luteum remains functional and produces progesterone until the fourth month when the placenta takes over hormone production.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 5</span> When the secondary follicle is mature, a surge in …..….. hormone induces the preovulatory growth phase and ……..… is completed.",
@@ -62,7 +66,8 @@
     "answer": 2,
     "answerText": "LH - Meiosis I",
     "explanation": "The luteinizing hormone (LH) surge triggers the completion of meiosis I in the secondary follicle, leading to ovulation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 6</span> The ................. prevent polyspermy.",
@@ -75,7 +80,8 @@
     "answer": 1,
     "answerText": "Zona and cortical reactions",
     "explanation": "The cortical and zona reactions modify the zona pellucida, preventing multiple sperm from fertilizing the egg.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 7</span> During implantation in the human, .............. cells begin to penetrate between the epithelial cells of the uterine mucosa.",
@@ -88,7 +94,8 @@
     "answer": 2,
     "answerText": "Trophoblast",
     "explanation": "Trophoblast cells invade the uterine lining, initiating implantation and supporting placental formation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 8</span> By the ............... day of development, the surface defect in the endometrium (implantation site) has usually healed.",
@@ -101,7 +108,8 @@
     "answer": 2,
     "answerText": "13th",
     "explanation": "By day 13, the implantation site in the uterine endometrium is typically re-epithelialized.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 9</span> Organogenesis occurs from the .................. weeks of development.",
@@ -114,7 +122,8 @@
     "answer": 1,
     "answerText": "Third to eighth",
     "explanation": "Organogenesis, the formation of organ systems, occurs between the third and eighth weeks of embryonic development.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 10</span> Closure of the cranial neuropore occurs at approximately day .............. of gestation.",
@@ -127,7 +136,8 @@
     "answer": 2,
     "answerText": "25",
     "explanation": "The cranial neuropore, the opening at the head end of the neural tube, closes around day 25 of development.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 11</span> Neurulation is the process whereby the neural plate from ............... forms the neural tube.",
@@ -140,7 +150,8 @@
     "answer": 2,
     "answerText": "Ectoderm",
     "explanation": "The ectoderm forms the neural plate, which folds to create the neural tube, the precursor to the central nervous system.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 12</span> The ................ is a midline axis, which will serve as the basis of the axial skeleton.",
@@ -153,7 +164,8 @@
     "answer": 2,
     "answerText": "Notochord",
     "explanation": "The notochord acts as a structural support and signals surrounding cells for the development of the axial skeleton.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 13</span> With development of blood vessels, the ............ becomes the umbilical cord.",
@@ -166,7 +178,8 @@
     "answer": 1,
     "answerText": "Connecting stalk",
     "explanation": "The connecting stalk, which initially attaches the embryo to the placenta, develops into the umbilical cord.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 14</span> The .............. is a glycoprotein shell surrounding the egg that facilitates and maintains sperm binding.",
@@ -179,7 +192,8 @@
     "answer": 1,
     "answerText": "Zona pellucida",
     "explanation": "The zona pellucida surrounds the oocyte, aiding sperm binding and preventing premature implantation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 15</span> The ............ line the intraembryonic cavity.",
@@ -192,7 +206,8 @@
     "answer": 2,
     "answerText": "Visceral and parietal mesoderm",
     "explanation": "The visceral and parietal layers of mesoderm form the walls of the intraembryonic coelom, which later develops into body cavities.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 16</span> By ................ months, if born at this time, the infant has a 90% chance of surviving.",
@@ -205,7 +220,8 @@
     "answer": 1,
     "answerText": "6.5 to 7",
     "explanation": "By 6.5 to 7 months (approximately 26-28 weeks), the lungs are sufficiently developed to allow survival with medical support.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 17</span> Fetal portion of the placenta is formed by the ................ .",
@@ -218,7 +234,8 @@
     "answer": 2,
     "answerText": "Chorion frondosum",
     "explanation": "The chorion frondosum contributes to the fetal side of the placenta, forming the villous structures involved in nutrient exchange.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 18</span> During the first 2 months of pregnancy, presence of .................. in the urine is used as an indicator of pregnancy.",
@@ -231,7 +248,8 @@
     "answer": 1,
     "answerText": "hCG",
     "explanation": "Human chorionic gonadotropin (hCG) is produced by the trophoblast and can be detected in urine early in pregnancy.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 19</span> The amount of amniotic fluid is .............. mL at 37 weeks of gestation, and oligohydramnios refers to a ............. amount.",
@@ -244,7 +262,8 @@
     "answer": 2,
     "answerText": "1000 - decreased",
     "explanation": "Normal amniotic fluid volume is about 1000 mL at full term; oligohydramnios refers to abnormally low fluid levels.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 20</span> The twins have a separate .................. once the splitting occurs at the blastocyst stage.",
@@ -257,7 +276,8 @@
     "answer": 1,
     "answerText": "Amniotic cavities",
     "explanation": "If monozygotic twins split at the blastocyst stage, they develop separate amniotic sacs but may share a placenta.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 21</span> The ………… contains an antrum and a secondary oocyte.",
@@ -270,7 +290,8 @@
     "answer": 1,
     "answerText": "Graafian follicle",
     "explanation": "The Graafian follicle is a mature ovarian follicle containing an antrum (fluid-filled cavity) and a secondary oocyte ready for ovulation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 22</span> One primary oocyte gives rise to four daughter cells. …….. of these develops into a mature gamete, and …….. are the polar bodies.",
@@ -283,7 +304,8 @@
     "answer": 0,
     "answerText": "One – Three",
     "explanation": "In oogenesis, only one of the four daughter cells from meiosis develops into a functional ovum, while the remaining three become non-functional polar bodies.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 23</span> During meiosis I, pairs of ………. separate into two daughter cells, thereby reducing the chromosome number to ……….. .",
@@ -296,7 +318,8 @@
     "answer": 1,
     "answerText": "Chromosomes – Haploid",
     "explanation": "Meiosis I separates homologous chromosome pairs, reducing the chromosome number from diploid (46) to haploid (23).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 24</span> Fusion of the neural folds begins in the ................ region.",
@@ -309,7 +332,8 @@
     "answer": 0,
     "answerText": "Cervical",
     "explanation": "The fusion of the neural folds, forming the neural tube, begins in the cervical region and proceeds cranially and caudally.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 25</span> The most characteristic event occurring during the ............. week of gestation is gastrulation.",
@@ -322,7 +346,8 @@
     "answer": 2,
     "answerText": "Third",
     "explanation": "Gastrulation, the process that forms the three germ layers (ectoderm, mesoderm, and endoderm), occurs during the third week of development.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 26</span> Release of ............. allows sperm to penetrate the zona, thereby coming in contact with the plasma membrane of the oocyte.",
@@ -335,7 +360,8 @@
     "answer": 1,
     "answerText": "Acrosin",
     "explanation": "Acrosin, an enzyme in the acrosome of the sperm, helps digest the zona pellucida, allowing sperm to reach and fertilize the oocyte.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 27</span> Implantation occurs on about day .......... .",
@@ -348,7 +374,8 @@
     "answer": 2,
     "answerText": "6",
     "explanation": "Implantation of the blastocyst into the endometrium begins around day 6 after fertilization.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 28</span> The measurement from the vertex of the skull to the heel of the fetus is called .............. .",
@@ -361,7 +388,8 @@
     "answer": 2,
     "answerText": "Standing height/CHL",
     "explanation": "Crown-heel length (CHL) measures fetal growth from the skull's vertex to the heel, useful in later pregnancy stages.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 29</span> By the ............... week, external genitalia develop to such a degree that the sex of the fetus can be determined by external examination (ultrasound).",
@@ -374,7 +402,8 @@
     "answer": 2,
     "answerText": "12th",
     "explanation": "By the 12th week of gestation, the external genitalia are developed enough to distinguish male from female via ultrasound.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Golshan - Question 30</span> The ................ twin results from the simultaneous shedding of two oocytes and fertilization by different spermatozoa.",
@@ -387,7 +416,8 @@
     "answer": 1,
     "answerText": "Dizygotic/Fraternal",
     "explanation": "Dizygotic (fraternal) twins occur when two separate oocytes are fertilized by two different sperm, leading to genetically distinct siblings.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 1</span> Each gamete contains a …..…… number of …..….. chromosomes.",
@@ -400,7 +430,8 @@
     "answer": 3,
     "answerText": "Haploid - 23",
     "explanation": "Gametes are haploid cells, each containing 23 chromosomes, which is half the diploid number found in somatic cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 2</span> Which cell enters meiosis and finally gives rise to four daughter cells, each with 22 plus 1 X or Y chromosomes?",
@@ -413,7 +444,8 @@
     "answer": 1,
     "answerText": "Primary spermatocyte",
     "explanation": "Primary spermatocytes undergo meiosis to form haploid spermatids, each with 22 autosomes and 1 X or Y chromosome.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 3</span> Spermatogenesis, which begins at …..……, includes all of the events by which ……..…… are transformed into spermatozoa.",
@@ -426,7 +458,8 @@
     "answer": 0,
     "answerText": "Puberty - Spermatogonia",
     "explanation": "Spermatogenesis starts at puberty and involves the differentiation of spermatogonia into mature spermatozoa.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 4</span> How late is the corpus luteum of pregnancy active until the end of the month of pregnancy?",
@@ -439,7 +472,8 @@
     "answer": 2,
     "answerText": "Fourth month",
     "explanation": "The corpus luteum remains active and produces hormones until about the end of the fourth month, after which the placenta takes over.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 5</span> A surge in …..….. hormone induces the preovulatory growth phase and ……..… is completed.",
@@ -452,7 +486,8 @@
     "answer": 1,
     "answerText": "LH - Meiosis I",
     "explanation": "A surge in luteinizing hormone (LH) triggers the completion of meiosis I in the oocyte, leading to ovulation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 6</span> Which one of the following prevents polyspermy?",
@@ -465,7 +500,8 @@
     "answer": 1,
     "answerText": "Cortical and zona reactions",
     "explanation": "Cortical and zona reactions modify the zona pellucida and block the entry of additional sperm, preventing polyspermy.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 7</span> Which cells begin to penetrate the epithelium of the uterus during implantation?",
@@ -478,7 +514,8 @@
     "answer": 2,
     "answerText": "Trophoblast",
     "explanation": "Trophoblast cells differentiate and invade the uterine lining during implantation, forming the placenta.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 8</span> What day of development is the implantation site usually healed?",
@@ -491,7 +528,8 @@
     "answer": 2,
     "answerText": "13th day",
     "explanation": "By the 13th day, the implantation site is typically healed, and the developing embryo is fully embedded in the endometrium.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 9</span> What period of development is known as the fetal period?",
@@ -504,7 +542,8 @@
     "answer": 2,
     "answerText": "Ninth week to birth",
     "explanation": "The fetal period begins at the ninth week of gestation and is characterized by growth and organ maturation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 10</span> What days of development does final closure of the cranial neuropore and caudal neuropore occur, respectively?",
@@ -517,7 +556,8 @@
     "answer": 2,
     "answerText": "25th day - 28th day",
     "explanation": "The cranial neuropore closes around day 25, and the caudal neuropore closes around day 28 of development.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q40"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 11</span> What is the origin of the neural tube?",
@@ -530,7 +570,8 @@
     "answer": 3,
     "answerText": "Ectoderm",
     "explanation": "The neural tube forms from the ectoderm during neurulation and develops into the central nervous system.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q41"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 12</span> What is a midline axis, which will serve as the basis of the axial skeleton?",
@@ -543,7 +584,8 @@
     "answer": 2,
     "answerText": "Notochord",
     "explanation": "The notochord is a midline structure that induces the formation of the vertebral column and axial skeleton.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q42"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 13</span> What one of the following differentiates to form the umbilical cord?",
@@ -556,7 +598,8 @@
     "answer": 1,
     "answerText": "Connecting stalk",
     "explanation": "The connecting stalk, which contains the umbilical vessels, develops into the umbilical cord during embryogenesis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q43"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 14</span> What is the lining of the intraembryonic cavity?",
@@ -569,7 +612,8 @@
     "answer": 1,
     "answerText": "Parietal and visceral mesoderm",
     "explanation": "The parietal and visceral layers of the mesoderm line the intraembryonic coelom and contribute to various body cavities.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q44"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 15</span> By ................ months, if born at this time, the infant has a 90% chance of surviving.",
@@ -582,7 +626,8 @@
     "answer": 2,
     "answerText": "6.5 to 7",
     "explanation": "By 6.5 to 7 months of gestation, the lungs and other organs are developed enough to give the infant a high chance of survival.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q45"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 16</span> What is the origin of the maternal portion and fetal portion of the placenta, respectively?",
@@ -595,7 +640,8 @@
     "answer": 2,
     "answerText": "Decidua basalis - Chorion frondosum",
     "explanation": "The maternal portion of the placenta is derived from the decidua basalis, while the fetal portion is derived from the chorion frondosum.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q46"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 17</span> During the first .................. of pregnancy, the presence of .................. in the urine is used as an indicator of pregnancy.",
@@ -608,7 +654,8 @@
     "answer": 1,
     "answerText": "2 months - hCG",
     "explanation": "Human chorionic gonadotropin (hCG) is produced by the syncytiotrophoblast and is detectable in the urine during the first 2 months of pregnancy.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q47"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 18</span> The amount of amniotic fluid is .............. mL at 37 weeks of gestation, and hydramnios refers to a ............. amount.",
@@ -621,7 +668,8 @@
     "answer": 2,
     "answerText": "1000 - increased",
     "explanation": "At 37 weeks, the amount of amniotic fluid is about 1000 mL, and hydramnios refers to an excessive amount of fluid.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q48"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 19</span> Which follicles contain zona pellucida and primary oocyte?",
@@ -634,7 +682,8 @@
     "answer": 1,
     "answerText": "Primary follicle and secondary follicle",
     "explanation": "The zona pellucida first forms in the primary follicle, and both primary and secondary follicles contain a primary oocyte.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q49"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 20</span> One primary oocyte gives rise to four daughter cells. …….. of these develops into a mature gamete, and …….. are the polar bodies.",
@@ -647,7 +696,8 @@
     "answer": 2,
     "answerText": "One - Three",
     "explanation": "Of the four cells produced during oogenesis, only one becomes a functional egg, while the other three form polar bodies that degenerate.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q50"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 21</span> During meiosis I, pairs of ………. separate into two daughter cells, thereby reducing the chromosome number to ……….. .",
@@ -660,7 +710,8 @@
     "answer": 3,
     "answerText": "Chromosomes - Haploid",
     "explanation": "During meiosis I, homologous chromosomes are separated into two haploid daughter cells, each containing 23 chromosomes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q51"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 22</span> Where does fusion of the neural folds begin?",
@@ -673,7 +724,8 @@
     "answer": 1,
     "answerText": "Cervical region",
     "explanation": "Fusion of the neural folds begins in the cervical region and proceeds cranially and caudally.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q52"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 23</span> The most characteristic event occurring during the ............. week of gestation is gastrulation.",
@@ -686,7 +738,8 @@
     "answer": 1,
     "answerText": "Third",
     "explanation": "Gastrulation occurs during the third week of gestation, leading to the formation of the three germ layers: ectoderm, mesoderm, and endoderm.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q53"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 24</span> Release of ............. from ............ causes changes in the structure of the zona pellucida, preventing polyspermy.",
@@ -699,7 +752,8 @@
     "answer": 1,
     "answerText": "Cortical granules - oocyte",
     "explanation": "After fertilization, the cortical reaction releases enzymes from cortical granules in the oocyte, modifying the zona pellucida to block polyspermy.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q54"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 25</span> When does implantation occur?",
@@ -712,7 +766,8 @@
     "answer": 2,
     "answerText": "Day 6 after fertilization",
     "explanation": "Implantation typically begins around day 6 after fertilization, when the blastocyst attaches to the uterine lining.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q55"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 26</span> What is the measurement from the vertex of the skull to the heel of the fetus called?",
@@ -725,7 +780,8 @@
     "answer": 1,
     "answerText": "Standing height/CHL",
     "explanation": "The standing height, or crown-heel length (CHL), measures the distance from the top of the skull to the heel.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q56"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 27</span> By the ............... month, external genitalia develop to such a degree that the sex of the fetus can be determined by external examination (ultrasound).",
@@ -738,7 +794,8 @@
     "answer": 1,
     "answerText": "3rd",
     "explanation": "By the third month of gestation, the external genitalia are sufficiently developed to determine the sex of the fetus via ultrasound.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q57"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 28</span> Which type of twins results from the simultaneous shedding of two oocytes?",
@@ -751,7 +808,8 @@
     "answer": 1,
     "answerText": "Dizygotic/fraternal",
     "explanation": "Dizygotic (fraternal) twins result from the fertilization of two separate oocytes by two different sperm cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q58"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 29</span> Which one of the following is separate in twins once the splitting occurs at the blastocyst stage?",
@@ -764,7 +822,8 @@
     "answer": 2,
     "answerText": "Amniotic cavities",
     "explanation": "If the splitting occurs at the blastocyst stage, the twins will typically share the chorion but have separate amniotic cavities.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q59"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-14) - Dr. Golshan - Question 30</span> Which one functions as a sperm receptor?",
@@ -777,6 +836,7 @@
     "answer": 0,
     "answerText": "Zona pellucida",
     "explanation": "The zona pellucida contains glycoproteins that function as sperm receptors and play a key role in the acrosomal reaction.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-embr-q60"
   }
 ]
