@@ -10,7 +10,8 @@
     "answer": 2,
     "answerText": "Substance P",
     "explanation": "Substance P, a neuropeptide, is transported via axonal streaming to the axon terminal for synaptic release.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 2</span> GABA activates GABA-A ionotropic receptor to inhibit postsynaptic cells. Which one happens in the postsynaptic cell?",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Opening of Cl- channels",
     "explanation": "GABA-A receptor activation leads to Cl- influx, hyperpolarizing the postsynaptic membrane and inhibiting action potential generation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 3</span> Which cell type is responsible for making the Blood-Brain Barrier?",
@@ -36,7 +38,8 @@
     "answer": 0,
     "answerText": "Astrocyte",
     "explanation": "Astrocytes contribute to the formation of the Blood-Brain Barrier by inducing tight junctions in endothelial cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 4</span> Which of the following is related to chemical synapses?",
@@ -49,7 +52,8 @@
     "answer": 2,
     "answerText": "Postsynaptic ionotropic receptors",
     "explanation": "Chemical synapses use neurotransmitters that bind to ionotropic receptors to propagate signals.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 5</span> In ventral tegmental area neurons, glutamate and dopamine are packed in the same vesicles. Which mode of transmission occurs at the end of these neurons?",
@@ -62,7 +66,8 @@
     "answer": 1,
     "answerText": "Co-release",
     "explanation": "In co-release, both neurotransmitters are stored in the same vesicles and released together.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 6</span> Saltatory action potential occurs in all sensory fibers EXCEPT:",
@@ -75,7 +80,8 @@
     "answer": 3,
     "answerText": "Type IV",
     "explanation": "Type IV (C fibers) are unmyelinated and do not conduct saltatory action potentials.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 7</span> Which receptor is slowly adapting?",
@@ -88,7 +94,8 @@
     "answer": 2,
     "answerText": "Joint capsule receptor",
     "explanation": "Slowly adapting receptors, like joint capsule receptors, respond continuously to sustained stimuli.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 8</span> The area of the skin innervated by all branches of a sensory fiber is called:",
@@ -101,7 +108,8 @@
     "answer": 1,
     "answerText": "Receptive field",
     "explanation": "A receptive field is the area of skin from which a sensory neuron receives input.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 9</span> In the dorsal column–medial lemniscal pathway, where does the second-order neuron terminate?",
@@ -114,7 +122,8 @@
     "answer": 1,
     "answerText": "Thalamic ventral posterior nucleus",
     "explanation": "The second-order neurons of this pathway terminate in the thalamic ventral posterior nucleus before projecting to the cortex.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 10</span> Which one does NOT occur following damage to Brodmann areas 5 and 7?",
@@ -127,7 +136,8 @@
     "answer": 1,
     "answerText": "Loss of localization of touch",
     "explanation": "Areas 5 and 7 process spatial and proprioceptive information, but localization of touch is handled primarily by area 3b.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 11</span> Initial contact with the skin is mainly detected by:",
@@ -140,7 +150,8 @@
     "answer": 3,
     "answerText": "Hair receptor",
     "explanation": "Hair receptors detect the initial deflection of hair when the skin is touched.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 12</span> Fibers that are located most LATERALLY in the RIGHT dorsal column of the upper spinal cord transmit sensory signals from the:",
@@ -153,7 +164,8 @@
     "answer": 2,
     "answerText": "Right hand",
     "explanation": "The lateral portion of the dorsal column carries sensory information from the upper limb (cuneate fasciculus).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 13</span> Which nociceptor is only activated after inflammation?",
@@ -166,7 +178,8 @@
     "answer": 2,
     "answerText": "Silent nociceptor",
     "explanation": "Silent nociceptors are typically inactive but become responsive following tissue inflammation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 14</span> Which of the thermal receptors shows the highest activity at 45°C?",
@@ -179,7 +192,8 @@
     "answer": 1,
     "answerText": "Warmth receptors",
     "explanation": "Warm receptors respond maximally at around 45°C before nociceptors activate.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 15</span> Which one is NOT related to fast pain?",
@@ -192,7 +206,8 @@
     "answer": 2,
     "answerText": "Unmyelinated fibers",
     "explanation": "Fast pain is conducted by myelinated Aδ fibers, while unmyelinated C fibers transmit slow, dull pain.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 16</span> Which neuron does NOT take part in the stretch reflex?",
@@ -205,7 +220,8 @@
     "answer": 1,
     "answerText": "Type Ib sensory fiber",
     "explanation": "Type Ib fibers belong to the Golgi tendon reflex, not the stretch reflex.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 17</span> Which reflex is typically elicited by painful stimulation?",
@@ -218,7 +234,8 @@
     "answer": 1,
     "answerText": "Withdrawal reflex",
     "explanation": "The withdrawal reflex removes a limb from painful stimuli through rapid flexion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 18</span> What does Ia inhibitory interneuron do in the stretch reflex?",
@@ -231,7 +248,8 @@
     "answer": 1,
     "answerText": "Inhibition of motor neuron to antagonist muscle",
     "explanation": "Ia inhibitory interneurons inhibit the antagonist muscle to ensure coordinated movement.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 19</span> Spread of flexor reflex from the arm to the leg mainly depends on:",
@@ -244,7 +262,8 @@
     "answer": 1,
     "answerText": "Propriospinal organization",
     "explanation": "Propriospinal pathways mediate interlimb coordination within the spinal cord.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 20</span> A tap on the patellar tendon increases firing rate in:",
@@ -257,7 +276,8 @@
     "answer": 2,
     "answerText": "Type Ia fiber",
     "explanation": "Type Ia fibers in muscle spindles detect stretch and initiate the knee-jerk reflex.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 21</span> Which one is a main characteristic of reciprocal circuits?",
@@ -270,7 +290,8 @@
     "answer": 2,
     "answerText": "Generating antagonistic outputs",
     "explanation": "Reciprocal circuits coordinate opposing muscle actions by inhibiting antagonist muscles.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-11) - Dr. Esmail Riahi - Question 22</span> Which spinal local neuron mediates analgesia?",
@@ -283,7 +304,8 @@
     "answer": 2,
     "answerText": "Enkephalin neuron",
     "explanation": "Enkephalinergic interneurons inhibit pain transmission in the spinal cord.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 1</span> Which descending tract transmits inhibitory signals to antigravity muscles?",
@@ -296,7 +318,8 @@
     "answer": 1,
     "answerText": "Medullary reticulospinal tract",
     "explanation": "The medullary reticulospinal tract inhibits extensor (antigravity) muscles, helping regulate postural control.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 2</span> In which area of the motor cortex can a low-intensity stimulation trigger an isolated movement in fingers?",
@@ -309,7 +332,8 @@
     "answer": 2,
     "answerText": "Primary motor cortex",
     "explanation": "The primary motor cortex has a somatotopic organization, where stimulation can elicit precise movements.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 3</span> Which neuron in the primary motor cortex maintains the force of muscle contraction after its initial development?",
@@ -322,7 +346,8 @@
     "answer": 1,
     "answerText": "Static pyramidal neurons",
     "explanation": "Static pyramidal neurons help sustain muscle contraction after the initiation phase.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 4</span> Which of the following is correct about the columnar organization of neurons in the motor cortex?",
@@ -335,7 +360,8 @@
     "answer": 0,
     "answerText": "There are dynamic or static neurons in each column",
     "explanation": "Each cortical column contains both dynamic and static neurons that contribute to motor control.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 5</span> Deep cerebellar nuclear cells are inhibited by:",
@@ -348,7 +374,8 @@
     "answer": 2,
     "answerText": "Purkinje cells",
     "explanation": "Purkinje cells release GABA and inhibit deep cerebellar nuclear cells to regulate motor coordination.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 6</span> Which cerebellar portion is concerned with controlling muscle contractions in hands and fingers?",
@@ -361,7 +388,8 @@
     "answer": 1,
     "answerText": "Intermediate zone",
     "explanation": "The intermediate zone of the cerebellum is involved in fine motor control of the limbs.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 7</span> Which cell or fiber triggers a complex spike in cerebellar Purkinje cells?",
@@ -374,7 +402,8 @@
     "answer": 2,
     "answerText": "Climbing fibers",
     "explanation": "Climbing fibers synapse on Purkinje cells and generate complex spikes that modify motor learning.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 8</span> Which disease can Levodopa be helpful for?",
@@ -387,7 +416,8 @@
     "answer": 2,
     "answerText": "Parkinson’s disease",
     "explanation": "Levodopa replenishes dopamine in Parkinson’s disease, alleviating motor symptoms.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 9</span> Pathways from the putamen to the internal globus pallidus mainly release:",
@@ -400,7 +430,8 @@
     "answer": 2,
     "answerText": "GABA",
     "explanation": "GABAergic neurons from the putamen inhibit the internal globus pallidus in the basal ganglia circuitry.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 10</span> Which one is increased by the action of the sympathetic nervous system?",
@@ -413,7 +444,8 @@
     "answer": 1,
     "answerText": "Body metabolism",
     "explanation": "The sympathetic nervous system increases metabolism, heart rate, and energy mobilization.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 11</span> Preganglionic parasympathetic neurons are located in the:",
@@ -426,7 +458,8 @@
     "answer": 2,
     "answerText": "Sacral spinal cord",
     "explanation": "Preganglionic parasympathetic neurons originate in the brainstem and sacral spinal cord.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 12</span> Which receptor in the autonomic nervous system is an ionotropic receptor?",
@@ -439,7 +472,8 @@
     "answer": 2,
     "answerText": "Nicotinic receptor",
     "explanation": "Nicotinic receptors are ligand-gated ion channels found in autonomic ganglia.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 13</span> On which hypothalamic nucleus does information about body temperature converge?",
@@ -452,7 +486,8 @@
     "answer": 1,
     "answerText": "Preoptic nucleus",
     "explanation": "The preoptic nucleus regulates body temperature by integrating thermal signals.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 14</span> Bilateral removal of the amygdala DECREASES:",
@@ -465,7 +500,8 @@
     "answer": 0,
     "answerText": "Fear",
     "explanation": "The amygdala is involved in emotional processing, particularly fear and aggression.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 15</span> Major depression probably results from a decrease in the brain’s:",
@@ -478,7 +514,8 @@
     "answer": 1,
     "answerText": "Serotonin",
     "explanation": "A decrease in serotonin levels is strongly associated with major depression.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 16</span> Which hypothalamic area is involved in water conservation?",
@@ -491,7 +528,8 @@
     "answer": 1,
     "answerText": "Supraoptic nuclei",
     "explanation": "The supraoptic nucleus regulates water balance by releasing vasopressin (ADH).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 17</span> Which of the brain rhythms represents a very irregular activity of cortical neurons?",
@@ -504,7 +542,8 @@
     "answer": 2,
     "answerText": "Beta",
     "explanation": "Beta waves are associated with wakefulness and mental activity and show an irregular pattern.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 18</span> REM sleep is characterized by ………. in the EEG.",
@@ -517,7 +556,8 @@
     "answer": 3,
     "answerText": "Beta waves",
     "explanation": "REM sleep is associated with low-amplitude, high-frequency beta waves.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q40"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 19</span> Narcolepsy is caused by a defect in:",
@@ -530,7 +570,8 @@
     "answer": 2,
     "answerText": "Orexin receptors",
     "explanation": "Orexin (hypocretin) dysfunction leads to excessive daytime sleepiness in narcolepsy.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q41"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 20</span> In non-REM sleep, the lowest frequency of brain waves appears in stage:",
@@ -543,7 +584,8 @@
     "answer": 3,
     "answerText": "4",
     "explanation": "Stage 4 sleep is characterized by slow delta waves, the lowest frequency brain activity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q42"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 21</span> Which of the following is NOT integrated in the prefrontal association cortex?",
@@ -556,7 +598,8 @@
     "answer": 3,
     "answerText": "Face recognition",
     "explanation": "Face recognition is primarily processed in the inferior temporal cortex, not the prefrontal cortex.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q43"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 22</span> A patient who can decide on what to say but cannot speak fluently probably suffers from:",
@@ -569,7 +612,8 @@
     "answer": 1,
     "answerText": "Broca’s aphasia",
     "explanation": "Broca’s aphasia affects speech production while leaving comprehension intact.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q44"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 23</span> Retrograde amnesia refers to an inability to:",
@@ -582,7 +626,8 @@
     "answer": 1,
     "answerText": "Recall memories from the recent past",
     "explanation": "Retrograde amnesia results in difficulty recalling past events before brain injury.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q45"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 24</span> Which problem usually may NOT happen after cerebellar damage?",
@@ -595,7 +640,8 @@
     "answer": 2,
     "answerText": "Hypertonia",
     "explanation": "Hypertonia (increased muscle tone) is associated with basal ganglia disorders, not cerebellar lesions.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q46"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 25</span> Which receptor mediates cardioacceleration?",
@@ -608,7 +654,8 @@
     "answer": 1,
     "answerText": "Beta-1",
     "explanation": "Beta-1 adrenergic receptors in the heart increase heart rate and contractility.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q47"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 26</span> Which hypothalamic area decreases appetite?",
@@ -621,7 +668,8 @@
     "answer": 2,
     "answerText": "Ventromedial nucleus",
     "explanation": "The ventromedial hypothalamus is the satiety center, suppressing hunger.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q48"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 27</span> Which of the following is a probable mechanism for habituation?",
@@ -634,7 +682,8 @@
     "answer": 2,
     "answerText": "Progressive closure of presynaptic calcium channels",
     "explanation": "Habituation is linked to reduced calcium influx, leading to decreased neurotransmitter release.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q49"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-03-14) - Dr. Esmail Riahi - Question 28</span> Which of the following is correct about visual object agnosia?",
@@ -647,7 +696,8 @@
     "answer": 1,
     "answerText": "It is an inability to identify objects",
     "explanation": "Visual object agnosia is the inability to recognize objects despite normal vision.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q50"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 1</span> Which neurotransmitter is made in cell body?",
@@ -660,7 +710,8 @@
     "answer": 2,
     "answerText": "Enkephalin",
     "explanation": "Peptide neurotransmitters like enkephalins are synthesized in the cell body before being transported to the axon terminals.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q51"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 2</span> Which of the following mediates inhibition of cells by GABA?",
@@ -673,7 +724,8 @@
     "answer": 2,
     "answerText": "Opening of K+ channel",
     "explanation": "GABA causes inhibition mainly by opening K+ channels, leading to hyperpolarization.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q52"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 3</span> Which of the following is related to chemical synapses?",
@@ -686,7 +738,8 @@
     "answer": 2,
     "answerText": "Presynaptic vesicles",
     "explanation": "Chemical synapses involve neurotransmitter release from presynaptic vesicles.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q53"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 4</span> Which sensory fiber is NOT myelinated?",
@@ -699,7 +752,8 @@
     "answer": 1,
     "answerText": "Type IV",
     "explanation": "Type IV fibers (C fibers) are unmyelinated and transmit slow pain and temperature sensations.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q54"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 5</span> In a neuronal pool, all branches of an input fiber distribute in the ……….",
@@ -712,7 +766,8 @@
     "answer": 0,
     "answerText": "Stimulatory field",
     "explanation": "The branches of an input fiber distribute in the stimulatory field within a neuronal pool.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q55"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 6</span> Which one is a main characteristic of convergence circuits?",
@@ -725,7 +780,8 @@
     "answer": 1,
     "answerText": "Integration of different inputs",
     "explanation": "Convergence circuits integrate different inputs from multiple sources onto a single neuron.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q56"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 7</span> Which sensation is transmitted through the dorsal column–medial lemniscal pathway?",
@@ -738,7 +794,8 @@
     "answer": 2,
     "answerText": "Position",
     "explanation": "The dorsal column–medial lemniscal pathway transmits proprioception, vibration, and fine touch sensations.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q57"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 8</span> Final perception of an object by touch occurs in:",
@@ -751,7 +808,8 @@
     "answer": 1,
     "answerText": "Brodmann area 5 and 7",
     "explanation": "The final perception of an object by touch occurs in the somatosensory association cortex (Brodmann areas 5 and 7).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q58"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 9</span> High-frequency vibration is mainly detected by:",
@@ -764,7 +822,8 @@
     "answer": 2,
     "answerText": "Pacinian corpuscle",
     "explanation": "Pacinian corpuscles are specialized for detecting high-frequency vibration.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q59"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 10</span> Which nociceptor is mainly responsible for slow and chronic pain?",
@@ -777,7 +836,8 @@
     "answer": 2,
     "answerText": "Polymodal",
     "explanation": "Polymodal nociceptors respond to mechanical, thermal, and chemical stimuli and are responsible for slow, chronic pain.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q60"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 11</span> Which spinal local neuron suppresses pain?",
@@ -790,7 +850,8 @@
     "answer": 1,
     "answerText": "Enkephalin neuron",
     "explanation": "Enkephalin neurons in the spinal cord inhibit pain transmission.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q61"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 12</span> Which of the following stimulations may NOT activate nociceptors to induce visceral pain?",
@@ -803,7 +864,8 @@
     "answer": 0,
     "answerText": "Sharp cut",
     "explanation": "Visceral nociceptors are not typically activated by sharp cuts; they respond more to stretch, ischemia, and chemical stimuli.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q62"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 13</span> Which receptor detects the force of the contraction?",
@@ -816,7 +878,8 @@
     "answer": 2,
     "answerText": "Golgi tendon organ",
     "explanation": "Golgi tendon organs detect muscle tension and force during contraction.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q63"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 14</span> Which one does NOT take part in dynamic stretch reflex?",
@@ -829,7 +892,8 @@
     "answer": 3,
     "answerText": "Type II sensory fiber",
     "explanation": "Type II fibers are involved in the static stretch reflex, not the dynamic stretch reflex.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q64"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 15</span> Which reflex may use propriospinal organization?",
@@ -842,7 +906,8 @@
     "answer": 1,
     "answerText": "Withdrawal reflex",
     "explanation": "The withdrawal reflex involves propriospinal pathways, coordinating limb movements across spinal segments.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q65"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 16</span> Which descending tract transmits excitatory signals to antigravity muscles?",
@@ -855,7 +920,8 @@
     "answer": 2,
     "answerText": "Pontine reticulospinal",
     "explanation": "The pontine reticulospinal tract facilitates the activity of extensor muscles (antigravity muscles).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q66"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 17</span> Force of a motor action is determined by:",
@@ -868,7 +934,8 @@
     "answer": 0,
     "answerText": "Primary motor cortex",
     "explanation": "The primary motor cortex determines the force and direction of voluntary movements.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q67"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 18</span> Signals transmitted through the descending pathways of the spinal cord finally reach:",
@@ -881,7 +948,8 @@
     "answer": 1,
     "answerText": "Motor neurons in the anterior horn",
     "explanation": "Descending motor pathways terminate on motor neurons in the anterior horn of the spinal cord.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q68"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 19</span> Cells in the fastigial nucleus of the cerebellum are inhibited by:",
@@ -894,7 +962,8 @@
     "answer": 1,
     "answerText": "Purkinje cells",
     "explanation": "Purkinje cells are inhibitory and project to the deep cerebellar nuclei, including the fastigial nucleus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q69"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 20</span> Which cerebellar portion is concerned with smooth pursuit eye movements?",
@@ -907,7 +976,8 @@
     "answer": 1,
     "answerText": "Flocculonodular lobe",
     "explanation": "The flocculonodular lobe (vestibulocerebellum) is involved in eye movements and balance.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q70"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 21</span> Pathways from the cortex to the putamen mainly release:",
@@ -920,7 +990,8 @@
     "answer": 1,
     "answerText": "Glutamate",
     "explanation": "Corticostriatal pathways release glutamate, which is excitatory.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q71"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 22</span> Which one is NOT increased by the action of sympathetic nervous system?",
@@ -933,7 +1004,8 @@
     "answer": 1,
     "answerText": "Peristalsis",
     "explanation": "Sympathetic activation reduces gastrointestinal peristalsis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q72"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 23</span> Which receptor mediates mydriasis?",
@@ -946,7 +1018,8 @@
     "answer": 0,
     "answerText": "Alpha-1",
     "explanation": "Alpha-1 receptors mediate contraction of the radial muscle of the iris, causing mydriasis (pupil dilation).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q73"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 24</span> Which receptor is found between pre- and post-ganglionic neurons of the sympathetic nervous system?",
@@ -959,7 +1032,8 @@
     "answer": 3,
     "answerText": "Nicotinic receptor",
     "explanation": "Nicotinic receptors are located at the synapse between pre- and post-ganglionic neurons in the autonomic ganglia.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q74"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 25</span> Major depression probably results from a decrease in brain’s:",
@@ -972,7 +1046,8 @@
     "answer": 1,
     "answerText": "Norepinephrine",
     "explanation": "Major depression is associated with reduced levels of norepinephrine and serotonin.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q75"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 26</span> Which hypothalamic nucleus decreases urine volume?",
@@ -985,7 +1060,8 @@
     "answer": 0,
     "answerText": "Supraoptic nucleus",
     "explanation": "The supraoptic nucleus produces antidiuretic hormone (ADH), which decreases urine volume.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q76"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 27</span> Which of the brain rhythms represents a very synchronized activity of cortical neurons?",
@@ -998,7 +1074,8 @@
     "answer": 2,
     "answerText": "Delta",
     "explanation": "Delta waves represent slow, synchronized cortical activity, often seen in deep sleep.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q77"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 28</span> REM sleep is accompanied by:",
@@ -1011,7 +1088,8 @@
     "answer": 1,
     "answerText": "High metabolic rate",
     "explanation": "REM sleep is characterized by increased metabolic rate and brain activity, despite muscle relaxation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q78"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 29</span> Which of the following areas promotes sleep?",
@@ -1024,7 +1102,8 @@
     "answer": 1,
     "answerText": "Ventrolateral preoptic nucleus",
     "explanation": "The ventrolateral preoptic nucleus promotes sleep by inhibiting arousal centers.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q79"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 30</span> Prosopagnosia refers to an inability to recognize:",
@@ -1037,7 +1116,8 @@
     "answer": 2,
     "answerText": "Faces",
     "explanation": "Prosopagnosia is a neurological condition characterized by the inability to recognize faces.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q80"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 31</span> A patient who can speak fluently but unintelligibly suffers from:",
@@ -1050,7 +1130,8 @@
     "answer": 1,
     "answerText": "Wernicke’s aphasia",
     "explanation": "Wernicke’s aphasia results in fluent but nonsensical speech.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q81"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-01) Retake Exam - Dr. Esmail Riahi - Question 32</span> Anterograde amnesia refers to an inability to:",
@@ -1063,6 +1144,7 @@
     "answer": 1,
     "answerText": "Establish new long-term memories",
     "explanation": "Anterograde amnesia is the inability to form new long-term memories after the onset of amnesia.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "nerv-phys-q82"
   }
 ]
