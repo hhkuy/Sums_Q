@@ -10,7 +10,8 @@
     "answer": 3,
     "answerText": "Trochlear nerve",
     "explanation": "The trochlear nerve passes outside the common tendinous ring, while the other listed nerves pass through it.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 2</span> All of the following structures are related to the vascular layer of the eyeball EXCEPT:",
@@ -23,7 +24,8 @@
     "answer": 3,
     "answerText": "Sclera",
     "explanation": "The sclera is part of the fibrous layer of the eyeball, not the vascular layer.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 3</span> Sphincter pupillae can .................. pupil and is innervated by ............... nerve.",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Constricts - Parasympathetic nerve",
     "explanation": "The sphincter pupillae muscle constricts the pupil and is supplied by parasympathetic fibers.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 4</span> Highest visual sensitivity in retina is .........",
@@ -49,7 +52,8 @@
     "answer": 0,
     "answerText": "Fovea centralis",
     "explanation": "The fovea centralis is the area with the highest visual sensitivity and is rich in cones.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 5</span> All of the following sensory nerves supply the skin of the auricle EXCEPT:",
@@ -62,7 +66,8 @@
     "answer": 2,
     "answerText": "Trigeminal nerve",
     "explanation": "The auricle is supplied by branches of the vagus, facial, and great auricular nerves, but not primarily by the trigeminal nerve.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 6</span> Sensory innervation of the mucous membrane on the inner surface of the tympanic membrane is .............. .",
@@ -75,7 +80,8 @@
     "answer": 2,
     "answerText": "Glossopharyngeal nerve",
     "explanation": "The glossopharyngeal nerve supplies the inner surface of the tympanic membrane.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 7</span> Floor of the middle ear separates it from which structure?",
@@ -88,7 +94,8 @@
     "answer": 1,
     "answerText": "Jugular vein",
     "explanation": "The floor of the middle ear is related to the jugular vein (jugular bulb).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 8</span> Which nerve goes out from the anterior wall of the tympanic cavity?",
@@ -101,7 +108,8 @@
     "answer": 0,
     "answerText": "Chorda tympani",
     "explanation": "The chorda tympani nerve exits through the anterior wall of the tympanic cavity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 9</span> Tensor tympani muscle is innervated by ..........",
@@ -114,7 +122,8 @@
     "answer": 0,
     "answerText": "Mandibular nerve",
     "explanation": "The tensor tympani is supplied by the mandibular nerve (V3).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 10</span> Bony labyrinth consists of all the following parts EXCEPT:",
@@ -127,7 +136,8 @@
     "answer": 3,
     "answerText": "Saccule",
     "explanation": "The saccule is part of the membranous labyrinth, not the bony labyrinth.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 11</span> What is the innervation of the levator palpebrae superioris muscle?",
@@ -140,7 +150,8 @@
     "answer": 0,
     "answerText": "CN III",
     "explanation": "The levator palpebrae superioris is innervated by the oculomotor nerve (CN III).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 12</span> All of the following structures pass from the internal acoustic meatus EXCEPT:",
@@ -153,7 +164,8 @@
     "answer": 3,
     "answerText": "Chorda tympanic nerve",
     "explanation": "The chorda tympani does not pass through the internal acoustic meatus; it branches from the facial nerve later.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 13</span> Eustachian tube opens in which wall of the tympanic cavity?",
@@ -166,7 +178,8 @@
     "answer": 0,
     "answerText": "Anterior",
     "explanation": "The Eustachian tube opens into the anterior wall of the tympanic cavity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 14</span> All of the following structures can be seen in the medial wall of the tympanic cavity EXCEPT:",
@@ -179,7 +192,8 @@
     "answer": 3,
     "answerText": "Pyramidal eminence",
     "explanation": "The pyramidal eminence is located on the posterior wall of the tympanic cavity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 15</span> Anterior lacrimal crest is located in ..........",
@@ -192,7 +206,8 @@
     "answer": 0,
     "answerText": "Maxillary bone",
     "explanation": "The anterior lacrimal crest is part of the maxillary bone.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 16</span> Which nerve stimulates the secretion of the lacrimal gland?",
@@ -205,7 +220,8 @@
     "answer": 0,
     "answerText": "Greater petrosal nerve from facial nerve",
     "explanation": "The greater petrosal nerve is a branch of the facial nerve, carrying parasympathetic fibers to the lacrimal gland.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 17</span> Which nerve passes from the inside of the cavernous sinus?",
@@ -218,7 +234,8 @@
     "answer": 2,
     "answerText": "Abducent nerve",
     "explanation": "The abducent nerve passes through the cavernous sinus, while the others lie in its lateral wall.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Sina - Question 18</span> In which disease does the opacity of the lens increase?",
@@ -231,7 +248,8 @@
     "answer": 1,
     "answerText": "Cataracts",
     "explanation": "Cataracts are characterized by the opacity of the lens, leading to reduced vision.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Sina - Question 1</span> What is the innervation of the levator palpebrae superioris muscle?",
@@ -244,7 +262,8 @@
     "answer": 0,
     "answerText": "CN III",
     "explanation": "The levator palpebrae superioris muscle is innervated by the oculomotor nerve (CN III).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Sina - Question 2</span> All of the following nerves pass from the common tendinous ring, Except:",
@@ -257,7 +276,8 @@
     "answer": 2,
     "answerText": "Trochlear nerve",
     "explanation": "The trochlear nerve does not pass through the common tendinous ring; it enters the orbit outside of it.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Sina - Question 3</span> Which nerve passes from the inside of the cavernous sinus?",
@@ -270,7 +290,8 @@
     "answer": 1,
     "answerText": "Abducent nerve",
     "explanation": "The abducent nerve (CN VI) runs within the cavernous sinus alongside the internal carotid artery.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Sina - Question 4</span> Sphincter pupillae can .................. pupil and is innervated by ............... nerve.",
@@ -283,7 +304,8 @@
     "answer": 0,
     "answerText": "Constricts – Parasympathetic nerve",
     "explanation": "The sphincter pupillae constricts the pupil and is innervated by parasympathetic fibers from the oculomotor nerve.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Sina - Question 5</span> Highest visual sensitivity in retina is ..........",
@@ -296,7 +318,8 @@
     "answer": 2,
     "answerText": "Fovea centralis",
     "explanation": "The fovea centralis is the area of the retina with the highest visual sensitivity and sharpest vision.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Sina - Question 6</span> In which disease does the opacity of the lens increase?",
@@ -309,7 +332,8 @@
     "answer": 2,
     "answerText": "Cataracts",
     "explanation": "Cataracts are characterized by an increase in the opacity of the lens.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Sina - Question 7</span> The floor of the middle ear separates it from which structure?",
@@ -322,7 +346,8 @@
     "answer": 1,
     "answerText": "Jugular vein",
     "explanation": "The floor of the middle ear separates it from the jugular vein.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Sina - Question 8</span> The bony labyrinth consists of all the following parts EXCEPT:",
@@ -335,7 +360,8 @@
     "answer": 3,
     "answerText": "Saccule",
     "explanation": "The bony labyrinth consists of the cochlea, vestibule, and semicircular canals. The saccule is part of the membranous labyrinth.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Sina - Question 9</span> The Eustachian tube opens in which wall of the tympanic cavity?",
@@ -348,7 +374,8 @@
     "answer": 0,
     "answerText": "Anterior",
     "explanation": "The Eustachian tube opens into the anterior wall of the tympanic cavity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Sina - Question 10</span> Sensory innervation of the mucous membrane on the inner surface of the tympanic membrane is ..............",
@@ -361,6 +388,7 @@
     "answer": 2,
     "answerText": "Glossopharyngeal nerve",
     "explanation": "The inner surface of the tympanic membrane is supplied by the glossopharyngeal nerve (CN IX).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-anat-q28"
   }
 ]
