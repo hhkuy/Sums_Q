@@ -10,7 +10,8 @@
     "answer": 0,
     "answerText": "Scala media - endolymph",
     "explanation": "The scala media contains endolymph, which is produced by the stria vascularis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Golshan - Question 2</span> The ................. separates the scala media from the ......................",
@@ -23,7 +24,8 @@
     "answer": 0,
     "answerText": "Reissner's membrane - scala vestibuli",
     "explanation": "Reissner's membrane (also called the vestibular membrane) separates the scala media from the scala vestibuli.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Golshan - Question 3</span> Which of the following is NOT involved in organ of Corti?",
@@ -36,7 +38,8 @@
     "answer": 0,
     "answerText": "Stria vascularis",
     "explanation": "The stria vascularis is not part of the organ of Corti; it is involved in producing endolymph.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Golshan - Question 4</span> What are hair cells of the ear?",
@@ -49,7 +52,8 @@
     "answer": 0,
     "answerText": "Columnar mechanoreceptor cells",
     "explanation": "Hair cells are columnar mechanoreceptor cells that detect sound vibrations and head movements.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Golshan - Question 5</span> What are the layers of the cornea from posterior to anterior?",
@@ -62,7 +66,8 @@
     "answer": 1,
     "answerText": "Endothelium - Descemet's membrane - Stroma - Bowman's membrane - Epithelium",
     "explanation": "The correct sequence from posterior to anterior is Endothelium → Descemet’s membrane → Stroma → Bowman’s membrane → Epithelium.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Golshan - Question 6</span> Which is the first layer of the retina encountered by light that has entered through the pupil?",
@@ -75,7 +80,8 @@
     "answer": 3,
     "answerText": "Nerve fiber layer",
     "explanation": "Light passes through the nerve fiber layer first before reaching the photoreceptors in the retina.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Golshan - Question 7</span> Which layer of the retina contains nuclei of photoreceptor cells?",
@@ -88,7 +94,8 @@
     "answer": 2,
     "answerText": "Outer nuclear layer",
     "explanation": "The outer nuclear layer contains the cell bodies (nuclei) of the photoreceptor cells (rods and cones).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Golshan - Question 8</span> What is the outermost layer of the lens and outermost layer of retina respectively?",
@@ -101,7 +108,8 @@
     "answer": 0,
     "answerText": "Lens capsule - Pigmented epithelium",
     "explanation": "The outermost layer of the lens is the lens capsule, and the outermost layer of the retina is the pigmented epithelium.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Golshan - Question 9</span> The ................ contains .............. blood vessels formed from invading mesenchyme.",
@@ -114,7 +122,8 @@
     "answer": 0,
     "answerText": "Choroid fissure - Hyaloid",
     "explanation": "The choroid fissure contains hyaloid blood vessels derived from mesenchyme, which supply the developing eye.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Golshan - Question 10</span> Which one is due to failure of the choroid fissure to close up?",
@@ -127,7 +136,8 @@
     "answer": 0,
     "answerText": "Coloboma",
     "explanation": "Failure of the choroid fissure to close properly results in coloboma, a defect in the eye structure.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Golshan - Question 11</span> Which of the following is responsible for development of optic nerve and neural retina respectively?",
@@ -140,7 +150,8 @@
     "answer": 0,
     "answerText": "Optic stalk - Inner layer of optic cup",
     "explanation": "The optic nerve develops from the optic stalk, and the neural retina develops from the inner layer of the optic cup.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Golshan - Question 12</span> What is the origin of optic vesicle and lens vesicle respectively?",
@@ -153,7 +164,8 @@
     "answer": 1,
     "answerText": "Neuroectoderm - Surface ectoderm",
     "explanation": "The optic vesicle originates from neuroectoderm, while the lens vesicle is derived from surface ectoderm.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Golshan - Question 13</span> In the membranous labyrinth which structure is involved in translating vertical and horizontal movements of the head respectively?",
@@ -166,7 +178,8 @@
     "answer": 1,
     "answerText": "Saccule - Utricle",
     "explanation": "The saccule detects vertical movements, and the utricle detects horizontal movements.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q13"
   },
   {
     "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2024-08-05) - Dr. Golshan - Question 14</span> The otic vesicle does NOT develop into the:",
@@ -179,7 +192,8 @@
     "answer": 2,
     "answerText": "Semicircular canals",
     "explanation": "The otic vesicle develops into the inner ear structures (cochlea, saccule, utricle, semicircular canals), but not the external ear.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Golshan - Question 15</span> Which portion of the ear is derived from both endoderm and ectoderm?",
@@ -192,7 +206,8 @@
     "answer": 0,
     "answerText": "Tympanic membrane",
     "explanation": "The tympanic membrane is formed from ectoderm (external surface), endoderm (inner surface), and mesenchyme (middle layer).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Golshan - Question 16</span> The .............. is derived from the first arch and the ............ from the second arch.",
@@ -205,7 +220,8 @@
     "answer": 0,
     "answerText": "Incus - Stapes",
     "explanation": "The incus is derived from the first pharyngeal arch, while the stapes is derived from the second pharyngeal arch.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 1</span> The ................. contains ................, produced by the stria vascularis.",
@@ -218,7 +234,8 @@
     "answer": 2,
     "answerText": "Scala media – endolymph",
     "explanation": "The scala media contains endolymph, which is produced by the stria vascularis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 2</span> The ................. separates the scala media from the ......................",
@@ -231,7 +248,8 @@
     "answer": 0,
     "answerText": "Reissner's membrane – scala vestibuli",
     "explanation": "Reissner’s membrane (vestibular membrane) separates the scala media from the scala vestibuli.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 3</span> Which of the following is NOT involved in the organ of Corti?",
@@ -244,7 +262,8 @@
     "answer": 2,
     "answerText": "Stria vascularis",
     "explanation": "The stria vascularis is not part of the organ of Corti; it is located in the lateral wall of the cochlear duct.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 4</span> What are hair cells of the ear?",
@@ -257,7 +276,8 @@
     "answer": 1,
     "answerText": "Columnar mechanoreceptor cells",
     "explanation": "Hair cells in the ear are columnar mechanoreceptor cells that detect sound and head movements.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 5</span> What are the layers of the cornea from posterior to anterior?",
@@ -270,7 +290,8 @@
     "answer": 0,
     "answerText": "Endothelium – Descemet’s membrane – stroma – Bowman’s membrane – epithelium",
     "explanation": "The correct order from posterior to anterior is endothelium, Descemet’s membrane, stroma, Bowman’s membrane, and epithelium.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 6</span> Which is the first layer of the retina encountered by light that has entered through the pupil?",
@@ -283,7 +304,8 @@
     "answer": 2,
     "answerText": "Nerve fiber layer",
     "explanation": "Light passes through the retina and first encounters the nerve fiber layer before reaching the photoreceptors.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 7</span> Which layer of the retina contains nuclei of photoreceptor cells?",
@@ -296,7 +318,8 @@
     "answer": 2,
     "answerText": "Outer nuclear layer",
     "explanation": "The outer nuclear layer contains the nuclei of the rod and cone photoreceptor cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 8</span> Which one is due to failure of the choroid fissure to close up?",
@@ -309,7 +332,8 @@
     "answer": 0,
     "answerText": "Coloboma",
     "explanation": "Coloboma is a defect caused by the failure of the choroid fissure to close during eye development.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 9</span> Which of the following is responsible for development of the optic nerve and neural retina, respectively?",
@@ -322,7 +346,8 @@
     "answer": 1,
     "answerText": "Optic stalk – inner layer of optic cup",
     "explanation": "The optic nerve develops from the optic stalk, while the neural retina develops from the inner layer of the optic cup.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 10</span> What is the origin of lens vesicle and optic vesicle, respectively?",
@@ -335,7 +360,8 @@
     "answer": 0,
     "answerText": "Surface ectoderm – neuroectoderm",
     "explanation": "The lens vesicle arises from surface ectoderm, and the optic vesicle arises from neuroectoderm.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 11</span> In the membranous labyrinth, which structure is involved in translating vertical and horizontal movements of the head, respectively?",
@@ -348,7 +374,8 @@
     "answer": 1,
     "answerText": "Saccule – utricle",
     "explanation": "The saccule detects vertical movements, while the utricle detects horizontal movements.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q27"
   },
   {
     "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 12</span> The otic vesicle does NOT develop into the:",
@@ -361,7 +388,8 @@
     "answer": 1,
     "answerText": "Semicircular canals",
     "explanation": "The otic vesicle gives rise to the inner ear structures but not the tympanic membrane.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 13</span> Which portion of the ear is derived from both endoderm and ectoderm?",
@@ -374,7 +402,8 @@
     "answer": 0,
     "answerText": "Tympanic membrane",
     "explanation": "The tympanic membrane (eardrum) is derived from both endoderm (inner surface) and ectoderm (outer surface).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 14</span> The .............. is derived from the first arch and the ............ from the second arch.",
@@ -387,7 +416,8 @@
     "answer": 1,
     "answerText": "Incus – stapes",
     "explanation": "The incus is derived from the first pharyngeal arch, and the stapes is derived from the second arch.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 15</span> What is the outermost layer of the lens and the outermost layer of the retina, respectively?",
@@ -400,7 +430,8 @@
     "answer": 0,
     "answerText": "Lens capsule – pigmented epithelium",
     "explanation": "The outermost layer of the lens is the lens capsule, and the outermost layer of the retina is the pigmented epithelium.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Golshan - Question 16</span> The ................ contains .............. blood vessels formed from invading mesenchyme.",
@@ -413,6 +444,7 @@
     "answer": 1,
     "answerText": "Choroid fissure – hyaloid vessels",
     "explanation": "The choroid fissure allows the hyaloid vessels to enter and supply the developing eye.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-hist-q32"
   }
 ]
