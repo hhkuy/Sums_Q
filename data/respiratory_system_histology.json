@@ -10,7 +10,8 @@
     "answer": 3,
     "answerText": "Alveolar duct",
     "explanation": "The alveolar duct is part of the respiratory portion of the respiratory system, responsible for gas exchange, not conducting air.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "resp-hist-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-8-8) Histo. & Embry. - Dr. Golshan - Question 2</span> Which cells are responsible for mucus secretion?",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Goblet cells",
     "explanation": "Goblet cells secrete mucus that helps trap particles and pathogens in the conducting airways.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "resp-hist-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-8-8) Histo. & Embry. - Dr. Golshan - Question 3</span> The ................ are bulging into the air space, secreting surfactant.",
@@ -36,7 +38,8 @@
     "answer": 2,
     "answerText": "Type II alveolar cells",
     "explanation": "Type II alveolar cells (pneumocytes) secrete surfactant, which reduces surface tension and prevents alveolar collapse.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "resp-hist-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-8-8) Histo. & Embry. - Dr. Golshan - Question 4</span> Organization of ..................... in the bronchi is structurally similar to the trachea.",
@@ -49,7 +52,8 @@
     "answer": 2,
     "answerText": "Epithelium",
     "explanation": "The epithelium lining of the bronchi is similar to that of the trachea, consisting of pseudostratified ciliated columnar epithelium with goblet cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "resp-hist-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-8-8) Histo. & Embry. - Dr. Golshan - Question 5</span> The .................. are completely lined by the openings of alveoli.",
@@ -62,7 +66,8 @@
     "answer": 2,
     "answerText": "Alveolar ducts",
     "explanation": "Alveolar ducts are completely lined by alveolar openings, leading to alveolar sacs where gas exchange occurs.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "resp-hist-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-8-8) Histo. & Embry. - Dr. Golshan - Question 6</span> Which cells make up about 95% of the alveolar lining?",
@@ -75,7 +80,8 @@
     "answer": 0,
     "answerText": "Type I pneumocytes",
     "explanation": "Type I pneumocytes cover most of the alveolar surface and facilitate gas exchange.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "resp-hist-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-8-8) Histo. & Embry. - Dr. Golshan - Question 7</span> In the development of the lung, which of the following is NOT correct:",
@@ -88,7 +94,8 @@
     "answer": 1,
     "answerText": "Alveolar collapse in hyaline membrane disease is a result of insufficient mucous production.",
     "explanation": "Hyaline membrane disease is due to insufficient surfactant, not mucous production, causing alveolar collapse.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "resp-hist-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-8-8) Histo. & Embry. - Dr. Golshan - Question 8</span> The respiratory diverticulum develops within the floor of the pharynx between arches:",
@@ -101,7 +108,8 @@
     "answer": 2,
     "answerText": "IV and VI",
     "explanation": "The respiratory diverticulum, or lung bud, develops from the foregut between the fourth and sixth pharyngeal arches.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "resp-hist-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-8-8) Histo. & Embry. - Dr. Golshan - Question 9</span> Which of the following series of stages are in the correct developmental sequence of the lung?",
@@ -114,7 +122,8 @@
     "answer": 2,
     "answerText": "Pseudoglandular period, canalicular period, terminal sac period, alveolar period",
     "explanation": "The correct developmental sequence is pseudoglandular, canalicular, terminal sac, and alveolar periods.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "resp-hist-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-8-8) Histo. & Embry. - Dr. Golshan - Question 10</span> Which phase of lung development is the premature infant able to survive?",
@@ -127,7 +136,8 @@
     "answer": 2,
     "answerText": "Terminal sac period",
     "explanation": "During the terminal sac period, primitive alveoli develop, allowing gas exchange and making survival possible with medical intervention.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "resp-hist-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-8-8) Histo. & Embry. - Dr. Golshan - Question 11</span> Growth of the lungs continues at least until ................. of age and is primarily due to an increase in ....................",
@@ -140,7 +150,8 @@
     "answer": 1,
     "answerText": "Ten years — the number of respiratory bronchioles and alveoli",
     "explanation": "Lung growth continues until about ten years of age, mainly through the formation of new alveoli and respiratory bronchioles.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "resp-hist-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-8-8) Histo. & Embry. - Dr. Golshan - Question 12</span> Which one is due to additional respiratory buds of the foregut?",
@@ -153,6 +164,7 @@
     "answer": 1,
     "answerText": "Ectopic lung lobes",
     "explanation": "Ectopic lung lobes arise from accessory respiratory buds during early lung development.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "resp-hist-q12"
   }
 ]
