@@ -10,7 +10,8 @@
     "answer": 0,
     "answerText": "Systemic lupus erythematosus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 164</span> We injected an antigen into the skin. After forty-eight hours, the thickness of the skin increased. This phenomenon indicates which of the following?",
@@ -23,7 +24,8 @@
     "answer": 2,
     "answerText": "Tuberculin sensitivity",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 165</span> Anti-hepatitis B vaccine, bacillus tuberculosis and tetanus what are they in the order?",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Recombinant, recombinant, Toxoid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 166</span> Graves' disease is the result of which one of the following?",
@@ -49,7 +52,8 @@
     "answer": 0,
     "answerText": "Anti-TSHR antibody production",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 167</span> The lack of B7 molecule plays an essential role in the creation of which type of peripheral tolerance?",
@@ -62,7 +66,8 @@
     "answer": 0,
     "answerText": "Anergy",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 168</span> Which of the RH antigens is a more stronger antigen and is the most relevant immune response?",
@@ -75,7 +80,8 @@
     "answer": 1,
     "answerText": "D antigen",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 169</span> Which parts of the MHC Class I molecule vary from person to person?",
@@ -88,7 +94,8 @@
     "answer": 1,
     "answerText": "α1 and α2",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 170</span> In the allergic reactions what causes discharged in mast cell granules?",
@@ -101,7 +108,8 @@
     "answer": 1,
     "answerText": "Allergen bonding to IgE bound to FCR mast cells",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 171</span> All of the following features are considered as unique IgA mucus properties except:",
@@ -114,7 +122,8 @@
     "answer": 0,
     "answerText": "Complement activation is well.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 153</span> Which cytokine is secreted as inhibitory cytokine from Th2 cells and causes the inhibition of production of Th1 cytokines?",
@@ -127,7 +136,8 @@
     "answer": 0,
     "answerText": "IL-10",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 154</span> Which one are the characteristics of the acquired immune response?",
@@ -140,7 +150,8 @@
     "answer": 0,
     "answerText": "Colony expansion, diversity, memory",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 155</span> Which of the following cytokines is involved in inflammation?",
@@ -153,7 +164,8 @@
     "answer": 2,
     "answerText": "TNFα, IL-1",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 156</span> The mismatch of HLA of the donor and receptor is the main factor in all cases of rejection, except?",
@@ -166,7 +178,8 @@
     "answer": 0,
     "answerText": "GVHD",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 157</span> Which of the following molecules is involved in preventing the activation of Autoreactive T Cells?",
@@ -179,7 +192,8 @@
     "answer": 1,
     "answerText": "CTLA4",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 158</span> Which one of the following is correct in relation to the skin response caused by PPD injection in a person with TB?",
@@ -192,7 +206,8 @@
     "answer": 0,
     "answerText": "Increased delay sensitivity",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 159</span> All of the following cells in the tumor internal environment suppress immune responses but?",
@@ -205,7 +220,8 @@
     "answer": 1,
     "answerText": "NK",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 160</span> In a 30-year-old woman, 48 hours after using the cosmetic cream, there was a scattered itchy erythema with cutaneous pustules. What kind of hypersensitivity is involved in the appearance of these skin lesions?",
@@ -218,7 +234,8 @@
     "answer": 2,
     "answerText": "IV",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 161</span> Which of the following situations is the most severe blood incompatibility of mother and fetus?",
@@ -231,7 +248,8 @@
     "answer": 1,
     "answerText": "O- mother and AB+ fetus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 153</span> Which of the following cytokines is secreted as an inhibitory cytokine of Th2 cells and inhibits the production of Th1 cytokines?",
@@ -244,7 +262,8 @@
     "answer": 0,
     "answerText": "IL-10",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 154</span> Which of the following tests is applicable to ensuring that the super acute transplant rejection disorder does not occur?",
@@ -257,7 +276,8 @@
     "answer": 2,
     "answerText": "WBC Cross Match",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 155</span> A woman with a Bombay phenotype (hh) marries a man with a blood type O (HH). In your opinion the child of this couple won’t have which of the following blood types?",
@@ -270,7 +290,8 @@
     "answer": 0,
     "answerText": "AB",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 156</span> Which of the following cells is used in the determination of the HLA Class II with the serologic method?",
@@ -283,7 +304,8 @@
     "answer": 3,
     "answerText": "B Cell",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 157</span> It has been proven that the activation of Th1 cells is effective in the recovery of patients with tuberculosis. Which of the following cytokines is involved in this process?",
@@ -296,7 +318,8 @@
     "answer": 1,
     "answerText": "Interferon gamma, interleukin 12",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 158</span> Which of the following phenomena is triggered by the activation of the classical macrophages called M1 macrophages?",
@@ -309,7 +332,8 @@
     "answer": 2,
     "answerText": "Inflammation and phagocytosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 159</span> Adenosine deaminase deficiency (ADA) leads to which immunodeficiency disease?",
@@ -322,7 +346,8 @@
     "answer": 3,
     "answerText": "Severe Immune Deficiency (SCID)",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 160</span> What is the role of number one receptor of the complement, or CR1 during immune responses?",
@@ -335,7 +360,8 @@
     "answer": 0,
     "answerText": "Swallowed particles with c3b",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 161</span> What is the most main defensive cell against intracellular unicellular infections?",
@@ -348,7 +374,8 @@
     "answer": 3,
     "answerText": "Macrophage",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 162</span> A young man has complained of back pain, joint pain and spinal motion constraints. Determining which of the following HLA molecules is helpful in diagnosis?",
@@ -361,7 +388,8 @@
     "answer": 1,
     "answerText": "B27",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 183</span> In the hyper IgM syndrome, the signal transmission from which of the following pairs of molecules is disrupted?",
@@ -374,7 +402,8 @@
     "answer": 1,
     "answerText": "CD40 – CD40L",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 184</span> A 18-month-old child has had severe pain and inflammation in the deltoid muscle of the injection site after injection of the DTP reminder vaccine. Which of the following phenomena can be attributed to this situation?",
@@ -387,7 +416,8 @@
     "answer": 1,
     "answerText": "Arthus reaction",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 185</span> An individual with IgA deficiency is susceptible to which of the following parasitic infections?",
@@ -400,7 +430,8 @@
     "answer": 3,
     "answerText": "Giardiasis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 186</span> Which option is true about Skin prick test in order to diagnose food allergies?",
@@ -413,7 +444,8 @@
     "answer": 3,
     "answerText": "The positive result of this test is an indicator of the presence of IgE and the activity of mast cells in the skin.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 187</span> What will happen respectively, if there is IgG anti-antigen D or IgM anti-antigen A to the donor red blood cells in the recipient body in blood transfusion?",
@@ -426,7 +458,8 @@
     "answer": 3,
     "answerText": "Extravascular hemolysis - Intravascular hemolysis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 188</span> Vaccination against which of the following diseases is not considered in the National Vaccination Program of the Islamic Republic of Iran?",
@@ -439,7 +472,8 @@
     "answer": 0,
     "answerText": "Influenza and Meningitis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 189</span> The most important cell and immunoglobulin in killing of parasitic worms are:",
@@ -452,7 +486,8 @@
     "answer": 3,
     "answerText": "Eosinophil, IgE",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 190</span> Which of the following doesn’t normally form respectively in lymphatic nodes in people with immunodeficiency syndromes of DiGeorge syndrome and Bruton’s disease?",
@@ -465,7 +500,8 @@
     "answer": 2,
     "answerText": "Paracortex - Cortex",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 191</span> Which of the following molecules and cells aren’t involved in the process of antibody-dependent cell-mediated cytotoxicity (ADCC)?",
@@ -478,7 +514,8 @@
     "answer": 3,
     "answerText": "Eosinophil, IgM",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 192</span> BCG is categorized as which of the following vaccines?",
@@ -491,7 +528,8 @@
     "answer": 2,
     "answerText": "Attenuated Vaccines",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 183</span> Which one is the Serum protein electrophoresis pattern in a child with Bruton’s disease and an old man with Multiple myeloma According to the following pictures?",
@@ -504,7 +542,8 @@
     "answer": 2,
     "answerText": "A, B",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 184</span> Which one of the following antigen receptors has lower variety than the others?",
@@ -517,7 +556,8 @@
     "answer": 0,
     "answerText": "TLR",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q40"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 185</span> Which of the following cells doesn’t act like an antigen-presenting cell?",
@@ -530,7 +570,8 @@
     "answer": 2,
     "answerText": "T cell",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q41"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 186</span> Perforin, Histamine, and Major Basic Protein are mostly found in which of the following cells respectively?",
@@ -543,7 +584,8 @@
     "answer": 0,
     "answerText": "Natural killer cell and mast cell and eosinophil",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q42"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 187</span> How many are the protein chains in the structure of each IgM molecule in the plasma of a healthy person?",
@@ -556,7 +598,8 @@
     "answer": 2,
     "answerText": "22",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q43"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 188</span> Which of the following is not considered an antiviral independent of thymus?",
@@ -569,7 +612,8 @@
     "answer": 0,
     "answerText": "Surface antigen of hepatitis B virus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q44"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 189</span> Which of the following is less important in the survival of the connective tissue?",
@@ -582,7 +626,8 @@
     "answer": 2,
     "answerText": "Conformity between Rh blood types of receiver and receptor",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q45"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 190</span> Which of the following diseases has a lesser probability to X-linked inheritance transfer?",
@@ -595,7 +640,8 @@
     "answer": 2,
     "answerText": "DiGeorge",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q46"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 192</span> Which of the following is considered as the most important mechanism for creating central tolerance in T cells?",
@@ -608,7 +654,8 @@
     "answer": 2,
     "answerText": "Clonal Deletion",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q47"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 153</span> Which cytokine is secreted as an inhibitory cytokine from Th2 cells and causes the inhibition of production of Th1 cytokines?",
@@ -621,7 +668,8 @@
     "answer": 0,
     "answerText": "IL-10",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q48"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 154</span> Which of the following are characteristics of the acquired immune response?",
@@ -634,7 +682,8 @@
     "answer": 0,
     "answerText": "Colony expansion, diversity, memory",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q49"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 155</span> Which of the following cytokines is involved in inflammation?",
@@ -647,7 +696,8 @@
     "answer": 2,
     "answerText": "TNFα, IL-1",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q50"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 156</span> The mismatch of HLA between the donor and receptor is the main factor in all cases of rejection except:",
@@ -660,7 +710,8 @@
     "answer": 0,
     "answerText": "GVHD",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q51"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 157</span> Which of the following molecules is involved in preventing the activation of autoreactive T cells?",
@@ -673,7 +724,8 @@
     "answer": 1,
     "answerText": "CTLA4",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q52"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 158</span> Which of the following is correct in relation to the skin response caused by PPD injection in a person with TB?",
@@ -686,7 +738,8 @@
     "answer": 0,
     "answerText": "Increased delayed sensitivity",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q53"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 159</span> All of the following cells in the tumor microenvironment suppress immune responses except:",
@@ -699,7 +752,8 @@
     "answer": 1,
     "answerText": "NK",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q54"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 160</span> A 30-year-old woman, 48 hours after using a cosmetic cream, develops a scattered itchy erythema with cutaneous pustules. What type of hypersensitivity is involved in the appearance of these skin lesions?",
@@ -712,7 +766,8 @@
     "answer": 2,
     "answerText": "IV",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q55"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 161</span> Which of the following situations represents the most severe blood incompatibility between mother and fetus?",
@@ -725,7 +780,8 @@
     "answer": 1,
     "answerText": "O- mother and AB+ fetus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q56"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 183</span> Which ligand identification leads to positive identification in maturity of T lymphocytes?",
@@ -738,7 +794,8 @@
     "answer": 0,
     "answerText": "Insider MHC – Insider peptide",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q57"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 184</span> Which cytokine has the ability to stimulate mucosal immune and suppress others?",
@@ -751,7 +808,8 @@
     "answer": 0,
     "answerText": "TGF-β",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q58"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 185</span> Which of the following drug classes are more effective in inhibition of type I delayed increase of sensitivity?",
@@ -764,7 +822,8 @@
     "answer": 0,
     "answerText": "H1 receptor blockers",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q59"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 186</span> Which molecules are involved in transmitting peptide into the reticulomaendoplasmic in order to present alongside MHCI molecule?",
@@ -777,7 +836,8 @@
     "answer": 3,
     "answerText": "TAP-1 and TAP-2",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q60"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 187</span> What is the main role of TH17 cells?",
@@ -790,7 +850,8 @@
     "answer": 1,
     "answerText": "Defense against extracellular bacteria",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q61"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 188</span> Which molecule has inhibitory effect on immune responses of T cells procedures?",
@@ -803,7 +864,8 @@
     "answer": 2,
     "answerText": "CTLA-4",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q62"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 189</span> Which one is wrong about HV infection?",
@@ -816,7 +878,8 @@
     "answer": 1,
     "answerText": "The most important contaminated cells are B lymphocytes.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q63"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 190</span> In which gene does mutation occur in agammaglobulinemia?",
@@ -829,7 +892,8 @@
     "answer": 2,
     "answerText": "Bruton's tyrosine kinase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q64"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 191</span> By which group of cells are natural antibodies mainly made?",
@@ -842,7 +906,8 @@
     "answer": 3,
     "answerText": "B-1",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q65"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 192</span> Which cytokine is secreted as inhibitory cytokine from Th2 cells and causes the inhibition of production of Th1 cytokines?",
@@ -855,7 +920,8 @@
     "answer": 0,
     "answerText": "IL-10",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q66"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 183</span> Human monoclonal antibodies Anti-molecule CD20 (rituximab) is used to treat which of the following malignancies?",
@@ -868,7 +934,8 @@
     "answer": 0,
     "answerText": "B cell lymphoma",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q67"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 184</span> Which cytokine is involved in the class switching of the antibody to the IgE isotype?",
@@ -881,7 +948,8 @@
     "answer": 2,
     "answerText": "IL-4",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q68"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 185</span> Citrullination of proteins such as desmin, vimentin, and filaggrin stimulates which autoimmune disease?",
@@ -894,7 +962,8 @@
     "answer": 1,
     "answerText": "Rheumatoid arthritis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q69"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 186</span> Treatment of which one of the congenital immune deficiencies (Primary) is largely based on passive immunization?",
@@ -907,7 +976,8 @@
     "answer": 3,
     "answerText": "X-linked agammaglobulinemia (XLA)",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q70"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 187</span> Splenectomy in an individual makes them susceptible to which one of the following infections?",
@@ -920,7 +990,8 @@
     "answer": 2,
     "answerText": "Infection with capsular bacteria",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q71"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 188</span> Viruses, by inhibiting the TAP protein and removing MHC molecules from the ER network, make which one of the host's defense mechanisms ineffective?",
@@ -933,7 +1004,8 @@
     "answer": 2,
     "answerText": "NK cell activity",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q72"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 189</span> The cells supplying antigens to the Th cells include which one of the following cells?",
@@ -946,7 +1018,8 @@
     "answer": 3,
     "answerText": "Dendritic cells, Macrophages, Lymphocyte B",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q73"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 190</span> Differentiation of Th1 cells from Th2 is based on which one of the following?",
@@ -959,7 +1032,8 @@
     "answer": 0,
     "answerText": "Cytokine discharge pattern",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q74"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 191</span> Which cytokines are used for the treatment of neutropenia after chemotherapy in bone marrow transplantation?",
@@ -972,7 +1046,8 @@
     "answer": 3,
     "answerText": "GM-CSF, G-CSF",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q75"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 192</span> Which of the following cytokines is secreted as an inhibitory cytokine from Th2 cells and inhibits the production of Th1 cytokines?",
@@ -985,7 +1060,8 @@
     "answer": 0,
     "answerText": "IL-10",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q76"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 163</span> The chemical structure below indicates terminal sugars of which of the following blood groups?<br><img src='https://i.imgur.com/NxTVzXj.jpeg' style='max-width: 100%; height: auto;'>",
@@ -998,7 +1074,8 @@
     "answer": 0,
     "answerText": "A",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q77"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 164</span> Intravenous anti-venereal equine anti-serum injection into a farmer who has been snakebitten is likely to cause what kind of hypersensitivity?",
@@ -1011,7 +1088,8 @@
     "answer": 2,
     "answerText": "Type III",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q78"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 165</span> Increased susceptibility to Neisseria Infection (Neisseria gonorrhoeae and Neisseria Meningitidis) is usually the consequence of which complementary deficiencies?",
@@ -1024,7 +1102,8 @@
     "answer": 3,
     "answerText": "C7, C6, C5",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q79"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 166</span> What group does a serum get categorized in if it can agglutinate the red blood cells of A+, B-, and O+?",
@@ -1037,7 +1116,8 @@
     "answer": 0,
     "answerText": "AB with positive Rh",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q80"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 167</span> What kind of transplant usually leads to Graft-versus-host disease (GVHD)?",
@@ -1050,7 +1130,8 @@
     "answer": 1,
     "answerText": "Bone marrow",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q81"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 168</span> The picture indicates the interaction between which of these two cells?<br><img src='https://i.imgur.com/FhwrWL0.jpeg' style='max-width: 100%; height: auto;'>",
@@ -1063,7 +1144,8 @@
     "answer": 3,
     "answerText": "Dendritic cell (Right) and T cell (Left)",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q82"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 169</span> Which immunodeficiency disease is characterized by a lack of immunoglobulins in the blood and a lack of tonsils in children?",
@@ -1076,7 +1158,8 @@
     "answer": 3,
     "answerText": "Bruton",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q83"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 170</span> Which of the following disorders causes IPEX self-immune syndrome or 'Immune dysregulation polyendocrinopathy enteropathy X-linked'?",
@@ -1089,7 +1172,8 @@
     "answer": 0,
     "answerText": "Defective production of FoxP3",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q84"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 171</span> Which of the first class A (MHC) adaptive system alleles has a higher polymorphism in the human population?",
@@ -1102,7 +1186,8 @@
     "answer": 1,
     "answerText": "B allele",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q85"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 163</span> Which of the following indicates the activity of the immune system against tumors?",
@@ -1115,7 +1200,8 @@
     "answer": 1,
     "answerText": "The presence of T and NK cells around the tumor",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q86"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 164</span> Which of the following tests is to prioritize patients with congenital immunodeficiency?",
@@ -1128,7 +1214,8 @@
     "answer": 1,
     "answerText": "Surveillance of antibody level",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q87"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 165</span> Which of the following tests do you recommend for laboratory diagnosis of a disease that has clinical symptoms of meningococcal meningitis?",
@@ -1141,7 +1228,8 @@
     "answer": 1,
     "answerText": "Measuring complement components",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q88"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 166</span> The product of which of the following genes in HIV virus is bonded to LTR and activates the transcription?",
@@ -1154,7 +1242,8 @@
     "answer": 0,
     "answerText": "tat",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q89"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 167</span> All of the following are true about thymus but:",
@@ -1167,7 +1256,8 @@
     "answer": 3,
     "answerText": "The medulla has hassall's corpuscles.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q90"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 168</span> Which of the following diseases is caused by the production of antibodies against acetylcholine receptor?",
@@ -1180,7 +1270,8 @@
     "answer": 2,
     "answerText": "Myasthenia Gravis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q91"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 169</span> Which immunodeficiency disease is characterized by a lack of immunoglobulins in the blood and a lack of tonsils in children?",
@@ -1193,7 +1284,8 @@
     "answer": 3,
     "answerText": "Bruton",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q92"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 170</span> Which of the following disorders causes IPEX self-immune syndrome or 'Immune dysregulation polyendocrinopathy enteropathy X-linked'?",
@@ -1206,7 +1298,8 @@
     "answer": 0,
     "answerText": "Defective production of FoxP3",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q93"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 171</span> Which of the first class A (MHC) adaptive system alleles has a higher polymorphism in the human population?",
@@ -1219,7 +1312,8 @@
     "answer": 1,
     "answerText": "B allele",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q94"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 163</span> Changes caused by hypermutation in which part of the antibodies produced against the protein antigens will increase the combination desire of antibody?",
@@ -1232,7 +1326,8 @@
     "answer": 1,
     "answerText": "Fab",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q95"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 164</span> In the processing and presentation of zika virus antigens (Zika virus), all of the following molecules are involved but:",
@@ -1245,7 +1340,8 @@
     "answer": 1,
     "answerText": "CLIP",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q96"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 165</span> Which of the T cells plays the most important role in response to helminth infection?",
@@ -1258,7 +1354,8 @@
     "answer": 1,
     "answerText": "Th2",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q97"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 166</span> Which cell has the most important role in increasing the severity of secondary immune response in comparison to primary immune response?",
@@ -1271,7 +1368,8 @@
     "answer": 3,
     "answerText": "Memory cells",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q98"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 167</span> Granular offloading inhibition of which of the following cells is used to treat a person with allergic rhinitis?",
@@ -1284,7 +1382,8 @@
     "answer": 3,
     "answerText": "Mast cells",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q99"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 168</span> All of the following methods can be used for cancer immunotherapy but:",
@@ -1297,7 +1396,8 @@
     "answer": 3,
     "answerText": "Use of anti-TNF – α antibodies",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q100"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 169</span> Which immunodeficiency disease is characterized by a lack of immunoglobulins in the blood and a lack of tonsils in children?",
@@ -1310,7 +1410,8 @@
     "answer": 3,
     "answerText": "Bruton",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q101"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 170</span> Which of the following disorders causes IPEX self-immune syndrome or 'Immune dysregulation poly endocrinopathy enteropathy X linked'?",
@@ -1323,7 +1424,8 @@
     "answer": 0,
     "answerText": "Defective production of FoxP3",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q102"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 171</span> Which of the alleles of major histocompatibility complex class I (MHC 1) has a higher polymorphism in human population?",
@@ -1336,7 +1438,8 @@
     "answer": 1,
     "answerText": "B",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q103"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 136</span> Which immunodeficiency disease is characterized by a lack of immunoglobulins in the blood and a lack of tonsils in children?",
@@ -1349,7 +1452,8 @@
     "answer": 3,
     "answerText": "Bruton",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q104"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 137</span> Which of the following disorders causes IPEX self-immune syndrome or 'Immune dysregulation polyendocrinopathy enteropathy X-linked'?",
@@ -1362,7 +1466,8 @@
     "answer": 0,
     "answerText": "Defective production of FoxP3",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q105"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 138</span> Which of the first class A (MHC) adaptive system alleles has a higher polymorphism in the human population?",
@@ -1375,7 +1480,8 @@
     "answer": 1,
     "answerText": "B allele",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q106"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 139</span> Which one are the mutual characteristic of receptors of B and T cells?",
@@ -1388,7 +1494,8 @@
     "answer": 2,
     "answerText": "Presence of message transfer molecules",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q107"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 140</span> All of the following are true about primary and secondary response but:",
@@ -1401,7 +1508,8 @@
     "answer": 1,
     "answerText": "The primary response is with antibodies with more affinity.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q108"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 141</span> Which one is correct about the positive selection of thymocytes in the thymus?",
@@ -1414,7 +1522,8 @@
     "answer": 2,
     "answerText": "Selection of thymocytes with receptors for familiar MHC molecules",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q109"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 142</span> What is the mechanism of the immune system for ultra-severe rejection of the transplant?",
@@ -1427,7 +1536,8 @@
     "answer": 1,
     "answerText": "Humoral immune system and previous presence of antibodies",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q110"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 143</span> Which cytokine has the major role in increased secretion of mucosa in asthma?",
@@ -1440,7 +1550,8 @@
     "answer": 3,
     "answerText": "IL-13",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q111"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 144</span> Which type of hypersensitivity reaction is the response of skin to Candida antigens?",
@@ -1453,7 +1564,8 @@
     "answer": 1,
     "answerText": "Type IV",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q112"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 163</span> Which of the followings is common in γ/σ and α/β receptors?",
@@ -1466,7 +1578,8 @@
     "answer": 3,
     "answerText": "CD3 ε chain",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q113"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 164</span> Which component of the complement affects both C2 and C4 and breaks them into two parts of a and b?",
@@ -1479,7 +1592,8 @@
     "answer": 1,
     "answerText": "C1 s",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q114"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 165</span> Which of the tissue destruction reactions results in granuloma formation after mycobacterium tuberculosis infection?",
@@ -1492,7 +1606,8 @@
     "answer": 3,
     "answerText": "Type IV",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q115"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 166</span> Which of the following is the most important mechanism in peripheral tolerance of T cells?",
@@ -1505,7 +1620,8 @@
     "answer": 0,
     "answerText": "Anergy",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q116"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 167</span> Which of the following markers is specific for NK cells?",
@@ -1518,7 +1634,8 @@
     "answer": 3,
     "answerText": "CD56",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q117"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 168</span> Which of the followings plays the main role in the transduction of the second signal for activation of B lymphocytes?",
@@ -1531,7 +1648,8 @@
     "answer": 2,
     "answerText": "CD40-L, CD40",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q118"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 169</span> Which one of the following immune deficiency diseases is associated with immunoglobulin deficiency in blood and lack of tonsils in children?",
@@ -1544,7 +1662,8 @@
     "answer": 3,
     "answerText": "Bruton",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q119"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 170</span> Which of the following disorders causes the IPEX syndrome 'Immune Dysregulation Polyendocrinopathy Enteropathy X'?",
@@ -1557,7 +1676,8 @@
     "answer": 0,
     "answerText": "Deficiency in Foxp3 production",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q120"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 171</span> Which one of the MHC1 alleles has the most polymorphism in the community?",
@@ -1570,7 +1690,8 @@
     "answer": 1,
     "answerText": "Allele B",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q121"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 163</span>In regards to exogenic antigens presentation, which of the following phrases is correct?",
@@ -1583,7 +1704,8 @@
     "answer": 2,
     "answerText": "MHC II to TCD4+",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q122"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 164</span>Regarding the secretory antibody advantages in mucosal surfaces such as resistance against bacterial proteases and insufficient capacities to complement activation, which of the antibody subclasses is mostly preferred?",
@@ -1596,7 +1718,8 @@
     "answer": 1,
     "answerText": "IgA2",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q123"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 165</span>Defects in which one of the following phenomena cause selective IgA deficiency?",
@@ -1609,7 +1732,8 @@
     "answer": 3,
     "answerText": "Class switching",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q124"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 166</span>A 23-year-old lady with a past history of sneezing and nasal discharge for around 4 years was admitted to a clinic. Her mother also suffered from asthma. Measurement of which one of the following components best defines the prognosis of symptoms?",
@@ -1622,7 +1746,8 @@
     "answer": 2,
     "answerText": "Leukotrienes",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q125"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 167</span>Which of these cells are more potent antigen-presenting cells to naive T cells?",
@@ -1635,7 +1760,8 @@
     "answer": 3,
     "answerText": "Dendritic Cells",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q126"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 168</span>In which of these autoimmune diseases, 'type IV mediated tissue damage' plays the major role?",
@@ -1648,7 +1774,8 @@
     "answer": 0,
     "answerText": "Multiple sclerosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q127"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 169</span>Interaction of which molecules on T cell and antigen-presenting cell (APC) leads to the creation of the second activation signal for T cells?",
@@ -1661,7 +1788,8 @@
     "answer": 0,
     "answerText": "B7-CD28",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q128"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 170</span>Which of the following defects causes Chronic Granulomatous Disease (CGD)?",
@@ -1674,7 +1802,8 @@
     "answer": 2,
     "answerText": "Defect in superoxide anion production",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q129"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 171</span>Which of the following mechanisms induce central and peripheral B cell and central T cell tolerance?",
@@ -1687,7 +1816,8 @@
     "answer": 3,
     "answerText": "Clonal deletion",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q130"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 166</span> Which of the following choices is the main mechanism of innate immune response against extracellular bacteria?",
@@ -1700,7 +1830,8 @@
     "answer": 0,
     "answerText": "Phagocytosis and inflammatory response",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q131"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 167</span> After HIV infection, all of the following cells will decrease gradually, EXCEPT:",
@@ -1713,7 +1844,8 @@
     "answer": 3,
     "answerText": "NK cells",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q132"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 168</span> Which of the following choices is the cause of severe combined immune deficiency?",
@@ -1726,7 +1858,8 @@
     "answer": 2,
     "answerText": "Lack of B and T lymphocytes",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q133"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 169</span> What is the most important antigen-presenting cell (APC)?",
@@ -1739,7 +1872,8 @@
     "answer": 1,
     "answerText": "Dendritic cell",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q134"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 170</span> Which of the following choices plays a less important role in increasing and intensifying tissue inflammation?",
@@ -1752,7 +1886,8 @@
     "answer": 3,
     "answerText": "Increasing IL-10, TGFβ",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q135"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 171</span> Which of the following choices happens through the production and increase of IgE?",
@@ -1765,7 +1900,8 @@
     "answer": 3,
     "answerText": "Immediate hypersensitivity",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q136"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 172</span> Which of the following is the most common method in cancer immunotherapy?",
@@ -1778,7 +1914,8 @@
     "answer": 1,
     "answerText": "Monoclonal antibodies",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q137"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 173</span> Fibrosis in the tissue of a transplanted kidney is a sign of which of the following rejections?",
@@ -1791,7 +1928,8 @@
     "answer": 2,
     "answerText": "Chronic",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q138"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 174</span> Lack of which of the following molecules is the reason for hereditary angioedema disease?",
@@ -1804,7 +1942,8 @@
     "answer": 1,
     "answerText": "C1 inhibitor",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q139"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 175</span> Which of the following cells is the most phagocytic leukocyte in the blood?",
@@ -1817,7 +1956,8 @@
     "answer": 2,
     "answerText": "Neutrophils",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q140"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 176</span> Which of the following TLRs is located endosomally inside the cell?",
@@ -1830,7 +1970,8 @@
     "answer": 0,
     "answerText": "TLR3-7-8-9",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q141"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 177</span> Which of the following molecules is an antibacterial peptide on the surface of epithelial cells?",
@@ -1843,7 +1984,8 @@
     "answer": 1,
     "answerText": "Defensin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q142"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 178</span> Which of the following costimulatory receptors is specific for T lymphocytes?",
@@ -1856,7 +1998,8 @@
     "answer": 3,
     "answerText": "CD28",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q143"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 179</span> M cells (in the intestine) have all of the following characteristics, EXCEPT:",
@@ -1869,7 +2012,8 @@
     "answer": 2,
     "answerText": "Antigen processing",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q144"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 180</span> The link between infection and autoimmunity is not related to which of the following mechanisms?",
@@ -1882,7 +2026,8 @@
     "answer": 3,
     "answerText": "Activating regulatory cells",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q145"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 163</span> Desensitization is one of the recommended treatments for allergies. Which of the following is not considered as the mechanism of this treatment?",
@@ -1895,7 +2040,8 @@
     "answer": 3,
     "answerText": "Increased production of IgG",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q146"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 164</span> Following outcomes are considered as the consequences of naïve B lymphocyte activation by protein antigens, except for:",
@@ -1908,7 +2054,8 @@
     "answer": 3,
     "answerText": "Increased expression of B7",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q147"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 165</span> Which type of the following cytokines causes antibody class switching to IgE?",
@@ -1921,7 +2068,8 @@
     "answer": 0,
     "answerText": "IL-4, IL-13",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q148"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 166</span> Which of the following items regarding transport of peptides and loading of MHC molecules is correct?",
@@ -1934,7 +2082,8 @@
     "answer": 2,
     "answerText": "Tapasin: Class II",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q149"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 167</span> The following choices regarding hyperacute rejection are true, except:",
@@ -1947,7 +2096,8 @@
     "answer": 0,
     "answerText": "Mediated by T cells and antibodies",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q150"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 168</span> A farmer who was stung by an unknown type of scorpion, admitted in the emergency ward. Which of the following choices could be the selected treatment and what is the reason for this selection?",
@@ -1960,7 +2110,8 @@
     "answer": 2,
     "answerText": "Administration of a vaccine prepared from various types of scorpions to provide protection at the moment and in the future",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q151"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 169</span> In which of the following choices, the type of hypersensitivity leading to the disease is not correct?",
@@ -1973,7 +2124,8 @@
     "answer": 0,
     "answerText": "Multiple sclerosis - Type II",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q152"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 170</span> Which of the following molecules plays a role in the survival and progression of the tumor, through inhibition of immune response?",
@@ -1986,7 +2138,8 @@
     "answer": 0,
     "answerText": "CTLA-4",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q153"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 171</span> Which of the following drugs inhibits calcineurin, leading to inhibition of T-cell activity resulting in graft survival?",
@@ -1999,7 +2152,8 @@
     "answer": 0,
     "answerText": "Cyclosporine A (CsA)",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q154"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 163</span> Which of the following is a feature of innate immunity?",
@@ -2012,7 +2166,8 @@
     "answer": 2,
     "answerText": "Immediate response",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q155"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 164</span> Which immunoglobulin is the most abundant in mucosal secretions?",
@@ -2025,7 +2180,8 @@
     "answer": 1,
     "answerText": "IgA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q156"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 165</span> Which of the following cells is responsible for mediating allergic reactions?",
@@ -2038,7 +2194,8 @@
     "answer": 2,
     "answerText": "Eosinophils",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q157"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 166</span> What is the primary function of dendritic cells in the immune system?",
@@ -2051,7 +2208,8 @@
     "answer": 1,
     "answerText": "Antigen presentation",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q158"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 167</span> Which cytokine is primarily involved in the differentiation of naïve T cells into Th1 cells?",
@@ -2064,7 +2222,8 @@
     "answer": 3,
     "answerText": "IL-12",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q159"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 168</span> In which part of the lymph node does the proliferation of B cells primarily occur?",
@@ -2077,7 +2236,8 @@
     "answer": 3,
     "answerText": "Germinal center",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q160"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 169</span> Which of the following is a characteristic of type IV hypersensitivity?",
@@ -2090,7 +2250,8 @@
     "answer": 1,
     "answerText": "Mediated by T cells",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q161"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 170</span> Which of the following complement pathways is activated by antigen-antibody complexes?",
@@ -2103,6 +2264,7 @@
     "answer": 0,
     "answerText": "Classical pathway",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-immu-q162"
   }
 ]
