@@ -10,7 +10,8 @@
     "answer": 3,
     "answerText": "All of the choices",
     "explanation": "Th1 cells play a significant role in anti-tumor immunity by producing cytokines like IFN-gamma that activate macrophages and cytotoxic T cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 2</span> Which of the following is less involved in an effective anti-tumor immune response?",
@@ -23,7 +24,8 @@
     "answer": 2,
     "answerText": "Antibody",
     "explanation": "Antibodies are less effective against solid tumors, where cell-mediated immunity plays a dominant role.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 3</span> Regarding the “tumor immunoediting” phases, choose the correct option.",
@@ -36,7 +38,8 @@
     "answer": 0,
     "answerText": "In the Escape phase, the cytokine IL-10 increases",
     "explanation": "The Escape phase involves tumor evasion mechanisms, including the upregulation of immunosuppressive cytokines like IL-10.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 4</span> Which statement is correct about the central tolerance of T cells?",
@@ -49,7 +52,8 @@
     "answer": 1,
     "answerText": "Antigen presenting cells (APCs) are engaged",
     "explanation": "Central tolerance involves APCs in the thymus presenting self-antigens to developing T cells, ensuring proper selection.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 5</span> Which one leads to T lymphocyte nonresponsiveness (anergy) in peripheral tissues?",
@@ -62,7 +66,8 @@
     "answer": 3,
     "answerText": "Lack of inflammatory cytokines",
     "explanation": "The absence of inflammatory signals or costimulatory molecules can lead to T cell anergy, preventing an immune response.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 6</span> What happens during the process of “positive selection” in central tolerance?",
@@ -75,7 +80,8 @@
     "answer": 1,
     "answerText": "Weak recognition of self-antigens",
     "explanation": "T cells that weakly recognize self-MHC molecules are positively selected in the thymus, allowing their survival and maturation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 7</span> What is the function of M cells in mucosal immunity?",
@@ -88,7 +94,8 @@
     "answer": 2,
     "answerText": "Antigen sampling",
     "explanation": "M cells sample antigens from the lumen and deliver them to underlying immune cells for surveillance.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 8</span> Which of the following is a major characteristic of mucosal barrier immunity?",
@@ -101,7 +108,8 @@
     "answer": 2,
     "answerText": "Dendritic cells are important players of tolerogenic state",
     "explanation": "Dendritic cells in mucosal immunity help maintain a state of tolerance to commensal microbes and food antigens.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 9</span> Inflammatory bowel disease (IBD) is initiated by ……………….",
@@ -114,7 +122,8 @@
     "answer": 2,
     "answerText": "Unwanted immune response to normal flora",
     "explanation": "IBD results from an inappropriate immune response directed against the commensal microbiota of the gut.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 10</span> The “class switching” of B cells occurs in ………...?",
@@ -127,7 +136,8 @@
     "answer": 2,
     "answerText": "Mature cells after antigen exposure",
     "explanation": "Class switching occurs in mature B cells after antigen exposure, allowing them to produce different classes of antibodies.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 11</span> The immune response of B cells against polysaccharide and protein antigens, is different in ……………..",
@@ -140,7 +150,8 @@
     "answer": 3,
     "answerText": "All of the choices",
     "explanation": "B cell responses to different antigen types vary in cytokine requirements, antigen processing mechanisms, and plasma cell longevity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 12</span> What is the first antibody that B cells produce during an immune response?",
@@ -153,7 +164,8 @@
     "answer": 2,
     "answerText": "IgM",
     "explanation": "IgM is the first antibody produced by B cells in the primary immune response.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 13</span> A 2-month-old boy is evaluated for recurrent respiratory infections, poor feeding, and failure to thrive. Physical examination reveals a small jaw, low-set ears, and a cleft palate. Echocardiography shows a heart defect. Laboratory tests reveal low absolute lymphocyte count. Chest X-ray shows an absent thymic shadow. What is the most likely diagnosis?",
@@ -166,7 +178,8 @@
     "answer": 2,
     "answerText": "DiGeorge syndrome (22q11.2 deletion syndrome)",
     "explanation": "DiGeorge syndrome presents with thymic hypoplasia, characteristic facial features, and congenital heart defects due to a 22q11.2 deletion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 14</span> A 28-year-old woman presents with a history of recurrent respiratory tract infections, including sinusitis and bronchitis, since childhood. Physical examination reveals mild splenomegaly. Laboratory tests show normal count of B cells but low levels of immunoglobulins (IgG, IgA, and IgM), and a reduced response to vaccination. What is the most likely diagnosis?",
@@ -179,7 +192,8 @@
     "answer": 1,
     "answerText": "Common Variable Immunodeficiency (CVID)",
     "explanation": "CVID is characterized by low immunoglobulin levels despite normal B cell counts and a poor vaccine response.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 15</span> A 2-month-old male infant presents with a history of delayed umbilical cord separation, which occurred at 6 weeks of age. Physical examination reveals poor wound healing. Laboratory studies show marked leukocytosis with neutrophilia. What is the cause of this immunodeficiency?",
@@ -192,7 +206,8 @@
     "answer": 2,
     "answerText": "Leukocyte adhesion deficiency (LAD)",
     "explanation": "LAD is marked by delayed umbilical cord detachment, neutrophilia, and poor wound healing due to defective leukocyte migration.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 16</span> All of the following cells express MHC class II molecules, EXCEPT:",
@@ -205,7 +220,8 @@
     "answer": 3,
     "answerText": "All nucleated cells",
     "explanation": "MHC class II molecules are expressed by antigen-presenting cells, whereas all nucleated cells express MHC class I.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 17</span> Cross-presentation is crucial for initiating immune responses against ...............",
@@ -218,7 +234,8 @@
     "answer": 1,
     "answerText": "Viruses",
     "explanation": "Cross-presentation allows dendritic cells to present exogenous viral antigens via MHC class I to CD8+ T cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 18</span> MHC class I molecules present ….. antigens to ..… cells, while MHC class II molecules present ……. antigens to ….… cells.",
@@ -231,7 +248,8 @@
     "answer": 1,
     "answerText": "Endogenous, CD8+ T; exogenous, CD4+ T",
     "explanation": "MHC class I presents endogenous antigens to CD8+ T cells, while MHC class II presents exogenous antigens to CD4+ T cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 19</span> All of the following are characteristics of the innate immune system, EXCEPT:",
@@ -244,7 +262,8 @@
     "answer": 3,
     "answerText": "Specific recognition of antigens",
     "explanation": "The innate immune system recognizes broad patterns but does not have the specific antigen recognition characteristic of the adaptive immune system.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 20</span> Which one is the function of neutrophils in the innate immune system?",
@@ -257,7 +276,8 @@
     "answer": 0,
     "answerText": "Phagocytosis of pathogens and NET formation",
     "explanation": "Neutrophils are key players in phagocytosing pathogens and releasing neutrophil extracellular traps (NETs) to trap microbes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 21</span> Inflammation is caused as a result of infection and injury. Which of the following is a common sign of acute inflammation?",
@@ -270,7 +290,8 @@
     "answer": 1,
     "answerText": "Swelling",
     "explanation": "Swelling is one of the five cardinal signs of acute inflammation, alongside redness, heat, pain, and loss of function.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 22</span> Where does T-cell receptor (TCR) rearrangement primarily occur?",
@@ -283,7 +304,8 @@
     "answer": 3,
     "answerText": "Thymus",
     "explanation": "TCR rearrangement occurs in the thymus during T cell development, ensuring T cells recognize antigens in association with MHC molecules.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 23</span> All of the following are the functions of CD8+ T cells, EXCEPT:",
@@ -296,7 +318,8 @@
     "answer": 1,
     "answerText": "Antibody-dependent cell cytotoxicity",
     "explanation": "CD8+ T cells directly kill target cells using cytotoxic mechanisms, whereas antibody-dependent cytotoxicity involves NK cells and antibodies.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 24</span> Where do the majority of T lymphocytes can be found after development in the thymus?",
@@ -309,7 +332,8 @@
     "answer": 1,
     "answerText": "Periarteriolar lymphoid sheath (PALS) in spleen",
     "explanation": "After maturation in the thymus, T cells are predominantly found in the PALS region of the spleen, a T cell-rich area.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 25</span> A 30-year-old woman comes to the clinic with a rash and itching on her hands and forearms that started 48 hours after using a new brand of lotion. On physical examination, erythematous, raised lesions with some scaling are noted where the lotion was applied. There is no swelling of the lips or throat. The patient does NOT complain of difficult breathing or any systemic symptoms such as fever.",
@@ -322,7 +346,8 @@
     "answer": 3,
     "answerText": "Type IV hypersensitivity (T-cell mediated)",
     "explanation": "Type IV hypersensitivity (e.g., contact dermatitis) is mediated by T cells and typically occurs 48–72 hours after exposure to the allergen.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 26</span> Patch test and prick test are respectively used for:",
@@ -335,7 +360,8 @@
     "answer": 2,
     "answerText": "Hypersensitivity type IV and I",
     "explanation": "The patch test is used for diagnosing type IV hypersensitivity (e.g., contact dermatitis), while the prick test is used for type I hypersensitivity (e.g., allergic reactions).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 27</span> Which immunological disease is classified as a type II hypersensitivity reaction?",
@@ -348,7 +374,8 @@
     "answer": 1,
     "answerText": "Graves’ disease",
     "explanation": "Graves' disease is a type II hypersensitivity reaction in which antibodies target and activate the TSH receptor, leading to hyperthyroidism.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 28</span> How does the immune system deal with intracellular pathogens (intra-vesicular)?",
@@ -361,7 +388,8 @@
     "answer": 1,
     "answerText": "Phagolysosome formation",
     "explanation": "Intracellular pathogens located in vesicles are killed through phagolysosome formation and subsequent enzymatic degradation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 29</span> All of the immune evasion mechanisms are used by viruses, EXCEPT:",
@@ -374,7 +402,8 @@
     "answer": 1,
     "answerText": "Resistance to phagocytosis",
     "explanation": "Viruses primarily evade the immune system by interfering with antigen presentation or cytokine signaling, but resistance to phagocytosis is more typical of bacteria.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 30</span> A 20-year-old man was clinically diagnosed with helminth infection, which of the following is expected to be seen in a blood test?",
@@ -387,7 +416,8 @@
     "answer": 2,
     "answerText": "Eosinophilia",
     "explanation": "Helminth infections typically cause eosinophilia due to the activation of Th2-mediated immune responses.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 31</span> Which of the following is a consequence of complement activation in the immune system?",
@@ -400,7 +430,8 @@
     "answer": 1,
     "answerText": "Promotion of phagocytosis",
     "explanation": "Complement activation leads to opsonization, which enhances the efficiency of phagocytosis by immune cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 32</span> A 5-year-old child presents with recurrent bacterial infections, particularly with *Neisseria* species. Which one is the most likely cause of her symptoms?",
@@ -413,7 +444,8 @@
     "answer": 1,
     "answerText": "Deficiency in membrane attack complex formation",
     "explanation": "Deficiency in the membrane attack complex (MAC) impairs the lysis of Gram-negative bacteria like *Neisseria*.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 33</span> Which of the following is the activator of the classical pathway of the complement system?",
@@ -426,7 +458,8 @@
     "answer": 1,
     "answerText": "Antibody",
     "explanation": "The classical complement pathway is activated when antibodies bind to antigens and trigger complement protein C1.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 34</span> Key cells in adaptive immunity are:",
@@ -439,7 +472,8 @@
     "answer": 0,
     "answerText": "B cells, T helper cells, Cytotoxic T cells",
     "explanation": "The adaptive immune system primarily involves B cells, T helper cells, and cytotoxic T cells for specific immune responses.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 35</span> Haematopoietic stem cells differentiate into two progenitor cells named:",
@@ -452,7 +486,8 @@
     "answer": 0,
     "answerText": "Myeloid and lymphoid",
     "explanation": "Hematopoietic stem cells give rise to myeloid and lymphoid progenitors, which further differentiate into various immune cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 36</span> The main difference between ……... and other immune cells is the expression of histamine.",
@@ -465,7 +500,8 @@
     "answer": 1,
     "answerText": "Basophils",
     "explanation": "Basophils are known for their ability to release histamine, which plays a role in allergic and inflammatory responses.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 37</span> Which of the following is correct about monoclonal antibody?",
@@ -478,7 +514,8 @@
     "answer": 1,
     "answerText": "It is only produced against one epitope",
     "explanation": "Monoclonal antibodies are specific to a single epitope, making them useful in targeted therapies and diagnostics.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 38</span> Which of the following best describes the term \"epitope\"?",
@@ -491,7 +528,8 @@
     "answer": 1,
     "answerText": "A part of antigen recognized by TCR & BCR",
     "explanation": "An epitope is the specific part of an antigen recognized by T cell receptors (TCRs) and B cell receptors (BCRs).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 39</span> Dendritic cells (DC) play all the following roles regarding the immune response to antigens EXCEPT:",
@@ -504,7 +542,8 @@
     "answer": 3,
     "answerText": "Antibodies production",
     "explanation": "Dendritic cells do not produce antibodies; instead, they present antigens and activate T cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 40</span> What type of bond primarily stabilizes the interaction between an antibody and its antigen?",
@@ -517,7 +556,8 @@
     "answer": 1,
     "answerText": "Non-covalent interactions",
     "explanation": "The interaction between antibodies and antigens is primarily stabilized by non-covalent interactions, such as hydrogen bonds and electrostatic forces.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q40"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 41</span> Which of the following antibodies have the highest avidity?",
@@ -530,7 +570,8 @@
     "answer": 2,
     "answerText": "IgM",
     "explanation": "IgM has the highest avidity due to its pentameric structure, allowing it to bind multiple antigens simultaneously.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q41"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 42</span> Which of the following technique is the best for identifying the CD4+ T cell number in blood?",
@@ -543,7 +584,8 @@
     "answer": 2,
     "answerText": "Flowcytometry",
     "explanation": "Flowcytometry is the standard technique for counting CD4+ T cells and analyzing their expression in blood samples.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q42"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 43</span> Which statement defines pleiotropy of cytokine effects?",
@@ -556,7 +598,8 @@
     "answer": 1,
     "answerText": "One cytokine having multiple effects on different cell types",
     "explanation": "Pleiotropy refers to a single cytokine exerting different effects on various target cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q43"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 44</span> What is the main cytokine required for CD4+ T cells proliferation?",
@@ -569,7 +612,8 @@
     "answer": 1,
     "answerText": "IL-2",
     "explanation": "IL-2 is a crucial cytokine for the proliferation and survival of activated CD4+ T cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q44"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2025-1-14) Dr. Ehsan Sharif & Dr. Tahereh Soltantoyeh & Dr. Mahdi Mohammadi - Question 45</span> The main cytokine secreted by CD4+ Th1 cells is …………… that is crucial for immune response against …….….microbes.",
@@ -582,6 +626,7 @@
     "answer": 2,
     "answerText": "IFN-γ, intracellular",
     "explanation": "IFN-γ is the key cytokine secreted by Th1 cells, which activates macrophages to combat intracellular pathogens.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "immu-immu-q45"
   }
 ]
