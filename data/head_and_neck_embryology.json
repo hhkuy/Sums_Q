@@ -10,7 +10,8 @@
     "answer": 0,
     "answerText": "Muscles of mastication - muscles of facial expression",
     "explanation": "The first pharyngeal arch gives rise to the muscles of mastication, while the second arch forms the muscles of facial expression.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "head-embr-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Golshan - Question 2</span> The ..................... affects ......................... pharyngeal arch, and the affected individual can show facial palsy.",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Goldenhar syndrome - 1st and 2nd",
     "explanation": "Goldenhar syndrome involves abnormalities in structures derived from the 1st and 2nd pharyngeal arches, causing facial defects and sometimes facial palsy.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "head-embr-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Golshan - Question 3</span> What is the embryological origin of the hyoid bone?",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Second and third pharyngeal arches",
     "explanation": "The hyoid bone is derived from the cartilage of the second and third pharyngeal arches.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "head-embr-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Golshan - Question 4</span> Which pharyngeal pouches are the source of parafollicular cells of the thyroid and palatine tonsil, respectively?",
@@ -49,7 +52,8 @@
     "answer": 1,
     "answerText": "Pouch IV - pouch II",
     "explanation": "The parafollicular cells of the thyroid gland originate from the 4th pharyngeal pouch, while the palatine tonsils are derived from the 2nd pharyngeal pouch.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "head-embr-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Golshan - Question 5</span> What is the embryological origin of the Hassall’s corpuscles?",
@@ -62,7 +66,8 @@
     "answer": 2,
     "answerText": "Ectoderm - cervical sinus",
     "explanation": "Hassall’s corpuscles in the thymus are derived from ectodermal cells associated with the cervical sinus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "head-embr-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Golshan - Question 6</span> The 3rd and 6th pharyngeal arches are innervated by .............. and .............. respectively.",
@@ -75,7 +80,8 @@
     "answer": 1,
     "answerText": "CN IX - CN X",
     "explanation": "The 3rd pharyngeal arch is innervated by the glossopharyngeal nerve (CN IX), while the 6th arch is innervated by the vagus nerve (CN X).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "head-embr-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Golshan - Question 7</span> Which of the following is NOT associated with the 6th pharyngeal arch?",
@@ -88,7 +94,8 @@
     "answer": 2,
     "answerText": "Superior laryngeal nerve",
     "explanation": "The superior laryngeal nerve is associated with the 4th pharyngeal arch, while the recurrent laryngeal nerve is related to the 6th arch.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "head-embr-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-27) Dr. Golshan - Question 8</span> Which of the below is not involved in the mesenchyme of the pharyngeal arches?",
@@ -101,6 +108,7 @@
     "answer": 2,
     "answerText": "Intermediate mesoderm",
     "explanation": "The intermediate mesoderm is not involved in the development of the pharyngeal arches. Instead, the mesenchyme primarily comes from neural crest cells and paraxial mesoderm.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "head-embr-q8"
   }
 ]
