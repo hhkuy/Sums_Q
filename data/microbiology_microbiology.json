@@ -10,7 +10,8 @@
     "answer": 2,
     "answerText": "Resistance to many β-lactamases",
     "explanation": "Carbapenems are β-lactam antibiotics known for their resistance to many β-lactamases, making them effective against multidrug-resistant bacteria.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 2</span> Which class of antibiotics inhibits RNA polymerase function?",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Rifampin",
     "explanation": "Rifampin inhibits bacterial RNA polymerase, preventing transcription and bacterial growth.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 3</span> Which of the following is a characteristic of ethylene oxide?",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Explosive and flammable",
     "explanation": "Ethylene oxide is a gaseous sterilant that is highly explosive and flammable.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 4</span> Which agent is NOT typically used in antisepsis?",
@@ -49,7 +52,8 @@
     "answer": 3,
     "answerText": "Sodium hypochlorite",
     "explanation": "Sodium hypochlorite (bleach) is a disinfectant, not commonly used in antisepsis due to its corrosive nature.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 5</span> Which of the following is used for low-level disinfection?",
@@ -62,7 +66,8 @@
     "answer": 1,
     "answerText": "Quaternary ammonium compounds",
     "explanation": "Quaternary ammonium compounds are low-level disinfectants effective against most vegetative bacteria and some viruses.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 6</span> Which process of gene transfer between bacteria involves pilus?",
@@ -75,7 +80,8 @@
     "answer": 2,
     "answerText": "Conjugation",
     "explanation": "Conjugation involves the transfer of genetic material through a pilus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 7</span> In which phase of the bacterial growth curve are cells more susceptible to antibiotics like penicillin?",
@@ -88,7 +94,8 @@
     "answer": 1,
     "answerText": "Log",
     "explanation": "Bacteria are most susceptible to cell wall-targeting antibiotics like penicillin during the log (exponential) phase due to active cell division.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 8</span> From each glucose molecule during the process of ethanol fermentation, how many ATP and NADH molecules are produced, respectively (from left to right)?",
@@ -101,7 +108,8 @@
     "answer": 1,
     "answerText": "2 and 2",
     "explanation": "Ethanol fermentation produces 2 ATP and 2 NADH molecules per glucose.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 9</span> Which of the following is the most common type of nosocomial infection?",
@@ -114,7 +122,8 @@
     "answer": 2,
     "answerText": "Urinary tract infections",
     "explanation": "Urinary tract infections are the most common hospital-acquired infections, often related to catheter use.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 10</span> Which of the following is true about “Virulence”?",
@@ -127,7 +136,8 @@
     "answer": 1,
     "answerText": "The degree of pathogenicity of a pathogen",
     "explanation": "Virulence refers to the degree of pathogenicity, indicating how severe the disease caused by a pathogen is.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 11</span> Which of the following is one of the outcomes of lipopolysaccharide in the blood?",
@@ -140,7 +150,8 @@
     "answer": 0,
     "answerText": "Hypertension",
     "explanation": "Lipopolysaccharide (endotoxin) can trigger septic shock, leading to hypertension in some stages.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 12</span> Which toxin is a pore forming toxin?",
@@ -153,7 +164,8 @@
     "answer": 1,
     "answerText": "Streptolysin O by Streptococcus pyogenes",
     "explanation": "Streptolysin O is a pore-forming cytotoxin produced by Streptococcus pyogenes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 13</span> Which of the following is the outermost spore layer?",
@@ -166,7 +178,8 @@
     "answer": 2,
     "answerText": "Exosporium",
     "explanation": "The exosporium is the outermost layer of a bacterial spore, providing additional protection.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 14</span> Which secretion device injects molecules directly from bacterial cytoplasm to the host cytoplasm?",
@@ -179,7 +192,8 @@
     "answer": 2,
     "answerText": "Type III",
     "explanation": "Type III secretion system is a needle-like structure used by some Gram-negative bacteria to inject effectors into host cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 15</span> What is the correct order of lipopolysaccharide components from the inner to the outer part of a Gram-negative bacterial cell?",
@@ -192,7 +206,8 @@
     "answer": 1,
     "answerText": "Lipid A, Core Polysaccharide, O-antigen",
     "explanation": "LPS is organized as Lipid A (inner), Core Polysaccharide (middle), and O-antigen (outer).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 16</span> Which of the following is found only in Gram-positive bacteria?",
@@ -205,7 +220,8 @@
     "answer": 0,
     "answerText": "Teichoic Acid",
     "explanation": "Teichoic acid is unique to Gram-positive bacteria and contributes to cell wall integrity and immune evasion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 17</span> What is the primary function of Protein A in Staphylococcus aureus?",
@@ -218,7 +234,8 @@
     "answer": 1,
     "answerText": "It inhibits antiphagocytosis",
     "explanation": "Protein A binds to the Fc region of antibodies, inhibiting phagocytosis and immune recognition.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 18</span> When furuncles extend to deeper subcutaneous tissue, they are referred to as……….",
@@ -231,7 +248,8 @@
     "answer": 1,
     "answerText": "Carbuncles",
     "explanation": "Carbuncles are clusters of furuncles (boils) that extend into deeper tissue, often with multiple drainage points.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 19</span> A 65-year-old man develops an abscess on the back of his neck. Culture yields Staphylococcus aureus. The isolate is tested and found to be positive for the mecA gene, which means that",
@@ -244,7 +262,8 @@
     "answer": 1,
     "answerText": "The isolate is susceptible to vancomycin",
     "explanation": "The mecA gene encodes PBP2a, conferring methicillin resistance (MRSA), but vancomycin is typically still effective.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 20</span> Which one of the following statements is correct about Staphylococcus saprophyticus?",
@@ -257,7 +276,8 @@
     "answer": 0,
     "answerText": "It is typically non-hemolytic and causes urinary tract infections",
     "explanation": "Staphylococcus saprophyticus is coagulase-negative, non-hemolytic, and commonly causes urinary tract infections, especially in young women.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 21</span> Which one of the following bacteria produces secretory IgA protease?",
@@ -270,7 +290,8 @@
     "answer": 1,
     "answerText": "Streptococcus pneumoniae",
     "explanation": "Streptococcus pneumoniae produces IgA protease, which helps it evade mucosal immunity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 22</span> Which antibiotic is NOT recommended for treating infections caused by vancomycin and ampicillin-resistant Enterococcus faecium?",
@@ -283,7 +304,8 @@
     "answer": 2,
     "answerText": "Cephalosporin",
     "explanation": "Enterococcus faecium is intrinsically resistant to cephalosporins.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 23</span> The use of vaginal/rectal swabs and LIM broth medium increases the recovery of…………",
@@ -296,7 +318,8 @@
     "answer": 2,
     "answerText": "Streptococcus agalactiae",
     "explanation": "LIM broth is a selective medium that enhances the detection of Streptococcus agalactiae (Group B Streptococcus), especially in pregnant women.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 24</span> Which of the following cell components produced by Neisseria gonorrhoeae is responsible for motility and transfer of genetic material?",
@@ -309,7 +332,8 @@
     "answer": 1,
     "answerText": "Pili",
     "explanation": "Pili facilitate motility and genetic exchange (e.g., conjugation) in Neisseria gonorrhoeae.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 25</span> A 25-year-old woman presents with septic arthritis of the knee. The fluid aspirate grows a Gram-negative diplococcus on chocolate agar after 48 hours of incubation. The isolate is oxidase positive and oxidizes glucose but not maltose. You suspect infection with",
@@ -322,7 +346,8 @@
     "answer": 1,
     "answerText": "Neisseria gonorrhoeae",
     "explanation": "Neisseria gonorrhoeae is a glucose fermenter but does not ferment maltose, differentiating it from Neisseria meningitidis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 26</span> Which of the following diseases due to Neisseria gonorrhoeae can lead to ectopic pregnancy or infertility?",
@@ -335,7 +360,8 @@
     "answer": 1,
     "answerText": "Pelvic inflammatory disease",
     "explanation": "Pelvic inflammatory disease (PID) is a complication of gonorrhea, potentially leading to infertility or ectopic pregnancy.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 27</span> What is the preferred regimen for treating Pelvic inflammatory disease caused by Neisseria gonorrhoeae?",
@@ -348,7 +374,8 @@
     "answer": 1,
     "answerText": "Ceftriaxone plus doxycycline",
     "explanation": "Ceftriaxone and doxycycline are the preferred combination therapy for PID caused by N. gonorrhoeae.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 28</span> Which one of the following produces Protective Antigen as an important virulence factor?",
@@ -361,7 +388,8 @@
     "answer": 1,
     "answerText": "Bacillus anthracis",
     "explanation": "Bacillus anthracis produces Protective Antigen (PA), a component of its anthrax toxin.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 29</span> Select the best answer;<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739751682343_SmartSelect___WebtoPDFconverterPro.jpg' alt='Image for Q29' style='max-width:100%; height:auto;' data-filepath='pic/1739751682343_SmartSelect___WebtoPDFconverterPro.jpg'>",
@@ -374,7 +402,8 @@
     "answer": 1,
     "answerText": "1, 3, and 4 are correct",
     "explanation": "Bacillus cereus, Bordetella pertussis, and Haemophilus influenzae type b (Hib) are accurately described in the table.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 30</span> A 5-year-old boy presents with 3 days of fever, and malaise. He has no records of vaccination. Other physical findings include middle ear infection and conjunctivitis. He appears pale and presents with some stiffness in his neck, and moderate shortness of breath. His blood cultures grow a hemolytic pleomorphic Gram (-) rod that is tested positive for X and V factor. The most likely causative pathogen is:",
@@ -387,7 +416,8 @@
     "answer": 0,
     "answerText": "Haemophilus influenzae",
     "explanation": "Haemophilus influenzae type b requires both X (hemin) and V (NAD) factors for growth and is a common cause of invasive infections in unvaccinated children.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 31</span> A 45-year-old fisherman was injured by a fishhook into his finger. After 5 days, he had fever, severe pain, and swelling of the injured finger with a red-violet nodule, which was aspirated and cultured. After 48 hours, colonies of a Gram (+) bacillus that was weakly hemolytic (greenish discoloration of blood agar) was seen that formed long filaments in the broth culture. The most likely cause of this infection is;",
@@ -400,7 +430,8 @@
     "answer": 1,
     "answerText": "Erysipelothrix rhusiopathiae",
     "explanation": "Erysipelothrix rhusiopathiae is a Gram-positive rod associated with fish and animal handling injuries, causing erysipeloid skin infections.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 32</span> An 8-year-old girl was bitten by a stray dog. Two days later, the bite wound was red and swollen, and drained purulent (pus) fluid. Examination reveals that she had low-grade fever, headache, and enlarged lymph nodes in her left axilla. Culture of fluid from her wound recovered colonies of a Gram (-) bacillus. Her signs and symptoms improved after treatment with appropriate doses of Penicillin G. Based on the patient’s history and physical examination, which of the following will be the most likely cause of this infection?",
@@ -413,7 +444,8 @@
     "answer": 1,
     "answerText": "Pasteurella multocida",
     "explanation": "Pasteurella multocida is a Gram-negative rod commonly transmitted through animal bites, especially from dogs and cats.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 33</span> Which antibiotic is known for its potential to cause aplastic anemia?",
@@ -426,7 +458,8 @@
     "answer": 1,
     "answerText": "Chloramphenicol",
     "explanation": "Chloramphenicol can cause rare but serious side effects, including aplastic anemia.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 34</span> Vancomycin is primarily effective against:",
@@ -439,7 +472,8 @@
     "answer": 2,
     "answerText": "Gram-positive bacteria",
     "explanation": "Vancomycin is primarily effective against Gram-positive bacteria, including MRSA.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 35</span> What type of disinfection destroys all microbial pathogens except “bacterial spores”?",
@@ -452,7 +486,8 @@
     "answer": 1,
     "answerText": "Intermediate-level disinfection",
     "explanation": "Intermediate-level disinfection eliminates vegetative bacteria, most viruses, and fungi but does not kill bacterial spores.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 36</span> Which of the following is an example of growth factors?",
@@ -465,7 +500,8 @@
     "answer": 1,
     "answerText": "Amino acids",
     "explanation": "Amino acids are growth factors that bacteria require for protein synthesis and growth.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 37</span> Group A streptococci are the most common bacterial cause of pharyngitis in school-age children 5–15 years of age. All of the following components involved in adherence of this bacteria to fibronectin Except",
@@ -478,7 +514,8 @@
     "answer": 2,
     "answerText": "A protein",
     "explanation": "M protein, lipoteichoic acid, and F protein are adhesion factors for Group A streptococci; A protein is a virulence factor of Staphylococcus aureus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 38</span> Which of the following bacteria can cause a zoonotic infection (can be transmitted from animals)?",
@@ -491,7 +528,8 @@
     "answer": 1,
     "answerText": "Brucella melitensis",
     "explanation": "Brucella melitensis is a zoonotic pathogen transmitted through contact with infected animals or unpasteurized dairy products.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 39</span> Which of the following bacteria is a well-known cause of a sexually transmitted disease (STD)?",
@@ -504,7 +542,8 @@
     "answer": 0,
     "answerText": "Haemophilus ducreyi",
     "explanation": "Haemophilus ducreyi causes chancroid, a sexually transmitted genital ulcer disease.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 40</span> Select the best statement regarding Listeria monocytogenes;",
@@ -517,7 +556,8 @@
     "answer": 3,
     "answerText": "All of the options are correct",
     "explanation": "Listeria monocytogenes is a foodborne pathogen with the ability to grow at refrigeration temperatures and cause severe infections, including neonatal sepsis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q40"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 41</span> Select the best choice, regarding Pontiac Fever and Legionnaire’s disease;",
@@ -530,7 +570,8 @@
     "answer": 1,
     "answerText": "Pontiac Fever commonly presents as a mild self-limiting disease",
     "explanation": "Pontiac Fever is a mild, self-limiting illness, while Legionnaire’s disease is a severe pneumonia requiring treatment.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q41"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 42</span> Select the best choice;<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739751684078_SmartSelect___WebtoPDFconverterPro.jpg' alt='Image for Q42' style='max-width:100%; height:auto;' data-filepath='pic/1739751684078_SmartSelect___WebtoPDFconverterPro.jpg'>",
@@ -543,7 +584,8 @@
     "answer": 2,
     "answerText": "All options are correct",
     "explanation": "The culture conditions for Legionella pneumophila, Haemophilus influenzae, and Bacteroides fragilis are accurately described in the table.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q42"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 43</span> All the following statements regarding anaerobes are true, EXCEPT;",
@@ -556,7 +598,8 @@
     "answer": 3,
     "answerText": "They possess the enzyme cytochrome oxidase",
     "explanation": "Anaerobes lack cytochrome oxidase, which is involved in aerobic respiration.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q43"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-04) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 44</span> Select the best choice;<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739751686077_SmartSelect___WebtoPDFconverterPro.jpg' alt='Image for Q44' style='max-width:100%; height:auto;' data-filepath='pic/1739751686077_SmartSelect___WebtoPDFconverterPro.jpg'>",
@@ -569,7 +612,8 @@
     "answer": 1,
     "answerText": "1, 2, and 3 are correct",
     "explanation": "Bacillus anthracis, Haemophilus ducreyi, and Corynebacterium diphtheriae are accurately described in the table.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q44"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 1</span> What is the primary function of Protein A in Staphylococcus aureus?",
@@ -582,7 +626,8 @@
     "answer": 3,
     "answerText": "It is unique to S. aureus and inhibits antiphagocytosis",
     "explanation": "Protein A binds to the Fc portion of antibodies, inhibiting opsonization and phagocytosis, which is a key immune evasion mechanism in Staphylococcus aureus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q45"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 2</span> Which antibiotic is known for its potential to cause aplastic anemia?",
@@ -595,7 +640,8 @@
     "answer": 0,
     "answerText": "Chloramphenicol",
     "explanation": "Chloramphenicol is associated with a rare but serious side effect—aplastic anemia—due to bone marrow suppression.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q46"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 3</span> Which one of the following statements is correct about Staphylococcus saprophyticus?",
@@ -608,7 +654,8 @@
     "answer": 2,
     "answerText": "It is typically nonpigmented and causes urinary tract infections",
     "explanation": "Staphylococcus saprophyticus is a common cause of UTIs, particularly in young women, and is usually nonpigmented.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q47"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 4</span> Which agent is NOT typically used in antisepsis?",
@@ -621,7 +668,8 @@
     "answer": 3,
     "answerText": "Sodium hypochlorite",
     "explanation": "Sodium hypochlorite, also known as household bleach, is mainly used as a disinfectant rather than an antiseptic.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q48"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 5</span> Which antibiotic is NOT recommended for treating infections caused by vancomycin and ampicillin-resistant Enterococcus faecium?",
@@ -634,7 +682,8 @@
     "answer": 3,
     "answerText": "Ticarcillin",
     "explanation": "Ticarcillin, a β-lactam antibiotic, is ineffective against vancomycin- and ampicillin-resistant Enterococcus faecium.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q49"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 6</span> What type of disinfection destroys all microbial pathogens except large numbers of bacterial spores?",
@@ -647,7 +696,8 @@
     "answer": 2,
     "answerText": "High-level disinfection",
     "explanation": "High-level disinfection eliminates most pathogens, including viruses and fungi, but may not kill large numbers of bacterial spores.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q50"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 7</span> A 25-year-old woman presents with septic arthritis of the knee. The fluid aspirate grows a Gram-negative diplococcus on chocolate agar after 48 hours of incubation. The isolate is oxidase positive and oxidizes glucose but not maltose. You suspect infection with",
@@ -660,7 +710,8 @@
     "answer": 0,
     "answerText": "Neisseria gonorrhoeae",
     "explanation": "Neisseria gonorrhoeae oxidizes glucose but not maltose and is a common cause of septic arthritis, particularly in young adults.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q51"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 8</span> A 45-year-old fisherman was injured by a fishhook into his finger. After 5 days, he had fever, severe pain, and swelling of the injured finger with a red-violet nodule, which was aspirated and cultured. After 48 hours, colonies of a Gram (+) bacillus that was weakly hemolytic (greenish discoloration of blood agar) were seen that formed long filaments in the broth culture. The most likely cause of this infection is:",
@@ -673,7 +724,8 @@
     "answer": 2,
     "answerText": "Erysipelothrix rhusiopathiae",
     "explanation": "Erysipelothrix rhusiopathiae, often associated with exposure to animals or fish, can cause localized skin infections (erysipeloid) and forms characteristic Gram-positive bacilli.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q52"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 9</span> From each glucose molecule during the process of ethanol fermentation, how many ATP and NADH molecules are produced, respectively (from left to right)?",
@@ -686,7 +738,8 @@
     "answer": 1,
     "answerText": "2 and 2",
     "explanation": "During ethanol fermentation, 2 ATP and 2 NADH molecules are produced per glucose molecule.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q53"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 10</span> Which of the following is the second most common type of nosocomial infection?",
@@ -699,7 +752,8 @@
     "answer": 1,
     "answerText": "Surgical site infections",
     "explanation": "Surgical site infections are the second most common healthcare-associated infections, following UTIs in frequency.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q54"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 11</span> …………… is/are large, painful, pus-filled skin nodules that are an extension of folliculitis.",
@@ -712,7 +766,8 @@
     "answer": 1,
     "answerText": "Furuncles (boils)",
     "explanation": "Furuncles, commonly known as boils, develop from folliculitis and involve deeper infection of hair follicles with pus formation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q55"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 12</span> All the following statements regarding anaerobes are true, EXCEPT:",
@@ -725,7 +780,8 @@
     "answer": 2,
     "answerText": "They possess the enzyme cytochrome oxidase.",
     "explanation": "Anaerobes lack the enzyme cytochrome oxidase, which is involved in aerobic respiration, making them oxygen-sensitive.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q56"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 13</span> A 65-year-old man develops an abscess on the back of his neck. Culture yields Staphylococcus aureus. The isolate is tested and found to be positive for the mecA gene, which means that...",
@@ -738,7 +794,8 @@
     "answer": 0,
     "answerText": "The isolate is resistant to oxacillin",
     "explanation": "The mecA gene encodes PBP2a, which provides resistance to oxacillin and other β-lactam antibiotics.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q57"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 14</span> Which of the following is the outermost spore layer?",
@@ -751,7 +808,8 @@
     "answer": 2,
     "answerText": "Exosporium",
     "explanation": "The exosporium is the outermost proteinaceous layer of bacterial spores and provides an additional protective barrier.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q58"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 15</span> Which secretion device injects molecules directly from bacterial cytoplasm to the host cytoplasm?",
@@ -764,7 +822,8 @@
     "answer": 2,
     "answerText": "Type III",
     "explanation": "Type III secretion systems act like a molecular syringe, directly injecting virulence factors from bacteria into the host cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q59"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 16</span> Group A streptococci are the most common bacterial cause of pharyngitis in school-age children 5–15 years of age. The most important cell component involved in adherence of this bacteria to fibronectin is:",
@@ -777,7 +836,8 @@
     "answer": 1,
     "answerText": "Lipoteichoic acid",
     "explanation": "Lipoteichoic acid is responsible for adhesion to host cells, playing a key role in the colonization process.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q60"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 17</span> Which of the following is NOT one of the outcomes of lipopolysaccharide in the blood?",
@@ -790,7 +850,8 @@
     "answer": 3,
     "answerText": "Hypertension",
     "explanation": "Lipopolysaccharide (endotoxin) can cause hypotension, septic shock, and fever, but hypertension is not typically associated with its effects.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q61"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 18</span> Which one of the following bacteria produces secretory IgA protease?",
@@ -803,7 +864,8 @@
     "answer": 0,
     "answerText": "Streptococcus pneumoniae",
     "explanation": "Streptococcus pneumoniae produces IgA protease, which helps it evade mucosal immunity by degrading secretory IgA.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q62"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 19</span> Which of the following is true about “Pathogenesis”?",
@@ -816,7 +878,8 @@
     "answer": 1,
     "answerText": "The process by which a disease begins or develops",
     "explanation": "Pathogenesis refers to the biological mechanisms through which a disease develops and progresses.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q63"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 20</span> An 8-year-old girl was bitten by a stray dog. Two days later, the bite wound was red and swollen, and drained purulent (pus) fluid. Examination reveals that she had low-grade fever, headache, and enlarged lymph nodes in her left axilla. Culture of fluid from her wound recovered colonies of a Gram (-) bacillus. Her signs and symptoms improved after treatment with appropriate doses of Penicillin G. Based on the patient’s history and physical examination, which of the following will be the most likely cause of this infection?",
@@ -829,7 +892,8 @@
     "answer": 2,
     "answerText": "Pasteurella multocida",
     "explanation": "Pasteurella multocida is a common cause of soft tissue infections following animal bites, particularly from cats or dogs.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q64"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 21</span> Which of the following cell components produced by Neisseria gonorrhoeae is responsible for attachment to host cells?",
@@ -842,7 +906,8 @@
     "answer": 2,
     "answerText": "Pili",
     "explanation": "Pili (fimbriae) mediate attachment of Neisseria gonorrhoeae to mucosal surfaces, which is crucial for colonization and infection.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q65"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 22</span> Select the best statement regarding Listeria monocytogenes:",
@@ -855,7 +920,8 @@
     "answer": 3,
     "answerText": "All of the options are correct",
     "explanation": "Listeria monocytogenes is a foodborne pathogen capable of growth in refrigerated conditions and is known for its environmental and salt resistance.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q66"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 23</span> Which of the following is a characteristic of ethylene oxide?",
@@ -868,7 +934,8 @@
     "answer": 1,
     "answerText": "Explosive and flammable",
     "explanation": "Ethylene oxide is a highly effective sterilizing agent, but it is explosive and requires careful handling.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q67"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 24</span> Which one of the following produces Protective Antigen as an important virulence factor?",
@@ -881,7 +948,8 @@
     "answer": 1,
     "answerText": "Bacillus anthracis",
     "explanation": "Bacillus anthracis produces Protective Antigen (PA), a key component of its tripartite toxin system that is crucial for pathogenesis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q68"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 25</span> Which class of antibiotics inhibits DNA synthesis by blocking topoisomerase?",
@@ -894,7 +962,8 @@
     "answer": 2,
     "answerText": "Quinolones",
     "explanation": "Quinolones inhibit bacterial DNA replication by targeting topoisomerases, such as DNA gyrase.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q69"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 26</span> The use of vaginal/rectal swabs and LIM broth medium increases the recovery of:",
@@ -907,7 +976,8 @@
     "answer": 2,
     "answerText": "Group B Streptococcus",
     "explanation": "LIM broth is a selective medium commonly used to increase the recovery of Group B Streptococcus (GBS), particularly in pregnant women.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q70"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 27</span> Which of the following diseases due to Neisseria gonorrhoeae can lead to ectopic pregnancy or infertility?",
@@ -920,7 +990,8 @@
     "answer": 1,
     "answerText": "Pelvic inflammatory disease",
     "explanation": "Pelvic inflammatory disease (PID) can result from untreated gonococcal infections and may cause long-term reproductive complications.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q71"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 28</span> A 5-year-old boy presents with 3 days of fever and malaise. He has no records of vaccination. Other physical findings include middle ear infection and conjunctivitis. He appears pale and presents with some stiffness in his neck and moderate shortness of breath. His blood cultures grow a hemolytic pleomorphic Gram (-) rod that is tested positive for X and V factors. The most likely causative pathogen is:",
@@ -933,7 +1004,8 @@
     "answer": 0,
     "answerText": "Haemophilus influenzae",
     "explanation": "Haemophilus influenzae type b is commonly identified by its requirement for X (hemin) and V (NAD) factors and can cause invasive infections in unvaccinated children.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q72"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 29</span> Vancomycin is primarily effective against:",
@@ -946,7 +1018,8 @@
     "answer": 1,
     "answerText": "Gram-positive bacteria",
     "explanation": "Vancomycin is a glycopeptide antibiotic that primarily targets Gram-positive bacteria by inhibiting cell wall synthesis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q73"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 30</span> What is the preferred regimen for treating a woman’s cervical Neisseria gonorrhoeae infection?",
@@ -959,7 +1032,8 @@
     "answer": 1,
     "answerText": "Ceftriaxone plus doxycycline",
     "explanation": "The recommended regimen for treating gonorrhea includes ceftriaxone plus doxycycline to address potential co-infection with Chlamydia.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q74"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 31</span> Which of the following bacteria can cause a zoonotic infection (can be transmitted from animals)?",
@@ -972,7 +1046,8 @@
     "answer": 0,
     "answerText": "Brucella melitensis",
     "explanation": "Brucella melitensis is a well-known cause of zoonotic infection transmitted through animal contact or contaminated animal products.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q75"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 32</span> Which of the following is used for low-level disinfection?",
@@ -985,7 +1060,8 @@
     "answer": 2,
     "answerText": "Quaternary ammonium compounds",
     "explanation": "Quaternary ammonium compounds are used for low-level disinfection, primarily targeting vegetative bacteria and enveloped viruses.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q76"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 33</span> Which of the following is an example of growth factors?",
@@ -998,7 +1074,8 @@
     "answer": 2,
     "answerText": "Amino acids",
     "explanation": "Growth factors such as amino acids are essential compounds that bacteria must acquire from their environment to grow.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q77"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 34</span> In which phase/phases of the bacterial growth curve are cells multiplying?",
@@ -1011,7 +1088,8 @@
     "answer": 2,
     "answerText": "Log and stationary phases",
     "explanation": "Bacterial cells actively multiply during the log (exponential) phase and, to a lesser extent, in the early stationary phase before nutrient depletion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q78"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 35</span> Which process of gene transfer between bacteria involves bacteriophages?",
@@ -1024,7 +1102,8 @@
     "answer": 1,
     "answerText": "Transduction",
     "explanation": "Transduction involves the transfer of bacterial genetic material through bacteriophages, which serve as vectors.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q79"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 36</span> Which toxin is a pore-forming toxin?",
@@ -1037,7 +1116,8 @@
     "answer": 0,
     "answerText": "Streptolysin O by Streptococcus pyogenes",
     "explanation": "Streptolysin O is a pore-forming toxin produced by Streptococcus pyogenes, leading to cell lysis and tissue damage.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q80"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 37</span> Carbapenems are known for their:",
@@ -1050,7 +1130,8 @@
     "answer": 1,
     "answerText": "Broad-spectrum activity and resistance to many β-lactamases",
     "explanation": "Carbapenems are highly effective against multidrug-resistant bacteria due to their stability against most β-lactamases.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q81"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 38</span> What is the correct order of lipopolysaccharide components from the inner to the outer part of a Gram-negative bacterial cell?",
@@ -1063,7 +1144,8 @@
     "answer": 1,
     "answerText": "Lipid A, Core polysaccharide, O-antigen",
     "explanation": "Lipopolysaccharide (LPS) in Gram-negative bacteria is composed of Lipid A (innermost), core polysaccharide, and O-antigen (outermost).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q82"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 39</span> Which of the following is found only in Gram-positive bacteria?",
@@ -1076,7 +1158,8 @@
     "answer": 2,
     "answerText": "Teichoic acid",
     "explanation": "Teichoic acid is unique to Gram-positive bacteria, contributing to cell wall stability and immune evasion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q83"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 40</span> Which of the following bacteria is a well-known cause of a sexually transmitted disease (STD)?",
@@ -1089,7 +1172,8 @@
     "answer": 0,
     "answerText": "Haemophilus ducreyi",
     "explanation": "Haemophilus ducreyi is the causative agent of chancroid, an ulcerative sexually transmitted disease.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q84"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 41</span> Select the best choice, regarding Pontiac Fever and Legionnaire’s disease:",
@@ -1102,7 +1186,8 @@
     "answer": 1,
     "answerText": "Pontiac Fever commonly presents as a mild self-limiting disease",
     "explanation": "Pontiac Fever is a mild, self-limiting illness without pneumonia, whereas Legionnaire’s disease is a more severe form involving pneumonia.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q85"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 42</span> Use the table below to select the best answer:<br><img src='https://i.imghippo.com/files/sT3505bJU.png' alt='Image for Q42' style='max-width:100%; height:auto;'>",
@@ -1115,7 +1200,8 @@
     "answer": 2,
     "answerText": "1, 2, and 3 are correct",
     "explanation": "The correct selection is 1, 2, and 3, as all statements in the table pertain to the given topic and contribute to the correct answer.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q86"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 43</span> Use the table below to select the best answer:<br><img src='https://i.imghippo.com/files/KMv9910BbE.png' alt='Image for Q43' style='max-width:100%; height:auto;'>",
@@ -1128,7 +1214,8 @@
     "answer": 2,
     "answerText": "All choices are correct",
     "explanation": "All options in the table are correct, indicating the comprehensive coverage of the topic.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q87"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-4) - Midterm - Dr. Siroosi & Dr. Beigverdi & Dr. Bonakdar Hashemi - Question 44</span> Use the table below to select the best answer:<br><img src='https://i.imghippo.com/files/cdt8829evo.png' alt='Image for Q44' style='max-width:100%; height:auto;'>",
@@ -1141,7 +1228,8 @@
     "answer": 2,
     "answerText": "1, 3, and 4 are correct",
     "explanation": "The correct selection of 1, 3, and 4 is based on the provided information, which accurately identifies the relevant antibiotics.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q88"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 1</span> Which drug is used for the treatment Leprosy?",
@@ -1154,7 +1242,8 @@
     "answer": 1,
     "answerText": "Dapson",
     "explanation": "Dapson is the mainstay of leprosy treatment, often combined with rifampin and clofazimine.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q89"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 2</span> Select the correct Mycobacterium that is Scotochromogen:",
@@ -1167,7 +1256,8 @@
     "answer": 1,
     "answerText": "M. scrofulaceum",
     "explanation": "M. scrofulaceum is a scotochromogen, meaning it produces a yellow pigment in both light and dark conditions.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q90"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 3</span> All the following tests can evaluate the cell-mediated immunity response Except:",
@@ -1180,7 +1270,8 @@
     "answer": 2,
     "answerText": "Direct smear Microscopy",
     "explanation": "Direct smear microscopy detects bacteria but does not assess cell-mediated immunity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q91"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 4</span> Which of the following choices is correct about the Rapidly growing mycobacteria?",
@@ -1193,7 +1284,8 @@
     "answer": 0,
     "answerText": "Growth in less than 7 days",
     "explanation": "Rapidly growing mycobacteria grow within 7 days, unlike typical slow-growing mycobacteria.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q92"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 5</span> All the following conditions predispose the patients to Nocardiosis Except:",
@@ -1206,7 +1298,8 @@
     "answer": 3,
     "answerText": "Immunotherapy to trigger the immunity",
     "explanation": "Immunotherapy boosts immunity, whereas Nocardiosis is more common in immunocompromised patients.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q93"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 6</span> Complete the sentence with one of the following choices:",
@@ -1219,7 +1312,8 @@
     "answer": 1,
     "answerText": "Tsukamurella",
     "explanation": "Tsukamurella is a partially acid-fast bacterium associated with catheter-related infections.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q94"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 7</span> Which toxin of Clostridium perfringens breaks lecithin?",
@@ -1232,7 +1326,8 @@
     "answer": 2,
     "answerText": "α-toxin",
     "explanation": "α-toxin is a phospholipase (lecithinase) that hydrolyzes lecithin in cell membranes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q95"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 8</span> All the following specimens can be used for laboratory diagnosis of pig bell disease (enteritis necroticans) Except:",
@@ -1245,7 +1340,8 @@
     "answer": 2,
     "answerText": "Sputum",
     "explanation": "Pig bell disease is an intestinal condition caused by Clostridium perfringens; sputum is not relevant.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q96"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 9</span> Select the correct choice to complete the following sentence",
@@ -1258,7 +1354,8 @@
     "answer": 1,
     "answerText": "Clostridium tetani",
     "explanation": "Opisthotonos is a characteristic spasm caused by tetanus due to Clostridium tetani.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q97"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 10</span> Which of the following drugs is used against Clostridium difficile?",
@@ -1271,7 +1368,8 @@
     "answer": 1,
     "answerText": "Metronidazole",
     "explanation": "Metronidazole is a first-line treatment for mild Clostridium difficile infections.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q98"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 11</span> Which of the following bacteria produces heat-labile toxins (LT)?",
@@ -1284,7 +1382,8 @@
     "answer": 1,
     "answerText": "Enterotoxigenic E. coli (ETEC)",
     "explanation": "ETEC produces heat-labile toxin (LT) and heat-stable toxin (ST), leading to watery diarrhea.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q99"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 12</span> Which of the following Escherichia coli (E. coli) pathotype mostly causes hemolytic uremic syndrome (HUS)?",
@@ -1297,7 +1396,8 @@
     "answer": 2,
     "answerText": "Shiga toxin–producing E. coli (STEC)",
     "explanation": "STEC (e.g., E. coli O157:H7) produces Shiga toxin, causing HUS.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q100"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 13</span> Which of the following bacteria produces large quantities of urease and causes renal (kidney) stones?",
@@ -1310,7 +1410,8 @@
     "answer": 0,
     "answerText": "Proteus mirabilis",
     "explanation": "Proteus mirabilis produces urease, alkalinizing urine and leading to struvite kidney stones.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q101"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 14</span> All of the following bacteria usually invade into the bloodstream, Except:",
@@ -1323,7 +1424,8 @@
     "answer": 3,
     "answerText": "Shigella boydii",
     "explanation": "Shigella is primarily confined to the intestinal mucosa and rarely causes bacteremia.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q102"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 15</span> For Vibrio cholera, if culture will be delayed, the specimen should be mixed in a ………medium.",
@@ -1336,7 +1438,8 @@
     "answer": 2,
     "answerText": "Cary-Blair transport",
     "explanation": "Cary-Blair transport medium preserves Vibrio species during transport.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q103"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 16</span> Burn patients often develop nosocomial infection caused by……………..:",
@@ -1349,7 +1452,8 @@
     "answer": 3,
     "answerText": "Pseudomonas aeruginosa",
     "explanation": "Pseudomonas aeruginosa is a common pathogen in burn wound infections.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q104"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 17</span> All the following drugs can be used in infections caused by Pseudomonas aeruginosa Except:",
@@ -1362,7 +1466,8 @@
     "answer": 2,
     "answerText": "Trimethoprim sulfamethoxazole",
     "explanation": "Pseudomonas is often resistant to trimethoprim-sulfamethoxazole.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q105"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 18</span> Which of the following bacteria produces grape-like odor?",
@@ -1375,7 +1480,8 @@
     "answer": 1,
     "answerText": "Pseudomonas aeruginosa",
     "explanation": "Pseudomonas aeruginosa produces a characteristic grape-like odor due to 2-aminoacetophenone.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q106"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 19</span> Which of the following bacteria is a causative agent of enteric fever?",
@@ -1388,7 +1494,8 @@
     "answer": 1,
     "answerText": "Salmonella Typhi",
     "explanation": "Salmonella Typhi causes enteric (typhoid) fever.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q107"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 20</span> The O side chain of ………….. is antigenically similar to the Lewis blood group antigens.",
@@ -1401,7 +1508,8 @@
     "answer": 1,
     "answerText": "Helicobacter pylori",
     "explanation": "Helicobacter pylori’s O-antigen mimics Lewis blood group antigens, aiding immune evasion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q108"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 21</span> Which of the following bacteria is a causative agent of bubonic plague?",
@@ -1414,7 +1522,8 @@
     "answer": 1,
     "answerText": "Yersinia pestis",
     "explanation": "Yersinia pestis is the causative agent of bubonic plague, transmitted by flea bites.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q109"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 22</span> Which bacteria can cause zoonotic infections (transmitted from animals)?",
@@ -1427,7 +1536,8 @@
     "answer": 0,
     "answerText": "Brucella melitensis",
     "explanation": "Brucella melitensis is a zoonotic bacterium transmitted through infected animals and unpasteurized dairy products.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q110"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 23</span> Nontreponemal serological tests:",
@@ -1440,7 +1550,8 @@
     "answer": 0,
     "answerText": "Measure antibodies against lipids (e.g. cardiolipin) released from damaged cells.",
     "explanation": "Nontreponemal tests like VDRL and RPR measure antibodies against cardiolipin released from damaged host cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q111"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 24</span> Which one the following bacteria is NOT an obligate intracellular parasite?",
@@ -1453,7 +1564,8 @@
     "answer": 2,
     "answerText": "Mycoplasma hominis",
     "explanation": "Mycoplasma hominis is a facultative extracellular bacterium, unlike Rickettsia and Ehrlichia.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q112"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 25</span> Which bacteria causes atypical pneumonia, called walking pneumonia?",
@@ -1466,7 +1578,8 @@
     "answer": 2,
     "answerText": "Mycoplasma pneumoniae",
     "explanation": "Mycoplasma pneumoniae is a common cause of walking pneumonia, characterized by a mild, persistent cough.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q113"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 26</span> Due to weak Gram staining, Giemsa (or Gimenez) staining is recommended for all bacteria below, EXCEPT;",
@@ -1479,7 +1592,8 @@
     "answer": 2,
     "answerText": "Leptospira interrogans",
     "explanation": "Leptospira is best visualized with dark-field microscopy or silver stain, not Giemsa.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q114"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 27</span> Tick is the vector for transmission of all the bacterial infections below, EXCEPT;",
@@ -1492,7 +1606,8 @@
     "answer": 2,
     "answerText": "Coxiella burnetii",
     "explanation": "Coxiella burnetii is transmitted through inhalation of contaminated aerosols, not ticks.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q115"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 28</span> All the following statements all are true, EXCEPT;",
@@ -1505,7 +1620,8 @@
     "answer": 1,
     "answerText": "Nucleic acid amplification tests are not sensitive to test Mycoplasma pneumoniae",
     "explanation": "NAATs are highly sensitive for Mycoplasma pneumoniae detection.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q116"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 29</span> All the following statements regarding Pontiac Fever and Legionnaire’s disease are true, EXCEPT",
@@ -1518,7 +1634,8 @@
     "answer": 2,
     "answerText": "Both diseases cause high fever and have an incubation period of 7–10 days.",
     "explanation": "Pontiac fever has a short incubation period (1–2 days), unlike Legionnaire’s disease.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q117"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 30</span> All of the below diseases are commonly associated with Chlamydia trachomatis infections; EXCEPT,",
@@ -1531,7 +1648,8 @@
     "answer": 2,
     "answerText": "Cardiomegaly associated with chronic endocarditis",
     "explanation": "Chlamydia trachomatis is not associated with cardiomegaly or endocarditis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q118"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 31</span> Select the best choice;<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739751887607_SmartSelect___WebtoPDFconverterPro.jpg' alt='Image for Q31' style='max-width:100%; height:auto;' data-filepath='pic/1739751887607_SmartSelect___WebtoPDFconverterPro.jpg'>",
@@ -1544,7 +1662,8 @@
     "answer": 2,
     "answerText": "All choices are correct",
     "explanation": "The diagnostic and treatment methods for Legionella pneumophila, Chlamydia trachomatis, and Mycoplasma pneumoniae are accurately described in the table.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q119"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 32</span> Select the best choice;<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739751889628_SmartSelect___WebtoPDFconverterPro.jpg' alt='Image for Q32' style='max-width:100%; height:auto;' data-filepath='pic/1739751889628_SmartSelect___WebtoPDFconverterPro.jpg'>",
@@ -1557,7 +1676,8 @@
     "answer": 1,
     "answerText": "1, 2, and 3 are correct",
     "explanation": "The details about Coxiella burnetii, Ehrlichia chaffeensis, and Rickettsia typhi are accurate, but Rickettsia prowazekii is transmitted by lice, not ticks.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q120"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 33</span> Select the best choice;<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739751891798_SmartSelect___WebtoPDFconverterPro.jpg' alt='Image for Q33' style='max-width:100%; height:auto;' data-filepath='pic/1739751891798_SmartSelect___WebtoPDFconverterPro.jpg'>",
@@ -1570,7 +1690,8 @@
     "answer": 1,
     "answerText": "Only 2 and 4 are correct",
     "explanation": "Borrelia burgdorferi (Lyme disease) and Treponema pallidum (syphilis) are accurately matched, while the Rocky Mountain Spotted Fever entry is incorrect.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q121"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 34</span> A 19-year-old man develops cough and fever. A chest radiograph shows consolidation of the left lower lobe. He was diagnosed with community-acquired pneumonia. Which of the following bacteria is a most frequent cause of community-acquired pneumonia?",
@@ -1583,7 +1704,8 @@
     "answer": 1,
     "answerText": "Streptococcus pneumoniae",
     "explanation": "Streptococcus pneumoniae is the most common cause of community-acquired pneumonia.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q122"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 35</span> A 47-year-old man presents with slowly progressive arthritis in his knees. He enjoys hiking. He did not notice a tick on his body, but recalls an expanding red rash weeks ago that healed. The result of a borreliosis EIA for Lyme disease was (+). Which is the best recommendation now?",
@@ -1596,7 +1718,8 @@
     "answer": 1,
     "answerText": "His serum specimen should be tested for antibodies reactive with B. burgdorferi antigens by immunoblot assay",
     "explanation": "Confirmation of Lyme disease requires a two-step process: EIA screening followed by immunoblot assay (Western blot).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q123"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 36</span> A 24-year-old man had acute respiratory distress with history of nasal congestion, headaches, myalgia, and mild dyspnea. His cough was productive and he had pleuritic pain, fever, chills, and diarrhea. A careful history revealed that he had been exposed to his pet birds. Radiographs of lungs showed patchy infiltrates in the left lower lobe. His pulmonary status improved after 7 days of treatment with erythromycin, doxycycline, and ceftriaxone, and was discharged a month later. The diagnosis was made by growing a bacteria in cell culture and serologic tests. The most likely cause of this infection is;",
@@ -1609,7 +1732,8 @@
     "answer": 1,
     "answerText": "Chlamydia psittaci",
     "explanation": "Chlamydia psittaci causes psittacosis (ornithosis), often transmitted from birds.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q124"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 37</span> Which of the following compounds consists cord-factor in Mycobacterium tuberculosis?",
@@ -1622,7 +1746,8 @@
     "answer": 0,
     "answerText": "Trehalose dimycolate (trehalose and two mycolic acids)",
     "explanation": "Trehalose dimycolate is a virulence factor known as cord-factor, contributing to Mycobacterium tuberculosis pathogenicity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q125"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 38</span> Select the correct choice about Nocardia",
@@ -1635,7 +1760,8 @@
     "answer": 1,
     "answerText": "Susceptible to Trimethoprim/sulfamethoxazole",
     "explanation": "Nocardia infections are treated with trimethoprim/sulfamethoxazole.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q126"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 39</span> Which of the following bacteria plays the greatest role in causing lung infection in people with chronic granulomatous genetic disease (CGD)?",
@@ -1648,7 +1774,8 @@
     "answer": 1,
     "answerText": "Burkholderia cepacia complex",
     "explanation": "Burkholderia cepacia is a significant pathogen in CGD patients due to their impaired oxidative burst.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q127"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-01-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 40</span> Transmission of which bacteria is similar to Treponema pallidum?",
@@ -1661,7 +1788,8 @@
     "answer": 1,
     "answerText": "Chlamydia trachomatis",
     "explanation": "Chlamydia trachomatis, like Treponema pallidum, is transmitted primarily through sexual contact.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q128"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 1</span> All the following describe the routes of transmission of Leprosy to humans EXCEPT:",
@@ -1674,7 +1802,8 @@
     "answer": 2,
     "answerText": "Ingestion of unpasteurized sheep milk",
     "explanation": "Ingestion of unpasteurized sheep milk is not a recognized route for Leprosy transmission.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q129"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 2</span> Which of the following compounds is required for treatment of sputum before inoculating it on culture medium?",
@@ -1687,7 +1816,8 @@
     "answer": 0,
     "answerText": "Sodium Hydroxide",
     "explanation": "Sodium hydroxide is commonly used for decontaminating and processing sputum samples for mycobacterial cultures.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q130"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 3</span> Select the correct bacterium that belongs to Mycobacterium tuberculosis complex:",
@@ -1700,7 +1830,8 @@
     "answer": 0,
     "answerText": "M. microtii",
     "explanation": "M. microtii is a member of the Mycobacterium tuberculosis complex, which includes species causing tuberculosis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q131"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 4</span> All the following tests can evaluate the cell-mediated immunity response EXCEPT:",
@@ -1713,7 +1844,8 @@
     "answer": 1,
     "answerText": "Direct smear Microscopy",
     "explanation": "Direct smear microscopy does not measure cell-mediated immunity; it is used for detecting bacterial cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q132"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 5</span> Which of the following choices is NOT correct about the rapidly growing mycobacteria?",
@@ -1726,7 +1858,8 @@
     "answer": 0,
     "answerText": "Growth in less than 2 days",
     "explanation": "Rapidly growing mycobacteria typically take longer than 2 days to grow, often around 3–7 days.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q133"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 6</span> Select the correct choice about Nocardia:",
@@ -1739,7 +1872,8 @@
     "answer": 0,
     "answerText": "It is a gram-positive but weakly acid-fast",
     "explanation": "Nocardia is weakly acid-fast due to its mycolic acid content in the cell wall.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q134"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 7</span> All the following conditions predispose patients to Nocardiosis EXCEPT:",
@@ -1752,7 +1886,8 @@
     "answer": 2,
     "answerText": "Immunotherapy to trigger the immunity",
     "explanation": "Immunotherapy boosts the immune system and is not a risk factor for Nocardiosis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q135"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 8</span> Which species of Nocardia is dominantly involved in actinomycetes?",
@@ -1765,7 +1900,8 @@
     "answer": 0,
     "answerText": "N. brasiliensis",
     "explanation": "N. brasiliensis is commonly implicated in actinomycetoma, especially in tropical regions.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q136"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 9</span> Which toxin of Clostridium perfringens causes enteritis necroticans (pig bel disease)?",
@@ -1778,7 +1914,8 @@
     "answer": 0,
     "answerText": "β-toxin",
     "explanation": "β-toxin is the primary toxin associated with enteritis necroticans (pig bel disease).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q137"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 10</span> All the following specimens can be used for laboratory diagnosis of pig bel disease (enteritis necroticans) EXCEPT:",
@@ -1791,7 +1928,8 @@
     "answer": 3,
     "answerText": "Sputum",
     "explanation": "Sputum is not relevant for diagnosing enteritis necroticans, as it primarily affects the intestine.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q138"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 11</span> Select the correct choice to complete the following sentence:",
@@ -1804,7 +1942,8 @@
     "answer": 2,
     "answerText": "Clostridium tetani",
     "explanation": "Clostridium tetani produces tetanospasmin, a neurotoxin that causes muscle spasms and trismus (lockjaw).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q139"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 12</span> Which antibacterial agents put the patients in danger of getting Pseudomembranous colitis?",
@@ -1817,7 +1956,8 @@
     "answer": 0,
     "answerText": "Clindamycin",
     "explanation": "Clindamycin is associated with the overgrowth of Clostridioides difficile, leading to Pseudomembranous colitis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q140"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 13</span> Which of the following Escherichia coli (E. coli) pathotypes is subdivided into typical and atypical strains based on the presence or absence of the E. coli adherence factor (EAF) plasmid?",
@@ -1830,7 +1970,8 @@
     "answer": 1,
     "answerText": "Enteropathogenic E. coli (EPEC)",
     "explanation": "EPEC is classified into typical and atypical strains based on the presence or absence of the EAF plasmid.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q141"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 14</span> Which of the following Shigella species encodes an exotoxin and damages kidneys, intestines, and nerve cells?",
@@ -1843,7 +1984,8 @@
     "answer": 2,
     "answerText": "Shigella dysenteriae",
     "explanation": "Shigella dysenteriae produces Shiga toxin, which is responsible for systemic damage and hemolytic uremic syndrome.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q142"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 15</span> All the following bacteria are susceptible to stomach acids EXCEPT:",
@@ -1856,7 +1998,8 @@
     "answer": 3,
     "answerText": "Shigella sonnei",
     "explanation": "Shigella species, especially S. sonnei, are relatively resistant to stomach acids, aiding in their pathogenesis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q143"
   },
   {
     "question": "<span style=\"color: darkred; font-weight:bold;\">1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 16</span> Guillain-Barré syndrome is an autoimmune disorder of the peripheral nervous system. Which of the following bacteria causes this syndrome?",
@@ -1869,7 +2012,8 @@
     "answer": 2,
     "answerText": "Campylobacter upsaliensis",
     "explanation": "Campylobacter upsaliensis has been implicated in Guillain-Barré syndrome through molecular mimicry mechanisms.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q144"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 17</span> For Vibrio cholerae, if culture will be delayed, the specimen should be mixed in a... medium.",
@@ -1882,7 +2026,8 @@
     "answer": 2,
     "answerText": "Cary-Blair transport",
     "explanation": "Cary-Blair transport medium preserves the viability of Vibrio species during delayed transportation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q145"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 18</span> Which of the infections caused by Pseudomonas aeruginosa is more likely to occur in diabetic people?",
@@ -1895,7 +2040,8 @@
     "answer": 1,
     "answerText": "Malignant external otitis",
     "explanation": "Malignant external otitis is a severe infection of the external ear canal, primarily affecting diabetic patients.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q146"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 19</span> All the following drugs can be used in infections caused by Pseudomonas aeruginosa EXCEPT:",
@@ -1908,7 +2054,8 @@
     "answer": 3,
     "answerText": "Trimethoprim-sulfamethoxazole",
     "explanation": "Trimethoprim-sulfamethoxazole has poor activity against Pseudomonas aeruginosa.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q147"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 20</span> Which of the following bacteria plays the greatest role in causing lung infections in people with chronic granulomatous disease (CGD)?",
@@ -1921,7 +2068,8 @@
     "answer": 1,
     "answerText": "Burkholderia cepacia complex",
     "explanation": "Burkholderia cepacia complex is a major pathogen in CGD patients due to impaired phagocytic function.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q148"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 21</span> Which of the following bacteria produces a grape-like odor?",
@@ -1934,7 +2082,8 @@
     "answer": 1,
     "answerText": "Pseudomonas aeruginosa",
     "explanation": "Pseudomonas aeruginosa produces a characteristic grape-like or fruity odor due to metabolic byproducts.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q149"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 22</span> Which of the following bacteria produces diffusible pigments?",
@@ -1947,7 +2096,8 @@
     "answer": 1,
     "answerText": "Pseudomonas aeruginosa",
     "explanation": "Pseudomonas aeruginosa produces diffusible pigments such as pyocyanin and pyoverdine.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q150"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 23</span> The O-side chain of... is antigenically similar to the Lewis blood group antigens.",
@@ -1960,7 +2110,8 @@
     "answer": 2,
     "answerText": "Helicobacter pylori",
     "explanation": "The O-side chain of Helicobacter pylori shares structural similarities with Lewis antigens, aiding in immune evasion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q151"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 24</span> Which of the following bacteria is a causative agent of bubonic plague?",
@@ -1973,7 +2124,8 @@
     "answer": 2,
     "answerText": "Yersinia pestis",
     "explanation": "Yersinia pestis is the causative agent of bubonic plague, transmitted by flea vectors.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q152"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 25</span> Which bacteria can cause zoonotic infections (transmitted from animals)?",
@@ -1986,7 +2138,8 @@
     "answer": 1,
     "answerText": "Brucella melitensis",
     "explanation": "Brucella melitensis is a zoonotic bacterium primarily transmitted through contact with infected animals or unpasteurized dairy products.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q153"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 26</span> Which of the following bacteria principally infects the liver and kidneys?",
@@ -1999,7 +2152,8 @@
     "answer": 1,
     "answerText": "Leptospira interrogans",
     "explanation": "Leptospira interrogans primarily targets the liver and kidneys, causing leptospirosis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q154"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 27</span> Nontreponemal serological tests:",
@@ -2012,7 +2166,8 @@
     "answer": 0,
     "answerText": "Measure antibodies against lipids (e.g., cardiolipin) released from damaged cells",
     "explanation": "Nontreponemal tests, such as the VDRL and RPR tests, detect antibodies against cardiolipin released during tissue damage.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q155"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 28</span> Which bacteria causes atypical pneumonia, also known as walking pneumonia?",
@@ -2025,7 +2180,8 @@
     "answer": 2,
     "answerText": "Mycoplasma pneumoniae",
     "explanation": "Mycoplasma pneumoniae is a common cause of atypical pneumonia, characterized by milder symptoms.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q156"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 29</span> Tick is the vector for transmission of all the bacterial infections below EXCEPT:",
@@ -2038,7 +2194,8 @@
     "answer": 3,
     "answerText": "Coxiella burnetii",
     "explanation": "Coxiella burnetii, the causative agent of Q fever, is transmitted primarily via inhalation of contaminated aerosols, not by ticks.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q157"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 30</span> All the following statements are true EXCEPT:",
@@ -2051,7 +2208,8 @@
     "answer": 1,
     "answerText": "Mycoplasma pneumoniae infections can be detected through nucleic acid amplification tests",
     "explanation": "Nucleic acid amplification tests are commonly used for detecting Mycoplasma pneumoniae infections due to their sensitivity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q158"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 31</span> All the following statements regarding Pontiac Fever and Legionnaire’s disease are true, EXCEPT:",
@@ -2064,7 +2222,8 @@
     "answer": 2,
     "answerText": "Both diseases cause high fever and have an incubation period of 7–10 days",
     "explanation": "Pontiac fever has a shorter incubation period (1–3 days) compared to Legionnaire’s disease.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q159"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 32</span> All the following statements regarding relapsing fever are correct, EXCEPT:",
@@ -2077,7 +2236,8 @@
     "answer": 3,
     "answerText": "Endemic disease is caused by Borrelia recurrentis",
     "explanation": "Endemic relapsing fever is caused by Borrelia species other than B. recurrentis, typically transmitted by ticks.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q160"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 33</span> Initiation of infection by Mycoplasma pneumoniae begins with:",
@@ -2090,7 +2250,8 @@
     "answer": 2,
     "answerText": "Adherence to respiratory epithelial cells mediated by P1 adhesin",
     "explanation": "The P1 adhesin allows Mycoplasma pneumoniae to adhere to respiratory epithelial cells, initiating infection.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q161"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 34</span> Transmission of which bacteria is similar to Treponema pallidum?",
@@ -2103,7 +2264,8 @@
     "answer": 0,
     "answerText": "Chlamydia trachomatis",
     "explanation": "Like Treponema pallidum, Chlamydia trachomatis is primarily transmitted through sexual contact.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q162"
   },
   {
     "question": "<span style=\"color: darkred; font-weight:bold;\">1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 35</span> Use the table below to select the best answer:<br><img src=\"https://i.imghippo.com/files/eJHM6336AZ.png\" alt=\"Image for Q76\" style=\"max-width:100%; height:auto;\">",
@@ -2116,7 +2278,8 @@
     "answer": 2,
     "answerText": "All choices are correct",
     "explanation": "The table shows that all three bacteria have accurate diagnostic tests and corresponding treatment options, making all choices correct.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q163"
   },
   {
     "question": "<span style=\"color: darkred; font-weight:bold;\">1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 36</span> Use the table below to select the best answer:<br><img src=\"https://i.imghippo.com/files/qMVp1860NjM.png\" alt=\"Image for Q77\" style=\"max-width:100%; height:auto;\">",
@@ -2129,7 +2292,8 @@
     "answer": 0,
     "answerText": "Only 1, 2, and 3 are correct",
     "explanation": "The diagnostic tests and vectors for 1, 2, and 3 match correctly, while 4 contains inconsistencies in the listed reservoir and vector relationship.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q164"
   },
   {
     "question": "<span style=\"color: darkred; font-weight:bold;\">1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 37</span> Use the table below to select the best answer:<br><img src=\"https://i.imghippo.com/files/ldX2985DdU.png\" alt=\"Image for Q78\" style=\"max-width:100%; height:auto;\">",
@@ -2142,7 +2306,8 @@
     "answer": 1,
     "answerText": "Only 2 and 4 are correct",
     "explanation": "The information in rows 2 and 4 correctly aligns with transmission, treatment, and prevention details, making them the correct answers.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q165"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 38</span> A 19-year-old man develops cough and fever. A chest radiograph shows consolidation of the left lower lobe. He was diagnosed with community-acquired pneumonia. Which of the following bacteria is the most frequent cause of community-acquired pneumonia?",
@@ -2155,7 +2320,8 @@
     "answer": 1,
     "answerText": "Streptococcus pneumoniae",
     "explanation": "Streptococcus pneumoniae is the most common cause of community-acquired pneumonia, particularly in young adults and the elderly.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q166"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 39</span> A 24-year-old man had acute respiratory distress with a history of nasal congestion, headaches, myalgia, and mild dyspnea. His cough was productive, and he had pleuritic pain, fever, chills, and diarrhea. A careful history revealed exposure to his pet birds. Radiographs of the lungs showed patchy infiltrates in the left lower lobe. His pulmonary status improved after treatment with erythromycin, doxycycline, and ceftriaxone. The diagnosis was confirmed by cell culture and serologic tests. The most likely cause of this infection is:",
@@ -2168,7 +2334,8 @@
     "answer": 0,
     "answerText": "Chlamydia psittaci",
     "explanation": "Chlamydia psittaci is the causative agent of psittacosis, a zoonotic respiratory disease commonly linked to exposure to infected birds.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q167"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st & 2nd Batch (2025-1-25) Final-term - Dr. Halimi & Dr. Feizabadi & Dr. Bonakdar Hashemi - Question 40</span> A sexually active 20-year-old woman has a vaginal discharge. On pelvic examination, she presented with a purulent discharge at the opening of her endocervical canal. An endocervical specimen was collected for analysis. Which of the following statements about this patient is most correct?",
@@ -2181,6 +2348,7 @@
     "answer": 1,
     "answerText": "A Gram-stain of her endocervical specimen would show C. trachomatis inside polymorphonuclear cells",
     "explanation": "Chlamydia trachomatis is an intracellular pathogen often found within polymorphonuclear cells in Gram-stained endocervical specimens.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "micr-micr-q168"
   }
 ]
