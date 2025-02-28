@@ -10,7 +10,8 @@
     "answer": 2,
     "answerText": "Lamina propria",
     "explanation": "The lamina propria is a loose connective tissue that supports the epithelium and contains immune cells and blood vessels.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 2</span> Which cells are surrounded by external laminae?",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Muscle cells, fat-storing cells, and nerves",
     "explanation": "Muscle cells, fat cells, and Schwann cells in nerves are enveloped by an external lamina that supports and separates them from adjacent tissues.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 3</span> Together, the .............. and ................. junctions encircling the apical ends of epithelial cells.",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Tight - adherent",
     "explanation": "Tight junctions (zonula occludens) and adherent junctions (zonula adherens) form a belt-like structure sealing the apical regions of epithelial cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 4</span> Which type of epithelium is characterized by a superficial layer of large, dome-like cells?",
@@ -49,7 +52,8 @@
     "answer": 3,
     "answerText": "Transitional epithelium",
     "explanation": "Transitional epithelium, found in the bladder and urinary system, has dome-shaped surface cells that can flatten when stretched.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 5</span> The ............... are motile apical structures, and containing internal arrays of ................ .",
@@ -62,7 +66,8 @@
     "answer": 1,
     "answerText": "Cilia - microtubules",
     "explanation": "Cilia are motile extensions of the apical membrane, supported by microtubules arranged in a 9+2 structure.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 6</span> Which cell has a well-developed contractile function and is involved in wound healing?",
@@ -75,7 +80,8 @@
     "answer": 1,
     "answerText": "Myofibroblasts",
     "explanation": "Myofibroblasts possess contractile actin filaments and play a role in wound contraction and tissue remodeling.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 7</span> Which cell is an antibody-producing cell?",
@@ -88,7 +94,8 @@
     "answer": 1,
     "answerText": "Plasma cell",
     "explanation": "Plasma cells are differentiated B cells specialized in producing antibodies during immune responses.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 8</span> The ................... is the principal component of the fetal umbilical cord, with abundant ................ .",
@@ -101,7 +108,8 @@
     "answer": 1,
     "answerText": "Mucoid connective tissue - ground substance",
     "explanation": "Mucoid connective tissue, also called Wharton’s jelly, has abundant ground substance supporting blood vessels in the umbilical cord.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 9</span> Which type of collagen occurs as fibrils but does not form fibers?",
@@ -114,7 +122,8 @@
     "answer": 2,
     "answerText": "Type II",
     "explanation": "Type II collagen forms fibrils but does not aggregate into fibers, typically found in cartilage.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 10</span> Which cell is undifferentiated?",
@@ -127,7 +136,8 @@
     "answer": 1,
     "answerText": "Mesenchymal cell",
     "explanation": "Mesenchymal cells are undifferentiated multipotent cells that give rise to various cell types, including bone and cartilage cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 11</span> Weight loss after dietary changes is due to reductions in .................... .",
@@ -140,7 +150,8 @@
     "answer": 1,
     "answerText": "Adipocyte volume",
     "explanation": "Adipocyte volume decreases during weight loss, while the number of adipocytes remains relatively constant.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 12</span> The .................. is a “satiety factor” and synthesized by ................... tissue.",
@@ -153,7 +164,8 @@
     "answer": 1,
     "answerText": "Leptin - white adipose",
     "explanation": "Leptin, produced by white adipose tissue, signals satiety to the brain, helping regulate appetite.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 13</span> The .............. in cartilaginous regions within long bones is important in increasing the ................... .",
@@ -166,7 +178,8 @@
     "answer": 0,
     "answerText": "Interstitial growth - length",
     "explanation": "Interstitial growth, driven by division of chondrocytes, leads to the elongation of long bones.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 14</span> Which one is composed of elastic cartilage and fibrocartilage, respectively?",
@@ -179,7 +192,8 @@
     "answer": 1,
     "answerText": "Auricle of the ear - intervertebral discs",
     "explanation": "Elastic cartilage is found in structures like the auricle of the ear, while fibrocartilage is present in intervertebral discs.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 15</span> Which one forms the temporary skeleton in the embryo?",
@@ -192,7 +206,8 @@
     "answer": 1,
     "answerText": "Hyaline cartilage",
     "explanation": "Hyaline cartilage forms the embryonic skeleton, which later ossifies during development.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 16</span> Which one produces the lubricant synovial fluid?",
@@ -205,7 +220,8 @@
     "answer": 0,
     "answerText": "Synovial membrane",
     "explanation": "The synovial membrane secretes synovial fluid, which lubricates and nourishes joint surfaces.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 17</span> Which of the following is essential for matrix resorption?",
@@ -218,7 +234,8 @@
     "answer": 1,
     "answerText": "Osteoclasts",
     "explanation": "Osteoclasts are responsible for resorbing bone matrix by secreting enzymes and acids.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 18</span> The ...................... is 90% of the organic matter embedded in the calcified matrix of bone.",
@@ -231,7 +248,8 @@
     "answer": 0,
     "answerText": "Type I collagen",
     "explanation": "Type I collagen is the predominant organic component, providing tensile strength to bone.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 19</span> What type of cell has the potential to proliferate and produce new osteoblasts?",
@@ -244,7 +262,8 @@
     "answer": 1,
     "answerText": "Osteoprogenitor",
     "explanation": "Osteoprogenitor cells differentiate into osteoblasts and are crucial for bone growth and repair.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 20</span> Which type of joints have a thick pad of fibrocartilage?",
@@ -257,7 +276,8 @@
     "answer": 1,
     "answerText": "Symphyses",
     "explanation": "Symphyses, like the pubic symphysis, have fibrocartilage pads that provide cushioning and strength.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 21</span> Which of the following forms myelin in the central nervous system?",
@@ -270,7 +290,8 @@
     "answer": 1,
     "answerText": "Oligodendrocyte",
     "explanation": "Oligodendrocytes form myelin sheaths around axons in the CNS, facilitating rapid signal conduction.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 22</span> What surrounds peripheral nerves externally?",
@@ -283,7 +304,8 @@
     "answer": 2,
     "answerText": "Epineurium",
     "explanation": "The epineurium is the outermost connective tissue layer, enclosing the entire nerve.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 23</span> The ............... are the main components of white matter.",
@@ -296,7 +318,8 @@
     "answer": 0,
     "answerText": "Myelinated axons & oligodendrocytes",
     "explanation": "White matter consists primarily of myelinated axons and supporting oligodendrocytes for signal transmission.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 24</span> The .................. consists of dense irregular connective tissue.",
@@ -309,7 +332,8 @@
     "answer": 2,
     "answerText": "Dura mater",
     "explanation": "The dura mater is a thick, dense irregular connective tissue providing mechanical protection to the brain and spinal cord.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 25</span> What type of muscle contains bundles of multinucleated cells?",
@@ -322,7 +346,8 @@
     "answer": 1,
     "answerText": "Skeletal muscle",
     "explanation": "Skeletal muscle fibers are multinucleated cells formed by the fusion of myoblasts and are organized into bundles.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 26</span> What type of cells produce new muscle fibers following muscle injury?",
@@ -335,7 +360,8 @@
     "answer": 1,
     "answerText": "Satellite cells",
     "explanation": "Satellite cells are muscle stem cells that become activated after injury to generate new muscle fibers.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 27</span> What is stretch detectors among the muscle fascicles?",
@@ -348,7 +374,8 @@
     "answer": 1,
     "answerText": "Muscle spindle",
     "explanation": "Muscle spindles detect changes in muscle length and mediate reflex responses to maintain muscle tone.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 28</span> The actin myofilaments insert into .................. in the smooth muscle.",
@@ -361,7 +388,8 @@
     "answer": 1,
     "answerText": "Dense body",
     "explanation": "In smooth muscle, dense bodies serve as attachment sites for actin filaments, similar to Z discs in skeletal muscle.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 29</span> Which one bisects A band in the myofibrils?",
@@ -374,7 +402,8 @@
     "answer": 1,
     "answerText": "M line",
     "explanation": "The M line runs down the center of the A band, anchoring the thick myosin filaments.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 30</span> What is the most abundant plasma protein?",
@@ -387,7 +416,8 @@
     "answer": 2,
     "answerText": "Albumin",
     "explanation": "Albumin is the most abundant plasma protein and plays a key role in maintaining oncotic pressure and transporting molecules.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 31</span> What is the only blood cell whose function does not require them to leave the vasculature?",
@@ -400,7 +430,8 @@
     "answer": 2,
     "answerText": "RBCs",
     "explanation": "Red blood cells perform their oxygen transport function entirely within blood vessels.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 32</span> Inactive X chromosome may appear as a drumstick-like appendage on the nucleus of ...................... .",
@@ -413,7 +444,8 @@
     "answer": 1,
     "answerText": "Neutrophils",
     "explanation": "In females, the inactive X chromosome forms a Barr body, often visible in neutrophils as a drumstick-like projection.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 33</span> One cause of thrombocytopenia is ineffective megakaryopoiesis resulting from deficiencies of ........................",
@@ -426,7 +458,8 @@
     "answer": 1,
     "answerText": "Folic acid or vitamin B12",
     "explanation": "Deficiencies of folic acid or vitamin B12 impair megakaryocyte development, leading to reduced platelet production.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 34</span> Which layer of the epidermis is normally the thickest layer, especially in the epidermal ridges?",
@@ -439,7 +472,8 @@
     "answer": 2,
     "answerText": "Spinous layer",
     "explanation": "The spinous layer is thick and rich in desmosomes, especially in areas of high mechanical stress like the epidermal ridges.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 35</span> Which one of the following produces a lipid-rich, impermeable layer around the cells?",
@@ -452,7 +486,8 @@
     "answer": 2,
     "answerText": "Lamellar granules",
     "explanation": "Lamellar granules release lipid-rich substances that form a protective barrier, preventing water loss and pathogen entry.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 36</span> The ................... accumulate within ............. as a supranuclear cap, protecting DNA from UV radiation.",
@@ -465,7 +500,8 @@
     "answer": 0,
     "answerText": "Melanosomes - keratinocytes",
     "explanation": "Melanosomes containing melanin form a cap above the nucleus of keratinocytes to shield DNA from UV damage.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 37</span> The ............... produce the sweat, and the ............... are filled with granules with bactericidal activity.",
@@ -478,7 +514,8 @@
     "answer": 0,
     "answerText": "Clear cells - dark cells",
     "explanation": "Clear cells secrete the watery component of sweat, while dark cells contain secretory granules with antimicrobial peptides.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 38</span> The ................... are ................... and have synaptic contacts with unmyelinated afferent fibers.",
@@ -491,7 +528,8 @@
     "answer": 0,
     "answerText": "Merkel cells - mechanoreceptors",
     "explanation": "Merkel cells are specialized mechanoreceptors that detect pressure and have synaptic connections to sensory neurons.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 39</span> Function of which cell is defense and immune-related activities?",
@@ -504,7 +542,8 @@
     "answer": 2,
     "answerText": "Microglia",
     "explanation": "Microglia act as the immune cells of the central nervous system, involved in phagocytosis and inflammatory responses.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-10) Dr. Golshan - Question 40</span> The .................. lose its nucleus, and enter the circulation as .................... .",
@@ -517,6 +556,7 @@
     "answer": 0,
     "answerText": "Normoblasts - reticulocytes",
     "explanation": "Normoblasts expel their nucleus before maturing into reticulocytes, which enter circulation and become RBCs.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "tiss-hist-q40"
   }
 ]
