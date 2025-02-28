@@ -10,7 +10,8 @@
     "answer": 0,
     "answerText": "Joint symptoms and a “slapped cheek” rash",
     "explanation": "Erythema infectiosum, also called \"fifth disease,\" is caused by parvovirus B19 and is characterized by a \"slapped cheek\" rash and joint symptoms.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 2</span> In immunodeficient patients, parvovirus B19 infection can cause:",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Pure red cell aplasia",
     "explanation": "In immunocompromised patients, parvovirus B19 can cause pure red cell aplasia, leading to severe anemia.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 3</span> Which statement about enveloped viruses is correct?",
@@ -36,7 +38,8 @@
     "answer": 2,
     "answerText": "They are acquired from host cell membranes.",
     "explanation": "Enveloped viruses acquire their lipid bilayer from the host cell membrane during the budding process.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 4</span> What defines a nonpermissive cell for a virus?",
@@ -49,7 +52,8 @@
     "answer": 1,
     "answerText": "A cell that lacks necessary factors for viral replication",
     "explanation": "A nonpermissive cell lacks the factors necessary for viral replication.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 5</span> What is the term for virus transport in the bloodstream?",
@@ -62,7 +66,8 @@
     "answer": 1,
     "answerText": "Viremia",
     "explanation": "Viremia is the presence of viruses in the bloodstream.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 6</span> Reye syndrome is associated with:",
@@ -75,7 +80,8 @@
     "answer": 0,
     "answerText": "Salicylate use during influenza infection",
     "explanation": "Reye syndrome is a rare but serious condition associated with aspirin (salicylate) use in children with viral infections like influenza.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 7</span> Which protein do protective antibodies target in influenza viruses?",
@@ -88,7 +94,8 @@
     "answer": 1,
     "answerText": "Hemagglutinin",
     "explanation": "Hemagglutinin is the primary target of protective antibodies against influenza viruses.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 8</span> The cowpox virus is immunologically related to which virus?",
@@ -101,7 +108,8 @@
     "answer": 2,
     "answerText": "Variola virus",
     "explanation": "Cowpox virus is related to Variola virus (smallpox), and early cowpox exposure led to smallpox immunity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 9</span> What is the primary target of most antiviral drugs?",
@@ -114,7 +122,8 @@
     "answer": 2,
     "answerText": "Viral replication",
     "explanation": "Most antiviral drugs inhibit viral replication, targeting enzymes like polymerases or proteases.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 10</span> What is the primary mode of action of ribavirin?",
@@ -127,7 +136,8 @@
     "answer": 1,
     "answerText": "Induces hypermutation and inhibits RNA polymerase",
     "explanation": "Ribavirin works by inducing lethal mutagenesis in RNA viruses and inhibiting viral RNA polymerase.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q10"
   },
   {
     "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 11</span> What is the role of type 1 interferons in antiviral defense?",
@@ -140,7 +150,8 @@
     "answer": 1,
     "answerText": "Blocking ribosomal assembly and degrading viral mRNA",
     "explanation": "Type 1 interferons (IFN-α and IFN-β) inhibit viral DNA and RNA synthesis and activate antiviral pathways.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 12</span> Which nucleoside analog is specifically used to inhibit the DNA polymerase of cytomegalovirus (CMV)?",
@@ -153,7 +164,8 @@
     "answer": 0,
     "answerText": "Ganciclovir",
     "explanation": "Ganciclovir is an antiviral nucleoside analog that specifically inhibits CMV DNA polymerase.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 13</span> Until what week of pregnancy is the fetus at major risk for rubella complications?",
@@ -166,7 +178,8 @@
     "answer": 3,
     "answerText": "20th week",
     "explanation": "Rubella infection is most dangerous during the first 20 weeks of pregnancy, leading to congenital rubella syndrome.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 14</span> Which bodily fluid is commonly tested for the presence of rubella virus?",
@@ -179,7 +192,8 @@
     "answer": 2,
     "answerText": "Urine",
     "explanation": "Urine is commonly tested for rubella virus in suspected congenital rubella infections.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 15</span> What respiratory condition is specifically associated with parainfluenza virus infection?",
@@ -192,7 +206,8 @@
     "answer": 1,
     "answerText": "Croup",
     "explanation": "Parainfluenza virus is a leading cause of croup, a respiratory condition in young children.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 16</span> Which virus types are associated with keratoconjunctivitis?",
@@ -205,7 +220,8 @@
     "answer": 0,
     "answerText": "Adenovirus",
     "explanation": "Adenovirus is a common cause of keratoconjunctivitis (pink eye).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 17</span> Besides meningitis, what other complication is commonly caused by mumps in adults?",
@@ -218,7 +234,8 @@
     "answer": 0,
     "answerText": "Orchitis",
     "explanation": "Mumps commonly causes orchitis (testicular inflammation) in postpubertal males.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 18</span> Koplik spots are small, white spots that appear inside the mouth. Which disease are they a sign of?",
@@ -231,7 +248,8 @@
     "answer": 2,
     "answerText": "Measles",
     "explanation": "Koplik spots are a pathognomonic sign of measles.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 19</span> During which season do rotavirus infections usually predominate?",
@@ -244,7 +262,8 @@
     "answer": 3,
     "answerText": "Winter",
     "explanation": "Rotavirus infections are most common in winter months.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 20</span> What feature made the eradication of smallpox possible?",
@@ -257,7 +276,8 @@
     "answer": 2,
     "answerText": "Stable and safe vaccine",
     "explanation": "Smallpox was eradicated due to an effective, stable vaccine and the absence of an animal reservoir.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 21</span> What is the primary site of latency for both Herpes Simplex Virus Type 1 and Type 2?",
@@ -270,7 +290,8 @@
     "answer": 2,
     "answerText": "Neurons",
     "explanation": "HSV-1 and HSV-2 establish latency in sensory neurons.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 22</span> On reactivation, Varicella-Zoster Virus (VZV) causes a condition known as herpes zoster. Which of the following occurs during this reactivation?",
@@ -283,7 +304,8 @@
     "answer": 2,
     "answerText": "The virus is released along the length of the neuron to infect the skin.",
     "explanation": "Herpes zoster (shingles) occurs when VZV reactivates and travels along sensory nerves to the skin.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 23</span> Which of the following pathogens can infect the B cell?",
@@ -296,7 +318,8 @@
     "answer": 0,
     "answerText": "EBV",
     "explanation": "Epstein-Barr virus (EBV) infects B cells and is associated with infectious mononucleosis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 24</span> Where does CMV establish latent infection in the body?",
@@ -309,7 +332,8 @@
     "answer": 1,
     "answerText": "In hematopoietic progenitor cells in the bone marrow and monocytes",
     "explanation": "CMV establishes latency in myeloid progenitor cells and monocytes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 25</span> Which feature of adenoviruses is correct?",
@@ -322,7 +346,8 @@
     "answer": 1,
     "answerText": "Persistent infections",
     "explanation": "Adenoviruses can cause persistent infections, especially in immunocompromised individuals.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 26</span> Which complication is NOT related to adenovirus infection?",
@@ -335,7 +360,8 @@
     "answer": 2,
     "answerText": "Glomerulonephritis",
     "explanation": "Adenovirus is not typically associated with glomerulonephritis; it more commonly causes respiratory, gastrointestinal, and urinary tract infections.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 27</span> Which statement about BK and JC viruses is correct?",
@@ -348,7 +374,8 @@
     "answer": 1,
     "answerText": "Both viruses may persist chronically in an infected person.",
     "explanation": "BK and JC viruses are polyomaviruses that can persist chronically, particularly in immunocompromised individuals.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 28</span> The reason for the success in eradicating the human smallpox virus is all of the following, EXCEPT?",
@@ -361,7 +388,8 @@
     "answer": 0,
     "answerText": "There are several serotypes of this virus.",
     "explanation": "Smallpox eradication was successful because the virus had a single serotype, no animal reservoir, and an effective vaccine.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q28"
   },
   {
     "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 29</span> Which of the following virus families has the ability to cause cancer in humans?",
@@ -374,7 +402,8 @@
     "answer": 0,
     "answerText": "Poxviruses",
     "explanation": "Some poxviruses have oncogenic potential, though adenoviruses can also induce tumors in experimental animals, they are not a common human cancer cause.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 30</span> Saliva is the transmission factor for which virus?",
@@ -387,7 +416,8 @@
     "answer": 0,
     "answerText": "EBV (Epstein-Barr Virus)",
     "explanation": "Epstein-Barr virus (EBV) is primarily transmitted through saliva and is often called the \"kissing disease\" virus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 31</span> HHV-6 is the cause of what type of complication in childhood?",
@@ -400,7 +430,8 @@
     "answer": 1,
     "answerText": "Febrile seizures",
     "explanation": "HHV-6 is associated with roseola infantum and febrile seizures in young children.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 32</span> Which of the following viruses is not significant in pregnant women?",
@@ -413,7 +444,8 @@
     "answer": 3,
     "answerText": "Adenovirus",
     "explanation": "Adenovirus is not a significant cause of congenital infections, unlike parvovirus B19, CMV, and VZV.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 33</span> Which option is directly related to cancer in the oral area?",
@@ -426,7 +458,8 @@
     "answer": 1,
     "answerText": "HPV-16",
     "explanation": "HPV-16 is a high-risk type associated with oropharyngeal and cervical cancers.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 34</span> Which statement about the HPV vaccine is correct?",
@@ -439,7 +472,8 @@
     "answer": 0,
     "answerText": "It includes three doses administered at three different time intervals.",
     "explanation": "The HPV vaccine is typically given in a 2- or 3-dose schedule depending on the age of initiation, and it is recommended for both males and females.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 35</span> Which of the following hepatitis virus cannot initiate a chronic infection?",
@@ -452,7 +486,8 @@
     "answer": 0,
     "answerText": "HAV",
     "explanation": "Hepatitis A virus (HAV) causes acute hepatitis but does not lead to chronic infection.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 36</span> Who is more likely to experience fulminant Hepatitis E (HEV) hepatitis?",
@@ -465,7 +500,8 @@
     "answer": 2,
     "answerText": "Pregnant women.",
     "explanation": "Pregnant women, especially in the third trimester, are at increased risk of fulminant hepatitis E infection.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 37</span> Which of the following virus is a DNA virus?",
@@ -478,7 +514,8 @@
     "answer": 1,
     "answerText": "HBV",
     "explanation": "Hepatitis B virus (HBV) is a DNA virus; the others are RNA viruses.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 38</span> Based on the results obtained from a medical diagnostic laboratory: Which of the following is correct?",
@@ -491,7 +528,8 @@
     "answer": 2,
     "answerText": "Indicate previous HBV infection",
     "explanation": "This serologic pattern suggests recovery from a past HBV infection.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 39</span> Why is it important to know the viral load in chronic Hepatitis B virus (HBV) infection?",
@@ -504,7 +542,8 @@
     "answer": 1,
     "answerText": "It helps to follow the course of the infection and antiviral drug efficacy.",
     "explanation": "Viral load is a key marker in monitoring disease progression and evaluating antiviral therapy.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 40</span> What is a significant characteristic of Hepatitis C virus (HCV) in comparison to Hepatitis B virus (HBV)?",
@@ -517,7 +556,8 @@
     "answer": 2,
     "answerText": "HCV has a greater potential for establishing persistent chronic hepatitis than HBV.",
     "explanation": "Hepatitis C virus is more likely than HBV to cause chronic infection.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q40"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 41</span> What is the most effective way to prevent Hepatitis D virus (HDV) infection?",
@@ -530,7 +570,8 @@
     "answer": 0,
     "answerText": "Immunization with the HBV vaccine.",
     "explanation": "HDV infection depends on HBV; HBV vaccination prevents HDV co-infection.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q41"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 42</span> What is the advantage of using a mixture of drugs with different mechanisms of action in treating HIV infections?",
@@ -543,7 +584,8 @@
     "answer": 1,
     "answerText": "It reduces the potential to encounter or select for resistance.",
     "explanation": "Combination antiretroviral therapy (ART) reduces the risk of resistance and improves treatment outcomes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q42"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 43</span> What criteria indicate the onset of full-blown AIDS?",
@@ -556,7 +598,8 @@
     "answer": 1,
     "answerText": "CD4 T-cell counts less than 200/μL",
     "explanation": "AIDS is defined by a CD4 count below 200 cells/μL or the presence of an AIDS-defining illness.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q43"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 44</span> Which of the following tests is a Confirmation test in HIV detection?",
@@ -569,7 +612,8 @@
     "answer": 1,
     "answerText": "Western blot analysis",
     "explanation": "Western blot is a confirmatory test used to verify positive HIV screening results.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q44"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025-1-28) - Dr. Kaveh Sadeghi - Question 45</span> Which human oncovirus has been definitively associated with adult T-cell leukemia (ATLL)?",
@@ -582,7 +626,8 @@
     "answer": 0,
     "answerText": "HTLV-1/2",
     "explanation": "Human T-cell leukemia virus type 1 (HTLV-1) is associated with adult T-cell leukemia/lymphoma.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q45"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 1</span> Which of the following agents promotes hypermutation and blocks mRNA capping in virus replication?",
@@ -595,7 +640,8 @@
     "answer": 0,
     "answerText": "Ribavirin",
     "explanation": "Ribavirin promotes hypermutation and inhibits viral replication by interfering with mRNA capping and polymerase activity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q46"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 2</span> Which of the following proteins is inhibited by oseltamivir in the influenza virus?",
@@ -608,7 +654,8 @@
     "answer": 1,
     "answerText": "Neuraminidase",
     "explanation": "Oseltamivir is a neuraminidase inhibitor, preventing the release of new influenza virus particles.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q47"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 3</span> Which stage of viral replication is most commonly targeted by antiviral drugs?",
@@ -621,7 +668,8 @@
     "answer": 2,
     "answerText": "Genome replication",
     "explanation": "Most antiviral drugs target genome replication, as it is a critical step in viral propagation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q48"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 4</span> Which of the following drugs inhibits HIV RNA replication?",
@@ -634,7 +682,8 @@
     "answer": 3,
     "answerText": "Azidothymidine (AZT)",
     "explanation": "AZT (Zidovudine) is a reverse transcriptase inhibitor that prevents HIV RNA from being transcribed into DNA.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q49"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 5</span> Which of the following viruses causes a benign epidermal tumor?",
@@ -647,7 +696,8 @@
     "answer": 0,
     "answerText": "Molluscum contagiosum",
     "explanation": "Molluscum contagiosum causes benign, wart-like lesions, typically in immunocompetent individuals.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q50"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 6</span> Which of the following influenza viruses cause human infection?",
@@ -660,7 +710,8 @@
     "answer": 0,
     "answerText": "H1N1, H3N2",
     "explanation": "H1N1 and H3N2 are the major subtypes of influenza A viruses that cause seasonal epidemics in humans.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q51"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 7</span> Which of the following statements about the influenza virus is incorrect?",
@@ -673,7 +724,8 @@
     "answer": 0,
     "answerText": "Infectious virus recovered from blood.",
     "explanation": "Influenza virus infection is not associated with viremia, and the virus is generally not recovered from the bloodstream.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q52"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 8</span> If you have been bitten or scratched by a wild animal, what should you do?",
@@ -686,7 +738,8 @@
     "answer": 3,
     "answerText": "All of the above",
     "explanation": "Immediate wound cleaning and seeking post-exposure prophylaxis are critical after potential exposure to rabies.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q53"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 9</span> Humans are usually …………… hosts in alphavirus infection?",
@@ -699,7 +752,8 @@
     "answer": 0,
     "answerText": "Dead-end",
     "explanation": "In alphavirus infections, humans are typically dead-end hosts, meaning they do not contribute significantly to the transmission cycle.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q54"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 10</span> Which of the following causes congenital syndrome?",
@@ -712,7 +766,8 @@
     "answer": 1,
     "answerText": "Rubella virus",
     "explanation": "Rubella virus is a major cause of congenital rubella syndrome, which can result in severe birth defects.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q55"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 11</span> Koplik spots are considered a diagnostic/pathognomonic feature of …………… in the pre-eruptive stage.",
@@ -725,7 +780,8 @@
     "answer": 0,
     "answerText": "Measles virus",
     "explanation": "Koplik spots are small, bluish-white lesions on the buccal mucosa and are a hallmark of measles infection.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q56"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 12</span> Which of the following viruses produce viral enterotoxin?",
@@ -738,7 +794,8 @@
     "answer": 3,
     "answerText": "Rotavirus",
     "explanation": "Rotavirus produces a viral enterotoxin (NSP4), which contributes to diarrhea by disrupting intestinal absorption.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q57"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 13</span> Which of the following diseases cannot be caused by the B19 virus?",
@@ -751,7 +808,8 @@
     "answer": 3,
     "answerText": "Acute gastrointestinal disease",
     "explanation": "The B19 virus is not associated with gastrointestinal disease; it primarily causes hematological and fetal complications.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q58"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 14</span> Which of the following viruses causes acute hemorrhagic cystitis?",
@@ -764,7 +822,8 @@
     "answer": 0,
     "answerText": "Adenovirus",
     "explanation": "Adenovirus, particularly serotypes 11 and 21, is known to cause acute hemorrhagic cystitis, especially in children.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q59"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 15</span> Which of the following diseases is not related to adenovirus in humans?",
@@ -777,7 +836,8 @@
     "answer": 3,
     "answerText": "Congenital infection",
     "explanation": "Adenovirus does not typically cause congenital infections, though it is responsible for respiratory, eye, and gastrointestinal diseases.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q60"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 16</span> Which virus types are associated with keratoconjunctivitis?",
@@ -790,7 +850,8 @@
     "answer": 0,
     "answerText": "Adenovirus",
     "explanation": "Adenovirus, particularly serotypes 8, 19, and 37, is a common cause of epidemic keratoconjunctivitis, characterized by inflammation of the cornea and conjunctiva.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q61"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 17</span> Besides meningitis, what other complication is commonly caused by mumps in adults?",
@@ -803,7 +864,8 @@
     "answer": 0,
     "answerText": "Orchitis",
     "explanation": "Orchitis, or inflammation of the testes, is a common complication of mumps in adult males and may lead to infertility.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q62"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 18</span> Which of the following viruses has no vaccine?",
@@ -816,7 +878,8 @@
     "answer": 2,
     "answerText": "B19 virus",
     "explanation": "B19 virus (Parvovirus B19) has no available vaccine, unlike mumps, measles, and rotavirus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q63"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 19</span> During which season do rotavirus infections usually predominate?",
@@ -829,7 +892,8 @@
     "answer": 3,
     "answerText": "Winter",
     "explanation": "Rotavirus infections commonly occur during the winter months and are a major cause of diarrhea in children.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q64"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 20</span> What is the primary site of latency for both Herpes Simplex Virus Type 1 and Type 2?",
@@ -842,7 +906,8 @@
     "answer": 2,
     "answerText": "Neurons",
     "explanation": "HSV-1 and HSV-2 establish latency in neurons, with HSV-1 commonly affecting the trigeminal ganglia and HSV-2 affecting the sacral ganglia.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q65"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 21</span> What feature made the eradication of smallpox possible?",
@@ -855,7 +920,8 @@
     "answer": 2,
     "answerText": "Stable and safe vaccine",
     "explanation": "The availability of a stable and effective vaccine played a crucial role in the global eradication of smallpox.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q66"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 22</span> On reactivation, Varicella-Zoster Virus (VZV) causes a condition known as herpes zoster. Which of the following occurs during this reactivation?",
@@ -868,7 +934,8 @@
     "answer": 2,
     "answerText": "The virus is released along the length of the neuron to infect the skin.",
     "explanation": "Upon reactivation, VZV travels along sensory nerves and infects the skin, causing herpes zoster (shingles).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q67"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 23</span> Which of the following pathogens can infect B cells?",
@@ -881,7 +948,8 @@
     "answer": 0,
     "answerText": "EBV",
     "explanation": "Epstein-Barr virus (EBV) infects and establishes latency in B cells and is associated with various lymphoproliferative disorders.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q68"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 24</span> Where does CMV establish latent infection in the body?",
@@ -894,7 +962,8 @@
     "answer": 1,
     "answerText": "In hematopoietic progenitor cells in the bone marrow and monocytes",
     "explanation": "CMV establishes latency primarily in hematopoietic progenitor cells and monocytes, where it can reactivate under immunosuppression.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q69"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 25</span> Which feature of adenoviruses is correct?",
@@ -907,7 +976,8 @@
     "answer": 1,
     "answerText": "Persistent infections",
     "explanation": "Adenoviruses can establish persistent and latent infections, particularly in lymphoid tissues.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q70"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 26</span> Which complication is NOT related to adenovirus infection?",
@@ -920,7 +990,8 @@
     "answer": 2,
     "answerText": "Glomerulonephritis",
     "explanation": "Adenovirus is not known to cause glomerulonephritis but is commonly associated with respiratory, gastrointestinal, and bladder infections.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q71"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 27</span> Which statement about BK and JC viruses is correct?",
@@ -933,7 +1004,8 @@
     "answer": 1,
     "answerText": "Both viruses may persist chronically in an infected person.",
     "explanation": "BK and JC viruses can persist in a latent state and reactivate in immunosuppressed individuals, with JC virus being associated with progressive multifocal leukoencephalopathy.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q72"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 28</span> The reason for the success in eradicating the human smallpox virus is all of the following, EXCEPT:",
@@ -946,7 +1018,8 @@
     "answer": 0,
     "answerText": "There are several serotypes of this virus.",
     "explanation": "Smallpox eradication was successful due to its single serotype, lack of asymptomatic infections, and effective vaccine, making option A incorrect.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q73"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 29</span> Which of the following virus families has the ability to cause cancer in humans?",
@@ -959,7 +1032,8 @@
     "answer": 0,
     "answerText": "Poxviruses",
     "explanation": "Certain viruses, such as Molluscum contagiosum (a poxvirus), are associated with benign lesions, while others have been linked to cancer.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q74"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 30</span> Saliva is the transmission factor for which virus?",
@@ -972,7 +1046,8 @@
     "answer": 0,
     "answerText": "EBV (Epstein-Barr Virus)",
     "explanation": "Epstein-Barr virus is transmitted through saliva, often referred to as the “kissing disease.”",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q75"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 31</span> HHV-6 is the cause of what type of complication in childhood?",
@@ -985,7 +1060,8 @@
     "answer": 1,
     "answerText": "Febrile seizures",
     "explanation": "HHV-6 causes roseola in infants, which can be associated with high fever and febrile seizures.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q76"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 32</span> Which of the following viruses is not significant in pregnant women?",
@@ -998,7 +1074,8 @@
     "answer": 3,
     "answerText": "Adenovirus",
     "explanation": "Adenovirus does not pose a major risk during pregnancy, unlike B19, CMV, and VZV.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q77"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 33</span> Which option is directly related to cancer in the oral area?",
@@ -1011,7 +1088,8 @@
     "answer": 1,
     "answerText": "HPV-16",
     "explanation": "HPV-16 is a high-risk type associated with oral and oropharyngeal cancers.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q78"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 34</span> Which statement about the HPV vaccine is correct?",
@@ -1024,7 +1102,8 @@
     "answer": 0,
     "answerText": "It includes three doses administered at three different time intervals.",
     "explanation": "The HPV vaccine is typically given as a three-dose series to protect against high-risk HPV types.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q79"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 35</span> Which of the following hepatitis viruses cannot initiate a chronic infection?",
@@ -1037,7 +1116,8 @@
     "answer": 0,
     "answerText": "HAV",
     "explanation": "Hepatitis A virus (HAV) causes an acute infection and does not lead to chronic disease.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q80"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 36</span> Who is more likely to experience fulminant Hepatitis E (HEV) hepatitis?",
@@ -1050,7 +1130,8 @@
     "answer": 2,
     "answerText": "Pregnant women",
     "explanation": "Pregnant women, especially in their third trimester, are at higher risk of developing severe or fulminant HEV infection.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q81"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 37</span> Which of the following viruses is a DNA virus?",
@@ -1063,7 +1144,8 @@
     "answer": 1,
     "answerText": "HBV",
     "explanation": "Hepatitis B virus (HBV) is a DNA virus, whereas HAV, HCV, and HDV are RNA viruses.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q82"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 38</span> Based on the results obtained from a medical diagnostic laboratory:",
@@ -1076,7 +1158,8 @@
     "answer": 2,
     "answerText": "Indicates previous HBV infection",
     "explanation": "A positive Anti-HBs and Anti-HBc with negative HBsAg indicates past infection with recovery and immunity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q83"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 39</span> Why is it important to know the viral load in chronic Hepatitis B virus (HBV) infection?",
@@ -1089,7 +1172,8 @@
     "answer": 1,
     "answerText": "It helps to follow the course of the infection and antiviral drug efficacy.",
     "explanation": "Measuring HBV viral load is crucial for monitoring disease progression and evaluating the effectiveness of treatment.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q84"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 40</span> What is a significant characteristic of Hepatitis C virus (HCV) in comparison to Hepatitis B virus (HBV)?",
@@ -1102,7 +1186,8 @@
     "answer": 2,
     "answerText": "HCV has a greater potential for establishing persistent chronic hepatitis than HBV.",
     "explanation": "HCV has a high risk of developing chronic infections and can lead to long-term complications such as cirrhosis and hepatocellular carcinoma.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q85"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 41</span> What is the most effective way to prevent Hepatitis D virus (HDV) infection?",
@@ -1115,7 +1200,8 @@
     "answer": 0,
     "answerText": "Immunization with the HBV vaccine.",
     "explanation": "Since HDV infection depends on HBV, immunization against HBV with the HBV vaccine is the most effective method for prevention.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q86"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 42</span> What is the advantage of using a mixture of drugs with different mechanisms of action in treating HIV infections?",
@@ -1128,7 +1214,8 @@
     "answer": 1,
     "answerText": "It reduces the potential to encounter or select for resistance.",
     "explanation": "Combining antiretroviral drugs with different mechanisms of action minimizes the emergence of drug resistance and improves treatment outcomes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q87"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 43</span> What criteria indicate the onset of full-blown AIDS?",
@@ -1141,7 +1228,8 @@
     "answer": 1,
     "answerText": "CD4 T-cell counts less than 200/μL",
     "explanation": "A CD4 T-cell count below 200/μL is a key diagnostic criterion for AIDS, indicating severe immunosuppression.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q88"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 44</span> Which of the following tests is a confirmation test in HIV detection?",
@@ -1154,7 +1242,8 @@
     "answer": 1,
     "answerText": "Western blot analysis",
     "explanation": "The Western blot is a confirmatory test for HIV detection following positive ELISA results.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q89"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>1st Batch & 2nd Batch (2025-1-28) Dr. Kaveh Sadeghi - Question 45</span> Which human oncovirus has been definitively associated with adult T-cell leukemia (ATLL)?",
@@ -1167,6 +1256,7 @@
     "answer": 0,
     "answerText": "HTLV-1/2",
     "explanation": "Human T-cell leukemia virus type 1 (HTLV-1) is a known cause of adult T-cell leukemia/lymphoma (ATLL).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "viro-viro-q90"
   }
 ]
