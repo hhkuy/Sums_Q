@@ -10,7 +10,8 @@
     "answer": 0,
     "answerText": "5-alpha reductase",
     "explanation": "5-alpha reductase converts testosterone into dihydrotestosterone (DHT), which is a more potent androgen responsible for male secondary sexual characteristics.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-bioc-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Panahi - Question 2</span> Which hormone is essential for maintaining pregnancy after implantation?",
@@ -23,7 +24,8 @@
     "answer": 0,
     "answerText": "Progesterone",
     "explanation": "Progesterone maintains the uterine lining after implantation and is crucial for sustaining pregnancy.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-bioc-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Panahi - Question 3</span> Which symptom is commonly associated with high levels of testosterone in females?",
@@ -36,7 +38,8 @@
     "answer": 0,
     "answerText": "Hirsutism",
     "explanation": "Hirsutism (excessive hair growth in a male pattern) is a common symptom of elevated testosterone levels in females.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-bioc-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Panahi - Question 4</span> Which condition is characterized by increased androgen production and can be diagnosed by elevated levels of testosterone and DHEA-S?",
@@ -49,7 +52,8 @@
     "answer": 2,
     "answerText": "Congenital adrenal hyperplasia (CAH)",
     "explanation": "Congenital adrenal hyperplasia (CAH) is characterized by excessive androgen production, often diagnosed with elevated testosterone and DHEA-S levels.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-bioc-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Panahi - Question 1</span> Which symptom is commonly associated with high levels of androgens in females?",
@@ -62,7 +66,8 @@
     "answer": 2,
     "answerText": "Hirsutism",
     "explanation": "Elevated androgen levels in females can lead to hirsutism, characterized by excessive hair growth in areas where hair is typically minimal.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-bioc-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Panahi - Question 2</span> Which enzyme is responsible for the peripheral conversion of testosterone to the more potent androgen, dihydrotestosterone (DHT)?",
@@ -75,7 +80,8 @@
     "answer": 1,
     "answerText": "5α-Reductase",
     "explanation": "5α-Reductase converts testosterone into dihydrotestosterone (DHT), a more potent androgen that plays a crucial role in secondary sexual characteristics.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-bioc-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Panahi - Question 3</span> Which of the following is NOT a potential cause of increased 17-ketosteroid levels?",
@@ -88,7 +94,8 @@
     "answer": 3,
     "answerText": "Graves’ disease",
     "explanation": "Graves’ disease primarily affects thyroid hormone levels and is not associated with increased 17-ketosteroids, which are typically elevated in androgen excess conditions.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-bioc-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Panahi - Question 4</span> Which of the following conditions is classified as hypergonadotropic hypogonadism?",
@@ -101,6 +108,7 @@
     "answer": 1,
     "answerText": "Klinefelter syndrome",
     "explanation": "Klinefelter syndrome is a form of hypergonadotropic hypogonadism, characterized by high levels of gonadotropins due to primary testicular failure.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-bioc-q8"
   }
 ]
