@@ -10,7 +10,8 @@
     "answer": 0,
     "answerText": "Loop of Henle – Collecting duct",
     "explanation": "The metanephric cap gives rise to nephron structures like the loop of Henle, while the ureteric bud forms the collecting duct system.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-embr-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 2</span> Incomplete division of the ureteric bud can lead to ................ and, the .................. can form if the degeneration of the allantois is not completed.",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Supernumerary kidneys – Urachal cyst",
     "explanation": "Incomplete division of the ureteric bud can result in supernumerary kidneys, while incomplete degeneration of the allantois may lead to a urachal cyst.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-embr-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 3</span> Which abnormality results from fusion of the caudal poles of the kidneys?",
@@ -36,7 +38,8 @@
     "answer": 2,
     "answerText": "Horseshoe kidney",
     "explanation": "Fusion of the caudal poles of the kidneys results in a horseshoe kidney, which is often located lower than normal due to entrapment by the inferior mesenteric artery.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-embr-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 4</span> Which of the following is a remnant of the allantois?",
@@ -49,7 +52,8 @@
     "answer": 1,
     "answerText": "Median umbilical ligament",
     "explanation": "The median umbilical ligament is a fibrous remnant of the allantois, connecting the bladder to the umbilicus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-embr-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 5</span> Which duct is NOT associated with urinary system development?",
@@ -62,7 +66,8 @@
     "answer": 1,
     "answerText": "Paramesonephric duct",
     "explanation": "The paramesonephric (Müllerian) duct is involved in the development of the female reproductive system, not the urinary system.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-embr-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 6</span> The .................. can be a symptom of bilateral renal agenesis.",
@@ -75,7 +80,8 @@
     "answer": 1,
     "answerText": "Oligohydramnios",
     "explanation": "Bilateral renal agenesis leads to oligohydramnios due to the absence of fetal urine production, which contributes to amniotic fluid.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-embr-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 7</span> What gives rise to transitional epithelium of the bladder and mesonephros respectively?",
@@ -88,7 +94,8 @@
     "answer": 0,
     "answerText": "Endoderm – Mesoderm",
     "explanation": "The transitional epithelium of the bladder originates from endoderm, while the mesonephros arises from mesoderm.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-embr-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 8</span> How late does the formation of nephrons continue? and, When the lobulation of the fetal kidney disappears?",
@@ -101,6 +108,7 @@
     "answer": 0,
     "answerText": "Birth – After birth",
     "explanation": "Nephron formation continues until birth, while the lobulated appearance of the fetal kidney disappears after birth.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-embr-q8"
   }
 ]
