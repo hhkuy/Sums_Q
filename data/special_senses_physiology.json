@@ -10,7 +10,8 @@
     "answer": 1,
     "answerText": "Rods and cones",
     "explanation": "Rods and cones are the photoreceptor cells that are stimulated first when light enters the eye.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 2</span> Which one is correct about the foveola?",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "It is 0.3 mm in diameter",
     "explanation": "The foveola is a small central pit within the fovea, about 0.3 mm in diameter, and is the area with the highest visual acuity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 3</span> Which of the following effectors in the photoreceptors is activated by light?",
@@ -36,7 +38,8 @@
     "answer": 0,
     "answerText": "Transducin",
     "explanation": "Transducin is a G-protein activated by light in photoreceptor cells, leading to the phototransduction cascade.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 4</span> Off-center ganglion cells are activated when light hits the …… (of the) receptive field.",
@@ -49,7 +52,8 @@
     "answer": 1,
     "answerText": "Surround",
     "explanation": "Off-center ganglion cells are excited when light hits the surrounding area of their receptive field and inhibited when light hits the center.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 5</span> Retinal projections to which of the following targets is involved in the regulation of circadian rhythmicity?",
@@ -62,7 +66,8 @@
     "answer": 1,
     "answerText": "Suprachiasmatic nucleus",
     "explanation": "The suprachiasmatic nucleus receives retinal input and regulates circadian rhythms.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 6</span> Damage to which part of the visual pathway may cause blindness in the lateral visual field on both sides?",
@@ -75,7 +80,8 @@
     "answer": 0,
     "answerText": "Optic chiasm",
     "explanation": "Lesion at the optic chiasm causes bitemporal hemianopia, affecting the lateral visual fields of both eyes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 7</span> The output fibers from the lateral half of the right retina projects to ...... lateral geniculate body.",
@@ -88,7 +94,8 @@
     "answer": 1,
     "answerText": "Layer 5 of the right",
     "explanation": "The lateral half of the right retina sends fibers to the ipsilateral (right) lateral geniculate body, particularly layer 5.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 8</span> Which one is NOT correct about simple cells?",
@@ -101,7 +108,8 @@
     "answer": 1,
     "answerText": "They respond when a line moves laterally in the receptive field",
     "explanation": "Simple cells respond best to stationary lines of specific orientation, not to lateral movement.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 9</span> How much change happens in the force exerted by a sound at the oval window when it passes from the tympanic membrane through the ossicular system?",
@@ -114,7 +122,8 @@
     "answer": 1,
     "answerText": "22 times increase",
     "explanation": "The ossicular system increases sound force by approximately 22 times to compensate for the impedance difference between air and fluid.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 10</span> Which of the following is NOT part of the mechanism for activation of inner hair cells?",
@@ -127,7 +136,8 @@
     "answer": 3,
     "answerText": "Bending the stereocilia toward the shortest one",
     "explanation": "Inner hair cells are activated when stereocilia bend toward the tallest one, not the shortest.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 11</span> The average life span of taste cells is about:",
@@ -140,7 +150,8 @@
     "answer": 1,
     "answerText": "10 days",
     "explanation": "Taste cells are replaced every 10 days.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 12</span> Which of the following receptors mediate salty taste sensation?",
@@ -153,7 +164,8 @@
     "answer": 0,
     "answerText": "ENaC",
     "explanation": "ENaC (epithelial sodium channel) is responsible for detecting salty taste.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 13</span> Which of the following cells do NOT have their soma in the olfactory bulb?",
@@ -166,7 +178,8 @@
     "answer": 2,
     "answerText": "Olfactory sensory cells",
     "explanation": "Olfactory sensory cells have their soma in the olfactory epithelium, not in the olfactory bulb.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 14</span> Which of the following chemicals can combine with scotopsin to make rhodopsin?",
@@ -179,7 +192,8 @@
     "answer": 1,
     "answerText": "11-cis retinal",
     "explanation": "Rhodopsin is formed by the combination of scotopsin and 11-cis retinal.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 15</span> Which of the following is inhibited during a voluntary saccade?",
@@ -192,7 +206,8 @@
     "answer": 0,
     "answerText": "Substantia nigra",
     "explanation": "During a saccade, the substantia nigra (pars reticulata) is inhibited, allowing the superior colliculus to initiate eye movement.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 16</span> Which of the following is correct about outer hair cells?",
@@ -205,7 +220,8 @@
     "answer": 1,
     "answerText": "Their activation may signal a very loud sound",
     "explanation": "Outer hair cells amplify sound and can contract in response to loud sounds, providing a protective mechanism.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 17</span> Which of the following is correct about the attenuation reflex?",
@@ -218,7 +234,8 @@
     "answer": 1,
     "answerText": "It reduces low-frequency sounds by 30-40 dB",
     "explanation": "The attenuation reflex reduces low-frequency sound transmission to protect the inner ear, particularly from loud noises.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 18</span> Taste buds in fungiform papilla send their signals through:",
@@ -231,7 +248,8 @@
     "answer": 0,
     "answerText": "Facial nerve",
     "explanation": "Fungiform papilla taste buds are innervated by the facial nerve (chorda tympani branch).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 19</span> Licking the lips in response to the smell of food is a function of:",
@@ -244,7 +262,8 @@
     "answer": 1,
     "answerText": "Medial olfactory area",
     "explanation": "The medial olfactory area is involved in primitive olfactory responses, including feeding behavior.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q19"
   },
   {
     "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2024-08-05) - Dr. Riahi - Question 20</span> A 5-year-old boy was referred to the clinic for a hearing test because he did not pass a kindergarten screening test in his ears. His parents reported that he said “Huh?” frequently. He had passed his newborn hearing screening, and he had experienced a few ear infections. Below you can see an audiogram from this boy.\nThe triangles indicate the bone conduction thresholds. The circles and the crosses represent air conduction threshold in the right and left ear, respectively. The x-axis shows sound frequency in Hz and the y-axis shows hearing level in dB.\nConsidering the audiogram, how would you interpret the problem?<br><img src=\"https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1739748861896_SmartSelect___WebtoPDFconverterPro.jpg\" alt=\"Image for Q20\" style=\"max-width:100%; height:auto;\">",
@@ -257,7 +276,8 @@
     "answer": 2,
     "answerText": "Air conduction threshold is increased in both ears",
     "explanation": "Increased air conduction threshold with normal bone conduction suggests conductive hearing loss.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-08-05) - Dr. Riahi - Question 21</span> Based on the above audiogram, there is a:",
@@ -270,7 +290,8 @@
     "answer": 2,
     "answerText": "Conductive hearing loss",
     "explanation": "Conductive hearing loss is indicated when air conduction thresholds are increased, but bone conduction is normal.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 1</span> Which retinal cell is stimulated last when light is projected into the eye?",
@@ -283,7 +304,8 @@
     "answer": 2,
     "answerText": "Retinal ganglion cells",
     "explanation": "Retinal ganglion cells are the final output neurons of the retina, transmitting visual information to the brain.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 2</span> Which one is correct about the foveola?",
@@ -296,7 +318,8 @@
     "answer": 1,
     "answerText": "It is composed entirely of cones",
     "explanation": "The foveola is the center of the fovea and is composed entirely of cones for high-acuity vision.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 3</span> All-trans retinal is converted to 11-cis retinal by:",
@@ -309,7 +332,8 @@
     "answer": 1,
     "answerText": "Isomerase",
     "explanation": "Isomerase is the enzyme that converts all-trans retinal to 11-cis retinal in the visual cycle.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 4</span> Which of the following components in rods is NOT active in the dark?",
@@ -322,7 +346,8 @@
     "answer": 2,
     "answerText": "Rhodopsin",
     "explanation": "Rhodopsin is inactive in the dark and becomes activated upon exposure to light.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 5</span> On-center ganglion cells are best activated when light is directed onto the …… (of the) receptive field.",
@@ -335,7 +360,8 @@
     "answer": 1,
     "answerText": "Center",
     "explanation": "On-center ganglion cells are activated when light is directed onto the center of their receptive field.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 6</span> Retinal projections to which of the following targets is involved in the regulation of pupil size in response to changes in light?",
@@ -348,7 +374,8 @@
     "answer": 2,
     "answerText": "Pretectal nucleus",
     "explanation": "The pretectal nucleus is involved in the pupillary light reflex.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 7</span> Damage to which part of the visual pathway may cause blindness in one eye?",
@@ -361,7 +388,8 @@
     "answer": 2,
     "answerText": "Optic nerve",
     "explanation": "Damage to the optic nerve can result in complete blindness in the affected eye.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 8</span> Conscious perception of smells is a function of:",
@@ -374,7 +402,8 @@
     "answer": 1,
     "answerText": "Orbitofrontal cortex",
     "explanation": "The orbitofrontal cortex is responsible for the conscious perception of odors.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 9</span> The output fibers from the nasal part of the left retina projects to ... lateral geniculate body.",
@@ -387,7 +416,8 @@
     "answer": 2,
     "answerText": "Layer 4 of the right",
     "explanation": "Nasal fibers from the left retina cross to the right lateral geniculate body, projecting to layer 4.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 10</span> Simple cells are mainly sensitive to ……… of lines.",
@@ -400,7 +430,8 @@
     "answer": 0,
     "answerText": "Orientation",
     "explanation": "Simple cells in the visual cortex are primarily sensitive to the orientation of lines.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 11</span> Which eye movement are vestibular nuclei involved in?",
@@ -413,7 +444,8 @@
     "answer": 0,
     "answerText": "Smooth pursuit",
     "explanation": "Vestibular nuclei contribute to smooth pursuit eye movements to maintain gaze stability.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 12</span> Which of the following is NOT a factor determining impedance matching?",
@@ -426,7 +458,8 @@
     "answer": 2,
     "answerText": "Area of round window",
     "explanation": "The area of the round window is not a factor in impedance matching.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 13</span> Which of the following is correct about inner hair cells?",
@@ -439,7 +472,8 @@
     "answer": 0,
     "answerText": "They receive 90-95 percent of auditory fibers",
     "explanation": "Inner hair cells are the primary sensory receptors and receive the majority of auditory nerve fibers.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 14</span> A sound with a pressure ten times greater than the reference pressure (0.0002 × dyne/cm^2) has the level:",
@@ -452,7 +486,8 @@
     "answer": 2,
     "answerText": "20 dB",
     "explanation": "A tenfold increase in sound pressure corresponds to an increase of 20 dB.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 15</span> Hair cells are repolarized by:",
@@ -465,7 +500,8 @@
     "answer": 1,
     "answerText": "Outward movement of K ion",
     "explanation": "Hair cells repolarize through the outward movement of K+ ions.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 16</span> Which frequency of sound can be detected by volley principle?",
@@ -478,7 +514,8 @@
     "answer": 0,
     "answerText": "100 Hz",
     "explanation": "The volley principle explains phase-locked firing of neurons, which is effective for low frequencies like 100 Hz.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 17</span> Taste buds on the anterior 1/3 of the tongue send their signals through:",
@@ -491,7 +528,8 @@
     "answer": 1,
     "answerText": "Facial nerve",
     "explanation": "The facial nerve (chorda tympani branch) transmits taste from the anterior tongue.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 18</span> Taste signals from the taste buds first enter:",
@@ -504,7 +542,8 @@
     "answer": 1,
     "answerText": "Solitary nucleus",
     "explanation": "Taste information from the tongue is first relayed to the solitary nucleus in the medulla.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 19</span> Which of the following receptors mediate sour taste sensation?",
@@ -517,7 +556,8 @@
     "answer": 2,
     "answerText": "Otopetrin 1",
     "explanation": "Otopetrin 1 (OTOP1) is involved in the detection of sour taste.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q40"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-29) Retake Exam - Dr. Esmail Riahi - Question 20</span> Olfactory nerve contains fibers of:",
@@ -530,6 +570,7 @@
     "answer": 2,
     "answerText": "Olfactory cells",
     "explanation": "The olfactory nerve is composed of axons of olfactory receptor cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "spec-phys-q41"
   }
 ]
