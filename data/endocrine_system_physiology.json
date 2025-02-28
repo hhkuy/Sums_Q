@@ -10,7 +10,8 @@
     "answer": 3,
     "answerText": "Salivary gland",
     "explanation": "The salivary gland is an exocrine gland, secreting saliva into ducts, not directly into the bloodstream.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 2</span> The clusters of cells in the pancreas that produce hormones are called:",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Islets of Langerhans",
     "explanation": "The islets of Langerhans contain alpha, beta, and delta cells, which secrete glucagon, insulin, and somatostatin, respectively.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 3</span> Glucagon:",
@@ -36,7 +38,8 @@
     "answer": 2,
     "answerText": "Accelerates the conversion of glycogen into glucose",
     "explanation": "Glucagon promotes glycogen breakdown (glycogenolysis) and increases blood glucose levels.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 4</span> …………… stimulates the synthesis and secretion of steroid hormones called glucocorticoids from the adrenal cortex:",
@@ -49,7 +52,8 @@
     "answer": 2,
     "answerText": "Adrenocorticotropic hormone (ACTH)",
     "explanation": "ACTH stimulates the adrenal cortex to release cortisol and other glucocorticoids.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 5</span> Which of the following is false?",
@@ -62,7 +66,8 @@
     "answer": 0,
     "answerText": "Free serum cortisol has a direct negative feedback on the pituitary but not on the hypothalamus",
     "explanation": "Free serum cortisol exerts negative feedback on both the hypothalamus and the pituitary gland.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 6</span> Hypothyroidism or underactive thyroid gland in children causes:",
@@ -75,7 +80,8 @@
     "answer": 1,
     "answerText": "Cretinism",
     "explanation": "Cretinism is congenital hypothyroidism leading to growth retardation and developmental delays.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 7</span> What does somatostatin do?",
@@ -88,7 +94,8 @@
     "answer": 2,
     "answerText": "Inhibits the release of insulin and glucagon",
     "explanation": "Somatostatin inhibits insulin and glucagon secretion, regulating glucose homeostasis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 8</span> Diabetes mellitus is a hormonal condition in which:",
@@ -101,7 +108,8 @@
     "answer": 1,
     "answerText": "Ketone bodies increase in urine",
     "explanation": "In diabetes, insulin deficiency or resistance leads to fat breakdown, increasing ketone body production.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 9</span> Which of the following hormones is expected to increase in the body after consuming a banana split?",
@@ -114,7 +122,8 @@
     "answer": 2,
     "answerText": "Insulin",
     "explanation": "Insulin is secreted in response to high blood glucose after eating a carbohydrate-rich meal.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 10</span> The effect of insulin on glucose transport is to:",
@@ -127,7 +136,8 @@
     "answer": 0,
     "answerText": "Enhance transport into adipocytes",
     "explanation": "Insulin promotes glucose uptake into adipose and muscle tissue via GLUT4 transporters.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 11</span> The primary target organ of aldosterone is:",
@@ -140,7 +150,8 @@
     "answer": 1,
     "answerText": "The kidney",
     "explanation": "Aldosterone acts on the kidneys to regulate sodium and potassium balance, influencing blood pressure.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 12</span> Low levels of adrenal cortex hormones result in:",
@@ -153,7 +164,8 @@
     "answer": 1,
     "answerText": "Addison’s disease",
     "explanation": "Addison’s disease is caused by adrenal insufficiency, leading to low cortisol and aldosterone levels.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 13</span> Which gland controls heart rate?",
@@ -166,7 +178,8 @@
     "answer": 1,
     "answerText": "Thyroid gland",
     "explanation": "The thyroid gland produces hormones (T3 and T4) that regulate metabolism, including heart rate.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 14</span> Glucagon secretion is increased by:",
@@ -179,7 +192,8 @@
     "answer": 2,
     "answerText": "Arginine",
     "explanation": "Arginine, an amino acid, stimulates glucagon secretion, which increases blood glucose levels.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 15</span> A person with hypothyroidism would exhibit:",
@@ -192,7 +206,8 @@
     "answer": 1,
     "answerText": "Sleepiness",
     "explanation": "Hypothyroidism leads to fatigue, weight gain, and sluggishness due to a slowed metabolism.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 16</span> Under physiological conditions, most circulating T4 is bound to:",
@@ -205,7 +220,8 @@
     "answer": 1,
     "answerText": "Thyroxine-binding globulin (TBG)",
     "explanation": "T4 is primarily bound to TBG in the blood, with only a small fraction in free active form.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 17</span> Insulin secretion is stimulated by all of the following except:",
@@ -218,7 +234,8 @@
     "answer": 2,
     "answerText": "Noradrenaline",
     "explanation": "Noradrenaline inhibits insulin secretion, as sympathetic stimulation prioritizes energy mobilization.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 18</span> Which statement is correct?",
@@ -231,7 +248,8 @@
     "answer": 1,
     "answerText": "Serum glucose is increased by glucocorticoid secretion",
     "explanation": "Glucocorticoids, such as cortisol, increase blood glucose levels by stimulating gluconeogenesis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 19</span> Actions of glucocorticoids include all of the following except:",
@@ -244,7 +262,8 @@
     "answer": 1,
     "answerText": "Decrease in vascular resistance",
     "explanation": "Glucocorticoids increase vascular resistance by sensitizing blood vessels to vasoconstrictors.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Nabavizadeh - Question 20</span> Regarding insulin:",
@@ -257,7 +276,8 @@
     "answer": 0,
     "answerText": "Secretion is inhibited by somatostatin",
     "explanation": "Somatostatin inhibits insulin secretion, preventing excessive glucose uptake.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 1</span> What is the name of bone salt?",
@@ -270,7 +290,8 @@
     "answer": 0,
     "answerText": "Hydroxyapatite",
     "explanation": "Bone salt, primarily hydroxyapatite, is composed of calcium and phosphate and provides bone strength.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 2</span> How does estrogen inhibit osteoporosis?",
@@ -283,7 +304,8 @@
     "answer": 1,
     "answerText": "Estrogen stimulates OPG production, and OPG inhibits bone resorption.",
     "explanation": "Estrogen stimulates osteoprotegerin (OPG) production, which prevents osteoclast activity and reduces bone resorption.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 3</span> Which one is NOT true about GH?",
@@ -296,7 +318,8 @@
     "answer": 2,
     "answerText": "GH secretion has no diurnal rhythm.",
     "explanation": "GH secretion follows a diurnal rhythm, peaking during sleep, making this statement incorrect.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 4</span> Which part of the pituitary secretes TSH?",
@@ -309,7 +332,8 @@
     "answer": 0,
     "answerText": "Anterior",
     "explanation": "The anterior pituitary secretes thyroid-stimulating hormone (TSH) to regulate thyroid hormone production.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 5</span> Which one is TRUE about ADH function?",
@@ -322,7 +346,8 @@
     "answer": 1,
     "answerText": "Increased extracellular fluid osmolarity stimulates ADH secretion.",
     "explanation": "ADH is released in response to increased extracellular fluid osmolarity, helping retain water and restore balance.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 6</span> Which one is NOT true about oxytocin function?",
@@ -335,7 +360,8 @@
     "answer": 2,
     "answerText": "Oxytocin causes relaxation of the pregnant uterus.",
     "explanation": "Oxytocin induces contraction, not relaxation, of the pregnant uterus during labor.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 7</span> What is the chemical structure of insulin?",
@@ -348,7 +374,8 @@
     "answer": 2,
     "answerText": "Polypeptide",
     "explanation": "Insulin is a polypeptide hormone consisting of two peptide chains linked by disulfide bonds.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 8</span> Which hormone is secreted by the stomach?",
@@ -361,7 +388,8 @@
     "answer": 2,
     "answerText": "Gastrin",
     "explanation": "Gastrin is released by the stomach to stimulate gastric acid secretion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 9</span> Which hormone has positive feedback sometimes?",
@@ -374,7 +402,8 @@
     "answer": 1,
     "answerText": "Estrogen",
     "explanation": "Estrogen exhibits positive feedback during ovulation, stimulating LH surge from the pituitary gland.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-01-21) - Dr. Ashabi - Question 10</span> When does up-regulation of receptors occur?",
@@ -387,6 +416,7 @@
     "answer": 1,
     "answerText": "The tissue becomes sensitive to the stimulating effects of the hormone.",
     "explanation": "Up-regulation increases the number of receptors on a cell, enhancing its sensitivity to the hormone.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "endo-phys-q30"
   }
 ]
