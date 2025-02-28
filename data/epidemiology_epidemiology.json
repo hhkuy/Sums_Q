@@ -10,7 +10,8 @@
     "answer": 1,
     "answerText": "Descriptive and analytic",
     "explanation": "Epidemiology consists of descriptive studies (distribution of diseases) and analytic studies (risk factors and causes).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 2</span> Fill in the blank with a suitable option:",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Will try to find risk factors of diseases",
     "explanation": "Analytical epidemiology investigates disease causes and risk factors.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 3</span> A health ministry identifies children with probable visual impairment and refers them for evaluation and treatment. This level of prevention is called . . . .",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Secondary prevention",
     "explanation": "Secondary prevention detects and treats diseases at an early stage to prevent progression.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 4</span> The following graph shows an epidemic curve. What is the most probable form of transmission?<br><img src='https://i.imghippo.com/files/IvUM8218nXg.jpeg' alt='Image for Q4' style='max-width:100%; height:auto;'>",
@@ -49,7 +52,8 @@
     "answer": 1,
     "answerText": "Person-to-person transmission (contagious)",
     "explanation": "A gradually increasing epidemic curve suggests person-to-person transmission.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 5</span> Attack rate is most similar to which of the following measures?",
@@ -62,7 +66,8 @@
     "answer": 1,
     "answerText": "Incidence rate",
     "explanation": "Attack rate is a form of incidence rate, measuring new cases in an at-risk population.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 6</span> A researcher asks participants if they have smoked in the last month. Which morbidity measure is being used?",
@@ -75,7 +80,8 @@
     "answer": 2,
     "answerText": "Period prevalence",
     "explanation": "Period prevalence measures cases over a specified time, not just a single point.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 7</span> Which event would not increase the prevalence of hypertension in a city?",
@@ -88,7 +94,8 @@
     "answer": 3,
     "answerText": "Death of patients with hypertension",
     "explanation": "Prevalence decreases if patients with the disease die, as they are removed from the population.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 8</span> Researchers calculate new cases of cardiovascular disease and compare them to the number of active hospital beds. What index is being calculated?",
@@ -101,7 +108,8 @@
     "answer": 2,
     "answerText": "Ratio",
     "explanation": "A ratio compares two unrelated quantities, such as disease cases and hospital beds.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 9</span> The denominator for the cause-specific mortality rate of road traffic accidents in 2023 should be:",
@@ -114,7 +122,8 @@
     "answer": 2,
     "answerText": "Total population of the country in 2023",
     "explanation": "Cause-specific mortality rate uses the total population as the denominator.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 10</span> A city has 1,000,000 people at the start of 2022. If 200,000 had diabetes symptoms and 2,000 died due to diabetes in 2022, what is the case fatality rate?",
@@ -127,7 +136,8 @@
     "answer": 1,
     "answerText": "1%",
     "explanation": "Case fatality rate is calculated as (number of disease-specific deaths / total affected cases) × 100.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 11</span> Age-adjusted death rates are used to:",
@@ -140,7 +150,8 @@
     "answer": 1,
     "answerText": "Compare death rates in populations with different age distributions",
     "explanation": "Age-adjustment allows fair comparisons by removing age-related effects.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 12</span> A scale gives the same weight repeatedly when measuring people. What does this indicate?",
@@ -153,7 +164,8 @@
     "answer": 2,
     "answerText": "High reliability",
     "explanation": "Reliability refers to consistency in repeated measurements.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 13</span> The ability of a test to correctly identify people who are sick is called:",
@@ -166,7 +178,8 @@
     "answer": 2,
     "answerText": "Sensitivity",
     "explanation": "Sensitivity is the percentage of true positive cases correctly identified by a test.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 14</span> If the diabetes detection cut-off for fasting blood sugar is raised from 126 mg/dL to 140 mg/dL, what will happen?",
@@ -179,7 +192,8 @@
     "answer": 1,
     "answerText": "Sensitivity decreases",
     "explanation": "Raising the threshold reduces sensitivity, as fewer cases are detected.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 15</span> Given the following test results:",
@@ -192,7 +206,8 @@
     "answer": 1,
     "answerText": "Sensitivity = 0.90, PPV = 0.50",
     "explanation": "Sensitivity = TP / (TP + FN), PPV = TP / (TP + FP).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 16</span> Case reports, case series, and cross-sectional studies are examples of:",
@@ -205,7 +220,8 @@
     "answer": 0,
     "answerText": "Descriptive studies",
     "explanation": "Descriptive studies summarize patterns of disease occurrence without investigating causation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 17</span> Which study design is capable of determining disease prevalence?",
@@ -218,7 +234,8 @@
     "answer": 1,
     "answerText": "Cross-sectional",
     "explanation": "Cross-sectional studies estimate prevalence by measuring exposure and outcome at a single point.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 18</span> Which statement best describes case-control studies?",
@@ -231,7 +248,8 @@
     "answer": 1,
     "answerText": "A group with and without the outcome is compared based on past exposure",
     "explanation": "Case-control studies compare past exposures in diseased vs. non-diseased individuals.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 19</span> Which study design is the most powerful for determining cause-and-effect relationships?",
@@ -244,7 +262,8 @@
     "answer": 2,
     "answerText": "Interventional",
     "explanation": "Interventional studies, such as randomized controlled trials, provide the strongest evidence of causality.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 20</span> What is the most important feature of interventional studies?",
@@ -257,7 +276,8 @@
     "answer": 2,
     "answerText": "Randomization",
     "explanation": "Randomization minimizes bias by ensuring equal distribution of confounding factors.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 21</span> An interventional study design without randomization is called:",
@@ -270,7 +290,8 @@
     "answer": 1,
     "answerText": "Quasi-experimental",
     "explanation": "Quasi-experimental studies involve intervention but lack randomization, making them less rigorous than randomized trials.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q21"
   },
   {
     "question": "<span style=\"color: darkred; font-weight:bold;\">Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 22</span> Which study design is most suitable for studying risk factors of rare diseases?",
@@ -283,7 +304,8 @@
     "answer": 1,
     "answerText": "Case-control study",
     "explanation": "Case-control studies are ideal for rare diseases because they start with affected individuals and look retrospectively for exposures.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 23</span> What is the relative risk (RR) of ASHD (Atherosclerotic Heart Disease) in men aged 35–44 compared to women of the same age in the table below?",
@@ -296,7 +318,8 @@
     "answer": 0,
     "answerText": "40.0 divided by 2.1",
     "explanation": "Relative risk (RR) is calculated as the incidence rate in exposed individuals divided by the incidence rate in non-exposed individuals.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q23"
   },
   {
     "question": "<span style=\"color: darkred; font-weight:bold;\">Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 24</span> What is the definition of the incubation period?",
@@ -309,7 +332,8 @@
     "answer": 0,
     "answerText": "The interval between exposure and the onset of symptoms",
     "explanation": "The incubation period is the time from exposure to the appearance of symptoms.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 25</span> What is the Odds Ratio (OR) in the table below?",
@@ -322,7 +346,8 @@
     "answer": 1,
     "answerText": "2.666",
     "explanation": "OR is calculated as (80×640) / (160×120) = 2.666.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 26</span> Factor X alone does not cause a disease, but the disease never occurs without exposure to factor X. Factor X is:",
@@ -335,7 +360,8 @@
     "answer": 1,
     "answerText": "Necessary but not sufficient",
     "explanation": "A necessary factor must be present for a disease to occur but is not sufficient on its own.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 27</span> Which one of the following causality criteria is considered the least important?",
@@ -348,7 +374,8 @@
     "answer": 2,
     "answerText": "Specificity of the association",
     "explanation": "Specificity is considered the least important because some risk factors can cause multiple diseases.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 28</span> What are the two types of systematic error in epidemiological studies?",
@@ -361,7 +388,8 @@
     "answer": 1,
     "answerText": "Selection bias and information bias",
     "explanation": "Selection bias affects the study population, while information bias affects data collection.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 29</span> A researcher uses a scale that adds 2 kg to each weight measurement. What kind of error is most probable?",
@@ -374,7 +402,8 @@
     "answer": 1,
     "answerText": "Information bias",
     "explanation": "A systematic measurement error results in information bias.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 30</span> Which study design requires the least time to complete?",
@@ -387,7 +416,8 @@
     "answer": 2,
     "answerText": "Case-control study",
     "explanation": "Case-control studies are retrospective, making them faster than cohort or interventional studies.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 31</span> Which option correctly defines reliability?",
@@ -400,7 +430,8 @@
     "answer": 1,
     "answerText": "Stability of results in repeated measurements",
     "explanation": "Reliability refers to consistency in repeated tests.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 32</span> What is the definition of incidence?",
@@ -413,7 +444,8 @@
     "answer": 1,
     "answerText": "The number of new cases occurring in a population over time",
     "explanation": "Incidence measures the occurrence of new cases over a specified time.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 33</span> Isolation of people with contagious diseases is an example of:",
@@ -426,7 +458,8 @@
     "answer": 0,
     "answerText": "Primary prevention",
     "explanation": "Isolation prevents disease spread, which is a form of primary prevention.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 34</span> The difference in lung cancer risk between smokers and non-smokers is called:",
@@ -439,7 +472,8 @@
     "answer": 1,
     "answerText": "Attributable risk (AR)",
     "explanation": "Attributable risk measures how much a risk factor contributes to disease occurrence.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 35</span> A researcher uses a diabetes test with 90% sensitivity and specificity in a population where 10% have diabetes. A person with a negative test result asks about the probability they do not have diabetes. The nearest probability is:",
@@ -452,7 +486,8 @@
     "answer": 2,
     "answerText": "50%",
     "explanation": "Negative predictive value (NPV) depends on disease prevalence and test characteristics.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 36</span> Which study design can be classified as both descriptive and analytic?",
@@ -465,7 +500,8 @@
     "answer": 2,
     "answerText": "Cross-sectional study",
     "explanation": "Cross-sectional studies describe prevalence but can also analyze associations.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 37</span> What is the final goal of epidemiologic studies?",
@@ -478,7 +514,8 @@
     "answer": 2,
     "answerText": "Control of health problems",
     "explanation": "The ultimate goal is to prevent and control diseases.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q37"
   },
   {
     "question": "<span style=\"color: darkred; font-weight:bold;\">Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 38</span> Which option shows the components of the epidemiologic triad?",
@@ -491,7 +528,8 @@
     "answer": 1,
     "answerText": "Host, agent, and environment",
     "explanation": "The epidemiologic triad consists of the host, agent (cause of disease), and environment.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 39</span> Based on the following table, which describes the cholera situation in 2023?",
@@ -504,7 +542,8 @@
     "answer": 1,
     "answerText": "Endemic",
     "explanation": "Cholera cases remain stable over years, indicating an endemic pattern.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Firsr Batch (2023-11-02) Dr. Masud Yunesian - Question 40</span> City X had a population of 1,000,000 in 2022. If 200,000 had diabetes at the start of the year and 16,000 new cases occurred in 2022, what is the yearly incidence rate?",
@@ -517,6 +556,7 @@
     "answer": 1,
     "answerText": "2%",
     "explanation": "Incidence rate = (New cases / Population at risk) × 100 = (16,000 / 800,000) × 100 = 2%.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "epid-epid-q40"
   }
 ]
