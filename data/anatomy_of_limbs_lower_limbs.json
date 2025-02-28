@@ -10,7 +10,8 @@
     "answer": 2,
     "answerText": "Arcuate line",
     "explanation": "The arcuate line is a ridge on the medial aspect of the ilium that marks the transition from the body to the wing of the ilium.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 2</span> All of the following bones participate in the knee joint except:",
@@ -23,7 +24,8 @@
     "answer": 3,
     "answerText": "Fibula",
     "explanation": "The fibula does not articulate with the femur or patella and is not involved in the knee joint.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 3</span> What is the name of the posterior border in the body of the femur?",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Linea aspera",
     "explanation": "The linea aspera is a prominent ridge on the posterior aspect of the femur, serving as an attachment site for muscles.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 4</span> Which structure attaches to the tibial tuberosity?",
@@ -49,7 +52,8 @@
     "answer": 1,
     "answerText": "Patellar ligament",
     "explanation": "The patellar ligament connects the patella to the tibial tuberosity and is part of the quadriceps mechanism.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 5</span> Which muscle attaches to the posterior groove of the medial condyle of the tibia?",
@@ -62,7 +66,8 @@
     "answer": 1,
     "answerText": "Semimembranosus",
     "explanation": "The semimembranosus muscle inserts on the posterior aspect of the medial condyle of the tibia.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 6</span> The anterior surface of the calcaneus articulates with:",
@@ -75,7 +80,8 @@
     "answer": 1,
     "answerText": "Cuboid",
     "explanation": "The anterior surface of the calcaneus forms a joint with the cuboid bone, contributing to the midfoot articulation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 7</span> Which spinal nerves form the femoral nerve?",
@@ -88,7 +94,8 @@
     "answer": 1,
     "answerText": "L2, L3, L4",
     "explanation": "The femoral nerve is formed by the anterior rami of spinal nerves L2, L3, and L4.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 8</span> Which structure is located at the base of the femoral triangle?",
@@ -101,7 +108,8 @@
     "answer": 3,
     "answerText": "Inguinal ligament",
     "explanation": "The inguinal ligament forms the superior border (base) of the femoral triangle.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 9</span> All of the following branches belong to the superficial branches of the femoral artery except:",
@@ -114,7 +122,8 @@
     "answer": 2,
     "answerText": "Profunda femoris",
     "explanation": "The profunda femoris artery is a deep branch of the femoral artery, supplying the thigh muscles.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 10</span> The saphenous nerve is a:",
@@ -127,7 +136,8 @@
     "answer": 1,
     "answerText": "Sensory branch from the posterior division of the femoral nerve",
     "explanation": "The saphenous nerve is a purely sensory branch of the posterior division of the femoral nerve.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 11</span> Which structure is located at the roof of the adductor (Hunter’s) canal?",
@@ -140,7 +150,8 @@
     "answer": 1,
     "answerText": "Sartorius",
     "explanation": "The sartorius muscle forms the roof of the adductor canal, covering the femoral vessels and nerve.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 12</span> Which gluteal muscle is innervated by the inferior gluteal nerve?",
@@ -153,7 +164,8 @@
     "answer": 2,
     "answerText": "Gluteus maximus",
     "explanation": "The inferior gluteal nerve exclusively innervates the gluteus maximus muscle.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 13</span> Which gluteal muscle originates from the gluteal surface of the ilium between the anterior and posterior gluteal lines?",
@@ -166,7 +178,8 @@
     "answer": 2,
     "answerText": "Gluteus medius",
     "explanation": "The gluteus medius arises from the ilium between the anterior and posterior gluteal lines.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 14</span> A positive Trendelenburg sign indicates weakness in which muscles?",
@@ -179,7 +192,8 @@
     "answer": 1,
     "answerText": "Gluteus medius and gluteus minimus",
     "explanation": "Weakness in the gluteus medius and minimus results in an inability to stabilize the pelvis during single-leg stance, causing the opposite hip to drop.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q14"
   },
   {
     "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2023) - Dr. Sina - Question 15</span> Which structure passes below the piriformis muscle and exits the greater sciatic notch?",
@@ -192,7 +206,8 @@
     "answer": 1,
     "answerText": "Sciatic nerve",
     "explanation": "The sciatic nerve emerges below the piriformis muscle through the greater sciatic notch.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 16</span> Which muscle in the posterior compartment of the thigh is not a hamstring muscle?",
@@ -205,7 +220,8 @@
     "answer": 3,
     "answerText": "Short head of biceps femoris",
     "explanation": "The short head of the biceps femoris does not originate from the ischial tuberosity and is innervated by the common fibular nerve, unlike true hamstring muscles.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 17</span> Which of the following structures is the most superficial in the popliteal fossa?",
@@ -218,7 +234,8 @@
     "answer": 2,
     "answerText": "Tibial nerve",
     "explanation": "The tibial nerve is the most superficial structure in the popliteal fossa, lying above the popliteal vein and artery.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 18</span> All of the following muscles belong to the deep layer of the posterior compartment of the leg except:",
@@ -231,7 +248,8 @@
     "answer": 3,
     "answerText": "Plantaris",
     "explanation": "The plantaris muscle is part of the superficial posterior compartment of the leg, not the deep layer.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 19</span> The great saphenous vein is accompanied by the:",
@@ -244,7 +262,8 @@
     "answer": 1,
     "answerText": "Saphenous nerve",
     "explanation": "The saphenous nerve travels alongside the great saphenous vein in the leg.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 20</span> The small saphenous vein drains into the:",
@@ -257,7 +276,8 @@
     "answer": 2,
     "answerText": "Popliteal vein",
     "explanation": "The small saphenous vein drains into the popliteal vein in the popliteal fossa.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 21</span> Which of the following nerves is the sensory branch of the common fibular nerve?",
@@ -270,7 +290,8 @@
     "answer": 2,
     "answerText": "Sural communicating nerve",
     "explanation": "The sural communicating nerve is a sensory branch of the common fibular nerve and contributes to the sural nerve.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 22</span> Which sensory nerve supplies the cleft between the first and second toes?",
@@ -283,7 +304,8 @@
     "answer": 2,
     "answerText": "Deep fibular nerve",
     "explanation": "The deep fibular nerve provides sensory innervation to the skin between the first and second toes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 23</span> What is the most lateral structure passing behind the extensor retinaculum?",
@@ -296,7 +318,8 @@
     "answer": 3,
     "answerText": "Fibularis (peroneus) tertius",
     "explanation": "The fibularis tertius is the most lateral tendon passing deep to the extensor retinaculum.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 24</span> Which muscle in the posterior compartment of the leg can unlock the knee joint?",
@@ -309,7 +332,8 @@
     "answer": 2,
     "answerText": "Popliteus",
     "explanation": "The popliteus muscle rotates the femur laterally to unlock the knee joint before flexion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 25</span> Which artery supplies the lateral compartment of the leg?",
@@ -322,7 +346,8 @@
     "answer": 2,
     "answerText": "Fibular (peroneal) artery",
     "explanation": "The fibular (peroneal) artery, a branch of the posterior tibial artery, supplies the lateral compartment of the leg.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 26</span> What is the most lateral structure passing behind the flexor retinaculum (tarsal tunnel)?",
@@ -335,7 +360,8 @@
     "answer": 3,
     "answerText": "Flexor hallucis longus",
     "explanation": "The flexor hallucis longus tendon is the most lateral structure in the tarsal tunnel.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 27</span> All of the following movements are associated with the tibialis anterior muscle except:",
@@ -348,7 +374,8 @@
     "answer": 3,
     "answerText": "Eversion of the foot",
     "explanation": "The tibialis anterior dorsiflexes and inverts the foot, but it does not contribute to eversion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 28</span> All of the following muscles are innervated by the medial plantar nerve except:",
@@ -361,7 +388,8 @@
     "answer": 3,
     "answerText": "Adductor hallucis",
     "explanation": "The adductor hallucis is innervated by the lateral plantar nerve, not the medial plantar nerve.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 29</span> All of the following statements about the dorsal interosseous muscles are correct except:",
@@ -374,7 +402,8 @@
     "answer": 0,
     "answerText": "They are located in the third layer of the sole",
     "explanation": "The dorsal interosseous muscles are located in the fourth (deepest) layer of the foot, not the third layer.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q29"
   },
   {
     "question": "<span style=\"color: darkred; font-weight:bold;\">First Batch (2023) - Dr. Sina - Question 30</span> All of the following statements about the lumbrical muscles in the foot are correct except:",
@@ -387,7 +416,8 @@
     "answer": 0,
     "answerText": "Lumbricals 1 and 2 are unipennate",
     "explanation": "The lumbrical muscles in the foot are innervated by the medial and lateral plantar nerves, not the deep fibular nerve.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 31</span> All of the following nerves provide sensory innervation to the plantar surface of the foot except:",
@@ -400,7 +430,8 @@
     "answer": 2,
     "answerText": "Sural communicating nerve",
     "explanation": "The sural communicating nerve does not provide sensory innervation to the plantar surface; it contributes to the sural nerve, which supplies the lateral foot.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 32</span> What is flatfoot?",
@@ -413,7 +444,8 @@
     "answer": 0,
     "answerText": "A condition where one or both feet have little to no arch",
     "explanation": "Flatfoot (pes planus) is a condition in which the foot’s arch is either absent or collapsed.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 33</span> Where is the insertion of the fibularis (peroneus) brevis muscle?",
@@ -426,7 +458,8 @@
     "answer": 2,
     "answerText": "5th metatarsal bone",
     "explanation": "The fibularis brevis inserts at the base of the 5th metatarsal bone.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 34</span> All of the following structures belong to the linea terminalis except:",
@@ -439,7 +472,8 @@
     "answer": 3,
     "answerText": "Linea aspera",
     "explanation": "The linea aspera is a ridge on the posterior femur and is not part of the linea terminalis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 35</span> The sustentaculum tali is located on the:",
@@ -452,7 +486,8 @@
     "answer": 1,
     "answerText": "Medial side of the calcaneus",
     "explanation": "The sustentaculum tali is a bony projection on the medial side of the calcaneus that supports the talus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 36</span> All of the following movements are related to the sartorius muscle except:",
@@ -465,7 +500,8 @@
     "answer": 3,
     "answerText": "Extension of the hip joint",
     "explanation": "The sartorius muscle does not extend the hip; it flexes, abducts, and laterally rotates the thigh.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 37</span> What is the name of the sensory nerve from the tibial nerve that arises in the popliteal fossa?",
@@ -478,7 +514,8 @@
     "answer": 1,
     "answerText": "Sural nerve",
     "explanation": "The sural nerve arises from the tibial nerve in the popliteal fossa and provides sensory innervation to the lower leg.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 38</span> The lateral cutaneous nerve of the calf is a branch of the:",
@@ -491,7 +528,8 @@
     "answer": 2,
     "answerText": "Common fibular nerve",
     "explanation": "The lateral cutaneous nerve of the calf is derived from the common fibular nerve and supplies the lateral leg.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 39</span> All of the following branches arise from the dorsalis pedis artery except:",
@@ -504,7 +542,8 @@
     "answer": 3,
     "answerText": "Anterior lateral malleolar artery",
     "explanation": "The anterior lateral malleolar artery arises from the anterior tibial artery, not the dorsalis pedis artery.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Sina - Question 40</span> A fracture in the neck of the fibula can damage the:",
@@ -517,7 +556,8 @@
     "answer": 1,
     "answerText": "Common fibular nerve",
     "explanation": "The common fibular nerve wraps around the neck of the fibula, making it vulnerable to injury in fractures.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q40"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 1</span> Which foramens connect the inside of the pelvis to the gluteal region?",
@@ -530,7 +570,8 @@
     "answer": 2,
     "answerText": "Lesser and greater sciatic foramens",
     "explanation": "The greater and lesser sciatic foramens serve as pathways between the pelvis and the gluteal region, allowing nerves and vessels to pass through.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q41"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 2</span> What is the arcuate line in the hip bone?",
@@ -543,7 +584,8 @@
     "answer": 2,
     "answerText": "Medial border of ilium",
     "explanation": "The arcuate line is a curved ridge on the medial surface of the ilium, marking the boundary between the true and false pelvis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q42"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 3</span> The lesser sciatic notch is located in ..................... .",
@@ -556,7 +598,8 @@
     "answer": 1,
     "answerText": "Ischium",
     "explanation": "The lesser sciatic notch is a feature of the ischium, situated below the ischial spine.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q43"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 4</span> All of the following statements are correct about the differences in the hip bone of males and females, except:",
@@ -569,7 +612,8 @@
     "answer": 0,
     "answerText": "Subpubic angle is wider in males",
     "explanation": "The subpubic angle is wider in females, not males, to accommodate childbirth.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q44"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 5</span> The angle between the neck and shaft of the femur is about ............. .",
@@ -582,7 +626,8 @@
     "answer": 2,
     "answerText": "125 degrees",
     "explanation": "The normal angle between the femoral neck and shaft is approximately 125 degrees, allowing proper alignment for weight distribution.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q45"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 6</span> Which surface of the tibia is the subcutaneous surface?",
@@ -595,7 +640,8 @@
     "answer": 2,
     "answerText": "Medial",
     "explanation": "The medial surface of the tibia is subcutaneous, making it easily palpable.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q46"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 7</span> Which border of the fibula is the interosseous border?",
@@ -608,7 +654,8 @@
     "answer": 3,
     "answerText": "Medial",
     "explanation": "The interosseous border of the fibula faces medially and serves as the attachment site for the interosseous membrane connecting it to the tibia.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q47"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 8</span> Sustentaculum tali is located in ............ .",
@@ -621,7 +668,8 @@
     "answer": 1,
     "answerText": "Medial side of the calcaneus",
     "explanation": "The sustentaculum tali is a bony projection on the medial side of the calcaneus, supporting the talus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q48"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 9</span> What is the action of the muscles in the anterior compartment of the thigh?",
@@ -634,7 +682,8 @@
     "answer": 1,
     "answerText": "Extensors of the knee joint, flexors of the hip joint",
     "explanation": "The muscles of the anterior compartment, such as the quadriceps femoris, extend the knee and flex the hip.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q49"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 10</span> What is the motor innervation of the medial compartment of the thigh?",
@@ -647,7 +696,8 @@
     "answer": 1,
     "answerText": "Obturator nerve",
     "explanation": "The obturator nerve supplies motor innervation to the muscles of the medial compartment of the thigh, including the adductors.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q50"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 11</span> What is the origin of the medial cutaneous nerve of the thigh?",
@@ -660,7 +710,8 @@
     "answer": 2,
     "answerText": "Femoral nerve",
     "explanation": "The medial cutaneous nerve of the thigh is a branch of the femoral nerve, providing sensory innervation to the medial thigh.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q51"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 12</span> Which muscles attach to the iliotibial tract?",
@@ -673,7 +724,8 @@
     "answer": 2,
     "answerText": "Tensor fascia lata and gluteus maximus",
     "explanation": "The iliotibial tract receives insertions from the tensor fascia lata and gluteus maximus, contributing to lateral thigh stabilization.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q52"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 13</span> What is the lateral structure inside of the femoral sheath?",
@@ -686,7 +738,8 @@
     "answer": 2,
     "answerText": "Femoral artery",
     "explanation": "The femoral artery is located in the lateral compartment of the femoral sheath, with the vein in the middle and lymphatics medially.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q53"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 14</span> All of the following branches originate from the profunda femoris artery, except:",
@@ -699,7 +752,8 @@
     "answer": 3,
     "answerText": "Deep external pudendal",
     "explanation": "The deep external pudendal artery arises from the femoral artery, not from the profunda femoris artery.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q54"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 15</span> Which part of the quadriceps femoris can flex the hip joint?",
@@ -712,7 +766,8 @@
     "answer": 3,
     "answerText": "Rectus femoris",
     "explanation": "The rectus femoris crosses both the hip and knee joints, allowing it to flex the hip and extend the knee.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q55"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 16</span> Which adductor muscle has a hamstring part?",
@@ -725,7 +780,8 @@
     "answer": 2,
     "answerText": "Adductor magnus",
     "explanation": "The adductor magnus has both an adductor part and a hamstring part, with the latter contributing to hip extension.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q56"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 17</span> Which structure connects the adductor canal and the popliteal fossa?",
@@ -738,7 +794,8 @@
     "answer": 1,
     "answerText": "Adductor hiatus",
     "explanation": "The adductor hiatus is an opening in the adductor magnus that allows the femoral vessels to pass into the popliteal fossa.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q57"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 18</span> Which muscle of the gluteal region is innervated by the inferior gluteal nerve?",
@@ -751,7 +808,8 @@
     "answer": 3,
     "answerText": "Gluteus maximus",
     "explanation": "The inferior gluteal nerve exclusively innervates the gluteus maximus, the largest muscle of the gluteal region.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q58"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 19</span> Positive Trendelenburg sign usually indicates weakness in which muscles?",
@@ -764,7 +822,8 @@
     "answer": 1,
     "answerText": "Gluteus medius and gluteus minimus",
     "explanation": "Weakness in the gluteus medius and minimus results in the pelvis dropping on the opposite side during single-leg stance, indicating a positive Trendelenburg sign.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q59"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 20</span> All of the following muscles attach to the greater trochanter of the femur, except:",
@@ -777,7 +836,8 @@
     "answer": 3,
     "answerText": "Quadratus femoris",
     "explanation": "The quadratus femoris inserts on the intertrochanteric crest, not the greater trochanter.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q60"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 21</span> What is the origin of the superior and inferior gluteal arteries?",
@@ -790,7 +850,8 @@
     "answer": 2,
     "answerText": "Internal iliac artery",
     "explanation": "The superior and inferior gluteal arteries are branches of the internal iliac artery and supply the gluteal region.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q61"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 22</span> What is the largest nerve in the human body?",
@@ -803,7 +864,8 @@
     "answer": 2,
     "answerText": "Sciatic nerve",
     "explanation": "The sciatic nerve is the largest and longest nerve in the human body, running from the lower spine to the foot.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q62"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 23</span> Which muscle passes through the lesser sciatic foramen?",
@@ -816,7 +878,8 @@
     "answer": 1,
     "answerText": "Obturator internus",
     "explanation": "The obturator internus passes through the lesser sciatic foramen and inserts on the greater trochanter of the femur.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q63"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 24</span> All of the following muscles are hamstring muscles, except:",
@@ -829,7 +892,8 @@
     "answer": 3,
     "answerText": "Short head of biceps femoris",
     "explanation": "The short head of the biceps femoris is not a true hamstring muscle as it does not originate from the ischial tuberosity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q64"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 25</span> Which sensory nerve starts from the tibial nerve in the popliteal fossa?",
@@ -842,7 +906,8 @@
     "answer": 0,
     "answerText": "Sural nerve",
     "explanation": "The sural nerve, which provides sensory innervation to the posterior leg and lateral foot, arises from the tibial nerve.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q65"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 26</span> All of the following muscles are located in the superficial layer of the posterior compartment of the leg, except:",
@@ -855,7 +920,8 @@
     "answer": 3,
     "answerText": "Popliteus",
     "explanation": "The popliteus is located in the deep layer of the posterior compartment, not the superficial layer.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q66"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 27</span> What is the sensory nerve for the heel?",
@@ -868,7 +934,8 @@
     "answer": 3,
     "answerText": "Medial calcaneal branches of the tibial nerve",
     "explanation": "The medial calcaneal branches of the tibial nerve provide sensory innervation to the heel.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q67"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 28</span> Which muscle is called the \"peripheral heart\"?",
@@ -881,7 +948,8 @@
     "answer": 1,
     "answerText": "Soleus",
     "explanation": "The soleus muscle is referred to as the peripheral heart because it helps pump venous blood back to the heart, especially during walking.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q68"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 29</span> Which muscle unlocks the knee joint?",
@@ -894,7 +962,8 @@
     "answer": 2,
     "answerText": "Popliteus",
     "explanation": "The popliteus muscle \"unlocks\" the knee by laterally rotating the femur on the tibia, allowing knee flexion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q69"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 30</span> The fibular artery is a branch of ............. .",
@@ -907,7 +976,8 @@
     "answer": 2,
     "answerText": "Posterior tibial artery",
     "explanation": "The fibular (peroneal) artery arises from the posterior tibial artery and supplies the lateral compartment of the leg.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q70"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 31</span> All of the following muscles are located in the first layer of the foot, except:",
@@ -920,7 +990,8 @@
     "answer": 3,
     "answerText": "Flexor digiti minimi brevis",
     "explanation": "The flexor digiti minimi brevis is located in the third layer of the foot, not the first layer.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q71"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 32</span> Which nerve accompanies the great saphenous vein?",
@@ -933,7 +1004,8 @@
     "answer": 0,
     "answerText": "Saphenous nerve",
     "explanation": "The saphenous nerve accompanies the great saphenous vein and provides sensory innervation to the medial leg.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q72"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 33</span> The cleft between the first and second toes is innervated by which sensory nerve?",
@@ -946,7 +1018,8 @@
     "answer": 2,
     "answerText": "Deep fibular nerve",
     "explanation": "The deep fibular nerve provides sensory innervation to the skin between the first and second toes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q73"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 34</span> From the structures passing under the extensor retinaculum, which structure is the most medial?",
@@ -959,7 +1032,8 @@
     "answer": 0,
     "answerText": "Tibialis anterior",
     "explanation": "The tibialis anterior tendon is the most medial of the structures passing under the extensor retinaculum.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q74"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 35</span> What is the innervation of the muscles in the anterior compartment of the leg?",
@@ -972,7 +1046,8 @@
     "answer": 3,
     "answerText": "Deep peroneal nerve",
     "explanation": "The deep peroneal (fibular) nerve innervates the muscles of the anterior compartment of the leg, such as the tibialis anterior and extensor digitorum longus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q75"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 36</span> What is the main branch of the arcuate artery?",
@@ -985,7 +1060,8 @@
     "answer": 2,
     "answerText": "Dorsal metatarsal arteries",
     "explanation": "The arcuate artery gives rise to the dorsal metatarsal arteries, which supply the toes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q76"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 37</span> Where is the insertion of the peroneus longus muscle?",
@@ -998,7 +1074,8 @@
     "answer": 1,
     "answerText": "Base of the first metatarsal bone",
     "explanation": "The peroneus longus inserts on the base of the first metatarsal and the medial cuneiform, playing a role in foot eversion and support.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q77"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 38</span> What is the type of the hip joint?",
@@ -1011,7 +1088,8 @@
     "answer": 1,
     "answerText": "Synovial, ball and socket",
     "explanation": "The hip joint is a synovial ball-and-socket joint, allowing a wide range of motion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q78"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 39</span> Which lumbrical muscle is unipennate?",
@@ -1024,7 +1102,8 @@
     "answer": 0,
     "answerText": "1",
     "explanation": "The first lumbrical muscle is unipennate, while the rest are bipennate.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q79"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-17) Dr. Sina - Question 40</span> In the third layer of the foot, which muscle is innervated by the medial plantar nerve?",
@@ -1037,6 +1116,7 @@
     "answer": 2,
     "answerText": "Flexor hallucis brevis",
     "explanation": "The flexor hallucis brevis is innervated by the medial plantar nerve and helps flex the big toe.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "anat-lowe-q80"
   }
 ]
