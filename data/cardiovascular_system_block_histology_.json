@@ -10,7 +10,8 @@
     "answer": 1,
     "answerText": "Lymphatic capillaries - blood capillaries",
     "explanation": "Lymphatic capillaries are closed-ended tubules that collect interstitial fluid, while blood capillaries allow the exchange of nutrients, gases, and waste between blood and tissues.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 2</span> Where is the conducting system of the heart located?",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Subendocardial layer and myocardium",
     "explanation": "The heart’s conducting system, including Purkinje fibers, is located in the subendocardial layer and extends into the myocardium for contraction coordination.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 3</span> Where are the vasa vasorum and nerves located in the wall of vessels, respectively?",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Adventitia and media - adventitia",
     "explanation": "Vasa vasorum and nerves supply the walls of large blood vessels and are primarily located in the tunica adventitia and partly in the outer media.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 4</span> The ................. are the primary site at which white blood cells leave the circulation.",
@@ -49,7 +52,8 @@
     "answer": 1,
     "answerText": "Postcapillary venules",
     "explanation": "Postcapillary venules are the main sites where white blood cells migrate from the bloodstream to surrounding tissues, particularly during inflammation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 5</span> Fenestrated capillaries are found in which organs?",
@@ -62,7 +66,8 @@
     "answer": 1,
     "answerText": "Choroid plexus, kidneys, intestine",
     "explanation": "Fenestrated capillaries, with pores allowing higher permeability, are found in organs like the kidneys, intestines, and choroid plexus where rapid exchange is needed.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 6</span> The carotid sinus, having thinner ................., monitors .................., and the carotid bodies monitor ....................... .",
@@ -75,7 +80,8 @@
     "answer": 2,
     "answerText": "Media - blood pressure - blood CO2, O2, and pH",
     "explanation": "The carotid sinus monitors blood pressure via baroreceptors, while the carotid bodies detect changes in blood gases and pH, helping regulate respiration.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 7</span> An artery has a .............. lumen, and its ............... is the thickest layer.",
@@ -88,7 +94,8 @@
     "answer": 1,
     "answerText": "Regular - media",
     "explanation": "Arteries have a round, regular lumen and a thick tunica media containing smooth muscle, which is essential for regulating blood pressure and flow.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 8</span> Which lymphoid organ does not contain lymphoid follicles?",
@@ -101,7 +108,8 @@
     "answer": 2,
     "answerText": "Thymus",
     "explanation": "The thymus lacks lymphoid follicles because it primarily functions in T-cell maturation rather than B-cell proliferation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 9</span> Which organ contains stave cells and Hassall's corpuscles, respectively?",
@@ -114,7 +122,8 @@
     "answer": 2,
     "answerText": "Spleen - thymus",
     "explanation": "Stave cells in the spleen regulate blood flow, while Hassall’s corpuscles in the thymus play a role in T-cell development and tolerance.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 10</span> The red pulp of the spleen consists of ..................., while the white pulp consists of ................. .",
@@ -127,7 +136,8 @@
     "answer": 1,
     "answerText": "Splenic cords - periarteriolar lymphoid sheaths (PALS)",
     "explanation": "The red pulp, containing splenic cords and sinusoids, filters blood, while the white pulp, including PALS, houses immune cells for antigen response.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 11</span> What is the main organ involved in the filtration of lymph and blood, respectively?",
@@ -140,7 +150,8 @@
     "answer": 2,
     "answerText": "Lymph node - spleen",
     "explanation": "Lymph nodes filter lymph to remove pathogens, while the spleen filters blood and removes old or damaged red blood cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 12</span> Which sinuses converge as the efferent lymphatic vessel of the lymph node?",
@@ -153,7 +164,8 @@
     "answer": 2,
     "answerText": "Medullary sinuses",
     "explanation": "Medullary sinuses converge to form the efferent lymphatic vessels, which transport filtered lymph away from the lymph node.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 13</span> The .................. is not surrounded by a tight layer of TECs, and mature T lymphocytes exit the thymus by passing through the walls of ..................... .",
@@ -166,7 +178,8 @@
     "answer": 1,
     "answerText": "Medulla - venules and efferent lymphatics",
     "explanation": "The thymic medulla lacks the tight epithelial reticular cells (TECs) seen in the cortex, allowing mature T cells to exit via venules and lymphatics.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 14</span> Which organ has afferent and efferent lymphatics?",
@@ -179,7 +192,8 @@
     "answer": 2,
     "answerText": "Lymph node",
     "explanation": "Lymph nodes have both afferent vessels bringing lymph in and efferent vessels carrying filtered lymph out.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 15</span> Lymphoid nodules consist largely of developing ................. and occupy much of the ............. of the lymph node.",
@@ -192,7 +206,8 @@
     "answer": 1,
     "answerText": "B lymphocytes - cortex",
     "explanation": "Lymphoid nodules in the cortex are primarily composed of B lymphocytes, which proliferate in response to antigens.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 16</span> The ..................... are known as MALT.",
@@ -205,7 +220,8 @@
     "answer": 1,
     "answerText": "Tonsils, Peyer patches, appendix",
     "explanation": "Mucosa-associated lymphoid tissue (MALT) includes the tonsils, Peyer’s patches, and the appendix, which protect mucosal surfaces from pathogens.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 1</span> The … are thin-walled, closed-ended tubules and the … are the sites of exchange between blood and tissues.",
@@ -218,7 +234,8 @@
     "answer": 1,
     "answerText": "Lymphatic capillaries – blood capillaries",
     "explanation": "Lymphatic capillaries are thin-walled, closed-ended tubules, and blood capillaries are the sites of exchange between blood and tissues.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 2</span> Where is the conducting system of the heart located in?",
@@ -231,7 +248,8 @@
     "answer": 0,
     "answerText": "Subendocardial layer and myocardium",
     "explanation": "The conducting system of the heart is located in the subendocardial layer and myocardium.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 3</span> Where is vasa vasorum and nerves located in the wall of vessels, respectively?",
@@ -244,7 +262,8 @@
     "answer": 1,
     "answerText": "Adventitia and media – adventitia",
     "explanation": "Vasa vasorum is located in the adventitia, while nerves are found in both the adventitia and media.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 4</span> The … are the primary site at which white blood cells leave the circulation.",
@@ -257,7 +276,8 @@
     "answer": 2,
     "answerText": "Postcapillary venules",
     "explanation": "Postcapillary venules are the primary site where white blood cells leave the circulation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 5</span> Fenestrated capillaries are found in which organs?",
@@ -270,7 +290,8 @@
     "answer": 0,
     "answerText": "Choroid plexus, kidneys, intestine",
     "explanation": "Fenestrated capillaries are found in the choroid plexus, kidneys, and intestine.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 6</span> The carotid sinus, having thinner …, monitors …, and the carotid bodies monitor ….",
@@ -283,7 +304,8 @@
     "answer": 0,
     "answerText": "Media – blood pressure – blood CO2, O2, and pH",
     "explanation": "The carotid sinus has a thinner media and monitors blood pressure, while carotid bodies monitor blood CO2, O2, and pH.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 7</span> An artery has a … lumen and its … is the thickest layer.",
@@ -296,7 +318,8 @@
     "answer": 1,
     "answerText": "Regular – media",
     "explanation": "Arteries have a regular lumen, and their thickest layer is the media.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 8</span> Which lymphoid organ does not contain lymphoid follicles?",
@@ -309,7 +332,8 @@
     "answer": 0,
     "answerText": "Thymus",
     "explanation": "The thymus does not contain lymphoid follicles.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 9</span> Which organ contains stave cells and Hassall’s corpuscles, respectively?",
@@ -322,7 +346,8 @@
     "answer": 1,
     "answerText": "Spleen – thymus",
     "explanation": "Stave cells are found in the spleen, while Hassall’s corpuscles are found in the thymus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 10</span> The red pulp of the spleen consists of …, while the white pulp consists of ….",
@@ -335,7 +360,8 @@
     "answer": 0,
     "answerText": "Splenic cords – periarteriolar lymphoid sheaths (PALS)",
     "explanation": "The red pulp consists of splenic cords, while the white pulp consists of periarteriolar lymphoid sheaths (PALS).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 11</span> What is the main organ involved in filtration of lymph and blood, respectively?",
@@ -348,7 +374,8 @@
     "answer": 0,
     "answerText": "Lymph node – spleen",
     "explanation": "The lymph node filters lymph, while the spleen filters blood.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 12</span> Which sinuses converge as the efferent lymphatic vessel of a lymph node?",
@@ -361,7 +388,8 @@
     "answer": 2,
     "answerText": "Medullary sinuses",
     "explanation": "Medullary sinuses converge to form the efferent lymphatic vessel of a lymph node.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 13</span> The … is not surrounded by a tight layer of TECs, and mature T lymphocytes exit the thymus by passing through the walls of ….",
@@ -374,7 +402,8 @@
     "answer": 1,
     "answerText": "Medulla – venules and efferent lymphatics",
     "explanation": "The medulla is not surrounded by a tight layer of TECs, and mature T lymphocytes exit through venules and efferent lymphatics.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 14</span> Which organ has afferent and efferent lymphatics?",
@@ -387,7 +416,8 @@
     "answer": 1,
     "answerText": "Lymph node",
     "explanation": "The lymph node is the only organ with both afferent and efferent lymphatics.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 15</span> Lymphoid nodules consist largely of developing … and occupy much of the … of the lymph node.",
@@ -400,7 +430,8 @@
     "answer": 1,
     "answerText": "B lymphocytes – cortex",
     "explanation": "Lymphoid nodules consist mainly of B lymphocytes and occupy much of the cortex.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 16</span> The … are known as MALT.",
@@ -413,6 +444,7 @@
     "answer": 0,
     "answerText": "Tonsils, Peyer patches, appendix",
     "explanation": "MALT refers to mucosa-associated lymphoid tissue, including tonsils, Peyer patches, and appendix.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-hist-q32"
   }
 ]
