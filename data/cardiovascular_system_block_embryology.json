@@ -10,7 +10,8 @@
     "answer": 1,
     "answerText": "Ostium primum",
     "explanation": "The ostium primum is involved in early atrial septation but does not directly contribute to the formation of the foramen ovale, which forms between the septum primum and septum secundum.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 2</span> A change in pressure between ................ at birth holds the septum primum closed against the septum secundum, and the ............ becomes permanently sealed.",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Atria - foramen ovale",
     "explanation": "At birth, increased left atrial pressure causes the septum primum to press against the septum secundum, closing the foramen ovale and sealing it permanently.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 3</span> Transposition of the great arteries is a cardiac malformation that involves which of the following septa?",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Conotruncal septum",
     "explanation": "Transposition of the great arteries occurs due to abnormal development of the conotruncal septum, leading to improper alignment of the aorta and pulmonary trunk.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 4</span> The foramen ovale forms in which structure?",
@@ -49,7 +52,8 @@
     "answer": 2,
     "answerText": "Septum secundum",
     "explanation": "The foramen ovale forms within the septum secundum and allows right-to-left shunting of blood in fetal circulation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 5</span> The left ventricle of the heart is formed primarily from which embryonic structure?",
@@ -62,7 +66,8 @@
     "answer": 1,
     "answerText": "Primitive ventricle",
     "explanation": "The primitive ventricle gives rise to the left ventricle, while the bulbus cordis primarily contributes to the right ventricle and outflow tracts.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 6</span> The proximal part of the aorta and the coronary sinus are derived from which of the following, respectively?",
@@ -75,7 +80,8 @@
     "answer": 1,
     "answerText": "Truncus arteriosus - left sinus horn",
     "explanation": "The proximal aorta develops from the truncus arteriosus, and the left sinus horn contributes to the coronary sinus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 7</span> Which of the following is NOT part of Tetralogy of Fallot?",
@@ -88,7 +94,8 @@
     "answer": 3,
     "answerText": "Patent foramen ovale",
     "explanation": "Tetralogy of Fallot includes pulmonary stenosis, VSD, right ventricular hypertrophy, and an overriding aorta, but a patent foramen ovale is not a defining feature.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 8</span> What is the most common heart defect?",
@@ -101,7 +108,8 @@
     "answer": 2,
     "answerText": "Ventricular septal defect",
     "explanation": "Ventricular septal defect (VSD) is the most common congenital heart defect, resulting in abnormal communication between the ventricles.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 9</span> Which of the following is TRUE in normal fetal circulation?",
@@ -114,7 +122,8 @@
     "answer": 1,
     "answerText": "Blood from the placenta bypasses the sinusoidal plexus of the liver in the ductus venosus",
     "explanation": "The ductus venosus allows oxygenated blood from the placenta to bypass the liver and enter the inferior vena cava directly.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 10</span> The ................ is the development of new blood vessels from .................. .",
@@ -127,7 +136,8 @@
     "answer": 3,
     "answerText": "Vasculogenesis - angioblasts",
     "explanation": "Vasculogenesis involves the formation of new blood vessels from angioblasts during early embryonic development, while angiogenesis refers to the sprouting of new vessels from pre-existing ones.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 11</span> Which aortic arch artery forms part of the aorta and maxillary artery, respectively?",
@@ -140,7 +150,8 @@
     "answer": 1,
     "answerText": "Aortic arch IV - aortic arch I",
     "explanation": "The fourth aortic arch contributes to the formation of the aortic arch, while the first aortic arch gives rise to the maxillary artery.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 12</span> Two weeks after birth, a cyanotic baby is found to be tachycardic and has a wide pulse pressure. What is the most likely diagnosis?",
@@ -153,7 +164,8 @@
     "answer": 2,
     "answerText": "Patent ductus arteriosus",
     "explanation": "A patent ductus arteriosus allows blood to flow from the aorta to the pulmonary artery, causing cyanosis, tachycardia, and wide pulse pressure.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 13</span> Which of the following embryonic blood vessels contains purely oxygenated blood?",
@@ -166,7 +178,8 @@
     "answer": 3,
     "answerText": "Umbilical veins",
     "explanation": "The umbilical veins carry oxygenated blood from the placenta to the fetus, bypassing the liver via the ductus venosus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 14</span> The ductus venosus shunted blood from the ............... to the .............. during fetal life, bypassing the ............... .",
@@ -179,7 +192,8 @@
     "answer": 1,
     "answerText": "Umbilical vein - inferior vena cava - liver",
     "explanation": "The ductus venosus connects the umbilical vein to the inferior vena cava, bypassing the liver to deliver oxygenated blood directly to the heart.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 15</span> The embryonic aortic arches give origin to all of the following postnatal structures EXCEPT:",
@@ -192,7 +206,8 @@
     "answer": 3,
     "answerText": "Ascending aorta",
     "explanation": "The ascending aorta is derived from the truncus arteriosus, not the aortic arches.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-6-22) Dr. Golshan - Question 16</span> What is the portal vein derived from?",
@@ -205,7 +220,8 @@
     "answer": 1,
     "answerText": "Vitelline vein",
     "explanation": "The portal vein is derived from the vitelline veins, which form part of the venous system that drains the yolk sac.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 1</span> The following embryonic structures are involved in the formation of the foramen ovale EXCEPT:",
@@ -218,7 +234,8 @@
     "answer": 3,
     "answerText": "Ostium primum",
     "explanation": "Ostium primum is part of the atrial septum formation but not specifically involved in the formation of the foramen ovale.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 2</span> A change in pressure between … at birth holds the septum primum closed against the septum secundum, and the … becomes permanently sealed.",
@@ -231,7 +248,8 @@
     "answer": 0,
     "answerText": "Atria – foramen ovale",
     "explanation": "At birth, increased left atrial pressure closes the septum primum against the septum secundum, sealing the foramen ovale.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 3</span> Transposition of the great arteries is a cardiac malformation that involves which of the following septa?",
@@ -244,7 +262,8 @@
     "answer": 2,
     "answerText": "Conotruncal septum",
     "explanation": "Transposition of the great arteries results from abnormal development of the conotruncal septum.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 4</span> The foramen ovale forms in which structure?",
@@ -257,7 +276,8 @@
     "answer": 1,
     "answerText": "Septum secundum",
     "explanation": "The foramen ovale forms in the septum secundum to allow blood flow between the right and left atria during fetal life.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 5</span> The left ventricle of the heart is formed primarily from which embryonic structure?",
@@ -270,7 +290,8 @@
     "answer": 0,
     "answerText": "Primitive ventricle",
     "explanation": "The left ventricle develops mainly from the primitive ventricle during embryonic development.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 6</span> The proximal part of the aorta and coronary sinus are derived from which of the following, respectively?",
@@ -283,7 +304,8 @@
     "answer": 1,
     "answerText": "Truncus arteriosus – left sinus horn",
     "explanation": "The proximal part of the aorta is derived from the truncus arteriosus, and the coronary sinus is derived from the left sinus horn.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 7</span> Which of the following is NOT part of Tetralogy of Fallot?",
@@ -296,7 +318,8 @@
     "answer": 3,
     "answerText": "Patent foramen ovale",
     "explanation": "The four components of Tetralogy of Fallot are pulmonary stenosis, right ventricular hypertrophy, ventricular septal defect, and overriding aorta. Patent foramen ovale is not part of it.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 8</span> What is the most common heart defect?",
@@ -309,7 +332,8 @@
     "answer": 2,
     "answerText": "Ventricular septal defect",
     "explanation": "Ventricular septal defect is the most common congenital heart defect.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 9</span> Which of the following is TRUE in normal fetal circulation?",
@@ -322,7 +346,8 @@
     "answer": 1,
     "answerText": "Blood from the placenta bypasses the sinusoidal plexus of the liver in the ductus venosus",
     "explanation": "In fetal circulation, blood from the placenta bypasses the liver via the ductus venosus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 10</span> The … is the development of new blood vessels from ….",
@@ -335,7 +360,8 @@
     "answer": 0,
     "answerText": "Vasculogenesis – angioblasts",
     "explanation": "Vasculogenesis is the development of blood vessels from angioblasts during embryogenesis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 11</span> Which aortic arch artery forms part of the aorta and maxillary artery, respectively?",
@@ -348,7 +374,8 @@
     "answer": 1,
     "answerText": "Aortic arch IV – aortic arch I",
     "explanation": "Aortic arch IV contributes to part of the aorta, while aortic arch I forms the maxillary artery.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 12</span> Two weeks after birth, a cyanotic baby is found to be tachycardic and has a wide pulse pressure. What is the most likely diagnosis?",
@@ -361,7 +388,8 @@
     "answer": 2,
     "answerText": "Patent ductus arteriosus",
     "explanation": "A patent ductus arteriosus can cause cyanosis, tachycardia, and wide pulse pressure due to abnormal blood flow between the aorta and pulmonary artery.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 13</span> Which of the following embryonic blood vessels contains purely oxygenated blood?",
@@ -374,7 +402,8 @@
     "answer": 1,
     "answerText": "Umbilical vein",
     "explanation": "The umbilical vein carries oxygenated blood from the placenta to the fetus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 14</span> The ductus venosus shunted blood from the … to the … during fetal life, bypassing the ….",
@@ -387,7 +416,8 @@
     "answer": 0,
     "answerText": "Umbilical vein – inferior vena cava – liver",
     "explanation": "The ductus venosus shunts oxygenated blood from the umbilical vein to the inferior vena cava, bypassing the liver.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 15</span> The embryonic aortic arches give origin to all of the following postnatal structures EXCEPT:",
@@ -400,7 +430,8 @@
     "answer": 1,
     "answerText": "Ascending aorta",
     "explanation": "The ascending aorta is derived from the truncus arteriosus, not the aortic arches.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First and Second Batch (2024-09-23) - Dr. Golshan - Question 16</span> What is the portal vein derived from?",
@@ -413,6 +444,7 @@
     "answer": 1,
     "answerText": "Vitelline vein",
     "explanation": "The portal vein is derived from the vitelline vein during embryonic development.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "card-embr-q32"
   }
 ]
