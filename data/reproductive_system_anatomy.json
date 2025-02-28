@@ -10,7 +10,8 @@
     "answer": 1,
     "answerText": "Tunica albuginea",
     "explanation": "The tunica albuginea thickens at the posterior aspect of the testis to form the mediastinum testis, which contains rete testis and blood vessels.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 2</span> Which layer of the scrotum is made by transversalis fascia?",
@@ -23,7 +24,8 @@
     "answer": 3,
     "answerText": "Internal spermatic fascia",
     "explanation": "The internal spermatic fascia is derived from the transversalis fascia and forms part of the coverings of the spermatic cord.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 3</span> Which structure is attached to the superior pole of the ovary?",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Suspensory ligament",
     "explanation": "The suspensory ligament contains ovarian vessels and attaches to the superior pole of the ovary.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 4</span> The crus of the penis is attached to the …",
@@ -49,7 +52,8 @@
     "answer": 1,
     "answerText": "Ischiopubic ramus",
     "explanation": "The crura of the penis originate from the ischiopubic ramus, anchoring the erectile tissues to the pelvis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 5</span> Which one is located in the deep perineal pouch?",
@@ -62,7 +66,8 @@
     "answer": 2,
     "answerText": "Bulbourethral gland",
     "explanation": "The bulbourethral glands are located within the deep perineal pouch and secrete pre-ejaculate fluid.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 6</span> Which one is located in the superficial perineal pouch?",
@@ -75,7 +80,8 @@
     "answer": 0,
     "answerText": "Bulb of vestibule",
     "explanation": "The bulb of the vestibule, part of the female erectile tissue, lies within the superficial perineal pouch.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 7</span> Which artery passes through the base of the broad ligament of the uterus?",
@@ -88,7 +94,8 @@
     "answer": 1,
     "answerText": "Uterine artery",
     "explanation": "The uterine artery travels through the base of the broad ligament and supplies the uterus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 8</span> Which one is 2 centimeters lateral to the supravaginal part of the cervix?",
@@ -101,7 +108,8 @@
     "answer": 1,
     "answerText": "Crossing of uterine artery and ureter",
     "explanation": "The uterine artery crosses over the ureter approximately 2 centimeters lateral to the cervix, a critical anatomical relationship.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 9</span> The external anal sphincter is innervated by …",
@@ -114,7 +122,8 @@
     "answer": 1,
     "answerText": "Inferior rectal nerve",
     "explanation": "The external anal sphincter is innervated by the inferior rectal nerve, a branch of the pudendal nerve.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 10</span> The dorsal nerve of the penis is a branch of the …",
@@ -127,7 +136,8 @@
     "answer": 0,
     "answerText": "Pudendal nerve",
     "explanation": "The dorsal nerve of the penis is a terminal branch of the pudendal nerve and provides sensory innervation to the penis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 11</span> Which one is correct about the attachment of the mesovarium?",
@@ -140,7 +150,8 @@
     "answer": 1,
     "answerText": "Anterior border of the ovary and posterior layer of the broad ligament",
     "explanation": "The mesovarium connects the anterior border of the ovary to the posterior layer of the broad ligament, allowing passage of vessels and nerves.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 12</span> Which one is between the superolateral angle of the uterus and the inferior pole of the ovary?",
@@ -153,7 +164,8 @@
     "answer": 3,
     "answerText": "Ovarian ligament",
     "explanation": "The ovarian ligament connects the inferior pole of the ovary to the superolateral angle of the uterus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 13</span> Where is the location of the internal os?",
@@ -166,7 +178,8 @@
     "answer": 1,
     "answerText": "Between the uterine cavity and the cavity of the cervix",
     "explanation": "The internal os is the opening between the uterine cavity and the cervical canal.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 14</span> Which vaginal fornix has a relationship with the rectouterine pouch?",
@@ -179,7 +192,8 @@
     "answer": 2,
     "answerText": "Posterior",
     "explanation": "The posterior vaginal fornix is in close proximity to the rectouterine pouch (pouch of Douglas).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 15</span> The most superior part of the broad ligament, which suspends the uterine tube in the pelvic cavity, is called:",
@@ -192,7 +206,8 @@
     "answer": 1,
     "answerText": "Mesosalpinx",
     "explanation": "The mesosalpinx is the uppermost part of the broad ligament and suspends the uterine tube.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 16</span> Peritoneum extends into the scrotum and makes …",
@@ -205,7 +220,8 @@
     "answer": 3,
     "answerText": "Tunica vaginalis",
     "explanation": "The tunica vaginalis is a peritoneal extension that surrounds the testes within the scrotum.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 17</span> Where is the location of the ejaculatory duct?",
@@ -218,7 +234,8 @@
     "answer": 1,
     "answerText": "In the prostate",
     "explanation": "The ejaculatory duct passes through the prostate gland before emptying into the prostatic urethra.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 18</span> The roof of the anal triangle is formed by …",
@@ -231,7 +248,8 @@
     "answer": 1,
     "answerText": "Levator ani muscle",
     "explanation": "The levator ani muscle forms the roof of the anal triangle and supports the pelvic floor.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 19</span> Which one covers the inferior surface of the urogenital diaphragm?",
@@ -244,7 +262,8 @@
     "answer": 1,
     "answerText": "Perineal membrane",
     "explanation": "The perineal membrane covers the inferior surface of the urogenital diaphragm and serves as an attachment site for external genital structures.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Hasanzadeh - Question 20</span> Which one is located on the lateral wall of the ischioanal fossa?",
@@ -257,6 +276,7 @@
     "answer": 1,
     "answerText": "Pudendal canal",
     "explanation": "The pudendal canal, located on the lateral wall of the ischioanal fossa, contains the pudendal nerve and vessels.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-anat-q20"
   }
 ]
