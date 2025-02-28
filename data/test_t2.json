@@ -1,20 +1,20 @@
 [
   {
-    "question": "<span style=\"color: darkred; font-weight:bold;\">Dr. hasaa - Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events?",
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Ya4sin - Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events? pka=2",
     "options": [
-      "Opening of Na+ channels",
+      "Opening of Na+ channels ها ها",
       "Opening of K+ channels",
       "Opening of Ca++ voltage-gated channels",
       "Closing of Cl− channels"
     ],
     "answer": 2,
     "answerText": "Opening of Ca++ voltage-gated channels",
-    "explanation": "The influx of Ca++ through voltage-gated calcium channels triggers neurotransmitter release into the synaptic cleft. ",
+    "explanation": "The influx of Ca++ through voltage-gated calcium channels triggers neurotransmitter release into the synaptic cleft. pka=2 ",
     "userAnswer": null,
     "qID": "test-t2-q1"
   },
   {
-    "question": "<span style=\"color: darkred; font-weight:bold;\">Dr. hasaa - Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?",
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Ya4sin - Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?",
     "options": [
       "Opening of Na+ channels",
       "Opening of K+ channels at the surface of the postsynaptic membrane",
@@ -28,7 +28,7 @@
     "qID": "test-t2-q2"
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Yasin - Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events? pka=2",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">Dr. hasaa - Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events?",
     "options": [
       "Opening of Na+ channels",
       "Opening of K+ channels",
@@ -42,7 +42,7 @@
     "qID": "test-t2-q3"
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Yasin - Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">Dr. hasaa - Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?",
     "options": [
       "Opening of Na+ channels",
       "Opening of K+ channels at the surface of the postsynaptic membrane",
@@ -56,21 +56,21 @@
     "qID": "test-t2-q4"
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Ya4sin - Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events? pka=2",
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Yasin - Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events? pka=2",
     "options": [
-      "Opening of Na+ channels ها ها",
+      "Opening of Na+ channels",
       "Opening of K+ channels",
       "Opening of Ca++ voltage-gated channels",
       "Closing of Cl− channels"
     ],
     "answer": 2,
     "answerText": "Opening of Ca++ voltage-gated channels",
-    "explanation": "The influx of Ca++ through voltage-gated calcium channels triggers neurotransmitter release into the synaptic cleft. pka=2 ",
+    "explanation": "The influx of Ca++ through voltage-gated calcium channels triggers neurotransmitter release into the synaptic cleft. ",
     "userAnswer": null,
     "qID": "test-t2-q5"
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Ya4sin - Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?",
+    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Yasin - Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?",
     "options": [
       "Opening of Na+ channels",
       "Opening of K+ channels at the surface of the postsynaptic membrane",
