@@ -1,15 +1,15 @@
 [
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>Dr. Hassan 22 - Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">Dr. Hassan 22 - Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events?",
     "options": [
-      "Opening of Na+ channels",
+      "Opening of Na+ channels جديد",
       "Opening of K+ channels",
-      "Opening of Ca++ voltage-gated channels",
+      "Opening of Ca++ voltage-gated channels قديم",
       "Closing of Cl− channels"
     ],
-    "answer": 2,
-    "answerText": "Opening of Ca++ voltage-gated channels",
-    "explanation": "The influx of Ca++ through voltage-gated calcium channels triggers neurotransmitter release into the synaptic cleft.",
+    "answer": 0,
+    "answerText": "Opening of Na+ channels جديد",
+    "explanation": "The influx of Ca++ through voltage-gated calcium channels triggers neurotransmitter release into the synaptic cleft. ها",
     "userAnswer": null,
     "qID": "test-t4-q1"
   },
