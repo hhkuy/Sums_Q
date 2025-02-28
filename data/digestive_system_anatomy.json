@@ -10,7 +10,8 @@
     "answer": 3,
     "answerText": "Spleen",
     "explanation": "The spleen is an intraperitoneal organ, meaning it is completely surrounded by peritoneum.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 2</span> Where is the location of the stomach in the abdomen?",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Epigastric region",
     "explanation": "The stomach is primarily located in the epigastric region of the abdomen.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 3</span> General sensation from the skin and oral mucosa of the cheeks is carried by which one?",
@@ -36,7 +38,8 @@
     "answer": 0,
     "answerText": "Buccal branch of the mandibular nerve",
     "explanation": "The buccal branch of the mandibular nerve (V3) provides sensory innervation to the skin and oral mucosa of the cheeks.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 4</span> Which nerve is for innervation of the mylohyoid muscle?",
@@ -49,7 +52,8 @@
     "answer": 2,
     "answerText": "Mandibular nerve",
     "explanation": "The mylohyoid muscle is innervated by the mylohyoid branch of the mandibular nerve (V3).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 5</span> Which muscle of the tongue is innervated by the vagus nerve?",
@@ -62,7 +66,8 @@
     "answer": 3,
     "answerText": "Palatoglossus",
     "explanation": "The palatoglossus muscle is unique as it is the only tongue muscle innervated by the vagus nerve (CN X).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 6</span> General sensory innervation from the anterior two-thirds or oral part of the tongue is carried by which one?",
@@ -75,7 +80,8 @@
     "answer": 0,
     "answerText": "Lingual nerve",
     "explanation": "The lingual nerve, a branch of the mandibular nerve (V3), carries general sensory information from the anterior two-thirds of the tongue.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 7</span> Which muscle of the soft palate is innervated by the mandibular nerve?",
@@ -88,7 +94,8 @@
     "answer": 2,
     "answerText": "Tensor veli palatini",
     "explanation": "The tensor veli palatini muscle is innervated by the mandibular nerve (V3).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 8</span> Greater palatine artery is a branch of which one?",
@@ -101,7 +108,8 @@
     "answer": 0,
     "answerText": "Maxillary artery",
     "explanation": "The greater palatine artery is a branch of the maxillary artery.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 9</span> Opening of the parotid duct is at the level of…",
@@ -114,7 +122,8 @@
     "answer": 3,
     "answerText": "Second upper molar tooth",
     "explanation": "The parotid duct opens into the oral cavity opposite the second upper molar tooth.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 10</span> Parasympathetic innervation of the sublingual gland is by which one?",
@@ -127,7 +136,8 @@
     "answer": 1,
     "answerText": "Facial nerve",
     "explanation": "The parasympathetic innervation of the sublingual gland is through the facial nerve via the chorda tympani.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 11</span> Which one is in the anterior sheath of the rectus muscle?",
@@ -140,7 +150,8 @@
     "answer": 1,
     "answerText": "Pyramidalis muscle",
     "explanation": "The pyramidalis muscle is located in the anterior sheath of the rectus abdominis muscle.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 12</span> Where is the location of the bare area of the liver?",
@@ -153,7 +164,8 @@
     "answer": 3,
     "answerText": "Posterior surface of the liver",
     "explanation": "The bare area of the liver is located on the posterior surface, in direct contact with the diaphragm.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 13</span> Which one is a superficial fatty layer of the superficial fascia of the abdomen?",
@@ -166,7 +178,8 @@
     "answer": 3,
     "answerText": "Camper’s fascia",
     "explanation": "Camper’s fascia is the superficial fatty layer of the superficial fascia in the abdomen.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 14</span> Which one is located in the free border of the lesser omentum?",
@@ -179,7 +192,8 @@
     "answer": 0,
     "answerText": "Common bile duct",
     "explanation": "The common bile duct is located in the free border of the lesser omentum.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 15</span> Diaphragmatic surface of the spleen is covered by:",
@@ -192,7 +206,8 @@
     "answer": 0,
     "answerText": "Ribs 9, 10, and 11",
     "explanation": "The diaphragmatic surface of the spleen is covered by ribs 9, 10, and 11.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 16</span> Ileocolic artery is a branch of the:",
@@ -205,7 +220,8 @@
     "answer": 0,
     "answerText": "Superior mesenteric artery",
     "explanation": "The ileocolic artery is a branch of the superior mesenteric artery.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 17</span> Which one is formed by superior mesenteric and splenic veins posterior to the neck of the pancreas?",
@@ -218,7 +234,8 @@
     "answer": 1,
     "answerText": "Portal vein",
     "explanation": "The portal vein is formed by the union of the superior mesenteric vein and splenic vein posterior to the neck of the pancreas.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 18</span> Which one is retroperitoneal?",
@@ -231,7 +248,8 @@
     "answer": 3,
     "answerText": "Descending colon",
     "explanation": "The descending colon is a retroperitoneal organ.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 19</span> Floor of the inguinal canal is formed by:",
@@ -244,7 +262,8 @@
     "answer": 2,
     "answerText": "Inguinal ligament",
     "explanation": "The floor of the inguinal canal is formed by the inguinal ligament.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-10-2) Retake Exam - Dr. Hasanzadeh - Question 20</span> Inferior rectal artery is a branch of the:",
@@ -257,6 +276,7 @@
     "answer": 2,
     "answerText": "Internal pudendal artery",
     "explanation": "The inferior rectal artery is a branch of the internal pudendal artery.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "dige-anat-q20"
   }
 ]
