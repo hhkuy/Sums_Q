@@ -10,7 +10,8 @@
     "answer": 1,
     "answerText": "Transamination reactions require pyridoxal-5'-phosphate (PLP)",
     "explanation": "Transamination reactions require pyridoxal-5'-phosphate (PLP) as a coenzyme to facilitate the transfer of an amino group between amino acids and keto acids.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 2</span> Amino acids are released into the portal system by:",
@@ -23,7 +24,8 @@
     "answer": 2,
     "answerText": "Facilitated diffusion",
     "explanation": "Amino acids are transported across the intestinal mucosa into the portal circulation mainly by facilitated diffusion, which requires specific carrier proteins.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 3</span> For the ATP-dependent proteasome system, which of the following proteins is required to degrade proteins?",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Ubiquitin",
     "explanation": "Ubiquitin tags proteins for degradation in the ATP-dependent proteasome system, ensuring selective breakdown of proteins.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 4</span> Which of the following enzymes is deficient in alkaptonuria?",
@@ -49,7 +52,8 @@
     "answer": 1,
     "answerText": "Homogentisate dioxygenase",
     "explanation": "Alkaptonuria is caused by a deficiency of homogentisate dioxygenase, leading to the accumulation of homogentisic acid.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 5</span> Which of the following is the only plasma enzyme normally found in urine?",
@@ -62,7 +66,8 @@
     "answer": 1,
     "answerText": "Amylase",
     "explanation": "Amylase is a small-sized enzyme that can be filtered by the kidneys and is normally present in urine.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 6</span> Which among the following is not a pancreatic-specific enzyme?",
@@ -75,7 +80,8 @@
     "answer": 2,
     "answerText": "Alkaline phosphatase",
     "explanation": "Alkaline phosphatase is found in multiple tissues, including the liver and bones, but is not specific to the pancreas.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 7</span> What enzyme in the body is measured to diagnose rhabdomyolysis?",
@@ -88,7 +94,8 @@
     "answer": 1,
     "answerText": "Creatine kinase",
     "explanation": "Creatine kinase levels increase significantly in rhabdomyolysis due to muscle breakdown.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 8</span> An individual who was suffering from malaria developed hemolytic anemia after receiving primaquine. Which of the following deficiencies could lead to hemolysis?",
@@ -101,7 +108,8 @@
     "answer": 0,
     "answerText": "Glucose-6-phosphate dehydrogenase (G6PD)",
     "explanation": "G6PD deficiency reduces the ability of red blood cells to handle oxidative stress, leading to hemolysis when exposed to oxidative drugs like primaquine.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 9</span> All of the following regarding hexokinase and glucokinase are correct, except:",
@@ -114,7 +122,8 @@
     "answer": 3,
     "answerText": "The Vmax of hexokinase is higher than the Vmax of glucokinase",
     "explanation": "Glucokinase has a higher Vmax than hexokinase, allowing it to handle high glucose concentrations efficiently.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 10</span> Cori’s cycle is involved in transferring:",
@@ -127,7 +136,8 @@
     "answer": 1,
     "answerText": "Lactate from muscles to liver",
     "explanation": "Cori’s cycle transfers lactate from muscles to the liver, where it is converted back into glucose.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 11</span> The transfer of monosaccharides from intestinal mucosal cells to the portal blood is carried out by which transporter?",
@@ -140,7 +150,8 @@
     "answer": 1,
     "answerText": "GLUT-2",
     "explanation": "GLUT-2 is responsible for transporting monosaccharides such as glucose and galactose from intestinal mucosal cells into the portal blood.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 12</span> Which of the following metabolites positively regulates pyruvate kinase?",
@@ -153,7 +164,8 @@
     "answer": 1,
     "answerText": "Fructose-1,6-bisphosphate",
     "explanation": "Fructose-1,6-bisphosphate is an allosteric activator of pyruvate kinase, enhancing glycolysis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 13</span> What is the committed step in glycolysis?",
@@ -166,7 +178,8 @@
     "answer": 2,
     "answerText": "Conversion of fructose-6-phosphate to fructose-1,6-bisphosphate",
     "explanation": "The conversion of fructose-6-phosphate to fructose-1,6-bisphosphate, catalyzed by phosphofructokinase-1, is the committed step in glycolysis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 14</span> In which of the following glycogen storage diseases is there a deficiency of muscle glycogen phosphorylase?",
@@ -179,7 +192,8 @@
     "answer": 3,
     "answerText": "Type V (McArdle syndrome)",
     "explanation": "McArdle syndrome (GSD Type V) is characterized by a deficiency in muscle glycogen phosphorylase, leading to exercise intolerance.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 15</span> Gluconeogenesis takes place in the liver and kidneys. Which of the following enzymes is crucial for gluconeogenesis and is selectively expressed in these organs?",
@@ -192,7 +206,8 @@
     "answer": 1,
     "answerText": "Glucose-6-phosphatase",
     "explanation": "Glucose-6-phosphatase is a key enzyme in gluconeogenesis, allowing the liver and kidneys to release free glucose into the bloodstream.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 16</span> As a result of the action of which enzyme in the citric acid cycle are carbon units released as CO2?",
@@ -205,7 +220,8 @@
     "answer": 1,
     "answerText": "Alpha-ketoglutarate dehydrogenase and isocitrate dehydrogenase",
     "explanation": "Both isocitrate dehydrogenase and alpha-ketoglutarate dehydrogenase catalyze decarboxylation reactions, releasing CO2 in the citric acid cycle.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 17</span> All of the following factors play a role in chylomicron metabolism, except:",
@@ -218,7 +234,8 @@
     "answer": 2,
     "answerText": "CETP (cholesteryl ester transfer protein)",
     "explanation": "CETP is primarily involved in HDL metabolism and does not play a direct role in chylomicron metabolism.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 18</span> Which of the following activates the enzyme HMG-CoA reductase?",
@@ -231,7 +248,8 @@
     "answer": 1,
     "answerText": "Insulin",
     "explanation": "Insulin activates HMG-CoA reductase, the rate-limiting enzyme of cholesterol synthesis, promoting lipid storage.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 19</span> From the beta-oxidation of myristic acid in the mitochondria, all of the following compounds are produced, except:",
@@ -244,7 +262,8 @@
     "answer": 3,
     "answerText": "Malonyl-CoA",
     "explanation": "Malonyl-CoA is involved in fatty acid synthesis, not beta-oxidation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 20</span> For the synthesis of palmitic acid, all of the following are required, except:",
@@ -257,7 +276,8 @@
     "answer": 3,
     "answerText": "Carnitine",
     "explanation": "Carnitine is essential for fatty acid oxidation, not for fatty acid synthesis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 21</span> Type I hyperlipoproteinemia is characterized by:",
@@ -270,7 +290,8 @@
     "answer": 1,
     "answerText": "Elevated chylomicron levels",
     "explanation": "Type I hyperlipoproteinemia results from a deficiency in lipoprotein lipase or apo C-II, leading to the accumulation of chylomicrons in the blood.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 22</span> Net ATP generation on complete oxidation of stearic acid is:",
@@ -283,7 +304,8 @@
     "answer": 1,
     "answerText": "146",
     "explanation": "The complete oxidation of stearic acid (18-carbon fatty acid) yields 146 ATP through beta-oxidation, the TCA cycle, and oxidative phosphorylation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 23</span> Which of the following apolipoproteins activates LCAT?",
@@ -296,7 +318,8 @@
     "answer": 0,
     "answerText": "Apo A-I",
     "explanation": "Apo A-I activates lecithin-cholesterol acyltransferase (LCAT), which is crucial for HDL-mediated cholesterol transport.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 24</span> Which one of the following activates ACC?",
@@ -309,7 +332,8 @@
     "answer": 1,
     "answerText": "Citrate",
     "explanation": "Acetyl-CoA carboxylase (ACC), the rate-limiting enzyme in fatty acid synthesis, is activated by citrate.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 25</span> In which of the following conditions does urinary urobilinogen increase?",
@@ -322,7 +346,8 @@
     "answer": 2,
     "answerText": "Dubin-Johnson syndrome",
     "explanation": "Dubin-Johnson syndrome is a rare genetic disorder characterized by impaired hepatic excretion of bilirubin metabolites, leading to increased urinary urobilinogen.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 26</span> Which one of the following enzymes is involved in the conversion of IDL to LDL?",
@@ -335,7 +360,8 @@
     "answer": 1,
     "answerText": "Hepatic lipase",
     "explanation": "Hepatic lipase plays a critical role in converting intermediate-density lipoproteins (IDL) to low-density lipoproteins (LDL).",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 27</span> Which of the following enzyme deficiencies results in immunodeficiency in newborns?",
@@ -348,7 +374,8 @@
     "answer": 1,
     "answerText": "Adenosine deaminase",
     "explanation": "Adenosine deaminase deficiency leads to severe combined immunodeficiency (SCID), affecting both T and B lymphocytes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 28</span> All of the following compounds are involved in the biosynthesis of pyrimidine nucleotides, except:",
@@ -361,7 +388,8 @@
     "answer": 3,
     "answerText": "Glycine",
     "explanation": "Glycine is a key precursor in purine biosynthesis, not pyrimidine synthesis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 29</span> Lesch-Nyhan syndrome, which is an X-linked recessive disorder, is caused by a deficiency of which enzyme?",
@@ -374,7 +402,8 @@
     "answer": 1,
     "answerText": "Hypoxanthine-guanine phosphoribosyl transferase (HGPRT)",
     "explanation": "HGPRT deficiency leads to purine overproduction, hyperuricemia, and neurological symptoms seen in Lesch-Nyhan syndrome.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 30</span> Maple syrup urine disease is a disorder due to a deficiency of the pathway that degrades:",
@@ -387,7 +416,8 @@
     "answer": 1,
     "answerText": "Isoleucine",
     "explanation": "Maple syrup urine disease results from a deficiency in branched-chain alpha-keto acid dehydrogenase, affecting the metabolism of isoleucine, leucine, and valine.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 31</span> Which of the following amino acids cannot provide a substrate for gluconeogenesis?",
@@ -400,7 +430,8 @@
     "answer": 2,
     "answerText": "Leucine",
     "explanation": "Leucine is a purely ketogenic amino acid and cannot serve as a substrate for gluconeogenesis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 32</span> Identify the amino acid that participates in methyl group transfer:",
@@ -413,7 +444,8 @@
     "answer": 0,
     "answerText": "Methionine",
     "explanation": "Methionine donates methyl groups via S-adenosylmethionine (SAM), a key methyl donor in biochemical reactions.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 33</span> Histamine, a chemical mediator of allergies and anaphylaxis, is synthesized from the amino acid histidine by which of the following processes?",
@@ -426,7 +458,8 @@
     "answer": 2,
     "answerText": "Decarboxylation",
     "explanation": "Histidine undergoes decarboxylation to form histamine, which plays a role in allergic reactions.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 34</span> Which of the following is the most important cause of increased aminotransaminase activity in serum?",
@@ -439,7 +472,8 @@
     "answer": 0,
     "answerText": "Liver disease",
     "explanation": "Elevated aminotransferase levels, particularly ALT and AST, are indicative of liver cell damage.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 35</span> Which of the following statements about fructose and galactose metabolism is correct?",
@@ -452,7 +486,8 @@
     "answer": 1,
     "answerText": "The complications of classic galactosemia are more severe than those of galactokinase deficiency",
     "explanation": "Classic galactosemia, caused by galactose-1-phosphate uridyltransferase deficiency, has more severe complications than galactokinase deficiency.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 36</span> All of the following enzymes are capable of generating ATP at the substrate level, except:",
@@ -465,7 +500,8 @@
     "answer": 3,
     "answerText": "Phosphoenolpyruvate carboxykinase",
     "explanation": "Phosphoenolpyruvate carboxykinase (PEPCK) is involved in gluconeogenesis but does not generate ATP at the substrate level.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 37</span> In the conversion of pyruvic acid to acetyl coenzyme A, all of the following are involved, except:",
@@ -478,7 +514,8 @@
     "answer": 3,
     "answerText": "Biotin",
     "explanation": "Biotin is involved in carboxylation reactions, not in the pyruvate dehydrogenase complex, which converts pyruvate to acetyl-CoA.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 38</span> Which compound is involved in the transfer of acetyl-CoA from the mitochondria to the cytosol?",
@@ -491,7 +528,8 @@
     "answer": 1,
     "answerText": "Citrate",
     "explanation": "Citrate carries acetyl-CoA from the mitochondria to the cytosol for fatty acid synthesis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 39</span> An enzyme that is essential for both ketone body synthesis and cholesterol synthesis is:",
@@ -504,7 +542,8 @@
     "answer": 0,
     "answerText": "HMG-CoA synthase",
     "explanation": "HMG-CoA synthase is involved in both ketogenesis and cholesterol biosynthesis pathways.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023-08-19) - Dr. Shadi & Dr. Panahi - Question 40</span> Which of the following is the rate-limiting step of fatty acid oxidation and is also inhibited by malonyl CoA?",
@@ -517,7 +556,8 @@
     "answer": 1,
     "answerText": "Carnitine palmitoyltransferase I",
     "explanation": "Carnitine palmitoyltransferase I regulates the entry of fatty acids into mitochondria for beta-oxidation and is inhibited by malonyl-CoA.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q40"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 1</span> Which of the following glucose transporters (GLUT) is important in insulin-dependent glucose uptake?",
@@ -530,7 +570,8 @@
     "answer": 3,
     "answerText": "GLUT4",
     "explanation": "GLUT4 is the primary glucose transporter responsible for insulin-dependent glucose uptake in skeletal muscle and adipose tissue.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q41"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 2</span> The key regulatory enzyme of glycolysis is?",
@@ -543,7 +584,8 @@
     "answer": 1,
     "answerText": "Phosphofructokinase",
     "explanation": "Phosphofructokinase is the rate-limiting enzyme in glycolysis, regulating the conversion of fructose-6-phosphate to fructose-1,6-bisphosphate.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q42"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 3</span> Which of the following statements about glycolysis is correct?",
@@ -556,7 +598,8 @@
     "answer": 2,
     "answerText": "In glycolysis, glucose is cleaved into two three-carbon products.",
     "explanation": "Glycolysis breaks down glucose into two molecules of pyruvate, which contain three carbon atoms each.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q43"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 4</span> The Rapoport shunt is a metabolic pathway in mature erythrocytes involving the formation of _______, which regulates oxygen release from hemoglobin and delivery to tissues.",
@@ -569,7 +612,8 @@
     "answer": 1,
     "answerText": "2,3-bisphosphoglycerate",
     "explanation": "2,3-bisphosphoglycerate binds to hemoglobin, reducing its affinity for oxygen and facilitating oxygen delivery to tissues.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q44"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 5</span> Gluconeogenesis is the production of glucose from non-carbohydrate molecules. Which of the following is not a substrate for gluconeogenesis?",
@@ -582,7 +626,8 @@
     "answer": 3,
     "answerText": "Acetyl CoA",
     "explanation": "Acetyl CoA cannot serve as a substrate for gluconeogenesis because it is irreversibly converted to CO2 in the TCA cycle.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q45"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 6</span> ______ and ______ are the only organs that release free glucose from glucose-6-phosphate.",
@@ -595,7 +640,8 @@
     "answer": 2,
     "answerText": "Liver and kidney",
     "explanation": "The liver and kidney possess glucose-6-phosphatase, an enzyme required to release free glucose into the bloodstream.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q46"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 7</span> What is the main regulatory enzyme of gluconeogenesis?",
@@ -608,7 +654,8 @@
     "answer": 2,
     "answerText": "Fructose-1,6-bisphosphatase",
     "explanation": "Fructose-1,6-bisphosphatase is a key regulatory enzyme in gluconeogenesis, converting fructose-1,6-bisphosphate to fructose-6-phosphate.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q47"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 8</span> All of the statements given here about Kreb's cycle are true, except:",
@@ -621,7 +668,8 @@
     "answer": 2,
     "answerText": "The rate-limiting step of the TCA cycle is catalyzed by fumarase.",
     "explanation": "The rate-limiting step of the TCA cycle is catalyzed by isocitrate dehydrogenase, not fumarase.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q48"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 9</span> The process of breakdown of glycogen to glucose is known as ______.",
@@ -634,7 +682,8 @@
     "answer": 2,
     "answerText": "Glycogenolysis",
     "explanation": "Glycogenolysis involves the breakdown of glycogen into glucose to maintain blood glucose levels.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q49"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 10</span> Which enzyme's deficiency leads to a glycogen storage disease known as Von Gierke?",
@@ -647,7 +696,8 @@
     "answer": 2,
     "answerText": "Glucose-6-phosphatase",
     "explanation": "A deficiency in glucose-6-phosphatase causes Von Gierke disease, leading to impaired glycogen breakdown and hypoglycemia.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q50"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 11</span> Which of the following enzymes is considered defective in classic galactosemia, a fatal genetic disorder in infants?",
@@ -660,7 +710,8 @@
     "answer": 1,
     "answerText": "Galactose-1-phosphate uridyl transferase",
     "explanation": "Classic galactosemia results from a deficiency of galactose-1-phosphate uridyl transferase, leading to the accumulation of toxic metabolites.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q51"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 12</span> What are the two major products of the pentose phosphate pathway?",
@@ -673,7 +724,8 @@
     "answer": 2,
     "answerText": "Ribose and NADPH",
     "explanation": "The pentose phosphate pathway produces ribose for nucleotide synthesis and NADPH for reductive biosynthesis and antioxidant defense.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q52"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 13</span> Maple syrup disease is a disorder due to a deficiency of the pathway that degrades:",
@@ -686,7 +738,8 @@
     "answer": 1,
     "answerText": "Isoleucine",
     "explanation": "Maple syrup urine disease results from the defective breakdown of branched-chain amino acids such as isoleucine, leucine, and valine.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q53"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 14</span> Which of the following statements about the urea cycle is correct?",
@@ -699,7 +752,8 @@
     "answer": 2,
     "answerText": "Arginine is hydrolyzed to urea and ornithine in the urea cycle.",
     "explanation": "Arginine is broken down into urea and ornithine by the enzyme arginase during the final step of the urea cycle.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q54"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 15</span> Which of the following statements about transamination reactions is correct?",
@@ -712,7 +766,8 @@
     "answer": 2,
     "answerText": "Transamination reactions require pyridoxal-5'-phosphate (PLP).",
     "explanation": "PLP, derived from vitamin B6, is the cofactor required for transamination reactions, which transfer amino groups between amino acids and α-keto acids.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q55"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 16</span> Which of the following amino acids have been solely regarded as ketogenic amino acids?",
@@ -725,7 +780,8 @@
     "answer": 2,
     "answerText": "Lysine and Leucine",
     "explanation": "Lysine and leucine are purely ketogenic amino acids because they are metabolized to ketone bodies and not glucose.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q56"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 17</span> Amino acids are released into the portal system by:",
@@ -738,7 +794,8 @@
     "answer": 2,
     "answerText": "Facilitated diffusion",
     "explanation": "Amino acids are absorbed into the bloodstream via facilitated diffusion, requiring specific carrier proteins.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q57"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 18</span> Which enzyme is deficient in alkaptonuria?",
@@ -751,7 +808,8 @@
     "answer": 2,
     "answerText": "Homogentisate dioxygenase",
     "explanation": "Alkaptonuria is caused by a deficiency of homogentisate dioxygenase, leading to the accumulation of homogentisic acid.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q58"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 19</span> Which chemical in the urine may indicate tumors of the adrenal (pheochromocytoma)?",
@@ -764,7 +822,8 @@
     "answer": 1,
     "answerText": "VMA and HVA",
     "explanation": "Vanillylmandelic acid (VMA) and homovanillic acid (HVA) are metabolites of catecholamines, elevated in adrenal tumors like pheochromocytoma.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q59"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 20</span> Identify the amino acid that is considered a precursor of serotonin:",
@@ -777,7 +836,8 @@
     "answer": 2,
     "answerText": "Tryptophan",
     "explanation": "Tryptophan is hydroxylated and decarboxylated to form serotonin, a neurotransmitter involved in mood regulation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q60"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 21</span> Which of the following is the only plasma enzyme normally found in urine?",
@@ -790,7 +850,8 @@
     "answer": 1,
     "answerText": "Amylase",
     "explanation": "Amylase, primarily secreted by the pancreas and salivary glands, is the only plasma enzyme normally excreted in urine.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q61"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 22</span> Which of the following is the most important cause of increased aminotransferase activity in serum?",
@@ -803,7 +864,8 @@
     "answer": 1,
     "answerText": "Liver disease",
     "explanation": "Elevated serum aminotransferases, including ALT and AST, are primarily indicative of liver damage or dysfunction.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q62"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 23</span> What enzyme in the body is measured to diagnose rhabdomyolysis?",
@@ -816,7 +878,8 @@
     "answer": 1,
     "answerText": "Creatine kinase",
     "explanation": "Elevated creatine kinase levels indicate muscle damage, which is characteristic of rhabdomyolysis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q63"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-11) part  Dr. Shadi - Question 24</span> All of the following are pancreatic-specific enzymes, except:",
@@ -829,7 +892,8 @@
     "answer": 3,
     "answerText": "Alkaline phosphatase",
     "explanation": "Alkaline phosphatase is primarily produced in the liver, bones, and intestines, and it is not specific to the pancreas.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q64"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 25</span> Which peripheral tissues can efficiently oxidize acetoacetate and 3-hydroxybutyrate?",
@@ -842,7 +906,8 @@
     "answer": 1,
     "answerText": "Brain and muscle",
     "explanation": "Peripheral tissues like brain and muscle efficiently oxidize ketone bodies to generate ATP, while the liver lacks thiophorase, preventing it from utilizing ketones.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q65"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 26</span> What enzyme is responsible for the breakdown of triacylglycerol stored in adipocytes?",
@@ -855,7 +920,8 @@
     "answer": 1,
     "answerText": "Hormone-sensitive lipase",
     "explanation": "Hormone-sensitive lipase is activated by glucagon and epinephrine, hydrolyzing stored triacylglycerol into free fatty acids and glycerol.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q66"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 27</span> What activates and inhibits ACC, the enzyme involved in the regulated step of fatty acid synthesis?",
@@ -868,7 +934,8 @@
     "answer": 0,
     "answerText": "Citrate activates ACC and palmitoyl CoA inhibits it",
     "explanation": "ACC (acetyl-CoA carboxylase) is activated by citrate, signaling excess energy, and inhibited by palmitoyl CoA, the end product of fatty acid synthesis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q67"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 28</span> Which antihyperlipidemic agent is a water-soluble B vitamin?",
@@ -881,7 +948,8 @@
     "answer": 1,
     "answerText": "Niacin",
     "explanation": "Niacin, or vitamin B3, reduces triglycerides and LDL cholesterol while increasing HDL cholesterol.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q68"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 29</span> Which type of hyperlipidemia is associated with defects in ApoE protein variants?",
@@ -894,7 +962,8 @@
     "answer": 2,
     "answerText": "Type 3",
     "explanation": "Type 3 hyperlipidemia is caused by defective ApoE, which impairs the clearance of chylomicron and VLDL remnants.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q69"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 30</span> What converts HDL2 to HDL3 during their metabolism?",
@@ -907,7 +976,8 @@
     "answer": 1,
     "answerText": "Hepatic lipase",
     "explanation": "Hepatic lipase converts HDL2 to HDL3 by removing triglycerides and phospholipids, making HDL3 more compact.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q70"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 31</span> Which disease is a rare deficiency of the transport protein ABCA1?",
@@ -920,7 +990,8 @@
     "answer": 1,
     "answerText": "Tangier disease",
     "explanation": "Tangier disease results from a deficiency in ABCA1, impairing cholesterol efflux and leading to low HDL levels.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q71"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 32</span> From beta oxidation of lauric acid in mitochondria, all the following compounds are produced, except:",
@@ -933,7 +1004,8 @@
     "answer": 3,
     "answerText": "Malonyl CoA",
     "explanation": "Malonyl CoA is not a product of beta-oxidation but is instead a substrate for fatty acid synthesis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q72"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 33</span> In familial hypercholesterolemia, there is a mutation in which one of the following genes?",
@@ -946,7 +1018,8 @@
     "answer": 1,
     "answerText": "LDL receptor",
     "explanation": "Familial hypercholesterolemia results from mutations in the LDL receptor gene, leading to impaired LDL uptake and elevated plasma cholesterol levels.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q73"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 34</span> All the following factors are involved in chylomicron metabolism, except:",
@@ -959,7 +1032,8 @@
     "answer": 3,
     "answerText": "ApoB100",
     "explanation": "ApoB48, not ApoB100, is present in chylomicrons. ApoB100 is primarily associated with VLDL, IDL, and LDL particles.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q74"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 35</span> Which of the following is the rate-limiting enzyme in the cholesterol biosynthesis pathway?",
@@ -972,7 +1046,8 @@
     "answer": 1,
     "answerText": "HMG-CoA reductase",
     "explanation": "HMG-CoA reductase catalyzes the conversion of HMG-CoA to mevalonate, the rate-limiting step in cholesterol biosynthesis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q75"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 36</span> Which of the following compounds uncouples oxidative phosphorylation by dissipating the proton gradient across the mitochondrial membrane?",
@@ -985,7 +1060,8 @@
     "answer": 2,
     "answerText": "2,4-Dinitrophenol (DNP)",
     "explanation": "DNP uncouples oxidative phosphorylation by allowing protons to flow back across the mitochondrial membrane, bypassing ATP synthase.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q76"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 37</span> Which compound inhibits ATP synthase by directly binding to it and preventing proton translocation?",
@@ -998,7 +1074,8 @@
     "answer": 0,
     "answerText": "Oligomycin",
     "explanation": "Oligomycin binds to ATP synthase, blocking the proton channel and preventing ATP synthesis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q77"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 38</span> …………… donates its phosphate to ADP to yield ATP during muscle exertion.",
@@ -1011,7 +1088,8 @@
     "answer": 2,
     "answerText": "Creatine phosphate",
     "explanation": "Creatine phosphate donates a phosphate group to ADP, rapidly regenerating ATP during high-energy demand in muscles.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q78"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 39</span> Tophus is a clinical sign of which condition?",
@@ -1024,7 +1102,8 @@
     "answer": 1,
     "answerText": "Hyperuricemia",
     "explanation": "Tophus is a deposit of uric acid crystals, typically seen in joints and soft tissues, characteristic of chronic hyperuricemia or gout.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q79"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 40</span> Jaundice is caused by all of the following, except:",
@@ -1037,7 +1116,8 @@
     "answer": 3,
     "answerText": "High amount of fatty acid",
     "explanation": "Jaundice results from excess bilirubin accumulation due to hemolysis, liver dysfunction, or bile duct obstruction, not from fatty acids.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q80"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 41</span> In Lesch-Nyhan syndrome:",
@@ -1050,7 +1130,8 @@
     "answer": 0,
     "answerText": "There is a defect in the HGPRT enzyme",
     "explanation": "Lesch-Nyhan syndrome is caused by a deficiency in the HGPRT enzyme, leading to hyperuricemia and severe neurological symptoms.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q81"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 42</span> According to the biosynthetic origin of the purine ring, nitrogen atom N1 originates from?",
@@ -1063,7 +1144,8 @@
     "answer": 1,
     "answerText": "Aspartic acid",
     "explanation": "Nitrogen atom N1 in the purine ring is derived from aspartic acid, while other atoms originate from different amino acids and molecules.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q82"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 43</span> Porphyria cutanea tarda is caused by a deficiency in which of the following enzymes?",
@@ -1076,7 +1158,8 @@
     "answer": 1,
     "answerText": "Uroporphyrinogen decarboxylase",
     "explanation": "Uroporphyrinogen decarboxylase deficiency leads to the accumulation of uroporphyrins, causing photosensitivity and skin lesions in porphyria cutanea tarda.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q83"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 44</span> Fluorouracil inhibits which of the following enzymes?",
@@ -1089,7 +1172,8 @@
     "answer": 1,
     "answerText": "Thymidylate synthase",
     "explanation": "Fluorouracil inhibits thymidylate synthase, blocking DNA synthesis and leading to its use in cancer treatment.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q84"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 45</span> All of the following compounds participate in the biosynthesis of pyrimidine nucleotides, except:",
@@ -1102,7 +1186,8 @@
     "answer": 3,
     "answerText": "Glycine",
     "explanation": "Pyrimidine synthesis involves glutamine, aspartic acid, and PRPP, but glycine is not involved. Glycine is instead important in purine synthesis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q85"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 46</span> Glucagon stimulates which process in the liver?",
@@ -1115,7 +1200,8 @@
     "answer": 0,
     "answerText": "Glycogenolysis",
     "explanation": "Glucagon activates glycogenolysis, which breaks down glycogen into glucose to maintain blood glucose levels during fasting.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q86"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 47</span> Which of the following is a result of decreased insulin levels during fasting?",
@@ -1128,7 +1214,8 @@
     "answer": 1,
     "answerText": "Increased fatty acid oxidation",
     "explanation": "During fasting, decreased insulin levels promote fatty acid oxidation to generate energy through beta-oxidation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q87"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 48</span> Which tissue plays a central role in processing and distributing dietary nutrients during the absorptive state?",
@@ -1141,7 +1228,8 @@
     "answer": 1,
     "answerText": "Liver",
     "explanation": "The liver processes and distributes dietary nutrients, including glucose, fats, and amino acids, during the absorptive state.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q88"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 49</span> Glucose-dependent release of insulin into the blood is mediated through a rise in which ion concentration?",
@@ -1154,7 +1242,8 @@
     "answer": 1,
     "answerText": "Calcium",
     "explanation": "A rise in intracellular calcium triggers the release of insulin from pancreatic beta cells following glucose stimulation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q89"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 50</span> Which component of the respiratory chain has the lowest oxidation potential?",
@@ -1167,7 +1256,8 @@
     "answer": 1,
     "answerText": "FMN",
     "explanation": "FMN (flavin mononucleotide) in Complex I has the lowest oxidation potential, facilitating the transfer of electrons to downstream components.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q90"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 51</span> Which high-energy compound is primarily generated during glycolysis and serves as an immediate substrate for ATP synthesis in substrate-level phosphorylation?",
@@ -1180,7 +1270,8 @@
     "answer": 1,
     "answerText": "1,3-Bisphosphoglycerate (1,3-BPG)",
     "explanation": "1,3-Bisphosphoglycerate donates a phosphate group to ADP during glycolysis to form ATP through substrate-level phosphorylation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q91"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-7-20) part Dr. Panahi - Question 52</span> During ketolysis, which enzyme converts acetoacetate to acetoacetyl-CoA?",
@@ -1193,6 +1284,7 @@
     "answer": 1,
     "answerText": "Thiophorase",
     "explanation": "Thiophorase (also known as succinyl-CoA:acetoacetate CoA transferase) catalyzes the conversion of acetoacetate to acetoacetyl-CoA for energy production.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "clin-clin-q92"
   }
 ]
