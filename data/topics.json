@@ -398,15 +398,5 @@
         "file": "data/religion_religion.json"
       }
     ]
-  },
-  {
-    "topicName": "test",
-    "description": "5",
-    "subTopics": [
-      {
-        "name": "t2",
-        "file": "data/test_t2.json"
-      }
-    ]
   }
 ]
