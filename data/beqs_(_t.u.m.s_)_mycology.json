@@ -10,7 +10,8 @@
     "answer": 3,
     "answerText": "Serotype A (Biovariate Grubii) is rarely responsible for the disease.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 60</span> In epidemiology, animal is the source of infection in which one of the following fungal diseases?",
@@ -23,7 +24,8 @@
     "answer": 2,
     "answerText": "Dermatophytosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 117</span> Which one is one of the most contributing factors in creation of invasive aspergillosis?",
@@ -36,7 +38,8 @@
     "answer": 0,
     "answerText": "Neutropenia",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 118</span> Which form of dermatophytosis is especially seen after adolescence?",
@@ -49,7 +52,8 @@
     "answer": 2,
     "answerText": "Foot",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 117</span> In the direct test of spinal fluid, a patient with AIDS has encountered yeast cells with a capsule. What is the disease of this person?",
@@ -62,7 +66,8 @@
     "answer": 3,
     "answerText": "Cryptococcosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 118</span> What is the main defective body cell in widespread aspergillosis?",
@@ -75,7 +80,8 @@
     "answer": 0,
     "answerText": "Neutrophils",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 67</span> In which age group is baldness more seen?",
@@ -88,7 +94,8 @@
     "answer": 3,
     "answerText": "40-60",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 68</span> What is the most important predisposing factor for rhinocerebral mucormycosis?",
@@ -101,7 +108,8 @@
     "answer": 2,
     "answerText": "Diabetes",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 88</span> Which of the fungal infections has a more acute clinical course?",
@@ -114,7 +122,8 @@
     "answer": 1,
     "answerText": "Rhinocerebral mucormycosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 89</span> What is the selected drug in the treatment of sporotrichosis?",
@@ -127,7 +136,8 @@
     "answer": 2,
     "answerText": "Potassium iodide",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 117</span> Which one is one of the most contributing factors in the creation of invasive aspergillosis?",
@@ -140,7 +150,8 @@
     "answer": 0,
     "answerText": "Neutropenia",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 118</span> Which form of dermatophytosis is especially seen after adolescence?",
@@ -153,7 +164,8 @@
     "answer": 2,
     "answerText": "Foot",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 88</span> In which group does Tinea versicaler has less emerge?",
@@ -166,7 +178,8 @@
     "answer": 2,
     "answerText": "Men",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 89</span> In which form of dermatophytosis are contaminated hair curvature and presence of black dots seen?",
@@ -179,7 +192,8 @@
     "answer": 2,
     "answerText": "Endothrix",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 88</span> Often is created in the presence of AIDS?",
@@ -192,7 +206,8 @@
     "answer": 1,
     "answerText": "Pneumocytosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 89</span> What is the cause of chronic dermatophytosis on the sole of the foot?",
@@ -205,7 +220,8 @@
     "answer": 3,
     "answerText": "Trichophyton rubrum",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 79</span> With which of the following fungal infections does botryomycosis have morphological similarity?",
@@ -218,7 +234,8 @@
     "answer": 3,
     "answerText": "Mycetoma",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 80</span> What is the type of aspergilloma in aspergillosis infection?",
@@ -231,7 +248,8 @@
     "answer": 2,
     "answerText": "Pulmonary",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 79</span> Uncontrolled diabetes might be a susceptible factor for which infection?",
@@ -244,7 +262,8 @@
     "answer": 2,
     "answerText": "Rhinocerebral mucormycosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 80</span> How is nail scalp ringworm mostly exhibited?",
@@ -257,7 +276,8 @@
     "answer": 3,
     "answerText": "Distal subungual onychomycosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 79</span> What is the most likely cause of fungal infections (Fungemia) in low birth weight infants treated with fat emulsion?",
@@ -270,7 +290,8 @@
     "answer": 0,
     "answerText": "Malassezia",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 80</span> Patient with erythematous, wounded, and scaly lesions on both sides of the mouth has referred in. Which of the following options is a possible diagnosis?",
@@ -283,7 +304,8 @@
     "answer": 0,
     "answerText": "Candidiasis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 105</span> In the direct test of head of a 13-year-old male, the presence of hyphae in the hair has been detected, and the light bulb of the Wood test has also shown green fluorescence. What is the most common clinical symptom and the cause of this complication?",
@@ -296,7 +318,8 @@
     "answer": 3,
     "answerText": "Scutula - Trichophyton Schoenleinii",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 106</span> Which option is right for Mycetoma?",
@@ -309,7 +332,8 @@
     "answer": 2,
     "answerText": "With multiple sinuses, granule, pus and secretions excretion",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 79</span> In a patient with mycetoma, the reliable method for diagnosis of actinomycetoma from eumycetoma is:",
@@ -322,7 +346,8 @@
     "answer": 0,
     "answerText": "Microscopic examination of granule",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 80</span> In which of the following fungal diseases, infection develops after inhalation of etiological agent?",
@@ -335,7 +360,8 @@
     "answer": 0,
     "answerText": "Cryptococcosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 79</span> Which of the following is usually endogenous in origin?",
@@ -348,7 +374,8 @@
     "answer": 1,
     "answerText": "Candidiasis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 80</span> Which of the following is a medically important encapsulated yeast?",
@@ -361,7 +388,8 @@
     "answer": 3,
     "answerText": "Cryptococcus neoformans",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 86</span> Which of the following sentences is correct in relation to ergosterol?",
@@ -374,7 +402,8 @@
     "answer": 0,
     "answerText": "It is a cytoplasmic cell membrane compound in fungi and a target organelle for azole drugs.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 87</span> Which fungi has a higher affinity for invasion to the central nervous system (CNS)?",
@@ -387,7 +416,8 @@
     "answer": 3,
     "answerText": "*Cryptococcus neoformans*",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 88</span> Which fungi is part of normal body flora, isolated from dairy and vegetative materials, and produces oral lesions like thrush?",
@@ -400,7 +430,8 @@
     "answer": 2,
     "answerText": "*Saccharomyces cerevisiae*",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 79</span> A lumbar puncture (CSF specimen) is necessary for the definitive diagnosis of which of the following?",
@@ -413,7 +444,8 @@
     "answer": 2,
     "answerText": "Cryptococcosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 80</span> Which of the following infections is assumed to be associated with aerosol particles arisen from pigeon droppings?",
@@ -426,7 +458,8 @@
     "answer": 2,
     "answerText": "Cryptococcosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 85</span> A neutropenic patient with persistent fever and respiratory signs was hospitalised in the ICU. His galactomannan test is positive with rising titer during one week follow-up. Which of the following fungal diseases is the patient suspected of?",
@@ -439,7 +472,8 @@
     "answer": 2,
     "answerText": "Aspergillosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 86</span> Which of the following dermatophytes is considered to be the most common agent of tinea cruris?",
@@ -452,7 +486,8 @@
     "answer": 1,
     "answerText": "Trichophyton rubrum",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 87</span> In which of the following fungal diseases, the purulent and ulcerative cutaneous lesions are seen in lymphatic channels?",
@@ -465,7 +500,8 @@
     "answer": 0,
     "answerText": "Sporotrichosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 88</span> Which of the following fungi can **not** cause lesions on mucosal membranes?",
@@ -478,7 +514,8 @@
     "answer": 1,
     "answerText": "Malassezia",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 89</span> Which of the following fungi is the most common agent of tinea unguium?",
@@ -491,7 +528,8 @@
     "answer": 3,
     "answerText": "Trichophyton rubrum",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 85</span> Esophagus candidiasis is common in all of the following patients EXCEPT those with ......... .",
@@ -504,7 +542,8 @@
     "answer": 2,
     "answerText": "Hemophilia",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 86</span> Griseofulvin CANNOT be used in the treatment of ......... .",
@@ -517,7 +556,8 @@
     "answer": 1,
     "answerText": "Tinea versicolor",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q40"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 87</span> Which statement is NOT true about mycetoma?",
@@ -530,7 +570,8 @@
     "answer": 2,
     "answerText": "Bone lesions are not formed in mycetoma.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q41"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 88</span> All of the followings are true about oral candidiasis (pseudomembraneous type) EXCEPT ......... .",
@@ -543,7 +584,8 @@
     "answer": 0,
     "answerText": "Humeral immune deficiency is a risk factor for this disease.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q42"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 89</span> Wood’s light can be helpful in the diagnosis of all of the following conditions EXCEPT ......... .",
@@ -556,7 +598,8 @@
     "answer": 0,
     "answerText": "Cutaneous candidiasis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q43"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 85</span> A 12-years old child with chronic granulomatosis (CGD) presents with coughs containing sputum. Mycelium broken into angular arthroconidia is observed in the examination of a specimen of the sputum. Which of the following diseases is he/she likely to have?",
@@ -569,7 +612,8 @@
     "answer": 0,
     "answerText": "Geotrichosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q44"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 86</span> Which of the following fungal micro-organisms can be an underlying predisposing factor in seborrheic dermatitis?",
@@ -582,7 +626,8 @@
     "answer": 1,
     "answerText": "Malassezia sp.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q45"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 87</span> In which of the following diseases, Griseofulvin is NOT prescribed for treatment purposes?",
@@ -595,7 +640,8 @@
     "answer": 2,
     "answerText": "Tinea versicolor",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q46"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 88</span> Which of the following genera is the most prevalent cause of rhinocerebral mucormycose?",
@@ -608,7 +654,8 @@
     "answer": 1,
     "answerText": "Rhizopus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q47"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 89</span> Which of the following Microsporum canis substances causes delayed type hypersensitivity reaction in animals?",
@@ -621,7 +668,8 @@
     "answer": 0,
     "answerText": "Keratinase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q48"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 85</span> Which of the following drugs is used for the treatment of vaginal candidiasis?",
@@ -634,7 +682,8 @@
     "answer": 2,
     "answerText": "Fluconazole",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q49"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 86</span> What is the most common agent of dermatophytic chronic scaly type of tinea pedis?",
@@ -647,7 +696,8 @@
     "answer": 1,
     "answerText": "Trichophyton rubrum",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q50"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 87</span> What is the most common nosocomial infection in cancer and ICU wards?",
@@ -660,7 +710,8 @@
     "answer": 1,
     "answerText": "Candidiasis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q51"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 88</span> Which of the following mycoses is the most known acute infection?",
@@ -673,7 +724,8 @@
     "answer": 2,
     "answerText": "Mucormycosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q52"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 89</span> Which of the following mycoses is clinically similar to tumors?",
@@ -686,7 +738,8 @@
     "answer": 0,
     "answerText": "Mycetoma",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q53"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 85</span> What is the most common entry route of sporotrichosis pathogen?",
@@ -699,7 +752,8 @@
     "answer": 0,
     "answerText": "Eating contaminated food",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q54"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 86</span> Which of the following fungi causes tinea capitis (ectothrix) which is usually caused through contact with infected dog and cat?",
@@ -712,7 +766,8 @@
     "answer": 0,
     "answerText": "Microsporum gypseum",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q55"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 87</span> In microscopic examination of blood culture of a neutropenic patient, budding yeast cells have been noticed. Which of the following do suspect more?",
@@ -725,7 +780,8 @@
     "answer": 1,
     "answerText": "Rhizopus oryzae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q56"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 88</span> Which of the following clinical features of aspergillosis is manifested by recurrent hemoptysia?",
@@ -738,7 +794,8 @@
     "answer": 3,
     "answerText": "Disseminated",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q57"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 89</span> Which of the following fungi is the causative agent of folliculitis in the chest and back of young adults?",
@@ -751,7 +808,8 @@
     "answer": 1,
     "answerText": "Malassezia ovalis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q58"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 85</span> Which organ is mostly affected by the spread of visceral cryptococcosis?",
@@ -764,7 +822,8 @@
     "answer": 1,
     "answerText": "Adrenal glands",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q59"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 86</span> Which of the following statements is INCORRECT?",
@@ -777,7 +836,8 @@
     "answer": 1,
     "answerText": "Cryptococcosis mostly affects the lower parts of the lungs.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q60"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 87</span> Invasive aspergillosis is less common in patients with …… .",
@@ -790,7 +850,8 @@
     "answer": 3,
     "answerText": "COVID-19",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q61"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 88</span> Which of the following statements is INCORRECT about the Mucorales infection?",
@@ -803,7 +864,8 @@
     "answer": 0,
     "answerText": "It is the most common cause of genitourinary tract infection.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q62"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 89</span> Which of the following is the specific sign of pneumocystis?",
@@ -816,7 +878,8 @@
     "answer": 1,
     "answerText": "Dry cough with little or no sputum",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q63"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 85</span> Which of the following is correct about the type of hair invasion in Tinea capitis?",
@@ -829,7 +892,8 @@
     "answer": 1,
     "answerText": "The type of hair invasion depends on dermatophyte species.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q64"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 86</span> Which of the following is NOT correct in sporotrichosis?",
@@ -842,7 +906,8 @@
     "answer": 2,
     "answerText": "Cigarette shape buds are microscopic features in mycelial form.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q65"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 87</span> In the direct microscopic examination of inflammatory lesions of the scalp, many budding yeast cells with thick wall and broad budding bases are observed. What is your presumptive diagnosis?",
@@ -855,7 +920,8 @@
     "answer": 3,
     "answerText": "Cutaneous candidiasis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q66"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 88</span> Black necrotic lesions on the palate and nasal cavities, cerebral infection, and high mortality are the clinical features of ……… .",
@@ -868,7 +934,8 @@
     "answer": 2,
     "answerText": "Mucormycosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q67"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 89</span> The tinea corporis is the dermatophytosis of the ……… .",
@@ -881,7 +948,8 @@
     "answer": 3,
     "answerText": "body",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q68"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 85</span> Causative agent of which fungal infection isolates from Eucalyptus leaf?",
@@ -894,7 +962,8 @@
     "answer": 3,
     "answerText": "Cryptococcosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q69"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 86</span> What is the most acute fungal infection?",
@@ -907,7 +976,8 @@
     "answer": 1,
     "answerText": "Mucormycosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q70"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 87</span> Black fungi causes which kind of fungal infection?",
@@ -920,7 +990,8 @@
     "answer": 1,
     "answerText": "Chromoblastomycosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q71"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 88</span> Children are susceptible to which form of tinea?",
@@ -933,7 +1004,8 @@
     "answer": 0,
     "answerText": "Tinea Capitis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q72"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 89</span> Which fungal infection displays macules on the shoulders, neck and arms?",
@@ -946,7 +1018,8 @@
     "answer": 2,
     "answerText": "Tinea versicolor",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q73"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 81</span> Which of the following is correct about sporotrichosis?",
@@ -959,7 +1032,8 @@
     "answer": 2,
     "answerText": "With multiple nodules along lymphatic channels",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q74"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 82</span> Which of the following fungal elements can be seen in the direct examination of candidal onychomycosis?",
@@ -972,7 +1046,8 @@
     "answer": 1,
     "answerText": "Pseudomycelium, mycelium, blastoconidia",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q75"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 83</span> Which of the following is correct about the most common clinical symptoms of ectothrix and favus ringworm, respectively?",
@@ -985,7 +1060,8 @@
     "answer": 3,
     "answerText": "Gray patch - scutula",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q76"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 84</span> In direct examination of the colored spots on the trunk of a patient, clusters of round yeast cells (blastoconidia) together with short and curved hyphae have been observed. Which option is correct about the disease and its cause?",
@@ -998,7 +1074,8 @@
     "answer": 0,
     "answerText": "Tinea versicolor - Malassezia",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q77"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 85</span> Griseofulvin is used in the treatment of which of the following diseases?",
@@ -1011,6 +1088,7 @@
     "answer": 2,
     "answerText": "Tinea capitis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-myco-q78"
   }
 ]
