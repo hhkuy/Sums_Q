@@ -10,7 +10,8 @@
     "answer": 1,
     "answerText": "University of Subtain",
     "explanation": "The health sector includes educational institutions that provide medical and health-related training.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 2</span> Which of the following is correct?",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "There is no strong and direct correlation between costs and health outcomes in different countries",
     "explanation": "Studies show that healthcare costs do not always directly determine health outcomes, as other factors influence overall health.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 3</span> Which one of the following is NOT an objective of the health system?",
@@ -36,7 +38,8 @@
     "answer": 0,
     "answerText": "Delivery of care",
     "explanation": "While delivering care is a function of the health system, its main objectives focus on improving health, financial security, and responsiveness.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 4</span> The Ministry of Health passed a law requiring every hospital to have a patient complaint management system. What function does this describe?",
@@ -49,7 +52,8 @@
     "answer": 2,
     "answerText": "Stewardship",
     "explanation": "Stewardship involves regulating and overseeing healthcare services to ensure quality and fairness.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 5</span> Regarding MDG 1 (eradication of extreme poverty and hunger), which one is NOT correct?",
@@ -62,7 +66,8 @@
     "answer": 3,
     "answerText": "Improvements have been evenly distributed between and within different regions",
     "explanation": "Poverty reduction has not been equal across different regions, leading to persistent disparities.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 6</span> Which one is NOT correct regarding SDG Goal 3 (good health and well-being)?",
@@ -75,7 +80,8 @@
     "answer": 3,
     "answerText": "Reduce by one-half premature mortality from non-communicable diseases through prevention and treatment",
     "explanation": "The SDG target is to reduce premature mortality from non-communicable diseases by one-third, not one-half.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 7</span> Which kind of care in Universal Health Coverage (UHC) is NOT present in the five levels of prevention?",
@@ -88,7 +94,8 @@
     "answer": 2,
     "answerText": "Palliation",
     "explanation": "Palliative care focuses on symptom relief and quality of life rather than preventing disease progression.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 8</span> What is the main recommendation of WHO to build back better UHC coverage?",
@@ -101,7 +108,8 @@
     "answer": 2,
     "answerText": "Reorienting the health system to Primary Health Care (PHC)",
     "explanation": "WHO emphasizes strengthening PHC as a foundation for universal health coverage.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 9</span> Which of the following is a better definition of Social Determinants of Health (SDH)?",
@@ -114,7 +122,8 @@
     "answer": 2,
     "answerText": "Non-medical factors that influence health outcomes",
     "explanation": "Social determinants include economic, environmental, and social factors that impact health outcomes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 10</span> What percentage of health outcomes is affected by Social Determinants of Health (SDH)?",
@@ -127,7 +136,8 @@
     "answer": 1,
     "answerText": "30-55%",
     "explanation": "Social determinants account for 30-55% of health outcomes, making them a major factor in public health.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 11</span> Which of the following is NOT included in the list of Social Determinants of Health (SDH)?",
@@ -140,7 +150,8 @@
     "answer": 2,
     "answerText": "Number of hospital beds",
     "explanation": "The number of hospital beds is part of healthcare infrastructure, not a social determinant of health.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 12</span> Which one is the best answer regarding expectations from medical doctors?",
@@ -153,7 +164,8 @@
     "answer": 2,
     "answerText": "Having care of patients as their first concern",
     "explanation": "Medical doctors are expected to put patient care and well-being above all else.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 13</span> PHC ensures that people receive services:",
@@ -166,7 +178,8 @@
     "answer": 1,
     "answerText": "Close to them",
     "explanation": "Primary healthcare provides accessible, essential services within communities.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 14</span> Which one of the following is NOT included in PHC services?",
@@ -179,7 +192,8 @@
     "answer": 2,
     "answerText": "Providing facilities for heart surgeries",
     "explanation": "PHC focuses on essential and preventive healthcare, while heart surgeries require specialized care.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 15</span> Which one of the following is a higher-level (upstream) factor affecting health?",
@@ -192,7 +206,8 @@
     "answer": 3,
     "answerText": "Education",
     "explanation": "Education is an upstream determinant that influences health behaviors and access to care.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 16</span> Which one is correct regarding the situation of environmental health problems?",
@@ -205,7 +220,8 @@
     "answer": 0,
     "answerText": "They mainly affect children and women",
     "explanation": "Environmental health issues disproportionately affect vulnerable populations, including children and women.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 17</span> How many people die from air pollution in the EMRO region each year?",
@@ -218,7 +234,8 @@
     "answer": 2,
     "answerText": "145,000",
     "explanation": "The estimated annual death toll due to air pollution in the Eastern Mediterranean Region (EMRO) is 145,000.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 18</span> A 300-bed general hospital produces how much medical waste daily (mean production rate)?",
@@ -231,7 +248,8 @@
     "answer": 2,
     "answerText": "300 kg/day",
     "explanation": "The average medical waste production in a 300-bed hospital is approximately 300 kg per day.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 19</span> Developing the capacity for disease surveillance is the first step in managing climate change-related health problems. What does this mean?",
@@ -244,7 +262,8 @@
     "answer": 2,
     "answerText": "Gathering, analyzing, and disseminating information",
     "explanation": "Surveillance involves collecting and analyzing data to inform health policies and responses.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 20</span> Which one is NOT a characteristic of Motivational Interviewing?",
@@ -257,7 +276,8 @@
     "answer": 2,
     "answerText": "Tricking the patient",
     "explanation": "Motivational Interviewing is based on collaboration and trust, not manipulation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 21</span> What word is between “change talk” and “sustain talk” in Motivational Interviewing?",
@@ -270,7 +290,8 @@
     "answer": 1,
     "answerText": "But",
     "explanation": "“But” is often used by patients when expressing ambivalence between change and maintaining their current behavior.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 22</span> Which one of the following is NOT a “sustain talk” statement?",
@@ -283,7 +304,8 @@
     "answer": 3,
     "answerText": "I know smoking is bad for me",
     "explanation": "Recognizing the harm of smoking indicates readiness for change rather than sustaining current behavior.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 23</span> Which of the following is NOT correct about smoking?",
@@ -296,7 +318,8 @@
     "answer": 1,
     "answerText": "Smokers die an estimated 5 years earlier than nonsmokers",
     "explanation": "Studies show that smokers die an average of 10 years earlier, not 5 years earlier, than nonsmokers.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 24</span> A hospital manager decides to implement a program to improve patient satisfaction. What type of management function is this?",
@@ -309,7 +332,8 @@
     "answer": 1,
     "answerText": "Planning",
     "explanation": "Planning involves setting objectives and developing strategies to achieve goals, such as improving patient satisfaction.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 25</span> The Chief Executive Officer of a hospital plans a recreational program for hospital staff to boost morale. What kind of management function is this?",
@@ -322,7 +346,8 @@
     "answer": 2,
     "answerText": "Leading",
     "explanation": "Leading involves motivating and supporting employees to enhance their performance and well-being.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 26</span> In a surgery room, the doctors are present and ready, but the patient has not been sent from the ward. Which management function has a problem?",
@@ -335,7 +360,8 @@
     "answer": 2,
     "answerText": "Coordinating",
     "explanation": "Coordinating ensures different hospital departments work together efficiently to avoid delays in patient care.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 27</span> An infection control nurse is checking how often nurses wash their hands. What kind of management function is this?",
@@ -348,7 +374,8 @@
     "answer": 2,
     "answerText": "Controlling",
     "explanation": "Controlling involves monitoring performance and ensuring compliance with standards, such as hand hygiene.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 28</span> Which domain of quality is reflected in this statement: “Doctors provide care that does not vary in quality based on a person’s characteristics”?",
@@ -361,7 +388,8 @@
     "answer": 2,
     "answerText": "Equitable",
     "explanation": "Equitable care ensures that healthcare quality does not depend on personal factors such as gender, race, or income.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 29</span> Quality is important in healthcare because it promotes:",
@@ -374,7 +402,8 @@
     "answer": 2,
     "answerText": "Better results",
     "explanation": "High-quality healthcare leads to improved patient outcomes and overall system efficiency.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 30</span> What is the cornerstone of patient safety?",
@@ -387,7 +416,8 @@
     "answer": 1,
     "answerText": "Learning from the past",
     "explanation": "Patient safety improves by analyzing past errors and implementing measures to prevent future mistakes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 31</span> How many people die each year in the U.S. during or immediately following surgery?",
@@ -400,7 +430,8 @@
     "answer": 2,
     "answerText": "1,000,000",
     "explanation": "Studies estimate that around 1,000,000 deaths occur annually due to complications during or immediately after surgery.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 32</span> What proportion of errors in medicine is due to individual failure?",
@@ -413,7 +444,8 @@
     "answer": 0,
     "answerText": "10%",
     "explanation": "Research indicates that only 10% of medical errors result from individual failure, while most stem from system issues.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 33</span> After a wrong drug injection, a hospital team holds a meeting to analyze the root cause of the error. What type of risk management is this?",
@@ -426,7 +458,8 @@
     "answer": 1,
     "answerText": "Retrospective",
     "explanation": "Retrospective risk management involves reviewing past errors to improve future safety.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 34</span> A doctor orders psychological counseling for a patient who suffered a miscarriage. Which aspect of patient-centered care does this address?",
@@ -439,7 +472,8 @@
     "answer": 1,
     "answerText": "Emotional support",
     "explanation": "Emotional support helps patients cope with their health conditions and improves overall well-being.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 35</span> Which of the following is not a core function of the World Health Organization (WHO)?",
@@ -452,7 +486,8 @@
     "answer": 2,
     "answerText": "Funding hospital buildings",
     "explanation": "WHO focuses on setting health policies and guidelines but does not fund hospital construction projects.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 36</span> Which of the following is not correct about needlestick injuries among healthcare professionals?",
@@ -465,7 +500,8 @@
     "answer": 3,
     "answerText": "It is about penetration of a needle through the skin",
     "explanation": "The statement is incorrect because needlestick injuries do involve needle penetration of the skin.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 37</span> (Movie Question) A scene from a movie depicts a poor motivational interview. What was missing?",
@@ -478,7 +514,8 @@
     "answer": 1,
     "answerText": "No trust development",
     "explanation": "Trust development is crucial in Motivational Interviewing, and its absence can hinder effective communication.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 38</span> (Movie Question) A patient with chronic kidney disease at age 50 dies at age 72. If the expected life expectancy was 85 and the disability weight of the disease was 0.1, what would be the DALY?",
@@ -491,7 +528,8 @@
     "answer": 2,
     "answerText": "15.2",
     "explanation": "DALY (Disability-Adjusted Life Years) accounts for both years of life lost and years lived with disability.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 39</span> (Movie Question) Preventing patient falls in the hospital is a matter of:",
@@ -504,7 +542,8 @@
     "answer": 1,
     "answerText": "Safety",
     "explanation": "Fall prevention is a key component of patient safety in healthcare settings.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 40</span> (Movie Question) A patient cannot call the nurse due to a malfunctioning bed bell, leading to a missed medication dose. Which healthcare quality dimension is affected?",
@@ -517,7 +556,8 @@
     "answer": 2,
     "answerText": "Timeliness",
     "explanation": "Timeliness refers to providing care without delays that could harm the patient.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q40"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 41</span> (Movie Question) Which of the following statements is not correct about patient-centered care?",
@@ -530,7 +570,8 @@
     "answer": 2,
     "answerText": "It focuses only on advanced medical technology",
     "explanation": "Patient-centered care is about holistic, personalized care, not just technology.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q41"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 42</span> Checking vaccination cards of travelers to Iraq falls under which level of prevention?",
@@ -543,7 +584,8 @@
     "answer": 2,
     "answerText": "Primordial",
     "explanation": "Primordial prevention aims to reduce risk factors before disease development, such as controlling infectious disease spread.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q42"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 43</span> Every woman aged 50–75 should have a mammogram every two years. Which level of prevention is this?",
@@ -556,7 +598,8 @@
     "answer": 1,
     "answerText": "Secondary",
     "explanation": "Secondary prevention includes early disease detection and intervention, such as cancer screening.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q43"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 44</span> The governor of Karbala buys buses that can accommodate individuals with disabilities. Which level of prevention is this?",
@@ -569,7 +612,8 @@
     "answer": 2,
     "answerText": "Tertiary",
     "explanation": "Tertiary prevention focuses on rehabilitation and improving quality of life.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q44"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 45</span> A hospital holds a meeting to investigate why a patient fell from bed. Which level of prevention is this?",
@@ -582,7 +626,8 @@
     "answer": 3,
     "answerText": "Quaternary",
     "explanation": "Quaternary prevention aims to prevent harm from medical interventions, such as falls in hospitals.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q45"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 46</span> Which one is NOT a characteristic of Primary Health Care (PHC)?",
@@ -595,7 +640,8 @@
     "answer": 3,
     "answerText": "Enhanced physician care",
     "explanation": "PHC focuses on a team-based approach and equitable access rather than prioritizing only physician-led care.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q46"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 47</span> What is this statement called in Motivational Interviewing: “Recognizes and supports the patient’s complete freedom and capacity to choose”?",
@@ -608,7 +654,8 @@
     "answer": 1,
     "answerText": "Patient’s autonomy",
     "explanation": "Patient autonomy is a core principle of Motivational Interviewing, allowing individuals to make informed decisions about their health.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q47"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 48</span> Which one is correct regarding requirements and factors of quality in healthcare?",
@@ -621,7 +668,8 @@
     "answer": 0,
     "answerText": "Needs someone to lead the quality improvement",
     "explanation": "Quality improvement in healthcare requires leadership and a structured approach to enhance patient care and safety.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q48"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 49</span> A doctor presents the results of different treatments to a patient to help them decide between surgery and medication. Which aspect of patient-centered care does this represent?",
@@ -634,7 +682,8 @@
     "answer": 2,
     "answerText": "Respect for patients’ values, preferences, and expressed needs",
     "explanation": "Patient-centered care involves shared decision-making based on patients’ preferences and informed choices.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q49"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr. Mojtaba Sedaghat - Question 50</span> A nurse fails to educate a patient about post-surgical activity, leading to wound complications. Which aspect of patient-centered care was lacking?",
@@ -647,7 +696,8 @@
     "answer": 1,
     "answerText": "Information and education",
     "explanation": "Proper patient education is crucial for post-surgical recovery and preventing complications.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q50"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 1</span> All of the following are correct about the health priority in Iraq, except:",
@@ -660,7 +710,8 @@
     "answer": 1,
     "answerText": "Expand cardiovascular risk assessment services to at least 25% of primary health care centers",
     "explanation": "Expanding cardiovascular risk assessment services is a specific health priority that Iraq aims to improve but may not be fully established yet.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q51"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 2</span> The statement, “The attainment by all peoples of the highest possible level of health,” is related to which organization?",
@@ -673,7 +724,8 @@
     "answer": 1,
     "answerText": "WHO",
     "explanation": "The goal of WHO is to achieve the highest possible standard of health for all people worldwide.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q52"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 3</span> All of the following are functions of WHO, except:",
@@ -686,7 +738,8 @@
     "answer": 2,
     "answerText": "Giving money to improve countries’ health",
     "explanation": "WHO provides technical assistance and coordination but does not directly fund health programs in countries.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q53"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 4</span> Simple commitments can ensure safe care. Which of the following is not related to nurses’ commitment?",
@@ -699,7 +752,8 @@
     "answer": 2,
     "answerText": "Actively involved in my own care",
     "explanation": "Commitment to safe patient care involves professional responsibilities, not personal care.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q54"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 5</span> How many patients are dying every minute due to medical errors?",
@@ -712,7 +766,8 @@
     "answer": 1,
     "answerText": "5",
     "explanation": "According to global health estimates, five patients die every minute due to preventable medical errors.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q55"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 6</span> Which one is the common cause of error in medicine?",
@@ -725,7 +780,8 @@
     "answer": 1,
     "answerText": "Systems",
     "explanation": "Most medical errors are attributed to system failures, such as poor communication, workflow issues, and inadequate protocols, rather than individual errors.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q56"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 7</span> Involving patients in decision-making is related to which of the following patient-centered care principles?",
@@ -738,7 +794,8 @@
     "answer": 2,
     "answerText": "Respect for patients’ values",
     "explanation": "Respecting patients’ values includes involving them in care decisions to ensure their preferences are honored.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q57"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 8</span> Doctors and nurses working together very well relate to which of the following patient-centered care principles?",
@@ -751,7 +808,8 @@
     "answer": 2,
     "answerText": "Coordination and integration of care",
     "explanation": "Coordination and integration of care ensure that health professionals collaborate effectively, leading to better outcomes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q58"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 9</span> The nurse gives a painkiller to her patient after surgery. This is related to which of the following patient-centered care principles?",
@@ -764,7 +822,8 @@
     "answer": 1,
     "answerText": "Physical comfort",
     "explanation": "Pain management is essential for ensuring the physical comfort of patients post-surgery.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q59"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 10</span> The doctor tells the patient what is going to be done for him in the surgery room. This is related to which of the following patient-centered care principles?",
@@ -777,7 +836,8 @@
     "answer": 2,
     "answerText": "Giving information and education",
     "explanation": "Providing information and education helps patients understand their care and reduces anxiety.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q60"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 11</span> The nurse forgot the patient’s food allergy and gave him allergic food. This is related to which dimension of quality in health care?",
@@ -790,7 +850,8 @@
     "answer": 2,
     "answerText": "Safety",
     "explanation": "Safety is compromised when errors like ignoring allergies occur, potentially harming the patient.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q61"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 12</span> A patient’s bedside bell doesn’t work. This may cause problems in which dimension of quality in health care more than others?",
@@ -803,7 +864,8 @@
     "answer": 2,
     "answerText": "Timeliness",
     "explanation": "The lack of a working call bell could delay the response to patient needs, affecting timely care.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q62"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 13</span> Doctors are using the best treatment based on the best research. This is related to which dimension of quality in health care?",
@@ -816,7 +878,8 @@
     "answer": 0,
     "answerText": "Effectiveness",
     "explanation": "Effectiveness refers to providing care based on scientific evidence to achieve the best possible outcomes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q63"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 14</span> The Ministry of Health compares the access to drugs in cities and villages. This is related to which dimension of quality in health care?",
@@ -829,7 +892,8 @@
     "answer": 2,
     "answerText": "Equity",
     "explanation": "Equity focuses on providing equal access to health services, regardless of location or socioeconomic status.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q64"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 15</span> Which one of the following has the largest burden in occupational health?",
@@ -842,7 +906,8 @@
     "answer": 2,
     "answerText": "Back pain",
     "explanation": "Back pain is a common occupational health issue due to repetitive tasks and poor ergonomics.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q65"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 16</span> Based on a study in Tehran University of Medical Sciences (TUMS), which one of the following places is the most dangerous part of a hospital for needle-stick injuries?",
@@ -855,7 +920,8 @@
     "answer": 1,
     "answerText": "Operating room",
     "explanation": "The operating room is a high-risk area for needle-stick injuries due to the use of sharp instruments and surgical procedures.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q66"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 17</span> All of the following are infections that may be caused by needle-stick injuries, except:",
@@ -868,7 +934,8 @@
     "answer": 0,
     "answerText": "Hepatitis A",
     "explanation": "Hepatitis A is typically transmitted through the fecal-oral route, not through blood exposure or needle-stick injuries.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q67"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 18</span> Your patient is a heavy smoker, and you want to help him quit smoking. Which of the following health promotion methods is more appropriate?",
@@ -881,7 +948,8 @@
     "answer": 1,
     "answerText": "Consultation",
     "explanation": "Individual consultation allows for personalized guidance, making it the most effective method in this case.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q68"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 19</span> A group of students in a school is used to using e-cigarettes. Which of the following health promotion methods is more appropriate to help them?",
@@ -894,7 +962,8 @@
     "answer": 2,
     "answerText": "Workshop",
     "explanation": "A workshop provides an interactive environment to educate students on the risks of e-cigarettes and promote healthier behaviors.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q69"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 20</span> Cigarette smoking is frequent in your city. Which one of the following health promotion methods is the most appropriate method to reduce smoking in that city?",
@@ -907,7 +976,8 @@
     "answer": 2,
     "answerText": "Mass media campaign",
     "explanation": "Mass media campaigns can reach a large audience and raise awareness about the dangers of smoking, influencing public behavior.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q70"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 21</span> Which one of the following is a change talk in a motivational interview?",
@@ -920,7 +990,8 @@
     "answer": 1,
     "answerText": "I know that smoking is bad for me.",
     "explanation": "“I know that smoking is bad for me” indicates an awareness of the problem and is an example of change talk.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q71"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 22</span> The hospital manager is setting a group of activities to increase the quality of service in his hospital. This is more related to which function of a manager?",
@@ -933,7 +1004,8 @@
     "answer": 1,
     "answerText": "Planning",
     "explanation": "Planning involves setting objectives and determining the activities needed to achieve them, including quality improvement initiatives.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q72"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 23</span> In the surgery room, the surgeon is present, but the anesthesiologist is not. Which function of hospital management has a problem?",
@@ -946,7 +1018,8 @@
     "answer": 1,
     "answerText": "Organizing",
     "explanation": "Organizing involves arranging resources and personnel to ensure that all necessary elements are in place for effective operation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q73"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 24</span> The university chancellor checks students’ satisfaction with the public health course. Which of the manager’s functions is being performed by him?",
@@ -959,7 +1032,8 @@
     "answer": 3,
     "answerText": "Controlling",
     "explanation": "Controlling involves monitoring performance and outcomes to ensure that objectives are being met.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q74"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 25</span> The hospital manager sets a sports event for doctors and nurses to improve their spirits. Which of the manager’s functions is being performed by him?",
@@ -972,7 +1046,8 @@
     "answer": 2,
     "answerText": "Directing",
     "explanation": "Directing includes motivating and leading personnel to achieve organizational goals.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q75"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 26</span> The clinic manager checks the hand-washing practices of doctors and nurses. Which of the manager’s functions is being performed by him?",
@@ -985,7 +1060,8 @@
     "answer": 2,
     "answerText": "Monitoring",
     "explanation": "Monitoring involves regularly checking processes and practices to ensure adherence to standards and guidelines.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q76"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 27</span> All of the following are major environmental health subjects, except:",
@@ -998,7 +1074,8 @@
     "answer": 3,
     "answerText": "Hospital infection",
     "explanation": "Hospital infections are typically addressed under healthcare-associated infections, not environmental health subjects.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q77"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 28</span> All of the following are true about environmental health subjects, except:",
@@ -1011,7 +1088,8 @@
     "answer": 0,
     "answerText": "They cause 100,000 deaths per year in EMRO",
     "explanation": "The figure of 100,000 deaths may not be accurate or universally applicable; environmental health issues have varying impacts by region.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q78"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 29</span> Which country in EMRO had the lowest burden of environmental health in 2008?",
@@ -1024,7 +1102,8 @@
     "answer": 1,
     "answerText": "Qatar",
     "explanation": "Qatar had the lowest burden due to better infrastructure, access to clean water, and air quality management.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q79"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 30</span> All of the following are true about air pollution, except:",
@@ -1037,7 +1116,8 @@
     "answer": 2,
     "answerText": "Half of deaths from adult chronic obstructive pulmonary disease are caused by air pollution",
     "explanation": "While air pollution is a major contributor to respiratory illnesses, the statement about half of COPD deaths being caused by it may be overstated.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q80"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 31</span> All of the following are true about the Primary Health Care (PHC) strategy, except:",
@@ -1050,7 +1130,8 @@
     "answer": 2,
     "answerText": "It should be completely free",
     "explanation": "PHC does not have to be completely free, but it aims to be affordable and accessible for all.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q81"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 32</span> All of the following are among Primary Health Care services, except:",
@@ -1063,7 +1144,8 @@
     "answer": 3,
     "answerText": "Air pollution control",
     "explanation": "Air pollution control is typically managed by environmental agencies, not directly under PHC services.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q82"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 33</span> Which principle of Primary Health Care (PHC) is meant by the following statement: “Health services should be shared equally by all people irrespective of their ability to pay”?",
@@ -1076,7 +1158,8 @@
     "answer": 1,
     "answerText": "Equitable distribution",
     "explanation": "Equitable distribution ensures that health services are available to all, regardless of financial status.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q83"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 34</span> All of the following are correct about Sustainable Development Goals (SDGs), except:",
@@ -1089,7 +1172,8 @@
     "answer": 1,
     "answerText": "Reduce road traffic deaths to 10% by 2020",
     "explanation": "The specific target of reducing road traffic deaths to 10% by 2020 is not part of the SDG framework.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q84"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 35</span> The Ministry of Health develops clinics for pain relief of end-stage cancer patients. This is related to which type of Universal Health Coverage strategy?",
@@ -1102,7 +1186,8 @@
     "answer": 2,
     "answerText": "Palliative",
     "explanation": "Palliative care focuses on relieving pain and improving the quality of life for patients with serious illnesses.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q85"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 36</span> The Ministry of Health checks patient satisfaction in hospitals. This is related to which goal of the health system?",
@@ -1115,7 +1200,8 @@
     "answer": 1,
     "answerText": "Responding to non-medical expectations",
     "explanation": "Responding to non-medical expectations involves addressing factors like patient satisfaction and quality of service.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q86"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 37</span> The governor of Karbala develops an insurance system to help poor people with hospital costs. This is related to which goal of the health system?",
@@ -1128,7 +1214,8 @@
     "answer": 0,
     "answerText": "Fair money contribution",
     "explanation": "Fair money contribution ensures that healthcare costs are shared equitably, preventing financial hardship.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q87"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 38</span> Health authorities start the Subtain University project for training medical and nursing students. Choose the relevant function that the statement describes:",
@@ -1141,7 +1228,8 @@
     "answer": 1,
     "answerText": "Creating resources",
     "explanation": "Creating resources involves ensuring there are sufficient human resources, such as trained medical personnel, to meet healthcare demands.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q88"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 39</span> The country’s parliament obligates cigarette factories to give 1% of their revenue to hospitals. Choose the relevant function that the statement describes:",
@@ -1154,7 +1242,8 @@
     "answer": 2,
     "answerText": "Financing",
     "explanation": "Financing involves the collection of funds for healthcare services, including mandatory contributions from industries.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q89"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 40</span> Health centers administer COVID-19 vaccines during the pandemic. Choose the relevant function that the statement describes:",
@@ -1167,7 +1256,8 @@
     "answer": 0,
     "answerText": "Care delivery",
     "explanation": "Care delivery refers to the provision of healthcare services directly to patients, such as vaccination campaigns.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q90"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 41</span> The government establishes a water sanitation monitoring system. Which level of prevention is this?",
@@ -1180,7 +1270,8 @@
     "answer": 0,
     "answerText": "Primary",
     "explanation": "Primary prevention aims to prevent diseases before they occur, such as ensuring access to clean water.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q91"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 42</span> Blindness screening is necessary for every primary school student. Which level of prevention is this?",
@@ -1193,7 +1284,8 @@
     "answer": 1,
     "answerText": "Secondary",
     "explanation": "Secondary prevention focuses on early detection and treatment of diseases to prevent progression, such as vision screening in schools.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q92"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 43</span> The Ministry of Health passes a law requiring every hospital to have a patient complaint management system. Choose the relevant function that the statement describes:",
@@ -1206,7 +1298,8 @@
     "answer": 0,
     "answerText": "Stewardship",
     "explanation": "Stewardship involves setting and enforcing regulations to improve healthcare system governance.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q93"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 44</span> Which of the following is a social determinant of health?",
@@ -1219,7 +1312,8 @@
     "answer": 2,
     "answerText": "Occupation",
     "explanation": "Social determinants of health include factors like occupation, which can affect access to resources and exposure to health risks.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q94"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 45</span> Which of the following health indicators is more accurate?",
@@ -1232,7 +1326,8 @@
     "answer": 2,
     "answerText": "Disability-adjusted life year",
     "explanation": "The disability-adjusted life year (DALY) is a comprehensive measure that reflects both the burden of disease and the years lost due to disability.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q95"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 46</span> What is ergonomics?",
@@ -1245,7 +1340,8 @@
     "answer": 2,
     "answerText": "Adapting the workplace and environment to the needs of workers",
     "explanation": "Ergonomics focuses on designing workplaces and work tasks to fit the physical and cognitive needs of workers, reducing strain and injury.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q96"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 47</span> What is the main message of James Reason’s Swiss cheese model?",
@@ -1258,7 +1354,8 @@
     "answer": 1,
     "answerText": "Every error has more than one cause",
     "explanation": "The Swiss cheese model highlights that errors typically result from a combination of system failures and human errors, which align to cause harm.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q97"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-3-27) Dr. Mojtaba Sedaghat - Question 48</span> Which one of the following is correct regarding Iraqi people?",
@@ -1271,6 +1368,7 @@
     "answer": 1,
     "answerText": "14% have diabetes",
     "explanation": "According to recent studies, approximately 14% of Iraq’s population has diabetes, reflecting a significant public health concern.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "prin-prin-q98"
   }
 ]
