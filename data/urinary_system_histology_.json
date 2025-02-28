@@ -10,7 +10,8 @@
     "answer": 0,
     "answerText": "Umbrella – Uroplakin",
     "explanation": "The bladder is lined by umbrella cells with uroplakin proteins, which strengthen the membrane and prevent urine permeability.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-hist-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 2</span> The .................. urethra passes through corpus spongiosum and is lined by .................. epithelium.",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Penile – Stratified columnar and pseudostratified columnar",
     "explanation": "The penile urethra passes through the corpus spongiosum and is lined primarily by stratified and pseudostratified columnar epithelium.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-hist-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 3</span> Antidiuretic hormone (ADH) affects on ................. and the rate of Na+ absorption from .................. is regulated by aldosterone.",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Collecting ducts – Distal tubules",
     "explanation": "ADH increases water reabsorption in the collecting ducts, while aldosterone promotes sodium reabsorption in the distal tubules.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-hist-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 4</span> The distal tubule forms the ................... and the smooth muscle cells of afferent arteriole are modified as .................. .",
@@ -49,7 +52,8 @@
     "answer": 1,
     "answerText": "Macula densa – Juxtaglomerular granular cells",
     "explanation": "The distal tubule forms the macula densa, while afferent arteriole smooth muscle cells are modified into juxtaglomerular granular cells, which secrete renin.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-hist-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 5</span> The ................. of .............. helps maintain acid-base balance.",
@@ -62,7 +66,8 @@
     "answer": 1,
     "answerText": "Intercalated cells – Collecting duct",
     "explanation": "Intercalated cells in the collecting duct regulate acid-base balance by secreting hydrogen ions and reabsorbing bicarbonate.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-hist-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 6</span> Which cells have renin granules?",
@@ -75,7 +80,8 @@
     "answer": 2,
     "answerText": "Juxtaglomerular only",
     "explanation": "Juxtaglomerular cells, located in the afferent arteriole, contain renin granules that play a role in blood pressure regulation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-hist-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 7</span> Slit diaphragms are modified and specialized .................. composed of ..................",
@@ -88,7 +94,8 @@
     "answer": 0,
     "answerText": "Tight junctions – Nephrin",
     "explanation": "Slit diaphragms are specialized tight junctions composed of nephrin, which help regulate filtration in the glomerulus.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-hist-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Golshan - Question 8</span> The vasa recta branching from ................ are in association with the ..................",
@@ -101,6 +108,7 @@
     "answer": 1,
     "answerText": "Efferent arterioles – Loops of Henle and collecting ducts",
     "explanation": "The vasa recta arise from efferent arterioles and are closely associated with the loops of Henle and collecting ducts, playing a role in the countercurrent exchange mechanism.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-hist-q8"
   }
 ]
