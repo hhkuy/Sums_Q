@@ -10,7 +10,8 @@
     "answer": 1,
     "answerText": "Malassezia sp.",
     "explanation": "Malassezia species are lipophilic yeasts that cause Tinea versicolor, characterized by hypopigmented or hyperpigmented macules.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 2</span> Which group of following fungi are included the most common causative agents for otomycosis?",
@@ -23,7 +24,8 @@
     "answer": 2,
     "answerText": "Saprophytic fungi",
     "explanation": "Saprophytic fungi, including Aspergillus and other molds, are the most common causative agents of otomycosis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 3</span> In which superficial mycosis some recurrent hypopigmented or hyperpigmented macules on sebum-rich areas of body are seen?",
@@ -36,7 +38,8 @@
     "answer": 2,
     "answerText": "Tinea versicolor",
     "explanation": "Tinea versicolor presents as hypopigmented or hyperpigmented macules on oily areas such as the chest and back.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 4</span> Which one of the following fungi are dematiaceous?",
@@ -49,7 +52,8 @@
     "answer": 2,
     "answerText": "Alternaria",
     "explanation": "Dematiaceous fungi like Alternaria contain melanin in their cell walls, giving them a dark appearance.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 5</span> Which one of the following fungi is the main producer of aflatoxin?",
@@ -62,7 +66,8 @@
     "answer": 0,
     "answerText": "Aspergillus flavus",
     "explanation": "Aspergillus flavus is a common producer of aflatoxin, a potent mycotoxin.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 6</span> Which one of the following mycosis is caused by dimorphic fungi?",
@@ -75,7 +80,8 @@
     "answer": 0,
     "answerText": "Sporotrichosis",
     "explanation": "Sporotrichosis is caused by Sporothrix schenckii, a dimorphic fungus that exists as mold in the environment and yeast in tissues.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 7</span> Which class of fungi has coenocytic hyphae?",
@@ -88,7 +94,8 @@
     "answer": 1,
     "answerText": "Zygomycota",
     "explanation": "Zygomycota have coenocytic (aseptate) hyphae, meaning their hyphae lack septa.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 8</span> Which one of the following fungi is the most common causative agent for keratomycosis?",
@@ -101,7 +108,8 @@
     "answer": 2,
     "answerText": "Fusarium solani",
     "explanation": "Fusarium solani is the most common cause of fungal keratitis, especially in individuals with ocular trauma.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 9</span> Which one of the following fungal diseases is contagious?",
@@ -114,7 +122,8 @@
     "answer": 2,
     "answerText": "Dermatophytosis",
     "explanation": "Dermatophytosis (tinea) is a contagious fungal infection transmitted through direct contact with infected individuals or contaminated surfaces.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 10</span> Which pairs of the following diseases are caused by bacteria?",
@@ -127,7 +136,8 @@
     "answer": 1,
     "answerText": "Erythrasma - trichomycosis",
     "explanation": "Erythrasma and trichomycosis are bacterial infections, while piedra and tinea are fungal infections.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 11</span> Rose syndrome is described which of the following fungal infections?",
@@ -140,7 +150,8 @@
     "answer": 0,
     "answerText": "Sporotrichosis",
     "explanation": "Rose gardener's syndrome is a classical presentation of sporotrichosis, characterized by nodular lesions along lymphatic channels.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 12</span> In which superficial mycosis are seen the macular lesions consist of one or several, flat, dark brown to black, non-scaling patches often on the palm?",
@@ -153,7 +164,8 @@
     "answer": 3,
     "answerText": "Tinea nigra",
     "explanation": "Tinea nigra is characterized by flat, dark brown to black, non-scaling patches, typically on the palms or soles.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 13</span> The causal agents of which of the following fungal infection is thermally dimorphic fungi?",
@@ -166,7 +178,8 @@
     "answer": 0,
     "answerText": "Sporotrichosis",
     "explanation": "Sporothrix schenckii is a thermally dimorphic fungus, existing as mold in the environment and yeast in human tissue.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 14</span> In which mycotic infection CSF is a good specimen material for laboratory diagnosis?",
@@ -179,7 +192,8 @@
     "answer": 0,
     "answerText": "Cryptococcosis",
     "explanation": "Cryptococcus neoformans often causes cryptococcal meningitis, requiring CSF examination for diagnosis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 15</span> All of the below mentioned fungal infections are exogenously acquired (has environmental source) except………. which is usually acquired from endogenous source?",
@@ -192,7 +206,8 @@
     "answer": 1,
     "answerText": "Candidiasis",
     "explanation": "Candidiasis is often caused by endogenous flora, unlike the other mycoses that are acquired from the environment.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 16</span> Indian ink is a useful test for diagnosis of:",
@@ -205,7 +220,8 @@
     "answer": 1,
     "answerText": "Cryptococcosis",
     "explanation": "Indian ink preparation is used to visualize Cryptococcus neoformans in CSF by highlighting its capsule.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 17</span> Onychomycosis refer to mycotic infection of:",
@@ -218,7 +234,8 @@
     "answer": 2,
     "answerText": "Nail",
     "explanation": "Onychomycosis is a fungal infection of the nail, often caused by dermatophytes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 18</span> In microscopic direct examination, observation of branching septated mycelia confirm the ….",
@@ -231,7 +248,8 @@
     "answer": 0,
     "answerText": "Aspergillosis",
     "explanation": "Aspergillus species form branching septate hyphae, which are diagnostic under microscopy.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 19</span> Which form of mucormycosis is acute and dangerous?",
@@ -244,7 +262,8 @@
     "answer": 1,
     "answerText": "Naso orbital colonization",
     "explanation": "Rhinocerebral (naso orbital) mucormycosis is an aggressive and potentially fatal form of infection.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 20</span> Which of the following sentences is not correct about dermatophytes?",
@@ -257,7 +276,8 @@
     "answer": 2,
     "answerText": "Epidermophyton floccosum commonly infected hair",
     "explanation": "Epidermophyton floccosum does not infect hair; it mainly affects skin and nails.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 21</span> Which antifungal drug is suitable for the treatment of Tinea corporis?",
@@ -270,7 +290,8 @@
     "answer": 2,
     "answerText": "Terbinafine",
     "explanation": "Terbinafine is commonly used to treat Tinea corporis (ringworm) due to its fungicidal action against dermatophytes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 22</span> Which infection usually can involve oral cavity?",
@@ -283,7 +304,8 @@
     "answer": 1,
     "answerText": "Candidiasis",
     "explanation": "Oral candidiasis (thrush) is a common fungal infection involving the oral cavity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 23</span> Which one of the followings is not included in the clinical manifestation of Candidiasis:",
@@ -296,7 +318,8 @@
     "answer": 2,
     "answerText": "Tinea",
     "explanation": "Tinea refers to dermatophyte infections, not candidiasis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 24</span> Which of the following sentences is not correct about dermatophytosis?",
@@ -309,7 +332,8 @@
     "answer": 1,
     "answerText": "Direct microscopy exam of skin cannot identify the species of dermatophyte",
     "explanation": "Kerion is usually caused by zoophilic dermatophytes, not anthropophilic species.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 25</span> Which of the following is mostly seen in children before puberty?",
@@ -322,7 +346,8 @@
     "answer": 0,
     "answerText": "Tinea capitis",
     "explanation": "Tinea capitis is a scalp infection predominantly affecting children before puberty.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 26</span> Which one of the followings refers to dermatophytosis of the proximal medial thighs and buttocks?",
@@ -335,7 +360,8 @@
     "answer": 0,
     "answerText": "Tinea cruris",
     "explanation": "Tinea cruris, also called jock itch, affects the groin and inner thighs.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 27</span> In which group of fungi, sexual reproduction has been not seen?",
@@ -348,7 +374,8 @@
     "answer": 2,
     "answerText": "Deuteromycetes",
     "explanation": "Deuteromycetes (Fungi Imperfecti) are characterized by the absence of a known sexual reproductive stage.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 28</span> In which form of sporotrichosis the infection may spread to eye?",
@@ -361,7 +388,8 @@
     "answer": 1,
     "answerText": "Extra cutaneous",
     "explanation": "Extra cutaneous sporotrichosis can involve organs beyond the skin, including the eye.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 29</span> ………….. and …………… are both more associated with AIDS.",
@@ -374,7 +402,8 @@
     "answer": 1,
     "answerText": "Cryptococcosis and Candidiasis",
     "explanation": "Cryptococcosis and Candidiasis are common opportunistic fungal infections in AIDS patients.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-07) - Dr. Hashemi & Dr. Daie - Question 30</span> In which mycotic infection the causative agent is a capsular yeast?",
@@ -387,6 +416,7 @@
     "answer": 0,
     "answerText": "Cryptococcosis",
     "explanation": "Cryptococcus neoformans is a yeast with a prominent polysaccharide capsule, aiding in its identification.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "myco-myco-q30"
   }
 ]
