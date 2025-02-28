@@ -10,7 +10,8 @@
     "answer": 3,
     "answerText": "Calcium chloride (CaCl₂)",
     "explanation": "CaCl₂ dissociates into three ions, increasing osmotic pressure more than other molecules.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 2</span> Which is NOT a function of the Na⁺/K⁺ pump?",
@@ -23,7 +24,8 @@
     "answer": 3,
     "answerText": "Maintaining low Ca²⁺ concentration inside the cell",
     "explanation": "The Na⁺/K⁺ pump does not directly regulate intracellular calcium; a separate Ca²⁺ pump does.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 3</span> All of the following substances can freely pass the plasma membrane except:",
@@ -36,7 +38,8 @@
     "answer": 2,
     "answerText": "Hydrogen ion (H⁺)",
     "explanation": "H⁺ ions do not pass freely due to their charge and require transport proteins.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 4</span> If an artificial membrane is permeable to Ca²⁺, and one side has 10 mM while the other has 100 mM, what is the expected Nernst potential?",
@@ -49,7 +52,8 @@
     "answer": 2,
     "answerText": "-30.5 mV",
     "explanation": "The Nernst equation calculates equilibrium potential based on ion concentration differences.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 5</span> During the rising phase of an action potential:",
@@ -62,7 +66,8 @@
     "answer": 0,
     "answerText": "Voltage-gated Na⁺ channels open",
     "explanation": "The opening of Na⁺ channels allows Na⁺ influx, depolarizing the membrane.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 6</span> Which of the following statements best describes homeostasis?",
@@ -75,7 +80,8 @@
     "answer": 0,
     "answerText": "Maintaining a near-constant internal environment",
     "explanation": "Homeostasis maintains a stable internal environment despite external changes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 7</span> Which of the following features of a system is unlikely to lead to a stable homeostatic system?",
@@ -88,7 +94,8 @@
     "answer": 1,
     "answerText": "Positive feedback",
     "explanation": "Positive feedback amplifies changes, making homeostasis unstable.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 8</span> Which of the following statements is correct?",
@@ -101,7 +108,8 @@
     "answer": 2,
     "answerText": "Chloride is the chief anion in extracellular fluid",
     "explanation": "Chloride (Cl⁻) is the major anion in extracellular fluid.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 9</span> Infusion of an isotonic solution of NaCl:",
@@ -114,7 +122,8 @@
     "answer": 1,
     "answerText": "Increases extracellular fluid (ECF) volume",
     "explanation": "Isotonic NaCl stays in the ECF, expanding its volume.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 10</span> Which of the following regulates the fluidity of the plasma membrane?",
@@ -127,7 +136,8 @@
     "answer": 1,
     "answerText": "Cholesterol",
     "explanation": "Cholesterol stabilizes membrane fluidity, preventing excessive rigidity or fluidity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 11</span> Sodium counter-transport of calcium is a type of:",
@@ -140,7 +150,8 @@
     "answer": 1,
     "answerText": "Secondary active transport",
     "explanation": "The Na⁺/Ca²⁺ exchanger uses Na⁺ gradient energy to remove Ca²⁺.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 12</span> A non-carrier mediated transport down the concentration gradient is:",
@@ -153,7 +164,8 @@
     "answer": 0,
     "answerText": "Simple diffusion",
     "explanation": "Simple diffusion does not require carrier proteins.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 13</span> Nicotinic acetylcholine receptor is an example of:",
@@ -166,7 +178,8 @@
     "answer": 1,
     "answerText": "Ligand-gated ion channel",
     "explanation": "Nicotinic receptors open in response to acetylcholine binding.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 14</span> If extracellular potassium is removed, what will happen to the Na⁺/K⁺ ATPase activity?",
@@ -179,7 +192,8 @@
     "answer": 0,
     "answerText": "It will stop working",
     "explanation": "The pump requires extracellular K⁺ to function properly.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 15</span> The resting potential is dependent upon the electrochemical gradient for potassium ions because:",
@@ -192,7 +206,8 @@
     "answer": 0,
     "answerText": "The permeability of the resting membrane to potassium is higher than for other ions",
     "explanation": "K⁺ has the highest permeability in resting cells, maintaining the resting potential.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 16</span> Ion channels:",
@@ -205,7 +220,8 @@
     "answer": 1,
     "answerText": "Are opened and closed by a process called gating",
     "explanation": "Ion channels open/close in response to voltage, ligands, or mechanical signals.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 17</span> For an action potential to occur:",
@@ -218,7 +234,8 @@
     "answer": 1,
     "answerText": "The membrane potential must reach or exceed the threshold",
     "explanation": "Depolarization must reach threshold to trigger an action potential.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 18</span> Which of the following is true about the conduction of action potentials?",
@@ -231,7 +248,8 @@
     "answer": 1,
     "answerText": "The action potential in myelinated axons is generated only at the nodes of Ranvier",
     "explanation": "Saltatory conduction in myelinated fibers occurs at the nodes of Ranvier.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Sohanaki - Question 19</span> For spontaneous rhythmicity to occur in heart nodal tissues:",
@@ -244,7 +262,8 @@
     "answer": 0,
     "answerText": "The membrane should be permeable to both Na⁺ and Ca²⁺ at rest",
     "explanation": "Pacemaker cells exhibit automaticity due to slow Na⁺ and Ca²⁺ influx.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 1</span> What is the common fixative for tissue processing?",
@@ -257,7 +276,8 @@
     "answer": 1,
     "answerText": "Neutral buffer formalin",
     "explanation": "Neutral buffer formalin is the most commonly used fixative in tissue processing to preserve cellular structure.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 2</span> All of the following sentences explain the benefits of the clearing process, EXCEPT:",
@@ -270,7 +290,8 @@
     "answer": 3,
     "answerText": "Prevent autolysis and bacterial attack",
     "explanation": "Clearing primarily enhances infiltration and transparency, but autolysis prevention is a fixation step.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 3</span> Hematoxylin is a ………….. dye which is used for staining ……… components.",
@@ -283,7 +304,8 @@
     "answer": 0,
     "answerText": "Basic – Nuclear",
     "explanation": "Hematoxylin is a basic dye that binds to acidic nuclear components such as DNA and RNA.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 4</span> Which type of cell signaling occurs via direct physical contact?",
@@ -296,7 +318,8 @@
     "answer": 2,
     "answerText": "Juxtacrine",
     "explanation": "Juxtacrine signaling involves direct contact between cells via membrane-bound molecules.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 5</span> All of the following functions are related to the smooth endoplasmic reticulum, EXCEPT:",
@@ -309,7 +332,8 @@
     "answer": 2,
     "answerText": "Recycle old or damaged organelles",
     "explanation": "Recycling damaged organelles is the function of lysosomes, not the smooth ER.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 6</span> What is the name of the intermediate filament in muscles?",
@@ -322,7 +346,8 @@
     "answer": 1,
     "answerText": "Desmin",
     "explanation": "Desmin is an intermediate filament that helps maintain the structural integrity of muscle cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 7</span> Which step of the interphase is the shortest step?",
@@ -335,7 +360,8 @@
     "answer": 2,
     "answerText": "G2",
     "explanation": "G2 is the shortest phase of interphase, where the cell prepares for mitosis by producing proteins.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 8</span> In which step of mitosis does the nuclear membrane reform?",
@@ -348,7 +374,8 @@
     "answer": 3,
     "answerText": "Telophase",
     "explanation": "During telophase, the nuclear membrane reforms around the separated sets of chromosomes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 9</span> Comparing the Goldman equation with the Nernst equation, which of the following is correct?",
@@ -361,7 +388,8 @@
     "answer": 1,
     "answerText": "Goldman equation describes real conditions, while Nernst equation depicts imaginary conditions",
     "explanation": "The Goldman equation accounts for the permeability and concentration of multiple ions, reflecting real conditions.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 10</span> Which of the following does not play any role in determining the level of the resting membrane potential?",
@@ -374,7 +402,8 @@
     "answer": 1,
     "answerText": "Leakage of Na through the Na leak channels",
     "explanation": "Sodium leak channels have a minimal role compared to potassium channels in establishing resting potential.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 11</span> The resting membrane potential in a large nerve cell is closer to the Nernst potential of which of the following ions?",
@@ -387,7 +416,8 @@
     "answer": 0,
     "answerText": "K",
     "explanation": "The resting membrane potential is closer to the potassium equilibrium potential due to high potassium permeability.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 12</span> What is the main cause of the repolarization phase of an action potential?",
@@ -400,7 +430,8 @@
     "answer": 1,
     "answerText": "Closure of voltage-gated Na channels",
     "explanation": "Repolarization occurs as voltage-gated Na channels close and K efflux dominates.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 13</span> A new action potential cannot occur in an excitable fiber as long as the membrane is still depolarized from the preceding action potential. Why?",
@@ -413,7 +444,8 @@
     "answer": 1,
     "answerText": "Because of inactivation of voltage-gated Na channels",
     "explanation": "During the refractory period, inactivated Na channels prevent the initiation of a new action potential.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 14</span> Saltatory conduction is of value for:",
@@ -426,7 +458,8 @@
     "answer": 1,
     "answerText": "Conserving energy",
     "explanation": "Saltatory conduction conserves energy by allowing action potentials to \"jump\" between nodes of Ranvier.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 15</span> In the plateau phase, calcium is transported inside the cardiac cell by:",
@@ -439,7 +472,8 @@
     "answer": 1,
     "answerText": "Voltage-gated Ca channels",
     "explanation": "Voltage-gated Ca channels allow Ca entry during the plateau phase, crucial for cardiac muscle contraction.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 16</span> In which compartment is the largest amount of body water found?",
@@ -452,7 +486,8 @@
     "answer": 2,
     "answerText": "ICF",
     "explanation": "The intracellular fluid (ICF) contains the majority of the body’s water, approximately two-thirds of the total.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 17</span> Which of the following refers to facilitated diffusion of glucose?",
@@ -465,7 +500,8 @@
     "answer": 1,
     "answerText": "GLUT2",
     "explanation": "GLUT2 mediates the facilitated diffusion of glucose in tissues like the liver and pancreas.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 18</span> Which of the following transporters is found in the greatest number in the kidneys?",
@@ -478,7 +514,8 @@
     "answer": 1,
     "answerText": "SGLT2",
     "explanation": "SGLT2 is abundant in the proximal tubule of the kidney, reabsorbing glucose from the filtrate.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 19</span> Simple diffusion of ions is driven by:",
@@ -491,7 +528,8 @@
     "answer": 2,
     "answerText": "Electrochemical gradient",
     "explanation": "Ions diffuse based on the electrochemical gradient, which combines concentration and charge differences.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 20</span> Which of the following is negatively correlated with the rate of simple diffusion?",
@@ -504,7 +542,8 @@
     "answer": 1,
     "answerText": "Thickness of membrane",
     "explanation": "A thicker membrane slows diffusion by increasing the distance ions or molecules must travel.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 21</span> Which of the following is the most important factor limiting the lateral movement of proteins in the membrane of epithelial cells in the kidney?",
@@ -517,7 +556,8 @@
     "answer": 2,
     "answerText": "The existence of tight junctions between cells",
     "explanation": "Tight junctions restrict lateral diffusion of membrane proteins, maintaining cellular polarity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q40"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 22</span> Assume that the concentration of ion X⁺ in the extracellular fluid is 300 mEq/L and inside the cell is 20 mEq/L. The resting membrane potential is closest to:",
@@ -530,6 +570,7 @@
     "answer": 2,
     "answerText": "+71 mV",
     "explanation": "Given the ion gradient, the Nernst equation calculation yields a resting potential near +71 mV.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-phys-q41"
   }
 ]
