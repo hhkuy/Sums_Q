@@ -10,7 +10,8 @@
     "answer": 2,
     "answerText": "Alanine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 23</span> Which enzyme is involved in joining Okazaki parts?",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Ligase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 24</span> Which of the following compounds suppresses electron transfer to oxygen at the last stage of the electron transport chain?",
@@ -36,7 +38,8 @@
     "answer": 0,
     "answerText": "Sodium azide",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 25</span> Hydroxide ion concentration [OH¯] of an individual blood plasma is 4 × 10⁻⁷ M. How is this person in? Log2=0.3",
@@ -49,7 +52,8 @@
     "answer": 2,
     "answerText": "Alkalosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 26</span> In electrophologram serum lipoproteins of which one of the following bond is related to VLDL?",
@@ -62,7 +66,8 @@
     "answer": 0,
     "answerText": "Pre-𝛽",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 27</span> Which of the following Nucleotide Analogues is used as a medicine for HIV treatment?",
@@ -75,7 +80,8 @@
     "answer": 3,
     "answerText": "Azidodeoxythymidine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 28</span> Folic acid deficiency through which one of the following mechanism caused megaloblastic anemia?",
@@ -88,7 +94,8 @@
     "answer": 0,
     "answerText": "Reduced thymidine biosynthesis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 29</span> Thiocyanate (SCN¯) is involved in inhibiting synthesis of Which one of the following hormones?",
@@ -101,7 +108,8 @@
     "answer": 3,
     "answerText": "Thyroxine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 30</span> Speed changes curve of Reaction of moderator enzymes against various concentrations of the substrate is sigmoid (S-shaped). How inhibitor compounds will change in this curve?",
@@ -114,7 +122,8 @@
     "answer": 0,
     "answerText": "Move to the right",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 31</span> All of the following compounds in humans are considered as gluconeogenesis substrates except:",
@@ -127,7 +136,8 @@
     "answer": 3,
     "answerText": "Palmitate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 32</span> The production of dicarboxylic fatty acids occurs in which types of oxidation?",
@@ -140,7 +150,8 @@
     "answer": 3,
     "answerText": "𝜔",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 33</span> In repairing the damage associated with the formation of Timin Dymer, all of the following enzymes are present except:",
@@ -153,7 +164,8 @@
     "answer": 1,
     "answerText": "Glycosylase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 34</span> Receptor of which one of the following hormones have the tyrosine kinase feature?",
@@ -166,7 +178,8 @@
     "answer": 1,
     "answerText": "Insulin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 35</span> Measuring the activity of which of the following enzymes is useful in detecting poisoning from insecticides?",
@@ -179,7 +192,8 @@
     "answer": 3,
     "answerText": "Cholinesterase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 36</span> Which one of the following glucose membrane carriers (GLUTs) is dependent on insulin?",
@@ -192,7 +206,8 @@
     "answer": 3,
     "answerText": "GLUT-4",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 37</span> Which of the following elements is effective in reducing the oxidative stress?",
@@ -205,7 +220,8 @@
     "answer": 0,
     "answerText": "Selenium",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 38</span> Lipolysis in the adipose tissue is activated by all the following hormones, except:",
@@ -218,7 +234,8 @@
     "answer": 3,
     "answerText": "Insulin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 98</span> Insulin increases the increase of all of the following enzymes but:",
@@ -231,7 +248,8 @@
     "answer": 3,
     "answerText": "Glycogen phosphorylase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 99</span> Gluconeogenesis means producing sugar from non-sugar ingredients. Which one is not a substrate for gluconeogenesis?",
@@ -244,7 +262,8 @@
     "answer": 0,
     "answerText": "Acetyl CoA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 100</span> Which of the following molecules can be found in both Krebs and Urea cycle?",
@@ -257,7 +276,8 @@
     "answer": 1,
     "answerText": "Fumarate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 101</span> Which one of the following monosaccharides is considered as an epimer of glucose in carbon number two?",
@@ -270,7 +290,8 @@
     "answer": 2,
     "answerText": "Mannose",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 102</span> Sphingosine can be found in all of the following compounds but:",
@@ -283,7 +304,8 @@
     "answer": 3,
     "answerText": "Cephalin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 103</span> Which of the following amino acids has an acidic side chain?",
@@ -296,7 +318,8 @@
     "answer": 3,
     "answerText": "Glutamic acid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 104</span> In which protein structure can beta pleated sheet be found?",
@@ -309,7 +332,8 @@
     "answer": 1,
     "answerText": "2nd",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 105</span> Which of the following vitamins plays a role in conversion of proline to hydroxyproline?",
@@ -322,7 +346,8 @@
     "answer": 1,
     "answerText": "C",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 106</span> Which of the following proteins has an important role in buffered system?",
@@ -335,7 +360,8 @@
     "answer": 3,
     "answerText": "Hemoglobin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 107</span> In which sextet of enzymes groups are kinases categorized?",
@@ -348,7 +374,8 @@
     "answer": 0,
     "answerText": "Transferase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 108</span> Receptor of all of the following hormones are in cell membrane but:",
@@ -361,7 +388,8 @@
     "answer": 0,
     "answerText": "Testosterone",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 109</span> Where is the oxytocin stored and secreted?",
@@ -374,7 +402,8 @@
     "answer": 1,
     "answerText": "Posterior pituitary",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 110</span> All of the following histones take part in octamer structure of histone but:",
@@ -387,7 +416,8 @@
     "answer": 0,
     "answerText": "H1",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 111</span> All of the following codons demonstrate the end of transcription in eukaryotes but:",
@@ -400,7 +430,8 @@
     "answer": 3,
     "answerText": "UAC",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 112</span> By which bond do the nucleotides get polymerized?",
@@ -413,7 +444,8 @@
     "answer": 1,
     "answerText": "Phosphodiester",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 113</span> All of the following are substrates for gluconeogenesis but:",
@@ -426,7 +458,8 @@
     "answer": 3,
     "answerText": "Palmitate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 114</span> Where is the location of the biosynthesis of fatty acids?",
@@ -439,7 +472,8 @@
     "answer": 2,
     "answerText": "Cytosol",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 115</span> In case of lack of food or aging how will be the balance of nitrogen in the body?",
@@ -452,7 +486,8 @@
     "answer": 2,
     "answerText": "Negative",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 116</span> Which of the following enzymes increase in MI?",
@@ -465,7 +500,8 @@
     "answer": 0,
     "answerText": "CK-MB",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 98</span> Insulin increases the activity of all the following enzymes, except:",
@@ -478,7 +514,8 @@
     "answer": 3,
     "answerText": "Glycogen phosphorylase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 99</span> Gluconeogenesis means the production of sugars from non-sugar compounds. Which of the following compounds is not a substrate of gluconeogenesis?",
@@ -491,7 +528,8 @@
     "answer": 0,
     "answerText": "Acetyl coA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 100</span> Which of the following molecules can be found in both Krebs and Urea cycle?",
@@ -504,7 +542,8 @@
     "answer": 1,
     "answerText": "Fumarate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 101</span> Which of the following sugars will increase in blood flow after consumption of milk with sucrose?",
@@ -517,7 +556,8 @@
     "answer": 1,
     "answerText": "Glucose, fructose, and galactose",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q40"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 102</span> Which of the following amino acids should be removed from the diet of a patient with Maple Syrup Urine Disease (MSUD)?",
@@ -530,7 +570,8 @@
     "answer": 0,
     "answerText": "Valine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q41"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 103</span> In a disease with pyruvate carboxylase deficiency, which of the following compounds' production is disturbed?",
@@ -543,7 +584,8 @@
     "answer": 2,
     "answerText": "Oxaloacetate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q42"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 104</span> How much is the ratio of phosphate monohydrogen (HPO4²-) to phosphate dihydrogen (H2PO4-) with pK = 6.7 in phosphate buffer with pH = 7.8?",
@@ -556,7 +598,8 @@
     "answer": 0,
     "answerText": "10",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q43"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 105</span> A metabolic disorder patient improves with consumption of medium and short-chain fatty acids (less than 12C). Which disorder is likely to occur?",
@@ -569,7 +612,8 @@
     "answer": 0,
     "answerText": "Carnitine palmitoyl transferase I",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q44"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 106</span> Which process is reduced in a person treated with thiourea drugs?",
@@ -582,7 +626,8 @@
     "answer": 1,
     "answerText": "Monoiodotyrosine and diiodotyrosine coupling",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q45"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 107</span> During starvation, with high levels of glucagon and low insulin levels, which of the following enzymes decreases?",
@@ -595,7 +640,8 @@
     "answer": 3,
     "answerText": "Glucokinase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q46"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 108</span> Which of the following bases or nucleosides naturally exists in the building of nucleic acids?",
@@ -608,7 +654,8 @@
     "answer": 3,
     "answerText": "Fluorouracil",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q47"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 109</span> Which of the following enzymes prevents shortening of DNA endpoints in eukaryotic cells?",
@@ -620,7 +667,8 @@
     "answer": 2,
     "answerText": "Telomerase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q48"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 110</span> A combination that inhibits RNA polymerase III decreases which type of RNA in the cell?",
@@ -633,7 +681,8 @@
     "answer": 1,
     "answerText": "tRNA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q49"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 111</span> Measurement of which enzyme is useful in detecting prostate cancer?",
@@ -646,7 +695,8 @@
     "answer": 3,
     "answerText": "Acid phosphatase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q50"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 112</span> In childhood, a child with fragile bones and extensive fractures is likely to have a defect in which of the following proteins?",
@@ -659,7 +709,8 @@
     "answer": 0,
     "answerText": "Collagen",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q51"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 113</span> A patient has experienced mitochondrial defect and heart failure due to the synthesis of one of the following phospholipids. Which defect is more probable?",
@@ -672,7 +723,8 @@
     "answer": 2,
     "answerText": "Cardiolipin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q52"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 114</span> The highest amount of beta-aminoisobutyrate is a result of the catabolism of which of the following?",
@@ -685,7 +737,8 @@
     "answer": 1,
     "answerText": "DNA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q53"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 115</span> In an enzyme reaction and in the presence of non-competitive inhibitors, how do Km and Vmax change?",
@@ -698,7 +751,8 @@
     "answer": 0,
     "answerText": "Km does not change and Vmax decreases",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q54"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 116</span> Which of the following amino acids is the niacin precursor?",
@@ -711,7 +765,8 @@
     "answer": 3,
     "answerText": "Tryptophan",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q55"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 25</span> By hydrolysis of which of the following is only one monosaccharide produced?",
@@ -724,7 +779,8 @@
     "answer": 0,
     "answerText": "Chitin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q56"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 26</span> Which of the following has SH groups?",
@@ -737,7 +793,8 @@
     "answer": 2,
     "answerText": "Cysteine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q57"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 27</span> Which of the following fatty acids is represented by C18?",
@@ -750,7 +807,8 @@
     "answer": 1,
     "answerText": "C18:1",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q58"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 28</span> Which type of RNA is involved in processing of hnRNA?",
@@ -763,7 +821,8 @@
     "answer": 2,
     "answerText": "SnRNA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q59"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 29</span> By which of the following mechanisms do the ionophores let the transportation of ions into the cell?",
@@ -776,7 +835,8 @@
     "answer": 0,
     "answerText": "Channel formation",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q60"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 30</span> Which of the DNA polymerases has the main role in DNA repair in eukaryote cells?",
@@ -789,7 +849,8 @@
     "answer": 1,
     "answerText": "Beta",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q61"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 31</span> Which form of Vitamin A has a role in growth, differentiation, and cell proliferation?",
@@ -802,7 +863,8 @@
     "answer": 3,
     "answerText": "Retinoic acid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q62"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 32</span> In which group is the enzyme which converts phosphorylase a to phosphorylase b categorized?",
@@ -815,7 +877,8 @@
     "answer": 2,
     "answerText": "Transferases",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q63"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 33</span> Which of the components of the electron transport chain has a higher reduction potential?",
@@ -828,7 +891,8 @@
     "answer": 3,
     "answerText": "aa3 cytochrome",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q64"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 34</span> Which of the following reactions occurs in the gluconeogenesis pathway?",
@@ -841,7 +905,8 @@
     "answer": 0,
     "answerText": "Pyruvate to oxaloacetate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q65"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 35</span> Defect in which of the following enzymes results in Von Gierke disease?",
@@ -854,7 +919,8 @@
     "answer": 2,
     "answerText": "Glucose 6 phosphatase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q66"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 36</span> Which of the following apoproteins is involved in the removal of chylomicron remnants in the liver?",
@@ -867,7 +933,8 @@
     "answer": 0,
     "answerText": "E",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q67"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 37</span> Which of the following groups is the final product of catabolism of odd-numbered carbon fatty acids in the beta-oxidation process?",
@@ -880,7 +947,8 @@
     "answer": 2,
     "answerText": "Acetyl COA and Propionyl COA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q68"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 38</span> Deficiency of all of the following enzymes results in PKU but:",
@@ -893,7 +961,8 @@
     "answer": 3,
     "answerText": "Fumarylacetoacetate hydrolase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q69"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 39</span> In which disease is the serotonin synthesis decreased?",
@@ -906,7 +975,8 @@
     "answer": 1,
     "answerText": "Hartnup",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q70"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 40</span> All of the following amino acids are involved in the synthesis of purine nucleotides but:",
@@ -919,7 +989,8 @@
     "answer": 3,
     "answerText": "Tryptophan",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q71"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 41</span> Which of the following hormones will increase in blood if the central part of the adrenal gland is hypertrophic?",
@@ -932,7 +1003,8 @@
     "answer": 0,
     "answerText": "Epinephrine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q72"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 42</span> Deficiency in the function of which of the following enzymes causes lactic acidosis?",
@@ -945,7 +1017,8 @@
     "answer": 0,
     "answerText": "Pyruvate dehydrogenase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q73"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 43</span> Which one happens in Wilson disease?",
@@ -958,7 +1031,8 @@
     "answer": 1,
     "answerText": "Decreased blood ceruloplasmin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q74"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 46</span> Which of the following diseases lead to metabolic acidosis?",
@@ -971,7 +1045,8 @@
     "answer": 1,
     "answerText": "Von Gierke",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q75"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 47</span> All of the following sugars are aldehyde but:",
@@ -984,7 +1059,8 @@
     "answer": 2,
     "answerText": "Fructose",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q76"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 48</span> Which enzyme has disorder in Tyrosinemia type II?",
@@ -997,7 +1073,8 @@
     "answer": 0,
     "answerText": "Tyrosine aminotransferase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q77"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 49</span> Which of the following amino acids is dicarboxylic mono amide?",
@@ -1010,7 +1087,8 @@
     "answer": 0,
     "answerText": "Glutamate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q78"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 50</span> Which of the following proteins are serine proteases inhibitors?",
@@ -1023,7 +1101,8 @@
     "answer": 1,
     "answerText": "Alpha-1-antitrypsin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q79"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 51</span> All of the following enzymes have the 4th structure but:",
@@ -1036,7 +1115,8 @@
     "answer": 1,
     "answerText": "Albumin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q80"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 52</span> Which pair of enzymes are MI indices?",
@@ -1049,7 +1129,8 @@
     "answer": 0,
     "answerText": "CK and LDH",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q81"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 53</span> Which of the following inhibitors is only connected to free enzyme?",
@@ -1062,7 +1143,8 @@
     "answer": 0,
     "answerText": "Competitive",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q82"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 54</span> All of the following are involved in electron transport chain of mitochondria except:",
@@ -1075,7 +1157,8 @@
     "answer": 3,
     "answerText": "Acetyl CoA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q83"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 55</span> Which couple of components has a role in biosynthesis of heme?",
@@ -1088,7 +1171,8 @@
     "answer": 0,
     "answerText": "Succinyl CoA - Glycine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q84"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 56</span> In which nucleic acid is a rare organic base found?",
@@ -1101,7 +1185,8 @@
     "answer": 3,
     "answerText": "tRNA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q85"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 57</span> In which of the following components is the Shine-Dalgarno sequence seen?",
@@ -1114,7 +1199,8 @@
     "answer": 0,
     "answerText": "mRNA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q86"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 58</span> Which enzymes are used in conversion of Glucose 6-phosphate to Fructose 1,6 diphosphate?",
@@ -1127,7 +1213,8 @@
     "answer": 0,
     "answerText": "Phospho Hexo Isomerase - Phosphofructokinase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q87"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 59</span> The entrance of glucose to cells of which tissue is insulin-related?",
@@ -1140,7 +1227,8 @@
     "answer": 2,
     "answerText": "Muscle",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q88"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 60</span> All of the following are derived from POMC but:",
@@ -1153,7 +1241,8 @@
     "answer": 3,
     "answerText": "TSH",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q89"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 61</span> Lack of which vitamin results in homocystinuria?",
@@ -1166,7 +1255,8 @@
     "answer": 1,
     "answerText": "Pyridoxine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q90"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 62</span> Which enzyme is involved in the synthesis of prostaglandins?",
@@ -1179,7 +1269,8 @@
     "answer": 0,
     "answerText": "A2 phospholipase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q91"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 63</span> What is the final product of decomposition of Thymine?",
@@ -1192,7 +1283,8 @@
     "answer": 1,
     "answerText": "Beta aminobutyric acid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q92"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 64</span> Which amino acid has a pure positive charge at physiological pH?",
@@ -1205,7 +1297,8 @@
     "answer": 3,
     "answerText": "Lysine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q93"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 98</span> Insulin increases the activity of all of the following enzymes but:",
@@ -1218,7 +1311,8 @@
     "answer": 3,
     "answerText": "Glycogen phosphorylase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q94"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 99</span> Gluconeogenesis means producing sugar from non-sugar ingredients. Which one is not a substrate for gluconeogenesis?",
@@ -1231,7 +1325,8 @@
     "answer": 0,
     "answerText": "Acetyl CoA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q95"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 100</span> Which of the following molecules can be found in both Krebs and Urea cycle?",
@@ -1244,7 +1339,8 @@
     "answer": 1,
     "answerText": "Fumarate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q96"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 101</span> Which one of the following monosaccharides is considered an epimer of glucose at carbon number two?",
@@ -1257,7 +1353,8 @@
     "answer": 2,
     "answerText": "Mannose",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q97"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 102</span> Sphingosine can be found in all of the following compounds but:",
@@ -1270,7 +1367,8 @@
     "answer": 3,
     "answerText": "Cephalin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q98"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 103</span> Which of the following amino acids has an acidic side chain?",
@@ -1283,7 +1381,8 @@
     "answer": 3,
     "answerText": "Glutamic acid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q99"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 104</span> In which protein structure can beta-pleated sheets be found?",
@@ -1296,7 +1395,8 @@
     "answer": 1,
     "answerText": "2nd",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q100"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 105</span> Which of the following vitamins plays a role in the conversion of proline to hydroxyproline?",
@@ -1309,7 +1409,8 @@
     "answer": 1,
     "answerText": "C",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q101"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 106</span> Which of the following proteins plays an important role in the buffer system?",
@@ -1322,7 +1423,8 @@
     "answer": 3,
     "answerText": "Hemoglobin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q102"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 107</span> In which enzyme group are kinases categorized?",
@@ -1335,7 +1437,8 @@
     "answer": 0,
     "answerText": "Transferase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q103"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 108</span> Receptors for all of the following hormones are located on the cell membrane except:",
@@ -1348,7 +1451,8 @@
     "answer": 0,
     "answerText": "Testosterone",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q104"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 109</span> Where is oxytocin stored and secreted?",
@@ -1361,7 +1465,8 @@
     "answer": 1,
     "answerText": "Posterior pituitary",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q105"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 110</span> All of the following histones take part in the octamer structure of histones except:",
@@ -1374,7 +1479,8 @@
     "answer": 0,
     "answerText": "H1",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q106"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 111</span> All of the following codons indicate the end of transcription in eukaryotes except:",
@@ -1387,7 +1493,8 @@
     "answer": 3,
     "answerText": "UAC",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q107"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 112</span> By which bond are the nucleotides polymerized?",
@@ -1400,7 +1507,8 @@
     "answer": 1,
     "answerText": "Phosphodiester",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q108"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 113</span> All of the following are substrates for gluconeogenesis except:",
@@ -1413,7 +1521,8 @@
     "answer": 3,
     "answerText": "Palmitate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q109"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 114</span> Where does the biosynthesis of fatty acids occur?",
@@ -1426,7 +1535,8 @@
     "answer": 2,
     "answerText": "Cytosol",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q110"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 115</span> In case of lack of food or aging, how will the nitrogen balance in the body be?",
@@ -1439,7 +1549,8 @@
     "answer": 2,
     "answerText": "Negative",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q111"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 116</span> Which of the following enzymes increases in myocardial infarction (MI)?",
@@ -1452,7 +1563,8 @@
     "answer": 0,
     "answerText": "CK-MB",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q112"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 46</span> The sugar of the milk converts to ………. and ………. with the effect of lactase enzyme.",
@@ -1465,7 +1577,8 @@
     "answer": 3,
     "answerText": "Galactose and glucose",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q113"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 47</span> Which compound plays an important role in liver detoxification?",
@@ -1478,7 +1591,8 @@
     "answer": 0,
     "answerText": "Glucuronic acid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q114"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 48</span> Which of the following is used by glycogen synthase enzyme in the synthesis of glycogen?",
@@ -1491,7 +1605,8 @@
     "answer": 0,
     "answerText": "UDP Glucose",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q115"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 49</span> Which lipid compound has carbohydrate in its structure?",
@@ -1504,7 +1619,8 @@
     "answer": 0,
     "answerText": "Sulfatide",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q116"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 50</span> LCAT enzyme is found on the surface of which of the following?",
@@ -1517,7 +1633,8 @@
     "answer": 2,
     "answerText": "HDL",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q117"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 51</span> All of the eicosanoids are formed in the cyclooxygenase pathway but:",
@@ -1530,7 +1647,8 @@
     "answer": 0,
     "answerText": "Lipoxin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q118"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 52</span> Which amino acids has the main role in the interruption of poly peptide chain by BrCN?",
@@ -1543,7 +1661,8 @@
     "answer": 1,
     "answerText": "Methionine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q119"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 53</span> Three amino acids that have a role in formation of Creatine:",
@@ -1556,7 +1675,8 @@
     "answer": 2,
     "answerText": "Methionine - Arginine - Glycine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q120"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 54</span> Which of the two following enzymes are used to diagnose acute pancreatitis?",
@@ -1569,7 +1689,8 @@
     "answer": 0,
     "answerText": "Lipase - Amylase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q121"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 55</span> By which atom are purines connected to the sugar?",
@@ -1582,7 +1703,8 @@
     "answer": 1,
     "answerText": "Number 9 nitrogen",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q122"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 56</span> Histone acetylation leads to which of the following changes?",
@@ -1595,7 +1717,8 @@
     "answer": 3,
     "answerText": "Activation of genes copying",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q123"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 57</span> Which phospholipid has the highest amount in the cell membrane?",
@@ -1608,7 +1731,8 @@
     "answer": 0,
     "answerText": "Phosphatidylcholine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q124"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 58</span> Oligomycin is inhibitor of which of the following in internal membrane of mitochondria?",
@@ -1621,7 +1745,8 @@
     "answer": 1,
     "answerText": "F0F1 ATPase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q125"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 59</span> Which enzyme does the transcription of 5 SrRNA gene?",
@@ -1634,7 +1759,8 @@
     "answer": 2,
     "answerText": "RNA polymerase III",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q126"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 60</span> By which mechanism is the inhibition of succinate dehydrogenase enzyme by oxaloacetate done?",
@@ -1647,7 +1773,8 @@
     "answer": 3,
     "answerText": "Competitive",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q127"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 61</span> The reduction of secretion of which of the following hormones leads to Addison disease?",
@@ -1660,7 +1787,8 @@
     "answer": 2,
     "answerText": "Cortisol",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q128"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 62</span> Insulin increases the activity of all of the following enzymes but:",
@@ -1673,7 +1801,8 @@
     "answer": 3,
     "answerText": "Glycogen phosphorylase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q129"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 63</span> Gluconeogenesis means producing sugar from non-sugar ingredients. Which one is not a substrate for gluconeogenesis?",
@@ -1686,7 +1815,8 @@
     "answer": 0,
     "answerText": "Acetyl COA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q130"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 64</span> Which of the following molecules can be found in both Krebs and Urine cycle?",
@@ -1699,7 +1829,8 @@
     "answer": 1,
     "answerText": "Fumarate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q131"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 46</span> Which of the following hormones reduces hormonal-sensitive lipase activity?",
@@ -1712,7 +1843,8 @@
     "answer": 0,
     "answerText": "Insulin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q132"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 47</span> What vitamin deficiency causes Pellagra syndrome?",
@@ -1725,7 +1857,8 @@
     "answer": 3,
     "answerText": "Niacin (B3)",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q133"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 48</span> Which of the following markers is preferred for diagnosis of thyroid disease?",
@@ -1738,7 +1871,8 @@
     "answer": 1,
     "answerText": "TSH",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q134"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 49</span> Which of the following options is correct for Mix Competitive Agents?",
@@ -1751,7 +1885,8 @@
     "answer": 2,
     "answerText": "Km unchanged and Vmax decrease",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q135"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 50</span> Which of the following options is not a rare element?",
@@ -1764,7 +1899,8 @@
     "answer": 1,
     "answerText": "Calcium",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q136"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 51</span> Which of the following histones does not play a role in the formation of nucleosome nucleus?",
@@ -1777,7 +1913,8 @@
     "answer": 0,
     "answerText": "H1",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q137"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 52</span> What properties of DNA Polymerase Enzymes are called Proof reading?",
@@ -1790,7 +1927,8 @@
     "answer": 1,
     "answerText": "Exonuclease 3`→5`",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q138"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 53</span> Which of the electron transport chain complexes does not have the ability of the proton pump to space between two membranes in the mitochondria?",
@@ -1803,7 +1941,8 @@
     "answer": 3,
     "answerText": "II",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q139"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 54</span> Which combination is the interface between the urea cycle and the Krebs cycle?",
@@ -1816,7 +1955,8 @@
     "answer": 2,
     "answerText": "Fumarate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q140"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 55</span> Steel units is used for the biosynthesis of fatty acids in what form transmitted from the mitochondria to the cytosol?",
@@ -1829,7 +1969,8 @@
     "answer": 1,
     "answerText": "Citrate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q141"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 56</span> What is the enzyme deficient in alkaptonuria?",
@@ -1842,7 +1983,8 @@
     "answer": 0,
     "answerText": "Homogentisate oxidase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q142"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 57</span> The percentage of Esterified cholesterol in which of the following lipoproteins is greater?",
@@ -1855,7 +1997,8 @@
     "answer": 3,
     "answerText": "LDL",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q143"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 58</span> Which fatty acid has the lowest melting point?",
@@ -1868,7 +2011,8 @@
     "answer": 2,
     "answerText": "Linolenic acid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q144"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 59</span> Which of the following options is involved in the formation of the first protein structure?",
@@ -1881,7 +2025,8 @@
     "answer": 0,
     "answerText": "Peptide bond",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q145"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 60</span> In which of the following options the link '5'3 doesn’t exist?",
@@ -1894,7 +2039,8 @@
     "answer": 0,
     "answerText": "TPC loop in tRNA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q146"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 61</span> Which of the following polysaccharides is different from the type of bond between monomers?",
@@ -1907,7 +2053,8 @@
     "answer": 1,
     "answerText": "Cellulose",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q147"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 62</span> Insulin increases the activity of all the following enzymes, except:",
@@ -1920,7 +2067,8 @@
     "answer": 3,
     "answerText": "Glycogen phosphorylase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q148"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 63</span> Gluconeogenesis means the production of sugars from non-sugar compounds. Which of the following is not a substrate of gluconeogenesis?",
@@ -1933,7 +2081,8 @@
     "answer": 0,
     "answerText": "Acetyl CoA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q149"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 64</span> Which of the following compounds exist in the Krese cycle and is also related to the Urea cycle?",
@@ -1946,7 +2095,8 @@
     "answer": 1,
     "answerText": "Fumarate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q150"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 42</span> All of the following statements are true for buffering solutions but:",
@@ -1959,7 +2109,8 @@
     "answer": 3,
     "answerText": "The buffering range is independent of pKa of acid.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q151"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 43</span> Which of the following sugars has Galactose in its structure?",
@@ -1972,7 +2123,8 @@
     "answer": 0,
     "answerText": "Lactose",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q152"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 44</span> Which of the following links plays a key role in the sustainability of the second protein structure?",
@@ -1985,7 +2137,8 @@
     "answer": 2,
     "answerText": "Hydrogen",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q153"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 45</span> All of the following fatty acids are produced in the body, except:",
@@ -1998,7 +2151,8 @@
     "answer": 0,
     "answerText": "Linolenic",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q154"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 46</span> In the presence of which of the following inhibitors only Vmax is reduced?",
@@ -2011,7 +2165,8 @@
     "answer": 0,
     "answerText": "Non-competitive",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q155"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 47</span> In which of the following tissues is the highest amount of CK-MB isoenzyme seen?",
@@ -2024,7 +2179,8 @@
     "answer": 1,
     "answerText": "Heart",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q156"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 48</span> All the following vitamins have antioxidant properties, except:",
@@ -2037,7 +2193,8 @@
     "answer": 1,
     "answerText": "K",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q157"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 49</span> Which of the following proteins is responsible for identifying the location of the onset of replication?",
@@ -2050,7 +2207,8 @@
     "answer": 0,
     "answerText": "dna A",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q158"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 50</span> Which amino acid deficiency catabolism leads to Phenylketonuria disease?",
@@ -2063,7 +2221,8 @@
     "answer": 1,
     "answerText": "Phenylalanine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q159"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 51</span> Which half-life of the following hormones is less?",
@@ -2076,7 +2235,8 @@
     "answer": 3,
     "answerText": "Insulin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q160"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 52</span> What is the complete disorder of glucuronosyltransferase enzyme which causes the following disorders?",
@@ -2089,7 +2249,8 @@
     "answer": 2,
     "answerText": "Crigler–Najjar",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q161"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 53</span> Deficiency in which of the following enzymes can lead to hyperuricemia?",
@@ -2102,7 +2263,8 @@
     "answer": 1,
     "answerText": "Xanthine oxidase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q162"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 54</span> Which enzyme is active in both glycolysis and gluconeogenesis?",
@@ -2115,7 +2277,8 @@
     "answer": 0,
     "answerText": "Aldolase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q163"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 55</span> Propionyl-CoA carboxylase needs …… for its activity.",
@@ -2128,7 +2291,8 @@
     "answer": 2,
     "answerText": "Biotin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q164"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 56</span> CoA is used in all of the following paths but:",
@@ -2141,7 +2305,8 @@
     "answer": 1,
     "answerText": "Glycolysis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q165"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 57</span> In which of the following conditions does the concentration of ketone bodies increase in blood?",
@@ -2154,7 +2319,8 @@
     "answer": 0,
     "answerText": "Fat consumption in the absence of carbohydrates",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q166"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 58</span> All of the following amino acids take part in the structure of protein but:",
@@ -2167,7 +2333,8 @@
     "answer": 3,
     "answerText": "Ornithine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q167"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 42</span> Which one is the most form of DNA found in physiologic conditions?",
@@ -2180,7 +2347,8 @@
     "answer": 2,
     "answerText": "B",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q168"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 43</span> Which of the following hormones needs a transporter in blood?",
@@ -2193,7 +2361,8 @@
     "answer": 2,
     "answerText": "Thyroxin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q169"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 44</span> In a buffered solution the base to acid ratio is 100 to 1. If the pKa of acid is 4.7, what is the PH of buffered solution?",
@@ -2206,7 +2375,8 @@
     "answer": 0,
     "answerText": "6.7",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q170"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 45</span> Which lipoprotein has the most protein amount?",
@@ -2219,7 +2389,8 @@
     "answer": 1,
     "answerText": "HDL",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q171"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 46</span> Which substance shortage can result in collagen synthesis deficiency?",
@@ -2232,7 +2403,8 @@
     "answer": 1,
     "answerText": "Copper",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q172"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 47</span> Barbiturates are active in inhibition of which of following paths?",
@@ -2245,7 +2417,8 @@
     "answer": 2,
     "answerText": "Respiratory chain",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q173"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 48</span> Which of the amino acids is involved in niacin vitamin synthesis?",
@@ -2258,7 +2431,8 @@
     "answer": 0,
     "answerText": "Tryptophan",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q174"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 49</span> All of the following metabolic paths are directly involved in synthesis of amino acids but:",
@@ -2271,7 +2445,8 @@
     "answer": 2,
     "answerText": "Urea cycle",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q175"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 50</span> Refsum is related to deficiency in metabolism of which of the following?",
@@ -2284,7 +2459,8 @@
     "answer": 1,
     "answerText": "Very long fatty acid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q176"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 51</span> Which of the following cells use glucose as the main fuel in long-term fasting conditions?",
@@ -2297,7 +2473,8 @@
     "answer": 0,
     "answerText": "Red blood cells",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q177"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 52</span> Which metabolic path is inhibited by anti-folate drugs?",
@@ -2310,7 +2487,8 @@
     "answer": 0,
     "answerText": "Purine synthesis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q178"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 53</span> Which one has a peptid structure and antioxidant function?",
@@ -2323,7 +2501,8 @@
     "answer": 0,
     "answerText": "Glutathione",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q179"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 54</span> Which enzyme is active in both glycolysis and gluconeogenesis?",
@@ -2336,7 +2515,8 @@
     "answer": 0,
     "answerText": "Aldolase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q180"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 55</span> Propionyl-CoA carboxylase needs …… for its activity.",
@@ -2349,7 +2529,8 @@
     "answer": 2,
     "answerText": "Biotin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q181"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 56</span> COA is used in all of the following paths but:",
@@ -2362,7 +2543,8 @@
     "answer": 1,
     "answerText": "Glycolysis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q182"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 57</span> In which of the following conditions does the concentration of ketone bodies increase in blood?",
@@ -2375,7 +2557,8 @@
     "answer": 0,
     "answerText": "Fat consumption in the absence of carbohydrates",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q183"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 58</span> All of the following amino acids take part in structure of protein but:",
@@ -2388,7 +2571,8 @@
     "answer": 3,
     "answerText": "Ornithine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q184"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 42</span> In which disaccharide structure alpha 1-4 bond is seen?",
@@ -2401,7 +2585,8 @@
     "answer": 0,
     "answerText": "Maltose",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q185"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 43</span> All of the following has glycerol but:",
@@ -2414,7 +2599,8 @@
     "answer": 0,
     "answerText": "Sphingolipid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q186"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 44</span> Which one is the isoelectric pH of lysine according to following PKs? PK3 =10.8 , PK2 =9.2 , PK1 =2.2",
@@ -2427,7 +2613,8 @@
     "answer": 3,
     "answerText": "10",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q187"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 45</span> How much guanine is found in a DNA molecule with 200 nucleotides and 20 percent of adenine in percent?",
@@ -2440,7 +2627,8 @@
     "answer": 1,
     "answerText": "30",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q188"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 46</span> Which of the following components is produced in Krebs cycle in conversion of succinate to fumarate?",
@@ -2453,7 +2641,8 @@
     "answer": 0,
     "answerText": "FADH2",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q189"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 47</span> Which of the following is a substrate for glycogen synthetase enzyme?",
@@ -2466,7 +2655,8 @@
     "answer": 1,
     "answerText": "UDP – Glucose",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q190"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 48</span> Which cellular position is the place for synthesis and decomposition of fatty acids?",
@@ -2479,7 +2669,8 @@
     "answer": 2,
     "answerText": "Cytosol – Mitochondria",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q191"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 49</span> What enzyme starts the biosynthesis of purines?",
@@ -2492,7 +2683,8 @@
     "answer": 3,
     "answerText": "Phosphoribosyl pyrophosphate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q192"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 50</span> Which of the following activities is stimulated by insulin?",
@@ -2505,7 +2697,8 @@
     "answer": 1,
     "answerText": "Glycogenesis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q193"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 51</span> Which vitamin deficiency can play a role in steroid hormone-related cancers?",
@@ -2518,7 +2711,8 @@
     "answer": 0,
     "answerText": "A",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q194"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 52</span> Which of the following vitamins has an important role in post-translation of proteins?",
@@ -2531,7 +2725,8 @@
     "answer": 0,
     "answerText": "K , C",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q195"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 53</span> How do non-competitive inhibitors affect the function of enzymes?",
@@ -2544,7 +2739,8 @@
     "answer": 3,
     "answerText": "Decreases Vmax",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q196"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 54</span> Which enzyme is active in both glycolysis and gluconeogenesis?",
@@ -2557,7 +2753,8 @@
     "answer": 0,
     "answerText": "Aldolase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q197"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 55</span> Propionyl-CoA carboxylase needs …… for its activity.",
@@ -2570,7 +2767,8 @@
     "answer": 2,
     "answerText": "Biotin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q198"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 56</span> CoA is used in all of the following paths but:",
@@ -2583,7 +2781,8 @@
     "answer": 1,
     "answerText": "Glycolysis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q199"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 57</span> In which of the following conditions does the concentration of ketone bodies increase in blood?",
@@ -2596,7 +2795,8 @@
     "answer": 3,
     "answerText": "Fat consumption in the absence of carbohydrates",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q200"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 58</span> All of the following amino acids take part in structure of protein but:",
@@ -2609,7 +2809,8 @@
     "answer": 1,
     "answerText": "Ornithine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q201"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 88</span> Which enzyme is active in both glycolysis and gluconeogenesis?",
@@ -2622,7 +2823,8 @@
     "answer": 2,
     "answerText": "Aldolase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q202"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 89</span> Propionyl-CoA carboxylase needs …… for its activity.",
@@ -2635,7 +2837,8 @@
     "answer": 2,
     "answerText": "Biotin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q203"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 90</span> COA is used in all of the following paths but:",
@@ -2648,7 +2851,8 @@
     "answer": 1,
     "answerText": "Glycolysis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q204"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 91</span> In which of the following conditions does the concentration of ketone bodies increase in blood?",
@@ -2661,7 +2865,8 @@
     "answer": 3,
     "answerText": "Fat intake in the absence of carbohydrates",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q205"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 92</span> All of the following amino acids take part in structure of protein but:",
@@ -2674,7 +2879,8 @@
     "answer": 3,
     "answerText": "Ornithine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q206"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 93</span> Which biological fluid has the most pH and the least pOH in normal conditions?",
@@ -2687,7 +2893,8 @@
     "answer": 1,
     "answerText": "Pancreatic secretions",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q207"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 94</span> Celiac disease (with side effects such as decreased mucosal level of the intestine, inflammation, diarrhea, is a result of incomplete digestion of which protein of food (wheat)?",
@@ -2700,7 +2907,8 @@
     "answer": 1,
     "answerText": "Gluten",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q208"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 95</span> Choline being an important nutrient and cooperating as neurotransmitter in the synthesis of acetylcholine is a derivation of which of the following amino acids?",
@@ -2713,7 +2921,8 @@
     "answer": 2,
     "answerText": "Methionine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q209"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 96</span> Patients with cystic fibrosis who are exposed to various infections are often treated with antibiotics. Which vitamin deficiency is seen in these patients?",
@@ -2726,7 +2935,8 @@
     "answer": 1,
     "answerText": "Vitamin K",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q210"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 97</span> All of the following statements are true about vitamin D except:",
@@ -2739,7 +2949,8 @@
     "answer": 2,
     "answerText": "Stimulates intestinal absorption of calcium and inhibition of intestinal absorption of phosphate.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q211"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 98</span> Which enzyme breaks down the drops of fat in fat tissue?",
@@ -2752,7 +2963,8 @@
     "answer": 3,
     "answerText": "Hormone-sensitive lipase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q212"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 99</span> What is the effect of arsenate poisoning on glycolysis?",
@@ -2765,7 +2977,8 @@
     "answer": 0,
     "answerText": "By acting on the enzyme glyceraldehyde 3 phosphate dehydrogenase inhibits the production of ATP in the glycolysis pathway.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q213"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 100</span> Which one is true about hemoglobin?",
@@ -2778,7 +2991,8 @@
     "answer": 2,
     "answerText": "Lactic acid production shifts the curve of hemoglobin saturation to the right.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q214"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 101</span> On which of the following tissues does the lack of Carnitine have more severe effect?",
@@ -2791,7 +3005,8 @@
     "answer": 3,
     "answerText": "Heart",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q215"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 102</span> All of the following enzymes get affected in Beriberi but:",
@@ -2804,7 +3019,8 @@
     "answer": 3,
     "answerText": "Glycerate dehydrogenase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q216"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 103</span> How many ATPs get produced while full oxidation of a 14-carbon fatty acid?",
@@ -2817,7 +3033,8 @@
     "answer": 3,
     "answerText": "92",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q217"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 104</span> Decrease in which of the following in pentose phosphate pathway results in hemolysis of red blood cells?",
@@ -2830,7 +3047,8 @@
     "answer": 1,
     "answerText": "NADPH",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q218"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 42</span> During anaerobic 2,3-bisphosphoglycerate formation in glycolysis pathway, how many ATP molecules is produced?",
@@ -2843,7 +3061,8 @@
     "answer": 1,
     "answerText": "0",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q219"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 43</span> All of the following enzymes are used for the diagnosis of liver disorder, except?",
@@ -2856,7 +3075,8 @@
     "answer": 2,
     "answerText": "Creatine phosphokinase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q220"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 44</span> Degradation of which of the following carbohydrates is defective in deficiency of the enzyme responsible for the cleavage of β1→4 bond?",
@@ -2869,7 +3089,8 @@
     "answer": 3,
     "answerText": "Limit dextrins",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q221"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 45</span> Which of the following compounds is an inhibitor of CPT-1 (carnitine palmitoyl transferase I)?",
@@ -2882,7 +3103,8 @@
     "answer": 3,
     "answerText": "Malonyl CoA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q222"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 46</span> Which amino acid is increased in tetrahydrobiopterin biosynthesis deficiency?",
@@ -2895,7 +3117,8 @@
     "answer": 1,
     "answerText": "Phenylalanine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q223"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 47</span> Which of the following ions is a cofactor of carbonic anhydrase?",
@@ -2908,7 +3131,8 @@
     "answer": 0,
     "answerText": "Zn²⁺",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q224"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 48</span> Which one is the cause of uric acid elevation in glucose 6-phosphatase deficiency (Von Gierke disease)?",
@@ -2921,7 +3145,8 @@
     "answer": 1,
     "answerText": "Increased blood lactate and glucose",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q225"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 49</span> Cytosine in body cells naturally loses its amino group and is converted to uracil. If not repaired, which nucleotide replaces cytosine in the next replication?",
@@ -2934,7 +3159,8 @@
     "answer": 1,
     "answerText": "A (Adenine)",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q226"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 50</span> The transport of glucose into the muscle cells is performed by GLUT4. Which of the following statements is true?",
@@ -2947,7 +3173,8 @@
     "answer": 1,
     "answerText": "Transport is facilitated",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q227"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 51</span> Which vitamin is required for the synthesis of Gamma carboxy glutamic chain?",
@@ -2960,7 +3187,8 @@
     "answer": 1,
     "answerText": "K",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q228"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 52</span> Glycogen Storage Disease type zero (GSD type 0) is due to the deficiency of which of the following enzymes?",
@@ -2973,7 +3201,8 @@
     "answer": 3,
     "answerText": "Glycogen synthase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q229"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 53</span> Which of the following messenger molecules has both metabolic and gene expression activity?",
@@ -2986,7 +3215,8 @@
     "answer": 1,
     "answerText": "cAMP",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q230"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 54</span> Which enzyme acts in both glycolysis and gluconeogenesis?",
@@ -2999,7 +3229,8 @@
     "answer": 0,
     "answerText": "Aldolase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q231"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 55</span> Propionyl-CoA carboxylase needs ....... for its action.",
@@ -3012,7 +3243,8 @@
     "answer": 2,
     "answerText": "Biotin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q232"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 56</span> CoA enzyme is used in all below cycles EXCEPT:",
@@ -3025,7 +3257,8 @@
     "answer": 1,
     "answerText": "Glycolysis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q233"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 57</span> Which one of the following conditions causes increasing in concentration of ketone body in blood?",
@@ -3038,7 +3271,8 @@
     "answer": 0,
     "answerText": "In taking of lipids in absence of carbohydrate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q234"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 58</span> All of the following amino acids are presented in protein structures, EXCEPT:",
@@ -3051,7 +3285,8 @@
     "answer": 3,
     "answerText": "Ornithine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q235"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 42</span> Which one of the following compounds is commonly used in biosynthesis of purines and pyrimidines?",
@@ -3064,7 +3299,8 @@
     "answer": 2,
     "answerText": "Phosphoribosyl pyrophosphate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q236"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 43</span> Which compound acts as an uncoupler of phosphorylation from oxidation in electron transport chain?",
@@ -3077,7 +3313,8 @@
     "answer": 1,
     "answerText": "2,4-dinitrophenol",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q237"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 44</span> Which of the following amino acids are involved in creatine biosynthesis?",
@@ -3090,7 +3327,8 @@
     "answer": 3,
     "answerText": "Gly, Met, Arg",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q238"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 45</span> Acetyl CoA cannot be converted to glucose through gluconeogenesis, meanwhile, it is essential for this pathway because activates:",
@@ -3103,7 +3341,8 @@
     "answer": 0,
     "answerText": "Pyruvate carboxylase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q239"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 46</span> Which of the following vitamins is involved in carboxylation reactions?",
@@ -3116,7 +3355,8 @@
     "answer": 3,
     "answerText": "Biotin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q240"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 47</span> Which enzyme has RNA polymerase activity in DNA replication?",
@@ -3129,7 +3369,8 @@
     "answer": 1,
     "answerText": "Primase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q241"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 48</span> All of the following amino acids contribute in blood glucose level maintenance in starvation, EXCEPT?",
@@ -3142,7 +3383,8 @@
     "answer": 0,
     "answerText": "Leucine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q242"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 49</span> Which enzyme is used in the diagnosis of bone disorders?",
@@ -3155,7 +3397,8 @@
     "answer": 2,
     "answerText": "Alkaline phosphatase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q243"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 50</span> Which one of the following phospholipids reduces the surface tension in lungs?",
@@ -3168,7 +3411,8 @@
     "answer": 3,
     "answerText": "Phosphatidyl choline",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q244"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 51</span> In the presence of an inhibitor, affinity of an enzyme for its substrate is unchanged, but the rate of substrate consumption is reduced even in the presence of high concentrations of the substrate. What is the mechanism of inhibition?",
@@ -3181,7 +3425,8 @@
     "answer": 0,
     "answerText": "Reversible, non-competitive",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q245"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 52</span> Which one of the following apolipoproteins activates lecithin cholesterol acyltransferase (LCAT) enzyme?",
@@ -3194,7 +3439,8 @@
     "answer": 0,
     "answerText": "A-I",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q246"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 53</span> Which one of the following hormones acts through G-Protein coupled receptors?",
@@ -3207,7 +3453,8 @@
     "answer": 2,
     "answerText": "Epinephrine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q247"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 54</span> Lesch-Nyhan syndrome is due to the deficiency of which enzyme?",
@@ -3220,7 +3467,8 @@
     "answer": 0,
     "answerText": "Hypoxanthine-Guanine phosphoribosyltransferase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q248"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 55</span> Consumption of Sulphonyl Urea drugs (such as: Gliben Clamid) in diabetes type II treatment, causes which of the following?",
@@ -3233,7 +3481,8 @@
     "answer": 3,
     "answerText": "Hypoglycemia",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q249"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 56</span> Oxidized LDL plays an important role in Atherosclerosis formation. Which of the following apoproteins is an integral part in LDL structure?",
@@ -3246,7 +3495,8 @@
     "answer": 2,
     "answerText": "B-100",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q250"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 57</span> All the following hormones cause an increase in ketone body synthesis EXCEPT:",
@@ -3259,7 +3509,8 @@
     "answer": 1,
     "answerText": "Insulin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q251"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 58</span> All the following statements are true with respect to genetic codons EXCEPT:",
@@ -3272,7 +3523,8 @@
     "answer": 3,
     "answerText": "One codon can be a code for several amino acids",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q252"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 43</span> The activity of which of the glucose transporters is increased under the influence of insulin?",
@@ -3285,7 +3537,8 @@
     "answer": 3,
     "answerText": "GLUT 4",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q253"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 44</span> Which of the following enzymes are inhibited by Statin drugs?",
@@ -3298,7 +3551,8 @@
     "answer": 0,
     "answerText": "Hydroxy methyl glutaryl CoA reductase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q254"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 45</span> In a buffer solution the ratio of alkali to acid is 100 to 1. If the acid pKa is equal to 4.7, what is the pH of the buffer solution?",
@@ -3311,7 +3565,8 @@
     "answer": 0,
     "answerText": "6.7",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q255"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 46</span> Which of the following vitamins is important in gamma carboxylation of glutamate residues?",
@@ -3324,7 +3579,8 @@
     "answer": 0,
     "answerText": "K",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q256"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 47</span> Methotrexate is an anti-cancer drug. The activity of which of the following is disturbed by this drug?",
@@ -3337,7 +3593,8 @@
     "answer": 1,
     "answerText": "Folic acid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q257"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 48</span> Which of the following is an eicosanoid hormone?",
@@ -3350,7 +3607,8 @@
     "answer": 2,
     "answerText": "Leukotrienes",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q258"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 49</span> Sialic acid is a N-acetyl derivative of which of the following?",
@@ -3363,7 +3621,8 @@
     "answer": 0,
     "answerText": "Neuraminic acid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q259"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 50</span> Cystine is produced from:",
@@ -3376,7 +3635,8 @@
     "answer": 0,
     "answerText": "Oxidation of two cysteine molecules",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q260"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 51</span> Desmosine is present in which of the following proteins?",
@@ -3389,7 +3649,8 @@
     "answer": 0,
     "answerText": "Elastin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q261"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 52</span> Which of the following is necessary for collagen synthesis?",
@@ -3402,7 +3663,8 @@
     "answer": 0,
     "answerText": "Copper",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q262"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 53</span> At which substrate concentration is the velocity of an enzymatic reaction 80% of the maximum velocity?",
@@ -3415,7 +3677,8 @@
     "answer": 1,
     "answerText": "3 Km",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q263"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 54</span> Kinases belong to which group of enzymes?",
@@ -3428,7 +3691,8 @@
     "answer": 0,
     "answerText": "Transferases",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q264"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 55</span> Myelin belongs to which group of fats?",
@@ -3441,7 +3705,8 @@
     "answer": 0,
     "answerText": "Sphingolipids",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q265"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 56</span> By the activity of which of the following enzymes in the Krebs cycle is CO2 released?",
@@ -3454,7 +3719,8 @@
     "answer": 0,
     "answerText": "Isocitrate dehydrogenase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q266"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 57</span> Which of the following disorders is caused by the deficiency of UDP-glucuronyl transferase?",
@@ -3467,7 +3733,8 @@
     "answer": 0,
     "answerText": "Crigler-Najjar",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q267"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 58</span> All the following amino acids directly participate in the urea cycle EXCEPT:",
@@ -3480,7 +3747,8 @@
     "answer": 0,
     "answerText": "Asparagine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q268"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 59</span> During fatty acid synthesis in mammals, double bonds can be produced in all carbon atoms EXCEPT:",
@@ -3493,7 +3761,8 @@
     "answer": 0,
     "answerText": "10",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q269"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 60</span> Which of the following disorders is caused by peroxisome deficiency?",
@@ -3506,7 +3775,8 @@
     "answer": 0,
     "answerText": "Zellweger",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q270"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 61</span> Which of the following hemoglobins is predominant till the end of the first trimester in pregnancy?",
@@ -3519,7 +3789,8 @@
     "answer": 0,
     "answerText": "α2γ2",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q271"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 62</span> Which of the following reactions in the Krebs cycle is inhibited by Arsenite (AsO2-)?",
@@ -3532,7 +3803,8 @@
     "answer": 2,
     "answerText": "α-ketoglutarate → Succinyl-CoA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q272"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 63</span> By controlling the activity of the enzyme catalyzing which reaction, all the metabolic pathways are regulated?",
@@ -3545,7 +3817,8 @@
     "answer": 0,
     "answerText": "Velocity limiting reaction",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q273"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 64</span> Different enzymes catalyzing the same reaction are known as:",
@@ -3558,7 +3831,8 @@
     "answer": 2,
     "answerText": "Isoenzyme",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q274"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 65</span> Selenium as a prosthetic group is present in which of the following enzymes?",
@@ -3571,7 +3845,8 @@
     "answer": 0,
     "answerText": "Glutathione peroxidase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q275"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 66</span> What is the effect of thermogenin on oxidative phosphorylation?",
@@ -3584,7 +3859,8 @@
     "answer": 1,
     "answerText": "Uncoupler",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q276"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 67</span> In which tissues is the Pentose Phosphate pathway least important?",
@@ -3597,7 +3873,8 @@
     "answer": 3,
     "answerText": "Skeletal muscle",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q277"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 42</span> Which protein is activated by Insulin?",
@@ -3610,7 +3887,8 @@
     "answer": 2,
     "answerText": "Lipoprotein lipase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q278"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 43</span> Which enzyme is inhibited by allopurinol that is used in the treatment of gout disease?",
@@ -3623,7 +3901,8 @@
     "answer": 2,
     "answerText": "Xanthine oxidase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q279"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 44</span> Through which of the following compounds does isoleucine contribute to the supply of blood glucose during starvation?",
@@ -3636,7 +3915,8 @@
     "answer": 1,
     "answerText": "Succinyl CoA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q280"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 45</span> Which step in protein biosynthesis is inhibited by diphtheria toxin?",
@@ -3649,7 +3929,8 @@
     "answer": 0,
     "answerText": "Elongation step",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q281"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 46</span> In a patient intoxicated with carbon monoxide, which function of the electron transport chain is directly inhibited?",
@@ -3662,7 +3943,8 @@
     "answer": 2,
     "answerText": "Transport of electron to cytochrome c",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q282"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 47</span> Choline esterase enzyme is the member of which group of enzymes?",
@@ -3675,7 +3957,8 @@
     "answer": 2,
     "answerText": "Hydrolase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q283"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 48</span> Which of the following enzymes in the fatty acid oxidation pathway is directly inhibited by malonyl CoA?",
@@ -3688,7 +3971,8 @@
     "answer": 0,
     "answerText": "Carnitine palmitoyltransferase-I",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q284"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 49</span> Cystinuria is due to inability in which of the following?",
@@ -3701,7 +3985,8 @@
     "answer": 1,
     "answerText": "Reabsorption of cysteine in kidney tubules",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q285"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 50</span> Which of the following is a testosterone metabolite that can be measured in urine?",
@@ -3714,7 +3999,8 @@
     "answer": 1,
     "answerText": "Dihydrotestosterone",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q286"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 51</span> Which protein in vasopressin signaling pathway is mutated in nephrogenic diabetes insipidus?",
@@ -3727,7 +4013,8 @@
     "answer": 2,
     "answerText": "Aquaporin channels",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q287"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 52</span> A child is diagnosed with Ehlers-Danlos syndrome. The synthesis of which of the following proteins is genetically defective?",
@@ -3740,7 +4027,8 @@
     "answer": 0,
     "answerText": "Collagen",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q288"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 53</span> Which compound interferes with the function of vitamin K?",
@@ -3753,7 +4041,8 @@
     "answer": 3,
     "answerText": "Warfarin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q289"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 54</span> Which apolipoprotein is defective in a patient suffering from fat malabsorption, steatorrhea, and lipid accumulation in intestinal cells?",
@@ -3766,7 +4055,8 @@
     "answer": 0,
     "answerText": "B-48",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q290"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 55</span> In a child with maple syrup urine disease (MSUD), the catabolism of which amino acid is defective?",
@@ -3779,7 +4069,8 @@
     "answer": 0,
     "answerText": "Valine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q291"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 56</span> A viral enzyme inhibits a protein involved in replication. Which of the following is the substrate of this enzyme?",
@@ -3792,7 +4083,8 @@
     "answer": 3,
     "answerText": "Cap binding protein",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q292"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 57</span> Increase in which of the following leads to metabolic complications in aldolase B deficiency?",
@@ -3805,7 +4097,8 @@
     "answer": 0,
     "answerText": "Fructose-1-phosphate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q293"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 58</span> When parathyroid hormone (PTH) levels are low in serum, which form of vitamin D is produced in the kidneys?",
@@ -3818,7 +4111,8 @@
     "answer": 0,
     "answerText": "1,25-dihydroxy cholecalciferol",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q294"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 37</span> Copper is a cofactor for all the following enzymes, EXCEPT?",
@@ -3831,7 +4125,8 @@
     "answer": 3,
     "answerText": "DNA polymerase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q295"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 38</span> Which of the following is the key enzyme for fatty acid synthesis?",
@@ -3844,7 +4139,8 @@
     "answer": 0,
     "answerText": "Acetyl CoA carboxylase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q296"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 39</span> High level of ......... is an indicator of liver injury?",
@@ -3857,7 +4153,8 @@
     "answer": 1,
     "answerText": "Alanine transaminase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q297"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 40</span> If the ratio of conjugated lactate to lactic acid is 100/1 in cells of a severely working muscle, then the pH will be ........... (pKa=3.86)",
@@ -3870,7 +4167,8 @@
     "answer": 2,
     "answerText": "4.86",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q298"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 41</span> Lysine transforms into alanine due to hemoglobin mutation. Normally, lysine has a role in 2, 3 bisphosphoglycerate (BPG) attachment. In this case, the affinity of the mutated hemoglobin to attach BPG will ............., and its affinity to attach oxygen will ................ .",
@@ -3883,7 +4181,8 @@
     "answer": 2,
     "answerText": "Decrease - increase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q299"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 42</span> In a patient admitted to the emergency room due to poisoning by an inhibitory compound, the administration of ample enzyme substrate improves his condition. The inhibitor is ............... .",
@@ -3896,7 +4195,8 @@
     "answer": 0,
     "answerText": "Reversible and competitive",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q300"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 43</span> Which of the following pathways is very active in the liver of a patient with uncontrolled diabetes?",
@@ -3909,7 +4209,8 @@
     "answer": 0,
     "answerText": "Ketogenesis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q301"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 44</span> Which one is the key enzyme in regulating pentose phosphate pathway?",
@@ -3922,7 +4223,8 @@
     "answer": 1,
     "answerText": "Glucose 6-phosphate dehydrogenase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q302"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 45</span> Which enzyme is responsible for binding Okazaki fragments to each other?",
@@ -3935,7 +4237,8 @@
     "answer": 3,
     "answerText": "DNA ligase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q303"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 46</span> Which pair of amino acids is more frequent in histones?",
@@ -3948,7 +4251,8 @@
     "answer": 0,
     "answerText": "Arginine - lysine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q304"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 47</span> Aromatase is responsible for the conversion of .......... ?",
@@ -3961,7 +4265,8 @@
     "answer": 0,
     "answerText": "Testosterone to estradiol",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q305"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 48</span> Which respiratory complex in electron transport chain is inhibited by cyanide?",
@@ -3974,7 +4279,8 @@
     "answer": 3,
     "answerText": "IV",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q306"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 49</span> What is the role of ACAT (Acyl CoA Cholesterol Acyltransferase)?",
@@ -3987,7 +4293,8 @@
     "answer": 0,
     "answerText": "Esterification of cholesterol inside cells",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q307"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 50</span> All of the following compounds are phospholipids EXCEPT?",
@@ -4000,7 +4307,8 @@
     "answer": 2,
     "answerText": "Galactosyl ceramide",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q308"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 51</span> Introns are present in the ..........?",
@@ -4013,7 +4321,8 @@
     "answer": 2,
     "answerText": "hnRNA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q309"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 52</span> Membrane fluidity is related to the amount of ........... ?",
@@ -4026,7 +4335,8 @@
     "answer": 0,
     "answerText": "Unsaturated fatty acids and free cholesterol",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q310"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 53</span> Which enzyme is activated by the increase of blood glucagon?",
@@ -4039,7 +4349,8 @@
     "answer": 2,
     "answerText": "Adenylate cyclase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q311"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 54</span> In a diabetic patient which type of transport of glucose into muscle cells is impaired?",
@@ -4052,7 +4363,8 @@
     "answer": 1,
     "answerText": "Facilitated diffusion by GLUT4",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q312"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 55</span> Genetic defect in ornithin transcarbamoylase (OTC) activity in urea cycle leads to the deficiency of which of the following amino acids?",
@@ -4065,7 +4377,8 @@
     "answer": 0,
     "answerText": "Arginine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q313"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 56</span> All of the following compounds can be converted to tryptophan EXCEPT?",
@@ -4078,7 +4391,8 @@
     "answer": 1,
     "answerText": "Melanin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q314"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 37</span> Fructokinase in the cell converts fructose to fructose 6-phosphate with ½ Vmax; under this condition cellular concentration of fructose is about ......... .",
@@ -4091,7 +4405,8 @@
     "answer": 1,
     "answerText": "Equal to Km",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q315"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 38</span> All of the following are correct about allosteric effectors, EXCEPT that they ......... .",
@@ -4104,7 +4419,8 @@
     "answer": 2,
     "answerText": "bind to the substrate binding site of the enzyme",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q316"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 39</span> What is the role of complex IV in the electron transport chain?",
@@ -4117,7 +4433,8 @@
     "answer": 3,
     "answerText": "Transfer of electrons to oxygen",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q317"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 40</span> Which of the following enzymes has both endonuclease and ligase activities?",
@@ -4130,7 +4447,8 @@
     "answer": 0,
     "answerText": "Topoisomerase I",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q318"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 41</span> What is the reason of hyperuricemia in a child with Von Gierke disease (type 1 glycogen storage disease)?",
@@ -4143,7 +4461,8 @@
     "answer": 0,
     "answerText": "Increased production of ribose 5-phosphate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q319"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 42</span> Pseudouridine and 5-methylguanosine triphosphate are found in ......... and ........., respectively.",
@@ -4156,7 +4475,8 @@
     "answer": 2,
     "answerText": "tRNA - rRNA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q320"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 43</span> Consumption of ubiquinone is recommended to an athlete to improve his/her energy level because it increases the activity of ......... .",
@@ -4169,7 +4489,8 @@
     "answer": 0,
     "answerText": "Succinate dehydrogenase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q321"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 44</span> Heavy physical activity and oxygen shortage in muscles lead to increased activity of glucose transporter (GLUT) ......... .",
@@ -4182,7 +4503,8 @@
     "answer": 3,
     "answerText": "4",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q322"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 45</span> Which of the following Krebs cycle metabolites is used to produce delta-aminolevulinic acid?",
@@ -4195,7 +4517,8 @@
     "answer": 1,
     "answerText": "Succinyl CoA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q323"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 46</span> Decreased activity of pyruvate carboxylase is related to the shortage of vitamin ......... .",
@@ -4208,7 +4531,8 @@
     "answer": 2,
     "answerText": "Biotin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q324"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 47</span> The liver biopsy of a child with growth retardation, neurological problems, heart failure and hepatomegaly shows glycogen accumulation in lysosomes. The defective enzyme is ......... .",
@@ -4221,7 +4545,8 @@
     "answer": 1,
     "answerText": "Acid maltase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q325"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 48</span> What is true about liver metabolism after 12 hours fasting in a person at rest?",
@@ -4234,7 +4559,8 @@
     "answer": 3,
     "answerText": "Glycogen phosphorylase is active.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q326"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 49</span> Finasteride administered for the treatment of benign prostate hyperplasia inhibits 5-alpha reductase and leads to the decreased production of ......... .",
@@ -4247,7 +4573,8 @@
     "answer": 1,
     "answerText": "Dihydrotestosterone",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q327"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 50</span> Intestine biopsy of a patient shows lipid accumulation. Reduced production of which type of lipoprotein can be related to this situation?",
@@ -4260,7 +4587,8 @@
     "answer": 0,
     "answerText": "Chylomicron",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q328"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 51</span> A child with hepatomegaly, abnormal feature, developmental delay and recurrent seizure shows high blood level of long chain fatty acids. Decreased activity of ......... is responsible for this condition.",
@@ -4273,7 +4601,8 @@
     "answer": 3,
     "answerText": "Beta-oxidation in peroxisomes",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q329"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 52</span> Because of the low level of required cofactor, Glucose 6-phosphatase deficiency leads to the decreased synthesis of ......... .",
@@ -4286,7 +4615,8 @@
     "answer": 1,
     "answerText": "Glycogen",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q330"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 53</span> A child with vision and skeletal abnormalities was diagnosed with homocysteinuria. In this patient, the level of ......... is higher than normal.",
@@ -4299,7 +4629,8 @@
     "answer": 2,
     "answerText": "Methionine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q331"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 54</span> The initial test in a neonate hospitalized with vomiting and seizure shows higher blood ammonia than normal. Which enzyme deficiency is related to this condition?",
@@ -4312,7 +4643,8 @@
     "answer": 1,
     "answerText": "Ornithine transcarbamoylase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q332"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 55</span> In fasting, serine is converted to ......... to supply blood glucose.",
@@ -4325,7 +4657,8 @@
     "answer": 0,
     "answerText": "Pyruvate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q333"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 56</span> Inherited immunodeficiency is the result of defective ......... .",
@@ -4338,7 +4671,8 @@
     "answer": 0,
     "answerText": "degradation of purines",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q334"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 37</span> In muscle cells, .......... pathway is stimulated by .......... .",
@@ -4351,7 +4685,8 @@
     "answer": 3,
     "answerText": "glycogenolysis - epinephrine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q335"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 38</span> Which element is found in the active site of glutathione peroxidase?",
@@ -4364,7 +4699,8 @@
     "answer": 1,
     "answerText": "Se",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q336"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 39</span> Heart muscle can consume the triglyceride of chylomicrons similar to other tissues. Which enzyme is needed for this function?",
@@ -4377,7 +4713,8 @@
     "answer": 2,
     "answerText": "Lipoprotein lipase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q337"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 40</span> Elevation of all of the following shifts the hemoglobin saturation curve to the right, EXCEPT .......... .",
@@ -4390,7 +4727,8 @@
     "answer": 2,
     "answerText": "CO",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q338"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 41</span> Propionyl CoA, produced from beta oxidation of odd-chain fatty acids, is converted to .......... .",
@@ -4403,7 +4741,8 @@
     "answer": 0,
     "answerText": "Succinyl CoA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q339"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 42</span> Which one is the coenzyme form of vitamin B12?",
@@ -4416,7 +4755,8 @@
     "answer": 2,
     "answerText": "Methylcobalamin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q340"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 43</span> Which facilitated transport mechanism plays a role in the uptake of glucose into the brain cells?",
@@ -4429,7 +4769,8 @@
     "answer": 0,
     "answerText": "Insulin - independent by GLUT3",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q341"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 44</span> All of the following amino acids are found in the structure of glutathione, a natural antioxidant, EXCEPT .......... .",
@@ -4442,7 +4783,8 @@
     "answer": 0,
     "answerText": "Serine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q342"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 45</span> A patient is admitted to the hospital 72 hours after a myocardial infarction (heart attack). In this situation, the assessment of which enzyme is diagnostic?",
@@ -4455,7 +4797,8 @@
     "answer": 2,
     "answerText": "CK",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q343"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 46</span> Which of the following is the precursor of porphobilinogen?",
@@ -4468,7 +4811,8 @@
     "answer": 1,
     "answerText": "Delta aminolevulinic acid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q344"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 47</span> Which of the amino acid metabolic pathways results in the production of fumarylacetoacetate?",
@@ -4481,7 +4825,8 @@
     "answer": 0,
     "answerText": "Catabolism of tyrosine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q345"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 48</span> A drug named 'Clonidine' changes the activity of monoamine oxidase enzyme in such a way that the enzyme can reach its maximum activity (Vmax) with higher concentrations of the substrate. What is the mechanism of enzyme inhibition by this drug?",
@@ -4494,7 +4839,8 @@
     "answer": 2,
     "answerText": "Non-competitive",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q346"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 49</span> An alcoholic patient presents symptoms of deficiency of a vitamin including diarrhea, skin problems, and neurological disorder. A defect in which group of enzymes might be responsible for these symptoms?",
@@ -4507,7 +4853,8 @@
     "answer": 1,
     "answerText": "Dehydrogenases",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q347"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 50</span> An ill child with type 1 diabetes is admitted to the emergency department due to hyperglycemia and ketoacidosis and is under treatment with insulin. Which of the following processes is stimulated by insulin?",
@@ -4520,7 +4867,8 @@
     "answer": 2,
     "answerText": "Transport of glucose into the muscle",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q348"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 51</span> An infant, a short time after initiation of breastfeeding, presents frequent vomiting and jaundice. In the clinical examination, enlarged liver is noticed. Deficiency of which enzyme is possible?",
@@ -4533,7 +4881,8 @@
     "answer": 2,
     "answerText": "Galactose 1-phosphate uridyltransferase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q349"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 52</span> A patient is poisoned by an uncoupler substance that increases the permeability of mitochondrial membrane to protons. Which of the following has happened in the cells of this patient?",
@@ -4546,7 +4895,8 @@
     "answer": 1,
     "answerText": "Increased oxygen consumption",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q350"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 53</span> The activity of which shuttle is necessary for the synthesis of fatty acid and cholesterol?",
@@ -4559,7 +4909,8 @@
     "answer": 3,
     "answerText": "Citrate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q351"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 54</span> A 12-year-old child is diagnosed with high LDL and cholesterol levels. There is a family history of heart attack at an early age. Defect in which of the following might be responsible for her/his disease?",
@@ -4572,7 +4923,8 @@
     "answer": 1,
     "answerText": "Attachment of ApoB-100 to the receptor",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q352"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 55</span> An ill infant is admitted with frequent vomiting and convulsion. Lab report shows increased ammonia and low levels of citrulline. Which of the following is expected in this patient?",
@@ -4585,7 +4937,8 @@
     "answer": 0,
     "answerText": "Decreased level of urea",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q353"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 56</span> All of the following are required for the synthesis of thyroid hormones, EXCEPT .......... .",
@@ -4598,7 +4951,8 @@
     "answer": 3,
     "answerText": "Transport of iodine from the follicle to the bloodstream",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q354"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 37</span> Cerebroside is made up of ceramide and ……… .",
@@ -4611,7 +4965,8 @@
     "answer": 3,
     "answerText": "sugar",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q355"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 38</span> Which of the following diseases improves in response to the administration of excessive amount of thiamin?",
@@ -4624,7 +4979,8 @@
     "answer": 0,
     "answerText": "Maple syrup urine disease",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q356"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 39</span> Which of the following is the active form of vitamin D?",
@@ -4637,7 +4993,8 @@
     "answer": 1,
     "answerText": "1,25-dihydroxycholecalciferol",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q357"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 40</span> Which enzyme is responsible for the hydroxylation of drugs and steroids and facilitates the excretion of their metabolites?",
@@ -4650,7 +5007,8 @@
     "answer": 2,
     "answerText": "Oxygenase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q358"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 41</span> In Ehler-Danlos syndrome, the codifying genes of which protein become deficient?",
@@ -4663,7 +5021,8 @@
     "answer": 3,
     "answerText": "Collagen",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q359"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 42</span> The transportation of ………. amino acids across the membrane is impaired in cystinuria.",
@@ -4676,7 +5035,8 @@
     "answer": 3,
     "answerText": "Ornithine, Arg",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q360"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 43</span> In an uncontrolled diabetic patient, the results of arterial blood gas is as follows: pH = 7.2, pCO2 = 38, HCO3- = 18. What type of acid-base disturbance has taken place?",
@@ -4689,7 +5049,8 @@
     "answer": 1,
     "answerText": "Metabolic acidosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q361"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 44</span> Aspirin inhibits cyclooxygenase through ……… mechanism.",
@@ -4702,7 +5063,8 @@
     "answer": 3,
     "answerText": "irreversible",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q362"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 45</span> Thyroid hormones ……… the activity of the electron transport chain by inducing the production of ……… .",
@@ -4715,7 +5077,8 @@
     "answer": 2,
     "answerText": "increase – thermogenin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q363"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 46</span> The measurement of ……… is useful in the differential diagnosis of hypoglycemia due to the injection of insulin and hypoglycemia caused by insulin-secreting tumors.",
@@ -4728,7 +5091,8 @@
     "answer": 3,
     "answerText": "C-peptide",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q364"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 47</span> The measurement of ……… enzymes is used for the assessment of liver function.",
@@ -4741,7 +5105,8 @@
     "answer": 1,
     "answerText": "ALT, AST, ALP",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q365"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 48</span> All of the followings occur in the increased blood osmolality, EXCEPT ……… .",
@@ -4754,7 +5119,8 @@
     "answer": 2,
     "answerText": "increased urine production",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q366"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 49</span> All of the following amino acids are mainly metabolized in muscles, EXCEPT ……… .",
@@ -4767,7 +5133,8 @@
     "answer": 3,
     "answerText": "Lysine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q367"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 50</span> Which of the following transport systems is responsible for the maintenance of sodium and potassium concentration gradient across cell membrane?",
@@ -4780,7 +5147,8 @@
     "answer": 2,
     "answerText": "Primary active transport",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q368"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 51</span> An ill infant has been admitted to the hospital with severe hyperammonemia. If the disease is caused by N-acetylglutamate synthetase deficiency, the function of ……. enzyme has been disrupted.",
@@ -4793,7 +5161,8 @@
     "answer": 0,
     "answerText": "Carbamoyl phosphate synthetase I",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q369"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 53</span> A child with lactic acidosis and neurological defects has been diagnosed with pyruvate dehydrogenase deficiency. If this condition is caused by the reduced affinity of the enzyme to its coenzyme, administration of all of the following vitamins can improve the symptoms, EXCEPT ……… .",
@@ -4806,7 +5175,8 @@
     "answer": 3,
     "answerText": "Biotin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q370"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 54</span> Which of the following statements is true about the direct bilirubin?",
@@ -4819,7 +5189,8 @@
     "answer": 2,
     "answerText": "It increases in case of defective bilirubin transporter in the bile duct.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q371"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 55</span> In a patient with uncontrolled diabetes, the increased activity of ……… enzyme is expected.",
@@ -4832,7 +5203,8 @@
     "answer": 0,
     "answerText": "Carnitine palmitoyltransferase 1",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q372"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 56</span> A medical student has been clinically evaluated and the lab report indicates cholesterol level of 380mg/dL (normal <200mg/dL), while other parameters are normal. This result might be due to the deficiency of ……… .",
@@ -4845,7 +5217,8 @@
     "answer": 1,
     "answerText": "LDL receptor",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q373"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 37</span> A drug used as a cyclooxygenase inhibitor was able to reduce prostaglandin production without any change in enzyme affinity for its substrate. By removal of the inhibitor, prostaglandin production increased. The inhibition by this drug is ...............",
@@ -4858,7 +5231,8 @@
     "answer": 1,
     "answerText": "Noncompetitive",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q374"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 38</span> A patient with recurrent hypoglycemia is diagnosed with a defect in a glucose transporter (GLUT) because of which, hepatic release of glucose is impaired. Which GLUT has caused this defect?",
@@ -4871,7 +5245,8 @@
     "answer": 1,
     "answerText": "GLUT2",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q375"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 39</span> Which of the following processes is impaired in a patient with apoC-II deficiency?",
@@ -4884,7 +5259,8 @@
     "answer": 0,
     "answerText": "VLDL triglyceride hydrolysis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q376"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 40</span> The carbon skeleton of amino acids is directly converted to all of the following EXCEPT:",
@@ -4897,7 +5273,8 @@
     "answer": 2,
     "answerText": "HMG-CoA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q377"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 41</span> Lactate and hydrogen ion accumulation that occurs in the cardiac muscle because of reduced blood flow and hypoxia leads to the inhibition of ...............",
@@ -4910,7 +5287,8 @@
     "answer": 0,
     "answerText": "Phosphofructokinase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q378"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 42</span> Which of the following Krebs cycle intermediates is required for heme synthesis?",
@@ -4923,7 +5301,8 @@
     "answer": 3,
     "answerText": "Succinyl CoA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q379"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 43</span> Increased activity of ............... leads to reduced ATP synthesis in mitochondria.",
@@ -4936,7 +5315,8 @@
     "answer": 1,
     "answerText": "UCP1",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q380"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 44</span> Consumption of high levels of raw egg white results in biotin deficiency that leads to hypoglycemia and lack of energy. These symptoms result from the impaired function of ...............",
@@ -4949,7 +5329,8 @@
     "answer": 2,
     "answerText": "Pyruvate carboxylase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q381"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 45</span> Which of the following fatty acids should be included in total parenteral nutrition in a patient after abdominal surgery due to severe trauma?",
@@ -4962,7 +5343,8 @@
     "answer": 1,
     "answerText": "Linoleic",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q382"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 46</span> Which of the following acids is used for brain energy production in prolonged fasting?",
@@ -4975,7 +5357,8 @@
     "answer": 2,
     "answerText": "Beta-hydroxy butyric",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q383"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 47</span> Increased level of which amino acid is expected in the serum amino acid profile of a child with blurred vision, lens dislocation, osteoporosis, and mental retardation?",
@@ -4988,7 +5371,8 @@
     "answer": 1,
     "answerText": "Homocysteine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q384"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 48</span> Which of the following enzymes may be deficient in a 6-month-old baby who is admitted to the hospital due to vomiting, seizures, hepatomegaly and hyperammonemia?",
@@ -5001,7 +5385,8 @@
     "answer": 1,
     "answerText": "Ornithine transcarbamoylase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q385"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 49</span> The activity of creatine phospho kinase (CPK) is measured in myocardial infarction. What is the role of the product of this enzyme?",
@@ -5014,7 +5399,8 @@
     "answer": 3,
     "answerText": "Storage of high energy phosphate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q386"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 50</span> Which metabolic pathway is defective in a child with severe immunodeficiency due to adenosine deaminase (ADA) deficiency?",
@@ -5027,7 +5413,8 @@
     "answer": 2,
     "answerText": "Catabolism of adenosine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q387"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 51</span> Which of the following coenzymes is used for the synthesis of glutamate from alpha-ketoglutarate?",
@@ -5040,7 +5427,8 @@
     "answer": 0,
     "answerText": "NADPH",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q388"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 52</span> Which of the following conditions may lead to alkalosis?",
@@ -5053,7 +5441,8 @@
     "answer": 0,
     "answerText": "Hyperventilation and decreased CO<sub>2</sub>",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q389"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 53</span> The synthesis reaction of which of the following molecules is considered as the rate-limiting step in heme synthesis?",
@@ -5066,7 +5455,8 @@
     "answer": 3,
     "answerText": "Delta- aminolevulinic acid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q390"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 54</span> The deficiency of which of the following enzymes is responsible for Crigler-Najjar hyperbilirubinemia?",
@@ -5079,7 +5469,8 @@
     "answer": 2,
     "answerText": "UDP-glucuronosyl transferase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q391"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 55</span> The conversion of testosterone to its active metabolite (dihydrotestosterone) and to 17-beta estradiol is catalyzed by ........ and ........, respectively.",
@@ -5092,7 +5483,8 @@
     "answer": 1,
     "answerText": "5-alpha reductase - aromatase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q392"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 56</span> Serotonin and dopamine are two neurotransmitters that are produced from ........ and ........, respectively.",
@@ -5105,7 +5497,8 @@
     "answer": 2,
     "answerText": "Tryptophan - Tyrosine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q393"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 38</span> A 50-year-old man goes to the hospital two days after a heart attack (MI). Which enzyme assay helps in diagnosis?",
@@ -5118,7 +5511,8 @@
     "answer": 1,
     "answerText": "CK",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q394"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 39</span> Which bonds are formed through the creation and stability of the first, second, and third structures of proteins?",
@@ -5131,7 +5525,8 @@
     "answer": 0,
     "answerText": "Ionic-disulfide-hydrophobic",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q395"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 40</span> The accumulation of glucosyl ceramide in epithelial cells that causes Gaucher disease results from which of the following enzymatic disorders?",
@@ -5144,7 +5539,8 @@
     "answer": 2,
     "answerText": "Decreased beta-glucosidase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q396"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 41</span> What effect does the 2 and 4 dinitrophenol and carbon monoxide gas have on the electron transfer chain and ATP production process, respectively?",
@@ -5157,7 +5553,8 @@
     "answer": 3,
     "answerText": "Separation of oxidation from phosphorylation and IV complex",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q397"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 42</span> Which inhibitor binds to both enzymes and enzyme-substrate complex?",
@@ -5170,7 +5567,8 @@
     "answer": 1,
     "answerText": "Noncompetitive",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q398"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 43</span> In which case does the urea synthesis decrease?",
@@ -5183,7 +5581,8 @@
     "answer": 1,
     "answerText": "Long hunger",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q399"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 44</span> A patient suffers from lipid malabsorption, steatorrhea, and accumulation of lipid in the epithelial cells. The defect in which apolipoprotein causes the above symptoms?",
@@ -5196,7 +5595,8 @@
     "answer": 3,
     "answerText": "B-48",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q400"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 45</span> LCAT deficiency causes abnormal function in which lipoprotein?",
@@ -5209,7 +5609,8 @@
     "answer": 2,
     "answerText": "HDL",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q401"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 46</span> Which of the following coenzymes is involved in the conversion of succinate to fumarate?",
@@ -5222,7 +5623,8 @@
     "answer": 0,
     "answerText": "FAD",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q402"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 47</span> Which metabolic defect results in phenylketonuria disease?",
@@ -5235,7 +5637,8 @@
     "answer": 2,
     "answerText": "Non-conversion of phenylalanine to tyrosine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q403"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 48</span> Which of the following enzymes is inhibited by Methotrexate as a chemotherapy drug?",
@@ -5248,7 +5651,8 @@
     "answer": 0,
     "answerText": "Dihydrofolate reductase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q404"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 49</span> The most important role of glucocorticoids is to activate which metabolic pathway?",
@@ -5261,7 +5665,8 @@
     "answer": 1,
     "answerText": "Gluconeogenesis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q405"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 50</span> Which of the following sequences is translated as the protein startup password?",
@@ -5274,7 +5679,8 @@
     "answer": 2,
     "answerText": "AUG",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q406"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 51</span> In the presence of alpha-amantine, the production of which RNA is more reduced?",
@@ -5287,7 +5693,8 @@
     "answer": 0,
     "answerText": "mRNA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q407"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 52</span> Which subunit of the RNA polymerase holoenzyme is responsible for detecting the exact transcription site in bacteria?",
@@ -5300,7 +5707,8 @@
     "answer": 3,
     "answerText": "sigma",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q408"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 53</span> Which of the following hormones is produced by POMC?",
@@ -5313,7 +5721,8 @@
     "answer": 1,
     "answerText": "MSH",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q409"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 54</span> Which hormone induces the biosynthesis of phenylethanolamine N-methyletransferase (PNMT)?",
@@ -5326,7 +5735,8 @@
     "answer": 1,
     "answerText": "Cortisol",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q410"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 55</span> A patient suffers a disease characterized by water depletion. Which hormone is secreted physiologically?",
@@ -5339,7 +5749,8 @@
     "answer": 3,
     "answerText": "Vasopressin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q411"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 56</span> Which lipid is more abundant in the inner layer of the red blood cell membranes?",
@@ -5352,7 +5763,8 @@
     "answer": 0,
     "answerText": "Phosphatidylserine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q412"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 37</span> All of the following buffers are active in the human body, EXCEPT:",
@@ -5365,7 +5777,8 @@
     "answer": 0,
     "answerText": "inorganic orthophosphate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q413"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 38</span> Which unfavorable condition is induced for proteins in Alzheimer's disease?",
@@ -5378,7 +5791,8 @@
     "answer": 3,
     "answerText": "Protein aggregations resulting from improper folding",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q414"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 39</span> In which enzyme inhibition, increasing the concentration of the substrate leads to a decrease in the inhibitory effect?",
@@ -5391,7 +5805,8 @@
     "answer": 1,
     "answerText": "Competitive",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q415"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 40</span> To which type of RNA is Poly A tail added?",
@@ -5404,7 +5819,8 @@
     "answer": 1,
     "answerText": "mRNA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q416"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 41</span> Which of the following factors does NOT shift the sigmoid curve of oxygen-hemoglobin binding to the right?",
@@ -5417,7 +5833,8 @@
     "answer": 0,
     "answerText": "Acute alkalemia",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q417"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 42</span> In which of the following, the inhibiting drug is NOT related to the target enzyme?",
@@ -5430,7 +5847,8 @@
     "answer": 2,
     "answerText": "Celebrex-topoisomerase I",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q418"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 43</span> The maturity of the fetal lung can be assessed by ……… ratio in amniotic fluid.",
@@ -5443,7 +5861,8 @@
     "answer": 2,
     "answerText": "lecithin/sphingomyelin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q419"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 44</span> Which parts of the electron transport chain pathway and ATP production process are inhibited by CO, Amytal, 2 and 4 Dinitrophenol, and Atractyloside, respectively?",
@@ -5456,7 +5875,8 @@
     "answer": 0,
     "answerText": "Complex IV, complex I, separating phosphorylation from oxidation, translocase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q420"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 45</span> In patients with liver cirrhosis, which result is observed in the electrophoresis of plasma proteins?",
@@ -5469,7 +5889,8 @@
     "answer": 2,
     "answerText": "Increased gamma globulin band, decreased albumin band",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q421"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 46</span> Vitamin B12 deficiency leads to the deficient function of ……… .",
@@ -5482,7 +5903,8 @@
     "answer": 0,
     "answerText": "methionine synthase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q422"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 47</span> Which of the following is seen in a patient with 'essential pentosuria'?",
@@ -5495,7 +5917,8 @@
     "answer": 1,
     "answerText": "Urinary excretion of xylulose",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q423"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 48</span> The increase in which of the following is NOT seen in patients with type 2 diabetes?",
@@ -5508,7 +5931,8 @@
     "answer": 3,
     "answerText": "Glycogen biosynthesis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q424"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 49</span> Propionyl CoA that results from the beta-oxidation of odd-chain fatty acids is converted to …… .",
@@ -5521,7 +5945,8 @@
     "answer": 3,
     "answerText": "succinyl CoA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q425"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 50</span> The activity of which enzyme leads to the production of carbon monoxide?",
@@ -5534,7 +5959,8 @@
     "answer": 2,
     "answerText": "Heme oxygenase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q426"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 51</span> 'Severe combined immunodeficiency disease' results from the deficiency of ……… .",
@@ -5547,7 +5973,8 @@
     "answer": 1,
     "answerText": "adenosine deaminase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q427"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 52</span> Which of the following is NOT correct about 17β-estradiol?",
@@ -5560,7 +5987,8 @@
     "answer": 2,
     "answerText": "Inhibin B is its main carrier in blood circulation.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q428"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 53</span> Which of the following is NOT seen in an infant with pyruvate dehydrogenase deficiency?",
@@ -5573,7 +6001,8 @@
     "answer": 3,
     "answerText": "Acetyl CoA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q429"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 54</span> Which of the following conditions is NOT caused by excessive dietary fructose consumption?",
@@ -5586,7 +6015,8 @@
     "answer": 3,
     "answerText": "Increased ATP biosynthesis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q430"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 55</span> Which enzyme is inactive in adipose tissue in the well-fed state?",
@@ -5599,7 +6029,8 @@
     "answer": 3,
     "answerText": "Hormone sensitive lipase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q431"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 56</span> Which of the following conditions is negatively affected by zinc deficiency?",
@@ -5612,7 +6043,8 @@
     "answer": 0,
     "answerText": "Wound healing",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q432"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 37</span> A 73-year-old woman has a malignant and expanded tumor in the main bile duct. All of the following is correct about her Except:",
@@ -5625,7 +6057,8 @@
     "answer": 3,
     "answerText": "if not treated, she will suffer from kernicterus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q433"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 38</span> A genetic analysis of an unknown infectious agent reveals that it contains the nucleotides G, A, U, and C in proportions of 31%, 35%, 15%, and 21%, respectively. Based on this information, this infectious agent is most likely a:",
@@ -5638,7 +6071,8 @@
     "answer": 1,
     "answerText": "Single-stranded RNA virus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q434"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 39</span> Which of the following items increases in cytosol when a person has been fed?",
@@ -5651,7 +6085,8 @@
     "answer": 1,
     "answerText": "Malonyl coenzyme A",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q435"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 40</span> Which of the followings is a reducing sugar?",
@@ -5664,7 +6099,8 @@
     "answer": 0,
     "answerText": "Maltose",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q436"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 41</span> Which vitamin deficiency occurs in vegetarians?",
@@ -5677,7 +6113,8 @@
     "answer": 3,
     "answerText": "B12",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q437"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 42</span> Which of the following options is more accurate in diagnosis of hyperthyroidism?",
@@ -5690,7 +6127,8 @@
     "answer": 1,
     "answerText": "measurement of TSH and free T4",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q438"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 43</span> Which of the following molecules mediates the prolactin hormone signal transduction pathway?",
@@ -5703,7 +6141,8 @@
     "answer": 0,
     "answerText": "JAK/STAT",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q439"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 44</span> The amount of the activity of erythrocyte transaminases is used for determining the concentration of ………. vitamin.",
@@ -5716,7 +6155,8 @@
     "answer": 0,
     "answerText": "B6",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q440"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 45</span> All of the following amino acids are involved in the synthesis of purines Except:",
@@ -5729,7 +6169,8 @@
     "answer": 0,
     "answerText": "Tryptophan",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q441"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 46</span> Which of the following reducing agents is directly involved in conversion of ribonucleotides to deoxyribonucleotides?",
@@ -5742,7 +6183,8 @@
     "answer": 3,
     "answerText": "Reduced thioredoxin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q442"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 47</span> Which of the following enzymes does phosphorylation without the need of ATP?",
@@ -5755,7 +6197,8 @@
     "answer": 3,
     "answerText": "Glyceraldehyde 3-phosphate dehydrogenase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q443"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 48</span> Which of the following enzymes is activated by acetyl coenzyme A?",
@@ -5768,7 +6211,8 @@
     "answer": 1,
     "answerText": "Pyruvate carboxylase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q444"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 49</span> Hypoglycemia occurs in patients with hereditary fructose intolerance by consuming fructose syrup because of ...",
@@ -5781,7 +6225,8 @@
     "answer": 3,
     "answerText": "aldolase B deficiency",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q445"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 50</span> Which of the following compounds uncouples oxidation from phosphorylation across the electron transfer chain?",
@@ -5794,7 +6239,8 @@
     "answer": 2,
     "answerText": "Valinomycin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q446"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 51</span> In the process of eukaryotic replication, RNA primer fragments are made by ...",
@@ -5807,7 +6253,8 @@
     "answer": 2,
     "answerText": "DNA POL α",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q447"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 52</span> Which of the following transcription factors binds to the TATA box in Eukaryotes?",
@@ -5820,7 +6267,8 @@
     "answer": 0,
     "answerText": "TFIID",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q448"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 53</span> Which of the following vitamins is the coenzyme of glutamate carboxylation reaction?",
@@ -5833,7 +6281,8 @@
     "answer": 2,
     "answerText": "Vitamin K",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q449"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 55</span> If the amide bond in ganglioside structure is broken, which molecule is released?",
@@ -5846,7 +6295,8 @@
     "answer": 1,
     "answerText": "Fatty acid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q450"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 56</span> In scurvy, post-translational modification of proteins fails to result in the formation of ...",
@@ -5859,7 +6309,8 @@
     "answer": 2,
     "answerText": "Hydroxyproline",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q451"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 35</span> Which type of inhibitors do NOT affect enzyme Km?",
@@ -5872,7 +6323,8 @@
     "answer": 1,
     "answerText": "Non-Competitive",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q452"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 36</span> Production of which compound is inhibited by statin drugs?",
@@ -5885,7 +6337,8 @@
     "answer": 0,
     "answerText": "Cholesterol",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q453"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 37</span> All of the following metabolic pathways are activated by insulin EXCEPT for ……….",
@@ -5898,7 +6351,8 @@
     "answer": 0,
     "answerText": "Lipolysis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q454"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 38</span> Which of the following lipoproteins is involved in the metabolism of other lipoproteins?",
@@ -5911,7 +6365,8 @@
     "answer": 0,
     "answerText": "HDL",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q455"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 39</span> Which condition does NOT cause hyperuricemia?",
@@ -5924,7 +6379,8 @@
     "answer": 3,
     "answerText": "Niemann-Pick Disease",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q456"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 40</span> Which protein is NOT considered as a structural protein in the human body?",
@@ -5937,7 +6393,8 @@
     "answer": 0,
     "answerText": "Albumin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q457"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 41</span> Which pair is considered as a nucleoside followed by its related base?",
@@ -5950,7 +6407,8 @@
     "answer": 0,
     "answerText": "Inosine - Hypoxanthine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q458"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 42</span> Adenosine-derivative of which amino acid is involved in transferring methyl functional group?",
@@ -5963,7 +6421,8 @@
     "answer": 2,
     "answerText": "Methionine",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q459"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 43</span> Which formula represents an Omega-6 fatty acid?",
@@ -5976,7 +6435,8 @@
     "answer": 3,
     "answerText": "C20:4; 5, 8, 11, 14",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q460"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 44</span> Tyrosine is used as a precursor for biosynthesis of all the following compounds EXCEPT ……….",
@@ -5989,7 +6449,8 @@
     "answer": 1,
     "answerText": "GABA",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q461"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 45</span> The reaction, catalyzed by ……… enzyme, is the main regulated stage in the glycolysis pathway.",
@@ -6002,7 +6463,8 @@
     "answer": 0,
     "answerText": "Phosphofructokinase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q462"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 46</span> Which compound is NOT produced in the pentose phosphate pathway?",
@@ -6015,7 +6477,8 @@
     "answer": 1,
     "answerText": "ATP",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q463"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 47</span> Lead poisoning disrupts ……. enzyme activity in Heme biosynthesis pathway.",
@@ -6028,7 +6491,8 @@
     "answer": 0,
     "answerText": "Ferrochelatase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q464"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 48</span> Lipase is a member of class ………. enzymes.",
@@ -6041,7 +6505,8 @@
     "answer": 0,
     "answerText": "Hydrolase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q465"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 49</span> Which of the following conditions is associated with increased form of conjugated bilirubin?",
@@ -6054,7 +6519,8 @@
     "answer": 0,
     "answerText": "Obstructive jaundice",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q466"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 50</span> Catabolism of which compound results in production of more chemical energy in the form of ATP?",
@@ -6067,7 +6533,8 @@
     "answer": 2,
     "answerText": "Palmitic acid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q467"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 51</span> Which compound is produced through aromatization of testosterone in the peripheral tissues?",
@@ -6080,7 +6547,8 @@
     "answer": 1,
     "answerText": "17-Beta Estradiol",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q468"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 52</span> The receptor for which hormone is located on the cell membrane?",
@@ -6093,7 +6561,8 @@
     "answer": 0,
     "answerText": "TSH",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q469"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 53</span> Which compound is NOT considered as a natural component in urine?",
@@ -6106,7 +6575,8 @@
     "answer": 0,
     "answerText": "Bilirubin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q470"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 54</span> Vitamin …………. is involved in ……………… reactions in metabolism of amino acids?",
@@ -6119,6 +6589,7 @@
     "answer": 0,
     "answerText": "B6 - Transamination",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-bioc-q471"
   }
 ]
