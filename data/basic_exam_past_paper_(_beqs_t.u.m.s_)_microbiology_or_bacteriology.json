@@ -10,7 +10,8 @@
     "answer": 3,
     "answerText": "Lack of 70S ribosomes",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 64</span> The doubling time will be minimized at which stage of the growth curve of the bacteria?",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Log phase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 65</span> In all following bacterial infections, the combination of two or more antibiotics is recommended except for:",
@@ -36,7 +38,8 @@
     "answer": 2,
     "answerText": "Streptococcal purulent angina",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 66</span> All of the following bacteria are part of the normal flora of the human intestine except:",
@@ -49,7 +52,8 @@
     "answer": 3,
     "answerText": "Shigella",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 67</span> The following is true for Streptococcus pyogenes, except:",
@@ -62,7 +66,8 @@
     "answer": 1,
     "answerText": "Tooth Decay",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 68</span> Serotype O157:H7 of diarrhea-causing Escherichia coli belongs to which one of the following pathotypes?",
@@ -75,7 +80,8 @@
     "answer": 0,
     "answerText": "EHEC",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 69</span> Which of the following is a zoonotic bacterium (a common factor between humans and animals)?",
@@ -88,7 +94,8 @@
     "answer": 3,
     "answerText": "Francisella Tularensis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 70</span> Cholera toxin is produced by which of the following serum groups?",
@@ -101,7 +108,8 @@
     "answer": 1,
     "answerText": "O139-O1",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 71</span> All of the following factors are considered as STDs (transmitted through sexual intercourse), except:",
@@ -114,7 +122,8 @@
     "answer": 0,
     "answerText": "Chlamydia psittaci",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2013 - Question 72</span> The gold standard for diagnosing pulmonary tuberculosis is which one of the following options?",
@@ -127,7 +136,8 @@
     "answer": 2,
     "answerText": "Cultivation and isolation of bacteria",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 128</span> Which bacteria causes erysipelas?",
@@ -140,7 +150,8 @@
     "answer": 1,
     "answerText": "Streptococcus pyogenes",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 129</span> Which of the following antibiotics effects by harming the membranes containing phosphatidyl ethanolamine?",
@@ -153,7 +164,8 @@
     "answer": 2,
     "answerText": "Polymyxin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 130</span> Which of the alphabets below show the LPS of gram-negative bacteria?<br><img src='https://i.imgur.com/ynQ0KLQ.jpeg' alt='Bacteria Image' style='max-width: 100%; height: auto;'>",
@@ -166,7 +178,8 @@
     "answer": 0,
     "answerText": "A",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 131</span> Which antibiotic blocks protein synthesis in bacteria?",
@@ -179,7 +192,8 @@
     "answer": 0,
     "answerText": "Gentamicin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 132</span> Having F factor in bacteria causes which of the following conditions?",
@@ -192,7 +206,8 @@
     "answer": 1,
     "answerText": "Synthesis of sexual Pilli",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 133</span> Gram-negative Bacilli are seen in a CSF sample of a 4-year-old child. Which one is the cause of meningitis of this child?",
@@ -205,7 +220,8 @@
     "answer": 2,
     "answerText": "Haemophilus influenzae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 134</span> Which one is this side effect of infection by Streptococcus pyogenes?",
@@ -218,7 +234,8 @@
     "answer": 3,
     "answerText": "Glomerulonephritis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 135</span> Which one of the following bacteria is only hosted by humans?",
@@ -231,7 +248,8 @@
     "answer": 0,
     "answerText": "Bordetella pertussis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 136</span> What's the nature of diphtheria vaccine?",
@@ -244,7 +262,8 @@
     "answer": 0,
     "answerText": "Toxoid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 137</span> Which one is true about chlamydia?",
@@ -257,7 +276,8 @@
     "answer": 3,
     "answerText": "Only grow in living cells",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2014 - Question 138</span> In which form of leprosy the patients have a high immune response?",
@@ -270,7 +290,8 @@
     "answer": 1,
     "answerText": "Tuberculoid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 128</span> Which of the following bacteria causes Erysipelas?",
@@ -283,7 +304,8 @@
     "answer": 1,
     "answerText": "Streptococcus pyogenes",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 129</span> Which of the following antibiotics affects by harming phosphatidylethanolamine-containing membranes?",
@@ -296,7 +318,8 @@
     "answer": 2,
     "answerText": "Polymyxin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 130</span> Which of the following illnesses is normally not transmitted from animals to humans?",
@@ -309,7 +332,8 @@
     "answer": 0,
     "answerText": "Syphilis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 131</span> Which of the following bacteria has two ring chromosomes?",
@@ -322,7 +346,8 @@
     "answer": 0,
     "answerText": "Brucella",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 132</span> Which of the following does not have normal flora?",
@@ -335,7 +360,8 @@
     "answer": 3,
     "answerText": "Synovial fluid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 133</span> What is the first recommendation in the treatment of methicillin-resistant Staphylococcus infection?",
@@ -348,7 +374,8 @@
     "answer": 1,
     "answerText": "Vancomycin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 134</span> Which of the following bacteria causes chronic gastritis and malignancy?",
@@ -361,7 +388,8 @@
     "answer": 0,
     "answerText": "Helicobacter pylori",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 135</span> Urinary tract infection with which of the following bacteria can lead to the formation of urinary tract stones?",
@@ -374,7 +402,8 @@
     "answer": 2,
     "answerText": "Proteus mirabilis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 136</span> Which of the following antibiotics inhibits bacterial nucleic acid synthesis?",
@@ -387,7 +416,8 @@
     "answer": 1,
     "answerText": "Ciprofloxacin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 137</span> Excretion of bacteria via urine is considered a main symptom of which disease?",
@@ -400,7 +430,8 @@
     "answer": 2,
     "answerText": "Leptospirosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (2) 2014 - Question 138</span> A one-year-old child with acute meningitis is admitted to the hospital. With gram staining of specimens of spinal cord fluid, gram-positive bacilli have been seen. The baby's mother also stated that she had received all the meningitis vaccines. Which bacteria is the cause of the disease?",
@@ -413,7 +444,8 @@
     "answer": 0,
     "answerText": "Listeria monocytogenes",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 71</span> In which stages of the bacterial growth curve is the sensitivity to antibiotics more?",
@@ -426,7 +458,8 @@
     "answer": 1,
     "answerText": "Log Phase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 72</span> Which of the following is incorrect for taking antimicrobials as prophylaxis?",
@@ -439,7 +472,8 @@
     "answer": 1,
     "answerText": "In preventing drug resistance in bacteria",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 73</span> Disease caused by corynebacterium diphtheriae is mediated by a toxin of type A-B. Which of the following best describes the effect of this toxin?",
@@ -452,7 +486,8 @@
     "answer": 2,
     "answerText": "Disruption of protein synthesis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 74</span> What is the most common clinical form of Bacillus anthracis in humans?",
@@ -465,7 +500,8 @@
     "answer": 3,
     "answerText": "Skin infection",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 75</span> Which of the following bacteria needs lesser infectious dose to cause infection?",
@@ -478,7 +514,8 @@
     "answer": 0,
     "answerText": "Shigella dysenteriae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 76</span> Which type of hemophilus influenza is the most common cause of meningitis in children aged 5 months to 5 years old?",
@@ -491,7 +528,8 @@
     "answer": 1,
     "answerText": "b",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 77</span> All of the following are true for brucellosis but:",
@@ -504,7 +542,8 @@
     "answer": 2,
     "answerText": "In the first trimester pregnancy causes abortion in humans.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 78</span> What is the natural reservoir of Salmonella typhi?",
@@ -517,7 +556,8 @@
     "answer": 3,
     "answerText": "Human",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q40"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 79</span> Which pathogenic agent of Streptococcus pyogenes has a role in the attachment, resistance to phagocytosis and its antigenic changes?",
@@ -530,7 +570,8 @@
     "answer": 2,
     "answerText": "M protein",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q41"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 80</span> Which bacterium is the most common cause of impetigo?",
@@ -543,7 +584,8 @@
     "answer": 0,
     "answerText": "Staphylococcus aureus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q42"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2014 - Question 81</span> What is the meaning of ANergy in tuberculin skin testing?",
@@ -556,7 +598,8 @@
     "answer": 0,
     "answerText": "Negative test due to immunosuppressive diseases",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q43"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 92</span> Which of the following is the most important factor in pathogenicity of Mycobacterium tuberculosis?",
@@ -569,7 +612,8 @@
     "answer": 1,
     "answerText": "Stimulation of host immune response",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q44"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 93</span> Which of the following is the cause of Erysipelas disease?",
@@ -582,7 +626,8 @@
     "answer": 0,
     "answerText": "Streptococcus pyogenes",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q45"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 94</span> Which part of lipopolysaccharide (LPS) in gram-negative bacteria has poisonous characteristic?",
@@ -595,7 +640,8 @@
     "answer": 1,
     "answerText": "A Lipid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q46"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 95</span> Which of the following bacteria has intrinsic resistance to vancomycin?",
@@ -608,7 +654,8 @@
     "answer": 2,
     "answerText": "Mycoplasma pneumoniae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q47"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 96</span> Gram Positive Cocci, Catalase positive and Novobiocin-resistant have been separated in the urine culture of a 23-year-old married woman. Which one is the agent of this infection?",
@@ -621,7 +668,8 @@
     "answer": 3,
     "answerText": "Staphylococcus saprophyticus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q48"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 97</span> Which of the following is incorrect about typhoid disease?",
@@ -634,7 +682,8 @@
     "answer": 2,
     "answerText": "Widal test is positive in the first week of infection.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q49"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 98</span> In process of diseases of which of the following microorganisms isn't bacteremia seen?",
@@ -647,7 +696,8 @@
     "answer": 2,
     "answerText": "Corynebacterium diphtheriae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q50"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 99</span> For the laboratory diagnosis of which of the bacteria is Thiosulfate-citrate-bile salts-sucrose agar used?",
@@ -660,7 +710,8 @@
     "answer": 0,
     "answerText": "Vibrio cholerae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q51"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 100</span> Which of the following does not play a role in pathogenicity of gonococcus?",
@@ -673,7 +724,8 @@
     "answer": 3,
     "answerText": "Capsule",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q52"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 101</span> Which of the following are diphtheria vaccines?",
@@ -686,7 +738,8 @@
     "answer": 1,
     "answerText": "Toxoid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q53"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2015 - Question 102</span> Which disease’s agent is part of the normal flora of the body?",
@@ -699,7 +752,8 @@
     "answer": 3,
     "answerText": "Actinomycosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q54"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 128</span> Which bacteria causes erysipelas?",
@@ -712,7 +766,8 @@
     "answer": 1,
     "answerText": "Streptococcus pyogenes",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q55"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 129</span> Which of the following antibiotics affects by harming the membranes containing phosphatidyl ethanolamine?",
@@ -725,7 +780,8 @@
     "answer": 2,
     "answerText": "Polymyxin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q56"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 130</span> Which of the alphabets below shows the LPS of gram-negative bacteria? <br><img src='https://i.imgur.com/8KJXHww.jpeg' style='max-width: 100%; height: auto;'>",
@@ -738,7 +794,8 @@
     "answer": 0,
     "answerText": "A",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q57"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 131</span> Which antibiotic blocks protein synthesis in bacteria?",
@@ -751,7 +808,8 @@
     "answer": 0,
     "answerText": "Gentamicin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q58"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 132</span> Having the F factor in bacteria causes which of the following conditions?",
@@ -764,7 +822,8 @@
     "answer": 1,
     "answerText": "Synthesis of sexual pili",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q59"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 133</span> Gram-negative bacilli are seen in a CSF sample of a 4-year-old child. Which one is the cause of meningitis in this child?",
@@ -777,7 +836,8 @@
     "answer": 2,
     "answerText": "Bacillus influenzae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q60"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 134</span> Which of the following is a side effect of infection by Streptococcus pyogenes?",
@@ -790,7 +850,8 @@
     "answer": 3,
     "answerText": "Glomerulonephritis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q61"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 135</span> Which of the following bacteria is only hosted by humans?",
@@ -803,7 +864,8 @@
     "answer": 0,
     "answerText": "Bordetella pertussis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q62"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 136</span> What's the nature of diphtheria vaccine?",
@@ -816,7 +878,8 @@
     "answer": 0,
     "answerText": "Toxoid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q63"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 137</span> Which one is true about chlamydia?",
@@ -829,7 +892,8 @@
     "answer": 3,
     "answerText": "Only grow in living cells",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q64"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February 2016 - Question 138</span> In which form of leprosy do patients have a high immune response?",
@@ -842,7 +906,8 @@
     "answer": 1,
     "answerText": "Tuberculoid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q65"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 92</span> What is the most important pathogenicity factor of staphylococcus epidermia due to use of contaminated catheters?",
@@ -855,7 +920,8 @@
     "answer": 0,
     "answerText": "Biofilm",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q66"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 93</span> Which one is not true about chlamydia pneumonia?",
@@ -868,7 +934,8 @@
     "answer": 1,
     "answerText": "Has multiple serotypes.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q67"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 94</span> The number of which microorganism is severely decreased in bacterial vaginosis as normal flora?",
@@ -881,7 +948,8 @@
     "answer": 1,
     "answerText": "Lactobacillus species",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q68"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 95</span> Which of the following diseases is not considered mutual between human and animal?",
@@ -894,7 +962,8 @@
     "answer": 1,
     "answerText": "Intestinal fever",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q69"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 96</span> In which of the following is the nature of vaccine different with others?",
@@ -907,7 +976,8 @@
     "answer": 2,
     "answerText": "Clostridium tetani",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q70"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 97</span> Infection with which of the types of brucella is usually acute and with septic lesions?",
@@ -920,7 +990,8 @@
     "answer": 1,
     "answerText": "Brucella melitensis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q71"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 98</span> Which of the following factors is used in categorization of lansfield streptococcus?",
@@ -933,7 +1004,8 @@
     "answer": 3,
     "answerText": "Cell wall carbohydrates",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q72"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 99</span> All of the following methods are used in diagnosis of cephili bit:",
@@ -946,7 +1018,8 @@
     "answer": 3,
     "answerText": "PCR",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q73"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 100</span> Which bacterial form causes a trouble in cure of infection?",
@@ -959,7 +1032,8 @@
     "answer": 0,
     "answerText": "L-form",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q74"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 101</span> Which of the following bacteria causes Erysipelas?",
@@ -972,7 +1046,8 @@
     "answer": 1,
     "answerText": "Streptococcus pyogenes",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q75"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (21) 2016 - Question 102</span> Which of the following antibiotics affect with harming phosphatydilethanolamin-containing membranes?",
@@ -985,7 +1060,8 @@
     "answer": 2,
     "answerText": "Polymyxin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q76"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 92</span> Which of the following compounds is a beta-lactamase enzyme inhibitor?",
@@ -998,7 +1074,8 @@
     "answer": 2,
     "answerText": "Sulbactam",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q77"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 93</span> Which of the following toxins affects with Pore Forming mechanism?",
@@ -1011,7 +1088,8 @@
     "answer": 3,
     "answerText": "Streptolysin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q78"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 94</span> Which of the following is a feature of the pathological islands?",
@@ -1024,7 +1102,8 @@
     "answer": 0,
     "answerText": "Carries virulence encoding genes.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q79"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 95</span> Which one of the following options is the most important source of gonorrhea?",
@@ -1037,7 +1116,8 @@
     "answer": 0,
     "answerText": "Women with asymptomatic disease",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q80"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 96</span> In the wall of Which of the following bacteria is not found mycolic acid?",
@@ -1050,7 +1130,8 @@
     "answer": 3,
     "answerText": "Israeli Actinomyceses",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q81"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 97</span> Cold agglutination or human erythrocytes is used to diagnose the infection of which bacteria?",
@@ -1063,7 +1144,8 @@
     "answer": 2,
     "answerText": "Mycoplasma pneumoniae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q82"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 98</span> Granulumatozys infanty Septyka by which of the following bacteria caused?",
@@ -1076,7 +1158,8 @@
     "answer": 1,
     "answerText": "Listeria monocytogenes",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q83"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 99</span> Which of the following is used to diagnose false mucus colitis after taking antibiotics?",
@@ -1089,7 +1172,8 @@
     "answer": 1,
     "answerText": "Diagnosis of Clostridium difficile Toxin in the stool",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q84"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 100</span> Which of the following bacteria like Shigella produces exotoxin?",
@@ -1102,7 +1186,8 @@
     "answer": 3,
     "answerText": "E. coli",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q85"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 101</span> Red Wind Infection (Erysipelas), by which of the following bacteria caused?",
@@ -1115,7 +1200,8 @@
     "answer": 1,
     "answerText": "Streptococcus pyogenes",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q86"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>February (22) 2016 - Question 102</span> Which of the following antibiotics affects by damaging the membranes containing phosphatidyl ethanolamine?",
@@ -1128,7 +1214,8 @@
     "answer": 2,
     "answerText": "Polymyxin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q87"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 1</span> Which item increases by increasing afterload?",
@@ -1141,7 +1228,8 @@
     "answer": 1,
     "answerText": "End systolic volume",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q88"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 2</span> In which of the following do the growth hormone and the insulin act the same?",
@@ -1154,7 +1242,8 @@
     "answer": 2,
     "answerText": "Protein store",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q89"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 3</span> Which of the following statements is not correct about the effects of thyroid hormones?",
@@ -1167,7 +1256,8 @@
     "answer": 3,
     "answerText": "Increased plasma cholesterol concentration",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q90"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 4</span> Which of the following statements is correct about the function of the reproductive system of women?",
@@ -1180,7 +1270,8 @@
     "answer": 0,
     "answerText": "Inhibin inhibits the secretion of FSH more than LH.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q91"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 5</span> In which of the following options there is a harmony for hormonal function?",
@@ -1193,7 +1284,8 @@
     "answer": 1,
     "answerText": "Cortisol, increased release of amino acids from non-liver tissues",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q92"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 6</span> What is the correct statement about the action potential in the neuron?",
@@ -1206,7 +1298,8 @@
     "answer": 3,
     "answerText": "Absolute irritability is due to the properties of sodium voltage channels.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q93"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 7</span> Which of the following statements is correct about the gastrointestinal tract?",
@@ -1219,7 +1312,8 @@
     "answer": 1,
     "answerText": "The amino acids and the fatty acids present in the duodenum stimulate CCK.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q94"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 8</span> Following an increase in the volume of extracellular fluid, increase of all of the following are likely to occur, except:",
@@ -1232,7 +1326,8 @@
     "answer": 0,
     "answerText": "Serum rennin amount",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q95"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 9</span> Which of the following has an inverse relationship with lymph flow?",
@@ -1245,7 +1340,8 @@
     "answer": 2,
     "answerText": "Osmotic-colloid capillary pressure",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q96"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 10</span> Which of the following prevents vascular narrowness?",
@@ -1258,7 +1354,8 @@
     "answer": 3,
     "answerText": "5-phosphodiesterase inhibitor",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q97"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 11</span> Which of the following is an intravascular anticoagulant?",
@@ -1271,7 +1368,8 @@
     "answer": 3,
     "answerText": "Protein C",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q98"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 12</span> The tubular concentration of X-substance in comparison to its concentration in plasma is the same in the proximal tubule, increased in the descending part of the Henle tube, and decreased in the ascending part. What is this substance?",
@@ -1284,7 +1382,8 @@
     "answer": 1,
     "answerText": "Potassium",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q99"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 13</span> Which of the following occurs in the thick arm of Henle by controlling the common carrier (Na.K.2Cl)?",
@@ -1297,7 +1396,8 @@
     "answer": 3,
     "answerText": "Increase osmolarity of the blood",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q100"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 14</span> Which sensory receptor has a dilated end and is present in the hairy parts of the skin and creates a continuous sense of touch?",
@@ -1310,7 +1410,8 @@
     "answer": 1,
     "answerText": "Merkel disc",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q101"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 15</span> Which one is Right about the autonomic nervous system?",
@@ -1323,7 +1424,8 @@
     "answer": 2,
     "answerText": "Sympathetic cholinergic fibers go to sweat glands.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q102"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 16</span> Which waves are dominant in EEG respectively in deep sleep, rest with open eyes and in infants?",
@@ -1336,7 +1438,8 @@
     "answer": 3,
     "answerText": "Delta - Beta - Theta",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q103"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 17</span> Which of the following cases has an inhibitory synapse on deep nuclei cerebellar cells?",
@@ -1349,7 +1452,8 @@
     "answer": 0,
     "answerText": "Purkinje cells",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q104"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 18</span> Which of the following statements is true about ventilation and blood flow in the lungs?",
@@ -1362,7 +1466,8 @@
     "answer": 2,
     "answerText": "In the physiological shunt, the ratio of V / Q is less than unit.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q105"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 19</span> In an adult, what is the highest resistance to airflow in which part of the respiratory tract?",
@@ -1375,7 +1480,8 @@
     "answer": 3,
     "answerText": "Bronchus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q106"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 20</span> What can prevent the continuation of re-stimulation of the muscle cell following an action potential for skeletal muscle fiber?",
@@ -1388,7 +1494,8 @@
     "answer": 0,
     "answerText": "Fast removal of acetylcholine by acetylcholine esterase",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q107"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 21</span> What is the difference between single-unit and multi-unit smooth muscle?",
@@ -1401,7 +1508,8 @@
     "answer": 2,
     "answerText": "Multi-unit smooth muscle cells are basically controlled independently by neural stimulants.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q108"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 22</span> In which of the following conditions does decerebrate rigidity occur?",
@@ -1414,7 +1522,8 @@
     "answer": 0,
     "answerText": "Interruption of the brain trunk below the midrange of the mesencephalon at the top of the mesh system",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q109"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 23</span> Which of the following hormones inhibits the movement of the small intestine?",
@@ -1427,7 +1536,8 @@
     "answer": 3,
     "answerText": "Gastric inhibitory peptide",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q110"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 24</span> Which of the following peptides plays a role in enhancing the absorption of iron from the intestines?",
@@ -1440,7 +1550,8 @@
     "answer": 2,
     "answerText": "Hepcidin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q111"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 25</span> What is the effect of calcitonin?",
@@ -1453,7 +1564,8 @@
     "answer": 3,
     "answerText": "Decreases calcium concentration in the blood",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q112"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2016 - Question 26</span> Which hormone primarily controls the amount of water reabsorbed in the kidneys?",
@@ -1466,7 +1578,8 @@
     "answer": 1,
     "answerText": "Antidiuretic hormone (ADH)",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q113"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 83</span> All of the following are effective in pathogenic procedure of mycobacterium tuberculosis but:",
@@ -1479,7 +1592,8 @@
     "answer": 3,
     "answerText": "Exotoxin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q114"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 84</span> Antistreptolysin O tests is useful to confirm infection with which of the following Streptococcus?",
@@ -1492,7 +1606,8 @@
     "answer": 0,
     "answerText": "A",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q115"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 85</span> Which class of antibiotics causes the inhibition of transpeptidase enzyme?",
@@ -1505,7 +1620,8 @@
     "answer": 1,
     "answerText": "Beta-lactam",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q116"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 86</span> In which form of the genetic transfer of bacteria does Hfr have a role?",
@@ -1518,7 +1634,8 @@
     "answer": 3,
     "answerText": "Conjugation",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q117"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 87</span> A 30-year-old woman with a history of urinary tract infection has been referred to the emergency department with clinical signs of urinary tract irritation and urinary frequency. She says her urine smells like ammonium. Which of the following bacteria is the cause of your urinary tract infection?",
@@ -1531,7 +1648,8 @@
     "answer": 2,
     "answerText": "Proteus mirabilis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q118"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 88</span> The toxin of which of the following bacteria causes scalded skin syndrome?",
@@ -1544,7 +1662,8 @@
     "answer": 2,
     "answerText": "Exfoliative",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q119"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 89</span> All of the following is true about Pilli but:",
@@ -1557,7 +1676,8 @@
     "answer": 2,
     "answerText": "Prevents bacterial phagocytosis.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q120"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 90</span> Which of the following is true about the Tuberculin skin test?",
@@ -1570,7 +1690,8 @@
     "answer": 0,
     "answerText": "Being positive is not a clear sign of infection.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q121"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (22) 2016 - Question 91</span> In all of the following pathogenic bacteria, human to human transfer is seen but:",
@@ -1583,7 +1704,8 @@
     "answer": 1,
     "answerText": "Legionella",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q122"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 83</span> Which of the following is true about the capsule of bacteria?",
@@ -1596,7 +1718,8 @@
     "answer": 0,
     "answerText": "has a role in prevention of phagocytosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q123"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 84</span> Which bacteria is the factor of Lymphogranuloma venerum?",
@@ -1609,7 +1732,8 @@
     "answer": 3,
     "answerText": "Chlamydia trachomatis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q124"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 85</span> Acute Glomerulonephritis is the secondary bacterial infection of which of the following bacteria?",
@@ -1622,7 +1746,8 @@
     "answer": 1,
     "answerText": "Streptococcus pyogenes",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q125"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 86</span> Which of the following antibiotics prevent protein synthesis in bacteria?",
@@ -1635,7 +1760,8 @@
     "answer": 0,
     "answerText": "Erythromycin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q126"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 87</span> All of the following is effective for prevention of anthrax but:",
@@ -1648,7 +1774,8 @@
     "answer": 2,
     "answerText": "Rifampin-prophylaxis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q127"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 88</span> Which of the following bacteria causes urinary alkalization and bladder stones?",
@@ -1661,7 +1788,8 @@
     "answer": 1,
     "answerText": "Proteus mirabilis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q128"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 89</span> All of the following is true about Pilli but:",
@@ -1674,7 +1802,8 @@
     "answer": 2,
     "answerText": "Prevents bacterial phagocytosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q129"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 90</span> Which of the following in true about Tuberculin skin test?",
@@ -1687,7 +1816,8 @@
     "answer": 0,
     "answerText": "Being positive is not a clear sign of infection",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q130"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (23) 2016 - Question 91</span> In all of the following pathogenic bacteria human to human transfer is seen but:",
@@ -1700,7 +1830,8 @@
     "answer": 1,
     "answerText": "Legionella",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q131"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 115</span> All of the following is true about Pilli but:",
@@ -1713,7 +1844,8 @@
     "answer": 2,
     "answerText": "Prevents bacterial phagocytosis.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q132"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 116</span> Which of the following is true about Tuberculin skin test?",
@@ -1726,7 +1858,8 @@
     "answer": 0,
     "answerText": "Being positive is not a clear sign of infection.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q133"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 117</span> In all of the following pathogenic bacteria human to human transfer is seen but:",
@@ -1739,7 +1872,8 @@
     "answer": 1,
     "answerText": "Legionella",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q134"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 118</span> Which of the following antibiotic groups is known as antimetabolite?",
@@ -1752,7 +1886,8 @@
     "answer": 3,
     "answerText": "Sulfonamides",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q135"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 119</span> In which of the following infectious diseases are rose spots seen?",
@@ -1765,7 +1900,8 @@
     "answer": 2,
     "answerText": "Typhoid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q136"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 120</span> Which of the diagnostic tests for syphilis may persist positive even after treatment?",
@@ -1778,7 +1914,8 @@
     "answer": 0,
     "answerText": "FTA-ABS",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q137"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 121</span> Which of the following Cephalosporins is effective in treating methicillin-resistant Staphylococcus aureus (MRSA) strains?",
@@ -1791,7 +1928,8 @@
     "answer": 1,
     "answerText": "Ceftaroline",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q138"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 122</span> By infecting by which of the following bacteria can the patient catch Guillain-Barre?",
@@ -1804,7 +1942,8 @@
     "answer": 0,
     "answerText": "Campylobacter",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q139"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August (25) 2016 - Question 123</span> Which of the following bacteria is a specified human pathogen?",
@@ -1817,7 +1956,8 @@
     "answer": 2,
     "answerText": "Bordetella pertussis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q140"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 83</span> Which pathotype of E. coli causes histopathology attachment and effacement (A/E) on gut enterocytes?",
@@ -1830,7 +1970,8 @@
     "answer": 2,
     "answerText": "EPEC",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q141"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 84</span> Which of the following toxins has a functional mechanism similar to cholera toxin?",
@@ -1843,7 +1984,8 @@
     "answer": 0,
     "answerText": "LT in E. coli",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q142"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 85</span> Which of the following organisms is the causative agent of malignant edema?",
@@ -1856,7 +1998,8 @@
     "answer": 3,
     "answerText": "Bacillus anthracis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q143"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 86</span> Which of the following disinfectants causes alteration in the integrity of bacterial cytoplasmic membrane?",
@@ -1869,7 +2012,8 @@
     "answer": 3,
     "answerText": "Cationic detergents",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q144"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 87</span> All of the following drugs are the first line of treatment against tuberculosis, EXCEPT?",
@@ -1882,7 +2026,8 @@
     "answer": 1,
     "answerText": "Etionamide",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q145"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 88</span> All of the following diseases are sequelae of non-purulent infections related to Streptococcus pyogenes, EXCEPT?",
@@ -1895,7 +2040,8 @@
     "answer": 0,
     "answerText": "Scarlet fever",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q146"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 89</span> All of the following options are correct about 'pili' EXCEPT:",
@@ -1908,7 +2054,8 @@
     "answer": 2,
     "answerText": "It prevents the phagocytosis of bacteria.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q147"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 90</span> Which one of the following options is correct about Tuberculin Skin Test (PPD)?",
@@ -1921,7 +2068,8 @@
     "answer": 1,
     "answerText": "The test gets positive in active TB infection.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q148"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2016 - Question 91</span> In all the pathogenic bacteria listed below, human-to-human transmission is observed EXCEPT:",
@@ -1934,7 +2082,8 @@
     "answer": 1,
     "answerText": "Legionella",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q149"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 83</span> Which of the following sentences is correct about glycocalyx?",
@@ -1947,7 +2096,8 @@
     "answer": 1,
     "answerText": "It causes the adherence to host cell",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q150"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 84</span> All the following antibiotics affect the nucleic acid synthesis, EXCEPT?",
@@ -1960,7 +2110,8 @@
     "answer": 3,
     "answerText": "Erythromycin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q151"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 85</span> Which organisms causes pontiac fever?",
@@ -1973,7 +2124,8 @@
     "answer": 0,
     "answerText": "Legionella pneumophila",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q152"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 86</span> Which of the following methods is not used for sterilization?",
@@ -1986,7 +2138,8 @@
     "answer": 0,
     "answerText": "Pasteurization",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q153"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 87</span> Which of the following antibiotics belongs to 4th generation cephalosporins and is used against pseudomonas infection?",
@@ -1999,7 +2152,8 @@
     "answer": 1,
     "answerText": "Cefepime",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q154"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 88</span> Which of the following organism causes hospital acquired infections?",
@@ -2012,7 +2166,8 @@
     "answer": 2,
     "answerText": "Enterococcus faecalis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q155"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 89</span> Which of Rickettsial disease don’t transmitted through Arthropod to human?",
@@ -2025,7 +2180,8 @@
     "answer": 1,
     "answerText": "Q fever",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q156"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 90</span> Which of bacterium is agent of Granulomatosis Infant septic?",
@@ -2038,7 +2194,8 @@
     "answer": 2,
     "answerText": "Listeria monocytogenes",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q157"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2017 - Question 91</span> Widal test for diagnosis of which of following disease is used?",
@@ -2051,7 +2208,8 @@
     "answer": 1,
     "answerText": "Typhoid fever",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q158"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 89</span> All the following activities are related to bacterial endotoxins EXCEPT:",
@@ -2064,7 +2222,8 @@
     "answer": 0,
     "answerText": "Hyperglycemia",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q159"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 90</span> Bacterial toxin is involved in all the following disorders in cases of infections with *Staphylococcus*, EXCEPT:",
@@ -2077,7 +2236,8 @@
     "answer": 2,
     "answerText": "Folliculitis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q160"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 91</span> All the following organelles are observed in Gram-negative bacteria, EXCEPT:",
@@ -2090,7 +2250,8 @@
     "answer": 2,
     "answerText": "Lipoteichoic acid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q161"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 92</span> What kind of mutation occurs in case of insertion or deletion of a nucleotide?",
@@ -2103,7 +2264,8 @@
     "answer": 0,
     "answerText": "Frameshift",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q162"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 93</span> Which of the following metabolic pathways is considered as pentose phosphate?",
@@ -2116,7 +2278,8 @@
     "answer": 1,
     "answerText": "NADPH",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q163"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 94</span> Which of the following antibiotics functions as a cytotoxic compound and causes disruption of DNA?",
@@ -2129,7 +2292,8 @@
     "answer": 2,
     "answerText": "Metronidazole",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q164"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 95</span> Which virulence factor of *Streptococcus pyogenes* is involved in rheumatic fever?",
@@ -2142,7 +2306,8 @@
     "answer": 3,
     "answerText": "Protein M1",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q165"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 96</span> Which pathotype of *Escherichia coli* is causative of traveler’s diarrhea?",
@@ -2155,7 +2320,8 @@
     "answer": 1,
     "answerText": "ETEC",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q166"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 97</span> Which species of *Salmonella* is pathogenic to humans only?",
@@ -2168,7 +2334,8 @@
     "answer": 2,
     "answerText": "*S. typhi*",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q167"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 98</span> Which of the following bacteria is considered as the most prevalent cause of burn wound infections?",
@@ -2181,7 +2348,8 @@
     "answer": 1,
     "answerText": "*Pseudomonas aeruginosa*",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q168"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 99</span> Which of the following choices is correct regarding the productive damage of tuberculosis?",
@@ -2194,7 +2362,8 @@
     "answer": 0,
     "answerText": "It is observable as chronic granuloma",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q169"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 100</span> Which of the following infective organisms produces sulfur granules in exudated pus?",
@@ -2207,7 +2376,8 @@
     "answer": 1,
     "answerText": "*Actinomyces israelii*",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q170"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 101</span> Which of the following enzymes is involved in the pathogenesis of *Helicobacter pylori*?",
@@ -2220,7 +2390,8 @@
     "answer": 2,
     "answerText": "Urease",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q171"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 102</span> Which of the following bacteria can grow independently?",
@@ -2233,7 +2404,8 @@
     "answer": 3,
     "answerText": "*Ureaplasma*",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q172"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 103</span> To which group of antibiotics must the extensively drug-resistant *Mycobacterium tuberculosis* (XDR) be resistant at least?",
@@ -2246,7 +2418,8 @@
     "answer": 0,
     "answerText": "Isoniazid, Amikacin, Rifampin, Ciprofloxacin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q173"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 104</span> Which of the following spirochetes can be observed simply in a smear prepared from peripheral blood?",
@@ -2259,7 +2432,8 @@
     "answer": 3,
     "answerText": "Relapsing fever",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q174"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 105</span> Which of the following organisms plays a major role in periodontal diseases?",
@@ -2272,7 +2446,8 @@
     "answer": 3,
     "answerText": "*Prevotella*",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q175"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 106</span> Which of the following vaccines is prepared from live attenuated bacterium for humans?",
@@ -2285,7 +2460,8 @@
     "answer": 1,
     "answerText": "Tuberculosis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q176"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2017 - Question 107</span> Which of the following bacteria is an obligate pathogen and is not considered part of the microflora?",
@@ -2298,7 +2474,8 @@
     "answer": 1,
     "answerText": "*Mycobacterium tuberculosis*",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q177"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 83</span> In which of the following, the bacterium has inherent resistance to the antibiotic mentioned?",
@@ -2311,7 +2488,8 @@
     "answer": 0,
     "answerText": "Enterococcus - Vancomycin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q178"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 84</span> A 50-year-old patient with type 2 diabetes mellitus comes to the physician because of an oozing, foul-smelling wound on her foot for 2 days. Physical examination shows a 4-cm, necrotizing wound with a purplish black discoloration over the heel. A Gram stain of a tissue biopsy specimen shows gram-positive rods. The causal organism most likely produces which of the following virulence factors?",
@@ -2324,7 +2502,8 @@
     "answer": 0,
     "answerText": "α-Toxin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q179"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 85</span> A patient has subacute bacterial endocarditis caused by a member of the viridans group of streptococci. Which one of the following sites is most likely to be the source of the organism?",
@@ -2337,7 +2516,8 @@
     "answer": 3,
     "answerText": "Oropharynx",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q180"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 86</span> A 33-year-old man presents to the emergency department with a fever of 39°C, facial palsy, headache, and malaise. A circular maculopapular rash (ECM) was identified on the patient's left shoulder; the patient was unaware of the rash. The patient likely acquired the above infection via which of the following routes?",
@@ -2350,7 +2530,8 @@
     "answer": 2,
     "answerText": "Arthropod vector",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q181"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 87</span> Which one of the following bacteria does not cause sexually transmitted disease?",
@@ -2363,7 +2544,8 @@
     "answer": 1,
     "answerText": "Yersinia enterocolitica",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q182"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 88</span> A Pap smear from a woman with chronic cervicitis shows cytoplasmic inclusions within epithelial cells. Fluorescent antibodies identify both these inclusions and 'elementary bodies'. The intracellular organisms causing the infection are unusual because they cannot synthesize which of the following?",
@@ -2376,7 +2558,8 @@
     "answer": 2,
     "answerText": "ATP",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q183"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 89</span> Which one of the following bacteria does not have a vaccine made of polysaccharide capsule?",
@@ -2389,7 +2572,8 @@
     "answer": 1,
     "answerText": "Bordetella pertussis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q184"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 90</span> Which of the following infectious agents cannot be treated with β-lactams?",
@@ -2402,7 +2586,8 @@
     "answer": 2,
     "answerText": "Mycoplasma pneumoniae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q185"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2019 - Question 91</span> The disease 'plague' is caused by which bacterium and transmitted by which vector?",
@@ -2415,7 +2600,8 @@
     "answer": 0,
     "answerText": "Yersinia pestis and flea",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q186"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 57</span> To control human brucellosis, all of the following phrases are correct EXCEPT?",
@@ -2428,7 +2614,8 @@
     "answer": 0,
     "answerText": "Vaccination of general population",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q187"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 58</span> Which of the following is the correct characteristic of syphilis chancre?",
@@ -2441,7 +2628,8 @@
     "answer": 3,
     "answerText": "Superficial sore without pain and with hard base",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q188"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 59</span> Which bacteria can be used in normal fecal transplantation for treatment of recurrent infection?",
@@ -2454,7 +2642,8 @@
     "answer": 2,
     "answerText": "Clostridium difficile",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q189"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 60</span> Which structures are seen just in gram-negative bacteria?",
@@ -2467,7 +2656,8 @@
     "answer": 1,
     "answerText": "Lipid A",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q190"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 61</span> All of the following statements for Chlamydia are correct EXCEPT?",
@@ -2480,7 +2670,8 @@
     "answer": 2,
     "answerText": "They have the ability to produce ATP",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q191"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 62</span> Bacterial isolation of Bordetella pertussis in culture media will increase at ........... .",
@@ -2493,7 +2684,8 @@
     "answer": 1,
     "answerText": "Catarrhal period",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q192"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 63</span> Which type of diarrhea causing Escherichia coli uses 'Intimin' as adherence factor to attach the gut cells?",
@@ -2506,7 +2698,8 @@
     "answer": 1,
     "answerText": "EPEC (Enteropathogenic E.coli)",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q193"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 64</span> Which of the following Campylobacteria is the etiologic agent of systemic infection?",
@@ -2519,7 +2712,8 @@
     "answer": 2,
     "answerText": "C. fetus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q194"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 65</span> What is the mechanism of antibacterial effect of rifampin?",
@@ -2532,7 +2726,8 @@
     "answer": 0,
     "answerText": "Binding to DNA-dependent RNA polymerase and inhibiting RNA synthesis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q195"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 66</span> Daptomycin affects ..............?",
@@ -2545,7 +2740,8 @@
     "answer": 0,
     "answerText": "Plasma membrane",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q196"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 67</span> Which of the following microorganisms is the most probable agent of bacterial meningitis in infants in their first month of life?",
@@ -2558,7 +2754,8 @@
     "answer": 0,
     "answerText": "Streptococcus agalactiae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q197"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 68</span> Which of the following tests has the highest sensitivity and specificity in diagnosis of tuberculosis?",
@@ -2571,7 +2768,8 @@
     "answer": 1,
     "answerText": "Gamma interferon releasing assay",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q198"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 69</span> The Shwartzman reaction occurs following the release of a large amount of ........... into the blood circulation.",
@@ -2584,7 +2782,8 @@
     "answer": 1,
     "answerText": "Lipopolysaccharide",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q199"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 70</span> Which of the following is the important virulence factor for Haemophilus influenzae type b?",
@@ -2597,7 +2796,8 @@
     "answer": 2,
     "answerText": "Polyribitol phosphate capsule",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q200"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 71</span> Which of the following antibiotics belongs to the second line anti-Tuberculosis therapy?",
@@ -2610,7 +2810,8 @@
     "answer": 3,
     "answerText": "Kanamycin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q201"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2020 - Question 72</span> At what stage of syphilis, the granulomatous lesions (Gumma) observed?",
@@ -2623,7 +2824,8 @@
     "answer": 2,
     "answerText": "Tertiary",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q202"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 57</span> Which of the following specific components is present in bacterial spores?",
@@ -2636,7 +2838,8 @@
     "answer": 3,
     "answerText": "Dipicolinic acid",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q203"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 58</span> Food poisoning by Staphylococcus aureus is due to the action of ......... .",
@@ -2649,7 +2852,8 @@
     "answer": 1,
     "answerText": "Enterotoxin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q204"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 59</span> The routine vaccine for prophylaxis of meningococcal meningitis contains ......... .",
@@ -2662,7 +2866,8 @@
     "answer": 2,
     "answerText": "A, C, Y, W135 polysaccharides",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q205"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 60</span> The pathogenesis of which microorganisms is related to exotoxin and increases in cAMP in gut mucosal cells?",
@@ -2675,7 +2880,8 @@
     "answer": 1,
     "answerText": "Vibrio cholerae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q206"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 61</span> In which of the following cases the blood culture is not valuable?",
@@ -2688,7 +2894,8 @@
     "answer": 2,
     "answerText": "Shigella dysenteriae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q207"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 62</span> Non-purulent acute glomerulonephritis can occur following an infection caused by Streptococci ......... .",
@@ -2701,7 +2908,8 @@
     "answer": 1,
     "answerText": "pyogenes",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q208"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 63</span> Which species of Mycobacterium is used for the preparation of BCG vaccine?",
@@ -2714,7 +2922,8 @@
     "answer": 3,
     "answerText": "bovis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q209"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 64</span> Which part of the bacterial cell is inhibited by bacitracin antibiotic?",
@@ -2727,7 +2936,8 @@
     "answer": 0,
     "answerText": "Cell wall",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q210"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 65</span> Which of the following materials is used for disinfecting stethoscope?",
@@ -2740,7 +2950,8 @@
     "answer": 0,
     "answerText": "Quaternary ammonium compound",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q211"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 66</span> Mycobacterium tuberculosis was isolated from a patient. Then, drug susceptibility test was performed in the laboratory and the following report was issued: 'MDR-TB'. To which of the following drugs is the isolated organism definitely resistant?",
@@ -2753,7 +2964,8 @@
     "answer": 3,
     "answerText": "Rifampicin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q212"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 67</span> To which of the following antibiotics does Nocardia respond well and can accordingly be used in therapy?",
@@ -2766,7 +2978,8 @@
     "answer": 0,
     "answerText": "Cotrimoxazole",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q213"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 68</span> Following the consumption of rice, which organisms could cause food poisoning, diarrhea, and vomiting, mostly reversible in a majority of cases?",
@@ -2779,7 +2992,8 @@
     "answer": 2,
     "answerText": "Bacillus cereus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q214"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 69</span> Which of the following substances is found in Pseudomonas exopolysaccharide?",
@@ -2792,7 +3006,8 @@
     "answer": 2,
     "answerText": "Alginate",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q215"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 70</span> Which of the following toxins is not present in E.coli?",
@@ -2805,7 +3020,8 @@
     "answer": 3,
     "answerText": "Neurotoxin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q216"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 71</span> Which of the following factors is not involved in the pathogenesis of Neisseria gonorrheae?",
@@ -2818,7 +3034,8 @@
     "answer": 3,
     "answerText": "Tox A",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q217"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2021 - Question 72</span> Which disease is caused by Treponema pallidum endemicum subspecies?",
@@ -2831,7 +3048,8 @@
     "answer": 2,
     "answerText": "Bejel",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q218"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 57</span> Presence of volutin granules is specific to .......... .",
@@ -2844,7 +3062,8 @@
     "answer": 2,
     "answerText": "Corynebacteria",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q219"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 58</span> Which of the following components is NOT relevant in the Listeria monocytogenes pathogenesis?",
@@ -2857,7 +3076,8 @@
     "answer": 1,
     "answerText": "Sidrophore",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q220"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 59</span> Exotoxin A is one of the important virulence factors of .......... .",
@@ -2870,7 +3090,8 @@
     "answer": 0,
     "answerText": "Pseudomonas aeruginosa",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q221"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 60</span> Which of the following serological test is used for the diagnosis of syphilis?",
@@ -2883,7 +3104,8 @@
     "answer": 1,
     "answerText": "RPR",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q222"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 61</span> Which of the following choice is correct about actinomycosis?",
@@ -2896,7 +3118,8 @@
     "answer": 1,
     "answerText": "Usually needs 6-12 months of antibiotic therapy with penicillin or azithromycin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q223"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 62</span> In which stage of syphilis is Gumma lesions formed?",
@@ -2909,7 +3132,8 @@
     "answer": 2,
     "answerText": "Tertiary",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q224"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 63</span> Which spore layer is a keratin-like protein and its impermeability causes resistance to chemical and antimicrobial agents?",
@@ -2922,7 +3146,8 @@
     "answer": 3,
     "answerText": "Spore coat",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q225"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 64</span> Which of the following choice is most likely related to biofilm formation?",
@@ -2935,7 +3160,8 @@
     "answer": 0,
     "answerText": "Pneumonia in patients with cystic fibrosis caused by Pseudomonas aeruginosa",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q226"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 65</span> Iodophore compounds .......... .",
@@ -2948,7 +3174,8 @@
     "answer": 1,
     "answerText": "are fairly stable but damage the metallic surfaces by corrosion",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q227"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 66</span> What is the recent combination therapy recommended by the World Health Organization (WHO) for Brucellosis?",
@@ -2961,7 +3188,8 @@
     "answer": 0,
     "answerText": "Doxycycline and rifampin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q228"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 67</span> Which of the following antibiotics inhibits the synthesis of dihydrofolate reductase in bacteria?",
@@ -2974,7 +3202,8 @@
     "answer": 3,
     "answerText": "Trimethoprim",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q229"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 68</span> Which of the following antibiotics at lower pH is effective against mycobacterium tuberculosis?",
@@ -2987,7 +3216,8 @@
     "answer": 3,
     "answerText": "Pyrazinamide",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q230"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 69</span> Which of the following antibiotics is prophylactically prescribed against infections caused by Haemophilus influenzae type b in children under two years of age?",
@@ -3000,7 +3230,8 @@
     "answer": 0,
     "answerText": "Rifampin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q231"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 70</span> All of the following clinical symptoms can be observed in cases with Lympho-Granuloma Venereum (LGV) EXCEPT:",
@@ -3013,7 +3244,8 @@
     "answer": 2,
     "answerText": "Condyloma",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q232"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 71</span> The most prevalent cause of bacterial meningitis in children from five months old to five years old is .......... .",
@@ -3026,7 +3258,8 @@
     "answer": 2,
     "answerText": "Haemophilus influenzae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q233"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>June 2021 - Question 72</span> Which species of Clostridium inhibits the release of acetylcholine?",
@@ -3039,7 +3272,8 @@
     "answer": 1,
     "answerText": "C. botulinum",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q234"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 57</span> Which of the following is the main virulence factor of Streptococcus pyogenes?",
@@ -3052,7 +3286,8 @@
     "answer": 1,
     "answerText": "M Protein",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q235"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 58</span> Which of the following statements is correct about bacterial endotoxin?",
@@ -3065,7 +3300,8 @@
     "answer": 3,
     "answerText": "It causes disseminated intravascular coagulation.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q236"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 59</span> Which of the following antigenic structures is the main virulence factor in pathogenesis of Neisseria meningitidis?",
@@ -3078,7 +3314,8 @@
     "answer": 0,
     "answerText": "Polysaccharide capsule",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q237"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 60</span> All of the following infections are caused by Neisseria gonorrhoeae, EXCEPT……… .",
@@ -3091,7 +3328,8 @@
     "answer": 1,
     "answerText": "Male pelvic inflammatory disease",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q238"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 61</span> Which of the following diseases causes erythema migrans rash?",
@@ -3104,7 +3342,8 @@
     "answer": 2,
     "answerText": "Lyme disease",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q239"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 62</span> All of the followings are correct for Tuberculoid leprosy, EXCEPT ……. .",
@@ -3117,7 +3356,8 @@
     "answer": 2,
     "answerText": "Negative lepromin skin test",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q240"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 63</span> Which of the following bacterial species increases cAMP production?",
@@ -3130,7 +3370,8 @@
     "answer": 0,
     "answerText": "Vibrio cholerae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q241"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 64</span> Which of the following antibiotics inhibits bacterial genome synthesis?",
@@ -3143,7 +3384,8 @@
     "answer": 2,
     "answerText": "Ciprofloxacin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q242"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 65</span> Which of the following bacteria produces large amounts of urease?",
@@ -3156,7 +3398,8 @@
     "answer": 3,
     "answerText": "Proteus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q243"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 66</span> Which of the following antibiotics is used for treating anaerobic bacterial infections?",
@@ -3169,7 +3412,8 @@
     "answer": 0,
     "answerText": "Metronidazole",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q244"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 67</span> Escherichia coli H7:0157 is located in ……… pathotype.",
@@ -3182,7 +3426,8 @@
     "answer": 0,
     "answerText": "EHEC",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q245"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 68</span> All of the following antibiotics bind to bacterial 50S ribosomal subunit, EXCEPT ……… .",
@@ -3195,7 +3440,8 @@
     "answer": 3,
     "answerText": "Tetracycline",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q246"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 69</span> Which of the following toxins causes Staphylococcal Scalded Skin Syndrome (SSSS)?",
@@ -3208,7 +3454,8 @@
     "answer": 0,
     "answerText": "Exfoliative toxin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q247"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 70</span> The clinical symptoms, such as diarrhea (with or without fever), nausea and vomiting caused by Clostridium perfringens are similar to the symptoms caused by ……… .",
@@ -3221,7 +3468,8 @@
     "answer": 1,
     "answerText": "Bacillus cereus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q248"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 71</span> Which component of bacteria consists of a keratin-like protein?",
@@ -3234,7 +3482,8 @@
     "answer": 0,
     "answerText": "Spore",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q249"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>September 2021 - Question 72</span> Which of the following syndromes is related to Campylobacter jejuni?",
@@ -3247,7 +3496,8 @@
     "answer": 1,
     "answerText": "Guillain-Barre",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q250"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 57</span> All of the followings are associated with the disease caused by <i>Clostridium difficile</i>, EXCEPT that it is usually observed in the…………",
@@ -3260,7 +3510,8 @@
     "answer": 2,
     "answerText": "patients who had surgery",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q251"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 58</span> The toxin of <i>Staphylococcus aureus</i>, responsible for the scalded skin syndrome, is called………….",
@@ -3273,7 +3524,8 @@
     "answer": 2,
     "answerText": "exfoliative",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q252"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 59</span> All of the following statements are correct about bacterial endotoxin, EXCEPT that it is………….",
@@ -3286,7 +3538,8 @@
     "answer": 0,
     "answerText": "secreted by gram-negative bacteria",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q253"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 60</span> Which bacterium contains esteroles in its cell membrane?",
@@ -3299,7 +3552,8 @@
     "answer": 1,
     "answerText": "Mycoplasma",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q254"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 61</span> Which of the following toxins produced by <i>Clostridium perfringens</i> has phospholipase C and lecithinase property?",
@@ -3312,7 +3566,8 @@
     "answer": 0,
     "answerText": "Alpha",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q255"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 62</span> <i>Bacteroides fragilis</i> is the most common cause of………….",
@@ -3325,7 +3580,8 @@
     "answer": 0,
     "answerText": "intra-abdominal abscesses",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q256"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 63</span> Which of the following <i>Rickettsia</i> species is transmitted by human louse?",
@@ -3338,7 +3594,8 @@
     "answer": 3,
     "answerText": "R. prowazekii",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q257"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 64</span> Which bacterium can contaminate food and water at 4°C?",
@@ -3351,7 +3608,8 @@
     "answer": 0,
     "answerText": "Yersinia",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q258"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 65</span> Which bacterium in the normal gut flora is considered as probiotic?",
@@ -3364,7 +3622,8 @@
     "answer": 0,
     "answerText": "Lactobacillus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q259"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 66</span> Which group of antibiotics inhibits the peptidoglycan synthesis?",
@@ -3377,7 +3636,8 @@
     "answer": 2,
     "answerText": "Carbapenems",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q260"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 67</span> Which of the following bacteria causes an STD infection?",
@@ -3390,7 +3650,8 @@
     "answer": 2,
     "answerText": "Ureaplasma urealyticum",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q261"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 68</span> “Tabes Dorsalis” is manifested in the…………stage of syphilis.",
@@ -3403,7 +3664,8 @@
     "answer": 2,
     "answerText": "tertiary",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q262"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 69</span> Which of the conditions below indicates an autoimmune reaction following the bacterial pharyngitis?",
@@ -3416,7 +3678,8 @@
     "answer": 0,
     "answerText": "Rheumatic fever",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q263"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 70</span> Which bacterium can primarily cause an eye inflammation (conjunctivitis)?",
@@ -3429,7 +3692,8 @@
     "answer": 1,
     "answerText": "Haemophilus aegypticus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q264"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 71</span> Which bacterium is the etiologic agent of “ecthyma gangrenosum”?",
@@ -3442,7 +3706,8 @@
     "answer": 0,
     "answerText": "Pseudomonas aeruginosa",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q265"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>November 2021 - Question 72</span> All of the following statements are correct about cholera, EXCEPT that………….",
@@ -3455,7 +3720,8 @@
     "answer": 1,
     "answerText": "incubation period is 1-2 weeks",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q266"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 57</span> Which of the following bacteria does not have the metabolic pathway for the production of ATP components and is dependent on host cells regarding vitamins and amino acids?",
@@ -3468,7 +3734,8 @@
     "answer": 2,
     "answerText": "Chlamydia trachomatis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q267"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 58</span> Which of the following bacteria is polymorphic due to the absence of cell wall and under direct microscopic examination of the suspected patients’ specimens lacks the gram staining value?",
@@ -3481,7 +3748,8 @@
     "answer": 3,
     "answerText": "Mycoplasma pneumoniae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q268"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 59</span> The toxin of which of the following bacterial species causes Lockjaw complication?",
@@ -3494,7 +3762,8 @@
     "answer": 1,
     "answerText": "Clostridium tetani",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q269"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 60</span> Which of the following describes the laboratory diagnosis of Leptospirosis?",
@@ -3507,7 +3776,8 @@
     "answer": 2,
     "answerText": "Valuable specimens in the early phase of the diagnosis are blood, CSF and urine.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q270"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 61</span> Which of the following is correct about VDRL test?",
@@ -3520,7 +3790,8 @@
     "answer": 3,
     "answerText": "Non-treponemal antigen is used for laboratory diagnosis in the test.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q271"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 62</span> Gram-negative, oxidase positive and non-fermentative bacilli were isolated from sputum of a patient with cystic fibrosis. The physician prescribed trimethoprime-sulfamethoxazole for treatment. Which of the following bacteria is possibly responsible for the infection?",
@@ -3533,7 +3804,8 @@
     "answer": 0,
     "answerText": "Stenotrophomonas maltophilia",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q272"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 63</span> A 50-year-old patient with acute leukemia experiences fever and chills after receiving two blood bags. Gram-negative bacilli are isolated on the blood agar and MacConkey agar. The oxidase test and motility at 37°C are negative. But the motility at 25°C is positive. Which of the following bacterial species causes the infection?",
@@ -3546,7 +3818,8 @@
     "answer": 0,
     "answerText": "Yersinia enterocolitica",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q273"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 64</span> The toxin of which of the following bacteria causes ADP- Ribosylation of Elongation factor II (EF-II)?",
@@ -3559,7 +3832,8 @@
     "answer": 1,
     "answerText": "Pseudomonas aeruginosa - Corynebacterium diphtheriae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q274"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 65</span> Which spore layer of bacteria has unusual peptidoglycan and is sensitive to lysosyme?",
@@ -3572,7 +3846,8 @@
     "answer": 2,
     "answerText": "Cortex",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q275"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 66</span> Which of the following describes lysogenic bacteria?",
@@ -3585,7 +3860,8 @@
     "answer": 1,
     "answerText": "Viral gene in chromosome",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q276"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 67</span> Dysbiosis is defined as ………….",
@@ -3598,7 +3874,8 @@
     "answer": 2,
     "answerText": "disruption of normal flora",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q277"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 68</span> Which of the following statements describes nucleic acid synthesis inhibition by antibiotics?",
@@ -3611,7 +3888,8 @@
     "answer": 1,
     "answerText": "Rifampin inhibits RNA synthesis of bacteria by attaching to RNA polymerase.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q278"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 69</span> Which of the following components is disinfectant but does not sterilize devices?",
@@ -3624,7 +3902,8 @@
     "answer": 2,
     "answerText": "Quaternary ammonium compound",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q279"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 70</span> Which bacterial species has neurotoxin?",
@@ -3637,7 +3916,8 @@
     "answer": 1,
     "answerText": "Pseudomonas aeruginosa",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q280"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 71</span> Which of the following staining techniques is NOT used for Mycobacterium tuberculosis microscopic observation?",
@@ -3650,7 +3930,8 @@
     "answer": 3,
     "answerText": "Fontana",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q281"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>March 2022 - Question 72</span> Which of the following bacteria releases Crystal violet-Iodine (Lugol) complex during Gram staining?",
@@ -3663,7 +3944,8 @@
     "answer": 1,
     "answerText": "Escherichia coli",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q282"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 57</span> Which of the following cellular components is unique to gram-negative bacteria?",
@@ -3676,7 +3958,8 @@
     "answer": 1,
     "answerText": "Outer membrane",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q283"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 58</span> In which of the following bacterial gene transfer, fertility factor functions as a mediator?",
@@ -3689,7 +3972,8 @@
     "answer": 0,
     "answerText": "Conjugation",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q284"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 59</span> Which of the following antibiotics affects the bacterial cell wall?",
@@ -3702,7 +3986,8 @@
     "answer": 2,
     "answerText": "Imipenem",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q285"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 60</span> Which of the following antibiotics does NOT inhibit bacterial metabolic reactions?",
@@ -3715,7 +4000,8 @@
     "answer": 3,
     "answerText": "Rifampin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q286"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 61</span> Which virulence factor of Staphylococcus aureus has sphingomyelinase activity?",
@@ -3728,7 +4014,8 @@
     "answer": 0,
     "answerText": "Beta hemolysin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q287"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 62</span> Which of the following bacterial species causes Waterhouse Friedrichson syndrome?",
@@ -3741,7 +4028,8 @@
     "answer": 3,
     "answerText": "Neisseria meningitidis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q288"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 63</span> Which of the following factors of Mycobacterium tuberculosis has NO effect on the pathogenesis trend?",
@@ -3754,7 +4042,8 @@
     "answer": 1,
     "answerText": "Endotoxin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q289"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 64</span> In which bacterial genus gastroenteritis, antibiotics prescription is NOT recommended?",
@@ -3767,7 +4056,8 @@
     "answer": 0,
     "answerText": "Salmonella",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q290"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 65</span> Which Haemophilus species causes Pink eye (Purlunt conjunctivitis)?",
@@ -3780,7 +4070,8 @@
     "answer": 0,
     "answerText": "aegypticus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q291"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 66</span> In which of the following bacteria, antigenic cross reaction of Brucella species is NOT observed?",
@@ -3793,7 +4084,8 @@
     "answer": 1,
     "answerText": "Vibrio cholerae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q292"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 67</span> Which of the following bacteria is mainly responsible for the malignant external otitis (swimmer's ear)?",
@@ -3806,7 +4098,8 @@
     "answer": 1,
     "answerText": "Pseudomonas aeruginosa",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q293"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 68</span> Which of the following TCBS culture media is used for the isolation of bacterial species?",
@@ -3819,7 +4112,8 @@
     "answer": 2,
     "answerText": "Vibrio cholerae",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q294"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 69</span> Which of the following bacterial species needs a microaerophilic condition for growth?",
@@ -3832,7 +4126,8 @@
     "answer": 0,
     "answerText": "Campylobacter jejuni",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q295"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 70</span> Which disinfectant is a strong bacterial cold sterilizant for the sterilization of surgical and endoscopic equipment?",
@@ -3845,7 +4140,8 @@
     "answer": 0,
     "answerText": "Glutaraldehyde",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q296"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 71</span> Which of the following factors is NOT important in bacterial pathogenesis of Neisseria gonorrhoae?",
@@ -3858,7 +4154,8 @@
     "answer": 2,
     "answerText": "Exotoxin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q297"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2022 - Question 72</span> Which of the following options is NOT the biologic activity of bacterial endotoxin?",
@@ -3871,7 +4168,8 @@
     "answer": 3,
     "answerText": "Hyperglycemia",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q298"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 57</span> Which of the following diseases does Chlamydia trachomatis serovars A-C cause?",
@@ -3884,7 +4182,8 @@
     "answer": 3,
     "answerText": "Trachoma",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q299"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 58</span> Which Brucella disease is severe and has serious complications for patients due to the high proliferation of bacteria in phagocytic cells?",
@@ -3897,7 +4196,8 @@
     "answer": 3,
     "answerText": "B. melitensis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q300"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 59</span> Which of the following diseases is transmitted by human body louse?",
@@ -3910,7 +4210,8 @@
     "answer": 2,
     "answerText": "Epidemic relapsing fever",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q301"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 60</span> In which stage of whooping cough is the occurrence of a series of repetitive cough attacks observed?",
@@ -3923,7 +4224,8 @@
     "answer": 2,
     "answerText": "Paroxysmal",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q302"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 61</span> Which Clostridium species is the cause of pseudomembranous colitis after consumption of broad-spectrum antibiotics?",
@@ -3936,7 +4238,8 @@
     "answer": 1,
     "answerText": "C. difficile",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q303"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 62</span> Which is TRUE about PPD?",
@@ -3949,7 +4252,8 @@
     "answer": 1,
     "answerText": "A positive PPD test is an indication of probable previous TB infection",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q304"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 63</span> Which Vibrio species is the common cause of septicemia following consumption of contaminated raw oysters and progressive wound infection after contact with seawater?",
@@ -3962,7 +4266,8 @@
     "answer": 3,
     "answerText": "V. vulnificus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q305"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 64</span> Which species of Haemophilus is the cause of sexually transmitted disease called chancroid?",
@@ -3975,7 +4280,8 @@
     "answer": 2,
     "answerText": "H. ducreyi",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q306"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 65</span> What is the mechanism of action of Pseudomonas aeruginosa exotoxin A?",
@@ -3988,7 +4294,8 @@
     "answer": 0,
     "answerText": "Disruption of protein synthesis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q307"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 66</span> The O157:H7 serotype belongs to which pathotype of Escherichia coli?",
@@ -4001,7 +4308,8 @@
     "answer": 3,
     "answerText": "EHEC",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q308"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 67</span> Which pathotypes of Escherichia coli exerts its pathogenicity in the large intestine?",
@@ -4014,7 +4322,8 @@
     "answer": 3,
     "answerText": "Enteroinvasive Escherichia coli",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q309"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 68</span> For which of the following Neisseria species, an effective vaccine is available?",
@@ -4027,7 +4336,8 @@
     "answer": 1,
     "answerText": "N. meningitidis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q310"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 69</span> Screening of pregnant women in the 35th to 37th weeks of pregnancy is to prevent the transmission of which group of streptococci and the occurrence of meningitis in infants?",
@@ -4040,7 +4350,8 @@
     "answer": 1,
     "answerText": "Group B",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q311"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 70</span> Which of the components of the cell envelope of gram-negative bacteria is not found in gram-positive bacteria?",
@@ -4053,7 +4364,8 @@
     "answer": 2,
     "answerText": "Periplasmic space",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q312"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 71</span> Staphylococcus aureus by producing which enzyme digests the blood clots?",
@@ -4066,7 +4378,8 @@
     "answer": 1,
     "answerText": "Fibrinolysin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q313"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2023 - Question 72</span> Which of the following drugs can prevent the synthesis of RNA in bacteria?",
@@ -4079,7 +4392,8 @@
     "answer": 1,
     "answerText": "Rifampin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q314"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 56</span> A 63-year-old man has symptoms of weight loss (7 kg), night fever, and chronic cough with bloody sputum. A sputum sample showed acid-fast bacteria. Which regimen is suitable for first-line treatment?",
@@ -4092,7 +4406,8 @@
     "answer": 1,
     "answerText": "Isoniazid, Rifampin, Pyrazinamide, and Ethambutol",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q315"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 57</span> Gram-negative aerobic coccobacillus was isolated from a shepherd with symptoms of undulant fever and muscle pain. Which is correct about the treatment?",
@@ -4105,7 +4420,8 @@
     "answer": 2,
     "answerText": "Doxycycline plus Rifampin is the treatment of choice.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q316"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 58</span> A 50-year-old man received clindamycin and ampicillin during chemotherapy. Ten days later, he developed abdominal pain and diarrhea with gram-positive spore-bearing bacilli in stool. What is the appropriate measure for recovery?",
@@ -4118,7 +4434,8 @@
     "answer": 2,
     "answerText": "Discontinue antibiotics",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q317"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 59</span> All of the following are bacterial escape mechanisms from the human immune system EXCEPT ……….",
@@ -4131,7 +4448,8 @@
     "answer": 3,
     "answerText": "Exotoxin production",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q318"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 60</span> Which antibiotic is effective against Methicillin-Resistant Staphylococcus aureus (MRSA)?",
@@ -4144,7 +4462,8 @@
     "answer": 1,
     "answerText": "Vancomycin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q319"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 61</span> All the following bacteria are capable of causing food intoxication EXCEPT ……….",
@@ -4157,7 +4476,8 @@
     "answer": 1,
     "answerText": "Enterococcus faecalis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q320"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 62</span> 'Nephrotoxicity' is a side effect of which antibiotic?",
@@ -4170,7 +4490,8 @@
     "answer": 3,
     "answerText": "Colistin",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q321"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 63</span> Differentiating strains of a bacterial species based on antigenic characteristics is done by which method?",
@@ -4183,7 +4504,8 @@
     "answer": 0,
     "answerText": "Serotyping",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q322"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 64</span> Haemophilus influenzae serotype b (Hib) is capable of causing all of the following diseases EXCEPT ……….",
@@ -4196,7 +4518,8 @@
     "answer": 1,
     "answerText": "Pharyngitis",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q323"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 65</span> All of the following diseases are related to Pseudomonas aeruginosa infection EXCEPT ……….",
@@ -4209,7 +4532,8 @@
     "answer": 0,
     "answerText": "Bloody diarrhea",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q324"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 66</span> All the individuals below are susceptible to Streptococcus pneumonia infection and need vaccination EXCEPT ……….",
@@ -4222,7 +4546,8 @@
     "answer": 3,
     "answerText": "Pregnant women",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q325"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 67</span> Leptospira is transmitted through ………………….",
@@ -4235,7 +4560,8 @@
     "answer": 0,
     "answerText": "drinking contaminated water",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q326"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 68</span> Which of the following is correct?",
@@ -4248,7 +4574,8 @@
     "answer": 2,
     "answerText": "ETEC is transmitted through contaminated water and food consumption.",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q327"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>August 2024 - Question 69</span> Which of the following causes wound infection through contact with contaminated water?",
@@ -4261,6 +4588,7 @@
     "answer": 0,
     "answerText": "Vibrio vulnificus",
     "explanation": "",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "beqs-micr-q328"
   }
 ]
