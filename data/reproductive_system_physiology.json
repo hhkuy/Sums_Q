@@ -10,7 +10,8 @@
     "answer": 1,
     "answerText": "Stimulation of development of male sex organs",
     "explanation": "Testosterone in early embryonic development is crucial for the development of male sex organs.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 2</span> Which one is not considered as accessory gland for male reproductive system?",
@@ -23,7 +24,8 @@
     "answer": 3,
     "answerText": "Urethra",
     "explanation": "The urethra is a passage for urine and semen, not an accessory gland of the male reproductive system.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 3</span> What happened after sudden surge of LH in the middle of ovarian cycle?",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Ovulation",
     "explanation": "The LH surge triggers ovulation, causing the release of the mature egg from the ovary.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 4</span> Which cell has both FSH and LH receptors?",
@@ -49,7 +52,8 @@
     "answer": 1,
     "answerText": "Granulosa",
     "explanation": "Granulosa cells have both FSH and LH receptors, playing a key role in follicular development and estrogen production.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 5</span> Which option is not correct regarding sperm capacitation?",
@@ -62,7 +66,8 @@
     "answer": 2,
     "answerText": "A lot of sodium enters the sperm",
     "explanation": "Capacitation involves changes to the sperm membrane and increased motility, but sodium influx is not a key feature.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 6</span> Which types of cell(s) can produce Activin?",
@@ -75,7 +80,8 @@
     "answer": 1,
     "answerText": "Sertoli",
     "explanation": "Sertoli cells in males and granulosa cells in females produce Activin, which stimulates FSH secretion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 7</span> Which one is not in function of Sertoli cells?",
@@ -88,7 +94,8 @@
     "answer": 3,
     "answerText": "Production of testosterone",
     "explanation": "Testosterone is produced by Leydig cells, not Sertoli cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 8</span> What is the role of 5-alpha reductase in male reproductive system?",
@@ -101,7 +108,8 @@
     "answer": 1,
     "answerText": "Produce Dihydro-testosterone",
     "explanation": "5-alpha reductase converts testosterone to dihydrotestosterone (DHT), which is essential for external male genitalia development and prostate growth.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 9</span> A female athlete who took testosterone-like steroids for several months stopped having normal menstrual cycles. What is the best explanation for this observation?",
@@ -114,7 +122,8 @@
     "answer": 1,
     "answerText": "Testosterone inhibits the hypothalamic secretion of GnRH and the pituitary secretion of LH and FSH",
     "explanation": "Exogenous testosterone suppresses GnRH, LH, and FSH, disrupting the normal menstrual cycle.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 10</span> Which hormone has the most impact on the stimulation of primary follicle growth in the ovary?",
@@ -127,7 +136,8 @@
     "answer": 1,
     "answerText": "FSH",
     "explanation": "FSH stimulates the growth of primary follicles during the early stages of the ovarian cycle.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-07-21) - Dr. Ashabi - Question 11</span> Which hormone is not considered as female reproductive system hormone?",
@@ -140,7 +150,8 @@
     "answer": 2,
     "answerText": "TRH",
     "explanation": "TRH (Thyrotropin-releasing hormone) is involved in thyroid regulation, not directly in the female reproductive system.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 1</span> What is the role of Follicle Stimulating Hormone (FSH) during the menstrual cycle?",
@@ -153,7 +164,8 @@
     "answer": 1,
     "answerText": "Stimulates primary oocyte growth and development",
     "explanation": "FSH is essential for the growth and maturation of ovarian follicles, promoting the development of the primary oocyte.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 2</span> Which hormone activates FSH/LH secretion from the anterior pituitary?",
@@ -166,7 +178,8 @@
     "answer": 3,
     "answerText": "Activin",
     "explanation": "Activin enhances FSH secretion by acting on the anterior pituitary, counteracting the inhibitory effects of inhibin.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 3</span> Which hormone decreases during the first month of menopause in women?",
@@ -179,7 +192,8 @@
     "answer": 1,
     "answerText": "Estrogen",
     "explanation": "Estrogen levels drop significantly at the onset of menopause due to ovarian follicle depletion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 4</span> In the last step of sperm capacitation, ….",
@@ -192,7 +206,8 @@
     "answer": 1,
     "answerText": "Calcium ion enters the sperm",
     "explanation": "During the final stages of capacitation, calcium influx increases sperm motility and prepares it for the acrosome reaction.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 5</span> What happens after the sudden surge of LH in the middle of the ovarian cycle?",
@@ -205,7 +220,8 @@
     "answer": 2,
     "answerText": "Ovulation",
     "explanation": "The LH surge triggers the rupture of the mature follicle and the release of the secondary oocyte, leading to ovulation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 6</span> How does estradiol move in the bloodstream?",
@@ -218,7 +234,8 @@
     "answer": 1,
     "answerText": "By binding to albumin",
     "explanation": "Estradiol primarily travels in the bloodstream bound to albumin, ensuring its transport to target tissues.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 7</span> Which option regarding the role of the epididymis is correct?",
@@ -231,7 +248,8 @@
     "answer": 1,
     "answerText": "Sperm maturation and motility",
     "explanation": "The epididymis is responsible for the maturation and acquisition of motility by sperm cells, allowing them to fertilize an egg.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 8</span> During follicular maturation, which gonadotropin plays the most significant role?",
@@ -244,7 +262,8 @@
     "answer": 1,
     "answerText": "FSH",
     "explanation": "FSH is critical for the growth and maturation of follicles, promoting the development of granulosa cells and oocyte maturation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 9</span> What is the primary role of HCG hormone during pregnancy?",
@@ -257,7 +276,8 @@
     "answer": 2,
     "answerText": "To inhibit the breakdown of the corpus luteum",
     "explanation": "HCG maintains the corpus luteum during early pregnancy, ensuring continued progesterone production to support the pregnancy.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 10</span> In the ovary, which cells are responsible for androgen secretion?",
@@ -270,7 +290,8 @@
     "answer": 1,
     "answerText": "Internal theca cells",
     "explanation": "Internal theca cells secrete androgens, which are then converted into estrogens by granulosa cells via aromatase.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-16) Dr. Ashabi - Question 11</span> After ovulation, if pregnancy occurs, what happens to the corpus luteum?",
@@ -283,6 +304,7 @@
     "answer": 1,
     "answerText": "It remains the same corpus luteum for at least 3 months",
     "explanation": "The corpus luteum persists for the first trimester of pregnancy, producing progesterone until the placenta takes over hormone production.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "repr-phys-q22"
   }
 ]
