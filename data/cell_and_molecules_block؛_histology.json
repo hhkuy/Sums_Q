@@ -10,7 +10,8 @@
     "answer": 1,
     "answerText": "Nucleous",
     "explanation": "The nucleus contains nuclear pores that regulate the transport of proteins and RNA.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 2</span> Which cell organelle has not ribosome?",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Golgy",
     "explanation": "The Golgi apparatus is responsible for modifying and packaging proteins but does not have ribosomes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 3</span> Which cell organelle has single-stranded DNA?",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Mithochondria",
     "explanation": "Mitochondria contain their own circular DNA, which is different from nuclear DNA.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 4</span> Which cell organells has pores protein?",
@@ -49,7 +52,8 @@
     "answer": 1,
     "answerText": "Nucleous",
     "explanation": "The nuclear envelope contains pores for protein and RNA transport.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 5</span> Which cell organelle Ps Storaged Glycogen?",
@@ -62,7 +66,8 @@
     "answer": 1,
     "answerText": "SER",
     "explanation": "The smooth ER (SER) is involved in glycogen storage and metabolism.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 6</span> Which cell organell has Integral protein?",
@@ -75,7 +80,8 @@
     "answer": 1,
     "answerText": "Cell Membrane",
     "explanation": "Integral proteins are embedded within the cell membrane and play a role in transport and signaling.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 7</span> Which of the following histological structures has Flate Tubul?",
@@ -88,7 +94,8 @@
     "answer": 0,
     "answerText": "RER",
     "explanation": "The rough ER (RER) consists of flattened tubules covered with ribosomes for protein synthesis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 8</span> Which of the following Is Observed In Nucleoplasm?",
@@ -101,7 +108,8 @@
     "answer": 0,
     "answerText": "Choromatin",
     "explanation": "Chromatin, composed of DNA and proteins, is found within the nucleoplasm.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 9</span> What Is The Name Organell Helped To Shape Of Cell?",
@@ -114,7 +122,8 @@
     "answer": 1,
     "answerText": "Microtubule",
     "explanation": "Microtubules provide structural support and help in intracellular transport.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 10</span> In the histological structure, which Part Of Cell is observed Cilia?",
@@ -127,7 +136,8 @@
     "answer": 0,
     "answerText": "Apical Of Cell",
     "explanation": "Cilia are present on the apical surface of epithelial cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 11</span> Which of the following is Observed in the histological structure Unilayer Of Membrane?",
@@ -140,7 +150,8 @@
     "answer": 0,
     "answerText": "Proxisom",
     "explanation": "Peroxisomes are single-membrane-bound organelles involved in lipid metabolism.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 12</span> Which of the following Is Formed Cell Death Program?",
@@ -153,7 +164,8 @@
     "answer": 1,
     "answerText": "Nucleous",
     "explanation": "The nucleus regulates apoptosis through gene expression and DNA fragmentation.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 13</span> Which Part of Mithochondria have Folding Membrane?",
@@ -166,7 +178,8 @@
     "answer": 1,
     "answerText": "Inner Layer",
     "explanation": "The inner mitochondrial membrane folds into cristae to increase surface area for ATP production.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 14</span> Secretory Granules J s Formed By……….",
@@ -179,7 +192,8 @@
     "answer": 1,
     "answerText": "Golgi",
     "explanation": "The Golgi apparatus processes and packages secretory proteins into granules.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2023) - Dr.Minaei - Question 15</span> In the histological structure Of Cell, which of the following is observed In Cytoplasm?",
@@ -192,7 +206,8 @@
     "answer": 0,
     "answerText": "Acidophil Stain",
     "explanation": "Acidophilic (eosinophilic) staining is observed in cytoplasmic structures due to protein content.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 1</span> What is the common fixative for tissue processing?",
@@ -205,7 +220,8 @@
     "answer": 1,
     "answerText": "Neutral buffer formalin",
     "explanation": "Neutral buffer formalin is the most commonly used fixative in tissue processing to preserve cellular structure.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 2</span> All of the following sentences explain the benefits of the clearing process, EXCEPT:",
@@ -218,7 +234,8 @@
     "answer": 3,
     "answerText": "Prevent autolysis and bacterial attack",
     "explanation": "Clearing primarily enhances infiltration and transparency, but autolysis prevention is a fixation step.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 3</span> Hematoxylin is a ………….. dye which is used for staining ……… components.",
@@ -231,7 +248,8 @@
     "answer": 0,
     "answerText": "Basic – Nuclear",
     "explanation": "Hematoxylin is a basic dye that binds to acidic nuclear components such as DNA and RNA.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 4</span> Which type of cell signaling occurs via direct physical contact?",
@@ -244,7 +262,8 @@
     "answer": 2,
     "answerText": "Juxtacrine",
     "explanation": "Juxtacrine signaling involves direct contact between cells via membrane-bound molecules.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 5</span> All of the following functions are related to the smooth endoplasmic reticulum, EXCEPT:",
@@ -257,7 +276,8 @@
     "answer": 2,
     "answerText": "Recycle old or damaged organelles",
     "explanation": "Recycling damaged organelles is the function of lysosomes, not the smooth ER.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 6</span> What is the name of the intermediate filament in muscles?",
@@ -270,7 +290,8 @@
     "answer": 1,
     "answerText": "Desmin",
     "explanation": "Desmin is an intermediate filament that helps maintain the structural integrity of muscle cells.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 7</span> Which step of the interphase is the shortest step?",
@@ -283,7 +304,8 @@
     "answer": 2,
     "answerText": "G2",
     "explanation": "G2 is the shortest phase of interphase, where the cell prepares for mitosis by producing proteins.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 8</span> In which step of mitosis does the nuclear membrane reform?",
@@ -296,7 +318,8 @@
     "answer": 3,
     "answerText": "Telophase",
     "explanation": "During telophase, the nuclear membrane reforms around the separated sets of chromosomes.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 9</span> Comparing the Goldman equation with the Nernst equation, which of the following is correct?",
@@ -309,7 +332,8 @@
     "answer": 1,
     "answerText": "Goldman equation describes real conditions, while Nernst equation depicts imaginary conditions",
     "explanation": "The Goldman equation accounts for the permeability and concentration of multiple ions, reflecting real conditions.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 10</span> Which of the following does not play any role in determining the level of the resting membrane potential?",
@@ -322,7 +346,8 @@
     "answer": 1,
     "answerText": "Leakage of Na through the Na leak channels",
     "explanation": "Sodium leak channels have a minimal role compared to potassium channels in establishing resting potential.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 11</span> The resting membrane potential in a large nerve cell is closer to the Nernst potential of which of the following ions?",
@@ -335,7 +360,8 @@
     "answer": 0,
     "answerText": "K",
     "explanation": "The resting membrane potential is closer to the potassium equilibrium potential due to high potassium permeability.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 12</span> What is the main cause of the repolarization phase of an action potential?",
@@ -348,7 +374,8 @@
     "answer": 1,
     "answerText": "Closure of voltage-gated Na channels",
     "explanation": "Repolarization occurs as voltage-gated Na channels close and K efflux dominates.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 13</span> A new action potential cannot occur in an excitable fiber as long as the membrane is still depolarized from the preceding action potential. Why?",
@@ -361,7 +388,8 @@
     "answer": 1,
     "answerText": "Because of inactivation of voltage-gated Na channels",
     "explanation": "During the refractory period, inactivated Na channels prevent the initiation of a new action potential.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 14</span> Saltatory conduction is of value for:",
@@ -374,7 +402,8 @@
     "answer": 1,
     "answerText": "Conserving energy",
     "explanation": "Saltatory conduction conserves energy by allowing action potentials to \"jump\" between nodes of Ranvier.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 15</span> In the plateau phase, calcium is transported inside the cardiac cell by:",
@@ -387,7 +416,8 @@
     "answer": 1,
     "answerText": "Voltage-gated Ca channels",
     "explanation": "Voltage-gated Ca channels allow Ca entry during the plateau phase, crucial for cardiac muscle contraction.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 16</span> In which compartment is the largest amount of body water found?",
@@ -400,7 +430,8 @@
     "answer": 2,
     "answerText": "ICF",
     "explanation": "The intracellular fluid (ICF) contains the majority of the body’s water, approximately two-thirds of the total.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 17</span> Which of the following refers to facilitated diffusion of glucose?",
@@ -413,7 +444,8 @@
     "answer": 1,
     "answerText": "GLUT2",
     "explanation": "GLUT2 mediates the facilitated diffusion of glucose in tissues like the liver and pancreas.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 18</span> Which of the following transporters is found in the greatest number in the kidneys?",
@@ -426,7 +458,8 @@
     "answer": 1,
     "answerText": "SGLT2",
     "explanation": "SGLT2 is abundant in the proximal tubule of the kidney, reabsorbing glucose from the filtrate.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 19</span> Simple diffusion of ions is driven by:",
@@ -439,7 +472,8 @@
     "answer": 2,
     "answerText": "Electrochemical gradient",
     "explanation": "Ions diffuse based on the electrochemical gradient, which combines concentration and charge differences.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 20</span> Which of the following is negatively correlated with the rate of simple diffusion?",
@@ -452,7 +486,8 @@
     "answer": 1,
     "answerText": "Thickness of membrane",
     "explanation": "A thicker membrane slows diffusion by increasing the distance ions or molecules must travel.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 21</span> Which of the following is the most important factor limiting the lateral movement of proteins in the membrane of epithelial cells in the kidney?",
@@ -465,7 +500,8 @@
     "answer": 2,
     "answerText": "The existence of tight junctions between cells",
     "explanation": "Tight junctions restrict lateral diffusion of membrane proteins, maintaining cellular polarity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-1-29) Histo. & Physio. - Dr.Sina & Dr. Mina Ranjbaran - Question 22</span> Assume that the concentration of ion X⁺ in the extracellular fluid is 300 mEq/L and inside the cell is 20 mEq/L. The resting membrane potential is closest to:",
@@ -478,6 +514,7 @@
     "answer": 2,
     "answerText": "+71 mV",
     "explanation": "Given the ion gradient, the Nernst equation calculation yields a resting potential near +71 mV.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "cell-hist-q37"
   }
 ]
