@@ -10,7 +10,8 @@
     "answer": 1,
     "answerText": "Bicarbonate buffer system",
     "explanation": "The bicarbonate buffer system is the most important buffer system in the blood, helping to maintain pH balance by regulating carbonic acid and bicarbonate levels.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Panahi - Question 2</span> How do the kidneys respond to metabolic alkalosis?",
@@ -23,7 +24,8 @@
     "answer": 1,
     "answerText": "Decrease bicarbonate reabsorption",
     "explanation": "In metabolic alkalosis, the kidneys reduce bicarbonate reabsorption to compensate for the elevated blood pH.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Panahi - Question 3</span> Which of the following is a primary cause of hypernatremia?",
@@ -36,7 +38,8 @@
     "answer": 1,
     "answerText": "Dehydration",
     "explanation": "Dehydration is the most common cause of hypernatremia, leading to an increased concentration of sodium in the blood.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Panahi - Question 4</span> Given the following arterial blood gas results: pH = 7.33, PaCO2 = 60 mmHg, HCO3- = 34 mEq/L. What is the condition?",
@@ -49,7 +52,8 @@
     "answer": 1,
     "answerText": "Partially compensated respiratory acidosis",
     "explanation": "Elevated PaCO2 with an increased HCO3- indicates partially compensated respiratory acidosis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Panahi - Question 5</span> By interpreting the following arterial blood gas results: pH = 7.55, PaCO2 = 44 mmHg, HCO3- = 36 mEq/L. What is the condition?",
@@ -62,7 +66,8 @@
     "answer": 1,
     "answerText": "Uncompensated metabolic alkalosis",
     "explanation": "A high pH with elevated HCO3- and normal PaCO2 indicates uncompensated metabolic alkalosis.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Panahi - Question 6</span> In which of the following scenarios would you expect to find hyperkalemia?",
@@ -75,7 +80,8 @@
     "answer": 1,
     "answerText": "Rhabdomyolysis",
     "explanation": "Rhabdomyolysis causes the release of potassium from damaged muscle cells, leading to hyperkalemia.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Panahi - Question 7</span> Which condition is characterized by an increase in the volume of the extracellular fluid (ECF) without a change in osmolarity?",
@@ -88,7 +94,8 @@
     "answer": 0,
     "answerText": "Isotonic expansion",
     "explanation": "Isotonic expansion occurs when both water and solutes increase proportionally, maintaining osmolarity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-23) - Dr. Panahi - Question 8</span> What condition is likely to cause hypotonic expansion of the ECF?",
@@ -101,7 +108,8 @@
     "answer": 0,
     "answerText": "SIADH",
     "explanation": "SIADH (Syndrome of Inappropriate Antidiuretic Hormone) causes water retention, diluting the ECF and leading to hypotonic expansion.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Panahi - Question 1</span> In metabolic alkalosis, the primary disturbance is:",
@@ -114,7 +122,8 @@
     "answer": 1,
     "answerText": "Increased bicarbonate",
     "explanation": "Metabolic alkalosis is characterized by an increase in bicarbonate concentration, leading to an elevated blood pH.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Panahi - Question 2</span> Which condition is characterized by an increase in carbon dioxide levels leading to respiratory acidosis?",
@@ -127,7 +136,8 @@
     "answer": 0,
     "answerText": "Asthma",
     "explanation": "Respiratory acidosis results from hypoventilation, leading to an accumulation of CO2. Asthma can cause this by restricting airflow.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Panahi - Question 3</span> Which of the following is a common cause of hyponatremia?",
@@ -140,7 +150,8 @@
     "answer": 0,
     "answerText": "Syndrome of inappropriate antidiuretic hormone secretion (SIADH)",
     "explanation": "SIADH causes water retention, leading to dilutional hyponatremia.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Panahi - Question 4</span> Which of the following conditions can lead to hyperkalemia?",
@@ -153,7 +164,8 @@
     "answer": 0,
     "answerText": "Renal failure",
     "explanation": "Renal failure reduces potassium excretion, leading to hyperkalemia.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Panahi - Question 5</span> Which of the following conditions may lead to respiratory alkalosis?",
@@ -166,7 +178,8 @@
     "answer": 0,
     "answerText": "Anxiety and hyperventilation",
     "explanation": "Hyperventilation lowers CO2 levels, leading to respiratory alkalosis. Anxiety is a common cause.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Panahi - Question 6</span> Which of the following is a major extracellular fluid (ECF) component?",
@@ -179,7 +192,8 @@
     "answer": 0,
     "answerText": "Sodium",
     "explanation": "Sodium is the major cation in the extracellular fluid and plays a crucial role in fluid balance.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Panahi - Question 7</span> Which hormone is primarily responsible for regulating sodium and water balance?",
@@ -192,7 +206,8 @@
     "answer": 0,
     "answerText": "Aldosterone",
     "explanation": "Aldosterone increases sodium reabsorption in the kidneys, which in turn promotes water retention.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-09-22) Retake Exam - Dr. Panahi - Question 8</span> The management of metabolic acidosis may include:",
@@ -205,7 +220,8 @@
     "answer": 0,
     "answerText": "Administering sodium bicarbonate",
     "explanation": "Sodium bicarbonate is often administered to correct metabolic acidosis by neutralizing excess acid in the blood.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 1</span> Which of the following is NOT a cause of Respiratory alkalosis?",
@@ -218,7 +234,8 @@
     "answer": 2,
     "answerText": "COPD",
     "explanation": "Respiratory alkalosis is typically caused by conditions that lead to hyperventilation, such as anxiety or high altitude. COPD generally leads to respiratory acidosis due to impaired gas exchange.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 2</span> The primary buffer system in the blood is:",
@@ -231,7 +248,8 @@
     "answer": 1,
     "answerText": "Bicarbonate",
     "explanation": "The bicarbonate buffer system is the primary mechanism for maintaining pH balance in the blood.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 3</span> Based on these results, what is the condition?",
@@ -244,7 +262,8 @@
     "answer": 2,
     "answerText": "Respiratory acidosis",
     "explanation": "The low pH and elevated PaCO2 indicate respiratory acidosis due to hypoventilation or impaired CO2 removal.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 4</span> Given the following arterial blood gas results: pH = 7.33, PaCO2 = 32 mmHg, HCO3- = 18 mEq/L. What is the condition?",
@@ -257,7 +276,8 @@
     "answer": 2,
     "answerText": "Partially compensated metabolic acidosis",
     "explanation": "The decreased pH and HCO3- indicate metabolic acidosis, with partial compensation reflected by a decreased PaCO2.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 5</span> Which electrolyte imbalance is associated with muscle weakness and cardiac arrhythmias?",
@@ -270,7 +290,8 @@
     "answer": 1,
     "answerText": "Hypokalemia",
     "explanation": "Hypokalemia can cause muscle weakness, fatigue, and life-threatening cardiac arrhythmias due to altered electrical activity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 6</span> Hypernatremia is primarily caused by:",
@@ -283,7 +304,8 @@
     "answer": 0,
     "answerText": "Dehydration",
     "explanation": "Hypernatremia commonly results from dehydration due to water loss exceeding sodium loss.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 7</span> Which condition leads to isotonic expansion of the ECF?",
@@ -296,7 +318,8 @@
     "answer": 2,
     "answerText": "Isotonic saline infusion",
     "explanation": "Isotonic saline infusion directly increases extracellular fluid volume without affecting osmolarity.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Second Batch (2024-12-1) Dr. Panahi - Question 8</span> What is the main cation in extracellular fluid?",
@@ -309,6 +332,7 @@
     "answer": 3,
     "answerText": "Sodium",
     "explanation": "Sodium is the major extracellular cation, playing a critical role in fluid balance and nerve function.",
-    "userAnswer": null
+    "userAnswer": null,
+    "qID": "urin-bioc-q24"
   }
 ]
