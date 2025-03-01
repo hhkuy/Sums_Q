@@ -3,9 +3,6 @@
  * Full code with final modifications for counting correct/wrong answers in the Custom Quiz.
  */
 
-/***
- * الإعدادات والانتظار لتحميل الصفحة
- ***/
 document.addEventListener('DOMContentLoaded', () => {
   loadTopicsList(); // عند تحميل الصفحة، نجلب قائمة المواضيع
   setupTopicSearchListener(); // تجهيز الاستماع لحقل البحث (المواضيع)
@@ -249,6 +246,28 @@ function loadQuiz() {
     questionDiv.appendChild(questionTextSpan);
     questionDiv.appendChild(lightbulbIcon);
     questionContainer.appendChild(questionDiv);
+    
+    // NEW CODE: عرض الـ ID + زر النسخ
+    const idRow = document.createElement('div');
+    idRow.style.marginBottom = '8px';
+    const idLabel = document.createElement('span');
+    idLabel.textContent = `ID: ${data.qID || ''}  `;
+    const copyIdBtn = document.createElement('button');
+    copyIdBtn.type = 'button';
+    copyIdBtn.textContent = 'Copy ID';
+    copyIdBtn.style.marginLeft = '10px';
+    copyIdBtn.addEventListener('click', () => {
+      const toCopy = data.qID || '';
+      navigator.clipboard.writeText(toCopy)
+        .then(() => {
+          alert(`Copied ID: ${toCopy}`);
+        })
+        .catch(err => console.error('Failed to copy ID:', err));
+    });
+    idRow.appendChild(idLabel);
+    idRow.appendChild(copyIdBtn);
+    questionContainer.appendChild(idRow);
+    // END NEW CODE
     
     const explanationDiv = document.createElement('div');
     explanationDiv.classList.add('explanation');
@@ -1324,9 +1343,7 @@ function generateCustomQuiz() {
         });
       }
 
-      // إخفاء صفحة الإنشاء
       document.getElementById('create-custom-quiz-page').style.display = 'none';
-      // عرض صفحة الاختبار المخصص
       document.getElementById('custom-quiz-container').style.display = 'block';
       document.getElementById('custom-quiz-timer').textContent = '';
       document.getElementById('question-progress-bar').style.width = '0%';
@@ -1389,7 +1406,6 @@ function checkCustomOption(selectedIndex) {
     }
   });
 
-  // تحديث الإحصائيات
   if (selectedIndex === correctIndex) {
     customQuizCorrectCount++;
   } else {
@@ -1424,7 +1440,6 @@ function endCustomQuiz() {
 
   const total = customQuizAllQuestions.length;
   const unanswered = total - customQuizAnsweredCount;
-  // إظهار النتائج
   const resultEl = document.getElementById('custom-quiz-result');
   resultEl.innerHTML = `
     <p>Quiz finished!</p>
@@ -1524,8 +1539,6 @@ function downloadPDF() {
     }
   };
   return;
-
-  // بقية كود jsPDF (غير مستخدم فعلياً الآن)...
 }
 
 /*****************************************************************
