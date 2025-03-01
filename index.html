@@ -42,6 +42,11 @@
       line-height: 1.6;
     }
     
+    /*================ Navbar ================*/
+    .navbar {
+      margin-bottom: 20px;
+    }
+    
     /*================ Hero Section ================*/
     .hero-section {
       position: relative;
@@ -148,8 +153,8 @@
       margin: 0;
       margin-bottom: 10px;
       font-size: 1.5rem;
-      font-weight: 600; /* اجعل الخط أغمق */
-      color: #2c3e50;  /* لون أغمق قليلاً */
+      font-weight: 600;
+      color: #2c3e50;
       min-height: 60px;
     }
     .topic-description {
@@ -504,24 +509,6 @@
     #search-results li {
       margin: 10px 0;
     }
-    #jump-input {
-    width: 80%; /* تأكد من أن عرضه مناسب */
-    height: 40px;
-    font-size: 16px;
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid #ced4da;
-    
-    /* هذه التعديلات تجعله في المنتصف */
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    }
-    #jump-input:focus {
-      outline: none;
-      border-color: #80bdff;
-      box-shadow: 0 0 5px rgba(0,123,255,0.5);
-    }
     #search-results li button {
       width: 100%;
       text-align: left;
@@ -538,15 +525,21 @@
     #search-results li button mark {
       background-color: yellow;
     }
-    
-    /* Revert some button colors for filters */
-    .filter-button.unanswered {
-      background-color: #ffc107;
-      color: black;
+    #jump-input {
+      width: 80%;
+      height: 40px;
+      font-size: 16px;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ced4da;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
     }
-    .filter-button.all {
-      background-color: #007bff;
-      color: white;
+    #jump-input:focus {
+      outline: none;
+      border-color: #80bdff;
+      box-shadow: 0 0 5px rgba(0,123,255,0.5);
     }
     
     /* MCQs Mode & Flashcard Mode buttons */
@@ -632,7 +625,6 @@
     }
 
     @media print {
-      /* Keep colors and backgrounds when printing */
       * {
         -webkit-print-color-adjust: exact !important;
         color-adjust: exact !important;
@@ -640,7 +632,6 @@
       }
     }
 
-    /* PDF download button color */
     #download-pdf {
       background-color: orange !important;
     }
@@ -687,7 +678,6 @@
       box-shadow: 0 5px 15px rgba(0,123,255,0.3);
     }
 
-    /* إعادة ترتيب الشيك بوكسات للمواضيع والمواضيع الفرعية */
     .custom-quiz-checkboxes {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -799,6 +789,23 @@
 </head>
 <body>
 
+  <!-- Navbar with page links -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">SUMS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="index.html">SQB Hub</a>
+          <a class="nav-link" href="exp_index.html">Learning Hub</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
   <!-- Hero Section -->
   <div class="hero-section">
     <div class="hero-content">
@@ -813,7 +820,6 @@
     <div class="topic-search-bar">
       <input type="text" id="topic-search-input" placeholder="Search topics...">
       <button onclick="manualSearchTopics()">Search</button>
-      <!-- "Make Quizz" button -->
       <button style="background-color:#28a745;" onclick="showCustomQuizPage()">Make Quizz</button>
     </div>
     <div class="topics-grid" id="topics-grid">
@@ -896,7 +902,6 @@
 
   <!-- Custom Quiz Page -->
   <div id="create-custom-quiz-page" class="container">
-    <!-- A back button to return to topics page -->
     <button id="custom-quiz-back-btn" class="btn btn-outline-secondary mb-3" onclick="goBackToTopics()">
       <i class="bi bi-arrow-left-circle"></i> Back
     </button>
