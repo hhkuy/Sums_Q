@@ -254,24 +254,19 @@ function loadQuiz() {
     idLabel.textContent = `ID: ${data.qID || ''}  `;
 
     // زر النسخ (رمز الأيقونة فقط)
-    // زر النسخ (رمز الأيقونة فقط)
-const copyIdBtn = document.createElement('button');
-copyIdBtn.type = 'button';
-copyIdBtn.style.marginLeft = '10px';
-// NEW CODE: تعيين العرض والارتفاع للزر
-copyIdBtn.style.width = '50px';
-copyIdBtn.style.height = '50px';
-copyIdBtn.innerHTML = '<i class="bi bi-clipboard"></i>'; // أيقونة النسخ
-copyIdBtn.addEventListener('click', () => {
-  const toCopy = data.qID || '';
-  fallbackCopyTextToClipboard(toCopy);  // استخدام الدالة للنسخ
-  // استبدال الأيقونة مؤقتًا بعلامة الصح
-  copyIdBtn.innerHTML = '<i class="bi bi-clipboard-check"></i>';
-  setTimeout(() => {
-    copyIdBtn.innerHTML = '<i class="bi bi-clipboard"></i>';
-  }, 3000);
-});
-
+    const copyIdBtn = document.createElement('button');
+    copyIdBtn.type = 'button';
+    copyIdBtn.style.marginLeft = '10px';
+    copyIdBtn.innerHTML = '<i class="bi bi-clipboard"></i>'; // أيقونة النسخ
+    copyIdBtn.addEventListener('click', () => {
+      const toCopy = data.qID || '';
+      fallbackCopyTextToClipboard(toCopy);  // استخدام الدالة أدناه للنسخ
+      // استبدال الأيقونة مؤقتًا بعلامة الصح
+      copyIdBtn.innerHTML = '<i class="bi bi-clipboard-check"></i>';
+      setTimeout(() => {
+        copyIdBtn.innerHTML = '<i class="bi bi-clipboard"></i>';
+      }, 3000);
+    });
 
     idRow.appendChild(idLabel);
     idRow.appendChild(copyIdBtn);
