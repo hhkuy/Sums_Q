@@ -259,8 +259,8 @@ const copyIdBtn = document.createElement('button');
 copyIdBtn.type = 'button';
 copyIdBtn.style.marginLeft = '10px';
 // NEW CODE: تعيين العرض والارتفاع للزر
-copyIdBtn.style.width = '50px';
-copyIdBtn.style.height = '50px';
+copyIdBtn.style.width = '30px';
+copyIdBtn.style.height = '30px';
 copyIdBtn.innerHTML = '<i class="bi bi-clipboard"></i>'; // أيقونة النسخ
 copyIdBtn.addEventListener('click', () => {
   const toCopy = data.qID || '';
