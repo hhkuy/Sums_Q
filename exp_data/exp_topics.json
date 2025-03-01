@@ -1,0 +1,36 @@
+{
+  "topics": [
+    {
+      "title": "Microbiology",
+      "subtopics": [
+        {
+          "title": "Virology",
+          "subtopics": [
+            {
+              "title": "Herpesviruses",
+              "dataFile": "herpes.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chemistry",
+      "subtopics": [
+        {
+          "title": "Organic Chemistry",
+          "subtopics": [
+            {
+              "title": "Hydrocarbons",
+              "dataFile": "example_hydrocarbons.json"
+            },
+            {
+              "title": "Alcohols",
+              "dataFile": "example_alcohols.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
