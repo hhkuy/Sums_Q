@@ -3,6 +3,9 @@
  * Full code with final modifications for counting correct/wrong answers in the Custom Quiz.
  */
 
+/***
+ * الإعدادات والانتظار لتحميل الصفحة
+ ***/
 document.addEventListener('DOMContentLoaded', () => {
   loadTopicsList(); // عند تحميل الصفحة، نجلب قائمة المواضيع
   setupTopicSearchListener(); // تجهيز الاستماع لحقل البحث (المواضيع)
@@ -38,9 +41,9 @@ const quizTitleElement = document.getElementById('quiz-title');
 // سنحتفظ بقائمة المواضيع كاملة في متغير allTopics
 let allTopics = [];
 
-/*****************************************************************
+/*************
  *        أقسام الكويز الأساسي + عرض المواضيع الأصلية          *
- *****************************************************************/
+ *************/
 function loadTopicsList() {
   fetch(TOPICS_JSON_FILE)
     .then(response => response.json())
@@ -206,9 +209,9 @@ function goBackToTopics() {
   if (resultElement) resultElement.innerHTML = '';
 }
 
-/*****************************************************************
+/*************
  *         تهيئة فئات الأسئلة + رسم الكويز الرئيسي (MCQ/Flash)   *
- *****************************************************************/
+ *************/
 function initOriginalCategories() {
   const cats = originalQuizData.map(q => extractCategoryFromQuestion(q.question)).filter(c => c);
   originalCategories = [...new Set(cats)];
@@ -241,33 +244,51 @@ function loadQuiz() {
     lightbulbIcon.addEventListener('click', () => {
       toggleExplanation(index);
     });
-    
+
+    // ============  إضافة الـ qID وزر النسخ هنا  ============
+    // يتحقق من وجود qID في السؤال
+    let qIDContainer = null;
+    if (data.qID) {
+      qIDContainer = document.createElement('div');
+      qIDContainer.style.fontSize = '0.8rem';
+      qIDContainer.style.display = 'inline-flex';
+      qIDContainer.style.alignItems = 'center';
+      qIDContainer.style.marginLeft = '10px'; // ليكون بجانب السؤال دون إزعاج
+
+      const idSpan = document.createElement('span');
+      idSpan.textContent = data.qID;
+
+      const copyButton = document.createElement('button');
+      copyButton.textContent = 'Copy';
+      copyButton.style.marginLeft = '5px';
+      copyButton.style.fontSize = '0.7rem';
+      copyButton.style.padding = '2px 6px';
+      copyButton.style.cursor = 'pointer';
+      copyButton.addEventListener('click', () => {
+        copyQIDToClipboard(data.qID, copyButton);
+      });
+
+      const checkSpan = document.createElement('span');
+      checkSpan.textContent = '✔';
+      checkSpan.style.display = 'none';
+      checkSpan.style.marginLeft = '4px';
+
+      qIDContainer.appendChild(idSpan);
+      qIDContainer.appendChild(copyButton);
+      qIDContainer.appendChild(checkSpan);
+    }
+    // =======================================================
+
     questionDiv.appendChild(questionNumberSpan);
     questionDiv.appendChild(questionTextSpan);
     questionDiv.appendChild(lightbulbIcon);
+
+    // في حال يوجد qID، نضيفه بعد الأيقونة
+    if (qIDContainer) {
+      questionDiv.appendChild(qIDContainer);
+    }
+
     questionContainer.appendChild(questionDiv);
-    
-    // NEW CODE: عرض الـ ID + زر النسخ
-    const idRow = document.createElement('div');
-    idRow.style.marginBottom = '8px';
-    const idLabel = document.createElement('span');
-    idLabel.textContent = `ID: ${data.qID || ''}  `;
-    const copyIdBtn = document.createElement('button');
-    copyIdBtn.type = 'button';
-    copyIdBtn.textContent = 'Copy ID';
-    copyIdBtn.style.marginLeft = '10px';
-    copyIdBtn.addEventListener('click', () => {
-      const toCopy = data.qID || '';
-      navigator.clipboard.writeText(toCopy)
-        .then(() => {
-          alert(`Copied ID: ${toCopy}`);
-        })
-        .catch(err => console.error('Failed to copy ID:', err));
-    });
-    idRow.appendChild(idLabel);
-    idRow.appendChild(copyIdBtn);
-    questionContainer.appendChild(idRow);
-    // END NEW CODE
     
     const explanationDiv = document.createElement('div');
     explanationDiv.classList.add('explanation');
@@ -430,9 +451,9 @@ if (quizForm) {
   });
 }
 
-/*****************************************************************
+/*************
  * بقية الدوال المساندة (التصحيح، الفلترة، إلخ)
- *****************************************************************/
+ *************/
 function toggleExplanation(index) {
   const explanationDiv = document.getElementById(`explanation-${index}`);
   if (!explanationDiv) return;
@@ -1128,9 +1149,9 @@ function updateScrollButtonIcon() {
   }
 }
 
-/*****************************************************************
+/*************
  *                صفحة الكويز المخصص (Make Quizz)               *
- *****************************************************************/
+ *************/
 let selectedTopicsForCustom = [];
 let selectedSubtopicsForCustom = [];
 let customQuizAllQuestions = [];
@@ -1148,7 +1169,7 @@ let customQuizAnsweredCount = 0;
 let customQuizCorrectCount = 0;
 let customQuizWrongCount = 0;
 
-/** عند الضغط على زر Make Quizz **/
+/** عند الضغط على زر Make Quizz */
 function showCustomQuizPage() {
   topicsPage.style.display = 'none';
   quizContainer.style.display = 'none';
@@ -1158,7 +1179,7 @@ function showCustomQuizPage() {
   populateCustomTopicsCheckboxes();
 }
 
-/** تعبئة المواضيع في صفحة الاختبار المخصص **/
+/** تعبئة المواضيع في صفحة الاختبار المخصص */
 function populateCustomTopicsCheckboxes() {
   const container = document.getElementById('custom-topics-checkboxes');
   container.innerHTML = '';
@@ -1176,7 +1197,7 @@ function populateCustomTopicsCheckboxes() {
   });
 }
 
-/** عند اختيار أو إلغاء اختيار أي Topic **/
+/** عند اختيار أو إلغاء اختيار أي Topic */
 function handleTopicSelectionChange(e, topic) {
   if (e.target.checked) {
     selectedTopicsForCustom.push(topic);
@@ -1187,7 +1208,7 @@ function handleTopicSelectionChange(e, topic) {
   updateCustomQuizDetails();
 }
 
-/** تعبئة المواضيع الفرعية للمواضيع المختارة **/
+/** تعبئة المواضيع الفرعية للمواضيع المختارة */
 function populateSubtopicsCheckboxes() {
   const container = document.getElementById('custom-subtopics-checkboxes');
   container.innerHTML = '';
@@ -1235,7 +1256,7 @@ function handleSubtopicSelectionChange(e, sub, parentTopicName) {
   updateCustomQuizDetails();
 }
 
-/** تحديث النص الإرشادي (عدد الملفات والأسئلة المتوفرة) **/
+/** تحديث النص الإرشادي (عدد الملفات والأسئلة المتوفرة) */
 function updateCustomQuizDetails() {
   const details = document.getElementById('custom-quiz-details');
   const totalFiles = new Set();
@@ -1260,7 +1281,7 @@ function updateCustomQuizDetails() {
   });
 }
 
-/** إظهار/إخفاء حقل الوقت بناءً على اختيار نوع المؤقت **/
+/** إظهار/إخفاء حقل الوقت بناءً على اختيار نوع المؤقت */
 const timerTypeRadios = document.querySelectorAll('input[name="timer-type"]');
 timerTypeRadios.forEach(radio => {
   radio.addEventListener('change', () => {
@@ -1274,7 +1295,7 @@ timerTypeRadios.forEach(radio => {
   });
 });
 
-/** بدء إنشاء الاختبار **/
+/** بدء إنشاء الاختبار */
 function generateCustomQuiz() {
   customQuizAllQuestions = [];
   customQuizCurrentIndex = 0;
@@ -1343,7 +1364,9 @@ function generateCustomQuiz() {
         });
       }
 
+      // إخفاء صفحة الإنشاء
       document.getElementById('create-custom-quiz-page').style.display = 'none';
+      // عرض صفحة الاختبار المخصص
       document.getElementById('custom-quiz-container').style.display = 'block';
       document.getElementById('custom-quiz-timer').textContent = '';
       document.getElementById('question-progress-bar').style.width = '0%';
@@ -1356,7 +1379,7 @@ function generateCustomQuiz() {
     });
 }
 
-/** عرض السؤال الحالي في الاختبار المخصص **/
+/** عرض السؤال الحالي في الاختبار المخصص */
 function showCustomQuizQuestion() {
   if (customQuizCurrentIndex >= customQuizAllQuestions.length) {
     endCustomQuiz();
@@ -1390,7 +1413,7 @@ function showCustomQuizQuestion() {
   document.getElementById('next-question-btn').disabled = true;
 }
 
-/** عند اختيار إجابة **/
+/** عند اختيار إجابة */
 function checkCustomOption(selectedIndex) {
   const currentQ = customQuizAllQuestions[customQuizCurrentIndex];
   const correctIndex = currentQ.answer;
@@ -1406,6 +1429,7 @@ function checkCustomOption(selectedIndex) {
     }
   });
 
+  // تحديث الإحصائيات
   if (selectedIndex === correctIndex) {
     customQuizCorrectCount++;
   } else {
@@ -1416,7 +1440,7 @@ function checkCustomOption(selectedIndex) {
   document.getElementById('next-question-btn').disabled = false;
 }
 
-/** زر السؤال التالي **/
+/** زر السؤال التالي */
 function handleNextQuestion() {
   customQuizCurrentIndex++;
   if (customQuizTimerType === 'per-question') {
@@ -1430,7 +1454,7 @@ function handleNextQuestion() {
   }
 }
 
-/** نهاية الاختبار **/
+/** نهاية الاختبار */
 function endCustomQuiz() {
   stopCustomQuizTimer();
   document.getElementById('question-progress-bar').style.width = '100%';
@@ -1440,18 +1464,18 @@ function endCustomQuiz() {
 
   const total = customQuizAllQuestions.length;
   const unanswered = total - customQuizAnsweredCount;
+  // إظهار النتائج
   const resultEl = document.getElementById('custom-quiz-result');
-  resultEl.innerHTML = `
-    <p>Quiz finished!</p>
+  resultEl.innerHTML = 
+    `<p>Quiz finished!</p>
     <p>Total Questions: ${total}</p>
     <p>Correct: ${customQuizCorrectCount}</p>
     <p>Wrong: ${customQuizWrongCount}</p>
     <p>Unanswered: ${unanswered}</p>
-    <p>Your Score: ${customQuizCorrectCount} out of ${total}.</p>
-  `;
+    <p>Your Score: ${customQuizCorrectCount} out of ${total}.</p>`;
 }
 
-/** إعادة الاختبار **/
+/** إعادة الاختبار */
 function restartCustomQuiz() {
   document.getElementById('custom-quiz-container').style.display = 'none';
   document.getElementById('create-custom-quiz-page').style.display = 'block';
@@ -1465,7 +1489,7 @@ function restartCustomQuiz() {
   document.getElementById('custom-quiz-timer').textContent = '';
 }
 
-/** المؤقت **/
+/** المؤقت */
 function startCustomQuizTimer() {
   if (customQuizTimerType === 'none') return;
   stopCustomQuizTimer();
@@ -1507,9 +1531,9 @@ function updateCustomQuizTimerDisplay() {
   timerElem.textContent = `Time left: ${minutes}:${(seconds < 10 ? '0'+seconds : seconds)}`;
 }
 
-/*****************************************************************
+/*************
  *              دوال تنزيل الـ PDF (كما في الكود الأصلي)         *
- *****************************************************************/
+ *************/
 function downloadPDF() {
   const printWindow = window.open('about:blank', '_blank', 'width=1000,height=800');
   if (!printWindow) {
@@ -1539,11 +1563,13 @@ function downloadPDF() {
     }
   };
   return;
+
+  // بقية كود jsPDF (غير مستخدم فعلياً الآن)...
 }
 
-/*****************************************************************
+/*************
  *              دوال مساعدة للبحث ومعالجة النص                    *
- *****************************************************************/
+ *************/
 function stripHTML(str) {
   return str.replace(/<[^>]*>?/gm, '');
 }
@@ -1551,4 +1577,22 @@ function stripHTML(str) {
 function highlightTerm(text, term) {
   const re = new RegExp(term, 'gi');
   return text.replace(re, matched => `<mark>${matched}</mark>`);
+}
+
+/**
+ *  دالة نسخ الـ qID
+ *  عند النسخ، يظهر رمز الصح لمدة 3 ثوانٍ ثم يختفي.
+ */
+function copyQIDToClipboard(qID, btn) {
+  navigator.clipboard.writeText(qID).then(() => {
+    const checkSpan = btn.nextElementSibling; 
+    if (checkSpan) {
+      checkSpan.style.display = 'inline';
+      setTimeout(() => {
+        checkSpan.style.display = 'none';
+      }, 3000);
+    }
+  }).catch(err => {
+    console.error('Clipboard copy failed: ', err);
+  });
 }
