@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <!-- Google Fonts (Montserrat) -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+  <!-- Font Awesome for video player icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- الموقع الأصلي – أنماط الصفحة العامة -->
   <style>
     /* Reset and basic body styling */
     body {
@@ -238,6 +242,172 @@
       }
     }
   </style>
+  
+  <!-- أنماط مشغل الفيديو المتقدم -->
+  <style>
+    body {
+      /* لن تتعارض هذه الأنماط مع الأنماط العامة للموقع */
+    }
+    /* أنماط مشغل الفيديو المتقدم */
+    #videoContainer {
+      position: relative;
+      width: 800px;
+      max-width: 90%;
+      background-color: #000;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      border-radius: 8px;
+      overflow: hidden;
+      touch-action: none;
+    }
+    #videoWrapper {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      touch-action: none;
+      transform: translate(0px, 0px) scale(1);
+      transition: transform 0.1s;
+    }
+    #videoPlayer {
+      width: 100%;
+      display: block;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+    #playPauseOverlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 60px;
+      color: rgba(255,255,255,0.8);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s;
+      text-shadow: 0 0 10px rgba(0,0,0,0.5);
+      cursor: pointer;
+      z-index: 2;
+    }
+    #customControls {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      opacity: 1;
+      transition: opacity 0.3s ease-in-out;
+      z-index: 2;
+    }
+    #customControls.hiddenControls {
+      opacity: 0;
+      pointer-events: none;
+    }
+    #timeDisplay {
+      text-align: center;
+      font-size: 14px;
+    }
+    #progressWrapper {
+      position: relative;
+      width: 100%;
+    }
+    #progressContainer {
+      position: relative;
+      width: 100%;
+      height: 8px;
+      background: #444;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    #bufferedBar {
+      position: absolute;
+      left: 0;
+      height: 100%;
+      background: rgba(255,255,255,0.5);
+      width: 0%;
+      border-radius: 4px;
+      z-index: 3;
+    }
+    #progressBar {
+      position: absolute;
+      left: 0;
+      height: 100%;
+      background: #f39c12;
+      width: 0%;
+      border-radius: 4px;
+      z-index: 4;
+    }
+    #dragHandle {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 16px;
+      height: 16px;
+      background: #f39c12;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 5;
+      transition: left 0.1s ease-out;
+    }
+    #previewTooltip {
+      position: absolute;
+      bottom: 15px;
+      left: 0;
+      transform: translateX(-50%);
+      background: rgba(0,0,0,0.8);
+      padding: 4px 6px;
+      border-radius: 4px;
+      display: none;
+      font-size: 12px;
+      pointer-events: none;
+    }
+    .control-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .control-group {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    button, input[type="range"] {
+      background: transparent;
+      border: none;
+      color: #fff;
+      font-size: 18px;
+      cursor: pointer;
+      outline: none;
+    }
+    button:hover {
+      color: #f39c12;
+    }
+    #volumeControl {
+      width: 100px;
+    }
+    #speedOptions {
+      position: absolute;
+      bottom: 50px;
+      left: 10px;
+      background: rgba(0,0,0,0.8);
+      border: 1px solid #fff;
+      border-radius: 4px;
+      display: none;
+      flex-direction: column;
+      z-index: 3;
+    }
+    #speedOptions button {
+      padding: 5px 10px;
+      font-size: 14px;
+      text-align: left;
+    }
+    #speedOptions button:hover {
+      background: #f39c12;
+    }
+  </style>
 </head>
 <body>
 
@@ -353,9 +523,325 @@
     </div>
   </div>
 
+  <!-- قالب مشغل الفيديو المتقدم (لن يظهر حتى يتم استدعاؤه) -->
+  <template id="advancedVideoTemplate">
+    <div id="videoContainer">
+      <div id="videoWrapper">
+        <video id="videoPlayer" preload="metadata" controlsList="nodownload noremoteplayback" disablePictureInPicture>
+          <source src="https://link.storjshare.io/raw/jwfnitlyfrtkqoherxcsa45gcnga/sums/Screen_Recording_%D9%A2%D9%A0%D9%A2%D9%A5%D9%A0%D9%A3%D9%A0%D9%A2_%D9%A2%D9%A3%D9%A0%D9%A8%D9%A0%D9%A9_One%20UI%20Home.mp4" type="video/mp4">
+          المتصفح الخاص بك لا يدعم الفيديو.
+        </video>
+        <div id="playPauseOverlay"><i class="fas fa-play"></i></div>
+      </div>
+      <div id="customControls">
+        <div id="timeDisplay">00:00 / 00:00</div>
+        <div id="progressWrapper">
+          <div id="progressContainer">
+            <div id="bufferedBar"></div>
+            <div id="progressBar"></div>
+            <div id="dragHandle"></div>
+          </div>
+          <div id="previewTooltip">
+            <div id="previewTime">00:00</div>
+          </div>
+        </div>
+        <div class="control-row">
+          <div class="control-group">
+            <button id="toggleBtn" title="تشغيل/إيقاف"><i class="fas fa-play"></i></button>
+            <button id="speedBtn" title="سرعة التشغيل">سرعة</button>
+            <div id="speedOptions">
+              <button data-speed="0.5">0.5x</button>
+              <button data-speed="0.75">0.75x</button>
+              <button data-speed="1">1x</button>
+              <button data-speed="1.25">1.25x</button>
+              <button data-speed="1.5">1.5x</button>
+              <button data-speed="2">2x</button>
+            </div>
+          </div>
+          <div class="control-group">
+            <i class="fas fa-volume-up" title="الصوت"></i>
+            <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1">
+            <button id="fullscreenBtn" title="ملء الشاشة"><i class="fas fa-expand"></i></button>
+            <button id="resetBtn" title="إعادة الوضع الطبيعي"><i class="fas fa-undo"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </template>
+
   <!-- Bootstrap 5 JS Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-
+  
+  <!-- الأكواد الرئيسية للموقع (exp_main.js) سيتم تحميلها منفصلة -->
+  <script src="exp_main.js"></script>
+  
+  <!-- الأكواد الخاصة بالتعامل مع مشغل الفيديو المتقدم -->
+  <script>
+    // دالة لاستبدال أي عنصر يحتوي على فيديو داخل .video-container بنموذج مشغل الفيديو المتقدم
+    function initAdvancedVideoPlayers() {
+      const containers = document.querySelectorAll('.video-container');
+      containers.forEach(container => {
+        const originalVideo = container.querySelector('video');
+        if(originalVideo) {
+          const videoSrc = originalVideo.getAttribute('src');
+          const template = document.getElementById('advancedVideoTemplate');
+          const clone = template.content.cloneNode(true);
+          const videoElem = clone.querySelector('#videoPlayer');
+          const sourceElem = videoElem.querySelector('source');
+          sourceElem.setAttribute('src', videoSrc);
+          videoElem.removeAttribute('controls');
+          container.innerHTML = ''; // إزالة المحتوى الأصلي
+          container.appendChild(clone);
+          // تهيئة أحداث مشغل الفيديو داخل هذا العنصر
+          initAdvancedVideoPlayerEvents(container);
+        }
+      });
+    }
+    
+    // دالة تهيئة أحداث مشغل الفيديو داخل حاوية معينة
+    function initAdvancedVideoPlayerEvents(container) {
+      const videoContainer = container.querySelector('#videoContainer');
+      const videoWrapper = container.querySelector('#videoWrapper');
+      const video = container.querySelector('#videoPlayer');
+      const customControls = container.querySelector('#customControls');
+      const toggleBtn = container.querySelector('#toggleBtn');
+      const speedBtn = container.querySelector('#speedBtn');
+      const speedOptions = container.querySelector('#speedOptions');
+      const volumeControl = container.querySelector('#volumeControl');
+      const fullscreenBtn = container.querySelector('#fullscreenBtn');
+      const resetBtn = container.querySelector('#resetBtn');
+      const timeDisplay = container.querySelector('#timeDisplay');
+      const progressContainer = container.querySelector('#progressContainer');
+      const bufferedBar = container.querySelector('#bufferedBar');
+      const progressBar = container.querySelector('#progressBar');
+      const dragHandle = container.querySelector('#dragHandle');
+      const playPauseOverlay = container.querySelector('#playPauseOverlay');
+      
+      let controlsTimeout;
+      let isDragging = false;
+      let currentScale = 1;
+      let currentTranslate = { x: 0, y: 0 };
+      let lastPanPosition = null;
+      let initialDistance = null;
+      let initialScale = 1;
+      
+      video.removeAttribute('controls');
+      
+      function togglePlayPause() {
+        video[video.paused ? 'play' : 'pause']();
+      }
+      
+      function updatePlayPauseIcon() {
+        const icon = video.paused ? 'play' : 'pause';
+        toggleBtn.innerHTML = `<i class="fas fa-${icon}"></i>`;
+        playPauseOverlay.innerHTML = `<i class="fas fa-${icon}"></i>`;
+      }
+      
+      video.addEventListener('click', togglePlayPause);
+      playPauseOverlay.addEventListener('click', togglePlayPause);
+      toggleBtn.addEventListener('click', togglePlayPause);
+      
+      video.addEventListener('play', () => {
+        updatePlayPauseIcon();
+        playPauseOverlay.style.opacity = '0';
+      });
+      
+      video.addEventListener('pause', () => {
+        updatePlayPauseIcon();
+        playPauseOverlay.style.opacity = '1';
+      });
+      
+      function showControls() {
+        customControls.classList.remove('hiddenControls');
+        resetControlsTimer();
+      }
+      
+      function resetControlsTimer() {
+        clearTimeout(controlsTimeout);
+        if (!video.paused) {
+          controlsTimeout = setTimeout(() => {
+            customControls.classList.add('hiddenControls');
+          }, 3000);
+        }
+      }
+      
+      videoContainer.addEventListener('mousemove', showControls);
+      videoContainer.addEventListener('touchstart', showControls);
+      videoContainer.addEventListener('click', () => {
+        if (!customControls.classList.contains('hiddenControls')) {
+          resetControlsTimer();
+        }
+      });
+      
+      customControls.addEventListener('mouseenter', () => clearTimeout(controlsTimeout));
+      customControls.addEventListener('mouseleave', resetControlsTimer);
+      
+      speedBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        speedOptions.style.display = speedOptions.style.display === 'flex' ? 'none' : 'flex';
+      });
+      
+      document.addEventListener('click', (e) => {
+        if (!e.target.closest('#speedOptions') && !e.target.matches('#speedBtn')) {
+          speedOptions.style.display = 'none';
+        }
+      });
+      
+      speedOptions.querySelectorAll('button').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const speed = parseFloat(btn.dataset.speed);
+          video.playbackRate = speed;
+          speedBtn.textContent = `${speed}x`;
+        });
+      });
+      
+      volumeControl.addEventListener('input', () => {
+        video.volume = volumeControl.value;
+      });
+      
+      fullscreenBtn.addEventListener('click', () => {
+        if (!document.fullscreenElement) {
+          videoContainer.requestFullscreen();
+        } else {
+          document.exitFullscreen();
+        }
+      });
+      
+      resetBtn.addEventListener('click', () => {
+        currentScale = 1;
+        currentTranslate = { x: 0, y: 0 };
+        updateTransform();
+      });
+      
+      function updateProgress() {
+        const playedPercent = (video.currentTime / video.duration) * 100;
+        progressBar.style.width = `${playedPercent}%`;
+        dragHandle.style.left = `${playedPercent}%`;
+        timeDisplay.textContent = `${formatTime(video.currentTime)} / ${formatTime(video.duration)}`;
+        
+        if (video.buffered.length) {
+          const bufferedEnd = video.buffered.end(video.buffered.length - 1);
+          const bufferedPercent = (bufferedEnd / video.duration) * 100;
+          if(bufferedPercent > playedPercent){
+            bufferedBar.style.left = `${playedPercent}%`;
+            bufferedBar.style.width = `${bufferedPercent - playedPercent}%`;
+          } else {
+            bufferedBar.style.width = '0%';
+          }
+        }
+      }
+      
+      function formatTime(seconds) {
+        const minutes = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60);
+        return `${String(minutes).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+      }
+      
+      video.addEventListener('timeupdate', updateProgress);
+      video.addEventListener('loadedmetadata', updateProgress);
+      video.addEventListener('progress', updateProgress);
+      
+      progressContainer.addEventListener('mousedown', startDrag);
+      progressContainer.addEventListener('touchstart', startDrag, { passive: false });
+      
+      function startDrag(e) {
+        isDragging = true;
+        dragHandle.style.transition = 'none';
+        handleDrag(e);
+        document.addEventListener('mousemove', handleDrag);
+        document.addEventListener('mouseup', stopDrag);
+        document.addEventListener('touchmove', handleDrag, { passive: false });
+        document.addEventListener('touchend', stopDrag);
+      }
+      
+      function handleDrag(e) {
+        if (!isDragging) return;
+        const rect = progressContainer.getBoundingClientRect();
+        const clientX = e.clientX || e.touches[0].clientX;
+        const x = Math.min(Math.max(clientX - rect.left, 0), rect.width);
+        const percent = x / rect.width;
+        video.currentTime = percent * video.duration;
+        updateProgress();
+      }
+      
+      function stopDrag() {
+        isDragging = false;
+        dragHandle.style.transition = 'left 0.1s ease-out';
+        document.removeEventListener('mousemove', handleDrag);
+        document.removeEventListener('mouseup', stopDrag);
+        document.removeEventListener('touchmove', handleDrag);
+        document.removeEventListener('touchend', stopDrag);
+      }
+      
+      videoWrapper.addEventListener('touchstart', handleTouchStart, { passive: false });
+      videoWrapper.addEventListener('touchmove', handleTouchMove, { passive: false });
+      videoWrapper.addEventListener('touchend', handleTouchEnd);
+      
+      function handleTouchStart(e) {
+        if (e.touches.length === 2) {
+          initialDistance = getDistance(e.touches[0], e.touches[1]);
+          initialScale = currentScale;
+        } else if (e.touches.length === 1 && currentScale > 1) {
+          lastPanPosition = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+        }
+      }
+      
+      function handleTouchMove(e) {
+        if (e.touches.length === 2 && initialDistance !== null) {
+          const newDistance = getDistance(e.touches[0], e.touches[1]);
+          let newScale = initialScale * (newDistance / initialDistance);
+          newScale = Math.min(Math.max(newScale, 1), 3);
+          currentScale = newScale;
+          constrainTranslation();
+          updateTransform();
+        } else if (e.touches.length === 1 && currentScale > 1 && lastPanPosition) {
+          const currentTouch = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+          const deltaX = currentTouch.x - lastPanPosition.x;
+          const deltaY = currentTouch.y - lastPanPosition.y;
+          currentTranslate.x += deltaX;
+          currentTranslate.y += deltaY;
+          constrainTranslation();
+          updateTransform();
+          lastPanPosition = currentTouch;
+        }
+        e.preventDefault();
+      }
+      
+      function handleTouchEnd(e) {
+        if (e.touches.length < 2) {
+          initialDistance = null;
+          initialScale = currentScale;
+        }
+        if (e.touches.length === 0) {
+          lastPanPosition = null;
+        }
+      }
+      
+      function getDistance(touch1, touch2) {
+        return Math.hypot(
+          touch2.clientX - touch1.clientX,
+          touch2.clientY - touch1.clientY
+        );
+      }
+      
+      function updateTransform() {
+        videoWrapper.style.transform = `translate(${currentTranslate.x}px, ${currentTranslate.y}px) scale(${currentScale})`;
+      }
+      
+      function constrainTranslation() {
+        const containerRect = videoContainer.getBoundingClientRect();
+        const maxTranslateX = (containerRect.width * (currentScale - 1)) / 2;
+        const maxTranslateY = (containerRect.height * (currentScale - 1)) / 2;
+        currentTranslate.x = Math.min(Math.max(currentTranslate.x, -maxTranslateX), maxTranslateX);
+        currentTranslate.y = Math.min(Math.max(currentTranslate.y, -maxTranslateY), maxTranslateY);
+      }
+    }
+    
+    // يمكن استدعاء دالة initAdvancedVideoPlayers() بعد تحميل المحتوى (مثلاً بعد استدعاء openContentPage أو fetchDataAndDisplay)
+    // على سبيل المثال، إذا كان المحتوى الذي تم جلبه يحتوي على فيديو داخل div.video-container، سيتم استبداله تلقائيًا.
+  </script>
+  
+  <!-- باقي الأكواد الخاصة بالبحث، التصفح، تنزيل PDF، وغيرها من وظائف الموقع -->
   <script>
     /*==============================
       Global Variables
@@ -541,6 +1027,8 @@
         document.getElementById('floatingButtons').style.display = 'flex';
 
         scrollToTop();
+        // تهيئة مشغل الفيديو المتقدم إذا وُجد فيديو في المحتوى
+        initAdvancedVideoPlayers();
       } catch (error) {
         console.error('Error opening content file:', error);
         alert('Error loading content. Check console for details.');
