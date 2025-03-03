@@ -12,7 +12,7 @@
   <!-- Font Awesome for video player icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
-  <!-- أنماط الموقع العامة -->
+  <!-- الموقع الأصلي – أنماط الصفحة العامة -->
   <style>
     /* Reset and basic body styling */
     body {
@@ -245,7 +245,10 @@
   
   <!-- أنماط مشغل الفيديو المتقدم -->
   <style>
-    /* مشغل الفيديو المتقدم */
+    body {
+      /* لن تتعارض هذه الأنماط مع الأنماط العامة للموقع */
+    }
+    /* أنماط مشغل الفيديو المتقدم */
     #videoContainer {
       position: relative;
       width: 800px;
@@ -835,6 +838,7 @@
     }
     
     // يمكن استدعاء دالة initAdvancedVideoPlayers() بعد تحميل المحتوى (مثلاً بعد استدعاء openContentPage أو fetchDataAndDisplay)
+    // على سبيل المثال، إذا كان المحتوى الذي تم جلبه يحتوي على فيديو داخل div.video-container، سيتم استبداله تلقائيًا.
   </script>
   
   <!-- باقي الأكواد الخاصة بالبحث، التصفح، تنزيل PDF، وغيرها من وظائف الموقع -->
@@ -1145,28 +1149,30 @@
 
     /*==============================
       Download PDF Functionality
-      التعديلات:
-      - صفحة PDF بدون هوامش وحدود خارجية.
-      - استبدال الفيديوهات بنص إنجليزي مع QR Code للرابط.
-      - إضافة طبقة خلفية شفافة (watermark) تعرض "SUMS site" والرابط.
-      - تضمين MathJax لدعم المعادلات.
+      التعديل: عند الضغط على زر Download PDF تظهر صفحة about:blank بنفس تخطيط المحتوى (الجداول وما إلى ذلك)
+      لكن بدون حدود/حواف، وتستبدل الفيديوهات بنص إنجليزي مع QR CODE للرابط المطلوب،
+      وتضاف طبقة خلفية شفافة تحتوي على عبارة "SUMS site" ورابط الموقع،
+      كما يتم تضمين MathJax لعرض المعادلات والرموز الرياضية بشكل صحيح.
     ================================*/
     function downloadPdf() {
       const contentTitle = document.getElementById('contentTitle').textContent;
       let content = document.getElementById('result').innerHTML;
-      
-      // استبدال iframes (إن وجدت) بصورة QR Code
-      let modifiedContent = content.replace(/<iframe[^>]*src="([^"]+)"[^>]*><\/iframe>/gi, function(_, src) {
-        const qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent(src);
-        return `<img src="${qrUrl}" alt="QR Code for video link">`;
+      // استبدال أي فيديو داخل المحتوى بنص إنجليزي مع QR CODE للرابط
+      let modifiedContent = content.replace(/<video[^>]*>[\s\S]*?<\/video>/g, function(match) {
+        const qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent("https://sites.google.com/view/medsums/sums-questions-bank-sqb");
+        return `<div style="text-align: center; font-size: 16px; margin: 20px 0;">
+                  <p>To view the video or content, you must subscribe to the website.</p>
+                  <p>To see the questions related to the topics, please subscribe.</p>
+                  <p><img src="${qrUrl}" alt="QR Code for subscription" /></p>
+                </div>`;
       });
-      
-      // استبدال أي فيديو بنص إنجليزي مع QR Code للرابط المطلوب
-      modifiedContent = modifiedContent.replace(/<video[\s\S]*?<\/video>/gi, function(match) {
-        return `<div style="text-align:center; margin:20px 0;">
-                  <p style="font-size:16px; color:#000;">To view the video or content, please subscribe to our site.</p>
-                  <p style="font-size:16px; color:#000;">To see questions related to the topics, please scan the QR code below:</p>
-                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent('https://sites.google.com/view/medsums/sums-questions-bank-sqb')}" alt="QR Code for questions">
+      // استبدال أي iframe بنفس الطريقة (إن وجد)
+      modifiedContent = modifiedContent.replace(/<iframe[^>]*src="([^"]+)"[^>]*><\/iframe>/g, function(_, src) {
+        const qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent("https://sites.google.com/view/medsums/sums-questions-bank-sqb");
+        return `<div style="text-align: center; font-size: 16px; margin: 20px 0;">
+                  <p>To view the video or content, you must subscribe to the website.</p>
+                  <p>To see the questions related to the topics, please subscribe.</p>
+                  <p><img src="${qrUrl}" alt="QR Code for subscription" /></p>
                 </div>`;
       });
       
@@ -1176,48 +1182,57 @@
           <head>
             <meta charset="UTF-8">
             <title>Download PDF</title>
-            <!-- تضمين MathJax لدعم المعادلات -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script>
+            <!-- MathJax for rendering mathematical symbols -->
+            <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+            <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
             <style>
-              @page { size: A4; margin: 0; }
+              @page { size: A4; margin: 0mm; }
               body {
-                font-family: 'Montserrat', sans-serif;
+                font-family: 'Montserrat', sans-serif; 
                 margin: 0;
                 padding: 0;
                 background: #fff;
                 color: #2c3e50;
               }
               h1 { 
-                color: #2e4053; 
-                text-align: center; 
-                margin-bottom: 20px; 
+                color: #2e4053;
+                text-align: center;
+                margin-bottom: 20px;
                 font-weight: 600;
               }
-              /* محتوى الصفحة بدون هوامش خارجية */
               #content {
+                margin: 0;
+                background-color: #fff;
                 padding: 20px;
-                border: none;
                 font-size: 14px;
               }
-              /* تنسيق الجداول كما هو موجود */
-              #content table {
+              /* طبقة خلفية شفافة (Watermark) */
+              .watermark {
+                position: fixed;
+                top: 0;
+                left: 0;
                 width: 100%;
-                border-collapse: collapse;
-                margin: 20px 0;
+                height: 100%;
+                opacity: 0.1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-size: 50px;
+                z-index: -1;
+                pointer-events: none;
               }
-              #content table th, #content table td {
-                border: 1px solid #ccc;
-                padding: 10px;
-                text-align: left;
+              .watermark a {
+                color: inherit;
+                text-decoration: none;
+                font-size: 20px;
               }
-              #content table thead { background-color: #f2f2f2; }
             </style>
           </head>
           <body>
-            <!-- طبقة خلفية شفافة للموقع -->
-            <div id="watermark" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.1; z-index: -1; display: flex; flex-direction: column; align-items: center; justify-content: center; pointer-events: none;">
-              <div style="font-size: 50px; color: #000;">SUMS site</div>
-              <div style="font-size: 20px; color: #000;">https://sites.google.com/view/medsums/sums-questions-bank-sqb</div>
+            <div class="watermark">
+              <div>SUMS site</div>
+              <div><a href="https://sites.google.com/view/medsums/sums-questions-bank-sqb" target="_blank">https://sites.google.com/view/medsums/sums-questions-bank-sqb</a></div>
             </div>
             <h1>${contentTitle}</h1>
             <div id="content">
