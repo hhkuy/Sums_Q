@@ -12,7 +12,7 @@
   <!-- Font Awesome for video player icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
-  <!-- أنماط الصفحة العامة للموقع -->
+  <!-- الموقع الأصلي – أنماط الصفحة العامة -->
   <style>
     /* Reset and basic body styling */
     body {
@@ -25,7 +25,6 @@
     h1, h2, h3, h4, h5, h6 {
       font-weight: 600;
     }
-
     /* Header with full background image, cover style, slight overlay and blur */
     .header {
       position: relative;
@@ -62,7 +61,6 @@
       font-size: 1.2rem;
       color: #f2f2f2;
     }
-
     /* Main container styling */
     .container {
       margin-top: 20px;
@@ -83,7 +81,6 @@
       margin-bottom: 30px;
       color: #2874a6;
     }
-
     /* Topics search container */
     #topicsSearchContainer {
       margin: 20px auto;
@@ -102,7 +99,6 @@
       outline: none;
       border-color: #007bff;
     }
-
     /* Accordion styles */
     .accordion-button {
       font-weight: 600;
@@ -129,7 +125,6 @@
     .btn-show-content {
       margin-top: 10px;
     }
-
     /* Custom button styling */
     .btn-custom {
       border-radius: 50px;
@@ -141,7 +136,6 @@
       transform: translateY(-3px);
       box-shadow: 0 5px 15px rgba(0,123,255,0.2);
     }
-
     /* Content display area */
     #result {
       margin-top: 30px;
@@ -178,7 +172,6 @@
       text-align: left;
     }
     #result table thead { background-color: #f2f2f2; }
-
     /* Floating navigation */
     .floating-buttons {
       position: fixed;
@@ -200,7 +193,6 @@
       transform: translateY(-3px);
       box-shadow: 0 5px 15px rgba(0,123,255,0.2);
     }
-
     /* Clickable question triggers */
     .question-trigger {
       color: #c0392b;
@@ -208,7 +200,6 @@
       cursor: pointer;
       text-decoration: underline;
     }
-
     /* Question modal items */
     .question-item {
       margin-bottom: 20px;
@@ -219,7 +210,6 @@
     .answer-result {
       margin-top: 10px;
     }
-
     /* Content Search Modal */
     .modal-content-search {
       border-radius: 15px;
@@ -232,7 +222,6 @@
     .search-result-item:hover {
       background-color: #f2f2f2;
     }
-
     /* Media queries */
     @media (max-width: 576px) {
       .header {
@@ -254,8 +243,11 @@
     }
   </style>
   
-  <!-- أنماط مشغل الفيديو المتقدم (لا تتداخل مع الصفحة) -->
+  <!-- أنماط مشغل الفيديو المتقدم -->
   <style>
+    body {
+      /* لن تتعارض هذه الأنماط مع الأنماط العامة للموقع */
+    }
     /* أنماط مشغل الفيديو المتقدم */
     #videoContainer {
       position: relative;
@@ -580,10 +572,10 @@
   <!-- Bootstrap 5 JS Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
   
-  <!-- ملف exp_main.js -->
+  <!-- الأكواد الرئيسية للموقع (exp_main.js) سيتم تحميلها منفصلة -->
   <script src="exp_main.js"></script>
   
-  <!-- تهيئة مشغل الفيديو المتقدم -->
+  <!-- الأكواد الخاصة بالتعامل مع مشغل الفيديو المتقدم -->
   <script>
     // دالة لاستبدال أي عنصر يحتوي على فيديو داخل .video-container بنموذج مشغل الفيديو المتقدم
     function initAdvancedVideoPlayers() {
@@ -843,6 +835,449 @@
         currentTranslate.x = Math.min(Math.max(currentTranslate.x, -maxTranslateX), maxTranslateX);
         currentTranslate.y = Math.min(Math.max(currentTranslate.y, -maxTranslateY), maxTranslateY);
       }
+    }
+    
+    // يمكن استدعاء دالة initAdvancedVideoPlayers() بعد تحميل المحتوى (مثلاً بعد استدعاء openContentPage أو fetchDataAndDisplay)
+    // على سبيل المثال، إذا كان المحتوى الذي تم جلبه يحتوي على فيديو داخل div.video-container، سيتم استبداله تلقائيًا.
+  </script>
+  
+  <!-- باقي الأكواد الخاصة بالبحث، التصفح، تنزيل PDF، وغيرها من وظائف الموقع -->
+  <script>
+    /*==============================
+      Global Variables
+    ================================*/
+    let questionFiles = [];        // Will store question file paths from data/topics.json
+    let allSearchableElements = []; // For content search results
+    let globalTopicsData = null;    // For storing the full topics array from exp_topics.json
+
+    /*==============================
+      Initialization on DOMContentLoaded
+    ================================*/
+    document.addEventListener('DOMContentLoaded', async () => {
+      try {
+        await loadQuestionFilesFromTopics();
+        await loadTopicsAccordion();
+      } catch (error) {
+        console.error('Error during page load:', error);
+      }
+      // Attach topic search event listener
+      document.getElementById('topicSearch').addEventListener('input', filterTopics);
+    });
+
+    /*==============================
+      Load Question File Paths from data/topics.json
+    ================================*/
+    async function loadQuestionFilesFromTopics() {
+      try {
+        const res = await fetch('data/topics.json');
+        if (!res.ok) throw new Error('Cannot fetch data/topics.json');
+        const topicsData = await res.json();
+        let allFiles = [];
+        topicsData.forEach(topicObj => {
+          if (Array.isArray(topicObj.subTopics)) {
+            topicObj.subTopics.forEach(sub => {
+              if (sub.file) {
+                allFiles.push(sub.file);
+              }
+            });
+          }
+        });
+        questionFiles = [...new Set(allFiles)];
+        console.log('Collected question files:', questionFiles);
+      } catch (err) {
+        console.error('Error in loadQuestionFilesFromTopics:', err);
+        alert('Failed to load question files from topics.json');
+      }
+    }
+
+    /*==============================
+      Load Topics Accordion from exp_data/exp_topics.json
+    ================================*/
+    async function loadTopicsAccordion() {
+      const TOPICS_JSON_PATH = 'exp_data/exp_topics.json';
+      const topicsAccordion = document.getElementById('topicsAccordion');
+      try {
+        const response = await fetch(TOPICS_JSON_PATH);
+        if (!response.ok) throw new Error('Cannot fetch exp_topics.json');
+        const data = await response.json();
+        globalTopicsData = data.topics || []; // Store topics
+        buildAccordion(globalTopicsData, topicsAccordion, 'main', "");
+      } catch (error) {
+        console.error('Error fetching topics:', error);
+        topicsAccordion.innerHTML = '<p class="text-danger">Error loading topics. Ensure your local server is running.</p>';
+      }
+    }
+
+    /*==============================
+      Build Accordion Recursively with Hierarchical Path
+    ================================*/
+    function buildAccordion(topicsArray, parentElement, parentId, currentPath) {
+      if (!Array.isArray(topicsArray)) return;
+      topicsArray.forEach((topic, index) => {
+        const uniqueId = `${parentId}-topic-${index}`;
+        const headerId = `heading-${uniqueId}`;
+        const collapseId = `collapse-${uniqueId}`;
+        let fullPath = currentPath ? currentPath + " - " + topic.title : topic.title;
+
+        const accordionItem = document.createElement('div');
+        accordionItem.classList.add('accordion-item');
+        accordionItem.innerHTML = 
+          `<h2 class="accordion-header" id="${headerId}">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}">
+              <i class="bi bi-bookmarks-fill me-2"></i> ${topic.title}
+            </button>
+          </h2>
+          <div id="${collapseId}" class="accordion-collapse collapse"
+               aria-labelledby="${headerId}"
+               data-bs-parent="${parentId !== 'main' ? '#' + parentId : '#topicsAccordion'}">
+            <div class="accordion-body" id="body-${uniqueId}">
+            </div>
+          </div>`;
+        parentElement.appendChild(accordionItem);
+
+        const bodyElement = accordionItem.querySelector(`#body-${uniqueId}`);
+        if (Array.isArray(topic.subtopics) && topic.subtopics.length > 0) {
+          const nestedAccordion = document.createElement('div');
+          nestedAccordion.classList.add('accordion');
+          nestedAccordion.id = `nested-${uniqueId}`;
+          bodyElement.appendChild(nestedAccordion);
+          buildAccordion(topic.subtopics, nestedAccordion, `nested-${uniqueId}`, fullPath);
+        }
+
+        if (topic.dataFile) {
+          const showContentBtn = document.createElement('button');
+          showContentBtn.classList.add('btn', 'btn-primary', 'btn-custom', 'btn-show-content');
+          showContentBtn.innerHTML = `<i class="bi bi-eye-fill"></i> View Content`;
+          showContentBtn.addEventListener('click', () => {
+            openContentPage(fullPath, topic.dataFile);
+          });
+          bodyElement.appendChild(showContentBtn);
+        }
+      });
+    }
+
+    /*==============================
+      Filter Topics (Search in main/sub/sub-sub ... titles)
+      Display full subtopics if title matches or only filtered if subtopics match.
+    ================================*/
+    function filterTopics() {
+      const query = document.getElementById('topicSearch').value.trim().toLowerCase();
+      const accordion = document.getElementById('topicsAccordion');
+      accordion.innerHTML = ''; // clear old results
+
+      if (!query) {
+        buildAccordion(globalTopicsData, accordion, 'main', "");
+        return;
+      }
+
+      const filtered = searchTopicsRecursive(globalTopicsData, query);
+      buildAccordion(filtered, accordion, 'main', "");
+    }
+
+    /*==============================
+      Recursive deep search in topics
+    ================================*/
+    function searchTopicsRecursive(topics, query) {
+      let result = [];
+      if (!topics) return result;
+
+      topics.forEach(topic => {
+        const titleMatch = topic.title.toLowerCase().includes(query);
+        let matchedSubtopics = [];
+
+        if (Array.isArray(topic.subtopics)) {
+          matchedSubtopics = searchTopicsRecursive(topic.subtopics, query);
+        }
+
+        if (titleMatch) {
+          result.push(topic);
+        } else if (matchedSubtopics.length > 0) {
+          let newTopic = Object.assign({}, topic);
+          newTopic.subtopics = matchedSubtopics;
+          result.push(newTopic);
+        }
+      });
+      return result;
+    }
+
+    /*==============================
+      Open Content Page: Fetch Content and Show Hierarchical Path
+    ================================*/
+    async function openContentPage(topicFullPath, dataFile) {
+      try {
+        const pageTopics = document.getElementById('pageTopics');
+        const pageContent = document.getElementById('pageContent');
+        const contentTitle = document.getElementById('contentTitle');
+        const resultDiv = document.getElementById('result');
+
+        const response = await fetch(`exp_data/${dataFile}`);
+        if (!response.ok) throw new Error(`Cannot fetch file: ${dataFile}`);
+        const jsonData = await response.json();
+
+        contentTitle.textContent = topicFullPath;
+        resultDiv.innerHTML = jsonData.content ? jsonData.content : '<p>No content available.</p>';
+
+        attachQuestionTriggers();
+        allSearchableElements = Array.from(document.querySelectorAll('#result p, #result td, #result th, #result h1, #result h2, #result h3, #result h4, #result h5, #result h6, #result li'));
+
+        pageTopics.style.display = 'none';
+        document.getElementById('topicsSearchContainer').style.display = 'none';
+        pageContent.style.display = 'block';
+        document.getElementById('floatingButtons').style.display = 'flex';
+
+        scrollToTop();
+        // تهيئة مشغل الفيديو المتقدم إذا وُجد فيديو في المحتوى
+        initAdvancedVideoPlayers();
+      } catch (error) {
+        console.error('Error opening content file:', error);
+        alert('Error loading content. Check console for details.');
+      }
+    }
+
+    /*==============================
+      Attach event listeners to .question-trigger elements
+    ================================*/
+    function attachQuestionTriggers() {
+      const triggers = document.querySelectorAll('.question-trigger');
+      triggers.forEach(trigger => {
+        trigger.addEventListener('click', () => {
+          const qids = trigger.getAttribute('data-qids');
+          if (qids) {
+            const idArray = qids.split(',').map(id => id.trim());
+            fetchQuestionsAndShowModal(idArray);
+          }
+        });
+      });
+    }
+
+    /*==============================
+      Fetch Questions and Show Modal (Test-like interface)
+    ================================*/
+    async function fetchQuestionsAndShowModal(idArray) {
+      let allQuestions = [];
+      try {
+        for (const fileName of questionFiles) {
+          try {
+            const res = await fetch(fileName);
+            if (res.ok) {
+              const questionsInFile = await res.json();
+              allQuestions = allQuestions.concat(questionsInFile);
+            }
+          } catch (err) {
+            console.error(`Error fetching file ${fileName}:`, err);
+          }
+        }
+
+        const filtered = allQuestions.filter(q => idArray.includes(q.qID));
+        let questionsHtml = '';
+        if (filtered.length > 0) {
+          filtered.forEach(q => {
+            questionsHtml += 
+              `<div class="question-item" data-answer="${q.answer}">
+                <h5>${q.question}</h5>
+                <form>
+                  ${q.options.map((option, idx) => 
+                    `<div class="form-check">
+                      <input class="form-check-input" type="radio" name="qID_${q.qID}" id="qID_${q.qID}_opt${idx}" value="${idx}">
+                      <label class="form-check-label" for="qID_${q.qID}_opt${idx}">
+                        ${option}
+                      </label>
+                    </div>`
+                  ).join('')}
+                  <button type="button" class="btn btn-sm btn-primary mt-2" 
+                    onclick="checkAnswer(this, '${escapeHtml(q.explanation)}', '${escapeHtml(q.answerText)}')">
+                    Check Answer
+                  </button>
+                  <div class="answer-result text-center" style="display: none;"></div>
+                </form>
+              </div>`;
+          });
+        } else {
+          questionsHtml = '<p>No questions available for this topic.</p>';
+        }
+
+        document.getElementById('questionsModalBody').innerHTML = questionsHtml;
+        const questionsModal = new bootstrap.Modal(document.getElementById('questionsModal'));
+        questionsModal.show();
+      } catch (error) {
+        console.error('Error merging questions:', error);
+        alert('Error loading questions. Check console for details.');
+      }
+    }
+
+    /*==============================
+      Check Answer for a Question
+    ================================*/
+    function checkAnswer(btn, explanation, answerText) {
+      const questionItem = btn.closest('.question-item');
+      const correctIndex = parseInt(questionItem.dataset.answer, 10);
+      const form = questionItem.querySelector('form');
+      const selectedRadio = form.querySelector('input[type="radio"]:checked');
+      const resultDiv = questionItem.querySelector('.answer-result');
+
+      if (!selectedRadio) {
+        resultDiv.style.display = 'block';
+        resultDiv.innerHTML = '<p class="text-danger">No option selected!</p>';
+        return;
+      }
+
+      const userIndex = parseInt(selectedRadio.value, 10);
+      if (userIndex === correctIndex) {
+        resultDiv.style.display = 'block';
+        resultDiv.innerHTML = `<p class="text-success fw-bold">Correct Answer!</p>
+                               <p><strong>Explanation:</strong> ${explanation}</p>`;
+      } else {
+        resultDiv.style.display = 'block';
+        resultDiv.innerHTML = `<p class="text-danger fw-bold">Wrong Answer!</p>
+                               <p><strong>Correct Answer:</strong> ${answerText}</p>
+                               <p><strong>Explanation:</strong> ${explanation}</p>`;
+      }
+    }
+
+    /*==============================
+      Utility: Escape HTML Characters
+    ================================*/
+    function escapeHtml(str) {
+      return str
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    /*==============================
+      Download PDF Functionality
+    ================================*/
+    function downloadPdf() {
+      const contentTitle = document.getElementById('contentTitle').textContent;
+      let content = document.getElementById('result').innerHTML;
+      // Replace iframes with QR code images
+      let modifiedContent = content.replace(/<iframe[^>]*src="([^"]+)"[^>]*><\/iframe>/g, function(_, src) {
+        const qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent(src);
+        return `<img src="${qrUrl}" alt="QR Code for video link">`;
+      });
+      const printWindow = window.open('about:blank', '_blank');
+      printWindow.document.write(
+        `<html>
+          <head>
+            <meta charset="UTF-8">
+            <title>Download PDF</title>
+            <style>
+              @page { size: A4; margin: 20mm; }
+              body {
+                font-family: 'Montserrat', sans-serif; 
+                margin: 0; 
+                padding: 0;
+                background: #fff; 
+                color: #2c3e50;
+              }
+              h1 { 
+                color: #2e4053; 
+                text-align: center; 
+                margin-bottom: 20px; 
+                font-weight: 600;
+              }
+              /* Replicate content styles with table borders */
+              #content {
+                margin: 20px;
+                background-color: #fff;
+                padding: 20px;
+                border: none;
+                font-size: 14px;
+              }
+              #content h1 { color: #2e4053; }
+              #content h2 { color: #2874a6; }
+              #content h3 { color: #148f77; }
+              #content h4 { color: #9b59b6; }
+              #content h5, #content h6 { color: #b03a2e; }
+              #content p, #content li, #content td, #content th { color: #2c3e50; }
+            </style>
+          </head>
+          <body>
+            <h1>${contentTitle}</h1>
+            <div id="content">
+              ${modifiedContent}
+            </div>
+            <script>
+              window.onload = function() {
+                window.focus();
+                window.print();
+              };
+            <\/script>
+          </body>
+        </html>`
+      );
+      printWindow.document.close();
+    }
+
+    /*==============================
+      Return to Topics Page
+    ================================*/
+    function goBackToTopics() {
+      document.getElementById('pageContent').style.display = 'none';
+      document.getElementById('pageTopics').style.display = 'block';
+      document.getElementById('topicsSearchContainer').style.display = 'block';
+      document.getElementById('floatingButtons').style.display = 'none';
+    }
+
+    /*==============================
+      Scroll Navigation Functions
+    ================================*/
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    function scrollToBottom() {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+
+    /*==============================
+      Content Search Modal Functions
+    ================================*/
+    function openContentSearchModal() {
+      const searchModal = new bootstrap.Modal(document.getElementById('contentSearchModal'));
+      searchModal.show();
+      const input = document.getElementById('contentSearchInput');
+      const resultsContainer = document.getElementById('contentSearchResults');
+      input.value = '';
+      resultsContainer.innerHTML = '';
+      input.focus();
+
+      // Prevent multiple event listeners
+      input.removeEventListener('input', handleContentSearchInput);
+      input.addEventListener('input', handleContentSearchInput);
+    }
+
+    function handleContentSearchInput() {
+      const query = this.value.toLowerCase();
+      const resultsContainer = document.getElementById('contentSearchResults');
+      resultsContainer.innerHTML = '';
+      if (!query.trim()) return;
+
+      const searchableElements = Array.from(document.querySelectorAll(
+        '#result p, #result td, #result th, #result h1, #result h2, #result h3, #result h4, #result h5, #result h6, #result li'
+      ));
+
+      searchableElements.forEach(el => {
+        if (el.innerText.toLowerCase().includes(query)) {
+          let snippet = el.innerText;
+          if (snippet.length > 150) snippet = snippet.substring(0, 150) + '...';
+          const div = document.createElement('div');
+          div.classList.add('search-result-item');
+          div.innerText = snippet;
+
+          // On click, close modal then scroll to element
+          div.addEventListener('click', () => {
+            const searchModal = bootstrap.Modal.getInstance(document.getElementById('contentSearchModal'));
+            searchModal.hide();
+            setTimeout(() => {
+              el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }, 200);
+          });
+          resultsContainer.appendChild(div);
+        }
+      });
     }
   </script>
 
