@@ -141,76 +141,92 @@ async function fetchDataAndDisplay(dataFileName) {
 
 /**
  * Download PDF function:
- * - Opens a new about:blank window (A4, 0 margin).
- * - Replicates the content's styling (tables, etc.) exactly but without outer borders/margins.
- * - Replaces video elements with a subscription message and a QR code image for the questions link.
- * - Adds a light watermark overlay with "SUMS site" and the website URL.
- * - Includes MathJax for correct rendering of math symbols and equations.
+ * - Opens a new about:blank window (A4, 0 margin, no borders).
+ * - Replicates the content's layout exactly but without borders.
+ * - Replaces any video embeds with a message in English and a QR CODE image for the specified link.
+ * - Adds a light background watermark containing "SUMS site" and the website link.
+ * - Includes MathJax for proper rendering of mathematical symbols and equations.
  */
 function downloadPdf() {
   let content = contentArea.innerHTML;
-  // Replace any iframe video embed with a QR code image (if exists)
-  let modifiedContent = content.replace(/<iframe[^>]*src="([^"]+)"[^>]*><\/iframe>/gi, function(_, src) {
-    const qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent(src);
-    return `<img src="${qrUrl}" alt="QR Code for video link">`;
-  });
-  // Replace video elements with subscription message and QR code
-  modifiedContent = modifiedContent.replace(/<video[\s\S]*?<\/video>/gi, function(match) {
-    return `<div style="text-align:center; margin:20px 0;">
-              <p style="font-size:16px; color:#000;">To view the video or content, please subscribe to our site.</p>
-              <p style="font-size:16px; color:#000;">To see questions related to the topics, please scan the QR code below:</p>
-              <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent('https://sites.google.com/view/medsums/sums-questions-bank-sqb')}" alt="QR Code for questions">
+  // Replace any video tags with subscription message and QR CODE
+  let modifiedContent = content.replace(/<video[^>]*>[\s\S]*?<\/video>/g, function(match) {
+    const qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent("https://sites.google.com/view/medsums/sums-questions-bank-sqb");
+    return `<div style="text-align: center; font-size: 16px; margin: 20px 0;">
+              <p>To view the video or content, you must subscribe to the website.</p>
+              <p>To see the questions related to the topics, please subscribe.</p>
+              <p><img src="${qrUrl}" alt="QR Code for subscription" /></p>
             </div>`;
   });
+  // Replace any iframes similarly (if any)
+  modifiedContent = modifiedContent.replace(/<iframe[^>]*src="([^"]+)"[^>]*><\/iframe>/g, function(_, src) {
+    const qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent("https://sites.google.com/view/medsums/sums-questions-bank-sqb");
+    return `<div style="text-align: center; font-size: 16px; margin: 20px 0;">
+              <p>To view the video or content, you must subscribe to the website.</p>
+              <p>To see the questions related to the topics, please subscribe.</p>
+              <p><img src="${qrUrl}" alt="QR Code for subscription" /></p>
+            </div>`;
+  });
+  
   const printWindow = window.open('about:blank', '_blank');
   printWindow.document.write(
     `<html>
       <head>
         <meta charset="UTF-8">
         <title>Download PDF</title>
-        <!-- Include MathJax for math symbols/equations -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script>
+        <!-- MathJax for rendering mathematical symbols -->
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
         <style>
-          @page { size: A4; margin: 0; }
+          @page { size: A4; margin: 0mm; }
           body {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Montserrat', sans-serif; 
             margin: 0;
             padding: 0;
             background: #fff;
             color: #2c3e50;
           }
           h1 { 
-            color: #2e4053; 
-            text-align: center; 
-            margin-bottom: 20px; 
+            color: #2e4053;
+            text-align: center;
+            margin-bottom: 20px;
             font-weight: 600;
           }
-          /* Content styling without outer borders */
           #content {
+            margin: 0;
+            background-color: #fff;
             padding: 20px;
-            border: none;
             font-size: 14px;
           }
-          /* Table styling remains the same */
-          #content table {
+          /* Watermark layer */
+          .watermark {
+            position: fixed;
+            top: 0;
+            left: 0;
             width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
+            height: 100%;
+            opacity: 0.1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+            z-index: -1;
+            pointer-events: none;
           }
-          #content table th, #content table td {
-            border: 1px solid #ccc;
-            padding: 10px;
-            text-align: left;
+          .watermark a {
+            color: inherit;
+            text-decoration: none;
+            font-size: 20px;
           }
-          #content table thead { background-color: #f2f2f2; }
         </style>
       </head>
       <body>
-        <!-- Watermark overlay -->
-        <div id="watermark" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.1; z-index: -1; display: flex; flex-direction: column; align-items: center; justify-content: center; pointer-events: none;">
-          <div style="font-size: 50px; color: #000;">SUMS site</div>
-          <div style="font-size: 20px; color: #000;">https://sites.google.com/view/medsums/sums-questions-bank-sqb</div>
+        <div class="watermark">
+          <div>SUMS site</div>
+          <div><a href="https://sites.google.com/view/medsums/sums-questions-bank-sqb" target="_blank">https://sites.google.com/view/medsums/sums-questions-bank-sqb</a></div>
         </div>
+        <h1>${document.getElementById('contentTitle').textContent}</h1>
         <div id="content">
           ${modifiedContent}
         </div>
