@@ -12,7 +12,7 @@
   <!-- Font Awesome for video player icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
-  <!-- الموقع الأصلي – أنماط الصفحة العامة -->
+  <!-- أنماط الموقع العامة -->
   <style>
     /* Reset and basic body styling */
     body {
@@ -245,10 +245,7 @@
   
   <!-- أنماط مشغل الفيديو المتقدم -->
   <style>
-    body {
-      /* لن تتعارض هذه الأنماط مع الأنماط العامة للموقع */
-    }
-    /* أنماط مشغل الفيديو المتقدم */
+    /* مشغل الفيديو المتقدم */
     #videoContainer {
       position: relative;
       width: 800px;
@@ -838,7 +835,6 @@
     }
     
     // يمكن استدعاء دالة initAdvancedVideoPlayers() بعد تحميل المحتوى (مثلاً بعد استدعاء openContentPage أو fetchDataAndDisplay)
-    // على سبيل المثال، إذا كان المحتوى الذي تم جلبه يحتوي على فيديو داخل div.video-container، سيتم استبداله تلقائيًا.
   </script>
   
   <!-- باقي الأكواد الخاصة بالبحث، التصفح، تنزيل PDF، وغيرها من وظائف الموقع -->
@@ -1149,28 +1145,46 @@
 
     /*==============================
       Download PDF Functionality
+      التعديلات:
+      - صفحة PDF بدون هوامش وحدود خارجية.
+      - استبدال الفيديوهات بنص إنجليزي مع QR Code للرابط.
+      - إضافة طبقة خلفية شفافة (watermark) تعرض "SUMS site" والرابط.
+      - تضمين MathJax لدعم المعادلات.
     ================================*/
     function downloadPdf() {
       const contentTitle = document.getElementById('contentTitle').textContent;
       let content = document.getElementById('result').innerHTML;
-      // Replace iframes with QR code images
-      let modifiedContent = content.replace(/<iframe[^>]*src="([^"]+)"[^>]*><\/iframe>/g, function(_, src) {
+      
+      // استبدال iframes (إن وجدت) بصورة QR Code
+      let modifiedContent = content.replace(/<iframe[^>]*src="([^"]+)"[^>]*><\/iframe>/gi, function(_, src) {
         const qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent(src);
         return `<img src="${qrUrl}" alt="QR Code for video link">`;
       });
+      
+      // استبدال أي فيديو بنص إنجليزي مع QR Code للرابط المطلوب
+      modifiedContent = modifiedContent.replace(/<video[\s\S]*?<\/video>/gi, function(match) {
+        return `<div style="text-align:center; margin:20px 0;">
+                  <p style="font-size:16px; color:#000;">To view the video or content, please subscribe to our site.</p>
+                  <p style="font-size:16px; color:#000;">To see questions related to the topics, please scan the QR code below:</p>
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent('https://sites.google.com/view/medsums/sums-questions-bank-sqb')}" alt="QR Code for questions">
+                </div>`;
+      });
+      
       const printWindow = window.open('about:blank', '_blank');
       printWindow.document.write(
         `<html>
           <head>
             <meta charset="UTF-8">
             <title>Download PDF</title>
+            <!-- تضمين MathJax لدعم المعادلات -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script>
             <style>
-              @page { size: A4; margin: 20mm; }
+              @page { size: A4; margin: 0; }
               body {
-                font-family: 'Montserrat', sans-serif; 
-                margin: 0; 
+                font-family: 'Montserrat', sans-serif;
+                margin: 0;
                 padding: 0;
-                background: #fff; 
+                background: #fff;
                 color: #2c3e50;
               }
               h1 { 
@@ -1179,23 +1193,32 @@
                 margin-bottom: 20px; 
                 font-weight: 600;
               }
-              /* Replicate content styles with table borders */
+              /* محتوى الصفحة بدون هوامش خارجية */
               #content {
-                margin: 20px;
-                background-color: #fff;
                 padding: 20px;
                 border: none;
                 font-size: 14px;
               }
-              #content h1 { color: #2e4053; }
-              #content h2 { color: #2874a6; }
-              #content h3 { color: #148f77; }
-              #content h4 { color: #9b59b6; }
-              #content h5, #content h6 { color: #b03a2e; }
-              #content p, #content li, #content td, #content th { color: #2c3e50; }
+              /* تنسيق الجداول كما هو موجود */
+              #content table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+              }
+              #content table th, #content table td {
+                border: 1px solid #ccc;
+                padding: 10px;
+                text-align: left;
+              }
+              #content table thead { background-color: #f2f2f2; }
             </style>
           </head>
           <body>
+            <!-- طبقة خلفية شفافة للموقع -->
+            <div id="watermark" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.1; z-index: -1; display: flex; flex-direction: column; align-items: center; justify-content: center; pointer-events: none;">
+              <div style="font-size: 50px; color: #000;">SUMS site</div>
+              <div style="font-size: 20px; color: #000;">https://sites.google.com/view/medsums/sums-questions-bank-sqb</div>
+            </div>
             <h1>${contentTitle}</h1>
             <div id="content">
               ${modifiedContent}
