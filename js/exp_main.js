@@ -130,6 +130,10 @@ async function fetchDataAndDisplay(dataFileName) {
     } else {
       contentArea.innerHTML = '<p>No content available.</p>';
     }
+    // بعد تحميل المحتوى، إذا وُجد فيديو داخل المحتوى، يتم تهيئة مشغل الفيديو المتقدم
+    if (typeof initAdvancedVideoPlayers === 'function') {
+      initAdvancedVideoPlayers();
+    }
   } catch (error) {
     contentArea.innerHTML = `<p>Error fetching file: ${error.message}</p>`;
   }
@@ -151,8 +155,8 @@ function downloadPdf() {
   });
   // Open a new window (about:blank)
   const printWindow = window.open('about:blank', '_blank');
-  printWindow.document.write(`
-    <html>
+  printWindow.document.write(
+    `<html>
       <head>
         <meta charset="UTF-8">
         <title>Download PDF</title>
@@ -193,8 +197,8 @@ function downloadPdf() {
           };
         <\/script>
       </body>
-    </html>
-  `);
+    </html>`
+  );
   printWindow.document.close();
 }
 
