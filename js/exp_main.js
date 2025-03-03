@@ -141,39 +141,57 @@ async function fetchDataAndDisplay(dataFileName) {
 
 /**
  * Download PDF function:
- * - Opens a new about:blank window (A4, 20mm margin).
- * - Replicates the content's styling (colors, table borders, etc.) while removing outer borders.
- * - Replaces iframes with QR codes for the video links.
+ * - Opens a new about:blank window (A4, 0 margin).
+ * - Replicates the content's styling (tables, etc.) exactly but without outer borders/margins.
+ * - Replaces video elements with a subscription message and a QR code image for the questions link.
+ * - Adds a light watermark overlay with "SUMS site" and the website URL.
+ * - Includes MathJax for correct rendering of math symbols and equations.
  */
 function downloadPdf() {
-  // Get the content from the contentArea
   let content = contentArea.innerHTML;
-  // Replace any iframe video embed with a QR code image
-  let modifiedContent = content.replace(/<iframe[^>]*src="([^"]+)"[^>]*><\/iframe>/g, function(_, src) {
+  // Replace any iframe video embed with a QR code image (if exists)
+  let modifiedContent = content.replace(/<iframe[^>]*src="([^"]+)"[^>]*><\/iframe>/gi, function(_, src) {
     const qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent(src);
     return `<img src="${qrUrl}" alt="QR Code for video link">`;
   });
-  // Open a new window (about:blank)
+  // Replace video elements with subscription message and QR code
+  modifiedContent = modifiedContent.replace(/<video[\s\S]*?<\/video>/gi, function(match) {
+    return `<div style="text-align:center; margin:20px 0;">
+              <p style="font-size:16px; color:#000;">To view the video or content, please subscribe to our site.</p>
+              <p style="font-size:16px; color:#000;">To see questions related to the topics, please scan the QR code below:</p>
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent('https://sites.google.com/view/medsums/sums-questions-bank-sqb')}" alt="QR Code for questions">
+            </div>`;
+  });
   const printWindow = window.open('about:blank', '_blank');
   printWindow.document.write(
     `<html>
       <head>
         <meta charset="UTF-8">
         <title>Download PDF</title>
+        <!-- Include MathJax for math symbols/equations -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script>
         <style>
-          @page { size: A4; margin: 20mm; }
+          @page { size: A4; margin: 0; }
           body {
-            font-family: 'Cairo', sans-serif; margin: 0; padding: 0;
-            background: #fff; color: #2c3e50;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            color: #2c3e50;
           }
-          /* replicate content styles with table borders */
+          h1 { 
+            color: #2e4053; 
+            text-align: center; 
+            margin-bottom: 20px; 
+            font-weight: 600;
+          }
+          /* Content styling without outer borders */
           #content {
-            margin: 20px; background-color: #fff; padding: 20px; border: none; font-size: 14px;
+            padding: 20px;
+            border: none;
+            font-size: 14px;
           }
-          #content h1, #content h2, #content h3, #content h4, #content h5, #content h6,
-          #content p, #content li, #content td, #content th, #content pre, #content code {
-            color: inherit;
-          }
+          /* Table styling remains the same */
           #content table {
             width: 100%;
             border-collapse: collapse;
@@ -184,9 +202,15 @@ function downloadPdf() {
             padding: 10px;
             text-align: left;
           }
+          #content table thead { background-color: #f2f2f2; }
         </style>
       </head>
       <body>
+        <!-- Watermark overlay -->
+        <div id="watermark" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.1; z-index: -1; display: flex; flex-direction: column; align-items: center; justify-content: center; pointer-events: none;">
+          <div style="font-size: 50px; color: #000;">SUMS site</div>
+          <div style="font-size: 20px; color: #000;">https://sites.google.com/view/medsums/sums-questions-bank-sqb</div>
+        </div>
         <div id="content">
           ${modifiedContent}
         </div>
