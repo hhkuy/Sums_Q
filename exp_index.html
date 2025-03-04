@@ -1443,15 +1443,15 @@
   const contentTitle = document.getElementById('contentTitle').textContent;
   let content = document.getElementById('result').innerHTML;
 
-  // 1. حذف العناصر غير المرغوبة فقط (بدون التأثير على المحتوى الأساسي)
+  // 1. إزالة جميع العناصر غير المرغوبة (الأزرار، التحكم، الوقت، إلخ)
   content = content
     .replace(/<button[^>]*>.*?<\/button>/gi, '') // إزالة الأزرار
-    .replace(/<div class="custom-controls[^>]*>.*?<\/div>/gi, '') // إزالة عناصر التحكم
-    .replace(/<div id="floatingButtons[^>]*>.*?<\/div>/gi, '') // إزالة الأزرار العائمة
-    .replace(/<div class="time-display[^>]*>.*?<\/div>/gi, '') // وقت التشغيل
-    .replace(/<div class="progress-container[^>]*>.*?<\/div>/gi, ''); // شريط التقدم
+    .replace(/<div class="(custom-controls|time-display|progress-container|video-container|video-wrapper)[^>]*>.*?<\/div>/gi, '') // إزالة الحاويات
+    .replace(/<div id="(floatingButtons|videoPlayer|bufferedBar|progressBar)[^>]*>.*?<\/div>/gi, '') // إزالة عناصر الفيديو
+    .replace(/<input[^>]*>.*?<\/input>/gi, '') // إزالة مدخلات التحكم
+    .replace(/<svg[^>]*>.*?<\/svg>/gi, ''); // إزالة أي أيقونات SVG
 
-  // 2. استبدال الفيديو/iframe برسالة الاشتراك (مع الحفاظ على باقي المحتوى)
+  // 2. استبدال الفيديو/iframe برسالة الاشتراك
   const subscriptionMsg = `
     <p style="text-align:center;">
       If you want to watch the video or the content, you must subscribe to the site.<br>
@@ -1462,11 +1462,11 @@
   `;
 
   content = content.replace(
-    /(<video[\s\S]*?<\/video>|<iframe[\s\S]*?<\/iframe>)/i, 
+    /(<video[\s\S]*?<\/video>|<iframe[\s\S]*?<\/iframe>)/gi, 
     subscriptionMsg
   );
 
-  // 3. إنشاء نافذة الطباعة مع التأكد من ظهور المحتوى
+  // 3. إنشاء نافذة الطباعة مع إخفاء العناصر المتبقية
   const printWindow = window.open('about:blank', '_blank');
   printWindow.document.write(`
     <html>
@@ -1474,9 +1474,10 @@
         <meta charset="UTF-8">
         <title>Download PDF</title>
         <style>
-          /* إخفاء العناصر غير المرغوبة فقط */
-          button, .custom-controls, #floatingButtons, 
-          .time-display, .progress-container {
+          /* إخفاء جميع العناصر غير المرغوبة */
+          button, .custom-controls, #floatingButtons,
+          .time-display, .progress-container, .video-container,
+          input, svg, #videoPlayer, #bufferedBar, #progressBar {
             display: none !important;
           }
 
@@ -1500,6 +1501,7 @@
             position: relative;
             z-index: 1;
             margin: 20px;
+            background: white;
           }
         </style>
       </head>
