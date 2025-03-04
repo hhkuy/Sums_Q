@@ -140,8 +140,10 @@ async function fetchDataAndDisplay(dataFileName) {
 }
 
 /**
- * Download PDF function (مع التعديلات المطلوبة كي يشمل الفيديوهات أيضاً، 
- * ويُظهر نفس ألوان الجداول، وعلامة مائية في المركز).
+ * Download PDF function
+ * (يشمل تحويل <video> و <iframe> إلى نص الاشتراك + QR، 
+ * ومطابقة ألوان الجداول والخطوط، 
+ * ووضع العلامة المائية في المنتصف بشكل مائل)
  */
 function downloadPdf() {
   // Get the content from the contentArea
@@ -171,7 +173,7 @@ function downloadPdf() {
             margin: 0; 
             padding: 0;
             font-family: 'Cairo', sans-serif; 
-            background: #fff; 
+            background-color: #fafafa; 
             color: #2c3e50;
           }
           /* العلامة المائية في المنتصف مائلة */
@@ -210,7 +212,7 @@ function downloadPdf() {
             background-color: #f2f2f2;
           }
           h1, h2, h3, h4, h5, h6,
-          p, li, td, th, pre, code {
+          p, li, td, th, pre, code, span {
             color: #2c3e50;
           }
           /* دعم الرياضيات */
