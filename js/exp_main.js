@@ -141,16 +141,21 @@ async function fetchDataAndDisplay(dataFileName) {
 
 /**
  * Download PDF function
- * (بحث عن <iframe> + <video> + <div class="video-container">)
+ * (بحث عن <iframe> + <video> + <div class="video-container"> + <div id="videoContainer">)
  */
 function downloadPdf() {
   // Get the content from the contentArea
   let content = contentArea.innerHTML;
 
-  // استبدال الفيديوهات والإطارات وعناصر .video-container بنفس نصّ الاشتراك و QR Code
+  // استبدال الفيديوهات والإطارات وعناصر .video-container و #videoContainer بنفس نصّ الاشتراك و QR Code
   let modifiedContent = content
     // استبدال .video-container أولاً
     .replace(/<div class="video-container"[^>]*>[\s\S]*?<\/div>/gi, function() {
+      return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
+    })
+    // استبدال #videoContainer
+    .replace(/<div id="videoContainer"[^>]*>[\s\S]*?<\/div>/gi, function() {
       return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
               <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
     })
@@ -177,7 +182,7 @@ function downloadPdf() {
           body {
             margin: 0; 
             padding: 0;
-            font-family: 'Cairo', sans-serif; 
+            font-family: 'Montserrat', sans-serif; 
             background-color: #fafafa; 
             color: #2c3e50;
           }
