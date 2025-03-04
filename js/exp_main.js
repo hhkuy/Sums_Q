@@ -18,7 +18,7 @@ let topicsData = null;
  */
 async function init() {
   if (!dropdownsContainer || !contentArea) {
-    // Probably we are not using the dropdown approach in this scenario.
+    // قد لا نستخدم هذه الطريقة في هذا المشروع
     return;
   }
   try {
@@ -134,60 +134,130 @@ async function fetchDataAndDisplay(dataFileName) {
     // Assume the JSON contains a 'content' field with HTML
     if (data.content) {
       contentArea.innerHTML = data.content;
+      // من الممكن تطبيق نفس منطق تهيئة الفيديو إن أردت:
+      initDefaultVideosInDropdown();
     } else {
       contentArea.innerHTML = '<p>No content available.</p>';
     }
-    // بعد تحميل المحتوى، يمكن تهيئة الفيديو الافتراضي إذا كنت تريد
-    initDefaultVideosInDropdown();
   } catch (error) {
     contentArea.innerHTML = `<p>Error fetching file: ${error.message}</p>`;
   }
 }
 
 /**
- * مثال بسيط لتهيئة الفيديو الافتراضي ضمن طريقة الـ Dropdown فقط
+ * مثال بسيط لتهيئة الفيديو الافتراضي ضمن طريقة الـ Dropdown
+ * نطبق نفس أفكار ملفنا الأساسي
  */
 function initDefaultVideosInDropdown() {
   if (!contentArea) return;
   const videos = contentArea.querySelectorAll('video');
   videos.forEach(video => {
-    // وضع إعدادات مشابهة للملف الآخر
+    // تغليفه بحاوية
+    const container = document.createElement('div');
+    container.classList.add('default-video-container');
     video.setAttribute('controls', '');
-    video.setAttribute('controlsList', 'nodownload');
     video.setAttribute('playsinline', '');
+    video.setAttribute('controlsList', 'nodownload');
+    video.parentNode.insertBefore(container, video);
+    container.appendChild(video);
+
+    // لو أردت التكبير باللمس هنا أيضاً، يمكنك استدعاء دالة pinch & pan
+    initPinchZoomAndPanDropdown(container, video);
   });
 }
 
 /**
+ * دالة تمكين التكبير والتحريك باللمس في وضع الـ Dropdown
+ */
+function initPinchZoomAndPanDropdown(container, video) {
+  let currentScale = 1;
+  let currentTranslate = { x: 0, y: 0 };
+  let lastPanPosition = null;
+  let initialDistance = null;
+  let initialScale = 1;
+
+  container.addEventListener('touchstart', handleTouchStart, { passive: false });
+  container.addEventListener('touchmove', handleTouchMove, { passive: false });
+  container.addEventListener('touchend', handleTouchEnd);
+
+  function handleTouchStart(e) {
+    if (e.touches.length === 2) {
+      initialDistance = getDistance(e.touches[0], e.touches[1]);
+      initialScale = currentScale;
+    } else if (e.touches.length === 1 && currentScale > 1) {
+      lastPanPosition = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+    }
+  }
+
+  function handleTouchMove(e) {
+    if (e.touches.length === 2 && initialDistance !== null) {
+      const newDistance = getDistance(e.touches[0], e.touches[1]);
+      let newScale = initialScale * (newDistance / initialDistance);
+      newScale = Math.min(Math.max(newScale, 1), 3);
+      currentScale = newScale;
+      constrainTranslation();
+      updateTransform();
+      e.preventDefault();
+    } else if (e.touches.length === 1 && currentScale > 1 && lastPanPosition) {
+      const currentTouch = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+      const deltaX = currentTouch.x - lastPanPosition.x;
+      const deltaY = currentTouch.y - lastPanPosition.y;
+      currentTranslate.x += deltaX;
+      currentTranslate.y += deltaY;
+      constrainTranslation();
+      updateTransform();
+      lastPanPosition = currentTouch;
+      e.preventDefault();
+    }
+  }
+
+  function handleTouchEnd(e) {
+    if (e.touches.length < 2) {
+      initialDistance = null;
+      initialScale = currentScale;
+    }
+    if (e.touches.length === 0) {
+      lastPanPosition = null;
+    }
+  }
+
+  function getDistance(touch1, touch2) {
+    return Math.hypot(
+      touch2.clientX - touch1.clientX,
+      touch2.clientY - touch1.clientY
+    );
+  }
+
+  function updateTransform() {
+    video.style.transform = `translate(${currentTranslate.x}px, ${currentTranslate.y}px) scale(${currentScale})`;
+  }
+
+  function constrainTranslation() {
+    const rect = container.getBoundingClientRect();
+    const maxTranslateX = (rect.width * (currentScale - 1)) / 2;
+    const maxTranslateY = (rect.height * (currentScale - 1)) / 2;
+    currentTranslate.x = Math.min(Math.max(currentTranslate.x, -maxTranslateX), maxTranslateX);
+    currentTranslate.y = Math.min(Math.max(currentTranslate.y, -maxTranslateY), maxTranslateY);
+  }
+}
+
+/**
  * Download PDF function (للمحتوى في contentArea)
- * - استبدال أي <iframe> أو <video> بعنصر الصورة والنص مرة واحدة
+ * - استبدال أي <iframe> أو <video> بعنصر الصورة والنص في كل مرة
  */
 function downloadPdf() {
   if (!contentArea) return;
   let content = contentArea.innerHTML;
 
-  let replacedImageOnce = false;
-  const replaceVideoOrIframe = () => {
-    if (!replacedImageOnce) {
-      replacedImageOnce = true;
-      return `
+  const replacedBlock = `
 <p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).</p>
 <p><img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/result.png" alt="Subscribe Image" style="max-width:200px;"/></p>
 `;
-    } else {
-      return `
-<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).</p>
-`;
-    }
-  };
 
+  // استبدال جميع الفيديوهات والإطارات
   let modifiedContent = content
-    .replace(/<video[^>]*>[\s\S]*?<\/video>/gi, function() {
-      return replaceVideoOrIframe();
-    })
-    .replace(/<iframe[^>]*>[\s\S]*?<\/iframe>/gi, function() {
-      return replaceVideoOrIframe();
-    });
+    .replace(/<video[^>]*>[\s\S]*?<\/video>/gi, replacedBlock)
+    .replace(/<iframe[^>]*>[\s\S]*?<\/iframe>/gi, replacedBlock);
 
   // Open a new window (about:blank)
   const printWindow = window.open('about:blank', '_blank');
