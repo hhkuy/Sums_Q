@@ -600,7 +600,7 @@
     </div>
   </div>
 
-  <!-- نافذة منبثقة لعرض الصور أو الفيديو أو الروابط (المزايا الجديدة) -->
+  <!-- نافذة منبثقة لعرض الصور أو الفيديو أو الروابط أو iframes (المزايا الجديدة) -->
   <div class="modal fade" id="multiTriggerModal" tabindex="-1" aria-labelledby="multiTriggerModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -609,7 +609,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body" id="multiTriggerModalBody">
-          <!-- سيتم تعبئة هذه المساحة بمحتوى الصور أو الفيديو أو الروابط وغيرها -->
+          <!-- سيتم تعبئة هذه المساحة بمحتوى الصور أو الفيديو أو الروابط أو iframes -->
         </div>
       </div>
     </div>
@@ -1108,9 +1108,7 @@
         contentTitle.textContent = topicFullPath;
         resultDiv.innerHTML = jsonData.content ? jsonData.content : '<p>No content available.</p>';
 
-        // إرفاق التريغرز لكل الأنواع
-        attachAllTriggers();
-
+        attachAllTriggers(); // تفعيل التريغرز
         allSearchableElements = Array.from(document.querySelectorAll('#result p, #result td, #result th, #result h1, #result h2, #result h3, #result h4, #result h5, #result h6, #result li'));
 
         pageTopics.style.display = 'none';
@@ -1128,13 +1126,13 @@
     }
 
     /*==============================
-      دالة ترفق جميع التريغرز (أسئلة/صور/فيديو/روابط/متعدّد/iframe)
+      دالة ترفق جميع التريغرز
     ================================*/
     function attachAllTriggers() {
-      // الأسئلة كما في السابق
+      // الأسئلة
       attachQuestionTriggers();
 
-      // بقية الأنواع (image-trigger, video-trigger, link-trigger, iframe-trigger)
+      // الصور
       const imageEls = document.querySelectorAll('.image-trigger');
       imageEls.forEach(el => {
         el.addEventListener('click', () => {
@@ -1143,15 +1141,16 @@
         });
       });
 
+      // الفيديو
       const videoEls = document.querySelectorAll('.video-trigger');
       videoEls.forEach(el => {
         el.addEventListener('click', () => {
           const vidSrc = el.getAttribute('data-vid-src');
-          // هنا نتعامل مع الفيديو كعنصر مشغل متقدم ضمن المودال
           openMultiTriggerModal({ videos: [vidSrc] });
         });
       });
 
+      // الروابط
       const linkEls = document.querySelectorAll('.link-trigger');
       linkEls.forEach(el => {
         el.addEventListener('click', () => {
@@ -1160,16 +1159,16 @@
         });
       });
 
+      // iframes
       const iframeEls = document.querySelectorAll('.iframe-trigger');
       iframeEls.forEach(el => {
         el.addEventListener('click', () => {
           const iframeSrc = el.getAttribute('data-iframe-src');
-          // نعرضه في المودال كمثل embed/iframe
           openMultiTriggerModal({ iframes: [iframeSrc] });
         });
       });
 
-      // في حال كان هناك أكثر من تريغر في نفس العنصر (multi-trigger)
+      // multi-trigger
       const multiEls = document.querySelectorAll('.multi-trigger');
       multiEls.forEach(el => {
         el.addEventListener('click', () => {
@@ -1189,11 +1188,11 @@
           if(el.hasAttribute('data-link-href')){
             dataObj.links.push(el.getAttribute('data-link-href'));
           }
-          if(el.hasAttribute('data-iframe-src')){
-            dataObj.iframes.push(el.getAttribute('data-iframe-src'));
-          }
           if(el.hasAttribute('data-qids')){
             dataObj.questions = el.getAttribute('data-qids').split(',').map(x => x.trim());
+          }
+          if(el.hasAttribute('data-iframe-src')){
+            dataObj.iframes.push(el.getAttribute('data-iframe-src'));
           }
           openMultiTriggerModal(dataObj);
         });
@@ -1201,7 +1200,7 @@
     }
 
     /*==============================
-      Attach event listeners to .question-trigger elements
+      Attach event listeners to question triggers
     ================================*/
     function attachQuestionTriggers() {
       const triggers = document.querySelectorAll('.question-trigger');
@@ -1217,13 +1216,13 @@
     }
 
     /*==============================
-      فتح المودال الموحّد للصور/فيديو/روابط/أسئلة/iframes
+      فتح المودال الموحد (صور/فيديو/روابط/أسئلة/iframes)
     ================================*/
     function openMultiTriggerModal(dataObj) {
       const modalBody = document.getElementById('multiTriggerModalBody');
       modalBody.innerHTML = '';
 
-      // عرض الصور
+      // صور
       if(dataObj.images && dataObj.images.length > 0){
         dataObj.images.forEach(src => {
           const img = document.createElement('img');
@@ -1232,10 +1231,10 @@
           modalBody.appendChild(img);
         });
       }
-      // عرض الفيديوهات (كمشغل فيديو متقدم أيضاً)
+
+      // فيديو
       if(dataObj.videos && dataObj.videos.length > 0){
         dataObj.videos.forEach(src => {
-          // ننشئ div.video-container ثم نحقن فيها الفيديو
           const divContainer = document.createElement('div');
           divContainer.classList.add('video-container');
           const videoEl = document.createElement('video');
@@ -1244,13 +1243,14 @@
           divContainer.appendChild(videoEl);
           modalBody.appendChild(divContainer);
 
-          // بعد إدخال العنصر في الـDOM، نستدعي initAdvancedVideoPlayers عليه
+          // تهيئة مشغل الفيديو المتقدم بعد إضافته
           setTimeout(() => {
             initAdvancedVideoPlayers();
           }, 50);
         });
       }
-      // عرض الروابط
+
+      // روابط
       if(dataObj.links && dataObj.links.length > 0){
         dataObj.links.forEach(linkHref => {
           const a = document.createElement('a');
@@ -1261,7 +1261,8 @@
           modalBody.appendChild(a);
         });
       }
-      // عرض iframes
+
+      // iframes
       if(dataObj.iframes && dataObj.iframes.length > 0){
         dataObj.iframes.forEach(ifSrc => {
           const ifrm = document.createElement('iframe');
@@ -1274,7 +1275,8 @@
           modalBody.appendChild(ifrm);
         });
       }
-      // الأسئلة
+
+      // أسئلة
       if(dataObj.questions && dataObj.questions.length > 0){
         fetchQuestionsAndAppendToMultiModal(dataObj.questions);
       }
@@ -1284,7 +1286,7 @@
     }
 
     /*==============================
-      جلب الأسئلة وعرضها داخل مودال الموارد
+      جلب الأسئلة وعرضها في المودال
     ================================*/
     async function fetchQuestionsAndAppendToMultiModal(qids) {
       let allQuestions = [];
@@ -1337,7 +1339,7 @@
     }
 
     /*==============================
-      Fetch Questions and Show Modal (Test-like interface)
+      Fetch Questions and Show in separate modal
     ================================*/
     async function fetchQuestionsAndShowModal(idArray) {
       let allQuestions = [];
@@ -1393,7 +1395,7 @@
     }
 
     /*==============================
-      Check Answer for a Question
+      Check answer
     ================================*/
     function checkAnswer(btn, explanation, answerText) {
       const questionItem = btn.closest('.question-item');
@@ -1422,7 +1424,7 @@
     }
 
     /*==============================
-      Utility: Escape HTML Characters
+      Utility: Escape HTML
     ================================*/
     function escapeHtml(str) {
       return str
@@ -1434,68 +1436,31 @@
     }
 
     /*==============================
-      Download PDF Functionality
-      - استثناء الفيديوهات/ iframes الموجودة داخل تريغرز من التحويل
-      - تحويل الفيديوهات الظاهرة في المحتوى إلى QR
-      - إخفاء الأزرار بالكامل
+      Download PDF (single-pass replacement to avoid duplication)
     ================================*/
     function downloadPdf() {
       const contentTitle = document.getElementById('contentTitle').textContent;
       let content = document.getElementById('result').innerHTML;
 
-      // دالة بسيطة تتحقق إن كان المحتوى ينتمي لتريغر (video-trigger, iframe-trigger, multi-trigger) بحيث نتجاوز الاستبدال.
-      function isInTrigger(str) {
-        // لو ظهر بالفيديو عبارة 'trigger' أو ما شابه .. أو class="...-trigger"
-        // نفترض بساطةً إن وجود  class="...trigger" ضمن النص دليل أنه داخل تريغر:
-        return /class\s*=\s*"[^"]*(trigger)[^"]*"/i.test(str);
+      // تحقق لو كان داخل تريغر كي لا نبدله
+      function isInTrigger(htmlStr) {
+        return /class\s*=\s*"[^"]*trigger[^"]*"/i.test(htmlStr);
       }
 
-      // استبدال أي فيديو/iframe/مشغل متقدم بنصّ الاشتراك + QR ما لم يكن داخل تريغر
-      let modifiedContent = content
-        .replace(/<div class="video-container"[^>]*>[\s\S]*?<\/div>/gi, function(match) {
-          if (isInTrigger(match)) {
-            return match; // لا نحوله
-          }
-          return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
-                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
-        })
-        .replace(/<div id="videoContainer"[^>]*>[\s\S]*?<\/div>/gi, function(match) {
-          if (isInTrigger(match)) {
-            return match;
-          }
-          return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
-                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
-        })
-        .replace(/<div id="videoWrapper"[^>]*>[\s\S]*?<\/div>/gi, function(match) {
-          if (isInTrigger(match)) {
-            return match;
-          }
-          return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
-                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
-        })
-        .replace(/<div id="customControls"[^>]*>[\s\S]*?<\/div>/gi, function(match) {
-          if (isInTrigger(match)) {
-            return match;
-          }
-          return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
-                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
-        })
-        // iframe
-        .replace(/<iframe[^>]*>.*?<\/iframe>/gi, function(match) {
-          if (isInTrigger(match)) {
-            return match; 
-          }
-          return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
-                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
-        })
-        // video
-        .replace(/<video[^>]*>.*?<\/video>/gi, function(match) {
-          if (isInTrigger(match)) {
-            return match; 
-          }
-          return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
-                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
-        });
+      // نستخدم Regex واحد كبير يجمع كل العناصر (videoContainer, videoWrapper, customControls, .video-container, <video>, <iframe>)
+      // في لقطة واحدة كي لا يتكرر الاستبدال ويُنتج أكثر من مرة
+      // نفعل ذلك باستخدام المجموعة الاختيارية:  (?:...) وبدون تكرار مرات
+      const pattern = /<(?:div|video|iframe)\s+(?:[^>]*id="(?:videoContainer|videoWrapper|customControls)"[^>]*|class="video-container"[^>]*|[^>]*iframe[^>]*)>[\s\S]*?<\/(?:div|video|iframe)>|<video[^>]*>[\s\S]*?<\/video>/gi;
+
+      let modifiedContent = content.replace(pattern, match => {
+        // إذا كان داخل تريغر، لا نستبدله
+        if (isInTrigger(match)) {
+          return match;
+        }
+        // وإلا نستبدل الكل:
+        return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
+      });
 
       const printWindow = window.open('about:blank', '_blank');
       printWindow.document.write(
@@ -1512,7 +1477,7 @@
                 background-color: #fafafa; 
                 color: #2c3e50;
               }
-              /* العلامة المائية بحجم أصغر قليلًا وفي المنتصف بشكل ثابت */
+              /* العلامة المائية بحجم أصغر قليلًا وفي المنتصف */
               body::before {
                 content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
                 white-space: pre;
@@ -1565,7 +1530,7 @@
               <h1>${contentTitle}</h1>
               ${modifiedContent}
             </div>
-            <!-- إضافة سكريبت MathJax كي تظهر المعادلات بشكل صحيح في الصفحة المنبثقة -->
+            <!-- MathJax -->
             <script>
               window.MathJax = {
                 tex: {
@@ -1644,7 +1609,6 @@
           div.classList.add('search-result-item');
           div.innerText = snippet;
 
-          // On click, close modal then scroll to element
           div.addEventListener('click', () => {
             const searchModal = bootstrap.Modal.getInstance(document.getElementById('contentSearchModal'));
             searchModal.hide();
