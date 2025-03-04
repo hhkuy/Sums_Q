@@ -19,8 +19,8 @@
       margin: 0;
       padding: 0;
       font-family: 'Montserrat', sans-serif;
-      background-color: #fafafa;
-      color: #2c3e50;
+      background-color: #fafafa; /* نفس الخلفية */
+      color: #2c3e50; /* نفس لون الخط */
     }
     h1, h2, h3, h4, h5, h6 {
       font-weight: 600;
@@ -1169,19 +1169,28 @@
 
     /*==============================
       Download PDF Functionality
-      (يحويل <video> + <iframe> إلى نص الاشتراك وQR,
-       يحافظ على ألوان الصفحة الأصلية,
-       يضع العلامة المائية في المنتصف بشكل مائل)
+      (يشمل البحث عن الفيديوهات بـ <video> أو <iframe>
+       وأيضًا عن .video-container الناتجة عن المشغل المتقدم)
     ================================*/
     function downloadPdf() {
       const contentTitle = document.getElementById('contentTitle').textContent;
       let content = document.getElementById('result').innerHTML;
-      // استبدال جميع الفيديوهات (iframe + video) بنصّ يشير للاشتراك مع QR Code
+
+      // استبدال video-container بالكامل
+      // (أي عنصر <div class="video-container"> ... </div>)
+      // مع الفيديوهات و iframes أيضاً
       let modifiedContent = content
+        // أولاً استبدال أي عنصر .video-container (المشغل المتقدم)
+        .replace(/<div class="video-container"[^>]*>[\s\S]*?<\/div>/gi, function() {
+          return `<p>If you want to watch the video or the content, you must subscribe to the site.<br>
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
+        })
+        // ثم استبدال أي iframe
         .replace(/<iframe[^>]*>.*?<\/iframe>/gi, function() {
           return `<p>If you want to watch the video or the content, you must subscribe to the site.<br>
                   <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
         })
+        // وأخيرًا استبدال أي video
         .replace(/<video[^>]*>.*?<\/video>/gi, function() {
           return `<p>If you want to watch the video or the content, you must subscribe to the site.<br>
                   <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
