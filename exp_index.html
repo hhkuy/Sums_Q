@@ -836,6 +836,9 @@
         currentTranslate.y = Math.min(Math.max(currentTranslate.y, -maxTranslateY), maxTranslateY);
       }
     }
+    
+    // يمكن استدعاء دالة initAdvancedVideoPlayers() بعد تحميل المحتوى (مثلاً بعد استدعاء openContentPage أو fetchDataAndDisplay)
+    // على سبيل المثال، إذا كان المحتوى الذي تم جلبه يحتوي على فيديو داخل div.video-container، سيتم استبداله تلقائيًا.
   </script>
   
   <!-- باقي الأكواد الخاصة بالبحث، التصفح، تنزيل PDF، وغيرها من وظائف الموقع -->
@@ -940,66 +943,287 @@
           nestedAccordion.id = `nested-${uniqueId}`;
           bodyElement.appendChild(nestedAccordion);
           buildAccordion(topic.subtopics, nestedAccordion, `nested-${uniqueId}`, fullPath);
-        } else {
-          // إذا لم تكن هناك فروع فرعية، نضع زر لعرض المحتوى
-          const loadContentBtn = document.createElement('button');
-          loadContentBtn.classList.add('btn', 'btn-primary', 'btn-show-content');
-          loadContentBtn.innerHTML = 'Show Content';
-          loadContentBtn.addEventListener('click', () => {
-            openContentPage(fullPath, topic.content || '');
+        }
+
+        if (topic.dataFile) {
+          const showContentBtn = document.createElement('button');
+          showContentBtn.classList.add('btn', 'btn-primary', 'btn-custom', 'btn-show-content');
+          showContentBtn.innerHTML = `<i class="bi bi-eye-fill"></i> View Content`;
+          showContentBtn.addEventListener('click', () => {
+            openContentPage(fullPath, topic.dataFile);
           });
-          bodyElement.appendChild(loadContentBtn);
+          bodyElement.appendChild(showContentBtn);
         }
       });
     }
 
     /*==============================
-      Filter Topics by Search
+      Filter Topics (Search in main/sub/sub-sub ... titles)
+      Display full subtopics if title matches or only filtered if subtopics match.
     ================================*/
     function filterTopics() {
-      const searchTerm = document.getElementById('topicSearch').value.trim().toLowerCase();
-      const accordionItems = document.querySelectorAll('#topicsAccordion .accordion-item');
+      const query = document.getElementById('topicSearch').value.trim().toLowerCase();
+      const accordion = document.getElementById('topicsAccordion');
+      accordion.innerHTML = ''; // clear old results
 
-      accordionItems.forEach(item => {
-        const buttonText = item.querySelector('.accordion-button').innerText.toLowerCase();
-        if (buttonText.includes(searchTerm)) {
-          item.style.display = 'block';
-        } else {
-          item.style.display = 'none';
-        }
-      });
+      if (!query) {
+        buildAccordion(globalTopicsData, accordion, 'main', "");
+        return;
+      }
+
+      const filtered = searchTopicsRecursive(globalTopicsData, query);
+      buildAccordion(filtered, accordion, 'main', "");
     }
 
     /*==============================
-      Open Content Page
+      Recursive deep search in topics
     ================================*/
-    function openContentPage(title, content) {
-      document.getElementById('pageTopics').style.display = 'none';
-      document.getElementById('pageContent').style.display = 'block';
-      document.getElementById('contentTitle').innerText = title;
-      document.getElementById('result').innerHTML = content;
-      initAdvancedVideoPlayers(); // لو وجدت فيديوهات في المحتوى
-      // إظهار أزرار التنقل العائمة
-      document.getElementById('floatingButtons').style.display = 'flex';
-      // إعادة تهيئة البحث داخل المحتوى
-      prepareContentSearch();
-      // إعادة تفعيل MathJax لعرض الرموز الرياضية (في حال وجدت معادلات)
-      if (window.MathJax) {
-        window.MathJax.typesetPromise && window.MathJax.typesetPromise();
+    function searchTopicsRecursive(topics, query) {
+      let result = [];
+      if (!topics) return result;
+
+      topics.forEach(topic => {
+        const titleMatch = topic.title.toLowerCase().includes(query);
+        let matchedSubtopics = [];
+
+        if (Array.isArray(topic.subtopics)) {
+          matchedSubtopics = searchTopicsRecursive(topic.subtopics, query);
+        }
+
+        if (titleMatch) {
+          result.push(topic);
+        } else if (matchedSubtopics.length > 0) {
+          let newTopic = Object.assign({}, topic);
+          newTopic.subtopics = matchedSubtopics;
+          result.push(newTopic);
+        }
+      });
+      return result;
+    }
+
+    /*==============================
+      Open Content Page: Fetch Content and Show Hierarchical Path
+    ================================*/
+    async function openContentPage(topicFullPath, dataFile) {
+      try {
+        const pageTopics = document.getElementById('pageTopics');
+        const pageContent = document.getElementById('pageContent');
+        const contentTitle = document.getElementById('contentTitle');
+        const resultDiv = document.getElementById('result');
+
+        const response = await fetch(`exp_data/${dataFile}`);
+        if (!response.ok) throw new Error(`Cannot fetch file: ${dataFile}`);
+        const jsonData = await response.json();
+
+        contentTitle.textContent = topicFullPath;
+        resultDiv.innerHTML = jsonData.content ? jsonData.content : '<p>No content available.</p>';
+
+        attachQuestionTriggers();
+        allSearchableElements = Array.from(document.querySelectorAll('#result p, #result td, #result th, #result h1, #result h2, #result h3, #result h4, #result h5, #result h6, #result li'));
+
+        pageTopics.style.display = 'none';
+        document.getElementById('topicsSearchContainer').style.display = 'none';
+        pageContent.style.display = 'block';
+        document.getElementById('floatingButtons').style.display = 'flex';
+
+        scrollToTop();
+        // تهيئة مشغل الفيديو المتقدم إذا وُجد فيديو في المحتوى
+        initAdvancedVideoPlayers();
+      } catch (error) {
+        console.error('Error opening content file:', error);
+        alert('Error loading content. Check console for details.');
       }
     }
 
     /*==============================
-      Go Back to Topics
+      Attach event listeners to .question-trigger elements
+    ================================*/
+    function attachQuestionTriggers() {
+      const triggers = document.querySelectorAll('.question-trigger');
+      triggers.forEach(trigger => {
+        trigger.addEventListener('click', () => {
+          const qids = trigger.getAttribute('data-qids');
+          if (qids) {
+            const idArray = qids.split(',').map(id => id.trim());
+            fetchQuestionsAndShowModal(idArray);
+          }
+        });
+      });
+    }
+
+    /*==============================
+      Fetch Questions and Show Modal (Test-like interface)
+    ================================*/
+    async function fetchQuestionsAndShowModal(idArray) {
+      let allQuestions = [];
+      try {
+        for (const fileName of questionFiles) {
+          try {
+            const res = await fetch(fileName);
+            if (res.ok) {
+              const questionsInFile = await res.json();
+              allQuestions = allQuestions.concat(questionsInFile);
+            }
+          } catch (err) {
+            console.error(`Error fetching file ${fileName}:`, err);
+          }
+        }
+
+        const filtered = allQuestions.filter(q => idArray.includes(q.qID));
+        let questionsHtml = '';
+        if (filtered.length > 0) {
+          filtered.forEach(q => {
+            questionsHtml += 
+              `<div class="question-item" data-answer="${q.answer}">
+                <h5>${q.question}</h5>
+                <form>
+                  ${q.options.map((option, idx) => 
+                    `<div class="form-check">
+                      <input class="form-check-input" type="radio" name="qID_${q.qID}" id="qID_${q.qID}_opt${idx}" value="${idx}">
+                      <label class="form-check-label" for="qID_${q.qID}_opt${idx}">
+                        ${option}
+                      </label>
+                    </div>`
+                  ).join('')}
+                  <button type="button" class="btn btn-sm btn-primary mt-2" 
+                    onclick="checkAnswer(this, '${escapeHtml(q.explanation)}', '${escapeHtml(q.answerText)}')">
+                    Check Answer
+                  </button>
+                  <div class="answer-result text-center" style="display: none;"></div>
+                </form>
+              </div>`;
+          });
+        } else {
+          questionsHtml = '<p>No questions available for this topic.</p>';
+        }
+
+        document.getElementById('questionsModalBody').innerHTML = questionsHtml;
+        const questionsModal = new bootstrap.Modal(document.getElementById('questionsModal'));
+        questionsModal.show();
+      } catch (error) {
+        console.error('Error merging questions:', error);
+        alert('Error loading questions. Check console for details.');
+      }
+    }
+
+    /*==============================
+      Check Answer for a Question
+    ================================*/
+    function checkAnswer(btn, explanation, answerText) {
+      const questionItem = btn.closest('.question-item');
+      const correctIndex = parseInt(questionItem.dataset.answer, 10);
+      const form = questionItem.querySelector('form');
+      const selectedRadio = form.querySelector('input[type="radio"]:checked');
+      const resultDiv = questionItem.querySelector('.answer-result');
+
+      if (!selectedRadio) {
+        resultDiv.style.display = 'block';
+        resultDiv.innerHTML = '<p class="text-danger">No option selected!</p>';
+        return;
+      }
+
+      const userIndex = parseInt(selectedRadio.value, 10);
+      if (userIndex === correctIndex) {
+        resultDiv.style.display = 'block';
+        resultDiv.innerHTML = `<p class="text-success fw-bold">Correct Answer!</p>
+                               <p><strong>Explanation:</strong> ${explanation}</p>`;
+      } else {
+        resultDiv.style.display = 'block';
+        resultDiv.innerHTML = `<p class="text-danger fw-bold">Wrong Answer!</p>
+                               <p><strong>Correct Answer:</strong> ${answerText}</p>
+                               <p><strong>Explanation:</strong> ${explanation}</p>`;
+      }
+    }
+
+    /*==============================
+      Utility: Escape HTML Characters
+    ================================*/
+    function escapeHtml(str) {
+      return str
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    /*==============================
+      Download PDF Functionality
+    ================================*/
+    function downloadPdf() {
+      const contentTitle = document.getElementById('contentTitle').textContent;
+      let content = document.getElementById('result').innerHTML;
+      // Replace iframes with QR code images
+      let modifiedContent = content.replace(/<iframe[^>]*src="([^"]+)"[^>]*><\/iframe>/g, function(_, src) {
+        const qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent(src);
+        return `<img src="${qrUrl}" alt="QR Code for video link">`;
+      });
+      const printWindow = window.open('about:blank', '_blank');
+      printWindow.document.write(
+        `<html>
+          <head>
+            <meta charset="UTF-8">
+            <title>Download PDF</title>
+            <style>
+              @page { size: A4; margin: 20mm; }
+              body {
+                font-family: 'Montserrat', sans-serif; 
+                margin: 0; 
+                padding: 0;
+                background: #fff; 
+                color: #2c3e50;
+              }
+              h1 { 
+                color: #2e4053; 
+                text-align: center; 
+                margin-bottom: 20px; 
+                font-weight: 600;
+              }
+              /* Replicate content styles with table borders */
+              #content {
+                margin: 20px;
+                background-color: #fff;
+                padding: 20px;
+                border: none;
+                font-size: 14px;
+              }
+              #content h1 { color: #2e4053; }
+              #content h2 { color: #2874a6; }
+              #content h3 { color: #148f77; }
+              #content h4 { color: #9b59b6; }
+              #content h5, #content h6 { color: #b03a2e; }
+              #content p, #content li, #content td, #content th { color: #2c3e50; }
+            </style>
+          </head>
+          <body>
+            <h1>${contentTitle}</h1>
+            <div id="content">
+              ${modifiedContent}
+            </div>
+            <script>
+              window.onload = function() {
+                window.focus();
+                window.print();
+              };
+            <\/script>
+          </body>
+        </html>`
+      );
+      printWindow.document.close();
+    }
+
+    /*==============================
+      Return to Topics Page
     ================================*/
     function goBackToTopics() {
-      document.getElementById('pageTopics').style.display = 'block';
       document.getElementById('pageContent').style.display = 'none';
+      document.getElementById('pageTopics').style.display = 'block';
+      document.getElementById('topicsSearchContainer').style.display = 'block';
       document.getElementById('floatingButtons').style.display = 'none';
     }
 
     /*==============================
-      Scroll To Top & Scroll To Bottom
+      Scroll Navigation Functions
     ================================*/
     function scrollToTop() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1009,171 +1233,53 @@
     }
 
     /*==============================
-      Prepare Content Search
-    ================================*/
-    function prepareContentSearch() {
-      const contentContainer = document.getElementById('result');
-      // جلب جميع العناصر القابلة للبحث (نصوص)
-      allSearchableElements = Array.from(contentContainer.querySelectorAll('*'))
-        .filter(el => el.children.length === 0 && el.textContent.trim().length > 0);
-    }
-
-    /*==============================
-      Open Content Search Modal
+      Content Search Modal Functions
     ================================*/
     function openContentSearchModal() {
-      const modal = new bootstrap.Modal(document.getElementById('contentSearchModal'));
-      modal.show();
-      document.getElementById('contentSearchInput').value = '';
-      document.getElementById('contentSearchResults').innerHTML = '';
+      const searchModal = new bootstrap.Modal(document.getElementById('contentSearchModal'));
+      searchModal.show();
+      const input = document.getElementById('contentSearchInput');
+      const resultsContainer = document.getElementById('contentSearchResults');
+      input.value = '';
+      resultsContainer.innerHTML = '';
+      input.focus();
+
+      // Prevent multiple event listeners
+      input.removeEventListener('input', handleContentSearchInput);
+      input.addEventListener('input', handleContentSearchInput);
     }
 
-    /*==============================
-      Content Search Handler
-    ================================*/
-    document.getElementById('contentSearchInput').addEventListener('input', function() {
+    function handleContentSearchInput() {
       const query = this.value.toLowerCase();
       const resultsContainer = document.getElementById('contentSearchResults');
       resultsContainer.innerHTML = '';
-      if (query.length < 1) return;
+      if (!query.trim()) return;
 
-      const matched = [];
-      allSearchableElements.forEach(el => {
-        if (el.textContent.toLowerCase().includes(query)) {
-          matched.push(el);
+      const searchableElements = Array.from(document.querySelectorAll(
+        '#result p, #result td, #result th, #result h1, #result h2, #result h3, #result h4, #result h5, #result h6, #result li'
+      ));
+
+      searchableElements.forEach(el => {
+        if (el.innerText.toLowerCase().includes(query)) {
+          let snippet = el.innerText;
+          if (snippet.length > 150) snippet = snippet.substring(0, 150) + '...';
+          const div = document.createElement('div');
+          div.classList.add('search-result-item');
+          div.innerText = snippet;
+
+          // On click, close modal then scroll to element
+          div.addEventListener('click', () => {
+            const searchModal = bootstrap.Modal.getInstance(document.getElementById('contentSearchModal'));
+            searchModal.hide();
+            setTimeout(() => {
+              el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }, 200);
+          });
+          resultsContainer.appendChild(div);
         }
       });
-
-      if (matched.length === 0) {
-        resultsContainer.innerHTML = '<p class="text-danger">No matches found.</p>';
-        return;
-      }
-
-      matched.forEach((match, index) => {
-        const item = document.createElement('div');
-        item.classList.add('search-result-item');
-        item.innerText = match.textContent.substring(0, 100);
-        item.addEventListener('click', () => {
-          match.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        });
-        resultsContainer.appendChild(item);
-      });
-    });
-
-    /*==============================
-      Download PDF -> يفتح صفحة about:blank بتنسيق خاص
-    ================================*/
-    function downloadPdf() {
-      // نجلب محتوى الصفحة الحالي (#result)
-      let contentHtml = document.getElementById('result').innerHTML || "";
-
-      // استبدال أي مشغل فيديو متقدم (أو container فيديو) بنص + QR Code
-      const videoRegex = /<div class="video-container">[\s\S]*?<\/div>/gi;
-      const replacementText = `
-      <div>
-        <p>If you want to watch the video or the content, you must subscribe to the site.<br>
-        Also, to see the questions related to the topics, you must subscribe to the site.</p>
-        <p><strong>QR Code:</strong></p>
-        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code" />
-      </div>
-      `;
-      contentHtml = contentHtml.replace(videoRegex, replacementText);
-
-      // فتح صفحة جديدة
-      let newWin = window.open("", "_blank");
-      if (!newWin) {
-        alert("Please allow pop-ups to open the PDF preview.");
-        return;
-      }
-
-      // حقن HTML في الصفحة الجديدة بدون حواف وبعلامة مائية خفيفة
-      newWin.document.write(`
-      <html>
-      <head>
-        <meta charset="UTF-8">
-        <title>About blank</title>
-        <style>
-          body {
-            margin: 0;
-            padding: 0;
-            position: relative;
-            font-family: 'Montserrat', sans-serif;
-            color: #2c3e50;
-          }
-          table, th, td {
-            border: none !important;
-          }
-          /* علامة مائية خفيفة */
-          .watermark {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            opacity: 0.1;
-            font-size: 3em;
-            text-align: center;
-            transform: rotate(-30deg);
-            z-index: 9999;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-          .watermark-content {
-            line-height: 1.5;
-          }
-          #printContent {
-            padding: 20px;
-          }
-        </style>
-      </head>
-      <body>
-        <div class="watermark">
-          <div class="watermark-content">
-            SUMS site
-            <br/>
-            https://sites.google.com/view/medsums/sums-questions-bank-sqb
-          </div>
-        </div>
-
-        <div id="printContent">
-          ${contentHtml}
-        </div>
-
-        <!-- تفعيل MathJax لضمان دعم المعادلات أيضاً في الصفحة الجديدة -->
-        <script>
-          window.MathJax = {
-            tex: {
-              inlineMath: [['$', '$'], ['\\\\(','\\\\)']]
-            }
-          };
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-        <script>
-          document.addEventListener('DOMContentLoaded', function() {
-            if (window.MathJax && window.MathJax.typesetPromise) {
-              window.MathJax.typesetPromise();
-            }
-          });
-        </script>
-      </body>
-      </html>
-      `);
-
-      newWin.document.close();
     }
   </script>
-
-  <!-- إضافة MathJax في الصفحة الرئيسية لتتعرف على الرموز والمعادلات في كل مكان -->
-  <script>
-    window.MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']]
-      }
-    };
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
 </body>
 </html>
