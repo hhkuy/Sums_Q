@@ -836,7 +836,6 @@
         currentTranslate.y = Math.min(Math.max(currentTranslate.y, -maxTranslateY), maxTranslateY);
       }
     }
-    // يمكن استدعاء initAdvancedVideoPlayers() بعد تحميل المحتوى عند الحاجة
   </script>
   
   <!-- باقي الأكواد الخاصة بالبحث، التصفح، تنزيل PDF، وغيرها من وظائف الموقع -->
@@ -942,7 +941,7 @@
           bodyElement.appendChild(nestedAccordion);
           buildAccordion(topic.subtopics, nestedAccordion, `nested-${uniqueId}`, fullPath);
         } else {
-          // If the topic has no subtopics, we can show a button to load content
+          // إذا لم تكن هناك فروع فرعية، نضع زر لعرض المحتوى
           const loadContentBtn = document.createElement('button');
           loadContentBtn.classList.add('btn', 'btn-primary', 'btn-show-content');
           loadContentBtn.innerHTML = 'Show Content';
@@ -1055,7 +1054,6 @@
         item.classList.add('search-result-item');
         item.innerText = match.textContent.substring(0, 100);
         item.addEventListener('click', () => {
-          // Scroll to the element
           match.scrollIntoView({ behavior: 'smooth', block: 'center' });
         });
         resultsContainer.appendChild(item);
@@ -1066,13 +1064,10 @@
       Download PDF -> يفتح صفحة about:blank بتنسيق خاص
     ================================*/
     function downloadPdf() {
-      // نجلب محتوى الصفحة الحالي (#result) أو المحتوى الذي يعرض المعلومات
+      // نجلب محتوى الصفحة الحالي (#result)
       let contentHtml = document.getElementById('result').innerHTML || "";
 
-      // استبدال أي مشغلات فيديو بالفكرة المطلوبة (نص انجليزي + صورة QR)
-      // سنبحث عن أقسام الفيديو أو أي عنصر class="video-container" ونستبدله
-      // إن لم يكن الفيديو ملفوفاً بـdiv.video-container نستبدل مجرد <video> ..
-      // للتبسيط، سنستخدم Regex يستهدف أي div بالفيديو:
+      // استبدال أي مشغل فيديو متقدم (أو container فيديو) بنص + QR Code
       const videoRegex = /<div class="video-container">[\s\S]*?<\/div>/gi;
       const replacementText = `
       <div>
@@ -1084,14 +1079,14 @@
       `;
       contentHtml = contentHtml.replace(videoRegex, replacementText);
 
-      // الآن نفتح تبويب/نافذة جديدة about:blank
+      // فتح صفحة جديدة
       let newWin = window.open("", "_blank");
       if (!newWin) {
         alert("Please allow pop-ups to open the PDF preview.");
         return;
       }
 
-      // نحقن فيه صفحة HTML: بدون حواف/حدود، وجداول بلا إطارات، + طبقة خلفية watermark
+      // حقن HTML في الصفحة الجديدة بدون حواف وبعلامة مائية خفيفة
       newWin.document.write(`
       <html>
       <head>
@@ -1108,7 +1103,7 @@
           table, th, td {
             border: none !important;
           }
-          /* طبقة العلامة المائية (حقوق) */
+          /* علامة مائية خفيفة */
           .watermark {
             position: fixed;
             top: 0;
@@ -1128,14 +1123,12 @@
           .watermark-content {
             line-height: 1.5;
           }
-          /* تنسيق المحتوى */
           #printContent {
             padding: 20px;
           }
         </style>
       </head>
       <body>
-        <!-- علامة مائية خفيفة -->
         <div class="watermark">
           <div class="watermark-content">
             SUMS site
@@ -1144,7 +1137,6 @@
           </div>
         </div>
 
-        <!-- المحتوى -->
         <div id="printContent">
           ${contentHtml}
         </div>
@@ -1159,7 +1151,6 @@
         </script>
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
         <script>
-          // إعادة typeset بعد تحميل السكربت
           document.addEventListener('DOMContentLoaded', function() {
             if (window.MathJax && window.MathJax.typesetPromise) {
               window.MathJax.typesetPromise();
@@ -1171,7 +1162,6 @@
       `);
 
       newWin.document.close();
-      // يمكن للمستخدم عمل طباعة/حفظ PDF يدوياً من المتصفح
     }
   </script>
 
