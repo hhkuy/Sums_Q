@@ -256,6 +256,26 @@
     .search-result-item:hover {
       background-color: #f2f2f2;
     }
+
+    /* ==== العلامة المائية نفسها داخل صفحة المحتوى ==== */
+    /* نجعل #pageContent أو #result بوضعية نسبية بحيث تظهر العلامة المائية ضمن نطاق الصفحة */
+    #pageContent {
+      position: relative;
+    }
+    #pageContent::before {
+      content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
+      white-space: pre;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-30deg);
+      font-size: 30px;
+      color: rgba(0, 0, 0, 0.07);
+      pointer-events: none;
+      z-index: 0;
+      text-align: center;
+    }
+
     /* Media queries */
     @media (max-width: 576px) {
       .header {
@@ -1134,27 +1154,21 @@
       const multiEls = document.querySelectorAll('.multi-trigger');
       multiEls.forEach(el => {
         el.addEventListener('click', () => {
-          // يمكن مثلاً قراءة data-* كقائمة (أو JSON)
-          // في هذا المثال نفترض أننا نخزّنها بشكل يدوي:
           let dataObj = {
             images: [],
             videos: [],
             links: [],
             questions: []
           };
-          // لو في data-img-src
           if(el.hasAttribute('data-img-src')){
             dataObj.images.push(el.getAttribute('data-img-src'));
           }
-          // لو في data-vid-src
           if(el.hasAttribute('data-vid-src')){
             dataObj.videos.push(el.getAttribute('data-vid-src'));
           }
-          // لو في data-link-href
           if(el.hasAttribute('data-link-href')){
             dataObj.links.push(el.getAttribute('data-link-href'));
           }
-          // لو في data-qids
           if(el.hasAttribute('data-qids')){
             dataObj.questions = el.getAttribute('data-qids').split(',').map(x => x.trim());
           }
@@ -1183,7 +1197,6 @@
       فتح المودال الموحّد للصور/فيديو/روابط/أسئلة
     ================================*/
     function openMultiTriggerModal(dataObj) {
-      // dataObj = { images:[], videos:[], links:[], questions:[] }
       const modalBody = document.getElementById('multiTriggerModalBody');
       modalBody.innerHTML = '';
 
@@ -1196,7 +1209,7 @@
           modalBody.appendChild(img);
         });
       }
-      // عرض الفيديوهات (كمجرد رابط أو تضمين)
+      // عرض الفيديوهات
       if(dataObj.videos && dataObj.videos.length > 0){
         dataObj.videos.forEach(src => {
           const vid = document.createElement('video');
@@ -1219,7 +1232,6 @@
       }
       // الأسئلة
       if(dataObj.questions && dataObj.questions.length > 0){
-        // نعيد استخدام نفس دالة الأسئلة ولكن بشكل سريع
         fetchQuestionsAndAppendToMultiModal(dataObj.questions);
       }
 
@@ -1390,17 +1402,17 @@
       let modifiedContent = content
         // أولاً استبدال أي عنصر .video-container (المشغل المتقدم)
         .replace(/<div class="video-container"[^>]*>[\s\S]*?<\/div>/gi, function() {
-          return `<p>If you want to watch the video or the content, you must subscribe to the site (تجدون فورم و تفاصيل الاشتراك في الموقع مكتوبة بالانكليزي).<br>
+          return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
                   <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
         })
         // استبدال أي iframe
         .replace(/<iframe[^>]*>.*?<\/iframe>/gi, function() {
-          return `<p>If you want to watch the video or the content, you must subscribe to the site (تجدون فورم و تفاصيل الاشتراك في الموقع مكتوبة بالانكليزي).<br>
+          return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
                   <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
         })
         // وأخيرًا استبدال أي video
         .replace(/<video[^>]*>.*?<\/video>/gi, function() {
-          return `<p>If you want to watch the video or the content, you must subscribe to the site (تجدون فورم و تفاصيل الاشتراك في الموقع مكتوبة بالانكليزي).<br>
+          return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
                   <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
         });
 
