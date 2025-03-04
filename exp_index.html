@@ -234,7 +234,7 @@
       text-decoration: underline;
     }
     .iframe-trigger {
-      color: #20c997; /* تِركوازي */
+      color: #20c997; /* تركوازي */
       font-weight: bold;
       cursor: pointer;
       text-decoration: underline;
@@ -269,10 +269,7 @@
       background-color: #f2f2f2;
     }
 
-    /* 
-      العلامة المائية: نجعلها ثابتة في منتصف الإطار (وتصغر حجم الخط إلى 25px بدلاً من 30px)
-      تبقى ظاهرة عند التمرير دون الخروج عن الحاوية 
-    */
+    /* العلامة المائية: ثابتة في منتصف الإطار */
     #pageContent {
       position: relative;
       overflow: hidden; /* كي لا تخرج العلامة المائية عن الإطار */
@@ -284,14 +281,32 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%) rotate(-30deg);
-      font-size: 25px; /* تقليل الحجم قليلاً */
+      font-size: 25px; /* الحجم */
       color: rgba(0, 0, 0, 0.07);
       pointer-events: none;
       z-index: 5;
       text-align: center;
     }
 
-    /* Media queries */
+    /* إطار جميل للفيديو (إبقاء التصميم العام بسيط لكن جذاب) */
+    .default-video-container {
+      position: relative;
+      width: 800px;
+      max-width: 90%;
+      margin: 20px auto;
+      background-color: #000;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      border-radius: 8px;
+      overflow: hidden;
+      touch-action: none; /* لأجل التكبير والتحريك */
+    }
+    .default-video-container video {
+      width: 100%;
+      height: auto;
+      outline: none;
+      display: block;
+    }
+
     @media (max-width: 576px) {
       .header {
         padding: 100px 0;
@@ -309,43 +324,6 @@
       .row .col {
         margin-bottom: 10px;
       }
-    }
-  </style>
-
-  <!-- أنماط للفيديو الافتراضي + زر السرعة -->
-  <style>
-    /* إخفاء زر التنزيل عبر controlsList="nodownload" 
-       إخفاء التصميم المخصص سابقًا، الآن نستخدم التصميم الافتراضي للمتصفح */
-    .default-video-container {
-      position: relative;
-      width: 800px;
-      max-width: 90%;
-      margin: 10px 0;
-    }
-    .default-video-container video {
-      width: 100%;
-      height: auto;
-      /* منع التحميل */
-      outline: none;
-      touch-action: none; /* لأجل اللمس/السحب/التكبير */
-    }
-
-    /* زر السرعة البسيط */
-    .speed-control-btn {
-      position: absolute;
-      bottom: 10px;
-      left: 10px;
-      padding: 5px 10px;
-      font-size: 14px;
-      background: rgba(0,0,0,0.6);
-      color: #fff;
-      border: none;
-      cursor: pointer;
-      border-radius: 4px;
-      z-index: 10;
-    }
-    .speed-control-btn:hover {
-      background: rgba(0,0,0,0.8);
     }
   </style>
 
@@ -503,7 +481,7 @@
     /*==============================
       Global Variables
     ================================*/
-    let questionFiles = [];        // Will store question file paths from data/topics.json
+    let questionFiles = [];         // Will store question file paths from data/topics.json
     let allSearchableElements = []; // For content search results
     let globalTopicsData = null;    // For storing the full topics array from exp_topics.json
 
@@ -686,7 +664,7 @@
 
         scrollToTop();
 
-        // تهيئة الفيديوهات الافتراضية إن وُجدت في المحتوى (إضافة زر السرعة البسيط + منع التحميل + التحكم بالتكبير)
+        // تهيئة الفيديوهات الافتراضية إن وُجدت في المحتوى (نعطيها إطار جميل + منع التحميل + تكبير وتحريك باللمس)
         initDefaultVideos();
       } catch (error) {
         console.error('Error opening content file:', error);
@@ -696,62 +674,37 @@
 
     /*==============================
       تهيئة أي عنصر فيديو افتراضي في #result
-      - إضافة .default-video-container حوله
-      - منع التحميل عبر controlsList
-      - إضافة زر Speed
-      - إضافة تكبير وتحريك باللمس
+      - لفّ الفيديو بعنصر .default-video-container
+      - استخدام controlsList="nodownload" لحجب زر التنزيل
+      - إضافة ميزة التكبير والتحريك باللمس
     ================================*/
     function initDefaultVideos() {
       const videos = document.querySelectorAll('#result video');
       videos.forEach(video => {
-        // تجاهل أي فيديو داخل التريغرز (المودال)، لذلك نتأكد أنه داخل #result مباشرة
+        // إذا كان الفيديو ضمن المودال (trigger) سنتجاهله. نريد فقط الفيديو الظاهر بالمحتوى الأساسي
         if (!video.closest('#result')) return;
 
-        // التفاف الفيديو بعنصر container
+        // تغليف الفيديو بحاوية ذات مظهر جميل
         const container = document.createElement('div');
         container.classList.add('default-video-container');
 
-        // إعدادات الفيديو
+        // إعداد الفيديو لاستخدام المشغل الافتراضي بالكامل
         video.setAttribute('controls', '');
-        video.setAttribute('controlsList', 'nodownload'); // إخفاء زر التنزيل
-        video.setAttribute('playsinline', ''); // للسماح بالعرض في الأنظمة المحمولة بدون فتحه ملء الشاشة تلقائياً
-        // نبقي PiP متاحاً بالوضع الافتراضي (بدون disablePictureInPicture)
+        video.setAttribute('playsinline', '');
+        video.setAttribute('controlsList', 'nodownload'); // منع التحميل
+        // (سرعة التشغيل الافتراضية إن وفرها المتصفح تظهر من القوائم القياسية)
 
-        // إضافة الزر البسيط للتحكم بالسرعة
-        const speedBtn = document.createElement('button');
-        speedBtn.classList.add('speed-control-btn');
-        speedBtn.textContent = '1x';
-        let currentPlaybackRate = 1.0;
-
-        speedBtn.addEventListener('click', () => {
-          // التبديل بين سرعات محددة كمثال
-          // يمكنك تعديلها كما تريد (0.5 / 1 / 1.5 / 2)
-          if (currentPlaybackRate === 1) {
-            currentPlaybackRate = 1.5;
-          } else if (currentPlaybackRate === 1.5) {
-            currentPlaybackRate = 2;
-          } else if (currentPlaybackRate === 2) {
-            currentPlaybackRate = 0.5;
-          } else {
-            currentPlaybackRate = 1;
-          }
-          video.playbackRate = currentPlaybackRate;
-          speedBtn.textContent = `${currentPlaybackRate}x`;
-        });
-
-        // نقل الفيديو داخل الـ container
+        // انقل الفيديو داخل الحاوية
         video.parentNode.insertBefore(container, video);
         container.appendChild(video);
-        container.appendChild(speedBtn);
 
-        // تمكين التكبير/التصغير والتحريك باللمس (اختياري)
+        // تمكين التكبير والتحريك باللمس
         initPinchZoomAndPan(container, video);
       });
     }
 
     /*==============================
-      وظيفة بسيطة لتمكين التكبير (Pinch Zoom) والتحريك (Pan) باللمس
-      حول عنصر الفيديو. بدون أي تصميم مخصص.
+      وظيفة بسيطة لتمكين التكبير (Pinch Zoom) والتحريك (Pan) باللمس حول الفيديو
     ================================*/
     function initPinchZoomAndPan(container, video) {
       let currentScale = 1;
@@ -777,7 +730,7 @@
         if (e.touches.length === 2 && initialDistance !== null) {
           const newDistance = getDistance(e.touches[0], e.touches[1]);
           let newScale = initialScale * (newDistance / initialDistance);
-          newScale = Math.min(Math.max(newScale, 1), 3); // حدود التقريب
+          newScale = Math.min(Math.max(newScale, 1), 3); // حدود التكبير بين 1 و 3
           currentScale = newScale;
           constrainTranslation();
           updateTransform();
@@ -1147,42 +1100,24 @@
 
     /*==============================
       Download PDF Functionality
-      - استبدال أي فيديو أو iframe في المحتوى الرئيسي
-        بصورة + نص الاشتراك
-      - منع تكرار الصورة أكثر من مرة.
+      - استبدال كل <video> أو <iframe> يظهر في المحتوى الأساسي
+        بصورة + نص الاشتراك لكل فيديو/ iframe (لا بأس بالتكرار)
     ================================*/
     function downloadPdf() {
       const contentTitle = document.getElementById('contentTitle').textContent;
       let content = document.getElementById('result').innerHTML;
 
-      // سنستعمل فلاغ كي لا نكرر الصورة أكثر من مرة
-      let replacedImageOnce = false;
-      const replaceVideoOrIframe = () => {
-        if (!replacedImageOnce) {
-          replacedImageOnce = true;
-          return `
+      // دالة تعيد الصورة + النص في كل مرة
+      const replacedBlock = `
 <p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).</p>
 <p><img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/result.png" alt="Subscribe Image" style="max-width:200px;"/></p>
 `;
-        } else {
-          return `
-<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).</p>
-`;
-        }
-      };
 
-      // استبدال أي video خارج السياق التريغرز
-      let modifiedContent = content
-        // استبدال أي <video>...</video>
-        .replace(/<video[^>]*>[\s\S]*?<\/video>/gi, function(match) {
-          // لو كان داخل عنصر يحمل .video-trigger أو داخل multi-trigger، لا نبدّله (يفترض أنه في المودال)
-          // لكننا سنبسط الأمور ونستبدل كل فيديو ظاهر في النتيجة الأساسية:
-          return replaceVideoOrIframe();
-        })
-        // استبدال أي <iframe>...</iframe>
-        .replace(/<iframe[^>]*>[\s\S]*?<\/iframe>/gi, function(match) {
-          return replaceVideoOrIframe();
-        });
+      // استبدال أي <video>...</video>
+      let modifiedContent = content.replace(/<video[^>]*>[\s\S]*?<\/video>/gi, replacedBlock);
+
+      // استبدال أي <iframe>...</iframe>
+      modifiedContent = modifiedContent.replace(/<iframe[^>]*>[\s\S]*?<\/iframe>/gi, replacedBlock);
 
       const printWindow = window.open('about:blank', '_blank');
       printWindow.document.write(`
