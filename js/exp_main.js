@@ -140,17 +140,14 @@ async function fetchDataAndDisplay(dataFileName) {
 }
 
 /**
- * Download PDF function (مع التعديلات الجديدة)
- * - يفتح نافذة about:blank بدون حواف.
- * - يستبدل الفيديوهات بنصّ إنكليزي يشير إلى ضرورة الاشتراك + QR Code.
- * - إضافة طبقة خلفيّة (Watermark) فيها "SUMS site" ورابط الموقع.
- * - دعم MathJax لإظهار المعادلات الرياضية.
+ * Download PDF function (مع التعديلات المطلوبة كي يشمل الفيديوهات أيضاً، 
+ * ويُظهر نفس ألوان الجداول، وعلامة مائية في المركز).
  */
 function downloadPdf() {
   // Get the content from the contentArea
   let content = contentArea.innerHTML;
 
-  // استبدال الـ iframe والـ video
+  // استبدال الـ iframe والـ video بنفس نصّ الاشتراك و QR Code
   let modifiedContent = content
     .replace(/<iframe[^>]*>.*?<\/iframe>/gi, function() {
       return `<p>If you want to watch the video or the content, you must subscribe to the site.<br>
@@ -169,7 +166,7 @@ function downloadPdf() {
         <meta charset="UTF-8">
         <title>Download PDF</title>
         <style>
-          @page { margin: 0; }
+          @page { size: auto; margin: 0; }
           body {
             margin: 0; 
             padding: 0;
@@ -177,18 +174,19 @@ function downloadPdf() {
             background: #fff; 
             color: #2c3e50;
           }
-          /* طبقة خلفية خفيفة كعلامة مائية */
+          /* العلامة المائية في المنتصف مائلة */
           body::before {
-            content: "SUMS site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
+            content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
             white-space: pre;
             position: fixed;
-            top: 30%;
-            left: 10%;
-            transform: rotate(-30deg);
-            font-size: 60px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-30deg);
+            font-size: 50px;
             color: rgba(0, 0, 0, 0.07);
             pointer-events: none;
             z-index: 0;
+            text-align: center;
           }
           #content {
             position: relative;
@@ -208,9 +206,12 @@ function downloadPdf() {
             padding: 10px;
             text-align: left;
           }
+          table thead {
+            background-color: #f2f2f2;
+          }
           h1, h2, h3, h4, h5, h6,
           p, li, td, th, pre, code {
-            color: inherit;
+            color: #2c3e50;
           }
           /* دعم الرياضيات */
           .mjx-container {
