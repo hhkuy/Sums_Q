@@ -140,31 +140,13 @@ async function fetchDataAndDisplay(dataFileName) {
 }
 
 /**
- * Download PDF function
- * (نفس الفكرة في exp_index.html يتم النداء لهناك ولكننا نبقيه لانسجام الكود.
- *  لا تغيير على المنطق هنا، لأن المستخدم يستعمل الكود من exp_index.html.)
+ * Download PDF function (هنا فارغ لأننا نستعمل الدالة في exp_index.html)
  */
 function downloadPdf() {
-  // مجرد فراغ أو يمكننا إبقائه فارغاً هنا. 
-  // لأن الدالة الفعلية التي يناديها المستخدم هي المعرّفة في exp_index.html
-  // حفاظاً على نفس البنية.
+  // لا شيء هنا.
 }
 
 /**
  * Start the initialization process
  */
-function init() {
-  // هنا اسم الدالة الرئيسية، لكنك سبق وكتبتها بالأعلى. نبقي محتوى نفس المنطق:
-  (async () => {
-    try {
-      const response = await fetch(TOPICS_JSON_PATH);
-      topicsData = await response.json();
-      createDropdown(topicsData.topics, null, 0);
-    } catch (error) {
-      console.error('Error fetching or reading exp_topics.json:', error);
-    }
-  })();
-}
-
-// استدعاء init()
 init();
