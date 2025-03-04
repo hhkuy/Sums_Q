@@ -140,19 +140,27 @@ async function fetchDataAndDisplay(dataFileName) {
 }
 
 /**
- * Download PDF function:
- * - Opens a new about:blank window (A4, 20mm margin).
- * - Replicates the content's styling (colors, table borders, etc.) while removing outer borders.
- * - Replaces iframes with QR codes for the video links.
+ * Download PDF function (مع التعديلات الجديدة)
+ * - يفتح نافذة about:blank بدون حواف.
+ * - يستبدل الفيديوهات بنصّ إنكليزي يشير إلى ضرورة الاشتراك + QR Code.
+ * - إضافة طبقة خلفيّة (Watermark) فيها "SUMS site" ورابط الموقع.
+ * - دعم MathJax لإظهار المعادلات الرياضية.
  */
 function downloadPdf() {
   // Get the content from the contentArea
   let content = contentArea.innerHTML;
-  // Replace any iframe video embed with a QR code image
-  let modifiedContent = content.replace(/<iframe[^>]*src="([^"]+)"[^>]*><\/iframe>/g, function(_, src) {
-    const qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent(src);
-    return `<img src="${qrUrl}" alt="QR Code for video link">`;
-  });
+
+  // استبدال الـ iframe والـ video
+  let modifiedContent = content
+    .replace(/<iframe[^>]*>.*?<\/iframe>/gi, function() {
+      return `<p>If you want to watch the video or the content, you must subscribe to the site.<br>
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
+    })
+    .replace(/<video[^>]*>.*?<\/video>/gi, function() {
+      return `<p>If you want to watch the video or the content, you must subscribe to the site.<br>
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
+    });
+
   // Open a new window (about:blank)
   const printWindow = window.open('about:blank', '_blank');
   printWindow.document.write(
@@ -161,28 +169,52 @@ function downloadPdf() {
         <meta charset="UTF-8">
         <title>Download PDF</title>
         <style>
-          @page { size: A4; margin: 20mm; }
+          @page { margin: 0; }
           body {
-            font-family: 'Cairo', sans-serif; margin: 0; padding: 0;
-            background: #fff; color: #2c3e50;
+            margin: 0; 
+            padding: 0;
+            font-family: 'Cairo', sans-serif; 
+            background: #fff; 
+            color: #2c3e50;
           }
-          /* replicate content styles with table borders */
+          /* طبقة خلفية خفيفة كعلامة مائية */
+          body::before {
+            content: "SUMS site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
+            white-space: pre;
+            position: fixed;
+            top: 30%;
+            left: 10%;
+            transform: rotate(-30deg);
+            font-size: 60px;
+            color: rgba(0, 0, 0, 0.07);
+            pointer-events: none;
+            z-index: 0;
+          }
           #content {
-            margin: 20px; background-color: #fff; padding: 20px; border: none; font-size: 14px;
+            position: relative;
+            z-index: 1;
+            margin: 20px; 
+            padding: 20px; 
+            font-size: 14px;
+            border: none;
           }
-          #content h1, #content h2, #content h3, #content h4, #content h5, #content h6,
-          #content p, #content li, #content td, #content th, #content pre, #content code {
-            color: inherit;
-          }
-          #content table {
+          table {
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
           }
-          #content table th, #content table td {
+          table th, table td {
             border: 1px solid #ccc;
             padding: 10px;
             text-align: left;
+          }
+          h1, h2, h3, h4, h5, h6,
+          p, li, td, th, pre, code {
+            color: inherit;
+          }
+          /* دعم الرياضيات */
+          .mjx-container {
+            zoom: 1.2;
           }
         </style>
       </head>
@@ -190,6 +222,18 @@ function downloadPdf() {
         <div id="content">
           ${modifiedContent}
         </div>
+        <!-- إضافة MathJax لعرض المعادلات -->
+        <script>
+          window.MathJax = {
+            tex: {
+              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']]
+            },
+            svg: {
+              fontCache: 'global'
+            }
+          };
+        <\/script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"><\/script>
         <script>
           window.onload = function() {
             window.focus();
