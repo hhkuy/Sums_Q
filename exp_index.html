@@ -1443,13 +1443,13 @@
   const contentTitle = document.getElementById('contentTitle').textContent;
   let content = document.getElementById('result').innerHTML;
 
-  // إخفاء جميع الأزرار وعناصر التحكم في المحتوى
+  // إزالة جميع الأزرار وعناصر التحكم
   content = content
-    .replace(/<button[^>]*>.*?<\/button>/gi, '') // إزالة جميع الأزرار
-    .replace(/<div class="custom-controls[^>]*>.*?<\/div>/gi, '') // إزالة عناصر التحكم
-    .replace(/<div id="floatingButtons[^>]*>.*?<\/div>/gi, ''); // إزالة الأزرار العائمة
+    .replace(/<button[^>]*>.*?<\/button>/gi, '')
+    .replace(/<div class="custom-controls[^>]*>.*?<\/div>/gi, '')
+    .replace(/<div id="floatingButtons[^>]*>.*?<\/div>/gi, '');
 
-  // استبدال الفيديو/iframe بــ QR code (مرة واحدة)
+  // استبدال الفيديو/iframe وعناصر الوقت برسالة الاشتراك
   const subscriptionMsg = `
     <p style="text-align:center;">
       If you want to watch the video or the content, you must subscribe to the site.<br>
@@ -1459,11 +1459,11 @@
     </p>
   `;
 
-  // استبدال أول ظهور للفيديو أو iframe بالرسالة وQR code
+  // استبدال جميع عناصر الفيديو/iframe والوقت
   content = content
-    .replace(/(<video[\s\S]*?<\/video>|<iframe[\s\S]*?<\/iframe>)/i, subscriptionMsg);
+    .replace(/(<video[\s\S]*?<\/video>|<iframe[\s\S]*?<\/iframe>|<div class="time-display[^>]*>.*?<\/div>)/gi, subscriptionMsg);
 
-  // إنشاء نافذة الطباعة مع إخفاء العناصر غير المرغوبة
+  // إنشاء نافذة الطباعة
   const printWindow = window.open('about:blank', '_blank');
   printWindow.document.write(`
     <html>
@@ -1471,11 +1471,15 @@
         <meta charset="UTF-8">
         <title>Download PDF</title>
         <style>
-          /* إخفاء جميع الأزرار وعناصر التحكم */
-          button, .custom-controls, #floatingButtons {
-            display: none !important;
+          @media print {
+            /* إخفاء العناصر المتبقية */
+            * {
+              display: none !important;
+            }
+            #content, #content * {
+              display: block !important;
+            }
           }
-          /* العلامة المائية */
           body::before {
             content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
             white-space: pre;
@@ -1493,7 +1497,6 @@
             position: relative;
             z-index: 1;
           }
-         
         </style>
       </head>
       <body>
