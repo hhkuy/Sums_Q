@@ -467,6 +467,18 @@
     }
   </style>
 
+  <!-- ضع هذا الكود مثلاً في نهاية الوسم <head> أو ضمن ملف CSS خارجي -->
+<style>
+  /* إخفاء عناصر التحكم بالكامل داخل #videoContainer */
+  #videoContainer #customControls,
+  #videoContainer #playPauseOverlay {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+  }
+</style>
+
+
   <!-- إضافة دعم MathJax لعرض الرموز والمعادلات الرياضية بشكل صحيح -->
   <script>
     window.MathJax = {
