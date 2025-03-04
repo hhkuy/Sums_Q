@@ -1443,30 +1443,31 @@
   const contentTitle = document.getElementById('contentTitle').textContent;
   let content = document.getElementById('result').innerHTML;
 
-  // 1. إزالة جميع العناصر غير المرغوبة (الأزرار، التحكم، الوقت، إلخ)
+  // 1. إزالة العناصر غير المرغوبة فقط (الأزرار، التحكم، الوقت)
   content = content
     .replace(/<button[^>]*>.*?<\/button>/gi, '') // إزالة الأزرار
-    .replace(/<div class="(custom-controls|time-display|progress-container|video-container|video-wrapper)[^>]*>.*?<\/div>/gi, '') // إزالة الحاويات
-    .replace(/<div id="(floatingButtons|videoPlayer|bufferedBar|progressBar)[^>]*>.*?<\/div>/gi, '') // إزالة عناصر الفيديو
-    .replace(/<input[^>]*>.*?<\/input>/gi, '') // إزالة مدخلات التحكم
-    .replace(/<svg[^>]*>.*?<\/svg>/gi, ''); // إزالة أي أيقونات SVG
+    .replace(/<div class="(custom-controls|time-display|progress-container)[^>]*>.*?<\/div>/gi, '') // إزالة التحكم
+    .replace(/<div id="(floatingButtons|videoPlayer|bufferedBar|progressBar)[^>]*>.*?<\/div>/gi, ''); // إزالة عناصر الفيديو
 
-  // 2. استبدال الفيديو/iframe برسالة الاشتراك
+  // 2. استبدال الفيديو/iframe برسالة الاشتراك (بدون حذف باقي المحتوى)
   const subscriptionMsg = `
-    <p style="text-align:center;">
-      If you want to watch the video or the content, you must subscribe to the site.<br>
-      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" 
-           alt="QR Code" 
-           style="display:block; margin:10px auto;">
-    </p>
+    <div class="subscription-message">
+      <p style="text-align:center; color: #2c3e50; font-size: 16px;">
+        If you want to watch the video or the content, you must subscribe to the site.<br>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" 
+             alt="QR Code" 
+             style="display:block; margin:10px auto; width: 150px; height: 150px;">
+      </p>
+    </div>
   `;
 
+  // استبدال أول فيديو أو iframe فقط بالرسالة
   content = content.replace(
-    /(<video[\s\S]*?<\/video>|<iframe[\s\S]*?<\/iframe>)/gi, 
+    /(<video[\s\S]*?<\/video>|<iframe[\s\S]*?<\/iframe>)/i, 
     subscriptionMsg
   );
 
-  // 3. إنشاء نافذة الطباعة مع إخفاء العناصر المتبقية
+  // 3. إنشاء نافذة الطباعة مع التأكد من ظهور الرسالة
   const printWindow = window.open('about:blank', '_blank');
   printWindow.document.write(`
     <html>
@@ -1474,11 +1475,16 @@
         <meta charset="UTF-8">
         <title>Download PDF</title>
         <style>
-          /* إخفاء جميع العناصر غير المرغوبة */
+          /* إخفاء العناصر غير المرغوبة */
           button, .custom-controls, #floatingButtons,
-          .time-display, .progress-container, .video-container,
-          input, svg, #videoPlayer, #bufferedBar, #progressBar {
+          .time-display, .progress-container, #videoPlayer {
             display: none !important;
+          }
+
+          /* إظهار رسالة الاشتراك وQR Code */
+          .subscription-message {
+            display: block !important;
+            margin: 20px 0;
           }
 
           /* العلامة المائية */
@@ -1496,7 +1502,7 @@
             text-align: center;
           }
 
-          /* إظهار المحتوى الرئيسي */
+          /* المحتوى الرئيسي */
           #content {
             position: relative;
             z-index: 1;
