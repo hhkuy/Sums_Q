@@ -22,8 +22,9 @@ async function init() {
     topicsData = await response.json();
 
     // 2. Create the first dropdown (main topics) if available
-    createDropdown(topicsData.topics, null, 0);
-    // لا تغيير على منطق البحث هنا
+    if (topicsData.topics) {
+      createDropdown(topicsData.topics, null, 0);
+    }
   } catch (error) {
     console.error('Error fetching or reading exp_topics.json:', error);
   }
@@ -36,25 +37,30 @@ async function init() {
  * @param {number} level - The level of nesting (0 = main, 1 = sub, etc.).
  */
 function createDropdown(subtopicsArray, parentSelect, level) {
+  // Create a new select element
   const select = document.createElement('select');
-  select.dataset.level = level;
+  select.dataset.level = level; // Save the level in the dataset
 
+  // Create default option
   const defaultOption = document.createElement('option');
   defaultOption.value = '';
   defaultOption.textContent = '-- Select --';
   select.appendChild(defaultOption);
 
+  // Add options from the given array
   subtopicsArray.forEach((topicObj, index) => {
     const option = document.createElement('option');
-    option.value = index;
+    option.value = index; // Store the index as the option value
     option.textContent = topicObj.title;
     select.appendChild(option);
   });
 
+  // Add change event to this select
   select.addEventListener('change', () => {
     handleSelectionChange(select, subtopicsArray);
   });
 
+  // If no parent dropdown exists, append directly; otherwise, remove all dropdowns of higher level and append
   if (!parentSelect) {
     dropdownsContainer.appendChild(select);
   } else {
@@ -65,27 +71,40 @@ function createDropdown(subtopicsArray, parentSelect, level) {
 
 /**
  * Handle selection change in a dropdown.
+ * 1. If the selected topic has subtopics, create a new dropdown.
+ * 2. If it has a dataFile (final topic), fetch and display its content.
+ * @param {HTMLSelectElement} currentSelect 
+ * @param {Array} subtopicsArray 
  */
 function handleSelectionChange(currentSelect, subtopicsArray) {
   const selectedIndex = currentSelect.value;
+  // Clear the content area as selection may change
   contentArea.innerHTML = '';
 
+  // If nothing is selected, remove all dropdowns that are deeper than the current level
   if (selectedIndex === '') {
     removeDropdownsAfterLevel(currentSelect.dataset.level);
     return;
   }
 
+  // Get the chosen topic object
   const chosenTopic = subtopicsArray[parseInt(selectedIndex)];
-
+  
+  // If the chosen topic has subtopics, create a new dropdown for them
   if (chosenTopic.subtopics && chosenTopic.subtopics.length > 0) {
     createDropdown(chosenTopic.subtopics, currentSelect, parseInt(currentSelect.dataset.level) + 1);
   } else {
+    // If no subtopics exist, but a dataFile is provided, fetch and display its content
     if (chosenTopic.dataFile) {
       fetchDataAndDisplay(chosenTopic.dataFile);
     }
   }
 }
 
+/**
+ * Remove all dropdowns that are at a deeper level than the provided level.
+ * @param {number} level 
+ */
 function removeDropdownsAfterLevel(level) {
   const allSelects = dropdownsContainer.querySelectorAll('select');
   allSelects.forEach(sel => {
@@ -97,6 +116,7 @@ function removeDropdownsAfterLevel(level) {
 
 /**
  * Fetch a JSON file from the exp_data folder and display its content.
+ * @param {string} dataFileName 
  */
 async function fetchDataAndDisplay(dataFileName) {
   try {
@@ -105,12 +125,13 @@ async function fetchDataAndDisplay(dataFileName) {
       throw new Error(`Error fetching file: ${dataFileName}`);
     }
     const data = await response.json();
+    // Assume the JSON contains a 'content' field with HTML
     if (data.content) {
       contentArea.innerHTML = data.content;
     } else {
       contentArea.innerHTML = '<p>No content available.</p>';
     }
-    // init video if found
+    // بعد تحميل المحتوى، إذا وُجد فيديو داخل المحتوى، يتم تهيئة مشغل الفيديو المتقدم
     if (typeof initAdvancedVideoPlayers === 'function') {
       initAdvancedVideoPlayers();
     }
@@ -119,6 +140,135 @@ async function fetchDataAndDisplay(dataFileName) {
   }
 }
 
-// لا نضع أي منطق إضافي هنا حول downloadPdf؛ لأننا نستعمله في exp_index.html
+/**
+ * Download PDF function
+ * استبدال أي فيديو أو iframe أو مشغل متقدم بالرسالة + الصورة
+ */
+function downloadPdf() {
+  // Get the content from the contentArea
+  let content = contentArea.innerHTML;
 
+  // استبدال الفيديوهات والإطارات بعنصر يحوي رسالة الاشتراك والصورة
+  let modifiedContent = content
+    // استبدال .video-container
+    .replace(/<div class="video-container"[^>]*>[\s\S]*?<\/div>/gi, function() {
+      return `
+<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).<br>
+<img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/March5-121558AM.png" alt="Subscribe Image" style="max-width: 200px;">
+</p>`;
+    })
+    // استبدال #videoContainer
+    .replace(/<div id="videoContainer"[^>]*>[\s\S]*?<\/div>/gi, function() {
+      return `
+<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).<br>
+<img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/March5-121558AM.png" alt="Subscribe Image" style="max-width: 200px;">
+</p>`;
+    })
+    // استبدال أي iframe
+    .replace(/<iframe[^>]*>.*?<\/iframe>/gi, function() {
+      return `
+<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).<br>
+<img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/March5-121558AM.png" alt="Subscribe Image" style="max-width: 200px;">
+</p>`;
+    })
+    // استبدال أي video
+    .replace(/<video[^>]*>.*?<\/video>/gi, function() {
+      return `
+<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).<br>
+<img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/March5-121558AM.png" alt="Subscribe Image" style="max-width: 200px;">
+</p>`;
+    });
+
+  // Open a new window (about:blank)
+  const printWindow = window.open('about:blank', '_blank');
+  printWindow.document.write(
+    `<html>
+      <head>
+        <meta charset="UTF-8">
+        <title>Download PDF</title>
+        <style>
+          @page { size: auto; margin: 0; }
+          body {
+            margin: 0; 
+            padding: 0;
+            font-family: 'Montserrat', sans-serif; 
+            background-color: #fafafa; 
+            color: #2c3e50;
+          }
+          /* العلامة المائية بحجم أصغر */
+          body::before {
+            content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
+            white-space: pre;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-30deg);
+            font-size: 20px;
+            color: rgba(0, 0, 0, 0.07);
+            pointer-events: none;
+            z-index: 0;
+            text-align: center;
+          }
+          #content {
+            position: relative;
+            z-index: 1;
+            margin: 20px; 
+            padding: 20px; 
+            font-size: 14px;
+            border: none;
+          }
+          table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+          }
+          table th, table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+          }
+          table thead {
+            background-color: #f2f2f2;
+          }
+          h1, h2, h3, h4, h5, h6,
+          p, li, td, th, pre, code, span {
+            color: #2c3e50;
+          }
+          /* دعم الرياضيات */
+          .mjx-container {
+            zoom: 1.2;
+          }
+        </style>
+      </head>
+      <body>
+        <div id="content">
+          ${modifiedContent}
+        </div>
+        <!-- إضافة MathJax لعرض المعادلات -->
+        <script>
+          window.MathJax = {
+            tex: {
+              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']]
+            },
+            svg: {
+              fontCache: 'global'
+            }
+          };
+        <\/script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"><\/script>
+        <script>
+          window.onload = function() {
+            window.focus();
+            window.print();
+          };
+        <\/script>
+      </body>
+    </html>`
+  );
+  printWindow.document.close();
+}
+
+/**
+ * Start the initialization process
+ */
 init();
