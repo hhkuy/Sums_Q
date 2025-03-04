@@ -120,9 +120,15 @@ async function fetchDataAndDisplay(dataFileName) {
 function downloadPdf() {
   let content = contentArea.innerHTML;
   let replaced = false;
-  const subscriptionBlock = `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).<br>
-<img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/March5-121558AM.png" alt="Subscription Required"/></p>`;
-  
+
+  // === نفس التعديل البسيط: استبدال الصورة وجعلها أصغر ===
+  const subscriptionBlock = `
+<div style="text-align:center;">
+  <p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).</p>
+  <img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/result.png" alt="Subscription Required"
+       style="max-width: 400px; display:block; margin: 0 auto;" />
+</div>`;
+
   let modifiedContent = content
     .replace(/<div class="video-container"[^>]*>[\s\S]*?<\/div>/gi, function() {
       if (!replaced) {
@@ -174,7 +180,7 @@ function downloadPdf() {
           }
           /* العلامة المائية بحجم أصغر */
           body::before {
-            content: "SUMS Site\nhttps://sites.google.com/view/medsums/sums-questions-bank-sqb";
+            content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
             white-space: pre;
             position: fixed;
             top: 50%;
