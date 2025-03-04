@@ -1169,12 +1169,9 @@
 
     /*==============================
       Download PDF Functionality
-      (تمت إضافة التعديلات كي:
-       1. يشمل <video> إضافةً لـ <iframe>
-       2. ألوان الجداول والخط مثل الأصل
-       3. العلامة المائية في الوسط مائلة بالكامل
-       4. تضمين كل شيء في الطباعة
-      )
+      (يحويل <video> + <iframe> إلى نص الاشتراك وQR,
+       يحافظ على ألوان الصفحة الأصلية,
+       يضع العلامة المائية في المنتصف بشكل مائل)
     ================================*/
     function downloadPdf() {
       const contentTitle = document.getElementById('contentTitle').textContent;
@@ -1202,10 +1199,10 @@
                 margin: 0; 
                 padding: 0;
                 font-family: 'Montserrat', sans-serif; 
-                background: #fff; 
+                background-color: #fafafa; 
                 color: #2c3e50;
               }
-              /* العلامة المائية في الوسط وبشكل مائل */
+              /* العلامة المائية في المنتصف وبشكل مائل */
               body::before {
                 content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
                 white-space: pre;
@@ -1246,12 +1243,12 @@
               table thead {
                 background-color: #f2f2f2;
               }
-              p, li, td, th, code, pre {
-                color: #2c3e50;
+              p, li, td, th, code, pre, span {
+                color: #2c3e50 !important;
               }
               /* دعم الرياضيات */
               .mjx-container {
-                zoom: 1.2; /* تكبير رمزي لكي تظهر أوضح */
+                zoom: 1.2;
               }
             </style>
           </head>
