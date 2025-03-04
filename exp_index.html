@@ -202,7 +202,7 @@
       box-shadow: 0 5px 15px rgba(0,123,255,0.2);
     }
 
-    /* ألوان خاصة للتريغرز بأنواعها: أسئلة/صور/فيديو/رابط/متعدّد/iframe */
+    /* ألوان خاصة للتريغرز بأنواعها: أسئلة/صور/فيديو/رابط/متعدّد + (جديد) iframe */
     .question-trigger {
       color: #ff8c00; /* برتقالي */
       font-weight: bold;
@@ -234,7 +234,7 @@
       text-decoration: underline;
     }
     .iframe-trigger {
-      color: #6c757d; /* رمادي */
+      color: #ff00ff; /* مثلا زهري فاتح */
       font-weight: bold;
       cursor: pointer;
       text-decoration: underline;
@@ -263,9 +263,9 @@
       background-color: #f2f2f2;
     }
 
-    /*
-      العلامة المائية ثابتة في وسط الشاشة أثناء التمرير:
-      نستخدم position: fixed كي لا تتحرك مع المحتوى.
+    /* 
+      العلامة المائية: نجعلها ثابتة في منتصف الصفحة ، 
+      وتبقى ظاهرة عند التمرير 
     */
     #pageContent {
       position: relative;
@@ -273,14 +273,14 @@
     #pageContent::before {
       content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
       white-space: pre;
-      position: fixed; /* تبقى ثابتة عند التمرير */
+      position: fixed; 
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%) rotate(-30deg);
-      font-size: 25px;
+      font-size: 25px; /* تقليل الحجم قليلاً */
       color: rgba(0, 0, 0, 0.07);
       pointer-events: none;
-      z-index: 9998;
+      z-index: 5;
       text-align: center;
     }
 
@@ -307,9 +307,6 @@
   
   <!-- أنماط مشغل الفيديو المتقدم -->
   <style>
-    body {
-      /* لن تتعارض هذه الأنماط مع الأنماط العامة للموقع */
-    }
     /* أنماط مشغل الفيديو المتقدم */
     #videoContainer {
       position: relative;
@@ -600,7 +597,7 @@
     </div>
   </div>
 
-  <!-- نافذة منبثقة لعرض الصور أو الفيديو أو الروابط (المزايا الجديدة) -->
+  <!-- نافذة منبثقة لعرض الصور أو الفيديو أو الروابط أو iframe (المزايا الجديدة) -->
   <div class="modal fade" id="multiTriggerModal" tabindex="-1" aria-labelledby="multiTriggerModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -609,7 +606,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body" id="multiTriggerModalBody">
-          <!-- سيتم تعبئة هذه المساحة بمحتوى الصور أو الفيديو أو الروابط وغيرها -->
+          <!-- سيتم تعبئة هذه المساحة بمحتوى الصور أو الفيديو أو الروابط أو iframe وغيرها -->
         </div>
       </div>
     </div>
@@ -669,8 +666,12 @@
   
   <!-- الأكواد الخاصة بالتعامل مع مشغل الفيديو المتقدم -->
   <script>
-    // دالة لاستبدال أي عنصر يحتوي على فيديو داخل .video-container بنموذج مشغل الفيديو المتقدم
+    // دالة لتحويل أي <video> أو تعبئة أي عنصر .video-container إلى نموذج المشغل المتقدم
+    // كذلك إضافة إمكانية التعامل مع iframeTriggers لعرض iframe في مودال (أو أي تنسيق آخر)
     function initAdvancedVideoPlayers() {
+      //-----------------------------------------
+      // 1) تحويل أي عنصر .video-container قديم إلى مشغل الفيديو المتقدم
+      //-----------------------------------------
       const containers = document.querySelectorAll('.video-container');
       containers.forEach(container => {
         const originalVideo = container.querySelector('video');
@@ -687,6 +688,34 @@
           // تهيئة أحداث مشغل الفيديو داخل هذا العنصر
           initAdvancedVideoPlayerEvents(container);
         }
+      });
+
+      //-----------------------------------------
+      // 2) تحويل أي <video> منفرد في المحتوى (#result) إلى مشغل الفيديو المتقدم
+      //    إن لم يكن بالفعل داخل .video-container
+      //-----------------------------------------
+      const standaloneVideos = document.querySelectorAll('#result video:not(.processed)');
+      standaloneVideos.forEach(originalVideo => {
+        // أنشئ حاوية .video-container
+        const container = document.createElement('div');
+        container.classList.add('video-container');
+        // انسخ مصدر الفيديو
+        const videoSrc = originalVideo.getAttribute('src');
+        // استخدم قالب المشغل
+        const template = document.getElementById('advancedVideoTemplate');
+        const clone = template.content.cloneNode(true);
+        const videoElem = clone.querySelector('#videoPlayer');
+        const sourceElem = videoElem.querySelector('source');
+        sourceElem.setAttribute('src', videoSrc);
+        videoElem.removeAttribute('controls');
+
+        // استبدل العنصر الأصلي
+        originalVideo.replaceWith(container);
+        // وضع النسخة بالمكان المطلوب
+        container.appendChild(clone);
+
+        // تهيئة أحداث المشغل
+        initAdvancedVideoPlayerEvents(container);
       });
     }
     
@@ -720,7 +749,11 @@
       video.removeAttribute('controls');
       
       function togglePlayPause() {
-        video[video.paused ? 'play' : 'pause']();
+        if (video.paused) {
+          video.play();
+        } else {
+          video.pause();
+        }
       }
       
       function updatePlayPauseIcon() {
@@ -770,7 +803,7 @@
       
       speedBtn.addEventListener('click', (e) => {
         e.stopPropagation();
-        speedOptions.style.display = speedOptions.style.display === 'flex' ? 'none' : 'flex';
+        speedOptions.style.display = (speedOptions.style.display === 'flex') ? 'none' : 'flex';
       });
       
       document.addEventListener('click', (e) => {
@@ -780,10 +813,10 @@
       });
       
       speedOptions.querySelectorAll('button').forEach(btn => {
-        btn.addEventListener('click', (e) => {
+        btn.addEventListener('click', () => {
           const speed = parseFloat(btn.dataset.speed);
           video.playbackRate = speed;
-          speedBtn.textContent = `${speed}x`;
+          speedBtn.textContent = speed + 'x';
         });
       });
       
@@ -807,16 +840,16 @@
       
       function updateProgress() {
         const playedPercent = (video.currentTime / video.duration) * 100;
-        progressBar.style.width = `${playedPercent}%`;
-        dragHandle.style.left = `${playedPercent}%`;
-        timeDisplay.textContent = `${formatTime(video.currentTime)} / ${formatTime(video.duration)}`;
+        progressBar.style.width = playedPercent + '%';
+        dragHandle.style.left = playedPercent + '%';
+        timeDisplay.textContent = formatTime(video.currentTime) + ' / ' + formatTime(video.duration);
         
         if (video.buffered.length) {
           const bufferedEnd = video.buffered.end(video.buffered.length - 1);
           const bufferedPercent = (bufferedEnd / video.duration) * 100;
           if(bufferedPercent > playedPercent){
-            bufferedBar.style.left = `${playedPercent}%`;
-            bufferedBar.style.width = `${bufferedPercent - playedPercent}%`;
+            bufferedBar.style.left = playedPercent + '%';
+            bufferedBar.style.width = (bufferedPercent - playedPercent) + '%';
           } else {
             bufferedBar.style.width = '0%';
           }
@@ -824,9 +857,10 @@
       }
       
       function formatTime(seconds) {
+        if (!seconds || isNaN(seconds)) return '00:00';
         const minutes = Math.floor(seconds / 60);
         const secs = Math.floor(seconds % 60);
-        return `${String(minutes).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        return String(minutes).padStart(2, '0') + ':' + String(secs).padStart(2, '0');
       }
       
       video.addEventListener('timeupdate', updateProgress);
@@ -866,6 +900,7 @@
         document.removeEventListener('touchend', stopDrag);
       }
       
+      // دعم اللمس للتكبير/التصغير والتحريك
       videoWrapper.addEventListener('touchstart', handleTouchStart, { passive: false });
       videoWrapper.addEventListener('touchmove', handleTouchMove, { passive: false });
       videoWrapper.addEventListener('touchend', handleTouchEnd);
@@ -930,7 +965,7 @@
       }
     }
   </script>
-  
+
   <!-- باقي الأكواد الخاصة بالبحث، التصفح، تنزيل PDF، وغيرها من وظائف الموقع -->
   <script>
     /*==============================
@@ -1119,7 +1154,7 @@
         document.getElementById('floatingButtons').style.display = 'flex';
 
         scrollToTop();
-        // تهيئة مشغل الفيديو المتقدم إذا وُجد فيديو في المحتوى
+        // تهيئة مشغل الفيديو المتقدم بعد تحميل المحتوى
         initAdvancedVideoPlayers();
       } catch (error) {
         console.error('Error opening content file:', error);
@@ -1134,7 +1169,7 @@
       // الأسئلة كما في السابق
       attachQuestionTriggers();
 
-      // بقية الأنواع (image-trigger, video-trigger, link-trigger, iframe-trigger)
+      // الصور
       const imageEls = document.querySelectorAll('.image-trigger');
       imageEls.forEach(el => {
         el.addEventListener('click', () => {
@@ -1143,15 +1178,16 @@
         });
       });
 
+      // الفيديو
       const videoEls = document.querySelectorAll('.video-trigger');
       videoEls.forEach(el => {
         el.addEventListener('click', () => {
           const vidSrc = el.getAttribute('data-vid-src');
-          // هنا نتعامل مع الفيديو كعنصر مشغل متقدم ضمن المودال
           openMultiTriggerModal({ videos: [vidSrc] });
         });
       });
 
+      // الروابط
       const linkEls = document.querySelectorAll('.link-trigger');
       linkEls.forEach(el => {
         el.addEventListener('click', () => {
@@ -1160,16 +1196,16 @@
         });
       });
 
+      // iframe (جديد)
       const iframeEls = document.querySelectorAll('.iframe-trigger');
       iframeEls.forEach(el => {
         el.addEventListener('click', () => {
           const iframeSrc = el.getAttribute('data-iframe-src');
-          // نعرضه في المودال كمثل embed/iframe
           openMultiTriggerModal({ iframes: [iframeSrc] });
         });
       });
 
-      // في حال كان هناك أكثر من تريغر في نفس العنصر (multi-trigger)
+      // متعدّد
       const multiEls = document.querySelectorAll('.multi-trigger');
       multiEls.forEach(el => {
         el.addEventListener('click', () => {
@@ -1177,8 +1213,8 @@
             images: [],
             videos: [],
             links: [],
-            questions: [],
-            iframes: []
+            iframes: [],
+            questions: []
           };
           if(el.hasAttribute('data-img-src')){
             dataObj.images.push(el.getAttribute('data-img-src'));
@@ -1217,7 +1253,7 @@
     }
 
     /*==============================
-      فتح المودال الموحّد للصور/فيديو/روابط/أسئلة/iframes
+      فتح المودال الموحّد للصور/فيديو/روابط/iframe/أسئلة
     ================================*/
     function openMultiTriggerModal(dataObj) {
       const modalBody = document.getElementById('multiTriggerModalBody');
@@ -1232,22 +1268,14 @@
           modalBody.appendChild(img);
         });
       }
-      // عرض الفيديوهات (كمشغل فيديو متقدم أيضاً)
+      // عرض الفيديوهات
       if(dataObj.videos && dataObj.videos.length > 0){
         dataObj.videos.forEach(src => {
-          // ننشئ div.video-container ثم نحقن فيها الفيديو
-          const divContainer = document.createElement('div');
-          divContainer.classList.add('video-container');
-          const videoEl = document.createElement('video');
-          videoEl.src = src;
-          videoEl.controls = true;
-          divContainer.appendChild(videoEl);
-          modalBody.appendChild(divContainer);
-
-          // بعد إدخال العنصر في الـDOM، نستدعي initAdvancedVideoPlayers عليه
-          setTimeout(() => {
-            initAdvancedVideoPlayers();
-          }, 50);
+          const vid = document.createElement('video');
+          vid.src = src;
+          vid.controls = true;
+          vid.classList.add('w-100', 'mb-3');
+          modalBody.appendChild(vid);
         });
       }
       // عرض الروابط
@@ -1263,15 +1291,12 @@
       }
       // عرض iframes
       if(dataObj.iframes && dataObj.iframes.length > 0){
-        dataObj.iframes.forEach(ifSrc => {
-          const ifrm = document.createElement('iframe');
-          ifrm.src = ifSrc;
-          ifrm.width = '100%';
-          ifrm.height = '315';
-          ifrm.frameBorder = '0';
-          ifrm.allowFullscreen = true;
-          ifrm.classList.add('mb-3');
-          modalBody.appendChild(ifrm);
+        dataObj.iframes.forEach(iframeSrc => {
+          const iframeEl = document.createElement('iframe');
+          iframeEl.src = iframeSrc;
+          iframeEl.classList.add('w-100', 'mb-3');
+          iframeEl.height = 315; // مثال، يمكن تعديله
+          modalBody.appendChild(iframeEl);
         });
       }
       // الأسئلة
@@ -1308,14 +1333,14 @@
               <div class="question-item" data-answer="${q.answer}">
                 <h5>${q.question}</h5>
                 <form>
-                  ${q.options.map((option, idx) => `
-                    <div class="form-check">
+                  ${q.options.map((option, idx) => 
+                    `<div class="form-check">
                       <input class="form-check-input" type="radio" name="qID_${q.qID}" id="qID_${q.qID}_opt${idx}" value="${idx}">
                       <label class="form-check-label" for="qID_${q.qID}_opt${idx}">
                         ${option}
                       </label>
-                    </div>
-                  `).join('')}
+                    </div>`
+                  ).join('')}
                   <button type="button" class="btn btn-sm btn-primary mt-2" 
                     onclick="checkAnswer(this, '${escapeHtml(q.explanation)}', '${escapeHtml(q.answerText)}')">
                     Check Answer
@@ -1362,14 +1387,14 @@
               <div class="question-item" data-answer="${q.answer}">
                 <h5>${q.question}</h5>
                 <form>
-                  ${q.options.map((option, idx) => `
-                    <div class="form-check">
+                  ${q.options.map((option, idx) => 
+                    `<div class="form-check">
                       <input class="form-check-input" type="radio" name="qID_${q.qID}" id="qID_${q.qID}_opt${idx}" value="${idx}">
                       <label class="form-check-label" for="qID_${q.qID}_opt${idx}">
                         ${option}
                       </label>
-                    </div>
-                  `).join('')}
+                    </div>`
+                  ).join('')}
                   <button type="button" class="btn btn-sm btn-primary mt-2" 
                     onclick="checkAnswer(this, '${escapeHtml(q.explanation)}', '${escapeHtml(q.answerText)}')">
                     Check Answer
@@ -1435,92 +1460,134 @@
 
     /*==============================
       Download PDF Functionality
-      - استثناء الفيديوهات/ iframes الموجودة داخل تريغرز من التحويل
-      - تحويل الفيديوهات الظاهرة في المحتوى إلى QR
-      - إخفاء الأزرار بالكامل
+      استبدال الفيديوهات والإطارات بـ الرسالة + صورة الاشتراك
     ================================*/
     function downloadPdf() {
-  const contentTitle = document.getElementById('contentTitle').textContent;
-  let content = document.getElementById('result').innerHTML;
+      const contentTitle = document.getElementById('contentTitle').textContent;
+      let content = document.getElementById('result').innerHTML;
 
-  // 1. إزالة العناصر غير المرغوبة فقط (الأزرار، التحكم، الوقت)
-  content = content
-    .replace(/<button[^>]*>.*?<\/button>/gi, '') // إزالة الأزرار
-    .replace(/<div class="(custom-controls|time-display|progress-container)[^>]*>.*?<\/div>/gi, '') // إزالة التحكم
-    .replace(/<div id="(floatingButtons|videoPlayer|bufferedBar|progressBar)[^>]*>.*?<\/div>/gi, ''); // إزالة عناصر الفيديو
+      // استبدال أي عنصر مشغل فيديو متقدم أو iframe أو video بعنصر يحوي رسالة الاشتراك والصورة
+      let modifiedContent = content
+        // أولاً استبدال أي عنصر .video-container (المشغل المتقدم)
+        .replace(/<div class="video-container"[^>]*>[\s\S]*?<\/div>/gi, function() {
+          return `
+<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).<br>
+<img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/March5-121558AM.png" alt="Subscribe Image" style="max-width: 200px;">
+</p>`;
+        })
+        // استبدال أي عنصر #videoContainer من المشغل المتقدم
+        .replace(/<div id="videoContainer"[^>]*>[\s\S]*?<\/div>/gi, function() {
+          return `
+<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).<br>
+<img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/March5-121558AM.png" alt="Subscribe Image" style="max-width: 200px;">
+</p>`;
+        })
+        // استبدال أي iframe
+        .replace(/<iframe[^>]*>.*?<\/iframe>/gi, function() {
+          return `
+<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).<br>
+<img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/March5-121558AM.png" alt="Subscribe Image" style="max-width: 200px;">
+</p>`;
+        })
+        // وأخيرًا استبدال أي video
+        .replace(/<video[^>]*>.*?<\/video>/gi, function() {
+          return `
+<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).<br>
+<img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/March5-121558AM.png" alt="Subscribe Image" style="max-width: 200px;">
+</p>`;
+        });
 
-  // 2. استبدال الفيديو/iframe برسالة الاشتراك (بدون حذف باقي المحتوى)
-  const subscriptionMsg = `
-    <div class="subscription-message">
-      <p style="text-align:center; color: #2c3e50; font-size: 16px;">
-        If you want to watch the video or the content, you must subscribe to the site.<br>
-        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" 
-             alt="QR Code" 
-             style="display:block; margin:10px auto; width: 150px; height: 150px;">
-      </p>
-    </div>
-  `;
-
-  // استبدال أول فيديو أو iframe فقط بالرسالة
-  content = content.replace(
-    /(<video[\s\S]*?<\/video>|<iframe[\s\S]*?<\/iframe>)/i, 
-    subscriptionMsg
-  );
-
-  // 3. إنشاء نافذة الطباعة مع التأكد من ظهور الرسالة
-  const printWindow = window.open('about:blank', '_blank');
-  printWindow.document.write(`
-    <html>
-      <head>
-        <meta charset="UTF-8">
-        <title>Download PDF</title>
-        <style>
-          /* إخفاء العناصر غير المرغوبة */
-          button, .custom-controls, #floatingButtons,
-          .time-display, .progress-container, #videoPlayer {
-            display: none !important;
-          }
-
-          /* إظهار رسالة الاشتراك وQR Code */
-          .subscription-message {
-            display: block !important;
-            margin: 20px 0;
-          }
-
-          /* العلامة المائية */
-          body::before {
-            content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
-            white-space: pre;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%) rotate(-30deg);
-            font-size: 25px;
-            color: rgba(0, 0, 0, 0.07);
-            pointer-events: none;
-            z-index: 0;
-            text-align: center;
-          }
-
-          /* المحتوى الرئيسي */
-          #content {
-            position: relative;
-            z-index: 1;
-            margin: 20px;
-            background: white;
-          }
-        </style>
-      </head>
-      <body>
-        <div id="content">
-          <h1>${contentTitle}</h1>
-          ${content}
-        </div>
-      </body>
-    </html>
-  `);
-  printWindow.document.close();
-}
+      const printWindow = window.open('about:blank', '_blank');
+      printWindow.document.write(
+        `<html>
+          <head>
+            <meta charset="UTF-8">
+            <title>Download PDF</title>
+            <style>
+              @page { size: auto; margin: 0; }
+              body {
+                margin: 0; 
+                padding: 0;
+                font-family: 'Montserrat', sans-serif; 
+                background-color: #fafafa; 
+                color: #2c3e50;
+              }
+              /* العلامة المائية بحجم أصغر قليلاً وفي المنتصف */
+              body::before {
+                content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
+                white-space: pre;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) rotate(-30deg);
+                font-size: 20px;
+                color: rgba(0, 0, 0, 0.07);
+                pointer-events: none;
+                z-index: 0;
+                text-align: center;
+              }
+              #content {
+                position: relative;
+                z-index: 1;
+                margin: 20px;
+                padding: 20px;
+                font-size: 14px;
+                border: none;
+              }
+              h1 {
+                text-align: center; 
+                font-weight: 600;
+                margin-bottom: 20px; 
+              }
+              table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+              }
+              table th, table td {
+                border: 1px solid #ccc;
+                padding: 10px;
+                text-align: left;
+              }
+              table thead {
+                background-color: #f2f2f2;
+              }
+              p, li, td, th, code, pre, span {
+                color: #2c3e50 !important;
+              }
+              .mjx-container {
+                zoom: 1.2;
+              }
+            </style>
+          </head>
+          <body>
+            <div id="content">
+              <h1>${contentTitle}</h1>
+              ${modifiedContent}
+            </div>
+            <!-- إضافة سكريبت MathJax كي تظهر المعادلات بشكل صحيح في الصفحة المنبثقة -->
+            <script>
+              window.MathJax = {
+                tex: {
+                  inlineMath: [['$', '$'], ['\\\\(', '\\\\)']]
+                },
+                svg: {
+                  fontCache: 'global'
+                }
+              };
+            <\/script>
+            <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"><\/script>
+            <script>
+              window.onload = function() {
+                window.focus();
+                window.print();
+              };
+            <\/script>
+          </body>
+        </html>`
+      );
+      printWindow.document.close();
+    }
 
     /*==============================
       Return to Topics Page
