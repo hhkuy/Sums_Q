@@ -23,7 +23,7 @@ async function init() {
 
     // 2. Create the first dropdown (main topics) if available
     createDropdown(topicsData.topics, null, 0);
-    // لا تغيير على منطق البحث هنا، لأنه خاص بطريقة Dropdown.
+    // لا تغيير على منطق البحث هنا
   } catch (error) {
     console.error('Error fetching or reading exp_topics.json:', error);
   }
@@ -36,30 +36,25 @@ async function init() {
  * @param {number} level - The level of nesting (0 = main, 1 = sub, etc.).
  */
 function createDropdown(subtopicsArray, parentSelect, level) {
-  // Create a new select element
   const select = document.createElement('select');
-  select.dataset.level = level; // Save the level in the dataset
+  select.dataset.level = level;
 
-  // Create default option
   const defaultOption = document.createElement('option');
   defaultOption.value = '';
   defaultOption.textContent = '-- Select --';
   select.appendChild(defaultOption);
 
-  // Add options from the given array
   subtopicsArray.forEach((topicObj, index) => {
     const option = document.createElement('option');
-    option.value = index; // Store the index as the option value
+    option.value = index;
     option.textContent = topicObj.title;
     select.appendChild(option);
   });
 
-  // Add change event to this select
   select.addEventListener('change', () => {
     handleSelectionChange(select, subtopicsArray);
   });
 
-  // If no parent dropdown exists, append directly; otherwise, remove all dropdowns of higher level and append
   if (!parentSelect) {
     dropdownsContainer.appendChild(select);
   } else {
@@ -70,40 +65,27 @@ function createDropdown(subtopicsArray, parentSelect, level) {
 
 /**
  * Handle selection change in a dropdown.
- * 1. If the selected topic has subtopics, create a new dropdown.
- * 2. If it has a dataFile (final topic), fetch and display its content.
- * @param {HTMLSelectElement} currentSelect 
- * @param {Array} subtopicsArray 
  */
 function handleSelectionChange(currentSelect, subtopicsArray) {
   const selectedIndex = currentSelect.value;
-  // Clear the content area as selection may change
   contentArea.innerHTML = '';
 
-  // If nothing is selected, remove all dropdowns that are deeper than the current level
   if (selectedIndex === '') {
     removeDropdownsAfterLevel(currentSelect.dataset.level);
     return;
   }
 
-  // Get the chosen topic object
   const chosenTopic = subtopicsArray[parseInt(selectedIndex)];
-  
-  // If the chosen topic has subtopics, create a new dropdown for them
+
   if (chosenTopic.subtopics && chosenTopic.subtopics.length > 0) {
     createDropdown(chosenTopic.subtopics, currentSelect, parseInt(currentSelect.dataset.level) + 1);
   } else {
-    // If no subtopics exist, but a dataFile is provided, fetch and display its content
     if (chosenTopic.dataFile) {
       fetchDataAndDisplay(chosenTopic.dataFile);
     }
   }
 }
 
-/**
- * Remove all dropdowns that are at a deeper level than the provided level.
- * @param {number} level 
- */
 function removeDropdownsAfterLevel(level) {
   const allSelects = dropdownsContainer.querySelectorAll('select');
   allSelects.forEach(sel => {
@@ -115,7 +97,6 @@ function removeDropdownsAfterLevel(level) {
 
 /**
  * Fetch a JSON file from the exp_data folder and display its content.
- * @param {string} dataFileName 
  */
 async function fetchDataAndDisplay(dataFileName) {
   try {
@@ -124,13 +105,12 @@ async function fetchDataAndDisplay(dataFileName) {
       throw new Error(`Error fetching file: ${dataFileName}`);
     }
     const data = await response.json();
-    // Assume the JSON contains a 'content' field with HTML
     if (data.content) {
       contentArea.innerHTML = data.content;
     } else {
       contentArea.innerHTML = '<p>No content available.</p>';
     }
-    // بعد تحميل المحتوى، إذا وُجد فيديو داخل المحتوى، يتم تهيئة مشغل الفيديو المتقدم
+    // init video if found
     if (typeof initAdvancedVideoPlayers === 'function') {
       initAdvancedVideoPlayers();
     }
@@ -139,14 +119,6 @@ async function fetchDataAndDisplay(dataFileName) {
   }
 }
 
-/**
- * Download PDF function (هنا فارغ لأننا نستعمل الدالة في exp_index.html)
- */
-function downloadPdf() {
-  // لا شيء هنا.
-}
+// لا نضع أي منطق إضافي هنا حول downloadPdf؛ لأننا نستعمله في exp_index.html
 
-/**
- * Start the initialization process
- */
 init();
