@@ -275,6 +275,7 @@ function downloadPdf() {
             background-color: #fafafa; 
             color: #2c3e50;
           }
+          /* العلامة المائية بحجم أصغر وفي المنتصف - ثابتة وأمام المحتوى */
           body::before {
             content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
             white-space: pre;
@@ -285,7 +286,7 @@ function downloadPdf() {
             font-size: 25px;
             color: rgba(0, 0, 0, 0.07);
             pointer-events: none;
-            z-index: 0;
+            z-index: 9999;
             text-align: center;
           }
           #content {
@@ -296,6 +297,59 @@ function downloadPdf() {
             font-size: 14px;
             border: none;
           }
+          /* نسخ ألوان العناوين والفقرات والتريغرز لضمان تطابق الألوان */
+          h1 { color: #2e4053; }
+          h2 { color: #2874a6; }
+          h3 { color: #148f77; }
+          h4 { color: #9b59b6; }
+          h5, h6 { color: #b03a2e; }
+          p, li, td, th { color: #2c3e50; }
+          strong { color: #6c3483; font-weight: bold; }
+          em { color: #d35400; font-style: italic; }
+
+          .question-trigger {
+            color: #ff8c00; 
+            font-weight: bold; 
+            cursor: pointer; 
+            text-decoration: underline;
+          }
+          .image-trigger {
+            color: #28a745; 
+            font-weight: bold; 
+            cursor: pointer; 
+            text-decoration: underline;
+          }
+          .video-trigger {
+            color: #007bff; 
+            font-weight: bold; 
+            cursor: pointer; 
+            text-decoration: underline;
+          }
+          .link-trigger {
+            color: #6f42c1; 
+            font-weight: bold; 
+            cursor: pointer; 
+            text-decoration: underline;
+          }
+          .multi-trigger {
+            color: #dc3545; 
+            font-weight: bold; 
+            cursor: pointer; 
+            text-decoration: underline;
+          }
+          .iframe-trigger {
+            color: #20c997; 
+            font-weight: bold; 
+            cursor: pointer; 
+            text-decoration: underline;
+          }
+          .text-trigger {
+            color: #d63384; 
+            font-weight: bold; 
+            cursor: pointer; 
+            text-decoration: underline;
+          }
+
           table {
             width: 100%;
             border-collapse: collapse;
@@ -308,10 +362,6 @@ function downloadPdf() {
           }
           table thead {
             background-color: #f2f2f2;
-          }
-          h1, h2, h3, h4, h5, h6,
-          p, li, td, th, pre, code, span {
-            color: #2c3e50;
           }
           .mjx-container {
             zoom: 1.2;
