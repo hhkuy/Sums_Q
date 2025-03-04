@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <!-- Google Fonts (Montserrat) -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
-  <!-- Font Awesome for video player icons -->
+  <!-- Font Awesome (للأيقونات العامة إن احتجتها) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
   <!-- الموقع الأصلي – أنماط الصفحة العامة -->
@@ -19,8 +19,8 @@
       margin: 0;
       padding: 0;
       font-family: 'Montserrat', sans-serif;
-      background-color: #fafafa;
-      color: #2c3e50;
+      background-color: #fafafa; /* خلفية */
+      color: #2c3e50; /* لون الخط */
     }
     h1, h2, h3, h4, h5, h6 {
       font-weight: 600;
@@ -202,39 +202,45 @@
       box-shadow: 0 5px 15px rgba(0,123,255,0.2);
     }
 
-    /* ألوان خاصة للتريغرز بأنواعها: أسئلة/صور/فيديو/رابط/متعدّد */
+    /* ألوان خاصة للتريغرز بأنواعها: أسئلة/صور/فيديو/رابط/متعدّد/ iframe / نص */
     .question-trigger {
-      color: #ff8c00;
+      color: #ff8c00; /* برتقالي */
       font-weight: bold;
       cursor: pointer;
       text-decoration: underline;
     }
     .image-trigger {
-      color: #28a745;
+      color: #28a745; /* أخضر */
       font-weight: bold;
       cursor: pointer;
       text-decoration: underline;
     }
     .video-trigger {
-      color: #007bff;
-      font-weight: bold;
-      cursor: pointer;
-      text-decoration: underline;
-    }
-    .iframe-trigger {
-      color: #17a2b8;
+      color: #007bff; /* أزرق */
       font-weight: bold;
       cursor: pointer;
       text-decoration: underline;
     }
     .link-trigger {
-      color: #6f42c1;
+      color: #6f42c1; /* بنفسجي */
       font-weight: bold;
       cursor: pointer;
       text-decoration: underline;
     }
     .multi-trigger {
-      color: #dc3545;
+      color: #dc3545; /* أحمر */
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    .iframe-trigger {
+      color: #20c997; /* تِركوازي */
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    .text-trigger {
+      color: #d63384; /* وردي */
       font-weight: bold;
       cursor: pointer;
       text-decoration: underline;
@@ -263,19 +269,22 @@
       background-color: #f2f2f2;
     }
 
-    /* العلامة المائية: ثابتة في منتصف الإطار عند التمرير */
+    /* 
+      العلامة المائية: نجعلها ثابتة في منتصف الإطار (وتصغر حجم الخط إلى 25px بدلاً من 30px)
+      تبقى ظاهرة عند التمرير دون الخروج عن الحاوية 
+    */
     #pageContent {
       position: relative;
-      overflow: hidden;
+      overflow: hidden; /* كي لا تخرج العلامة المائية عن الإطار */
     }
     #pageContent::before {
-      content: "SUMS Site\nhttps://sites.google.com/view/medsums/sums-questions-bank-sqb";
+      content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
       white-space: pre;
-      position: fixed;
+      position: absolute; 
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%) rotate(-30deg);
-      font-size: 20px;
+      font-size: 25px; /* تقليل الحجم قليلاً */
       color: rgba(0, 0, 0, 0.07);
       pointer-events: none;
       z-index: 5;
@@ -302,168 +311,41 @@
       }
     }
   </style>
-  
-  <!-- أنماط مشغل الفيديو المتقدم -->
+
+  <!-- أنماط للفيديو الافتراضي + زر السرعة -->
   <style>
-    body { }
-    /* أنماط مشغل الفيديو المتقدم */
-    #videoContainer {
+    /* إخفاء زر التنزيل عبر controlsList="nodownload" 
+       إخفاء التصميم المخصص سابقًا، الآن نستخدم التصميم الافتراضي للمتصفح */
+    .default-video-container {
       position: relative;
       width: 800px;
       max-width: 90%;
-      background-color: #000;
-      box-shadow: 0 0 20px rgba(0,0,0,0.5);
-      border-radius: 8px;
-      overflow: hidden;
-      touch-action: none;
+      margin: 10px 0;
     }
-    #videoWrapper {
-      position: relative;
+    .default-video-container video {
       width: 100%;
-      overflow: hidden;
-      touch-action: none;
-      transform: translate(0px, 0px) scale(1);
-      transition: transform 0.1s;
-    }
-    #videoPlayer {
-      width: 100%;
-      display: block;
-      user-select: none;
-      -webkit-user-drag: none;
-    }
-    #playPauseOverlay {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 60px;
-      color: rgba(255,255,255,0.8);
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.3s;
-      text-shadow: 0 0 10px rgba(0,0,0,0.5);
-      cursor: pointer;
-      z-index: 2;
-    }
-    #customControls {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      background: rgba(0, 0, 0, 0.7);
-      padding: 10px;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      opacity: 1;
-      transition: opacity 0.3s ease-in-out;
-      z-index: 2;
-    }
-    #customControls.hiddenControls {
-      opacity: 0;
-      pointer-events: none;
-    }
-    #timeDisplay {
-      text-align: center;
-      font-size: 14px;
-    }
-    #progressWrapper {
-      position: relative;
-      width: 100%;
-    }
-    #progressContainer {
-      position: relative;
-      width: 100%;
-      height: 8px;
-      background: #444;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    #bufferedBar {
-      position: absolute;
-      left: 0;
-      height: 100%;
-      background: rgba(255,255,255,0.5);
-      width: 0%;
-      border-radius: 4px;
-      z-index: 3;
-    }
-    #progressBar {
-      position: absolute;
-      left: 0;
-      height: 100%;
-      background: #f39c12;
-      width: 0%;
-      border-radius: 4px;
-      z-index: 4;
-    }
-    #dragHandle {
-      position: absolute;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      width: 16px;
-      height: 16px;
-      background: #f39c12;
-      border: 2px solid #fff;
-      border-radius: 50%;
-      cursor: pointer;
-      z-index: 5;
-      transition: left 0.1s ease-out;
-    }
-    #previewTooltip {
-      position: absolute;
-      bottom: 15px;
-      left: 0;
-      transform: translateX(-50%);
-      background: rgba(0,0,0,0.8);
-      padding: 4px 6px;
-      border-radius: 4px;
-      display: none;
-      font-size: 12px;
-      pointer-events: none;
-    }
-    .control-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .control-group {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-    }
-    button, input[type="range"] {
-      background: transparent;
-      border: none;
-      color: #fff;
-      font-size: 18px;
-      cursor: pointer;
+      height: auto;
+      /* منع التحميل */
       outline: none;
+      touch-action: none; /* لأجل اللمس/السحب/التكبير */
     }
-    button:hover {
-      color: #f39c12;
-    }
-    #volumeControl {
-      width: 100px;
-    }
-    #speedOptions {
+
+    /* زر السرعة البسيط */
+    .speed-control-btn {
       position: absolute;
-      bottom: 50px;
+      bottom: 10px;
       left: 10px;
-      background: rgba(0,0,0,0.8);
-      border: 1px solid #fff;
-      border-radius: 4px;
-      display: none;
-      flex-direction: column;
-      z-index: 3;
-    }
-    #speedOptions button {
       padding: 5px 10px;
       font-size: 14px;
-      text-align: left;
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      z-index: 10;
     }
-    #speedOptions button:hover {
-      background: #f39c12;
+    .speed-control-btn:hover {
+      background: rgba(0,0,0,0.8);
     }
   </style>
 
@@ -596,7 +478,7 @@
     </div>
   </div>
 
-  <!-- نافذة منبثقة لعرض الصور أو الفيديو أو الروابط (المزايا الجديدة) -->
+  <!-- نافذة منبثقة لعرض الصور أو الفيديو أو الروابط أو النصوص أو iframes (المزايا الجديدة) -->
   <div class="modal fade" id="multiTriggerModal" tabindex="-1" aria-labelledby="multiTriggerModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -605,336 +487,25 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body" id="multiTriggerModalBody">
-          <!-- سيتم تعبئة هذه المساحة بمحتوى الصور أو الفيديو أو الروابط وغيرها -->
+          <!-- سيتم تعبئة هذه المساحة بمحتوى الصور أو الفيديوهات أو الروابط أو النصوص أو الـ iframe وغيرها -->
         </div>
       </div>
     </div>
   </div>
-
-  <!-- قالب مشغل الفيديو المتقدم (لن يظهر حتى يتم استدعاؤه) -->
-  <template id="advancedVideoTemplate">
-    <div id="videoContainer">
-      <div id="videoWrapper">
-        <video id="videoPlayer" preload="metadata" controlsList="nodownload noremoteplayback" disablePictureInPicture>
-          <source src="" type="video/mp4">
-          المتصفح الخاص بك لا يدعم الفيديو.
-        </video>
-        <div id="playPauseOverlay"><i class="fas fa-play"></i></div>
-      </div>
-      <div id="customControls">
-        <div id="timeDisplay">00:00 / 00:00</div>
-        <div id="progressWrapper">
-          <div id="progressContainer">
-            <div id="bufferedBar"></div>
-            <div id="progressBar"></div>
-            <div id="dragHandle"></div>
-          </div>
-          <div id="previewTooltip">
-            <div id="previewTime">00:00</div>
-          </div>
-        </div>
-        <div class="control-row">
-          <div class="control-group">
-            <button id="toggleBtn" title="تشغيل/إيقاف"><i class="fas fa-play"></i></button>
-            <button id="speedBtn" title="سرعة التشغيل">سرعة</button>
-            <div id="speedOptions">
-              <button data-speed="0.5">0.5x</button>
-              <button data-speed="0.75">0.75x</button>
-              <button data-speed="1">1x</button>
-              <button data-speed="1.25">1.25x</button>
-              <button data-speed="1.5">1.5x</button>
-              <button data-speed="2">2x</button>
-            </div>
-          </div>
-          <div class="control-group">
-            <i class="fas fa-volume-up" title="الصوت"></i>
-            <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1">
-            <button id="fullscreenBtn" title="ملء الشاشة"><i class="fas fa-expand"></i></button>
-            <button id="resetBtn" title="إعادة الوضع الطبيعي"><i class="fas fa-undo"></i></button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </template>
 
   <!-- Bootstrap 5 JS Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
   
   <!-- الأكواد الرئيسية للموقع (exp_main.js) سيتم تحميلها منفصلة -->
   <script src="exp_main.js"></script>
-  
-  <!-- الأكواد الخاصة بالتعامل مع مشغل الفيديو المتقدم -->
-  <script>
-    // دالة لاستبدال أي عنصر يحتوي على فيديو داخل .video-container بنموذج مشغل الفيديو المتقدم
-    function initAdvancedVideoPlayers() {
-      const containers = document.querySelectorAll('.video-container');
-      containers.forEach(container => {
-        const originalVideo = container.querySelector('video');
-        if(originalVideo) {
-          const videoSrc = originalVideo.getAttribute('src');
-          const template = document.getElementById('advancedVideoTemplate');
-          const clone = template.content.cloneNode(true);
-          const videoElem = clone.querySelector('#videoPlayer');
-          const sourceElem = videoElem.querySelector('source');
-          sourceElem.setAttribute('src', videoSrc);
-          videoElem.removeAttribute('controls');
-          container.innerHTML = ''; // إزالة المحتوى الأصلي
-          container.appendChild(clone);
-          // تهيئة أحداث مشغل الفيديو داخل هذا العنصر
-          initAdvancedVideoPlayerEvents(container);
-        }
-      });
-    }
-    
-    // دالة تهيئة أحداث مشغل الفيديو داخل حاوية معينة
-    function initAdvancedVideoPlayerEvents(container) {
-      const videoContainer = container.querySelector('#videoContainer');
-      const videoWrapper = container.querySelector('#videoWrapper');
-      const video = container.querySelector('#videoPlayer');
-      const customControls = container.querySelector('#customControls');
-      const toggleBtn = container.querySelector('#toggleBtn');
-      const speedBtn = container.querySelector('#speedBtn');
-      const speedOptions = container.querySelector('#speedOptions');
-      const volumeControl = container.querySelector('#volumeControl');
-      const fullscreenBtn = container.querySelector('#fullscreenBtn');
-      const resetBtn = container.querySelector('#resetBtn');
-      const timeDisplay = container.querySelector('#timeDisplay');
-      const progressContainer = container.querySelector('#progressContainer');
-      const bufferedBar = container.querySelector('#bufferedBar');
-      const progressBar = container.querySelector('#progressBar');
-      const dragHandle = container.querySelector('#dragHandle');
-      const playPauseOverlay = container.querySelector('#playPauseOverlay');
-      
-      let controlsTimeout;
-      let isDragging = false;
-      let currentScale = 1;
-      let currentTranslate = { x: 0, y: 0 };
-      let lastPanPosition = null;
-      let initialDistance = null;
-      let initialScale = 1;
-      
-      video.removeAttribute('controls');
-      
-      function togglePlayPause() {
-        video[video.paused ? 'play' : 'pause']();
-      }
-      
-      function updatePlayPauseIcon() {
-        const icon = video.paused ? 'play' : 'pause';
-        toggleBtn.innerHTML = `<i class="fas fa-${icon}"></i>`;
-        playPauseOverlay.innerHTML = `<i class="fas fa-${icon}"></i>`;
-      }
-      
-      video.addEventListener('click', togglePlayPause);
-      playPauseOverlay.addEventListener('click', togglePlayPause);
-      toggleBtn.addEventListener('click', togglePlayPause);
-      
-      video.addEventListener('play', () => {
-        updatePlayPauseIcon();
-        playPauseOverlay.style.opacity = '0';
-      });
-      
-      video.addEventListener('pause', () => {
-        updatePlayPauseIcon();
-        playPauseOverlay.style.opacity = '1';
-      });
-      
-      function showControls() {
-        customControls.classList.remove('hiddenControls');
-        resetControlsTimer();
-      }
-      
-      function resetControlsTimer() {
-        clearTimeout(controlsTimeout);
-        if (!video.paused) {
-          controlsTimeout = setTimeout(() => {
-            customControls.classList.add('hiddenControls');
-          }, 3000);
-        }
-      }
-      
-      videoContainer.addEventListener('mousemove', showControls);
-      videoContainer.addEventListener('touchstart', showControls);
-      videoContainer.addEventListener('click', () => {
-        if (!customControls.classList.contains('hiddenControls')) {
-          resetControlsTimer();
-        }
-      });
-      
-      customControls.addEventListener('mouseenter', () => clearTimeout(controlsTimeout));
-      customControls.addEventListener('mouseleave', resetControlsTimer);
-      
-      speedBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        speedOptions.style.display = speedOptions.style.display === 'flex' ? 'none' : 'flex';
-      });
-      
-      document.addEventListener('click', (e) => {
-        if (!e.target.closest('#speedOptions') && !e.target.matches('#speedBtn')) {
-          speedOptions.style.display = 'none';
-        }
-      });
-      
-      speedOptions.querySelectorAll('button').forEach(btn => {
-        btn.addEventListener('click', (e) => {
-          const speed = parseFloat(btn.dataset.speed);
-          video.playbackRate = speed;
-          speedBtn.textContent = `${speed}x`;
-        });
-      });
-      
-      volumeControl.addEventListener('input', () => {
-        video.volume = volumeControl.value;
-      });
-      
-      fullscreenBtn.addEventListener('click', () => {
-        if (!document.fullscreenElement) {
-          videoContainer.requestFullscreen();
-        } else {
-          document.exitFullscreen();
-        }
-      });
-      
-      resetBtn.addEventListener('click', () => {
-        currentScale = 1;
-        currentTranslate = { x: 0, y: 0 };
-        updateTransform();
-      });
-      
-      function updateProgress() {
-        const playedPercent = (video.currentTime / video.duration) * 100;
-        progressBar.style.width = `${playedPercent}%`;
-        dragHandle.style.left = `${playedPercent}%`;
-        timeDisplay.textContent = `${formatTime(video.currentTime)} / ${formatTime(video.duration)}`;
-        
-        if (video.buffered.length) {
-          const bufferedEnd = video.buffered.end(video.buffered.length - 1);
-          const bufferedPercent = (bufferedEnd / video.duration) * 100;
-          if(bufferedPercent > playedPercent){
-            bufferedBar.style.left = `${playedPercent}%`;
-            bufferedBar.style.width = `${bufferedPercent - playedPercent}%`;
-          } else {
-            bufferedBar.style.width = '0%';
-          }
-        }
-      }
-      
-      function formatTime(seconds) {
-        const minutes = Math.floor(seconds / 60);
-        const secs = Math.floor(seconds % 60);
-        return `${String(minutes).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
-      }
-      
-      video.addEventListener('timeupdate', updateProgress);
-      video.addEventListener('loadedmetadata', updateProgress);
-      video.addEventListener('progress', updateProgress);
-      
-      progressContainer.addEventListener('mousedown', startDrag);
-      progressContainer.addEventListener('touchstart', startDrag, { passive: false });
-      
-      function startDrag(e) {
-        isDragging = true;
-        dragHandle.style.transition = 'none';
-        handleDrag(e);
-        document.addEventListener('mousemove', handleDrag);
-        document.addEventListener('mouseup', stopDrag);
-        document.addEventListener('touchmove', handleDrag, { passive: false });
-        document.addEventListener('touchend', stopDrag);
-      }
-      
-      function handleDrag(e) {
-        if (!isDragging) return;
-        const rect = progressContainer.getBoundingClientRect();
-        const clientX = e.clientX || (e.touches && e.touches[0].clientX);
-        if (!clientX) return;
-        const x = Math.min(Math.max(clientX - rect.left, 0), rect.width);
-        const percent = x / rect.width;
-        video.currentTime = percent * video.duration;
-        updateProgress();
-      }
-      
-      function stopDrag() {
-        isDragging = false;
-        dragHandle.style.transition = 'left 0.1s ease-out';
-        document.removeEventListener('mousemove', handleDrag);
-        document.removeEventListener('mouseup', stopDrag);
-        document.removeEventListener('touchmove', handleDrag);
-        document.removeEventListener('touchend', stopDrag);
-      }
-      
-      videoWrapper.addEventListener('touchstart', handleTouchStart, { passive: false });
-      videoWrapper.addEventListener('touchmove', handleTouchMove, { passive: false });
-      videoWrapper.addEventListener('touchend', handleTouchEnd);
-      
-      function handleTouchStart(e) {
-        if (e.touches.length === 2) {
-          initialDistance = getDistance(e.touches[0], e.touches[1]);
-          initialScale = currentScale;
-        } else if (e.touches.length === 1 && currentScale > 1) {
-          lastPanPosition = { x: e.touches[0].clientX, y: e.touches[0].clientY };
-        }
-      }
-      
-      function handleTouchMove(e) {
-        if (e.touches.length === 2 && initialDistance !== null) {
-          const newDistance = getDistance(e.touches[0], e.touches[1]);
-          let newScale = initialScale * (newDistance / initialDistance);
-          newScale = Math.min(Math.max(newScale, 1), 3);
-          currentScale = newScale;
-          constrainTranslation();
-          updateTransform();
-        } else if (e.touches.length === 1 && currentScale > 1 && lastPanPosition) {
-          const currentTouch = { x: e.touches[0].clientX, y: e.touches[0].clientY };
-          const deltaX = currentTouch.x - lastPanPosition.x;
-          const deltaY = currentTouch.y - lastPanPosition.y;
-          currentTranslate.x += deltaX;
-          currentTranslate.y += deltaY;
-          constrainTranslation();
-          updateTransform();
-          lastPanPosition = currentTouch;
-        }
-        e.preventDefault();
-      }
-      
-      function handleTouchEnd(e) {
-        if (e.touches.length < 2) {
-          initialDistance = null;
-          initialScale = currentScale;
-        }
-        if (e.touches.length === 0) {
-          lastPanPosition = null;
-        }
-      }
-      
-      function getDistance(touch1, touch2) {
-        return Math.hypot(
-          touch2.clientX - touch1.clientX,
-          touch2.clientY - touch1.clientY
-        );
-      }
-      
-      function updateTransform() {
-        videoWrapper.style.transform = `translate(${currentTranslate.x}px, ${currentTranslate.y}px) scale(${currentScale})`;
-      }
-      
-      function constrainTranslation() {
-        const containerRect = videoContainer.getBoundingClientRect();
-        const maxTranslateX = (containerRect.width * (currentScale - 1)) / 2;
-        const maxTranslateY = (containerRect.height * (currentScale - 1)) / 2;
-        currentTranslate.x = Math.min(Math.max(currentTranslate.x, -maxTranslateX), maxTranslateX);
-        currentTranslate.y = Math.min(Math.max(currentTranslate.y, -maxTranslateY), maxTranslateY);
-      }
-    }
-  </script>
 
-  <!-- باقي الأكواد الخاصة بالبحث، التصفح، تنزيل PDF، وغيرها من وظائف الموقع -->
   <script>
     /*==============================
       Global Variables
     ================================*/
-    let questionFiles = [];
-    let allSearchableElements = [];
-    let globalTopicsData = null;
+    let questionFiles = [];        // Will store question file paths from data/topics.json
+    let allSearchableElements = []; // For content search results
+    let globalTopicsData = null;    // For storing the full topics array from exp_topics.json
 
     /*==============================
       Initialization on DOMContentLoaded
@@ -946,6 +517,7 @@
       } catch (error) {
         console.error('Error during page load:', error);
       }
+      // Attach topic search event listener
       document.getElementById('topicSearch').addEventListener('input', filterTopics);
     });
 
@@ -985,7 +557,7 @@
         const response = await fetch(TOPICS_JSON_PATH);
         if (!response.ok) throw new Error('Cannot fetch exp_topics.json');
         const data = await response.json();
-        globalTopicsData = data.topics || [];
+        globalTopicsData = data.topics || []; // Store topics
         buildAccordion(globalTopicsData, topicsAccordion, 'main', "");
       } catch (error) {
         console.error('Error fetching topics:', error);
@@ -1048,7 +620,7 @@
     function filterTopics() {
       const query = document.getElementById('topicSearch').value.trim().toLowerCase();
       const accordion = document.getElementById('topicsAccordion');
-      accordion.innerHTML = '';
+      accordion.innerHTML = ''; // clear old results
 
       if (!query) {
         buildAccordion(globalTopicsData, accordion, 'main', "");
@@ -1113,8 +685,9 @@
         document.getElementById('floatingButtons').style.display = 'flex';
 
         scrollToTop();
-        // تهيئة مشغل الفيديو المتقدم إذا وُجد فيديو في المحتوى
-        initAdvancedVideoPlayers();
+
+        // تهيئة الفيديوهات الافتراضية إن وُجدت في المحتوى (إضافة زر السرعة البسيط + منع التحميل + التحكم بالتكبير)
+        initDefaultVideos();
       } catch (error) {
         console.error('Error opening content file:', error);
         alert('Error loading content. Check console for details.');
@@ -1122,12 +695,144 @@
     }
 
     /*==============================
-      دالة ترفق جميع التريغرز (أسئلة/صور/فيديو/روابط/متعدّد)
+      تهيئة أي عنصر فيديو افتراضي في #result
+      - إضافة .default-video-container حوله
+      - منع التحميل عبر controlsList
+      - إضافة زر Speed
+      - إضافة تكبير وتحريك باللمس
+    ================================*/
+    function initDefaultVideos() {
+      const videos = document.querySelectorAll('#result video');
+      videos.forEach(video => {
+        // تجاهل أي فيديو داخل التريغرز (المودال)، لذلك نتأكد أنه داخل #result مباشرة
+        if (!video.closest('#result')) return;
+
+        // التفاف الفيديو بعنصر container
+        const container = document.createElement('div');
+        container.classList.add('default-video-container');
+
+        // إعدادات الفيديو
+        video.setAttribute('controls', '');
+        video.setAttribute('controlsList', 'nodownload'); // إخفاء زر التنزيل
+        video.setAttribute('playsinline', ''); // للسماح بالعرض في الأنظمة المحمولة بدون فتحه ملء الشاشة تلقائياً
+        // نبقي PiP متاحاً بالوضع الافتراضي (بدون disablePictureInPicture)
+
+        // إضافة الزر البسيط للتحكم بالسرعة
+        const speedBtn = document.createElement('button');
+        speedBtn.classList.add('speed-control-btn');
+        speedBtn.textContent = '1x';
+        let currentPlaybackRate = 1.0;
+
+        speedBtn.addEventListener('click', () => {
+          // التبديل بين سرعات محددة كمثال
+          // يمكنك تعديلها كما تريد (0.5 / 1 / 1.5 / 2)
+          if (currentPlaybackRate === 1) {
+            currentPlaybackRate = 1.5;
+          } else if (currentPlaybackRate === 1.5) {
+            currentPlaybackRate = 2;
+          } else if (currentPlaybackRate === 2) {
+            currentPlaybackRate = 0.5;
+          } else {
+            currentPlaybackRate = 1;
+          }
+          video.playbackRate = currentPlaybackRate;
+          speedBtn.textContent = `${currentPlaybackRate}x`;
+        });
+
+        // نقل الفيديو داخل الـ container
+        video.parentNode.insertBefore(container, video);
+        container.appendChild(video);
+        container.appendChild(speedBtn);
+
+        // تمكين التكبير/التصغير والتحريك باللمس (اختياري)
+        initPinchZoomAndPan(container, video);
+      });
+    }
+
+    /*==============================
+      وظيفة بسيطة لتمكين التكبير (Pinch Zoom) والتحريك (Pan) باللمس
+      حول عنصر الفيديو. بدون أي تصميم مخصص.
+    ================================*/
+    function initPinchZoomAndPan(container, video) {
+      let currentScale = 1;
+      let currentTranslate = { x: 0, y: 0 };
+      let lastPanPosition = null;
+      let initialDistance = null;
+      let initialScale = 1;
+
+      container.addEventListener('touchstart', handleTouchStart, { passive: false });
+      container.addEventListener('touchmove', handleTouchMove, { passive: false });
+      container.addEventListener('touchend', handleTouchEnd);
+
+      function handleTouchStart(e) {
+        if (e.touches.length === 2) {
+          initialDistance = getDistance(e.touches[0], e.touches[1]);
+          initialScale = currentScale;
+        } else if (e.touches.length === 1 && currentScale > 1) {
+          lastPanPosition = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+        }
+      }
+
+      function handleTouchMove(e) {
+        if (e.touches.length === 2 && initialDistance !== null) {
+          const newDistance = getDistance(e.touches[0], e.touches[1]);
+          let newScale = initialScale * (newDistance / initialDistance);
+          newScale = Math.min(Math.max(newScale, 1), 3); // حدود التقريب
+          currentScale = newScale;
+          constrainTranslation();
+          updateTransform();
+          e.preventDefault();
+        } else if (e.touches.length === 1 && currentScale > 1 && lastPanPosition) {
+          const currentTouch = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+          const deltaX = currentTouch.x - lastPanPosition.x;
+          const deltaY = currentTouch.y - lastPanPosition.y;
+          currentTranslate.x += deltaX;
+          currentTranslate.y += deltaY;
+          constrainTranslation();
+          updateTransform();
+          lastPanPosition = currentTouch;
+          e.preventDefault();
+        }
+      }
+
+      function handleTouchEnd(e) {
+        if (e.touches.length < 2) {
+          initialDistance = null;
+          initialScale = currentScale;
+        }
+        if (e.touches.length === 0) {
+          lastPanPosition = null;
+        }
+      }
+
+      function getDistance(touch1, touch2) {
+        return Math.hypot(
+          touch2.clientX - touch1.clientX,
+          touch2.clientY - touch1.clientY
+        );
+      }
+
+      function updateTransform() {
+        video.style.transform = `translate(${currentTranslate.x}px, ${currentTranslate.y}px) scale(${currentScale})`;
+      }
+
+      function constrainTranslation() {
+        const rect = container.getBoundingClientRect();
+        const maxTranslateX = (rect.width * (currentScale - 1)) / 2;
+        const maxTranslateY = (rect.height * (currentScale - 1)) / 2;
+        currentTranslate.x = Math.min(Math.max(currentTranslate.x, -maxTranslateX), maxTranslateX);
+        currentTranslate.y = Math.min(Math.max(currentTranslate.y, -maxTranslateY), maxTranslateY);
+      }
+    }
+
+    /*==============================
+      دالة ترفق جميع التريغرز (أسئلة/صور/فيديو/روابط/متعدّد/iframe/text)
     ================================*/
     function attachAllTriggers() {
+      // الأسئلة
       attachQuestionTriggers();
 
-      // تريغرز الصور
+      // الصور
       const imageEls = document.querySelectorAll('.image-trigger');
       imageEls.forEach(el => {
         el.addEventListener('click', () => {
@@ -1136,7 +841,7 @@
         });
       });
 
-      // تريغرز الفيديو (المحتوى الرئيسي) باستخدام مشغل الفيديو المتقدم
+      // الفيديوهات
       const videoEls = document.querySelectorAll('.video-trigger');
       videoEls.forEach(el => {
         el.addEventListener('click', () => {
@@ -1145,16 +850,7 @@
         });
       });
 
-      // تريغرز الإطارات المضمنة (مثل فيديوهات اليوتيوب)
-      const iframeEls = document.querySelectorAll('.iframe-trigger');
-      iframeEls.forEach(el => {
-        el.addEventListener('click', () => {
-          const embedSrc = el.getAttribute('data-embed-src');
-          openMultiTriggerModal({ iframes: [embedSrc] });
-        });
-      });
-
-      // تريغرز الروابط
+      // الروابط
       const linkEls = document.querySelectorAll('.link-trigger');
       linkEls.forEach(el => {
         el.addEventListener('click', () => {
@@ -1163,16 +859,17 @@
         });
       });
 
-      // التريغرز المتعددة
+      // التريغر المتعدد
       const multiEls = document.querySelectorAll('.multi-trigger');
       multiEls.forEach(el => {
         el.addEventListener('click', () => {
           let dataObj = {
             images: [],
             videos: [],
-            iframes: [],
             links: [],
-            questions: []
+            questions: [],
+            iframes: [],
+            texts: []
           };
           if(el.hasAttribute('data-img-src')){
             dataObj.images.push(el.getAttribute('data-img-src'));
@@ -1180,16 +877,37 @@
           if(el.hasAttribute('data-vid-src')){
             dataObj.videos.push(el.getAttribute('data-vid-src'));
           }
-          if(el.hasAttribute('data-embed-src')){
-            dataObj.iframes.push(el.getAttribute('data-embed-src'));
-          }
           if(el.hasAttribute('data-link-href')){
             dataObj.links.push(el.getAttribute('data-link-href'));
           }
           if(el.hasAttribute('data-qids')){
             dataObj.questions = el.getAttribute('data-qids').split(',').map(x => x.trim());
           }
+          if(el.hasAttribute('data-iframe-src')){
+            dataObj.iframes.push(el.getAttribute('data-iframe-src'));
+          }
+          if(el.hasAttribute('data-text-content')){
+            dataObj.texts.push(el.getAttribute('data-text-content'));
+          }
           openMultiTriggerModal(dataObj);
+        });
+      });
+
+      // تريغر الـ iframe
+      const iframeEls = document.querySelectorAll('.iframe-trigger');
+      iframeEls.forEach(el => {
+        el.addEventListener('click', () => {
+          const iframeSrc = el.getAttribute('data-iframe-src');
+          openMultiTriggerModal({ iframes: [iframeSrc] });
+        });
+      });
+
+      // تريغر النصّ
+      const textEls = document.querySelectorAll('.text-trigger');
+      textEls.forEach(el => {
+        el.addEventListener('click', () => {
+          const content = el.getAttribute('data-text-content');
+          openMultiTriggerModal({ texts: [content] });
         });
       });
     }
@@ -1211,7 +929,7 @@
     }
 
     /*==============================
-      فتح المودال الموحّد للصور/فيديو/روابط/أسئلة
+      فتح المودال الموحّد للصور/فيديو/روابط/أسئلة/iframe/نصوص
     ================================*/
     function openMultiTriggerModal(dataObj) {
       const modalBody = document.getElementById('multiTriggerModalBody');
@@ -1226,33 +944,15 @@
           modalBody.appendChild(img);
         });
       }
-      // عرض الفيديوهات باستخدام مشغل الفيديو المتقدم
+      // عرض الفيديوهات
       if(dataObj.videos && dataObj.videos.length > 0){
         dataObj.videos.forEach(src => {
-          const container = document.createElement('div');
-          container.classList.add('video-container', 'mb-3');
-          const template = document.getElementById('advancedVideoTemplate');
-          const clone = template.content.cloneNode(true);
-          const videoElem = clone.querySelector('#videoPlayer');
-          const sourceElem = videoElem.querySelector('source');
-          sourceElem.setAttribute('src', src);
-          videoElem.removeAttribute('controls');
-          container.innerHTML = '';
-          container.appendChild(clone);
-          modalBody.appendChild(container);
-          initAdvancedVideoPlayerEvents(container);
-        });
-      }
-      // عرض الإطارات المضمنة
-      if(dataObj.iframes && dataObj.iframes.length > 0){
-        dataObj.iframes.forEach(src => {
-          const iframe = document.createElement('iframe');
-          iframe.src = src;
-          iframe.width = "100%";
-          iframe.height = "400";
-          iframe.style.border = "none";
-          iframe.classList.add('mb-3');
-          modalBody.appendChild(iframe);
+          const vid = document.createElement('video');
+          vid.src = src;
+          vid.controls = true;
+          vid.classList.add('w-100', 'mb-3');
+          vid.setAttribute('controlsList', 'nodownload');
+          modalBody.appendChild(vid);
         });
       }
       // عرض الروابط
@@ -1269,6 +969,26 @@
       // الأسئلة
       if(dataObj.questions && dataObj.questions.length > 0){
         fetchQuestionsAndAppendToMultiModal(dataObj.questions);
+      }
+      // عرض الـ iframes
+      if(dataObj.iframes && dataObj.iframes.length > 0){
+        dataObj.iframes.forEach(src => {
+          const iframeEl = document.createElement('iframe');
+          iframeEl.src = src;
+          iframeEl.width = "100%";
+          iframeEl.height = "350";
+          iframeEl.allowFullscreen = true;
+          iframeEl.classList.add('mb-3');
+          modalBody.appendChild(iframeEl);
+        });
+      }
+      // عرض النصوص
+      if(dataObj.texts && dataObj.texts.length > 0){
+        dataObj.texts.forEach(txt => {
+          const p = document.createElement('p');
+          p.textContent = txt;
+          modalBody.appendChild(p);
+        });
       }
 
       const multiModal = new bootstrap.Modal(document.getElementById('multiTriggerModal'));
@@ -1427,54 +1147,41 @@
 
     /*==============================
       Download PDF Functionality
-      (يشمل البحث عن الفيديوهات بـ <video> أو <iframe>
-       وأيضًا عن .video-container و #videoContainer الناتجة عن المشغل المتقدم)
+      - استبدال أي فيديو أو iframe في المحتوى الرئيسي
+        بصورة + نص الاشتراك
+      - منع تكرار الصورة أكثر من مرة.
     ================================*/
     function downloadPdf() {
       const contentTitle = document.getElementById('contentTitle').textContent;
       let content = document.getElementById('result').innerHTML;
-      let replaced = false;
 
-      // === تمّ فقط تعديل هذه الكتلة لتصغير الصورة واستبدال الرابط ===
-      const subscriptionBlock = `
-<div style="text-align:center;">
-  <p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).</p>
-  <img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/result.png" alt="Subscription Required"
-       style="max-width: 400px; display:block; margin: 0 auto;" />
-</div>`;
+      // سنستعمل فلاغ كي لا نكرر الصورة أكثر من مرة
+      let replacedImageOnce = false;
+      const replaceVideoOrIframe = () => {
+        if (!replacedImageOnce) {
+          replacedImageOnce = true;
+          return `
+<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).</p>
+<p><img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/result.png" alt="Subscribe Image" style="max-width:200px;"/></p>
+`;
+        } else {
+          return `
+<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).</p>
+`;
+        }
+      };
 
+      // استبدال أي video خارج السياق التريغرز
       let modifiedContent = content
-        .replace(/<div class="video-container"[^>]*>[\s\S]*?<\/div>/gi, function() {
-          if (!replaced) {
-            replaced = true;
-            return subscriptionBlock;
-          } else {
-            return '';
-          }
+        // استبدال أي <video>...</video>
+        .replace(/<video[^>]*>[\s\S]*?<\/video>/gi, function(match) {
+          // لو كان داخل عنصر يحمل .video-trigger أو داخل multi-trigger، لا نبدّله (يفترض أنه في المودال)
+          // لكننا سنبسط الأمور ونستبدل كل فيديو ظاهر في النتيجة الأساسية:
+          return replaceVideoOrIframe();
         })
-        .replace(/<div id="videoContainer"[^>]*>[\s\S]*?<\/div>/gi, function() {
-          if (!replaced) {
-            replaced = true;
-            return subscriptionBlock;
-          } else {
-            return '';
-          }
-        })
-        .replace(/<iframe[^>]*>[\s\S]*?<\/iframe>/gi, function() {
-          if (!replaced) {
-            replaced = true;
-            return subscriptionBlock;
-          } else {
-            return '';
-          }
-        })
-        .replace(/<video[^>]*>[\s\S]*?<\/video>/gi, function() {
-          if (!replaced) {
-            replaced = true;
-            return subscriptionBlock;
-          } else {
-            return '';
-          }
+        // استبدال أي <iframe>...</iframe>
+        .replace(/<iframe[^>]*>[\s\S]*?<\/iframe>/gi, function(match) {
+          return replaceVideoOrIframe();
         });
 
       const printWindow = window.open('about:blank', '_blank');
@@ -1500,7 +1207,7 @@
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%) rotate(-30deg);
-                font-size: 20px;
+                font-size: 25px;
                 color: rgba(0, 0, 0, 0.07);
                 pointer-events: none;
                 z-index: 0;
@@ -1545,6 +1252,7 @@
               <h1>${contentTitle}</h1>
               ${modifiedContent}
             </div>
+            <!-- إضافة سكريبت MathJax كي تظهر المعادلات بشكل صحيح في الصفحة المنبثقة -->
             <script>
               window.MathJax = {
                 tex: {
@@ -1599,6 +1307,8 @@
       input.value = '';
       resultsContainer.innerHTML = '';
       input.focus();
+
+      // Prevent multiple event listeners
       input.removeEventListener('input', handleContentSearchInput);
       input.addEventListener('input', handleContentSearchInput);
     }
@@ -1620,6 +1330,8 @@
           const div = document.createElement('div');
           div.classList.add('search-result-item');
           div.innerText = snippet;
+
+          // On click, close modal then scroll to element
           div.addEventListener('click', () => {
             const searchModal = bootstrap.Modal.getInstance(document.getElementById('contentSearchModal'));
             searchModal.hide();
@@ -1632,6 +1344,5 @@
       });
     }
   </script>
-
 </body>
 </html>
