@@ -859,8 +859,6 @@
         currentTranslate.y = Math.min(Math.max(currentTranslate.y, -maxTranslateY), maxTranslateY);
       }
     }
-    
-    // يمكن استدعاء دالة initAdvancedVideoPlayers() بعد تحميل المحتوى (مثلاً بعد استدعاء openContentPage أو fetchDataAndDisplay)
   </script>
   
   <!-- باقي الأكواد الخاصة بالبحث، التصفح، تنزيل PDF، وغيرها من وظائف الموقع -->
@@ -1170,19 +1168,23 @@
     }
 
     /*==============================
-      Download PDF Functionality (تمت إضافة التعديلات المطلوبة)
+      Download PDF Functionality
+      (تمت إضافة التعديلات كي:
+       1. يشمل <video> إضافةً لـ <iframe>
+       2. ألوان الجداول والخط مثل الأصل
+       3. العلامة المائية في الوسط مائلة بالكامل
+       4. تضمين كل شيء في الطباعة
+      )
     ================================*/
     function downloadPdf() {
       const contentTitle = document.getElementById('contentTitle').textContent;
       let content = document.getElementById('result').innerHTML;
-      // استبدال جميع الفيديوهات (iframe أو video) بنصّ يشير للاشتراك مع QR Code
+      // استبدال جميع الفيديوهات (iframe + video) بنصّ يشير للاشتراك مع QR Code
       let modifiedContent = content
-        // استبدال الـ iframe
         .replace(/<iframe[^>]*>.*?<\/iframe>/gi, function() {
           return `<p>If you want to watch the video or the content, you must subscribe to the site.<br>
                   <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
         })
-        // استبدال الـ video
         .replace(/<video[^>]*>.*?<\/video>/gi, function() {
           return `<p>If you want to watch the video or the content, you must subscribe to the site.<br>
                   <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
@@ -1195,8 +1197,7 @@
             <meta charset="UTF-8">
             <title>Download PDF</title>
             <style>
-              @page { margin: 0; }
-              /* إزالة أي حواف للصفحة */
+              @page { size: auto; margin: 0; }
               body {
                 margin: 0; 
                 padding: 0;
@@ -1204,20 +1205,20 @@
                 background: #fff; 
                 color: #2c3e50;
               }
-              /* إضافة طبقة خلفية خفيفة كعلامة مائية */
+              /* العلامة المائية في الوسط وبشكل مائل */
               body::before {
-                content: "SUMS site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
+                content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
                 white-space: pre;
                 position: fixed;
-                top: 30%;
-                left: 10%;
-                transform: rotate(-30deg);
-                font-size: 60px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) rotate(-30deg);
+                font-size: 50px;
                 color: rgba(0, 0, 0, 0.07);
                 pointer-events: none;
                 z-index: 0;
+                text-align: center;
               }
-              /* صندوق المحتوى */
               #content {
                 position: relative;
                 z-index: 1;
@@ -1231,7 +1232,7 @@
                 font-weight: 600;
                 margin-bottom: 20px; 
               }
-              /* لتوافق الجداول مع نفس التخطيط */
+              /* مطابقة أنماط الجداول مع الصفحة الأصلية */
               table {
                 width: 100%;
                 border-collapse: collapse;
@@ -1241,6 +1242,12 @@
                 border: 1px solid #ccc;
                 padding: 10px;
                 text-align: left;
+              }
+              table thead {
+                background-color: #f2f2f2;
+              }
+              p, li, td, th, code, pre {
+                color: #2c3e50;
               }
               /* دعم الرياضيات */
               .mjx-container {
