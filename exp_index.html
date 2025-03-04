@@ -3,18 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Educational Topics Explorer - Learning Hub</title>
-  <!-- إعدادات MathJax لعرض المعادلات -->
-  <script>
-    window.MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ["\\(", "\\)"]]
-      },
-      svg: { fontCache: 'global' }
-    };
-  </script>
-  <!-- استدعاء مكتبة MathJax -->
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-
   <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
   <!-- Bootstrap Icons -->
@@ -848,9 +836,7 @@
         currentTranslate.y = Math.min(Math.max(currentTranslate.y, -maxTranslateY), maxTranslateY);
       }
     }
-    
-    // يمكن استدعاء دالة initAdvancedVideoPlayers() بعد تحميل المحتوى 
-    // إذا كان المحتوى الذي تم جلبه يحتوي على فيديو داخل div.video-container، سيتم استبداله تلقائيًا.
+    // يمكن استدعاء initAdvancedVideoPlayers() بعد تحميل المحتوى عند الحاجة
   </script>
   
   <!-- باقي الأكواد الخاصة بالبحث، التصفح، تنزيل PDF، وغيرها من وظائف الموقع -->
@@ -956,12 +942,14 @@
           bodyElement.appendChild(nestedAccordion);
           buildAccordion(topic.subtopics, nestedAccordion, `nested-${uniqueId}`, fullPath);
         } else {
-          // If no subtopics, show a button to open content
-          const showContentBtn = document.createElement('button');
-          showContentBtn.classList.add('btn', 'btn-primary', 'btn-show-content', 'mt-2');
-          showContentBtn.textContent = "Open Content";
-          showContentBtn.onclick = () => openContentPage(topic, fullPath);
-          bodyElement.appendChild(showContentBtn);
+          // If the topic has no subtopics, we can show a button to load content
+          const loadContentBtn = document.createElement('button');
+          loadContentBtn.classList.add('btn', 'btn-primary', 'btn-show-content');
+          loadContentBtn.innerHTML = 'Show Content';
+          loadContentBtn.addEventListener('click', () => {
+            openContentPage(fullPath, topic.content || '');
+          });
+          bodyElement.appendChild(loadContentBtn);
         }
       });
     }
@@ -970,49 +958,35 @@
       Filter Topics by Search
     ================================*/
     function filterTopics() {
-      const searchValue = document.getElementById('topicSearch').value.trim().toLowerCase();
+      const searchTerm = document.getElementById('topicSearch').value.trim().toLowerCase();
       const accordionItems = document.querySelectorAll('#topicsAccordion .accordion-item');
-      let anyVisible = false;
 
       accordionItems.forEach(item => {
-        const buttonText = item.querySelector('.accordion-button').textContent.trim().toLowerCase();
-        if (buttonText.includes(searchValue)) {
-          item.style.display = '';
-          anyVisible = true;
+        const buttonText = item.querySelector('.accordion-button').innerText.toLowerCase();
+        if (buttonText.includes(searchTerm)) {
+          item.style.display = 'block';
         } else {
           item.style.display = 'none';
         }
       });
-
-      const noResultsMsg = document.getElementById('noResultsMsg');
-      if (!noResultsMsg) {
-        const msgElem = document.createElement('p');
-        msgElem.id = 'noResultsMsg';
-        msgElem.className = 'text-danger';
-        msgElem.style.display = 'none';
-        msgElem.textContent = 'No results found.';
-        document.getElementById('topicsSearchContainer').appendChild(msgElem);
-      }
-      document.getElementById('noResultsMsg').style.display = anyVisible ? 'none' : '';
     }
 
     /*==============================
       Open Content Page
     ================================*/
-    function openContentPage(topicObj, fullPath) {
+    function openContentPage(title, content) {
       document.getElementById('pageTopics').style.display = 'none';
       document.getElementById('pageContent').style.display = 'block';
+      document.getElementById('contentTitle').innerText = title;
+      document.getElementById('result').innerHTML = content;
+      initAdvancedVideoPlayers(); // لو وجدت فيديوهات في المحتوى
+      // إظهار أزرار التنقل العائمة
       document.getElementById('floatingButtons').style.display = 'flex';
-
-      // Display the hierarchical path in #contentTitle
-      document.getElementById('contentTitle').textContent = fullPath;
-
-      // Fetch content from the file path in topicObj.file
-      if (topicObj.file) {
-        fetchDataAndDisplay(topicObj.file);
-      } else {
-        // If no file, just show a message
-        document.getElementById('result').innerHTML = '<p>No content file specified.</p>';
+      // إعادة تهيئة البحث داخل المحتوى
+      prepareContentSearch();
+      // إعادة تفعيل MathJax لعرض الرموز الرياضية (في حال وجدت معادلات)
+      if (window.MathJax) {
+        window.MathJax.typesetPromise && window.MathJax.typesetPromise();
       }
     }
 
@@ -1026,152 +1000,7 @@
     }
 
     /*==============================
-      Fetch Data (HTML) and Display in #result
-    ================================*/
-    async function fetchDataAndDisplay(filePath) {
-      try {
-        const res = await fetch(filePath);
-        if (!res.ok) throw new Error('Cannot fetch file: ' + filePath);
-        const content = await res.text();
-        document.getElementById('result').innerHTML = content;
-
-        // بعد عرض المحتوى، نعيد تهيئة الفيديوهات إن وجدت:
-        initAdvancedVideoPlayers();
-        // إعادة تشغيل MathJax على المحتوى الجديد
-        if (window.MathJax && window.MathJax.typeset) {
-          window.MathJax.typeset();
-        }
-      } catch (err) {
-        console.error('Error in fetchDataAndDisplay:', err);
-        document.getElementById('result').innerHTML = '<p class="text-danger">Failed to load content.</p>';
-      }
-    }
-
-    /*==============================
-      Download PDF (فتح صفحة About:blank بالتصميم المطلوب)
-    ================================*/
-    function downloadPdf() {
-      // نجلب المحتوى المعروض حاليًا
-      const contentTitle = document.getElementById('contentTitle').textContent;
-      const contentHtml = document.getElementById('result').innerHTML;
-
-      // نص الاستبدال للفيديو
-      const videoReplacementText = `<p style="font-style: italic; color: #555;">
-        If you want to view the video or content, you must subscribe to the site.
-      </p>`;
-      
-      // نص لعرض أن الأسئلة تتطلب اشتراك
-      const questionsNotice = `<p style="font-weight: bold; color: #c0392b;">
-        If you want to see the related questions, you have to subscribe.
-      </p>`;
-
-      // إضافة QR Code رابط
-      const qrCodeHtml = `
-      <div style="margin-top: 20px; text-align: center;">
-        <img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code">
-        <p style="font-size:0.9em;">https://sites.google.com/view/medsums/sums-questions-bank-sqb</p>
-      </div>`;
-
-      // إنشاء نافذة فارغة about:blank
-      const newWindow = window.open('', '_blank');
-
-      // نمط لإخفاء الحدود وتكرار نص "SUMS site" كخلفية خفيفة (علامة مائية)
-      const styleForBlankPage = `
-      <style>
-        body {
-          margin: 0;
-          padding: 20px;
-          font-family: 'Montserrat', sans-serif;
-          color: #2c3e50;
-          /* خلفية خفيفة لا تؤثر على النص */
-          background: repeating-linear-gradient(
-            45deg,
-            rgba(0,0,0,0.02),
-            rgba(0,0,0,0.02) 200px,
-            rgba(0,0,0,0.01) 200px,
-            rgba(0,0,0,0.01) 400px
-          );
-          position: relative;
-        }
-        /* علامة مائية SUMS site */
-        body::before {
-          content: "SUMS site \\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
-          white-space: pre;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          color: rgba(0,0,0,0.08);
-          font-size: 3rem;
-          text-align: center;
-          pointer-events: none;
-        }
-        .container-blank {
-          margin: 0 auto;
-          padding: 10px;
-          width: 90%;
-          max-width: 800px;
-          border: none !important; /* إزالة الحدود */
-        }
-        .container-blank table, .container-blank th, .container-blank td {
-          border: 1px solid #ccc; 
-          border-collapse: collapse;
-        }
-        .container-blank table thead {
-          background-color: #f2f2f2;
-        }
-      </style>`;
-
-      // المحتوى نفسه مع استبدال الفيديوهات والكلام الإضافي الخاص بالأسئلة
-      // يتم البحث عن عناصر الفيديو أو المشغل المخصص إن وجدت (بحسب علامات معروفة).
-      let blankContent = contentHtml;
-
-      // استبدال أي فيديو أو علامة تحتوي على مشغل الفيديو الخاص بنا
-      blankContent = blankContent.replace(/<div[^>]*id="videoContainer"[^>]*>[\s\S]*?<\/div>/gi, videoReplacementText);
-      blankContent = blankContent.replace(/<video[^>]*>[\s\S]*?<\/video>/gi, videoReplacementText);
-
-      // يمكن أيضًا إدراج تنبيه الأسئلة
-      // على سبيل الاحتياط، إن كنت تريد إظهار التنبيه باستمرار:
-      blankContent += questionsNotice;
-
-      // إضافة كود QR في النهاية
-      blankContent += qrCodeHtml;
-
-      // نص HTML كامل للصفحة الجديدة
-      const htmlForBlankPage = `
-      <html>
-      <head>
-        <meta charset="UTF-8">
-        <title>${contentTitle} - About Blank</title>
-        ${styleForBlankPage}
-        <!-- تضمين MathJax هنا أيضًا لعرض المعادلات إن وجدت -->
-        <script>
-          window.MathJax = {
-            tex: {
-              inlineMath: [['$', '$'], ["\\\\(", "\\\\)"]]
-            },
-            svg: { fontCache: 'global' }
-          };
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-      </head>
-      <body>
-        <div class="container-blank">
-          <h1>${contentTitle}</h1>
-          ${blankContent}
-        </div>
-      </body>
-      </html>
-      `;
-
-      // كتابة المحتوى في النافذة الجديدة
-      newWindow.document.open();
-      newWindow.document.write(htmlForBlankPage);
-      newWindow.document.close();
-    }
-
-    /*==============================
-      Scroll to Top / Bottom
+      Scroll To Top & Scroll To Bottom
     ================================*/
     function scrollToTop() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1181,32 +1010,180 @@
     }
 
     /*==============================
-      Search Within Content
+      Prepare Content Search
+    ================================*/
+    function prepareContentSearch() {
+      const contentContainer = document.getElementById('result');
+      // جلب جميع العناصر القابلة للبحث (نصوص)
+      allSearchableElements = Array.from(contentContainer.querySelectorAll('*'))
+        .filter(el => el.children.length === 0 && el.textContent.trim().length > 0);
+    }
+
+    /*==============================
+      Open Content Search Modal
     ================================*/
     function openContentSearchModal() {
-      const modal = new bootstrap.Modal(document.getElementById('contentSearchModal'), {});
+      const modal = new bootstrap.Modal(document.getElementById('contentSearchModal'));
       modal.show();
       document.getElementById('contentSearchInput').value = '';
       document.getElementById('contentSearchResults').innerHTML = '';
-      document.getElementById('contentSearchInput').focus();
+    }
 
-      document.getElementById('contentSearchInput').oninput = (e) => {
-        const searchVal = e.target.value.trim().toLowerCase();
-        if (searchVal.length === 0) {
-          document.getElementById('contentSearchResults').innerHTML = '';
-          return;
+    /*==============================
+      Content Search Handler
+    ================================*/
+    document.getElementById('contentSearchInput').addEventListener('input', function() {
+      const query = this.value.toLowerCase();
+      const resultsContainer = document.getElementById('contentSearchResults');
+      resultsContainer.innerHTML = '';
+      if (query.length < 1) return;
+
+      const matched = [];
+      allSearchableElements.forEach(el => {
+        if (el.textContent.toLowerCase().includes(query)) {
+          matched.push(el);
         }
-        // ابحث في النص الموجود في #result
-        const allTextNodes = document.getElementById('result').innerText.split('\n');
-        const matched = allTextNodes.filter(line => line.toLowerCase().includes(searchVal));
-        let resultsHtml = '';
-        matched.forEach(m => {
-          const highlighted = m.replace(new RegExp(searchVal, 'gi'), match => `<mark>${match}</mark>`);
-          resultsHtml += `<div class="search-result-item">${highlighted}</div>`;
+      });
+
+      if (matched.length === 0) {
+        resultsContainer.innerHTML = '<p class="text-danger">No matches found.</p>';
+        return;
+      }
+
+      matched.forEach((match, index) => {
+        const item = document.createElement('div');
+        item.classList.add('search-result-item');
+        item.innerText = match.textContent.substring(0, 100);
+        item.addEventListener('click', () => {
+          // Scroll to the element
+          match.scrollIntoView({ behavior: 'smooth', block: 'center' });
         });
-        document.getElementById('contentSearchResults').innerHTML = resultsHtml || '<p>No matches found.</p>';
-      };
+        resultsContainer.appendChild(item);
+      });
+    });
+
+    /*==============================
+      Download PDF -> يفتح صفحة about:blank بتنسيق خاص
+    ================================*/
+    function downloadPdf() {
+      // نجلب محتوى الصفحة الحالي (#result) أو المحتوى الذي يعرض المعلومات
+      let contentHtml = document.getElementById('result').innerHTML || "";
+
+      // استبدال أي مشغلات فيديو بالفكرة المطلوبة (نص انجليزي + صورة QR)
+      // سنبحث عن أقسام الفيديو أو أي عنصر class="video-container" ونستبدله
+      // إن لم يكن الفيديو ملفوفاً بـdiv.video-container نستبدل مجرد <video> ..
+      // للتبسيط، سنستخدم Regex يستهدف أي div بالفيديو:
+      const videoRegex = /<div class="video-container">[\s\S]*?<\/div>/gi;
+      const replacementText = `
+      <div>
+        <p>If you want to watch the video or the content, you must subscribe to the site.<br>
+        Also, to see the questions related to the topics, you must subscribe to the site.</p>
+        <p><strong>QR Code:</strong></p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code" />
+      </div>
+      `;
+      contentHtml = contentHtml.replace(videoRegex, replacementText);
+
+      // الآن نفتح تبويب/نافذة جديدة about:blank
+      let newWin = window.open("", "_blank");
+      if (!newWin) {
+        alert("Please allow pop-ups to open the PDF preview.");
+        return;
+      }
+
+      // نحقن فيه صفحة HTML: بدون حواف/حدود، وجداول بلا إطارات، + طبقة خلفية watermark
+      newWin.document.write(`
+      <html>
+      <head>
+        <meta charset="UTF-8">
+        <title>About blank</title>
+        <style>
+          body {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            font-family: 'Montserrat', sans-serif;
+            color: #2c3e50;
+          }
+          table, th, td {
+            border: none !important;
+          }
+          /* طبقة العلامة المائية (حقوق) */
+          .watermark {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            opacity: 0.1;
+            font-size: 3em;
+            text-align: center;
+            transform: rotate(-30deg);
+            z-index: 9999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .watermark-content {
+            line-height: 1.5;
+          }
+          /* تنسيق المحتوى */
+          #printContent {
+            padding: 20px;
+          }
+        </style>
+      </head>
+      <body>
+        <!-- علامة مائية خفيفة -->
+        <div class="watermark">
+          <div class="watermark-content">
+            SUMS site
+            <br/>
+            https://sites.google.com/view/medsums/sums-questions-bank-sqb
+          </div>
+        </div>
+
+        <!-- المحتوى -->
+        <div id="printContent">
+          ${contentHtml}
+        </div>
+
+        <!-- تفعيل MathJax لضمان دعم المعادلات أيضاً في الصفحة الجديدة -->
+        <script>
+          window.MathJax = {
+            tex: {
+              inlineMath: [['$', '$'], ['\\\\(','\\\\)']]
+            }
+          };
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+        <script>
+          // إعادة typeset بعد تحميل السكربت
+          document.addEventListener('DOMContentLoaded', function() {
+            if (window.MathJax && window.MathJax.typesetPromise) {
+              window.MathJax.typesetPromise();
+            }
+          });
+        </script>
+      </body>
+      </html>
+      `);
+
+      newWin.document.close();
+      // يمكن للمستخدم عمل طباعة/حفظ PDF يدوياً من المتصفح
     }
   </script>
+
+  <!-- إضافة MathJax في الصفحة الرئيسية لتتعرف على الرموز والمعادلات في كل مكان -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
 </body>
 </html>
