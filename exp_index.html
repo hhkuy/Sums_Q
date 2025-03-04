@@ -257,22 +257,25 @@
       background-color: #f2f2f2;
     }
 
-    /* ==== العلامة المائية نفسها داخل صفحة المحتوى ==== */
-    /* نجعل #pageContent أو #result بوضعية نسبية بحيث تظهر العلامة المائية ضمن نطاق الصفحة */
+    /* 
+      العلامة المائية: نجعلها ثابتة في منتصف الإطار، 
+      وتبقى ظاهرة عند التمرير دون الخروج عن الحاوية 
+    */
     #pageContent {
       position: relative;
+      overflow: hidden; /* كي لا تخرج العلامة المائية عن الإطار */
     }
     #pageContent::before {
       content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
       white-space: pre;
-      position: absolute;
+      position: absolute; 
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%) rotate(-30deg);
       font-size: 30px;
       color: rgba(0, 0, 0, 0.07);
       pointer-events: none;
-      z-index: 0;
+      z-index: 5;
       text-align: center;
     }
 
@@ -841,7 +844,8 @@
       function handleDrag(e) {
         if (!isDragging) return;
         const rect = progressContainer.getBoundingClientRect();
-        const clientX = e.clientX || e.touches[0].clientX;
+        const clientX = e.clientX || (e.touches && e.touches[0].clientX);
+        if (!clientX) return;
         const x = Math.min(Math.max(clientX - rect.left, 0), rect.width);
         const percent = x / rect.width;
         video.currentTime = percent * video.duration;
@@ -921,7 +925,7 @@
       }
     }
   </script>
-  
+
   <!-- باقي الأكواد الخاصة بالبحث، التصفح، تنزيل PDF، وغيرها من وظائف الموقع -->
   <script>
     /*==============================
@@ -1392,20 +1396,25 @@
     /*==============================
       Download PDF Functionality
       (يشمل البحث عن الفيديوهات بـ <video> أو <iframe>
-       وأيضًا عن .video-container الناتجة عن المشغل المتقدم)
+       وأيضًا عن .video-container و #videoContainer الناتجة عن المشغل المتقدم)
     ================================*/
     function downloadPdf() {
       const contentTitle = document.getElementById('contentTitle').textContent;
       let content = document.getElementById('result').innerHTML;
 
-      // استبدال الفيديوهات والإطارات وحاويات الفيديو المتقدم بنصّ الاشتراك + QR
+      // استبدال أي فيديو/iframe/مشغل متقدم بنصّ الاشتراك + QR
       let modifiedContent = content
         // أولاً استبدال أي عنصر .video-container (المشغل المتقدم)
         .replace(/<div class="video-container"[^>]*>[\s\S]*?<\/div>/gi, function() {
           return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
                   <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
         })
-        // استبدال أي iframe
+        // استبدال أي عنصر #videoContainer من المشغل المتقدم
+        .replace(/<div id="videoContainer"[^>]*>[\s\S]*?<\/div>/gi, function() {
+          return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
+        })
+        // ثم استبدال أي iframe
         .replace(/<iframe[^>]*>.*?<\/iframe>/gi, function() {
           return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
                   <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
@@ -1431,7 +1440,7 @@
                 background-color: #fafafa; 
                 color: #2c3e50;
               }
-              /* العلامة المائية بحجم أصغر قليلاً */
+              /* العلامة المائية بحجم أصغر قليلاً وفي المنتصف */
               body::before {
                 content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
                 white-space: pre;
