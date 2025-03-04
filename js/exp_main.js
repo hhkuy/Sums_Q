@@ -141,36 +141,46 @@ async function fetchDataAndDisplay(dataFileName) {
 
 /**
  * Download PDF function
- * (بحث عن <iframe> + <video> + <div class="video-container"> + <div id="videoContainer">)
+ * (بحث عن <iframe> + <video> + <div class="video-container"> + <div id="videoContainer"> + <div id="videoWrapper"> + <div id="customControls">)
  */
 function downloadPdf() {
   // Get the content from the contentArea
   let content = contentArea.innerHTML;
 
-  // استبدال الفيديوهات والإطارات وعناصر .video-container و #videoContainer بنفس نصّ الاشتراك و QR Code
+  // استبدال الفيديوهات والإطارات وعناصر المشغل المتقدم بنفس نصّ الاشتراك و QR Code
   let modifiedContent = content
-    // استبدال .video-container أولاً
+    // .video-container
     .replace(/<div class="video-container"[^>]*>[\s\S]*?<\/div>/gi, function() {
       return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
               <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
     })
-    // استبدال #videoContainer
+    // #videoContainer
     .replace(/<div id="videoContainer"[^>]*>[\s\S]*?<\/div>/gi, function() {
       return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
               <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
     })
-    // استبدال أي iframe
+    // #videoWrapper
+    .replace(/<div id="videoWrapper"[^>]*>[\s\S]*?<\/div>/gi, function() {
+      return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
+    })
+    // #customControls
+    .replace(/<div id="customControls"[^>]*>[\s\S]*?<\/div>/gi, function() {
+      return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
+    })
+    // iframe
     .replace(/<iframe[^>]*>.*?<\/iframe>/gi, function() {
       return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
               <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
     })
-    // استبدال أي video
+    // video
     .replace(/<video[^>]*>.*?<\/video>/gi, function() {
       return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
               <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
     });
 
-  // Open a new window (about:blank)
+  // فتح نافذة الطباعة
   const printWindow = window.open('about:blank', '_blank');
   printWindow.document.write(
     `<html>
@@ -194,7 +204,7 @@ function downloadPdf() {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%) rotate(-30deg);
-            font-size: 30px;
+            font-size: 25px;
             color: rgba(0, 0, 0, 0.07);
             pointer-events: none;
             z-index: 0;
