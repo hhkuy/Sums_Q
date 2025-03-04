@@ -202,39 +202,39 @@
       box-shadow: 0 5px 15px rgba(0,123,255,0.2);
     }
 
-    /* ألوان خاصة للتريغرز بأنواعها: أسئلة/صور/فيديو/رابط/متعدّد/iframe */
+    /* ألوان خاصة للتريغرز (أسئلة/صور/فيديو/رابط/متعدّد/iframe) */
     .question-trigger {
-      color: #ff8c00; /* برتقالي */
+      color: #ff8c00;
       font-weight: bold;
       cursor: pointer;
       text-decoration: underline;
     }
     .image-trigger {
-      color: #28a745; /* أخضر */
+      color: #28a745;
       font-weight: bold;
       cursor: pointer;
       text-decoration: underline;
     }
     .video-trigger {
-      color: #007bff; /* أزرق */
+      color: #007bff;
       font-weight: bold;
       cursor: pointer;
       text-decoration: underline;
     }
     .link-trigger {
-      color: #6f42c1; /* بنفسجي */
+      color: #6f42c1;
       font-weight: bold;
       cursor: pointer;
       text-decoration: underline;
     }
     .multi-trigger {
-      color: #dc3545; /* أحمر */
+      color: #dc3545;
       font-weight: bold;
       cursor: pointer;
       text-decoration: underline;
     }
     .iframe-trigger {
-      color: #6c757d; /* رمادي */
+      color: #6c757d;
       font-weight: bold;
       cursor: pointer;
       text-decoration: underline;
@@ -307,9 +307,6 @@
   
   <!-- أنماط مشغل الفيديو المتقدم -->
   <style>
-    body {
-      /* لن تتعارض هذه الأنماط مع الأنماط العامة للموقع */
-    }
     /* أنماط مشغل الفيديو المتقدم */
     #videoContainer {
       position: relative;
@@ -600,7 +597,7 @@
     </div>
   </div>
 
-  <!-- نافذة منبثقة لعرض الصور أو الفيديو أو الروابط أو iframes (المزايا الجديدة) -->
+  <!-- نافذة منبثقة لعرض الصور أو الفيديو أو الروابط أو iframes -->
   <div class="modal fade" id="multiTriggerModal" tabindex="-1" aria-labelledby="multiTriggerModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -620,8 +617,8 @@
     <div id="videoContainer">
       <div id="videoWrapper">
         <video id="videoPlayer" preload="metadata" controlsList="nodownload noremoteplayback" disablePictureInPicture>
-          <source src="https://link.storjshare.io/raw/jwfnitlyfrtkqoherxcsa45gcnga/sums/Screen_Recording_%D9%A2%D9%A0%D9%A2%D9%A5%D9%A0%D9%A3%D9%A0%D9%A2_%D9%A2%D9%A3%D9%A0%D9%A8%D9%A0%D9%A9_One%20UI%20Home.mp4" type="video/mp4">
-          المتصفح الخاص بك لا يدعم الفيديو.
+          <source src="https://example.com/video.mp4" type="video/mp4">
+          متصفحك لا يدعم الفيديو.
         </video>
         <div id="playPauseOverlay"><i class="fas fa-play"></i></div>
       </div>
@@ -664,12 +661,14 @@
   <!-- Bootstrap 5 JS Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
   
-  <!-- الأكواد الرئيسية للموقع (exp_main.js) سيتم تحميلها منفصلة -->
+  <!-- الأكواد الرئيسية للموقع (exp_main.js) -->
   <script src="exp_main.js"></script>
   
-  <!-- الأكواد الخاصة بالتعامل مع مشغل الفيديو المتقدم -->
+  <!-- أكواد التعامل مع مشغل الفيديو + الكود الخاص بالطباعة -->
   <script>
-    // دالة لاستبدال أي عنصر يحتوي على فيديو داخل .video-container بنموذج مشغل الفيديو المتقدم
+    // -------------------------------------------
+    // مشغل الفيديو المتقدم
+    // -------------------------------------------
     function initAdvancedVideoPlayers() {
       const containers = document.querySelectorAll('.video-container');
       containers.forEach(container => {
@@ -682,15 +681,13 @@
           const sourceElem = videoElem.querySelector('source');
           sourceElem.setAttribute('src', videoSrc);
           videoElem.removeAttribute('controls');
-          container.innerHTML = ''; // إزالة المحتوى الأصلي
+          container.innerHTML = '';
           container.appendChild(clone);
-          // تهيئة أحداث مشغل الفيديو داخل هذا العنصر
           initAdvancedVideoPlayerEvents(container);
         }
       });
     }
-    
-    // دالة تهيئة أحداث مشغل الفيديو داخل حاوية معينة
+
     function initAdvancedVideoPlayerEvents(container) {
       const videoContainer = container.querySelector('#videoContainer');
       const videoWrapper = container.querySelector('#videoWrapper');
@@ -716,38 +713,27 @@
       let lastPanPosition = null;
       let initialDistance = null;
       let initialScale = 1;
-      
+
       video.removeAttribute('controls');
-      
+
       function togglePlayPause() {
         video[video.paused ? 'play' : 'pause']();
       }
-      
       function updatePlayPauseIcon() {
         const icon = video.paused ? 'play' : 'pause';
         toggleBtn.innerHTML = `<i class="fas fa-${icon}"></i>`;
         playPauseOverlay.innerHTML = `<i class="fas fa-${icon}"></i>`;
       }
-      
       video.addEventListener('click', togglePlayPause);
       playPauseOverlay.addEventListener('click', togglePlayPause);
       toggleBtn.addEventListener('click', togglePlayPause);
-      
-      video.addEventListener('play', () => {
-        updatePlayPauseIcon();
-        playPauseOverlay.style.opacity = '0';
-      });
-      
-      video.addEventListener('pause', () => {
-        updatePlayPauseIcon();
-        playPauseOverlay.style.opacity = '1';
-      });
-      
+      video.addEventListener('play', () => { updatePlayPauseIcon(); playPauseOverlay.style.opacity = '0'; });
+      video.addEventListener('pause', () => { updatePlayPauseIcon(); playPauseOverlay.style.opacity = '1'; });
+
       function showControls() {
         customControls.classList.remove('hiddenControls');
         resetControlsTimer();
       }
-      
       function resetControlsTimer() {
         clearTimeout(controlsTimeout);
         if (!video.paused) {
@@ -756,7 +742,6 @@
           }, 3000);
         }
       }
-      
       videoContainer.addEventListener('mousemove', showControls);
       videoContainer.addEventListener('touchstart', showControls);
       videoContainer.addEventListener('click', () => {
@@ -764,33 +749,29 @@
           resetControlsTimer();
         }
       });
-      
       customControls.addEventListener('mouseenter', () => clearTimeout(controlsTimeout));
       customControls.addEventListener('mouseleave', resetControlsTimer);
-      
+
       speedBtn.addEventListener('click', (e) => {
         e.stopPropagation();
         speedOptions.style.display = speedOptions.style.display === 'flex' ? 'none' : 'flex';
       });
-      
       document.addEventListener('click', (e) => {
         if (!e.target.closest('#speedOptions') && !e.target.matches('#speedBtn')) {
           speedOptions.style.display = 'none';
         }
       });
-      
       speedOptions.querySelectorAll('button').forEach(btn => {
-        btn.addEventListener('click', (e) => {
+        btn.addEventListener('click', () => {
           const speed = parseFloat(btn.dataset.speed);
           video.playbackRate = speed;
           speedBtn.textContent = `${speed}x`;
         });
       });
-      
+
       volumeControl.addEventListener('input', () => {
         video.volume = volumeControl.value;
       });
-      
       fullscreenBtn.addEventListener('click', () => {
         if (!document.fullscreenElement) {
           videoContainer.requestFullscreen();
@@ -798,23 +779,21 @@
           document.exitFullscreen();
         }
       });
-      
       resetBtn.addEventListener('click', () => {
         currentScale = 1;
         currentTranslate = { x: 0, y: 0 };
         updateTransform();
       });
-      
+
       function updateProgress() {
         const playedPercent = (video.currentTime / video.duration) * 100;
         progressBar.style.width = `${playedPercent}%`;
         dragHandle.style.left = `${playedPercent}%`;
         timeDisplay.textContent = `${formatTime(video.currentTime)} / ${formatTime(video.duration)}`;
-        
         if (video.buffered.length) {
           const bufferedEnd = video.buffered.end(video.buffered.length - 1);
           const bufferedPercent = (bufferedEnd / video.duration) * 100;
-          if(bufferedPercent > playedPercent){
+          if (bufferedPercent > playedPercent) {
             bufferedBar.style.left = `${playedPercent}%`;
             bufferedBar.style.width = `${bufferedPercent - playedPercent}%`;
           } else {
@@ -822,20 +801,17 @@
           }
         }
       }
-      
       function formatTime(seconds) {
         const minutes = Math.floor(seconds / 60);
         const secs = Math.floor(seconds % 60);
         return `${String(minutes).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
       }
-      
       video.addEventListener('timeupdate', updateProgress);
       video.addEventListener('loadedmetadata', updateProgress);
       video.addEventListener('progress', updateProgress);
-      
+
       progressContainer.addEventListener('mousedown', startDrag);
       progressContainer.addEventListener('touchstart', startDrag, { passive: false });
-      
       function startDrag(e) {
         isDragging = true;
         dragHandle.style.transition = 'none';
@@ -845,7 +821,6 @@
         document.addEventListener('touchmove', handleDrag, { passive: false });
         document.addEventListener('touchend', stopDrag);
       }
-      
       function handleDrag(e) {
         if (!isDragging) return;
         const rect = progressContainer.getBoundingClientRect();
@@ -856,7 +831,6 @@
         video.currentTime = percent * video.duration;
         updateProgress();
       }
-      
       function stopDrag() {
         isDragging = false;
         dragHandle.style.transition = 'left 0.1s ease-out';
@@ -865,11 +839,10 @@
         document.removeEventListener('touchmove', handleDrag);
         document.removeEventListener('touchend', stopDrag);
       }
-      
+
       videoWrapper.addEventListener('touchstart', handleTouchStart, { passive: false });
       videoWrapper.addEventListener('touchmove', handleTouchMove, { passive: false });
       videoWrapper.addEventListener('touchend', handleTouchEnd);
-      
       function handleTouchStart(e) {
         if (e.touches.length === 2) {
           initialDistance = getDistance(e.touches[0], e.touches[1]);
@@ -878,7 +851,6 @@
           lastPanPosition = { x: e.touches[0].clientX, y: e.touches[0].clientY };
         }
       }
-      
       function handleTouchMove(e) {
         if (e.touches.length === 2 && initialDistance !== null) {
           const newDistance = getDistance(e.touches[0], e.touches[1]);
@@ -899,7 +871,6 @@
         }
         e.preventDefault();
       }
-      
       function handleTouchEnd(e) {
         if (e.touches.length < 2) {
           initialDistance = null;
@@ -909,18 +880,12 @@
           lastPanPosition = null;
         }
       }
-      
       function getDistance(touch1, touch2) {
-        return Math.hypot(
-          touch2.clientX - touch1.clientX,
-          touch2.clientY - touch1.clientY
-        );
+        return Math.hypot(touch2.clientX - touch1.clientX, touch2.clientY - touch1.clientY);
       }
-      
       function updateTransform() {
         videoWrapper.style.transform = `translate(${currentTranslate.x}px, ${currentTranslate.y}px) scale(${currentScale})`;
       }
-      
       function constrainTranslation() {
         const containerRect = videoContainer.getBoundingClientRect();
         const maxTranslateX = (containerRect.width * (currentScale - 1)) / 2;
@@ -929,542 +894,37 @@
         currentTranslate.y = Math.min(Math.max(currentTranslate.y, -maxTranslateY), maxTranslateY);
       }
     }
-  </script>
-  
-  <!-- باقي الأكواد الخاصة بالبحث، التصفح، تنزيل PDF، وغيرها من وظائف الموقع -->
-  <script>
-    /*==============================
-      Global Variables
-    ================================*/
-    let questionFiles = [];        // Will store question file paths from data/topics.json
-    let allSearchableElements = []; // For content search results
-    let globalTopicsData = null;    // For storing the full topics array from exp_topics.json
 
-    /*==============================
-      Initialization on DOMContentLoaded
-    ================================*/
-    document.addEventListener('DOMContentLoaded', async () => {
-      try {
-        await loadQuestionFilesFromTopics();
-        await loadTopicsAccordion();
-      } catch (error) {
-        console.error('Error during page load:', error);
-      }
-      // Attach topic search event listener
-      document.getElementById('topicSearch').addEventListener('input', filterTopics);
-    });
-
-    /*==============================
-      Load Question File Paths from data/topics.json
-    ================================*/
-    async function loadQuestionFilesFromTopics() {
-      try {
-        const res = await fetch('data/topics.json');
-        if (!res.ok) throw new Error('Cannot fetch data/topics.json');
-        const topicsData = await res.json();
-        let allFiles = [];
-        topicsData.forEach(topicObj => {
-          if (Array.isArray(topicObj.subTopics)) {
-            topicObj.subTopics.forEach(sub => {
-              if (sub.file) {
-                allFiles.push(sub.file);
-              }
-            });
-          }
-        });
-        questionFiles = [...new Set(allFiles)];
-        console.log('Collected question files:', questionFiles);
-      } catch (err) {
-        console.error('Error in loadQuestionFilesFromTopics:', err);
-        alert('Failed to load question files from topics.json');
-      }
-    }
-
-    /*==============================
-      Load Topics Accordion from exp_data/exp_topics.json
-    ================================*/
-    async function loadTopicsAccordion() {
-      const TOPICS_JSON_PATH = 'exp_data/exp_topics.json';
-      const topicsAccordion = document.getElementById('topicsAccordion');
-      try {
-        const response = await fetch(TOPICS_JSON_PATH);
-        if (!response.ok) throw new Error('Cannot fetch exp_topics.json');
-        const data = await response.json();
-        globalTopicsData = data.topics || []; // Store topics
-        buildAccordion(globalTopicsData, topicsAccordion, 'main', "");
-      } catch (error) {
-        console.error('Error fetching topics:', error);
-        topicsAccordion.innerHTML = '<p class="text-danger">Error loading topics. Ensure your local server is running.</p>';
-      }
-    }
-
-    /*==============================
-      Build Accordion Recursively with Hierarchical Path
-    ================================*/
-    function buildAccordion(topicsArray, parentElement, parentId, currentPath) {
-      if (!Array.isArray(topicsArray)) return;
-      topicsArray.forEach((topic, index) => {
-        const uniqueId = `${parentId}-topic-${index}`;
-        const headerId = `heading-${uniqueId}`;
-        const collapseId = `collapse-${uniqueId}`;
-        let fullPath = currentPath ? currentPath + " - " + topic.title : topic.title;
-
-        const accordionItem = document.createElement('div');
-        accordionItem.classList.add('accordion-item');
-        accordionItem.innerHTML = `
-          <h2 class="accordion-header" id="${headerId}">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}">
-              <i class="bi bi-bookmarks-fill me-2"></i> ${topic.title}
-            </button>
-          </h2>
-          <div id="${collapseId}" class="accordion-collapse collapse"
-               aria-labelledby="${headerId}"
-               data-bs-parent="${parentId !== 'main' ? '#' + parentId : '#topicsAccordion'}">
-            <div class="accordion-body" id="body-${uniqueId}">
-            </div>
-          </div>`;
-        parentElement.appendChild(accordionItem);
-
-        const bodyElement = accordionItem.querySelector(`#body-${uniqueId}`);
-        if (Array.isArray(topic.subtopics) && topic.subtopics.length > 0) {
-          const nestedAccordion = document.createElement('div');
-          nestedAccordion.classList.add('accordion');
-          nestedAccordion.id = `nested-${uniqueId}`;
-          bodyElement.appendChild(nestedAccordion);
-          buildAccordion(topic.subtopics, nestedAccordion, `nested-${uniqueId}`, fullPath);
-        }
-
-        if (topic.dataFile) {
-          const showContentBtn = document.createElement('button');
-          showContentBtn.classList.add('btn', 'btn-primary', 'btn-custom', 'btn-show-content');
-          showContentBtn.innerHTML = `<i class="bi bi-eye-fill"></i> View Content`;
-          showContentBtn.addEventListener('click', () => {
-            openContentPage(fullPath, topic.dataFile);
-          });
-          bodyElement.appendChild(showContentBtn);
-        }
-      });
-    }
-
-    /*==============================
-      Filter Topics (Search in main/sub/sub-sub ... titles)
-      Display full subtopics if title matches or only filtered if subtopics match.
-    ================================*/
-    function filterTopics() {
-      const query = document.getElementById('topicSearch').value.trim().toLowerCase();
-      const accordion = document.getElementById('topicsAccordion');
-      accordion.innerHTML = ''; // clear old results
-
-      if (!query) {
-        buildAccordion(globalTopicsData, accordion, 'main', "");
-        return;
-      }
-
-      const filtered = searchTopicsRecursive(globalTopicsData, query);
-      buildAccordion(filtered, accordion, 'main', "");
-    }
-
-    /*==============================
-      Recursive deep search in topics
-    ================================*/
-    function searchTopicsRecursive(topics, query) {
-      let result = [];
-      if (!topics) return result;
-
-      topics.forEach(topic => {
-        const titleMatch = topic.title.toLowerCase().includes(query);
-        let matchedSubtopics = [];
-
-        if (Array.isArray(topic.subtopics)) {
-          matchedSubtopics = searchTopicsRecursive(topic.subtopics, query);
-        }
-
-        if (titleMatch) {
-          result.push(topic);
-        } else if (matchedSubtopics.length > 0) {
-          let newTopic = Object.assign({}, topic);
-          newTopic.subtopics = matchedSubtopics;
-          result.push(newTopic);
-        }
-      });
-      return result;
-    }
-
-    /*==============================
-      Open Content Page: Fetch Content and Show Hierarchical Path
-    ================================*/
-    async function openContentPage(topicFullPath, dataFile) {
-      try {
-        const pageTopics = document.getElementById('pageTopics');
-        const pageContent = document.getElementById('pageContent');
-        const contentTitle = document.getElementById('contentTitle');
-        const resultDiv = document.getElementById('result');
-
-        const response = await fetch(`exp_data/${dataFile}`);
-        if (!response.ok) throw new Error(`Cannot fetch file: ${dataFile}`);
-        const jsonData = await response.json();
-
-        contentTitle.textContent = topicFullPath;
-        resultDiv.innerHTML = jsonData.content ? jsonData.content : '<p>No content available.</p>';
-
-        attachAllTriggers(); // تفعيل التريغرز
-        allSearchableElements = Array.from(document.querySelectorAll('#result p, #result td, #result th, #result h1, #result h2, #result h3, #result h4, #result h5, #result h6, #result li'));
-
-        pageTopics.style.display = 'none';
-        document.getElementById('topicsSearchContainer').style.display = 'none';
-        pageContent.style.display = 'block';
-        document.getElementById('floatingButtons').style.display = 'flex';
-
-        scrollToTop();
-        // تهيئة مشغل الفيديو المتقدم إذا وُجد فيديو في المحتوى
-        initAdvancedVideoPlayers();
-      } catch (error) {
-        console.error('Error opening content file:', error);
-        alert('Error loading content. Check console for details.');
-      }
-    }
-
-    /*==============================
-      دالة ترفق جميع التريغرز
-    ================================*/
-    function attachAllTriggers() {
-      // الأسئلة
-      attachQuestionTriggers();
-
-      // الصور
-      const imageEls = document.querySelectorAll('.image-trigger');
-      imageEls.forEach(el => {
-        el.addEventListener('click', () => {
-          const imgSrc = el.getAttribute('data-img-src');
-          openMultiTriggerModal({ images: [imgSrc] });
-        });
-      });
-
-      // الفيديو
-      const videoEls = document.querySelectorAll('.video-trigger');
-      videoEls.forEach(el => {
-        el.addEventListener('click', () => {
-          const vidSrc = el.getAttribute('data-vid-src');
-          openMultiTriggerModal({ videos: [vidSrc] });
-        });
-      });
-
-      // الروابط
-      const linkEls = document.querySelectorAll('.link-trigger');
-      linkEls.forEach(el => {
-        el.addEventListener('click', () => {
-          const linkHref = el.getAttribute('data-link-href');
-          openMultiTriggerModal({ links: [linkHref] });
-        });
-      });
-
-      // iframes
-      const iframeEls = document.querySelectorAll('.iframe-trigger');
-      iframeEls.forEach(el => {
-        el.addEventListener('click', () => {
-          const iframeSrc = el.getAttribute('data-iframe-src');
-          openMultiTriggerModal({ iframes: [iframeSrc] });
-        });
-      });
-
-      // multi-trigger
-      const multiEls = document.querySelectorAll('.multi-trigger');
-      multiEls.forEach(el => {
-        el.addEventListener('click', () => {
-          let dataObj = {
-            images: [],
-            videos: [],
-            links: [],
-            questions: [],
-            iframes: []
-          };
-          if(el.hasAttribute('data-img-src')){
-            dataObj.images.push(el.getAttribute('data-img-src'));
-          }
-          if(el.hasAttribute('data-vid-src')){
-            dataObj.videos.push(el.getAttribute('data-vid-src'));
-          }
-          if(el.hasAttribute('data-link-href')){
-            dataObj.links.push(el.getAttribute('data-link-href'));
-          }
-          if(el.hasAttribute('data-qids')){
-            dataObj.questions = el.getAttribute('data-qids').split(',').map(x => x.trim());
-          }
-          if(el.hasAttribute('data-iframe-src')){
-            dataObj.iframes.push(el.getAttribute('data-iframe-src'));
-          }
-          openMultiTriggerModal(dataObj);
-        });
-      });
-    }
-
-    /*==============================
-      Attach event listeners to question triggers
-    ================================*/
-    function attachQuestionTriggers() {
-      const triggers = document.querySelectorAll('.question-trigger');
-      triggers.forEach(trigger => {
-        trigger.addEventListener('click', () => {
-          const qids = trigger.getAttribute('data-qids');
-          if (qids) {
-            const idArray = qids.split(',').map(id => id.trim());
-            fetchQuestionsAndShowModal(idArray);
-          }
-        });
-      });
-    }
-
-    /*==============================
-      فتح المودال الموحد (صور/فيديو/روابط/أسئلة/iframes)
-    ================================*/
-    function openMultiTriggerModal(dataObj) {
-      const modalBody = document.getElementById('multiTriggerModalBody');
-      modalBody.innerHTML = '';
-
-      // صور
-      if(dataObj.images && dataObj.images.length > 0){
-        dataObj.images.forEach(src => {
-          const img = document.createElement('img');
-          img.src = src;
-          img.classList.add('img-fluid', 'mb-3');
-          modalBody.appendChild(img);
-        });
-      }
-
-      // فيديو
-      if(dataObj.videos && dataObj.videos.length > 0){
-        dataObj.videos.forEach(src => {
-          const divContainer = document.createElement('div');
-          divContainer.classList.add('video-container');
-          const videoEl = document.createElement('video');
-          videoEl.src = src;
-          videoEl.controls = true;
-          divContainer.appendChild(videoEl);
-          modalBody.appendChild(divContainer);
-
-          // تهيئة مشغل الفيديو المتقدم بعد إضافته
-          setTimeout(() => {
-            initAdvancedVideoPlayers();
-          }, 50);
-        });
-      }
-
-      // روابط
-      if(dataObj.links && dataObj.links.length > 0){
-        dataObj.links.forEach(linkHref => {
-          const a = document.createElement('a');
-          a.href = linkHref;
-          a.target = '_blank';
-          a.textContent = linkHref;
-          a.classList.add('d-block', 'mb-3');
-          modalBody.appendChild(a);
-        });
-      }
-
-      // iframes
-      if(dataObj.iframes && dataObj.iframes.length > 0){
-        dataObj.iframes.forEach(ifSrc => {
-          const ifrm = document.createElement('iframe');
-          ifrm.src = ifSrc;
-          ifrm.width = '100%';
-          ifrm.height = '315';
-          ifrm.frameBorder = '0';
-          ifrm.allowFullscreen = true;
-          ifrm.classList.add('mb-3');
-          modalBody.appendChild(ifrm);
-        });
-      }
-
-      // أسئلة
-      if(dataObj.questions && dataObj.questions.length > 0){
-        fetchQuestionsAndAppendToMultiModal(dataObj.questions);
-      }
-
-      const multiModal = new bootstrap.Modal(document.getElementById('multiTriggerModal'));
-      multiModal.show();
-    }
-
-    /*==============================
-      جلب الأسئلة وعرضها في المودال
-    ================================*/
-    async function fetchQuestionsAndAppendToMultiModal(qids) {
-      let allQuestions = [];
-      try {
-        for (const fileName of questionFiles) {
-          try {
-            const res = await fetch(fileName);
-            if (res.ok) {
-              const questionsInFile = await res.json();
-              allQuestions = allQuestions.concat(questionsInFile);
-            }
-          } catch (err) {
-            console.error(`Error fetching file ${fileName}:`, err);
-          }
-        }
-        const filtered = allQuestions.filter(q => qids.includes(q.qID));
-        let html = '';
-        if (filtered.length > 0) {
-          filtered.forEach(q => {
-            html += `
-              <div class="question-item" data-answer="${q.answer}">
-                <h5>${q.question}</h5>
-                <form>
-                  ${q.options.map((option, idx) => `
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="qID_${q.qID}" id="qID_${q.qID}_opt${idx}" value="${idx}">
-                      <label class="form-check-label" for="qID_${q.qID}_opt${idx}">
-                        ${option}
-                      </label>
-                    </div>
-                  `).join('')}
-                  <button type="button" class="btn btn-sm btn-primary mt-2" 
-                    onclick="checkAnswer(this, '${escapeHtml(q.explanation)}', '${escapeHtml(q.answerText)}')">
-                    Check Answer
-                  </button>
-                  <div class="answer-result text-center" style="display: none;"></div>
-                </form>
-              </div>
-            `;
-          });
-        } else {
-          html = '<p>No questions available for this topic.</p>';
-        }
-        const modalBody = document.getElementById('multiTriggerModalBody');
-        modalBody.insertAdjacentHTML('beforeend', html);
-      } catch (error) {
-        console.error('Error merging questions:', error);
-        alert('Error loading questions. Check console for details.');
-      }
-    }
-
-    /*==============================
-      Fetch Questions and Show in separate modal
-    ================================*/
-    async function fetchQuestionsAndShowModal(idArray) {
-      let allQuestions = [];
-      try {
-        for (const fileName of questionFiles) {
-          try {
-            const res = await fetch(fileName);
-            if (res.ok) {
-              const questionsInFile = await res.json();
-              allQuestions = allQuestions.concat(questionsInFile);
-            }
-          } catch (err) {
-            console.error(`Error fetching file ${fileName}:`, err);
-          }
-        }
-
-        const filtered = allQuestions.filter(q => idArray.includes(q.qID));
-        let questionsHtml = '';
-        if (filtered.length > 0) {
-          filtered.forEach(q => {
-            questionsHtml += `
-              <div class="question-item" data-answer="${q.answer}">
-                <h5>${q.question}</h5>
-                <form>
-                  ${q.options.map((option, idx) => `
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="qID_${q.qID}" id="qID_${q.qID}_opt${idx}" value="${idx}">
-                      <label class="form-check-label" for="qID_${q.qID}_opt${idx}">
-                        ${option}
-                      </label>
-                    </div>
-                  `).join('')}
-                  <button type="button" class="btn btn-sm btn-primary mt-2" 
-                    onclick="checkAnswer(this, '${escapeHtml(q.explanation)}', '${escapeHtml(q.answerText)}')">
-                    Check Answer
-                  </button>
-                  <div class="answer-result text-center" style="display: none;"></div>
-                </form>
-              </div>
-            `;
-          });
-        } else {
-          questionsHtml = '<p>No questions available for this topic.</p>';
-        }
-
-        document.getElementById('questionsModalBody').innerHTML = questionsHtml;
-        const questionsModal = new bootstrap.Modal(document.getElementById('questionsModal'));
-        questionsModal.show();
-      } catch (error) {
-        console.error('Error merging questions:', error);
-        alert('Error loading questions. Check console for details.');
-      }
-    }
-
-    /*==============================
-      Check answer
-    ================================*/
-    function checkAnswer(btn, explanation, answerText) {
-      const questionItem = btn.closest('.question-item');
-      const correctIndex = parseInt(questionItem.dataset.answer, 10);
-      const form = questionItem.querySelector('form');
-      const selectedRadio = form.querySelector('input[type="radio"]:checked');
-      const resultDiv = questionItem.querySelector('.answer-result');
-
-      if (!selectedRadio) {
-        resultDiv.style.display = 'block';
-        resultDiv.innerHTML = '<p class="text-danger">No option selected!</p>';
-        return;
-      }
-
-      const userIndex = parseInt(selectedRadio.value, 10);
-      if (userIndex === correctIndex) {
-        resultDiv.style.display = 'block';
-        resultDiv.innerHTML = `<p class="text-success fw-bold">Correct Answer!</p>
-                               <p><strong>Explanation:</strong> ${explanation}</p>`;
-      } else {
-        resultDiv.style.display = 'block';
-        resultDiv.innerHTML = `<p class="text-danger fw-bold">Wrong Answer!</p>
-                               <p><strong>Correct Answer:</strong> ${answerText}</p>
-                               <p><strong>Explanation:</strong> ${explanation}</p>`;
-      }
-    }
-
-    /*==============================
-      Utility: Escape HTML
-    ================================*/
-    function escapeHtml(str) {
-      return str
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#039;');
-    }
-
-    /*==============================
-      Download PDF (single-pass replacement to avoid duplication)
-    ================================*/
+    // -------------------------------------------
+    // الدالة الخاصة بطباعة PDF (downloadPdf)
+    // -------------------------------------------
     function downloadPdf() {
       const contentTitle = document.getElementById('contentTitle').textContent;
       let content = document.getElementById('result').innerHTML;
 
-      // تحقق لو كان داخل تريغر كي لا نبدله
-      function isInTrigger(htmlStr) {
-        return /class\s*=\s*"[^"]*trigger[^"]*"/i.test(htmlStr);
+      // وظيفة بسيطة للتحقق إن كان العنصر داخل تريغر
+      function isInTrigger(str) {
+        // نفترض أن وجود class="...trigger" يمنع الاستبدال
+        return /class\s*=\s*"[^"]*trigger[^"]*"/i.test(str);
       }
 
-      // نستخدم Regex واحد كبير يجمع كل العناصر (videoContainer, videoWrapper, customControls, .video-container, <video>, <iframe>)
-      // في لقطة واحدة كي لا يتكرر الاستبدال ويُنتج أكثر من مرة
-      // نفعل ذلك باستخدام المجموعة الاختيارية:  (?:...) وبدون تكرار مرات
+      // نعمل استبدالاً واحداً بنمط regex كبير
       const pattern = /<(?:div|video|iframe)\s+(?:[^>]*id="(?:videoContainer|videoWrapper|customControls)"[^>]*|class="video-container"[^>]*|[^>]*iframe[^>]*)>[\s\S]*?<\/(?:div|video|iframe)>|<video[^>]*>[\s\S]*?<\/video>/gi;
 
-      let modifiedContent = content.replace(pattern, match => {
-        // إذا كان داخل تريغر، لا نستبدله
+      const replacedContent = content.replace(pattern, match => {
         if (isInTrigger(match)) {
-          return match;
+          return match; // لا نستبدل لو كان داخل تريغر
         }
-        // وإلا نستبدل الكل:
+        // وإلا نستبدل
         return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
                 <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
       });
 
+      // الآن نبني صفحة about:blank دون أي كود خاص بالمشغّل
+      // كي لا تظهر الأزرار بأي شكل
       const printWindow = window.open('about:blank', '_blank');
-      printWindow.document.write(
-        `<html>
+      printWindow.document.write(`
+        <html>
           <head>
             <meta charset="UTF-8">
             <title>Download PDF</title>
@@ -1477,7 +937,7 @@
                 background-color: #fafafa; 
                 color: #2c3e50;
               }
-              /* العلامة المائية بحجم أصغر قليلًا وفي المنتصف */
+              /* العلامة المائية في المنتصف */
               body::before {
                 content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
                 white-space: pre;
@@ -1528,9 +988,10 @@
           <body>
             <div id="content">
               <h1>${contentTitle}</h1>
-              ${modifiedContent}
+              ${replacedContent}
             </div>
-            <!-- MathJax -->
+            <!-- لا نضمّن أي كود خاص بالفيديو المتقدم -->
+            <!-- MathJax فقط -->
             <script>
               window.MathJax = {
                 tex: {
@@ -1549,14 +1010,14 @@
               };
             <\/script>
           </body>
-        </html>`
-      );
+        </html>
+      `);
       printWindow.document.close();
     }
 
-    /*==============================
-      Return to Topics Page
-    ================================*/
+    // -------------------------------------------
+    // العودة للمواضيع
+    // -------------------------------------------
     function goBackToTopics() {
       document.getElementById('pageContent').style.display = 'none';
       document.getElementById('pageTopics').style.display = 'block';
@@ -1564,9 +1025,9 @@
       document.getElementById('floatingButtons').style.display = 'none';
     }
 
-    /*==============================
-      Scroll Navigation Functions
-    ================================*/
+    // -------------------------------------------
+    // Scroll
+    // -------------------------------------------
     function scrollToTop() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
@@ -1574,9 +1035,9 @@
       window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
     }
 
-    /*==============================
-      Content Search Modal Functions
-    ================================*/
+    // -------------------------------------------
+    // Content Search Modal
+    // -------------------------------------------
     function openContentSearchModal() {
       const searchModal = new bootstrap.Modal(document.getElementById('contentSearchModal'));
       searchModal.show();
