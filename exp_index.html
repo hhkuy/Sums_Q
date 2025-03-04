@@ -1443,15 +1443,15 @@
   const contentTitle = document.getElementById('contentTitle').textContent;
   let content = document.getElementById('result').innerHTML;
 
-  // إزالة جميع العناصر غير المرغوبة (أزرار، تحكم، وقت، إلخ)
+  // 1. حذف العناصر غير المرغوبة فقط (بدون التأثير على المحتوى الأساسي)
   content = content
     .replace(/<button[^>]*>.*?<\/button>/gi, '') // إزالة الأزرار
     .replace(/<div class="custom-controls[^>]*>.*?<\/div>/gi, '') // إزالة عناصر التحكم
     .replace(/<div id="floatingButtons[^>]*>.*?<\/div>/gi, '') // إزالة الأزرار العائمة
-    .replace(/<div class="time-display[^>]*>.*?<\/div>/gi, '') // إزالة وقت التشغيل
-    .replace(/<div class="progress-container[^>]*>.*?<\/div>/gi, ''); // إزالة شريط التقدم
+    .replace(/<div class="time-display[^>]*>.*?<\/div>/gi, '') // وقت التشغيل
+    .replace(/<div class="progress-container[^>]*>.*?<\/div>/gi, ''); // شريط التقدم
 
-  // رسالة الاشتراك مع QR Code
+  // 2. استبدال الفيديو/iframe برسالة الاشتراك (مع الحفاظ على باقي المحتوى)
   const subscriptionMsg = `
     <p style="text-align:center;">
       If you want to watch the video or the content, you must subscribe to the site.<br>
@@ -1461,11 +1461,12 @@
     </p>
   `;
 
-  // استبدال جميع العناصر المرتبطة بالفيديو/iframe (بما في ذلك الحاويات)
-  content = content
-    .replace(/(<video[\s\S]*?<\/video>|<iframe[\s\S]*?<\/iframe>|<div class="video-container[^>]*>[\s\S]*?<\/div>)/gi, subscriptionMsg);
+  content = content.replace(
+    /(<video[\s\S]*?<\/video>|<iframe[\s\S]*?<\/iframe>)/i, 
+    subscriptionMsg
+  );
 
-  // إنشاء نافذة الطباعة مع إخفاء كافة العناصر الزائدة
+  // 3. إنشاء نافذة الطباعة مع التأكد من ظهور المحتوى
   const printWindow = window.open('about:blank', '_blank');
   printWindow.document.write(`
     <html>
@@ -1473,13 +1474,13 @@
         <meta charset="UTF-8">
         <title>Download PDF</title>
         <style>
-          /* إخفاء كافة العناصر ما عدا المحتوى الرئيسي */
-          * {
+          /* إخفاء العناصر غير المرغوبة فقط */
+          button, .custom-controls, #floatingButtons, 
+          .time-display, .progress-container {
             display: none !important;
           }
-          #content, #content * {
-            display: block !important;
-          }
+
+          /* العلامة المائية */
           body::before {
             content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
             white-space: pre;
@@ -1492,6 +1493,13 @@
             pointer-events: none;
             z-index: 0;
             text-align: center;
+          }
+
+          /* إظهار المحتوى الرئيسي */
+          #content {
+            position: relative;
+            z-index: 1;
+            margin: 20px;
           }
         </style>
       </head>
