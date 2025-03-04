@@ -151,17 +151,17 @@ function downloadPdf() {
   let modifiedContent = content
     // استبدال .video-container أولاً
     .replace(/<div class="video-container"[^>]*>[\s\S]*?<\/div>/gi, function() {
-      return `<p>If you want to watch the video or the content, you must subscribe to the site (تجدون فورم و تفاصيل الاشتراك في الموقع مكتوبة بالانكليزي).<br>
+      return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
               <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
     })
     // استبدال أي iframe
     .replace(/<iframe[^>]*>.*?<\/iframe>/gi, function() {
-      return `<p>If you want to watch the video or the content, you must subscribe to the site (تجدون فورم و تفاصيل الاشتراك في الموقع مكتوبة بالانكليزي).<br>
+      return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
               <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
     })
     // استبدال أي video
     .replace(/<video[^>]*>.*?<\/video>/gi, function() {
-      return `<p>If you want to watch the video or the content, you must subscribe to the site (تجدون فورم و تفاصيل الاشتراك في الموقع مكتوبة بالانكليزي).<br>
+      return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
               <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
     });
 
