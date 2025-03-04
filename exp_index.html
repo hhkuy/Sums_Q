@@ -269,7 +269,7 @@
       background-color: #f2f2f2;
     }
 
-    /* العلامة المائية: ثابتة في منتصف الإطار */
+    /* العلامة المائية: ثابتة في منتصف الإطار (لا تتحرك عند التمرير) */
     #pageContent {
       position: relative;
       overflow: hidden; /* كي لا تخرج العلامة المائية عن الإطار */
@@ -277,14 +277,14 @@
     #pageContent::before {
       content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
       white-space: pre;
-      position: absolute; 
+      position: fixed; /* تم تغييرها إلى fixed لتثبيت العلامة المائية */
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%) rotate(-30deg);
       font-size: 25px; /* الحجم */
       color: rgba(0, 0, 0, 0.07);
       pointer-events: none;
-      z-index: 5;
+      z-index: 9999; /* بقاء العلامة فوق كل شيء */
       text-align: center;
     }
 
@@ -556,8 +556,8 @@
 
         const accordionItem = document.createElement('div');
         accordionItem.classList.add('accordion-item');
-        accordionItem.innerHTML = `
-          <h2 class="accordion-header" id="${headerId}">
+        accordionItem.innerHTML = 
+          `<h2 class="accordion-header" id="${headerId}">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}">
               <i class="bi bi-bookmarks-fill me-2"></i> ${topic.title}
@@ -973,14 +973,14 @@
               <div class="question-item" data-answer="${q.answer}">
                 <h5>${q.question}</h5>
                 <form>
-                  ${q.options.map((option, idx) => `
-                    <div class="form-check">
+                  ${q.options.map((option, idx) => 
+                    `<div class="form-check">
                       <input class="form-check-input" type="radio" name="qID_${q.qID}" id="qID_${q.qID}_opt${idx}" value="${idx}">
                       <label class="form-check-label" for="qID_${q.qID}_opt${idx}">
                         ${option}
                       </label>
-                    </div>
-                  `).join('')}
+                    </div>`
+                  ).join('')}
                   <button type="button" class="btn btn-sm btn-primary mt-2" 
                     onclick="checkAnswer(this, '${escapeHtml(q.explanation)}', '${escapeHtml(q.answerText)}')">
                     Check Answer
@@ -1027,14 +1027,14 @@
               <div class="question-item" data-answer="${q.answer}">
                 <h5>${q.question}</h5>
                 <form>
-                  ${q.options.map((option, idx) => `
-                    <div class="form-check">
+                  ${q.options.map((option, idx) => 
+                    `<div class="form-check">
                       <input class="form-check-input" type="radio" name="qID_${q.qID}" id="qID_${q.qID}_opt${idx}" value="${idx}">
                       <label class="form-check-label" for="qID_${q.qID}_opt${idx}">
                         ${option}
                       </label>
-                    </div>
-                  `).join('')}
+                    </div>`
+                  ).join('')}
                   <button type="button" class="btn btn-sm btn-primary mt-2" 
                     onclick="checkAnswer(this, '${escapeHtml(q.explanation)}', '${escapeHtml(q.answerText)}')">
                     Check Answer
@@ -1134,7 +1134,7 @@
                 background-color: #fafafa; 
                 color: #2c3e50;
               }
-              /* العلامة المائية بحجم أصغر وفي المنتصف */
+              /* العلامة المائية بحجم أصغر وفي المنتصف - ثابتة وأمام المحتوى */
               body::before {
                 content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
                 white-space: pre;
@@ -1145,7 +1145,7 @@
                 font-size: 25px;
                 color: rgba(0, 0, 0, 0.07);
                 pointer-events: none;
-                z-index: 0;
+                z-index: 9999;
                 text-align: center;
               }
               #content {
@@ -1156,11 +1156,60 @@
                 font-size: 14px;
                 border: none;
               }
-              h1 {
-                text-align: center; 
-                font-weight: 600;
-                margin-bottom: 20px; 
+              /* نسخ ألوان العناوين والفقرات تمامًا كما في الصفحة الأصلية */
+              h1 { color: #2e4053; }
+              h2 { color: #2874a6; }
+              h3 { color: #148f77; }
+              h4 { color: #9b59b6; }
+              h5, h6 { color: #b03a2e; }
+              p, li, td, th { color: #2c3e50; }
+              strong { color: #6c3483; font-weight: bold; }
+              em { color: #d35400; font-style: italic; }
+
+              /* نسخ أنماط التريغرز بألوانها */
+              .question-trigger {
+                color: #ff8c00; 
+                font-weight: bold; 
+                cursor: pointer; 
+                text-decoration: underline;
               }
+              .image-trigger {
+                color: #28a745; 
+                font-weight: bold; 
+                cursor: pointer; 
+                text-decoration: underline;
+              }
+              .video-trigger {
+                color: #007bff; 
+                font-weight: bold; 
+                cursor: pointer; 
+                text-decoration: underline;
+              }
+              .link-trigger {
+                color: #6f42c1; 
+                font-weight: bold; 
+                cursor: pointer; 
+                text-decoration: underline;
+              }
+              .multi-trigger {
+                color: #dc3545; 
+                font-weight: bold; 
+                cursor: pointer; 
+                text-decoration: underline;
+              }
+              .iframe-trigger {
+                color: #20c997; 
+                font-weight: bold; 
+                cursor: pointer; 
+                text-decoration: underline;
+              }
+              .text-trigger {
+                color: #d63384; 
+                font-weight: bold; 
+                cursor: pointer; 
+                text-decoration: underline;
+              }
+
               table {
                 width: 100%;
                 border-collapse: collapse;
@@ -1173,9 +1222,6 @@
               }
               table thead {
                 background-color: #f2f2f2;
-              }
-              p, li, td, th, code, pre, span {
-                color: #2c3e50 !important;
               }
               .mjx-container {
                 zoom: 1.2;
