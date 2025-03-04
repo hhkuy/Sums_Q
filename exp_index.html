@@ -19,8 +19,8 @@
       margin: 0;
       padding: 0;
       font-family: 'Montserrat', sans-serif;
-      background-color: #fafafa; /* نفس الخلفية */
-      color: #2c3e50; /* نفس لون الخط */
+      background-color: #fafafa;
+      color: #2c3e50;
     }
     h1, h2, h3, h4, h5, h6 {
       font-weight: 600;
@@ -202,39 +202,39 @@
       box-shadow: 0 5px 15px rgba(0,123,255,0.2);
     }
 
-    /* ألوان خاصة للتريغرز بأنواعها: أسئلة/صور/فيديو/رابط/متعدّد/iframe */
+    /* ألوان خاصة للتريغرز بأنواعها: أسئلة/صور/فيديو/رابط/متعدّد */
     .question-trigger {
-      color: #ff8c00; /* برتقالي */
+      color: #ff8c00;
       font-weight: bold;
       cursor: pointer;
       text-decoration: underline;
     }
     .image-trigger {
-      color: #28a745; /* أخضر */
+      color: #28a745;
       font-weight: bold;
       cursor: pointer;
       text-decoration: underline;
     }
     .video-trigger {
-      color: #007bff; /* أزرق */
-      font-weight: bold;
-      cursor: pointer;
-      text-decoration: underline;
-    }
-    .link-trigger {
-      color: #6f42c1; /* بنفسجي */
-      font-weight: bold;
-      cursor: pointer;
-      text-decoration: underline;
-    }
-    .multi-trigger {
-      color: #dc3545; /* أحمر */
+      color: #007bff;
       font-weight: bold;
       cursor: pointer;
       text-decoration: underline;
     }
     .iframe-trigger {
-      color: #6c757d; /* رمادي */
+      color: #17a2b8;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    .link-trigger {
+      color: #6f42c1;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    .multi-trigger {
+      color: #dc3545;
       font-weight: bold;
       cursor: pointer;
       text-decoration: underline;
@@ -263,24 +263,22 @@
       background-color: #f2f2f2;
     }
 
-    /*
-      العلامة المائية ثابتة في وسط الشاشة أثناء التمرير:
-      نستخدم position: fixed كي لا تتحرك مع المحتوى.
-    */
+    /* العلامة المائية: ثابتة في منتصف الإطار عند التمرير */
     #pageContent {
       position: relative;
+      overflow: hidden;
     }
     #pageContent::before {
-      content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
+      content: "SUMS Site\nhttps://sites.google.com/view/medsums/sums-questions-bank-sqb";
       white-space: pre;
-      position: fixed; /* تبقى ثابتة عند التمرير */
+      position: fixed;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%) rotate(-30deg);
-      font-size: 25px;
+      font-size: 20px;
       color: rgba(0, 0, 0, 0.07);
       pointer-events: none;
-      z-index: 9998;
+      z-index: 5;
       text-align: center;
     }
 
@@ -307,9 +305,7 @@
   
   <!-- أنماط مشغل الفيديو المتقدم -->
   <style>
-    body {
-      /* لن تتعارض هذه الأنماط مع الأنماط العامة للموقع */
-    }
+    body { }
     /* أنماط مشغل الفيديو المتقدم */
     #videoContainer {
       position: relative;
@@ -620,7 +616,7 @@
     <div id="videoContainer">
       <div id="videoWrapper">
         <video id="videoPlayer" preload="metadata" controlsList="nodownload noremoteplayback" disablePictureInPicture>
-          <source src="https://link.storjshare.io/raw/jwfnitlyfrtkqoherxcsa45gcnga/sums/Screen_Recording_%D9%A2%D9%A0%D9%A2%D9%A5%D9%A0%D9%A3%D9%A0%D9%A2_%D9%A2%D9%A3%D9%A0%D9%A8%D9%A0%D9%A9_One%20UI%20Home.mp4" type="video/mp4">
+          <source src="" type="video/mp4">
           المتصفح الخاص بك لا يدعم الفيديو.
         </video>
         <div id="playPauseOverlay"><i class="fas fa-play"></i></div>
@@ -930,15 +926,15 @@
       }
     }
   </script>
-  
+
   <!-- باقي الأكواد الخاصة بالبحث، التصفح، تنزيل PDF، وغيرها من وظائف الموقع -->
   <script>
     /*==============================
       Global Variables
     ================================*/
-    let questionFiles = [];        // Will store question file paths from data/topics.json
-    let allSearchableElements = []; // For content search results
-    let globalTopicsData = null;    // For storing the full topics array from exp_topics.json
+    let questionFiles = [];
+    let allSearchableElements = [];
+    let globalTopicsData = null;
 
     /*==============================
       Initialization on DOMContentLoaded
@@ -950,7 +946,6 @@
       } catch (error) {
         console.error('Error during page load:', error);
       }
-      // Attach topic search event listener
       document.getElementById('topicSearch').addEventListener('input', filterTopics);
     });
 
@@ -990,7 +985,7 @@
         const response = await fetch(TOPICS_JSON_PATH);
         if (!response.ok) throw new Error('Cannot fetch exp_topics.json');
         const data = await response.json();
-        globalTopicsData = data.topics || []; // Store topics
+        globalTopicsData = data.topics || [];
         buildAccordion(globalTopicsData, topicsAccordion, 'main', "");
       } catch (error) {
         console.error('Error fetching topics:', error);
@@ -1049,12 +1044,11 @@
 
     /*==============================
       Filter Topics (Search in main/sub/sub-sub ... titles)
-      Display full subtopics if title matches or only filtered if subtopics match.
     ================================*/
     function filterTopics() {
       const query = document.getElementById('topicSearch').value.trim().toLowerCase();
       const accordion = document.getElementById('topicsAccordion');
-      accordion.innerHTML = ''; // clear old results
+      accordion.innerHTML = '';
 
       if (!query) {
         buildAccordion(globalTopicsData, accordion, 'main', "");
@@ -1128,13 +1122,12 @@
     }
 
     /*==============================
-      دالة ترفق جميع التريغرز (أسئلة/صور/فيديو/روابط/متعدّد/iframe)
+      دالة ترفق جميع التريغرز (أسئلة/صور/فيديو/روابط/متعدّد)
     ================================*/
     function attachAllTriggers() {
-      // الأسئلة كما في السابق
       attachQuestionTriggers();
 
-      // بقية الأنواع (image-trigger, video-trigger, link-trigger, iframe-trigger)
+      // تريغرز الصور
       const imageEls = document.querySelectorAll('.image-trigger');
       imageEls.forEach(el => {
         el.addEventListener('click', () => {
@@ -1143,15 +1136,25 @@
         });
       });
 
+      // تريغرز الفيديو (المحتوى الرئيسي) باستخدام مشغل الفيديو المتقدم
       const videoEls = document.querySelectorAll('.video-trigger');
       videoEls.forEach(el => {
         el.addEventListener('click', () => {
           const vidSrc = el.getAttribute('data-vid-src');
-          // هنا نتعامل مع الفيديو كعنصر مشغل متقدم ضمن المودال
           openMultiTriggerModal({ videos: [vidSrc] });
         });
       });
 
+      // تريغرز الإطارات المضمنة (مثل فيديوهات اليوتيوب)
+      const iframeEls = document.querySelectorAll('.iframe-trigger');
+      iframeEls.forEach(el => {
+        el.addEventListener('click', () => {
+          const embedSrc = el.getAttribute('data-embed-src');
+          openMultiTriggerModal({ iframes: [embedSrc] });
+        });
+      });
+
+      // تريغرز الروابط
       const linkEls = document.querySelectorAll('.link-trigger');
       linkEls.forEach(el => {
         el.addEventListener('click', () => {
@@ -1160,25 +1163,16 @@
         });
       });
 
-      const iframeEls = document.querySelectorAll('.iframe-trigger');
-      iframeEls.forEach(el => {
-        el.addEventListener('click', () => {
-          const iframeSrc = el.getAttribute('data-iframe-src');
-          // نعرضه في المودال كمثل embed/iframe
-          openMultiTriggerModal({ iframes: [iframeSrc] });
-        });
-      });
-
-      // في حال كان هناك أكثر من تريغر في نفس العنصر (multi-trigger)
+      // التريغرز المتعددة
       const multiEls = document.querySelectorAll('.multi-trigger');
       multiEls.forEach(el => {
         el.addEventListener('click', () => {
           let dataObj = {
             images: [],
             videos: [],
+            iframes: [],
             links: [],
-            questions: [],
-            iframes: []
+            questions: []
           };
           if(el.hasAttribute('data-img-src')){
             dataObj.images.push(el.getAttribute('data-img-src'));
@@ -1186,11 +1180,11 @@
           if(el.hasAttribute('data-vid-src')){
             dataObj.videos.push(el.getAttribute('data-vid-src'));
           }
+          if(el.hasAttribute('data-embed-src')){
+            dataObj.iframes.push(el.getAttribute('data-embed-src'));
+          }
           if(el.hasAttribute('data-link-href')){
             dataObj.links.push(el.getAttribute('data-link-href'));
-          }
-          if(el.hasAttribute('data-iframe-src')){
-            dataObj.iframes.push(el.getAttribute('data-iframe-src'));
           }
           if(el.hasAttribute('data-qids')){
             dataObj.questions = el.getAttribute('data-qids').split(',').map(x => x.trim());
@@ -1217,7 +1211,7 @@
     }
 
     /*==============================
-      فتح المودال الموحّد للصور/فيديو/روابط/أسئلة/iframes
+      فتح المودال الموحّد للصور/فيديو/روابط/أسئلة
     ================================*/
     function openMultiTriggerModal(dataObj) {
       const modalBody = document.getElementById('multiTriggerModalBody');
@@ -1232,22 +1226,33 @@
           modalBody.appendChild(img);
         });
       }
-      // عرض الفيديوهات (كمشغل فيديو متقدم أيضاً)
+      // عرض الفيديوهات باستخدام مشغل الفيديو المتقدم
       if(dataObj.videos && dataObj.videos.length > 0){
         dataObj.videos.forEach(src => {
-          // ننشئ div.video-container ثم نحقن فيها الفيديو
-          const divContainer = document.createElement('div');
-          divContainer.classList.add('video-container');
-          const videoEl = document.createElement('video');
-          videoEl.src = src;
-          videoEl.controls = true;
-          divContainer.appendChild(videoEl);
-          modalBody.appendChild(divContainer);
-
-          // بعد إدخال العنصر في الـDOM، نستدعي initAdvancedVideoPlayers عليه
-          setTimeout(() => {
-            initAdvancedVideoPlayers();
-          }, 50);
+          const container = document.createElement('div');
+          container.classList.add('video-container', 'mb-3');
+          const template = document.getElementById('advancedVideoTemplate');
+          const clone = template.content.cloneNode(true);
+          const videoElem = clone.querySelector('#videoPlayer');
+          const sourceElem = videoElem.querySelector('source');
+          sourceElem.setAttribute('src', src);
+          videoElem.removeAttribute('controls');
+          container.innerHTML = '';
+          container.appendChild(clone);
+          modalBody.appendChild(container);
+          initAdvancedVideoPlayerEvents(container);
+        });
+      }
+      // عرض الإطارات المضمنة
+      if(dataObj.iframes && dataObj.iframes.length > 0){
+        dataObj.iframes.forEach(src => {
+          const iframe = document.createElement('iframe');
+          iframe.src = src;
+          iframe.width = "100%";
+          iframe.height = "400";
+          iframe.style.border = "none";
+          iframe.classList.add('mb-3');
+          modalBody.appendChild(iframe);
         });
       }
       // عرض الروابط
@@ -1259,19 +1264,6 @@
           a.textContent = linkHref;
           a.classList.add('d-block', 'mb-3');
           modalBody.appendChild(a);
-        });
-      }
-      // عرض iframes
-      if(dataObj.iframes && dataObj.iframes.length > 0){
-        dataObj.iframes.forEach(ifSrc => {
-          const ifrm = document.createElement('iframe');
-          ifrm.src = ifSrc;
-          ifrm.width = '100%';
-          ifrm.height = '315';
-          ifrm.frameBorder = '0';
-          ifrm.allowFullscreen = true;
-          ifrm.classList.add('mb-3');
-          modalBody.appendChild(ifrm);
         });
       }
       // الأسئلة
@@ -1435,98 +1427,140 @@
 
     /*==============================
       Download PDF Functionality
-      - استثناء الفيديوهات/ iframes الموجودة داخل تريغرز من التحويل
-      - تحويل الفيديوهات الظاهرة في المحتوى إلى QR
-      - إخفاء الأزرار بالكامل
+      (يشمل البحث عن الفيديوهات بـ <video> أو <iframe>
+       وأيضًا عن .video-container و #videoContainer الناتجة عن المشغل المتقدم)
     ================================*/
     function downloadPdf() {
-  const contentTitle = document.getElementById('contentTitle').textContent;
-  let content = document.getElementById('result').innerHTML;
-
-  // 1. إزالة جميع العناصر غير المرغوبة (الأزرار، التحكم، الوقت، إلخ)
-  content = content
-    .replace(/<button[^>]*>.*?<\/button>/gi, '') // إزالة الأزرار
-    .replace(/<div class="(custom-controls|time-display|progress-container|video-container|video-wrapper)[^>]*>.*?<\/div>/gi, '') // إزالة الحاويات
-    .replace(/<div id="(floatingButtons|videoPlayer|bufferedBar|progressBar)[^>]*>.*?<\/div>/gi, '') // إزالة عناصر الفيديو
-    .replace(/<input[^>]*>.*?<\/input>/gi, '') // إزالة مدخلات التحكم
-    .replace(/<svg[^>]*>.*?<\/svg>/gi, ''); // إزالة أي أيقونات SVG
-
-  // 2. استبدال الفيديو/iframe بالصورة والرسالة (بدون QR Code)
-  const subscriptionMsg = `
-    <div class="subscription-message">
-      <p style="text-align:center; color: #2c3e50; font-size: 16px; margin: 20px 0;">
-        <img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/March5-121558AM.png" 
-             alt="Subscribe" 
-             style="display:block; margin: 10px auto; max-width: 300px; height: auto;">
-        <br>
-        <strong style="font-size: 14px;">
-          If you want to watch the video or the content, you must subscribe to the site<br>
-          (you will find the form and subscription details on the site).
-        </strong>
-      </p>
-    </div>
-  `;
-
-  // استبدال جميع عناصر الفيديو/iframe بالرسالة الجديدة
-  content = content.replace(
-    /(<video[\s\S]*?<\/video>|<iframe[\s\S]*?<\/iframe>)/gi, 
-    subscriptionMsg
-  );
-
-  // 3. إنشاء نافذة الطباعة مع التأكد من ظهور المحتوى
-  const printWindow = window.open('about:blank', '_blank');
-  printWindow.document.write(`
-    <html>
-      <head>
-        <meta charset="UTF-8">
-        <title>Download PDF</title>
-        <style>
-          /* إخفاء جميع العناصر غير المرغوبة */
-          button, .custom-controls, #floatingButtons,
-          .time-display, .progress-container, #videoPlayer {
-            display: none !important;
+      const contentTitle = document.getElementById('contentTitle').textContent;
+      let content = document.getElementById('result').innerHTML;
+      let replaced = false;
+      const subscriptionBlock = `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).<br>
+<img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/March5-121558AM.png" alt="Subscription Required"/></p>`;
+      
+      let modifiedContent = content
+        .replace(/<div class="video-container"[^>]*>[\s\S]*?<\/div>/gi, function() {
+          if (!replaced) {
+            replaced = true;
+            return subscriptionBlock;
+          } else {
+            return '';
           }
-
-          /* إظهار رسالة الاشتراك */
-          .subscription-message {
-            display: block !important;
-            margin: 20px 0;
+        })
+        .replace(/<div id="videoContainer"[^>]*>[\s\S]*?<\/div>/gi, function() {
+          if (!replaced) {
+            replaced = true;
+            return subscriptionBlock;
+          } else {
+            return '';
           }
-
-          /* العلامة المائية */
-          body::before {
-            content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
-            white-space: pre;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%) rotate(-30deg);
-            font-size: 25px;
-            color: rgba(0, 0, 0, 0.07);
-            pointer-events: none;
-            z-index: 0;
-            text-align: center;
+        })
+        .replace(/<iframe[^>]*>[\s\S]*?<\/iframe>/gi, function() {
+          if (!replaced) {
+            replaced = true;
+            return subscriptionBlock;
+          } else {
+            return '';
           }
-
-          /* المحتوى الرئيسي */
-          #content {
-            position: relative;
-            z-index: 1;
-            margin: 20px;
-            background: white;
+        })
+        .replace(/<video[^>]*>[\s\S]*?<\/video>/gi, function() {
+          if (!replaced) {
+            replaced = true;
+            return subscriptionBlock;
+          } else {
+            return '';
           }
-        </style>
-      </head>
-      <body>
-        <div id="content">
-          <h1>${contentTitle}</h1>
-          ${content}
-        </div>
-      </body>
-    </html>
-  `);
-  printWindow.document.close();
-}
+        });
+    
+      const printWindow = window.open('about:blank', '_blank');
+      printWindow.document.write(`
+        <html>
+          <head>
+            <meta charset="UTF-8">
+            <title>Download PDF</title>
+            <style>
+              @page { size: auto; margin: 0; }
+              body {
+                margin: 0; 
+                padding: 0;
+                font-family: 'Montserrat', sans-serif; 
+                background-color: #fafafa; 
+                color: #2c3e50;
+              }
+              /* العلامة المائية بحجم أصغر وفي المنتصف */
+              body::before {
+                content: "SUMS Site\nhttps://sites.google.com/view/medsums/sums-questions-bank-sqb";
+                white-space: pre;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) rotate(-30deg);
+                font-size: 20px;
+                color: rgba(0, 0, 0, 0.07);
+                pointer-events: none;
+                z-index: 0;
+                text-align: center;
+              }
+              #content {
+                position: relative;
+                z-index: 1;
+                margin: 20px;
+                padding: 20px;
+                font-size: 14px;
+                border: none;
+              }
+              h1 {
+                text-align: center; 
+                font-weight: 600;
+                margin-bottom: 20px; 
+              }
+              table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+              }
+              table th, table td {
+                border: 1px solid #ccc;
+                padding: 10px;
+                text-align: left;
+              }
+              table thead {
+                background-color: #f2f2f2;
+              }
+              p, li, td, th, code, pre, span {
+                color: #2c3e50 !important;
+              }
+              .mjx-container {
+                zoom: 1.2;
+              }
+            </style>
+          </head>
+          <body>
+            <div id="content">
+              <h1>${contentTitle}</h1>
+              ${modifiedContent}
+            </div>
+            <script>
+              window.MathJax = {
+                tex: {
+                  inlineMath: [['$', '$'], ['\\\\(', '\\\\)']]
+                },
+                svg: {
+                  fontCache: 'global'
+                }
+              };
+            <\/script>
+            <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"><\/script>
+            <script>
+              window.onload = function() {
+                window.focus();
+                window.print();
+              };
+            <\/script>
+          </body>
+        </html>
+      `);
+      printWindow.document.close();
+    }
 
     /*==============================
       Return to Topics Page
@@ -1559,8 +1593,6 @@
       input.value = '';
       resultsContainer.innerHTML = '';
       input.focus();
-
-      // Prevent multiple event listeners
       input.removeEventListener('input', handleContentSearchInput);
       input.addEventListener('input', handleContentSearchInput);
     }
@@ -1582,8 +1614,6 @@
           const div = document.createElement('div');
           div.classList.add('search-result-item');
           div.innerText = snippet;
-
-          // On click, close modal then scroll to element
           div.addEventListener('click', () => {
             const searchModal = bootstrap.Modal.getInstance(document.getElementById('contentSearchModal'));
             searchModal.hide();
