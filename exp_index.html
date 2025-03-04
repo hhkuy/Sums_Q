@@ -257,25 +257,26 @@
       background-color: #f2f2f2;
     }
 
-    /* 
-      العلامة المائية: نجعلها ثابتة في منتصف الإطار، 
-      وتبقى ظاهرة عند التمرير دون الخروج عن الحاوية 
+    /*
+      العلامة المائية ثابتة في وسط الشاشة أثناء التمرير:
+      نستخدم position: fixed كي لا تتحرك مع المحتوى.
+      نجعل حجمها أقل قليلاً (25px مثلاً)،
+      مع ظهور كلمة SUMS Site فوق الرابط.
     */
     #pageContent {
       position: relative;
-      overflow: hidden; /* كي لا تخرج العلامة المائية عن الإطار */
     }
     #pageContent::before {
       content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
       white-space: pre;
-      position: absolute; 
+      position: fixed; /* تبقى ثابتة عند التمرير */
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%) rotate(-30deg);
-      font-size: 30px;
+      font-size: 25px;
       color: rgba(0, 0, 0, 0.07);
       pointer-events: none;
-      z-index: 5;
+      z-index: 9998;
       text-align: center;
     }
 
@@ -925,7 +926,7 @@
       }
     }
   </script>
-
+  
   <!-- باقي الأكواد الخاصة بالبحث، التصفح، تنزيل PDF، وغيرها من وظائف الموقع -->
   <script>
     /*==============================
@@ -1396,7 +1397,7 @@
     /*==============================
       Download PDF Functionality
       (يشمل البحث عن الفيديوهات بـ <video> أو <iframe>
-       وأيضًا عن .video-container و #videoContainer الناتجة عن المشغل المتقدم)
+       وأيضًا عن .video-container أو #videoContainer أو #videoWrapper أو #customControls)
     ================================*/
     function downloadPdf() {
       const contentTitle = document.getElementById('contentTitle').textContent;
@@ -1404,22 +1405,32 @@
 
       // استبدال أي فيديو/iframe/مشغل متقدم بنصّ الاشتراك + QR
       let modifiedContent = content
-        // أولاً استبدال أي عنصر .video-container (المشغل المتقدم)
+        // .video-container
         .replace(/<div class="video-container"[^>]*>[\s\S]*?<\/div>/gi, function() {
           return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
                   <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
         })
-        // استبدال أي عنصر #videoContainer من المشغل المتقدم
+        // #videoContainer
         .replace(/<div id="videoContainer"[^>]*>[\s\S]*?<\/div>/gi, function() {
           return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
                   <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
         })
-        // ثم استبدال أي iframe
+        // #videoWrapper
+        .replace(/<div id="videoWrapper"[^>]*>[\s\S]*?<\/div>/gi, function() {
+          return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
+        })
+        // #customControls
+        .replace(/<div id="customControls"[^>]*>[\s\S]*?<\/div>/gi, function() {
+          return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
+        })
+        // iframe
         .replace(/<iframe[^>]*>.*?<\/iframe>/gi, function() {
           return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
                   <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
         })
-        // وأخيرًا استبدال أي video
+        // video
         .replace(/<video[^>]*>.*?<\/video>/gi, function() {
           return `<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site).<br>
                   <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
@@ -1440,7 +1451,7 @@
                 background-color: #fafafa; 
                 color: #2c3e50;
               }
-              /* العلامة المائية بحجم أصغر قليلاً وفي المنتصف */
+              /* العلامة المائية بحجم أصغر قليلًا وفي المنتصف بشكل ثابت */
               body::before {
                 content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
                 white-space: pre;
@@ -1448,7 +1459,7 @@
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%) rotate(-30deg);
-                font-size: 30px;
+                font-size: 25px;
                 color: rgba(0, 0, 0, 0.07);
                 pointer-events: none;
                 z-index: 0;
