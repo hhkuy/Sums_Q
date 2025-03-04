@@ -172,6 +172,14 @@
       text-align: left;
     }
     #result table thead { background-color: #f2f2f2; }
+    /* حل مشكلة خروج الجداول عن الحدود على الشاشات الصغيرة */
+    @media (max-width: 576px) {
+      #result table {
+        display: block;
+        overflow-x: auto;
+      }
+    }
+
     /* Floating navigation */
     .floating-buttons {
       position: fixed;
@@ -408,6 +416,21 @@
       background: #f39c12;
     }
   </style>
+
+  <!-- إضافة دعم MathJax لعرض الرموز والمعادلات الرياضية بشكل صحيح -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <!-- استدعاء مكتبة MathJax -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+
 </head>
 <body>
 
@@ -838,7 +861,6 @@
     }
     
     // يمكن استدعاء دالة initAdvancedVideoPlayers() بعد تحميل المحتوى (مثلاً بعد استدعاء openContentPage أو fetchDataAndDisplay)
-    // على سبيل المثال، إذا كان المحتوى الذي تم جلبه يحتوي على فيديو داخل div.video-container، سيتم استبداله تلقائيًا.
   </script>
   
   <!-- باقي الأكواد الخاصة بالبحث، التصفح، تنزيل PDF، وغيرها من وظائف الموقع -->
@@ -1148,16 +1170,24 @@
     }
 
     /*==============================
-      Download PDF Functionality
+      Download PDF Functionality (تمت إضافة التعديلات المطلوبة)
     ================================*/
     function downloadPdf() {
       const contentTitle = document.getElementById('contentTitle').textContent;
       let content = document.getElementById('result').innerHTML;
-      // Replace iframes with QR code images
-      let modifiedContent = content.replace(/<iframe[^>]*src="([^"]+)"[^>]*><\/iframe>/g, function(_, src) {
-        const qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + encodeURIComponent(src);
-        return `<img src="${qrUrl}" alt="QR Code for video link">`;
-      });
+      // استبدال جميع الفيديوهات (iframe أو video) بنصّ يشير للاشتراك مع QR Code
+      let modifiedContent = content
+        // استبدال الـ iframe
+        .replace(/<iframe[^>]*>.*?<\/iframe>/gi, function() {
+          return `<p>If you want to watch the video or the content, you must subscribe to the site.<br>
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
+        })
+        // استبدال الـ video
+        .replace(/<video[^>]*>.*?<\/video>/gi, function() {
+          return `<p>If you want to watch the video or the content, you must subscribe to the site.<br>
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
+        });
+
       const printWindow = window.open('about:blank', '_blank');
       printWindow.document.write(
         `<html>
@@ -1165,41 +1195,76 @@
             <meta charset="UTF-8">
             <title>Download PDF</title>
             <style>
-              @page { size: A4; margin: 20mm; }
+              @page { margin: 0; }
+              /* إزالة أي حواف للصفحة */
               body {
-                font-family: 'Montserrat', sans-serif; 
                 margin: 0; 
                 padding: 0;
+                font-family: 'Montserrat', sans-serif; 
                 background: #fff; 
                 color: #2c3e50;
               }
-              h1 { 
-                color: #2e4053; 
-                text-align: center; 
-                margin-bottom: 20px; 
-                font-weight: 600;
+              /* إضافة طبقة خلفية خفيفة كعلامة مائية */
+              body::before {
+                content: "SUMS site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
+                white-space: pre;
+                position: fixed;
+                top: 30%;
+                left: 10%;
+                transform: rotate(-30deg);
+                font-size: 60px;
+                color: rgba(0, 0, 0, 0.07);
+                pointer-events: none;
+                z-index: 0;
               }
-              /* Replicate content styles with table borders */
+              /* صندوق المحتوى */
               #content {
+                position: relative;
+                z-index: 1;
                 margin: 20px;
-                background-color: #fff;
                 padding: 20px;
-                border: none;
                 font-size: 14px;
+                border: none;
               }
-              #content h1 { color: #2e4053; }
-              #content h2 { color: #2874a6; }
-              #content h3 { color: #148f77; }
-              #content h4 { color: #9b59b6; }
-              #content h5, #content h6 { color: #b03a2e; }
-              #content p, #content li, #content td, #content th { color: #2c3e50; }
+              h1 {
+                text-align: center; 
+                font-weight: 600;
+                margin-bottom: 20px; 
+              }
+              /* لتوافق الجداول مع نفس التخطيط */
+              table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+              }
+              table th, table td {
+                border: 1px solid #ccc;
+                padding: 10px;
+                text-align: left;
+              }
+              /* دعم الرياضيات */
+              .mjx-container {
+                zoom: 1.2; /* تكبير رمزي لكي تظهر أوضح */
+              }
             </style>
           </head>
           <body>
-            <h1>${contentTitle}</h1>
             <div id="content">
+              <h1>${contentTitle}</h1>
               ${modifiedContent}
             </div>
+            <!-- إضافة سكريبت MathJax كي تظهر المعادلات بشكل صحيح في الصفحة المنبثقة -->
+            <script>
+              window.MathJax = {
+                tex: {
+                  inlineMath: [['$', '$'], ['\\\\(', '\\\\)']]
+                },
+                svg: {
+                  fontCache: 'global'
+                }
+              };
+            <\/script>
+            <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"><\/script>
             <script>
               window.onload = function() {
                 window.focus();
