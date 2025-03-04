@@ -141,20 +141,25 @@ async function fetchDataAndDisplay(dataFileName) {
 
 /**
  * Download PDF function
- * (يشمل تحويل <video> و <iframe> إلى نص الاشتراك + QR، 
- * ومطابقة ألوان الجداول والخطوط، 
- * ووضع العلامة المائية في المنتصف بشكل مائل)
+ * (بحث عن <iframe> + <video> + <div class="video-container">)
  */
 function downloadPdf() {
   // Get the content from the contentArea
   let content = contentArea.innerHTML;
 
-  // استبدال الـ iframe والـ video بنفس نصّ الاشتراك و QR Code
+  // استبدال الفيديوهات والإطارات وعناصر .video-container بنفس نصّ الاشتراك و QR Code
   let modifiedContent = content
+    // استبدال .video-container أولاً
+    .replace(/<div class="video-container"[^>]*>[\s\S]*?<\/div>/gi, function() {
+      return `<p>If you want to watch the video or the content, you must subscribe to the site.<br>
+              <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
+    })
+    // استبدال أي iframe
     .replace(/<iframe[^>]*>.*?<\/iframe>/gi, function() {
       return `<p>If you want to watch the video or the content, you must subscribe to the site.<br>
               <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
     })
+    // استبدال أي video
     .replace(/<video[^>]*>.*?<\/video>/gi, function() {
       return `<p>If you want to watch the video or the content, you must subscribe to the site.<br>
               <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sites.google.com/view/medsums/sums-questions-bank-sqb" alt="QR Code"/></p>`;
