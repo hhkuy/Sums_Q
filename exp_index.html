@@ -1443,13 +1443,15 @@
   const contentTitle = document.getElementById('contentTitle').textContent;
   let content = document.getElementById('result').innerHTML;
 
-  // إزالة جميع الأزرار وعناصر التحكم
+  // إزالة جميع العناصر غير المرغوبة (أزرار، تحكم، وقت، إلخ)
   content = content
-    .replace(/<button[^>]*>.*?<\/button>/gi, '')
-    .replace(/<div class="custom-controls[^>]*>.*?<\/div>/gi, '')
-    .replace(/<div id="floatingButtons[^>]*>.*?<\/div>/gi, '');
+    .replace(/<button[^>]*>.*?<\/button>/gi, '') // إزالة الأزرار
+    .replace(/<div class="custom-controls[^>]*>.*?<\/div>/gi, '') // إزالة عناصر التحكم
+    .replace(/<div id="floatingButtons[^>]*>.*?<\/div>/gi, '') // إزالة الأزرار العائمة
+    .replace(/<div class="time-display[^>]*>.*?<\/div>/gi, '') // إزالة وقت التشغيل
+    .replace(/<div class="progress-container[^>]*>.*?<\/div>/gi, ''); // إزالة شريط التقدم
 
-  // استبدال الفيديو/iframe وعناصر الوقت برسالة الاشتراك
+  // رسالة الاشتراك مع QR Code
   const subscriptionMsg = `
     <p style="text-align:center;">
       If you want to watch the video or the content, you must subscribe to the site.<br>
@@ -1459,11 +1461,11 @@
     </p>
   `;
 
-  // استبدال جميع عناصر الفيديو/iframe والوقت
+  // استبدال جميع العناصر المرتبطة بالفيديو/iframe (بما في ذلك الحاويات)
   content = content
-    .replace(/(<video[\s\S]*?<\/video>|<iframe[\s\S]*?<\/iframe>|<div class="time-display[^>]*>.*?<\/div>)/gi, subscriptionMsg);
+    .replace(/(<video[\s\S]*?<\/video>|<iframe[\s\S]*?<\/iframe>|<div class="video-container[^>]*>[\s\S]*?<\/div>)/gi, subscriptionMsg);
 
-  // إنشاء نافذة الطباعة
+  // إنشاء نافذة الطباعة مع إخفاء كافة العناصر الزائدة
   const printWindow = window.open('about:blank', '_blank');
   printWindow.document.write(`
     <html>
@@ -1471,14 +1473,12 @@
         <meta charset="UTF-8">
         <title>Download PDF</title>
         <style>
-          @media print {
-            /* إخفاء العناصر المتبقية */
-            * {
-              display: none !important;
-            }
-            #content, #content * {
-              display: block !important;
-            }
+          /* إخفاء كافة العناصر ما عدا المحتوى الرئيسي */
+          * {
+            display: none !important;
+          }
+          #content, #content * {
+            display: block !important;
           }
           body::before {
             content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
@@ -1492,10 +1492,6 @@
             pointer-events: none;
             z-index: 0;
             text-align: center;
-          }
-          #content {
-            position: relative;
-            z-index: 1;
           }
         </style>
       </head>
