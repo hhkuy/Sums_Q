@@ -899,15 +899,21 @@
       }
       // عرض الفيديوهات
       if(dataObj.videos && dataObj.videos.length > 0){
-        dataObj.videos.forEach(src => {
-          const vid = document.createElement('video');
-          vid.src = src;
-          vid.controls = true;
-          vid.classList.add('w-100', 'mb-3');
-          vid.setAttribute('controlsList', 'nodownload');
-          modalBody.appendChild(vid);
-        });
-      }
+  dataObj.videos.forEach(src => {
+    const vid = document.createElement('video');
+    vid.src = src;
+    vid.controls = true;
+    vid.classList.add('w-100', 'mb-3');
+    vid.setAttribute('controlsList', 'nodownload');
+    
+    // إضافة التغليف لتطبيق تصميم الحواف كما في الصفحة الرئيسية
+    const container = document.createElement('div');
+    container.classList.add('default-video-container');
+    container.appendChild(vid);
+    modalBody.appendChild(container);
+  });
+}
+
       // عرض الروابط
       if(dataObj.links && dataObj.links.length > 0){
         dataObj.links.forEach(linkHref => {
