@@ -13,6 +13,15 @@
           ]
         }
       ]
+    },
+    {
+      "title": "CNS",
+      "subtopics": [
+        {
+          "title": "Anatomy",
+          "dataFile": "Anatomy_91236.json"
+        }
+      ]
     }
   ]
 }
