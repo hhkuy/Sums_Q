@@ -18,8 +18,13 @@
       "title": "CYT",
       "subtopics": [
         {
-          "title": "ftt",
-          "dataFile": "exp_data/CYT_FTT.json"
+          "title": "cyt",
+          "subtopics": [
+            {
+              "title": "ana",
+              "dataFile": "exp_data/CYT_CYT_ANA.json"
+            }
+          ]
         }
       ]
     }
