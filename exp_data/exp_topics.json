@@ -13,24 +13,6 @@
           ]
         }
       ]
-    },
-    {
-      "title": "Chemistry",
-      "subtopics": [
-        {
-          "title": "Organic Chemistry",
-          "subtopics": [
-            {
-              "title": "Hydrocarbons",
-              "dataFile": "example_hydrocarbons.json"
-            },
-            {
-              "title": "Alcohols",
-              "dataFile": "example_alcohols.json"
-            }
-          ]
-        }
-      ]
     }
   ]
 }
