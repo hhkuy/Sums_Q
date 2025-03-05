@@ -890,13 +890,19 @@
 
       // عرض الصور
       if(dataObj.images && dataObj.images.length > 0){
-        dataObj.images.forEach(src => {
-          const img = document.createElement('img');
-          img.src = src;
-          img.classList.add('img-fluid', 'mb-3');
-          modalBody.appendChild(img);
-        });
-      }
+  dataObj.images.forEach(src => {
+    const img = document.createElement('img');
+    img.src = src;
+    img.classList.add('img-fluid', 'mb-3');
+    
+    // تغليف الصورة بنفس تصميم الحدود والظلال
+    const container = document.createElement('div');
+    container.classList.add('default-video-container');
+    container.appendChild(img);
+    modalBody.appendChild(container);
+  });
+}
+
       // عرض الفيديوهات
       if(dataObj.videos && dataObj.videos.length > 0){
   dataObj.videos.forEach(src => {
@@ -937,16 +943,22 @@
       }
       // عرض الـ iframes
       if(dataObj.iframes && dataObj.iframes.length > 0){
-        dataObj.iframes.forEach(src => {
-          const iframeEl = document.createElement('iframe');
-          iframeEl.src = src;
-          iframeEl.width = "100%";
-          iframeEl.height = "350";
-          iframeEl.allowFullscreen = true;
-          iframeEl.classList.add('mb-3');
-          modalBody.appendChild(iframeEl);
-        });
-      }
+  dataObj.iframes.forEach(src => {
+    const iframeEl = document.createElement('iframe');
+    iframeEl.src = src;
+    iframeEl.width = "100%";
+    iframeEl.height = "350";
+    iframeEl.allowFullscreen = true;
+    iframeEl.classList.add('mb-3');
+    
+    // تغليف الـ iframe لتطبيق نفس التصميم
+    const container = document.createElement('div');
+    container.classList.add('default-video-container');
+    container.appendChild(iframeEl);
+    modalBody.appendChild(container);
+  });
+}
+
       // عرض النصوص
       if(dataObj.texts && dataObj.texts.length > 0){
         dataObj.texts.forEach(txt => {
