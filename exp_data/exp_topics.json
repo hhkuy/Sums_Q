@@ -15,11 +15,11 @@
       ]
     },
     {
-      "title": "CNS",
+      "title": "CYT",
       "subtopics": [
         {
-          "title": "Anatomy",
-          "dataFile": "Anatomy_91236.json"
+          "title": "ftt",
+          "dataFile": "exp_data/CYT_FTT.json"
         }
       ]
     }
