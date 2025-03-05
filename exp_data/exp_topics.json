@@ -22,7 +22,7 @@
           "subtopics": [
             {
               "title": "ana",
-              "dataFile": "exp_data/CYT_CYT_ANA.json"
+              "dataFile": "CYT_CYT_ANA.json"
             }
           ]
         }
