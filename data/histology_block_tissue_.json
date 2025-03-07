@@ -964,5 +964,285 @@
     "explanation": "Mammary glands use apocrine secretion, where lipid droplets are released along with portions of the cytoplasm.",
     "userAnswer": null,
     "qID": "hist-bloc-q69"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 1</span> Extracellular material of blood is called ……………",
+    "options": [
+      "plasma or serum",
+      "electrolytes",
+      "plasma",
+      "serum"
+    ],
+    "answer": 2,
+    "answerText": "plasma",
+    "explanation": "Plasma is the extracellular fluid of blood, containing water, proteins, and other dissolved substances.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q70"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 2</span> The …………… comprise about …………… of the total blood volume in healthy adults, is called the hematocrit.",
+    "options": [
+      "erythrocytes - 44%",
+      "erythrocytes - 55%",
+      "plasma - 55%",
+      "plasma - 44%"
+    ],
+    "answer": 0,
+    "answerText": "erythrocytes - 44%",
+    "explanation": "Hematocrit represents the percentage of total blood volume occupied by red blood cells, which is approximately 44% in adults.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q71"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 3</span> The …………… is the most abundant plasma protein.",
+    "options": [
+      "albumin",
+      "fibrinogen",
+      "Immunoglobulin",
+      "complement protein"
+    ],
+    "answer": 0,
+    "answerText": "albumin",
+    "explanation": "Albumin is the most abundant plasma protein and plays a crucial role in maintaining oncotic pressure and transporting substances.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q72"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 4</span> A thin layer called the buffy coat between the plasma and the hematocrit, about 1% of the volume, consists of ……………",
+    "options": [
+      "platelets",
+      "leukocytes and platelets",
+      "leukocytes",
+      "formed elements"
+    ],
+    "answer": 1,
+    "answerText": "leukocytes and platelets",
+    "explanation": "The buffy coat is the fraction of an anticoagulated blood sample that contains white blood cells and platelets.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q73"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 5</span> The …………… are the only blood cells whose function does not require them to leave the vasculature.",
+    "options": [
+      "lymphocytes",
+      "platelets",
+      "WBCs",
+      "RBCs"
+    ],
+    "answer": 3,
+    "answerText": "RBCs",
+    "explanation": "Red blood cells remain in circulation, unlike white blood cells, which move to tissues during immune responses.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q74"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 6</span> Damaged RBCs are removed mainly by macrophages of the ……………",
+    "options": [
+      "spleen, liver, and bone marrow",
+      "bone marrow",
+      "spleen",
+      "liver"
+    ],
+    "answer": 0,
+    "answerText": "spleen, liver, and bone marrow",
+    "explanation": "The spleen, liver, and bone marrow are responsible for the phagocytosis of aged and damaged red blood cells.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q75"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 7</span> Agranulocytes lack specific granules and include the ……………",
+    "options": [
+      "basophils and monocytes",
+      "lymphocytes and monocytes",
+      "lymphocytes and neutrophils",
+      "eosinophils and basophils"
+    ],
+    "answer": 1,
+    "answerText": "lymphocytes and monocytes",
+    "explanation": "Agranulocytes, which include lymphocytes and monocytes, lack the prominent cytoplasmic granules seen in granulocytes.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q76"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 8</span> Inactive X chromosome may appear as a drumstick-like appendage on the nucleus of ……………",
+    "options": [
+      "neutrophils",
+      "eosinophils",
+      "basophils",
+      "monocytes"
+    ],
+    "answer": 0,
+    "answerText": "neutrophils",
+    "explanation": "The “drumstick” appendage is the Barr body, seen in neutrophils from female individuals.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q77"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 9</span> The number of circulating …………… increases during helminthic infections and allergic reactions.",
+    "options": [
+      "basophils",
+      "lymphocytes",
+      "eosinophils",
+      "neutrophils"
+    ],
+    "answer": 2,
+    "answerText": "eosinophils",
+    "explanation": "Eosinophils are involved in parasitic infections and allergic reactions, releasing toxic granules against helminths.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q78"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 10</span> The …………… are similar to ……………, and secrete heparin and histamine.",
+    "options": [
+      "eosinophils - plasma cells",
+      "basophils - mast cells",
+      "eosinophils - mast cells",
+      "basophils - plasma cells"
+    ],
+    "answer": 1,
+    "answerText": "basophils - mast cells",
+    "explanation": "Basophils and mast cells share similarities, both containing granules with inflammatory mediators like histamine.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q79"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 11</span> The …………… constitute a family of leukocytes with spherical nuclei.",
+    "options": [
+      "agranulocytes",
+      "neutrophils",
+      "monocytes",
+      "lymphocytes"
+    ],
+    "answer": 3,
+    "answerText": "lymphocytes",
+    "explanation": "Lymphocytes have large spherical nuclei and play a crucial role in adaptive immunity.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q80"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 12</span> The …………… are formed elements of blood with no nuclei.",
+    "options": [
+      "platelets",
+      "RBCs",
+      "RBCs and platelets",
+      "reticulocytes"
+    ],
+    "answer": 0,
+    "answerText": "platelets",
+    "explanation": "Platelets are small cell fragments derived from megakaryocytes and lack nuclei.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q81"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 13</span> The …………… originate by separation from the ends of cytoplasmic processes extending from ……………",
+    "options": [
+      "leukocytes - megakaryocytes",
+      "leukocytes - megakaryoblasts",
+      "platelets - megakaryocytes",
+      "platelets - megakaryoblasts"
+    ],
+    "answer": 2,
+    "answerText": "platelets - megakaryocytes",
+    "explanation": "Platelets form by fragmentation of the cytoplasm of megakaryocytes in the bone marrow.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q82"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 14</span> The …………… is the condition of having a concentration of …………… below the normal range.",
+    "options": [
+      "anemia - RBCs",
+      "anemia - WBCs",
+      "polycythemia - RBCs",
+      "polycythemia - WBCs"
+    ],
+    "answer": 0,
+    "answerText": "anemia - RBCs",
+    "explanation": "Anemia is a condition in which the red blood cell count or hemoglobin is lower than normal.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q83"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 15</span> The …………… renders the mature …………… deformed and slightly rigid and can lead to capillary blockage.",
+    "options": [
+      "sickle cell anemia - WBCs",
+      "polycythemia - RBCs",
+      "polycythemia - WBCs",
+      "sickle cell anemia - RBCs"
+    ],
+    "answer": 3,
+    "answerText": "sickle cell anemia - RBCs",
+    "explanation": "Sickle cell anemia causes RBCs to take on an abnormal shape, making them prone to blockage in small vessels.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q84"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 16</span> The …………… enter the circulation, quickly lose all polyribosomes, and mature as ……………",
+    "options": [
+      "normoblasts - erythrocytes",
+      "reticulocytes - normoblasts",
+      "normoblasts - reticulocytes",
+      "reticulocytes - erythrocytes"
+    ],
+    "answer": 3,
+    "answerText": "reticulocytes - erythrocytes",
+    "explanation": "Reticulocytes are immature red blood cells that mature into erythrocytes after losing their ribosomes.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q85"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 17</span> Immature …………… are known as band cells.",
+    "options": [
+      "monocytes",
+      "basophils",
+      "eosinophils",
+      "neutrophils"
+    ],
+    "answer": 3,
+    "answerText": "neutrophils",
+    "explanation": "Band neutrophils are immature forms of neutrophils, appearing as part of an infection response.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q86"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 18</span> One cause of thrombocytopenia is ineffective megakaryopoiesis resulting from deficiencies of ……………",
+    "options": [
+      "Fe or vitamin B6",
+      "folic acid or vitamin B12",
+      "folic acid or vitamin B6",
+      "vitamin B6 or vitamin B12"
+    ],
+    "answer": 1,
+    "answerText": "folic acid or vitamin B12",
+    "explanation": "Vitamin B12 and folic acid deficiencies impair megakaryocyte function, leading to low platelet production.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q87"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 19</span> The …………… circulate in blood for several hours and enter tissues where they mature as phagocytic cells.",
+    "options": [
+      "neutrophils",
+      "monocytes",
+      "lymphocytes",
+      "basophils"
+    ],
+    "answer": 1,
+    "answerText": "monocytes",
+    "explanation": "Monocytes circulate in the blood before differentiating into macrophages and dendritic cells in tissues.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q88"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Connective tissue  - Question 20</span> Throughout adult life, hemopoiesis occurs from stem cells located in ……………",
+    "options": [
+      "liver",
+      "bone marrow",
+      "spleen",
+      "lymphoid organs"
+    ],
+    "answer": 1,
+    "answerText": "bone marrow",
+    "explanation": "Hematopoiesis occurs in the bone marrow in adults, producing all blood cell types.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q89"
   }
 ]
