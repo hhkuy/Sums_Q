@@ -208,5 +208,201 @@
     "explanation": "Articular hyaline cartilage lacks a perichondrium, making it more prone to wear and tear.",
     "userAnswer": null,
     "qID": "hist-bloc-q15"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Muscle - Question 1</span> The ……………….. is composed of cells that optimize the universal cell property of contractility.",
+    "options": [
+      "Nervous tissue",
+      "Connective tissue",
+      "Epithelial tissue",
+      "Muscle tissue"
+    ],
+    "answer": 3,
+    "answerText": "Muscle tissue",
+    "explanation": "Muscle tissue is specialized for contraction, which allows movement and force generation.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q16"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Muscle - Question 2</span> The ……………….. contains bundles of very long, multinucleated cells with cross-striations under voluntary control.",
+    "options": [
+      "Cardiac muscle",
+      "Skeletal/cardiac muscle",
+      "Smooth muscle",
+      "Skeletal muscle"
+    ],
+    "answer": 3,
+    "answerText": "Skeletal muscle",
+    "explanation": "Skeletal muscle consists of long, multinucleated fibers with striations and is under voluntary control.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q17"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Muscle - Question 3</span> The ……………….. has branched cells and striated banding pattern.",
+    "options": [
+      "Cardiac muscle",
+      "Smooth/cardiac muscle",
+      "Smooth muscle",
+      "Skeletal muscle"
+    ],
+    "answer": 0,
+    "answerText": "Cardiac muscle",
+    "explanation": "Cardiac muscle has branched cells with striations, allowing coordinated contraction.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q18"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Muscle - Question 4</span> The ……………….. consists of collections of fusiform cells which lack striations and have slow, involuntary contractions.",
+    "options": [
+      "Skeletal muscle",
+      "Smooth muscle",
+      "Cardiac muscle",
+      "Smooth/cardiac muscle"
+    ],
+    "answer": 1,
+    "answerText": "Smooth muscle",
+    "explanation": "Smooth muscle cells are spindle-shaped and lack striations, contracting involuntarily.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q19"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Muscle - Question 5</span> The ……………….. cells proliferate and produce new muscle fibers following muscle injury.",
+    "options": [
+      "Fibroblast",
+      "Satellite",
+      "Myotube",
+      "Myoblast"
+    ],
+    "answer": 1,
+    "answerText": "Satellite",
+    "explanation": "Satellite cells are muscle stem cells that aid in muscle regeneration after injury.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q20"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Muscle - Question 6</span> The ……………….. surrounds the entire muscle.",
+    "options": [
+      "Perimysium",
+      "Epimysium",
+      "Endomysium",
+      "Sarcolemma"
+    ],
+    "answer": 1,
+    "answerText": "Epimysium",
+    "explanation": "The epimysium is a dense connective tissue sheath that encloses the entire muscle.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q21"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Muscle - Question 7</span> The ……………….. surrounds the external lamina of individual muscle fibers.",
+    "options": [
+      "Epimysium",
+      "Perimysium",
+      "Sarcolemma",
+      "Endomysium"
+    ],
+    "answer": 3,
+    "answerText": "Endomysium",
+    "explanation": "Endomysium is a thin connective tissue layer surrounding each muscle fiber.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q22"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Muscle - Question 8</span> The I band is seen to be bisected by the ……………….., which is a dark transverse line seen in the myofibrils.",
+    "options": [
+      "Z disc",
+      "M line",
+      "A band",
+      "H zone"
+    ],
+    "answer": 0,
+    "answerText": "Z disc",
+    "explanation": "The Z disc anchors thin filaments and bisects the I band in striated muscle.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q23"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Muscle - Question 9</span> In the myofibrils, the ……………….. contain both the thick filaments and the overlapping portions of thin filaments.",
+    "options": [
+      "I band",
+      "Z disc",
+      "H zone",
+      "A band"
+    ],
+    "answer": 3,
+    "answerText": "A band",
+    "explanation": "The A band contains thick filaments and the overlapping thin filaments.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q24"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Muscle - Question 10</span> The repetitive functional subunit of the contractile apparatus, the ……………….., extends from Z disc to Z disc.",
+    "options": [
+      "Myofiber",
+      "Myofibril",
+      "Myofilament",
+      "Sarcomere"
+    ],
+    "answer": 3,
+    "answerText": "Sarcomere",
+    "explanation": "The sarcomere is the basic contractile unit of muscle, spanning from one Z disc to another.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q25"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Muscle - Question 11</span> In the skeletal muscle, the ……………….. has tubular infoldings called transverse or T-tubules.",
+    "options": [
+      "Terminal cisterna",
+      "Smooth ER",
+      "Sarcoplasmic reticulum",
+      "Sarcolemma"
+    ],
+    "answer": 3,
+    "answerText": "Sarcolemma",
+    "explanation": "The sarcolemma has T-tubules that conduct action potentials into muscle fibers.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q26"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Muscle - Question 12</span> Among the muscle fascicles are stretch detectors known as ……………….., detecting body movements.",
+    "options": [
+      "Golgi tendon organ",
+      "Extrafusal fiber",
+      "Myotendinous",
+      "Muscle spindle"
+    ],
+    "answer": 3,
+    "answerText": "Muscle spindle",
+    "explanation": "Muscle spindles detect changes in muscle length and contribute to reflex control.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q27"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Muscle - Question 13</span> The ……………….. detects changes in tension within tendons produced by muscle contraction.",
+    "options": [
+      "Muscle spindle",
+      "Golgi tendon organ",
+      "Intrafusal fiber",
+      "Muscle spindle/Golgi tendon organ"
+    ],
+    "answer": 1,
+    "answerText": "Golgi tendon organ",
+    "explanation": "Golgi tendon organs sense tension in tendons and prevent excessive force generation.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q28"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Muscle - Question 14</span> The actin myofilaments insert into ……………….. in the smooth muscle.",
+    "options": [
+      "Sarcomere",
+      "M line",
+      "Z disc",
+      "Dense body"
+    ],
+    "answer": 3,
+    "answerText": "Dense body",
+    "explanation": "Dense bodies serve as attachment sites for actin filaments in smooth muscle cells.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q29"
   }
 ]
