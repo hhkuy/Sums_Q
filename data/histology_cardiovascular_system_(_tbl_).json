@@ -1,0 +1,282 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 1</span> The smallest vessels that are the sites of O₂, CO₂, nutrient, and waste product exchange between blood and tissues are:",
+    "options": [
+      "Arterioles",
+      "Capillaries",
+      "Venules",
+      "Lymphatics"
+    ],
+    "answer": 1,
+    "answerText": "Capillaries",
+    "explanation": "Capillaries are the smallest blood vessels and the primary site for gas and nutrient exchange between blood and tissues.",
+    "userAnswer": null,
+    "qID": "hist-card-q1"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 2</span> The thin-walled, closed-ended tubules are:",
+    "options": [
+      "Blood capillaries",
+      "Metarterioles",
+      "Postcapillary venules",
+      "Lymphatic capillaries"
+    ],
+    "answer": 3,
+    "answerText": "Lymphatic capillaries",
+    "explanation": "Lymphatic capillaries are thin-walled, closed-ended structures that collect excess interstitial fluid and return it to the circulatory system.",
+    "userAnswer": null,
+    "qID": "hist-card-q2"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 3</span> The internal surface of all components of the blood and lymphatic systems is lined by:",
+    "options": [
+      "Stratified squamous epithelium",
+      "Stratified cuboidal epithelium",
+      "Simple cuboidal epithelium",
+      "Simple squamous epithelium"
+    ],
+    "answer": 3,
+    "answerText": "Simple squamous epithelium",
+    "explanation": "Simple squamous epithelium, known as endothelium, lines the internal surface of all blood and lymphatic vessels, allowing for efficient exchange.",
+    "userAnswer": null,
+    "qID": "hist-card-q3"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 4</span> The conducting system of the heart is located in the:",
+    "options": [
+      "Subendocardial layer and myocardium",
+      "Epicardium and myocardium",
+      "Subendocardial layer",
+      "Epicardium"
+    ],
+    "answer": 0,
+    "answerText": "Subendocardial layer and myocardium",
+    "explanation": "The heart’s conducting system, including the Purkinje fibers, is found in the subendocardial layer and myocardium.",
+    "userAnswer": null,
+    "qID": "hist-card-q4"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 5</span> The subendocardial conducting network of cardiac muscle fibers is usually called:",
+    "options": [
+      "Atrioventricular node",
+      "Bundle of His",
+      "Purkinje fibers",
+      "Pacemaker"
+    ],
+    "answer": 2,
+    "answerText": "Purkinje fibers",
+    "explanation": "Purkinje fibers are specialized conducting fibers that help coordinate the heart’s contraction.",
+    "userAnswer": null,
+    "qID": "hist-card-q5"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 6</span> The walls of all blood vessels except __________ contain smooth muscle and connective tissue in addition to the endothelial lining.",
+    "options": [
+      "Capillaries",
+      "Arterioles",
+      "Venules",
+      "Metarterioles"
+    ],
+    "answer": 0,
+    "answerText": "Capillaries",
+    "explanation": "Capillaries lack smooth muscle and connective tissue; their thin walls facilitate efficient exchange.",
+    "userAnswer": null,
+    "qID": "hist-card-q6"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 7</span> Large vessels usually have vasa vasorum in the:",
+    "options": [
+      "Adventitia and media",
+      "Media and intima",
+      "Media",
+      "Adventitia"
+    ],
+    "answer": 0,
+    "answerText": "Adventitia and media",
+    "explanation": "Vasa vasorum, small blood vessels that supply large vessels, are found in the adventitia and outer media.",
+    "userAnswer": null,
+    "qID": "hist-card-q7"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 8</span> The most prominent feature of __________ is the thick tunica media in which elastic lamellae alternate with layers of smooth muscle fibers.",
+    "options": [
+      "Elastic arteries",
+      "Muscular arteries",
+      "Distributing arteries",
+      "Arterioles"
+    ],
+    "answer": 0,
+    "answerText": "Elastic arteries",
+    "explanation": "Elastic arteries, such as the aorta, have a thick tunica media rich in elastic fibers, allowing them to withstand high pressure.",
+    "userAnswer": null,
+    "qID": "hist-card-q8"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 9</span> The smooth muscle fibers of the __________ act as sphincters.",
+    "options": [
+      "Muscular arteries",
+      "Venules",
+      "Arterioles",
+      "Lymphatic vessels"
+    ],
+    "answer": 2,
+    "answerText": "Arterioles",
+    "explanation": "Arterioles regulate blood flow into capillary networks by acting as sphincters.",
+    "userAnswer": null,
+    "qID": "hist-card-q9"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 10</span> The __________, having thinner __________, monitor arterial blood pressure.",
+    "options": [
+      "Carotid bodies - adventitia",
+      "Carotid bodies - media",
+      "Carotid sinuses - adventitia",
+      "Carotid sinuses - media"
+    ],
+    "answer": 2,
+    "answerText": "Carotid sinuses - adventitia",
+    "explanation": "Carotid sinuses, located in the adventitia, contain baroreceptors that monitor blood pressure.",
+    "userAnswer": null,
+    "qID": "hist-card-q10"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 11</span> The carotid bodies are __________ that monitor __________.",
+    "options": [
+      "Chemoreceptors - blood CO₂, O₂, and pH",
+      "Chemoreceptors - blood CO₂ and pH",
+      "Baroreceptors - heart rate",
+      "Baroreceptors - blood pressure"
+    ],
+    "answer": 0,
+    "answerText": "Chemoreceptors - blood CO₂, O₂, and pH",
+    "explanation": "Carotid bodies are chemoreceptors that detect changes in blood gas levels and pH.",
+    "userAnswer": null,
+    "qID": "hist-card-q11"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 12</span> The __________ are encircled by scattered smooth muscle cells.",
+    "options": [
+      "Metarterioles",
+      "Postcapillary venules",
+      "Arterioles",
+      "Thoroughfare channels"
+    ],
+    "answer": 0,
+    "answerText": "Metarterioles",
+    "explanation": "Metarterioles, which link arterioles to capillary beds, contain scattered smooth muscle cells.",
+    "userAnswer": null,
+    "qID": "hist-card-q12"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 13</span> The __________ permit maximal exchange of macromolecules.",
+    "options": [
+      "Sinusoids",
+      "Fenestrated capillaries",
+      "Continuous capillaries",
+      "Thoroughfare channels"
+    ],
+    "answer": 0,
+    "answerText": "Sinusoids",
+    "explanation": "Sinusoids have large gaps, allowing the exchange of macromolecules and even cells.",
+    "userAnswer": null,
+    "qID": "hist-card-q13"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 14</span> The __________ have highly discontinuous basement membranes.",
+    "options": [
+      "Fenestrated capillaries",
+      "Sinusoids and fenestrated capillaries",
+      "Discontinuous and fenestrated capillaries",
+      "Sinusoids"
+    ],
+    "answer": 3,
+    "answerText": "Sinusoids",
+    "explanation": "Sinusoids have large gaps and discontinuous basement membranes, facilitating extensive exchange.",
+    "userAnswer": null,
+    "qID": "hist-card-q14"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 15</span> Fenestrated capillaries are found in organs such as the:",
+    "options": [
+      "Kidneys, intestine, choroid plexus",
+      "Liver, spleen, intestine",
+      "Liver, spleen, bone marrow",
+      "Kidneys, intestine, bone marrow"
+    ],
+    "answer": 0,
+    "answerText": "Kidneys, intestine, choroid plexus",
+    "explanation": "Fenestrated capillaries, with pores facilitating filtration, are found in the kidneys, intestine, and choroid plexus.",
+    "userAnswer": null,
+    "qID": "hist-card-q15"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 16</span> At various locations along __________ are mesenchymal cells called pericytes.",
+    "options": [
+      "Continuous capillaries and postcapillary venules",
+      "Thoroughfare channels and postcapillary venules",
+      "Sinusoids and postcapillary venules",
+      "Continuous capillaries and thoroughfare channels"
+    ],
+    "answer": 0,
+    "answerText": "Continuous capillaries and postcapillary venules",
+    "explanation": "Pericytes are supportive cells found along continuous capillaries and postcapillary venules.",
+    "userAnswer": null,
+    "qID": "hist-card-q16"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 17</span> The __________ have intimal valves keeping the flow unidirectional.",
+    "options": [
+      "Lymphatic vessels and veins",
+      "Lymphatic vessels and arterioles",
+      "Capillaries and veins",
+      "Capillaries and arterioles"
+    ],
+    "answer": 0,
+    "answerText": "Lymphatic vessels and veins",
+    "explanation": "Valves in lymphatic vessels and veins prevent backflow, ensuring unidirectional flow.",
+    "userAnswer": null,
+    "qID": "hist-card-q17"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 18</span> A vein has a __________ lumen and its __________ is thick and well developed and is the thickest layer.",
+    "options": [
+      "Larger - adventitia",
+      "Larger - media",
+      "Smaller - media",
+      "Smaller - adventitia"
+    ],
+    "answer": 0,
+    "answerText": "Larger - adventitia",
+    "explanation": "Veins have large lumens and thick adventitia, which provides structural support.",
+    "userAnswer": null,
+    "qID": "hist-card-q18"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 19</span> The __________ are the primary site at which white blood cells adhere to endothelium and leave the circulation.",
+    "options": [
+      "Arterioles",
+      "Lymphatics",
+      "Postcapillary venules",
+      "Capillaries"
+    ],
+    "answer": 2,
+    "answerText": "Postcapillary venules",
+    "explanation": "Postcapillary venules are the main site of leukocyte adhesion and migration into tissues.",
+    "userAnswer": null,
+    "qID": "hist-card-q19"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Second Batch -  Dr. Golshan - Session one - Circulatory system - Question 20</span> The __________ have external and internal elastic lamina.",
+    "options": [
+      "Arteries",
+      "Lymphatics",
+      "Arteries, veins, and lymphatics",
+      "Veins"
+    ],
+    "answer": 0,
+    "answerText": "Arteries",
+    "explanation": "Arteries have both internal and external elastic lamina, providing structural support and elasticity.",
+    "userAnswer": null,
+    "qID": "hist-card-q20"
+  }
+]
