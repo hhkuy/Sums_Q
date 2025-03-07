@@ -398,5 +398,15 @@
         "file": "data/religion_religion.json"
       }
     ]
+  },
+  {
+    "topicName": "Histology",
+    "description": "Related to the first Semster",
+    "subTopics": [
+      {
+        "name": "Block Tissue ",
+        "file": "data/histology_block_tissue_.json"
+      }
+    ]
   }
 ]
