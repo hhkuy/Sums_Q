@@ -684,5 +684,285 @@
     "explanation": "Acne vulgaris results from inflammation and blockage of sebaceous glands, leading to bacterial growth and skin irritation.",
     "userAnswer": null,
     "qID": "hist-bloc-q49"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 1</span> The ……………….. tissues are composed of closely aggregated polyhedral cells that line the cavities of organs and cover the body surface.",
+    "options": [
+      "Nervous",
+      "Muscle",
+      "Epithelial",
+      "Connective"
+    ],
+    "answer": 2,
+    "answerText": "Epithelial",
+    "explanation": "Epithelial tissue consists of closely packed cells that form continuous sheets, covering surfaces and lining cavities.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q50"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 2</span> The ……………….. is connective tissue that underlies the epithelia lining the organs of the digestive, respiratory, and urinary systems.",
+    "options": [
+      "Reticular lamina",
+      "Mucosa",
+      "Adventitia",
+      "Lamina propria"
+    ],
+    "answer": 3,
+    "answerText": "Lamina propria",
+    "explanation": "The lamina propria is a layer of connective tissue that supports the epithelium and contains blood vessels and immune cells.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q51"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 3</span> The region of the epithelial cell contacting the ECM and connective tissue is called the ……………….., and the opposite end, usually facing a space, is the ………………..",
+    "options": [
+      "Basal pole - lateral pole",
+      "Apical pole - basal pole",
+      "Basal pole - apical pole",
+      "Apical pole - lateral pole"
+    ],
+    "answer": 2,
+    "answerText": "Basal pole - apical pole",
+    "explanation": "The basal pole is attached to the basement membrane, while the apical pole faces the lumen or external surface.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q52"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 4</span> Basement membrane is composed of two parts. Nearest the epithelial cells is the ……………….. and beneath this layer is a more diffuse and fibrous ………………..",
+    "options": [
+      "Basal lamina - external lamina",
+      "Reticular lamina - basal lamina",
+      "Reticular lamina - lamina propria",
+      "Basal lamina - reticular lamina"
+    ],
+    "answer": 3,
+    "answerText": "Basal lamina - reticular lamina",
+    "explanation": "The basement membrane consists of the basal lamina (produced by epithelial cells) and the reticular lamina (produced by connective tissue).",
+    "userAnswer": null,
+    "qID": "hist-bloc-q53"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 5</span> External laminae exist as thin sleeves surrounding ……………….., ……………….., and ………………..",
+    "options": [
+      "Muscle cells - fat-storing - reticular cells",
+      "Muscle cells - fat-storing - nerves",
+      "Fat-storing - nerves - fibroblast",
+      "Nerves - fat-storing - bone cells"
+    ],
+    "answer": 1,
+    "answerText": "Muscle cells - fat-storing - nerves",
+    "explanation": "External laminae surround muscle cells, adipocytes, and Schwann cells, providing structural support.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q54"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 6</span> ECM components of the basal lamina characteristically include the ………………..",
+    "options": [
+      "Laminin",
+      "Type IV collagen",
+      "Perlecan",
+      "All of them"
+    ],
+    "answer": 3,
+    "answerText": "All of them",
+    "explanation": "The basal lamina is composed of laminin, type IV collagen, and perlecan, which contribute to its structure and function.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q55"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 7</span> Laminins are large glycoproteins that attach to transmembrane ……………….. proteins in the basal cell membrane.",
+    "options": [
+      "Fibronectin",
+      "Integrin",
+      "Nidogen",
+      "Perlecan"
+    ],
+    "answer": 1,
+    "answerText": "Integrin",
+    "explanation": "Laminins bind to integrins, linking the basal lamina to the epithelial cells.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q56"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 8</span> The reticular lamina contains ……………….. collagen and is bound to the basal lamina by anchoring fibrils of ……………….. collagen.",
+    "options": [
+      "Type II - Type IV",
+      "Type III - Type VII",
+      "Type IV - Type VI",
+      "Type IV - Type V"
+    ],
+    "answer": 1,
+    "answerText": "Type III - Type VII",
+    "explanation": "The reticular lamina contains type III collagen and is anchored to the basal lamina by type VII collagen fibrils.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q57"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 9</span> The ……………….., also called zonulae occludens, are the most apical of the junctions in the epithelial cells.",
+    "options": [
+      "Desmosome",
+      "Tight junctions",
+      "Macula adherens",
+      "Adherent junctions"
+    ],
+    "answer": 1,
+    "answerText": "Tight junctions",
+    "explanation": "Tight junctions, or zonulae occludens, form a seal between adjacent epithelial cells, preventing leakage.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q58"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 10</span> The ……………….. are channels for communication between adjacent cells.",
+    "options": [
+      "Macula adherens",
+      "Gap junctions",
+      "Desmosome",
+      "Anchoring junctions"
+    ],
+    "answer": 1,
+    "answerText": "Gap junctions",
+    "explanation": "Gap junctions allow direct exchange of ions and molecules between neighboring cells, facilitating communication.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q59"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 11</span> On the basal epithelial surface, cells attach to the basal lamina by ………………..",
+    "options": [
+      "Macula adherens",
+      "Desmosome",
+      "Occluding junctions",
+      "Hemidesmosome"
+    ],
+    "answer": 3,
+    "answerText": "Hemidesmosome",
+    "explanation": "Hemidesmosomes anchor epithelial cells to the basal lamina via integrins.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q60"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 12</span> Together, the ……………….. and ……………….. junctions encircle the apical ends of epithelial cells.",
+    "options": [
+      "Desmosome - hemidesmosome",
+      "Tight - adherent",
+      "Tight - desmosome",
+      "Adherent - desmosome"
+    ],
+    "answer": 1,
+    "answerText": "Tight - adherent",
+    "explanation": "Tight junctions and adherent junctions encircle epithelial cells, providing structural integrity.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q61"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 13</span> In epithelia specialized for absorption, the apical cell surfaces are often filled with an array of ……………….., which contain bundled ………………..",
+    "options": [
+      "Cilia - microtubules",
+      "Microvilli - microtubules",
+      "Microvilli - actin filaments",
+      "Cilia - actin filaments"
+    ],
+    "answer": 2,
+    "answerText": "Microvilli - actin filaments",
+    "explanation": "Microvilli contain actin filaments and increase surface area for absorption.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q62"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 14</span> The ……………….. are long, highly motile apical structures, containing internal arrays of ………………..",
+    "options": [
+      "Microvilli - microfilaments",
+      "Microvilli - microtubules",
+      "Cilia - microfilaments",
+      "Cilia - microtubules"
+    ],
+    "answer": 3,
+    "answerText": "Cilia - microtubules",
+    "explanation": "Cilia contain microtubules and are responsible for motility in cells such as those lining the respiratory tract.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q63"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 15</span> The ……………….. that extends from each fully differentiated sperm cell has a structure like that of ………………..",
+    "options": [
+      "Flagellum - stereocilia",
+      "Flagellum - microvilli",
+      "Flagellum - cilium",
+      "Stereocilia - cilium"
+    ],
+    "answer": 2,
+    "answerText": "Flagellum - cilium",
+    "explanation": "The sperm flagellum shares structural similarities with cilia, both containing microtubules in a 9+2 arrangement.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q64"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 16</span> The ……………….. lines moist internal cavities including the mouth, esophagus, and vagina.",
+    "options": [
+      "Stratified squamous keratinized epithelium",
+      "Stratified columnar epithelium",
+      "Pseudostratified columnar epithelium",
+      "Stratified squamous nonkeratinized epithelium"
+    ],
+    "answer": 3,
+    "answerText": "Stratified squamous nonkeratinized epithelium",
+    "explanation": "Stratified squamous nonkeratinized epithelium provides protection in moist areas such as the oral cavity and esophagus.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q65"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 17</span> A good example of ……………….. is that lining the upper respiratory tract.",
+    "options": [
+      "Pseudostratified columnar epithelium",
+      "Simple columnar epithelium",
+      "Stratified columnar epithelium",
+      "Transitional epithelium"
+    ],
+    "answer": 0,
+    "answerText": "Pseudostratified columnar epithelium",
+    "explanation": "Pseudostratified columnar epithelium, often ciliated, lines the respiratory tract and aids in mucociliary clearance.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q66"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 18</span> The ……………….. is characterized by a superficial layer of large, dome-like cells sometimes called umbrella cells.",
+    "options": [
+      "Pseudostratified columnar epithelium",
+      "Transitional epithelium",
+      "Stratified cuboidal",
+      "Simple columnar epithelium"
+    ],
+    "answer": 1,
+    "answerText": "Transitional epithelium",
+    "explanation": "Transitional epithelium, found in the bladder, contains umbrella cells that allow for stretching.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q67"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 19</span> The mechanism of ……………….. secretion is that cells filled with lipid products are released into the gland’s lumen.",
+    "options": [
+      "Merocrine",
+      "Holocrine",
+      "Apocrine",
+      "Exocytosis"
+    ],
+    "answer": 1,
+    "answerText": "Holocrine",
+    "explanation": "Holocrine secretion involves the release of entire cells filled with lipid products, as seen in sebaceous glands.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q68"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Epithelial Tissue  - Question 20</span> Lipid droplets in the mammary gland are released by ………………..",
+    "options": [
+      "Merocrine secretion",
+      "Apocrine secretion",
+      "Apocrine/merocrine secretion",
+      "Holocrine secretion"
+    ],
+    "answer": 1,
+    "answerText": "Apocrine secretion",
+    "explanation": "Mammary glands use apocrine secretion, where lipid droplets are released along with portions of the cytoplasm.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q69"
   }
 ]
