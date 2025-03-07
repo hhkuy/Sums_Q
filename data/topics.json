@@ -398,15 +398,5 @@
         "file": "data/religion_religion.json"
       }
     ]
-  },
-  {
-    "topicName": "Mustafa",
-    "description": "….",
-    "subTopics": [
-      {
-        "name": "Arafat",
-        "file": "data/mustafa_arafat.json"
-      }
-    ]
   }
 ]
