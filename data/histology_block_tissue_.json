@@ -1,0 +1,212 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Bone Question 1</span> Compared to the bone, other tissues lack ……………….., therefore do not normally become calcified.",
+    "options": [
+      "Proteoglycan",
+      "Osteocalcin",
+      "Glycoprotein",
+      "Collagen I"
+    ],
+    "answer": 1,
+    "answerText": "Osteocalcin",
+    "explanation": "Osteocalcin is a bone-specific protein that plays a role in mineralization. Other tissues lack it, preventing calcification.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q1"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Bone Question 2</span> The ……………….. is 90% of the organic matter embedded in the calcified matrix of bone.",
+    "options": [
+      "Osteocalcin",
+      "Proteoglycan",
+      "Osteonectin",
+      "Type I collagen"
+    ],
+    "answer": 3,
+    "answerText": "Type I collagen",
+    "explanation": "Type I collagen makes up the majority of the organic matrix in bone, providing tensile strength.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q2"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Bone Question 3</span> The ……………….. cells play a prominent role in bone growth and repair due to the potential to proliferate extensively and produce many new osteoblasts.",
+    "options": [
+      "Bone lining",
+      "Osteoclast",
+      "Osteocyte",
+      "Osteoprogenitor"
+    ],
+    "answer": 3,
+    "answerText": "Osteoprogenitor",
+    "explanation": "Osteoprogenitor cells are precursors to osteoblasts and play a vital role in bone formation and repair.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q3"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Bone Question 4</span> The periosteum’s inner layer is more cellular and includes ……………….. cells.",
+    "options": [
+      "Osteoprogenitor",
+      "Osteoblasts",
+      "Osteoblasts, Bone lining cells, and Osteoprogenitor",
+      "Bone lining cells"
+    ],
+    "answer": 2,
+    "answerText": "Osteoblasts, Bone lining cells, and Osteoprogenitor",
+    "explanation": "The inner layer of the periosteum contains osteoblasts, bone lining cells, and osteoprogenitor cells, which contribute to bone growth and healing.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q4"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Bone Question 5</span> The ……………….. produce the organic components of bone matrix.",
+    "options": [
+      "Osteoblasts",
+      "Osteoclasts",
+      "Osteoprogenitor cells",
+      "Osteocytes"
+    ],
+    "answer": 0,
+    "answerText": "Osteoblasts",
+    "explanation": "Osteoblasts are responsible for producing the organic matrix, mainly collagen, which later mineralizes.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q5"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Bone Question 6</span> The process of bone appositional growth is completed by subsequent deposition of ……………….. salts into the newly formed matrix.",
+    "options": [
+      "Calcium",
+      "Phosphate",
+      "Sulfate",
+      "Calcium and phosphate"
+    ],
+    "answer": 3,
+    "answerText": "Calcium and phosphate",
+    "explanation": "Bone mineralization occurs through the deposition of calcium and phosphate in the matrix.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q6"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Bone Question 7</span> Active osteoblasts are located exclusively at the ……………….. of bone matrix.",
+    "options": [
+      "Surfaces",
+      "Canaliculi",
+      "Lacunae",
+      "Lacunae/surface"
+    ],
+    "answer": 0,
+    "answerText": "Surfaces",
+    "explanation": "Osteoblasts are found on bone surfaces, where they deposit new bone matrix.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q7"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Bone Question 8</span> The ……………….. are the most abundant cells in bone.",
+    "options": [
+      "Osteoblasts",
+      "Osteoclasts",
+      "Osteocytes",
+      "Mesenchymal cells"
+    ],
+    "answer": 2,
+    "answerText": "Osteocytes",
+    "explanation": "Osteocytes, which originate from osteoblasts, are the most numerous cells in mature bone and reside in lacunae.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q8"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Bone Question 9</span> The ……………….. are essential for matrix resorption during bone growth and remodeling.",
+    "options": [
+      "Osteoprogenitors",
+      "Osteocytes",
+      "Osteoclasts",
+      "Osteoblasts"
+    ],
+    "answer": 2,
+    "answerText": "Osteoclasts",
+    "explanation": "Osteoclasts break down bone tissue to allow for remodeling and calcium release.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q9"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Bone Question 10</span> The ……………….. is the bulbous end in long bones.",
+    "options": [
+      "Epiphyses",
+      "Shaft",
+      "Diaphyses",
+      "Metaphyses"
+    ],
+    "answer": 0,
+    "answerText": "Epiphyses",
+    "explanation": "The epiphysis is the rounded end of long bones, where joint articulation occurs.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q10"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Bone Question 11</span> The ……………….. are lamellae remaining from osteons partially destroyed by osteoclasts during growth and remodeling of bone.",
+    "options": [
+      "External circumferential lamellae",
+      "Interstitial lamellae",
+      "Internal circumferential lamellae",
+      "Haversian lamellae"
+    ],
+    "answer": 1,
+    "answerText": "Interstitial lamellae",
+    "explanation": "Interstitial lamellae are remnants of old osteons that have been partially resorbed.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q11"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Bone Question 12</span> The ……………….. have a thick pad of fibrocartilage between the thin articular cartilage covering the ends of the bones.",
+    "options": [
+      "Diarthroses",
+      "Symphyses",
+      "Synostoses",
+      "Syndesmoses"
+    ],
+    "answer": 1,
+    "answerText": "Symphyses",
+    "explanation": "Symphyses, such as the pubic symphysis, contain fibrocartilage between articulating bones.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q12"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Bone Question 13</span> Joints classified as ……………….. permit free bone movement.",
+    "options": [
+      "Diarthroses",
+      "Synarthroses",
+      "Synovial",
+      "Diarthroses/Synovial"
+    ],
+    "answer": 3,
+    "answerText": "Diarthroses/Synovial",
+    "explanation": "Diarthroses, also called synovial joints, allow for a wide range of motion.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q13"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Bone Question 14</span> The ……………….. produces the lubricant synovial fluid.",
+    "options": [
+      "Articular cartilage",
+      "Capsule",
+      "Synovial membrane",
+      "Periosteum"
+    ],
+    "answer": 2,
+    "answerText": "Synovial membrane",
+    "explanation": "The synovial membrane secretes synovial fluid, which reduces friction in synovial joints.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q14"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Bone Question 15</span> The ……………….. is not covered by perichondrium.",
+    "options": [
+      "Hyaline cartilage",
+      "Hyaline and elastic cartilage",
+      "Articular cartilage",
+      "Elastic cartilage"
+    ],
+    "answer": 0,
+    "answerText": "Hyaline cartilage",
+    "explanation": "Articular hyaline cartilage lacks a perichondrium, making it more prone to wear and tear.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q15"
+  }
+]
