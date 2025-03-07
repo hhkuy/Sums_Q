@@ -404,5 +404,285 @@
     "explanation": "Dense bodies serve as attachment sites for actin filaments in smooth muscle cells.",
     "userAnswer": null,
     "qID": "hist-bloc-q29"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 1</span> The ……………….. corresponds to the superficial fascia of gross anatomy.",
+    "options": [
+      "Papillary layer",
+      "Hypodermis",
+      "Dermis",
+      "Reticular layer"
+    ],
+    "answer": 1,
+    "answerText": "Hypodermis",
+    "explanation": "The hypodermis, also called the superficial fascia, is the layer beneath the dermis, composed of loose connective tissue and fat.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q30"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 2</span> The designations “thick” and “thin” refer to the thickness of the ……………….. layer.",
+    "options": [
+      "Hypodermis",
+      "Epidermis & Dermis",
+      "Epidermis",
+      "Dermis"
+    ],
+    "answer": 2,
+    "answerText": "Epidermis",
+    "explanation": "The terms “thick” and “thin” skin refer to the epidermis, with thick skin having an extra layer (stratum lucidum).",
+    "userAnswer": null,
+    "qID": "hist-bloc-q31"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 3</span> The ……………….. is an antigen-presenting cell of the epidermis.",
+    "options": [
+      "Epidermal tactile cell",
+      "Merkel cells",
+      "Langerhans cell",
+      "Keratinocyte"
+    ],
+    "answer": 2,
+    "answerText": "Langerhans cell",
+    "explanation": "Langerhans cells are immune cells in the epidermis that present antigens to lymphocytes.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q32"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 4</span> The ……………….. is the pigment-producing cell in the skin.",
+    "options": [
+      "Langerhans",
+      "Merkel",
+      "Melanocyte",
+      "Keratinocyte"
+    ],
+    "answer": 2,
+    "answerText": "Melanocyte",
+    "explanation": "Melanocytes produce melanin, the pigment responsible for skin color and UV protection.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q33"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 5</span> The ……………….. is normally the thickest layer, especially in the epidermal ridges.",
+    "options": [
+      "Basal layer",
+      "Cornified layer",
+      "Spinous layer",
+      "Granular layer"
+    ],
+    "answer": 2,
+    "answerText": "Spinous layer",
+    "explanation": "The spinous layer is thick, especially in areas of high mechanical stress.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q34"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 6</span> The ……………….. filaments assemble in the spinous layer of the epidermis into microscopically visible bundles called ………………..",
+    "options": [
+      "Keratin - tonofilaments",
+      "Actin - tonofilaments",
+      "Keratin - tonofibrils",
+      "Actin - tonofibrils"
+    ],
+    "answer": 2,
+    "answerText": "Keratin - tonofibrils",
+    "explanation": "In the spinous layer, keratin filaments bundle into tonofibrils, contributing to the mechanical strength of the skin.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q35"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 7</span> The ……………….. undergo exocytosis, producing a lipid-rich, impermeable layer around the cells.",
+    "options": [
+      "Lamellar granules",
+      "Keratohyaline granules",
+      "Keratohyaline & lamellar granules",
+      "Melanosomes"
+    ],
+    "answer": 0,
+    "answerText": "Lamellar granules",
+    "explanation": "Lamellar granules secrete lipids that form the water barrier in the epidermis.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q36"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 8</span> The ……………….., found only in thick skin, consists of a thin, translucent layer of flattened eosinophilic keratinocytes held together by desmosomes.",
+    "options": [
+      "Stratum granulosum",
+      "Stratum lucidum",
+      "Stratum corneum",
+      "Stratum spinosum"
+    ],
+    "answer": 1,
+    "answerText": "Stratum lucidum",
+    "explanation": "The stratum lucidum is a thin, translucent layer found only in thick skin, such as the palms and soles.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q37"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 9</span> The ……………….. are brown or black pigments produced by the melanocyte, found among the cells of the ………………..",
+    "options": [
+      "Eumelanin - spinous layer",
+      "Pheomelanin - spinous layer",
+      "Eumelanin - basal layer",
+      "Pheomelanin - basal layer"
+    ],
+    "answer": 2,
+    "answerText": "Eumelanin - basal layer",
+    "explanation": "Eumelanin, responsible for brown and black pigmentation, is produced by melanocytes located in the basal layer of the epidermis.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q38"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 10</span> The ……………….. accumulate within ……………….. as a supranuclear cap, protecting DNA from UV radiation.",
+    "options": [
+      "Melanosomes - keratinocytes",
+      "Melanosomes - melanocytes",
+      "Keratohyalin granules - keratinocytes",
+      "Keratohyalin granules - melanocytes"
+    ],
+    "answer": 0,
+    "answerText": "Melanosomes - keratinocytes",
+    "explanation": "Melanosomes are transferred from melanocytes to keratinocytes, where they form a cap over the nucleus to protect against UV damage.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q39"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 11</span> The ……………….. are ……………….. and have synaptic contacts with unmyelinated afferent fibers.",
+    "options": [
+      "Langerhans cells - thermoreceptors",
+      "Merkel cells - thermoreceptors",
+      "Langerhans cells - mechanoreceptors",
+      "Merkel cells - mechanoreceptors"
+    ],
+    "answer": 3,
+    "answerText": "Merkel cells - mechanoreceptors",
+    "explanation": "Merkel cells function as mechanoreceptors, providing tactile sensation through synaptic contacts with nerve endings.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q40"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 12</span> Langerhans cells, derived from ……………….., are usually most clearly seen in the ………………..",
+    "options": [
+      "Monocytes - basal layer",
+      "Lymphocytes - basal layer",
+      "Monocytes - spinous layer",
+      "Lymphocytes - spinous layer"
+    ],
+    "answer": 2,
+    "answerText": "Monocytes - spinous layer",
+    "explanation": "Langerhans cells originate from monocytes and are primarily located in the spinous layer of the epidermis.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q41"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 13</span> The papillary layer consists of ……………….. and the underlying reticular layer consists of ………………..",
+    "options": [
+      "Loose connective tissue - dense irregular connective tissue",
+      "Loose connective tissue - dense regular connective tissue",
+      "Dense irregular connective tissue - loose connective tissue",
+      "Dense regular connective tissue - dense irregular connective tissue"
+    ],
+    "answer": 0,
+    "answerText": "Loose connective tissue - dense irregular connective tissue",
+    "explanation": "The papillary layer contains loose connective tissue, while the reticular layer consists of dense irregular connective tissue for strength and elasticity.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q42"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 14</span> The ……………….. extends all the way to the epidermis, where it is continuous with the ………………..",
+    "options": [
+      "Internal root sheath - basal layer",
+      "Internal root sheath - basal and spinous layers",
+      "External root sheath - basal and spinous layers",
+      "External root sheath - basal layer"
+    ],
+    "answer": 2,
+    "answerText": "External root sheath - basal and spinous layers",
+    "explanation": "The external root sheath extends from the hair follicle to the basal and spinous layers of the epidermis.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q43"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 15</span> The nail root forms from the ……………….. and is covered by a fold of skin, from which the epidermal stratum corneum extends as the ………………..",
+    "options": [
+      "Nail matrix - hyponychium",
+      "Nail bed - hyponychium",
+      "Nail bed - eponychium",
+      "Nail matrix - eponychium"
+    ],
+    "answer": 3,
+    "answerText": "Nail matrix - eponychium",
+    "explanation": "The nail matrix is the growth center of the nail, while the eponychium (cuticle) is the fold of skin covering the nail root.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q44"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 16</span> The ……………….. of the eccrine sweat gland is generally more pale-staining and consists of ……………….. epithelium.",
+    "options": [
+      "Secretory part - stratified cuboidal",
+      "Secretory part - simple cuboidal",
+      "Duct - stratified cuboidal",
+      "Duct - simple cuboidal"
+    ],
+    "answer": 0,
+    "answerText": "Secretory part - stratified cuboidal",
+    "explanation": "The secretory part of eccrine sweat glands is composed of stratified cuboidal epithelium, appearing pale-staining due to glycogen content.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q45"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 17</span> The ……………….. produce the sweat, and the ……………….. are filled with granules with bactericidal activity.",
+    "options": [
+      "Clear cells - dark cells",
+      "Dark cells - clear cells",
+      "Clear cells - clear cells",
+      "Dark cells - dark cells"
+    ],
+    "answer": 0,
+    "answerText": "Clear cells - dark cells",
+    "explanation": "Clear cells secrete sweat, while dark cells contain granules with antibacterial properties.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q46"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 18</span> The ……………….. on the basal lamina contract to move the watery secretion into the duct of sweat glands.",
+    "options": [
+      "Dark & clear cells",
+      "Dark cells",
+      "Clear cells",
+      "Myoepithelial cells"
+    ],
+    "answer": 3,
+    "answerText": "Myoepithelial cells",
+    "explanation": "Myoepithelial cells contract to help expel sweat from the glandular portion into the ducts.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q47"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 19</span> The ducts of ……………….. glands usually open into hair follicles at the epidermis.",
+    "options": [
+      "Apocrine & eccrine & sebaceous",
+      "Eccrine & sebaceous",
+      "Apocrine & sebaceous",
+      "Apocrine & eccrine"
+    ],
+    "answer": 2,
+    "answerText": "Apocrine & sebaceous",
+    "explanation": "Apocrine and sebaceous glands secrete their contents into hair follicles, unlike eccrine glands, which open directly onto the skin.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q48"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -  Dr. Golshan - Skin - Question 20</span> Acne vulgaris is an inflammatory disorder of the ………………..",
+    "options": [
+      "Eccrine sweat gland",
+      "Apocrine sweat gland",
+      "Sweat glands",
+      "Sebaceous gland"
+    ],
+    "answer": 3,
+    "answerText": "Sebaceous gland",
+    "explanation": "Acne vulgaris results from inflammation and blockage of sebaceous glands, leading to bacterial growth and skin irritation.",
+    "userAnswer": null,
+    "qID": "hist-bloc-q49"
   }
 ]
