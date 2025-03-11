@@ -244,15 +244,16 @@ function initPinchZoomAndPanDropdown(container, video) {
 /**
  * Download PDF function (للمحتوى في contentArea)
  * - استبدال أي <iframe> أو <video> بعنصر الصورة والنص في كل مرة
+ * - إضافة نفس مراجع البوتستراب والأيقونات لضمان ظهور الأزرار
  */
 function downloadPdf() {
   if (!contentArea) return;
-  let content = contentArea.innerHTML;
+  // استخدام outerHTML لضمان تضمين أزرار وإيقونات التريغرز
+  let content = contentArea.outerHTML;
 
-  const replacedBlock = `
-<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).</p>
-<p><img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/result.png" alt="Subscribe Image" style="max-width:200px;"/></p>
-`;
+  const replacedBlock = 
+`<p>If you want to watch the video or the content, you must subscribe to the site (you will find the form and subscription details on the site written in English).</p>
+<p><img src="https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/result.png" alt="Subscribe Image" style="max-width:200px;"/></p>`;
 
   // استبدال جميع الفيديوهات والإطارات
   let modifiedContent = content
@@ -261,138 +262,182 @@ function downloadPdf() {
 
   // Open a new window (about:blank)
   const printWindow = window.open('about:blank', '_blank');
-  printWindow.document.write(`
-    <html>
-      <head>
-        <meta charset="UTF-8">
-        <title>Download PDF</title>
-        <style>
-          @page { size: auto; margin: 0; }
-          body {
-            margin: 0; 
-            padding: 0;
-            font-family: 'Montserrat', sans-serif; 
-            background-color: #fafafa; 
-            color: #2c3e50;
-          }
-          /* العلامة المائية بحجم أصغر وفي المنتصف - ثابتة وأمام المحتوى */
-          body::before {
-            content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
-            white-space: pre;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%) rotate(-30deg);
-            font-size: 25px;
-            color: rgba(0, 0, 0, 0.07);
-            pointer-events: none;
-            z-index: 9999;
-            text-align: center;
-          }
-          #content {
-            position: relative;
-            z-index: 1;
-            margin: 20px; 
-            padding: 20px; 
-            font-size: 14px;
-            border: none;
-          }
-          /* نسخ ألوان العناوين والفقرات والتريغرز لضمان تطابق الألوان */
-          h1 { color: #2e4053; }
-          h2 { color: #2874a6; }
-          h3 { color: #148f77; }
-          h4 { color: #9b59b6; }
-          h5, h6 { color: #b03a2e; }
-          p, li, td, th { color: #2c3e50; }
-          strong { color: #6c3483; font-weight: bold; }
-          em { color: #d35400; font-style: italic; }
+  printWindow.document.write(
+`<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Download PDF</title>
 
-          .question-trigger {
-            color: #ff8c00; 
-            font-weight: bold; 
-            cursor: pointer; 
-            text-decoration: underline;
-          }
-          .image-trigger {
-            color: #28a745; 
-            font-weight: bold; 
-            cursor: pointer; 
-            text-decoration: underline;
-          }
-          .video-trigger {
-            color: #007bff; 
-            font-weight: bold; 
-            cursor: pointer; 
-            text-decoration: underline;
-          }
-          .link-trigger {
-            color: #6f42c1; 
-            font-weight: bold; 
-            cursor: pointer; 
-            text-decoration: underline;
-          }
-          .multi-trigger {
-            color: #dc3545; 
-            font-weight: bold; 
-            cursor: pointer; 
-            text-decoration: underline;
-          }
-          .iframe-trigger {
-            color: #20c997; 
-            font-weight: bold; 
-            cursor: pointer; 
-            text-decoration: underline;
-          }
-          .text-trigger {
-            color: #d63384; 
-            font-weight: bold; 
-            cursor: pointer; 
-            text-decoration: underline;
-          }
+    <!-- المراجع الضرورية لضمان ظهور الأيقونات والأزرار -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
 
-          table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-          }
-          table th, table td {
-            border: 1px solid #ccc;
-            padding: 10px;
-            text-align: left;
-          }
-          table thead {
-            background-color: #f2f2f2;
-          }
-          .mjx-container {
-            zoom: 1.2;
-          }
-        </style>
-      </head>
-      <body>
-        <div id="content">
-          ${modifiedContent}
-        </div>
-        <!-- إضافة MathJax لعرض المعادلات -->
-        <script>
-          window.MathJax = {
-            tex: {
-              inlineMath: [['$', '$'], ['\\\\(', '\\\\)']]
-            },
-            svg: {
-              fontCache: 'global'
-            }
-          };
-        <\/script>
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"><\/script>
-        <script>
-          window.onload = function() {
-            window.focus();
-            window.print();
-          };
-        <\/script>
-      </body>
-    </html>
-  `);
+    <style>
+      @page { size: auto; margin: 0; }
+      body {
+        margin: 0; 
+        padding: 0;
+        font-family: 'Montserrat', sans-serif; 
+        background-color: #fafafa; 
+        color: #2c3e50;
+      }
+      /* العلامة المائية بحجم أصغر وفي المنتصف - ثابتة وأمام المحتوى */
+      body::before {
+        content: "SUMS Site\\A https://sites.google.com/view/medsums/sums-questions-bank-sqb";
+        white-space: pre;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-30deg);
+        font-size: 25px;
+        color: rgba(0, 0, 0, 0.07);
+        pointer-events: none;
+        z-index: 9999;
+        text-align: center;
+      }
+      #content {
+        position: relative;
+        z-index: 1;
+        margin: 20px; 
+        padding: 20px; 
+        font-size: 14px;
+        border: none;
+      }
+      /* نسخ ألوان العناوين والفقرات والتريغرز لضمان تطابق الألوان */
+      h1 { color: #2e4053; }
+      h2 { color: #2874a6; }
+      h3 { color: #148f77; }
+      h4 { color: #9b59b6; }
+      h5, h6 { color: #b03a2e; }
+      p, li, td, th { color: #2c3e50; }
+      strong { color: #6c3483; font-weight: bold; }
+      em { color: #d35400; font-style: italic; }
+      /* نسخ أنماط التريغرز بألوانها */
+      .question-trigger {
+        color: #ff8c00; 
+        font-weight: bold; 
+        cursor: pointer; 
+        text-decoration: none;
+      }
+      .image-trigger {
+        color: #28a745; 
+        font-weight: bold; 
+        cursor: pointer; 
+        text-decoration: none;
+      }
+      .video-trigger {
+        color: #007bff; 
+        font-weight: bold; 
+        cursor: pointer; 
+        text-decoration: none;
+      }
+      .link-trigger {
+        color: #6f42c1; 
+        font-weight: bold; 
+        cursor: pointer; 
+        text-decoration: none;
+      }
+      .multi-trigger {
+        color: #dc3545; 
+        font-weight: bold; 
+        cursor: pointer; 
+        text-decoration: none;
+      }
+      .iframe-trigger {
+        color: #20c997; 
+        font-weight: bold; 
+        cursor: pointer; 
+        text-decoration: none;
+      }
+      .text-trigger {
+        color: #d63384; 
+        font-weight: bold; 
+        cursor: pointer; 
+        text-decoration: none;
+      }
+      /* نسخ أنماط أزرار التريغرز */
+      .trigger-btn {
+        border: none;
+        padding: 2px 4px;
+        font-size: 0.8em;
+        cursor: pointer;
+        margin: 0 5px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        border-radius: 3px;
+        display: inline-block;
+      }
+      .trigger-btn.question-btn {
+        background-color: #ffcc80;
+        color: #ff8c00;
+      }
+      .trigger-btn.image-btn {
+        background-color: #c8e6c9;
+        color: #28a745;
+      }
+      .trigger-btn.video-btn {
+        background-color: #bbdefb;
+        color: #007bff;
+      }
+      .trigger-btn.link-btn {
+        background-color: #e1bee7;
+        color: #6f42c1;
+      }
+      .trigger-btn.multi-btn {
+        background-color: #ffcdd2;
+        color: #dc3545;
+      }
+      .trigger-btn.iframe-btn {
+        background-color: #b2dfdb;
+        color: #20c997;
+      }
+      .trigger-btn.text-btn {
+        background-color: #f8bbd0;
+        color: #d63384;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+      table th, table td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: left;
+      }
+      table thead {
+        background-color: #f2f2f2;
+      }
+      .mjx-container {
+        zoom: 1.2;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      ${modifiedContent}
+    </div>
+    <!-- إضافة MathJax لعرض المعادلات -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\\\(', '\\\\)']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+    <\/script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"><\/script>
+    <script>
+      window.onload = function() {
+        window.focus();
+        window.print();
+      };
+    <\/script>
+  </body>
+</html>`
+  );
   printWindow.document.close();
 }
 
