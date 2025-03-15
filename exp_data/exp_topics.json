@@ -15,31 +15,8 @@
       ]
     },
     {
-      "title": "CYT",
-      "subtopics": [
-        {
-          "title": "cyt",
-          "subtopics": [
-            {
-              "title": "tttt",
-              "dataFile": "exp_data/CYT_CYT_TTTT.json"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "NSV",
-      "subtopics": [
-        {
-          "title": "micro",
-          "dataFile": "nsv_micro.json"
-        }
-      ]
-    },
-    {
-      "title": "micro",
-      "dataFile": "micro.json"
+      "title": "cna",
+      "dataFile": "cna.json"
     }
   ]
 }
