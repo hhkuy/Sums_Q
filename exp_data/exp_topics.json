@@ -17,6 +17,10 @@
     {
       "title": "cn",
       "dataFile": "cn.json"
+    },
+    {
+      "title": "gg",
+      "dataFile": "gg.json"
     }
   ]
 }
