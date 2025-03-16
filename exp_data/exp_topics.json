@@ -15,12 +15,8 @@
       ]
     },
     {
-      "title": "cn",
-      "dataFile": "cn.json"
-    },
-    {
-      "title": "gg",
-      "dataFile": "gg.json"
+      "title": "tt",
+      "dataFile": "tt.json"
     }
   ]
 }
