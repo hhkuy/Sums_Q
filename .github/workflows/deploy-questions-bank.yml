@@ -1,10 +1,8 @@
 name: 🚀 Deploy Questions Bank to InfinityFree
 
-# يُشغَّل أوتوماتيكيًا عند Push وأيضًا يدويًا عبر زر Run workflow
 on:
   push:
-    branches:
-      - main        # غيّر إذا تستخدم فرعًا آخر
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -16,12 +14,11 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4
+-       uses: SamKirkland/FTP-Deploy-Action@v4
++       uses: SamKirkland/ftp-deploy-action@4.4.2
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          # إذا لديك مجلد فرعي questions-bank في الريبو استخدم ./questions-bank
-          # وإلا لو الكود كله في الجذر استخدم ./
           local-dir: ./questions-bank
           remote-dir: ${{ secrets.FTP_REMOTE_DIR }}
