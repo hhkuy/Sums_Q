@@ -1,9 +1,10 @@
-name: 🚀 Deploy Questions Bank to InfinityFree
+name: "🚀 Deploy Questions Bank to InfinityFree"
 
 on:
   push:
-    branches: [ main ]
-  workflow_dispatch:
+    branches:
+      - main
+  workflow_dispatch: {}
 
 jobs:
   ftp-deploy:
@@ -14,8 +15,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Deploy via FTP
--       uses: SamKirkland/FTP-Deploy-Action@v4
-+       uses: SamKirkland/ftp-deploy-action@4.4.2
+        uses: samkirkland/ftp-deploy-action@4.4.2
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
