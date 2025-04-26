@@ -4,10 +4,8 @@ Options -Indexes
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
-  # نقيّد الوصول فقط إلى index.html
+  # نقيّد الوصول إلى index.html فقط إن كان Referer من موقعك
   RewriteCond %{REQUEST_URI} ^/questions-bank/index\.html$ [NC]
-  # نسمح فقط إذا كان Referer من صفحتك الأصلية
-  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?your-domain\.com/questions-bank/? [NC]
-  # خلاف ذلك نرُدّ 403 Forbidden
+  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?viatosis\.wuaze\.com/questions-bank/? [NC]
   RewriteRule ^.*$ - [F,L]
 </IfModule>
