@@ -1,11 +1,10 @@
-# منع عرض قائمة الملفات
+# 1) منع عرض قائمة الملفات
 Options -Indexes
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
-  # نقيّد الوصول إلى index.html فقط إن كان Referer من موقعك
-  RewriteCond %{REQUEST_URI} ^/questions-bank/index\.html$ [NC]
-  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?viatosis\.wuaze\.com/questions-bank/? [NC]
+  # 2) إذا كان الـ Referer لا يحتوي دومينك، نرفض الطلب
+  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?viatosis\.wuaze\.com [NC]
   RewriteRule ^.*$ - [F,L]
 </IfModule>
