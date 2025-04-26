@@ -1,0 +1,13 @@
+# منع عرض قائمة الملفات
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # نقيّد الوصول فقط إلى index.html
+  RewriteCond %{REQUEST_URI} ^/questions-bank/index\.html$ [NC]
+  # نسمح فقط إذا كان Referer من صفحتك الأصلية
+  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?your-domain\.com/questions-bank/? [NC]
+  # خلاف ذلك نرُدّ 403 Forbidden
+  RewriteRule ^.*$ - [F,L]
+</IfModule>
