@@ -1,24 +1,22 @@
-name: "🚀 Deploy Questions Bank to InfinityFree"
+name: "🚀 Deploy Entire Repo to InfinityFree"
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch: {}
 
 jobs:
   ftp-deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.0
         with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./questions-bank/      # أضف "/" هنا
-          server-dir: ${{ secrets.FTP_REMOTE_DIR }}   # استبدل remote-dir بـ server-dir
+          server: ${{ secrets.FTP_HOST }}          # مثال: ftpupload.net
+          username: ${{ secrets.FTP_USERNAME }}     # اسم مستخدم FTP
+          password: ${{ secrets.FTP_PASSWORD }}     # كلمة مرور FTP
+          local-dir: ./                            # رفع كل محتويات الجذر
+          server-dir: /htdocs/questions-bank/      # المسار البعيد على الخادم
