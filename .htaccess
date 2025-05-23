@@ -4,7 +4,7 @@ Options -Indexes
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
-  # 2) إذا كان الـ Referer لا يحتوي دومينك، نرفض الطلب
-  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?viatosis\.wuaze\.com [NC]
+  # 2) إذا كان الـ Referer لا يحتوي على النطاق الجديد، نرفض الطلب
+  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?viatosis\.ar\.nf [NC]
   RewriteRule ^.*$ - [F,L]
 </IfModule>
