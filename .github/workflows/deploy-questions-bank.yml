@@ -19,4 +19,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}     # اسم مستخدم FTP
           password: ${{ secrets.FTP_PASSWORD }}     # كلمة مرور FTP
           local-dir: ./                            # رفع كل محتويات الجذر
-          server-dir: /public_html//wp-content/plugins/questions-bank/
+          server-dir: /public_html/questions-bank/
