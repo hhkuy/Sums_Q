@@ -408,29 +408,5 @@
         "file": "data/histology_block_tissue_.json"
       }
     ]
-  },
-  {
-    "topicName": "test",
-    "description": "test",
-    "subTopics": [
-      {
-        "name": "test 2",
-        "file": "data/test_test_2.json"
-      }
-    ]
-  },
-  {
-    "topicName": "RH",
-    "description": "",
-    "subTopics": [
-      {
-        "name": "Pathology",
-        "file": "data/rh_pathology.json"
-      },
-      {
-        "name": "Internal",
-        "file": "data/rh_internal.json"
-      }
-    ]
   }
 ]
