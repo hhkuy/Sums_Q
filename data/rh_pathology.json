@@ -1,6 +1,6 @@
 [
   {
-    "question": "<span style=\"color: darkred; font-weight:bold;\">SLE - Question 1</span> Which of the following is the most common acute skin manifestation of SLE?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">SLEs - Question 1</span> Which of the following is the most common acute skin manifestation of SLE?",
     "options": [
       "Malar rash ",
       "Discoid lupus erythematosus ",
@@ -14,7 +14,7 @@
     "qID": "rh-path-q1"
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>SLE - Question 2</span> In systemic lupus erythematosus (SLE), which of the following antibodies is most specific for the disease?<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1748608433912_ChatGPTImage29202506_36_32.png' alt='Image for Q2' style='max-width:100%; height:auto;' data-filepath='pic/1748608433912_ChatGPTImage29202506_36_32.png'>",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">SLEs - Question 2</span> In systemic lupus erythematosus (SLE), which of the following antibodies is most specific for the disease?<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1748608433912_ChatGPTImage29202506_36_32.png' alt='Image for Q2' style='max-width:100%; height:auto;' data-filepath='pic/1748608433912_ChatGPTImage29202506_36_32.png'>",
     "options": [
       "Anti-dsDNA antibodies",
       "Anti-Ro (SSA) antibodies",
@@ -28,7 +28,7 @@
     "qID": "rh-path-q2"
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>SLE - Question 3</span> In SLE, the presence of anti-dsDNA antibodies is associated with which of the following complications?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">SLEs - Question 3</span> In SLE, the presence of anti-dsDNA antibodies is associated with which of the following complications?",
     "options": [
       "Neuropsychiatric lupus",
       "Lupus nephritis",
@@ -42,7 +42,7 @@
     "qID": "rh-path-q3"
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>SLE - Question 4</span> Which of the following is a major cause of death in patients with SLE?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">SLEs - Question 4</span> Which of the following is a major cause of death in patients with SLE?",
     "options": [
       "Renal failure",
       "Cardiovascular disease",
@@ -56,7 +56,7 @@
     "qID": "rh-path-q4"
   },
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>SLE - Question 5</span> Which of the following findings is commonly seen on renal biopsy in lupus nephritis class IV (diffuse proliferative)?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">SLEs - Question 5</span> Which of the following findings is commonly seen on renal biopsy in lupus nephritis class IV (diffuse proliferative)?",
     "options": [
       "Minimal mesangial deposits",
       "Membranous nephropathy",
