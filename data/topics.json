@@ -418,5 +418,19 @@
         "file": "data/test_test_2.json"
       }
     ]
+  },
+  {
+    "topicName": "RH",
+    "description": "",
+    "subTopics": [
+      {
+        "name": "Pathology",
+        "file": "data/rh_pathology.json"
+      },
+      {
+        "name": "Internal",
+        "file": "data/rh_internal.json"
+      }
+    ]
   }
 ]
