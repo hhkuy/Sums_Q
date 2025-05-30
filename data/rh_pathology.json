@@ -1,15 +1,15 @@
 [
   {
-    "question": "<span style='color: darkred; font-weight:bold;'>SLE - Question 1</span> Which of the following is the most common chronic skin manifestation of SLE?",
+    "question": "<span style=\"color: darkred; font-weight:bold;\">SLE - Question 1</span> Which of the following is the most common acute skin manifestation of SLE?",
     "options": [
-      "Malar rash",
-      "Discoid lupus erythematosus",
+      "Malar rash ",
+      "Discoid lupus erythematosus ",
       "Subacute cutaneous lupus",
       "Livedo reticularis"
     ],
-    "answer": 1,
-    "answerText": "Discoid lupus erythematosus",
-    "explanation": "Discoid lupus erythematosus is the most common chronic form of cutaneous lupus, with characteristic circular, hyperpigmented plaques. ",
+    "answer": 2,
+    "answerText": "Subacute cutaneous lupus",
+    "explanation": "Discoid lupus erythematosus is the most common chronic form of cutaneous lupus, with characteristic circular, hyperpigmented plaques. تتةاتات",
     "userAnswer": null,
     "qID": "rh-path-q1"
   },
