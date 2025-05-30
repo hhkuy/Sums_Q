@@ -408,5 +408,19 @@
         "file": "data/histology_block_tissue_.json"
       }
     ]
+  },
+  {
+    "topicName": "🦴Rheumatology system 🦴",
+    "description": "sixth Semeste",
+    "subTopics": [
+      {
+        "name": "✨🦴Pathology 🦴✨",
+        "file": "data/🦴rheumatology_system_🦴_✨🦴pathology_🦴✨.json"
+      },
+      {
+        "name": "🦴🩺 Internal Medicine 🩺🦴",
+        "file": "data/🦴rheumatology_system_🦴_🦴🩺_internal_medicine_🩺🦴.json"
+      }
+    ]
   }
 ]
