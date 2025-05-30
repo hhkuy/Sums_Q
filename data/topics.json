@@ -410,15 +410,15 @@
     ]
   },
   {
-    "topicName": "🦴Rheumatology system 🦴",
-    "description": "sixth Semeste",
+    "topicName": "Rheumatology system",
+    "description": "Related to the sixth Semeste",
     "subTopics": [
       {
-        "name": "✨🦴Pathology 🦴✨",
+        "name": "Pathology",
         "file": "data/🦴rheumatology_system_🦴_✨🦴pathology_🦴✨.json"
       },
       {
-        "name": "🦴🩺 Internal Medicine 🩺🦴",
+        "name": "Internal Medicine",
         "file": "data/🦴rheumatology_system_🦴_🦴🩺_internal_medicine_🩺🦴.json"
       }
     ]
