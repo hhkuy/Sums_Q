@@ -1,0 +1,72 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>SLE - Question 1</span> Heart failure is defined as the inability of the heart to do which of the following?",
+    "options": [
+      "Deliver adequate blood flow to meet the body's needs",
+      "Pump blood at high pressure",
+      "Increase heart rate and contractility",
+      "Decrease systemic vascular resistance"
+    ],
+    "answer": 0,
+    "answerText": "Deliver adequate blood flow to meet the body's needs",
+    "explanation": "Heart failure is the inability of the heart to maintain sufficient cardiac output to meet the metabolic demands of the body.  ",
+    "userAnswer": null,
+    "qID": "rh-inte-q1"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>SLE - Question 2</span> Which of the following is a typical symptom of left-sided heart failure?",
+    "options": [
+      "Peripheral edema",
+      "Orthopnea",
+      "Jugular venous distention",
+      "Hepatomegaly"
+    ],
+    "answer": 1,
+    "answerText": "Orthopnea",
+    "explanation": "Orthopnea is a classic symptom of left-sided heart failure, caused by pulmonary congestion and difficulty breathing while lying flat.  ",
+    "userAnswer": null,
+    "qID": "rh-inte-q2"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>SLE - Question 3</span> Which of the following best describes the mechanism of action of ACE inhibitors in heart failure?",
+    "options": [
+      "Increase sympathetic activity",
+      "Increase sodium and water retention",
+      "Decrease afterload and preload",
+      "Increase aldosterone secretion"
+    ],
+    "answer": 2,
+    "answerText": "Decrease afterload and preload",
+    "explanation": "ACE inhibitors decrease afterload (via vasodilation) and preload (via decreased blood volume), improving symptoms of heart failure.  ",
+    "userAnswer": null,
+    "qID": "rh-inte-q3"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>SLE - Question 4</span> In heart failure with reduced ejection fraction (HFrEF), which of the following is typically decreased?",
+    "options": [
+      "End-diastolic volume",
+      "Left ventricular ejection fraction",
+      "Left ventricular mass",
+      "Sympathetic nervous system activity"
+    ],
+    "answer": 1,
+    "answerText": "Left ventricular ejection fraction",
+    "explanation": "HFrEF is characterized by a reduced left ventricular ejection fraction (LVEF < 40%).  ",
+    "userAnswer": null,
+    "qID": "rh-inte-q4"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>SLE - Question 5</span> Which of the following compensatory mechanisms in heart failure is associated with increased preload and can lead to congestion?",
+    "options": [
+      "Increased parasympathetic tone",
+      "Activation of the renin-angiotensin-aldosterone system (RAAS)",
+      "Decreased sympathetic activity",
+      "Decreased antidiuretic hormone (ADH)"
+    ],
+    "answer": 1,
+    "answerText": "Activation of the renin-angiotensin-aldosterone system (RAAS)",
+    "explanation": "Activation of the RAAS increases sodium and water retention, raising preload and potentially worsening congestion.",
+    "userAnswer": null,
+    "qID": "rh-inte-q5"
+  }
+]
