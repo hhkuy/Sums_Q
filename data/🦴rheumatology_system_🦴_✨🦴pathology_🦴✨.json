@@ -29,5 +29,20 @@
     "explanation": "The clinical scenario is most consistent with osteoarthritis, a degenerative joint disease that causes joint pain and crepitus without systemic inflammation. Although osteoarthritis itself does not directly cause hypercalcemia, no other option in this list fits the described symptoms better. The mention of hypercalcemia may be a distractor or misphrasing, as the labs are reported normal.",
     "userAnswer": null,
     "qID": "rheu-path-q2"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>patho Question 1</span> A 30-year-old man has had cramping abdominal pain and bloody diarrhea for the past 4 days. On physical examination, there is diffuse tenderness on palpation of the abdomen. Bowel sounds are present. There are no masses and no organomegaly. A stool culture is positive for Shigella flexneri. The episode resolves spontaneously within 1 week after onset. Six weeks later, he has increasingly severe lower back pain. Physical examination now shows stiffness of the lumbar spine and tenderness of the sacroiliac joints. He is treated with non-steroidal anti-inflammatory agents. Two months later, the back pain recurs, and he complains of redness of the right eye and blurred vision. Serologic testing for which of the following is most likely to be positive in this patient?",
+    "options": [
+      "Borrelia burgdorferi",
+      "Chlamydia trachomatis",
+      "Epstein-Barr virus",
+      "HLA-B27",
+      "Rheumatoid factor"
+    ],
+    "answer": 3,
+    "answerText": "HLA-B27",
+    "explanation": "The patient presents with reactive arthritis, a form of seronegative spondyloarthritis often triggered by gastrointestinal or genitourinary infections (e.g., Shigella, Chlamydia). The classic triad includes arthritis, urethritis, and uveitis. HLA-B27 is strongly associated with this condition.",
+    "userAnswer": null,
+    "qID": "rheu-path-q3"
   }
 ]
