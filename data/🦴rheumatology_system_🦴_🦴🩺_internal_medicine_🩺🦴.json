@@ -1,0 +1,184 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>GIANT CELL ARTERITIS - Question 1</span> A 72-year-old woman presents with a new-onset headache, scalp tenderness, and jaw claudication while eating. She also reports recent weight loss and fatigue. On examination, there is tenderness over the temporal artery and reduced pulsation. Laboratory findings reveal ESR = 105 mm/h and normocytic anemia.",
+    "options": [
+      "Polymyalgia rheumatica",
+      "Giant Cell Arteritis",
+      "Takayasu arteritis",
+      "Temporal lobe tumor"
+    ],
+    "answer": 1,
+    "answerText": "Giant Cell Arteritis",
+    "explanation": "The presentation of headache, scalp tenderness, jaw claudication, and high ESR in an older patient is classic for Giant Cell Arteritis (GCA).",
+    "userAnswer": null,
+    "qID": "rheu-inte-q1"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>GIANT CELL ARTERITIS - Question 2</span> A 69-year-old man complains of blurred vision in the right eye, jaw pain while chewing, and scalp tenderness. He has an ESR of 120 mm/h.",
+    "options": [
+      "Carotid dissection",
+      "Blindness",
+      "Aortic aneurysm",
+      "Acute renal failure"
+    ],
+    "answer": 1,
+    "answerText": "Blindness",
+    "explanation": "Visual loss due to ischemic optic neuropathy is the most feared complication of GCA, and it requires urgent treatment to prevent permanent blindness.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q2"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>GIANT CELL ARTERITIS - Question 3</span> What is the gold standard for diagnosing Giant Cell Arteritis?",
+    "options": [
+      "ESR measurement",
+      "Temporal artery biopsy",
+      "Carotid ultrasound",
+      "CRP"
+    ],
+    "answer": 1,
+    "answerText": "Temporal artery biopsy",
+    "explanation": "Temporal artery biopsy is the gold standard for confirming the diagnosis of GCA.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q3"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>GIANT CELL ARTERITIS - Question 4</span> A 70-year-old woman with new headache and shoulder pain, morning stiffness lasting more than 1 hour, and ESR = 110 mm/h. No visual symptoms.",
+    "options": [
+      "Polymyalgia rheumatica (PMR)",
+      "Giant Cell Arteritis",
+      "GCA with PMR overlap",
+      "Fibromyalgia"
+    ],
+    "answer": 2,
+    "answerText": "GCA with PMR overlap",
+    "explanation": "This patient has features of both GCA and PMR, which often coexist in older adults.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q4"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>GIANT CELL ARTERITIS - Question 5</span> A 28-year-old woman from Iran comes to the clinic with dizziness and unequal pulses in her arms. She complains of fatigue and weight loss. BP in right arm is 90/60 and in left arm is 120/80. ESR is 85 mm/h.",
+    "options": [
+      "Takayasu arteritis",
+      "Giant Cell Arteritis",
+      "Subclavian steal syndrome",
+      "Thoracic outlet syndrome"
+    ],
+    "answer": 0,
+    "answerText": "Takayasu arteritis",
+    "explanation": "Takayasu arteritis typically affects young women and presents with blood pressure discrepancies, constitutional symptoms, and high ESR.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q5"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>GIANT CELL ARTERITIS - Question 6</span> A 25-year-old woman presents with arm claudication, decreased pulses in upper limbs, and blood pressure difference between arms of 30 mmHg.",
+    "options": [
+      "Start corticosteroids immediately",
+      "Order ESR and CRP only",
+      "Doppler ultrasound only",
+      "Order MR angiography to confirm"
+    ],
+    "answer": 3,
+    "answerText": "Order MR angiography to confirm",
+    "explanation": "MR angiography (or CT angiography) is the best next step to confirm the diagnosis of Takayasu arteritis and assess the extent of vessel involvement.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q6"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>GIANT CELL ARTERITIS - Question 7</span> What is the typical age of onset for Takayasu arteritis?",
+    "options": [
+      "<40 years",
+      "40-60 years",
+      ">70 years",
+      "No specific age group"
+    ],
+    "answer": 0,
+    "answerText": "<40 years",
+    "explanation": "Takayasu arteritis typically presents in young adults, especially women <40 years old.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q7"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>GIANT CELL ARTERITIS - Question 8</span> What is the typical age of onset for GCA?",
+    "options": [
+      "<40 years",
+      "40-60 years",
+      ">50 years",
+      "Any age"
+    ],
+    "answer": 2,
+    "answerText": ">50 years",
+    "explanation": "GCA usually occurs in people over 50 years old.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q8"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>GIANT CELL ARTERITIS - Question 9</span> A patient with GCA and visual symptoms comes to you. What do you do immediately?",
+    "options": [
+      "Start high-dose prednisolone 1 mg/kg",
+      "Start low-dose aspirin",
+      "Order biopsy before any treatment",
+      "NSAIDs"
+    ],
+    "answer": 0,
+    "answerText": "Start high-dose prednisolone 1 mg/kg",
+    "explanation": "High-dose corticosteroids should be started immediately to prevent permanent vision loss in GCA.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q9"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>GIANT CELL ARTERITIS - Question 10</span> Which complication is associated with renal artery involvement in TA?",
+    "options": [
+      "Hematuria",
+      "Hypertension",
+      "Hemoptysis",
+      "Polyarthritis"
+    ],
+    "answer": 1,
+    "answerText": "Hypertension",
+    "explanation": "Renal artery stenosis can lead to renovascular hypertension in Takayasu arteritis.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q10"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>GIANT CELL ARTERITIS - Question 11</span> Which of the following is typically elevated in GCA?",
+    "options": [
+      "ESR only",
+      "CRP only",
+      "Both ESR and CRP",
+      "Neither"
+    ],
+    "answer": 2,
+    "answerText": "Both ESR and CRP",
+    "explanation": "Both ESR and CRP are usually elevated in GCA due to systemic inflammation.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q11"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>GIANT CELL ARTERITIS - Question 12</span> Which of the following is NOT typically seen in Takayasu’s arteritis?",
+    "options": [
+      "Unequal pulses in arms",
+      "Visual loss",
+      "Upper extremity claudication",
+      "BP discrepancy between arms"
+    ],
+    "answer": 1,
+    "answerText": "Visual loss",
+    "explanation": "Visual loss is a typical feature of GCA, not Takayasu arteritis.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q12"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>GIANT CELL ARTERITIS - Question 13</span> What is the typical histologic feature in GCA?",
+    "options": [
+      "Neutrophilic infiltration",
+      "Granulomatous inflammation with giant cells",
+      "Fibrosis of the media",
+      "Fibrinoid necrosis"
+    ],
+    "answer": 1,
+    "answerText": "Granulomatous inflammation with giant cells",
+    "explanation": "GCA typically shows granulomatous inflammation with multinucleated giant cells on biopsy.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q13"
+  }
+]
