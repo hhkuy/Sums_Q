@@ -59,5 +59,21 @@
     "explanation": "The clinical presentation is consistent with rheumatoid arthritis, characterized by symmetric joint involvement, deformities like swan neck and ulnar deviation, and chronic synovial inflammation. Anti-citrullinated peptide antibodies (ACPAs) are highly specific for rheumatoid arthritis and often appear before clinical symptoms.",
     "userAnswer": null,
     "qID": "rheu-path-q4"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Patho Question 1</span> A 33-year-old woman has been bothered by a bump on the dorsum of her left wrist for the past 4 months. On physical examination, there is a 1-cm firm but fluctuant subcutaneous nodule over an extensor tendon of the left wrist. The nodule is painful on palpation and movement. Mucoid fluid is aspirated from the nodule. What is the most likely diagnosis?",
+    "options": [
+      "Ganglion cyst",
+      "Giant cell tumor",
+      "Lipoma",
+      "Nodular fasciitis",
+      "Rheumatoid nodule",
+      "Tophus"
+    ],
+    "answer": 1,
+    "answerText": "Giant cell tumor",
+    "explanation": "A giant cell tumor of the tendon sheath presents as a firm, sometimes painful mass along tendon sheaths or joint capsules. It is a benign tumor that can be confused clinically with a ganglion cyst but is more solid and cellular.",
+    "userAnswer": null,
+    "qID": "rheu-path-q5"
   }
 ]
