@@ -29,36 +29,5 @@
     "explanation": "The clinical scenario is most consistent with osteoarthritis, a degenerative joint disease that causes joint pain and crepitus without systemic inflammation. Although osteoarthritis itself does not directly cause hypercalcemia, no other option in this list fits the described symptoms better. The mention of hypercalcemia may be a distractor or misphrasing, as the labs are reported normal.",
     "userAnswer": null,
     "qID": "rheu-path-q2"
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>Patho Question 1</span> A 35-year-old woman with active lupus nephritis falls forward and lands on her left hand. She has immediate pain. On examination there is crepitus at the wrist. A radiograph shows radial and navicular fractures along with marked osteopenia. Which of the following medications most likely contributed to the fracture?",
-    "options": [
-      "Hydrocortisone",
-      "Ibuprofen",
-      "Lisinopril",
-      "Losartan",
-      "Methotrexate"
-    ],
-    "answer": 0,
-    "answerText": "Hydrocortisone",
-    "explanation": "Chronic use of glucocorticoids like hydrocortisone is known to cause decreased bone mineral density, leading to osteopenia and increased risk of fractures. ",
-    "userAnswer": null,
-    "qID": "rheu-path-q3"
-  },
-  {
-    "question": "<span style='color: darkred; font-weight:bold;'>Patho Question 2</span> A 71-year-old man has experienced aching pain in the right knee, lower back, right distal fifth finger, and neck over the past 10 years. He notices that the joints feel slightly stiff in the morning, but this passes quickly. The pain is worse toward the end of the day. On physical examination, there is no joint swelling, warmth, or deformity. Some joint crepitus is audible on moving the knee. Laboratory studies show normal levels of serum calcium, phosphorus, alkaline phosphatase, and uric acid. What is the most likely cause of hypercalcemia?",
-    "options": [
-      "Ankylosing spondylitis",
-      "Gouty arthritis",
-      "Multiple myeloma",
-      "Osteoarthritis",
-      "Pseudogout",
-      "Rheumatoid arthritis"
-    ],
-    "answer": 3,
-    "answerText": "Osteoarthritis",
-    "explanation": "The clinical scenario is most consistent with osteoarthritis, a degenerative joint disease that causes joint pain and crepitus without systemic inflammation. Although osteoarthritis itself does not directly cause hypercalcemia, no other option in this list fits the described symptoms better. The mention of hypercalcemia may be a distractor or misphrasing, as the labs are reported normal.",
-    "userAnswer": null,
-    "qID": "rheu-path-q4"
   }
 ]
