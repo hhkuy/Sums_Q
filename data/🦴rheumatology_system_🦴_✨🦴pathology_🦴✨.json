@@ -44,5 +44,20 @@
     "explanation": "The patient presents with reactive arthritis, a form of seronegative spondyloarthritis often triggered by gastrointestinal or genitourinary infections (e.g., Shigella, Chlamydia). The classic triad includes arthritis, urethritis, and uveitis. HLA-B27 is strongly associated with this condition.",
     "userAnswer": null,
     "qID": "rheu-path-q3"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Patho Question 1</span> A 34-year-old woman has experienced malaise, fatigue, and joint pain for the past 5 months. She has had progressive loss of joint motion, making it more difficult to walk and to use her hands. On physical examination, the joint involvement is symmetric, and most of the affected joints are in the hands and feet. The involved joints are swollen and warm to the touch. The second and third digits on the right hand have a swan neck deformity, and there is ulnar deviation of both hands. Reconstructive surgery is performed on her right hand. Microscopic views of the excised joint capsule tissue are shown in the figure. Which of the following serologic laboratory test findings is most likely to be positive in this patient?",
+    "options": [
+      "Anti–DNA topoisomerase I antibody",
+      "Antinuclear antibody",
+      "Borrelia burgdorferi",
+      "Campylobacter jejuni",
+      "Citrullinated peptides"
+    ],
+    "answer": 4,
+    "answerText": "Citrullinated peptides",
+    "explanation": "The clinical presentation is consistent with rheumatoid arthritis, characterized by symmetric joint involvement, deformities like swan neck and ulnar deviation, and chronic synovial inflammation. Anti-citrullinated peptide antibodies (ACPAs) are highly specific for rheumatoid arthritis and often appear before clinical symptoms.",
+    "userAnswer": null,
+    "qID": "rheu-path-q4"
   }
 ]
