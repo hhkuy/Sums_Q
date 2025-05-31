@@ -1,0 +1,17 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Patho Question 1</span> A 35-year-old woman with active lupus nephritis falls forward and lands on her left hand. She has immediate pain. On examination there is crepitus at the wrist. A radiograph shows radial and navicular fractures along with marked osteopenia. Which of the following medications most likely contributed to the fracture?",
+    "options": [
+      "Hydrocortisone",
+      "Ibuprofen",
+      "Lisinopril",
+      "Losartan",
+      "Methotrexate"
+    ],
+    "answer": 0,
+    "answerText": "Hydrocortisone",
+    "explanation": "Chronic use of glucocorticoids like hydrocortisone is known to cause decreased bone mineral density, leading to osteopenia and increased risk of fractures.",
+    "userAnswer": null,
+    "qID": "rheu-path-q1"
+  }
+]
