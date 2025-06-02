@@ -320,5 +320,117 @@
     "explanation": "PAN does not involve the lungs (unlike microscopic polyangiitis).",
     "userAnswer": null,
     "qID": "rheu-inte-q23"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Small vessel vasculitis - Question 1</span> A 68-year-old man presents with 4-month history of nasal congestion, recurrent epistaxis, and blood-tinged nasal discharge. He also has progressive hearing loss and recent onset of productive cough with blood-streaked sputum. Physical exam reveals saddle-nose deformity and mild proteinuria on urinalysis. What is the most likely autoantibody finding in this patient?",
+    "options": [
+      "MPO-ANCA (p-ANCA)",
+      "PR3-ANCA (c-ANCA)",
+      "Anti-GBM antibodies",
+      "ANA"
+    ],
+    "answer": 1,
+    "answerText": "PR3-ANCA (c-ANCA)",
+    "explanation": "GPA usually has PR3-ANCA (c-ANCA). The classic triad of URT (ENT), lung, kidney is seen. Saddle nose is classic for GPA.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q24"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Small vessel vasculitis - Question 2</span> A 55-year-old woman presents with rapidly worsening dyspnea and hematuria. Urinalysis shows red cell casts and proteinuria. Chest X-ray reveals diffuse alveolar infiltrates. ANCA testing is positive for MPO-ANCA. No nasal or sinus symptoms are present. What histopathology finding is most consistent with this disease?",
+    "options": [
+      "Granulomatous inflammation",
+      "Immune complex deposits",
+      "Pulmonary capillaritis with neutrophilic infiltration and no immune deposits",
+      "Eosinophilic infiltration and granulomas"
+    ],
+    "answer": 2,
+    "answerText": "Pulmonary capillaritis with neutrophilic infiltration and no immune deposits",
+    "explanation": "MPA: Small vessel vasculitis with pauci-immune pattern (no immune deposits), capillaritis. No granulomas (which distinguishes it from GPA and EGPA).",
+    "userAnswer": null,
+    "qID": "rheu-inte-q25"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Small vessel vasculitis - Question 3</span> A 45-year-old man with a history of asthma and allergic rhinitis presents with weight loss, mononeuritis multiplex (right foot drop), and palpable purpura on the legs. Labs reveal eosinophilia (2500/mm³) and elevated IgE. What is the most likely renal biopsy finding in this patient?",
+    "options": [
+      "Crescentic necrotizing GN with IgA deposits",
+      "Pauci-immune necrotizing crescentic GN",
+      "Linear anti-GBM deposits",
+      "Immune complex GN"
+    ],
+    "answer": 1,
+    "answerText": "Pauci-immune necrotizing crescentic GN",
+    "explanation": "EGPA often causes pauci-immune necrotizing GN, with eosinophilic tissue infiltration.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q26"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Small vessel vasculitis - Question 4</span> A 7-year-old boy presents with palpable purpura on the legs, severe colicky abdominal pain, and arthralgia in the knees. Urinalysis shows microscopic hematuria without proteinuria. Which of the following is the most helpful diagnostic feature in this patient?",
+    "options": [
+      "Positive ANA",
+      "Positive ASO titer",
+      "Skin biopsy showing IgA deposition",
+      "Positive PR3-ANCA"
+    ],
+    "answer": 2,
+    "answerText": "Skin biopsy showing IgA deposition",
+    "explanation": "HSP is an IgA-mediated leukocytoclastic vasculitis. IgA deposits are the hallmark.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q27"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Small vessel vasculitis - Question 5</span> A 59-year-old man with GPA presents with diffuse alveolar hemorrhage and RPGN (crescentic GN). What is the most appropriate initial management?",
+    "options": [
+      "High-dose glucocorticoids alone",
+      "Azathioprine and low-dose prednisone",
+      "Rituximab or cyclophosphamide with high-dose steroids",
+      "Trimethoprim-sulfamethoxazole"
+    ],
+    "answer": 2,
+    "answerText": "Rituximab or cyclophosphamide with high-dose steroids",
+    "explanation": "Severe GPA with organ- or life-threatening disease → need induction therapy with cyclophosphamide or rituximab + steroids.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q28"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Small vessel vasculitis - Question 6</span> A 62-year-old man with GPA is in remission after treatment. Which of the following factors predicts a higher risk of relapse?",
+    "options": [
+      "Severe renal involvement",
+      "Anti-PR3 positivity and nasal S. aureus carriage",
+      "Age below 30",
+      "No lung involvement"
+    ],
+    "answer": 1,
+    "answerText": "Anti-PR3 positivity and nasal S. aureus carriage",
+    "explanation": "Anti-PR3, lung/URT involvement, nasal S. aureus colonization → higher relapse risk. Severe renal involvement lowers relapse risk.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q29"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Small vessel vasculitis - Question 7</span> A 50-year-old woman with EGPA has only asthma and mild skin purpura. No renal, cardiac, or neurological involvement is present. What is the best treatment plan for this patient?",
+    "options": [
+      "Glucocorticoid alone",
+      "Glucocorticoid + cyclophosphamide",
+      "Rituximab",
+      "Plasmapheresis"
+    ],
+    "answer": 0,
+    "answerText": "Glucocorticoid alone",
+    "explanation": "Limited disease (FFS=0) → steroids alone. Severe/organ-threatening disease → add cyclophosphamide.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q30"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Small vessel vasculitis - Question 8</span> A 54-year-old woman has rapidly progressive renal failure and diffuse pulmonary hemorrhage. Biopsy reveals pauci-immune necrotizing vasculitis without granulomas. She has no sinus or nasal symptoms. What is the most likely diagnosis?",
+    "options": [
+      "GPA",
+      "MPA",
+      "EGPA",
+      "Goodpasture’s syndrome"
+    ],
+    "answer": 1,
+    "answerText": "MPA",
+    "explanation": "No granulomas, no ENT involvement, pulmonary hemorrhage → MPA. GPA would have ENT disease and granulomas.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q31"
   }
 ]
