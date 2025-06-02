@@ -180,5 +180,145 @@
     "explanation": "GCA typically shows granulomatous inflammation with multinucleated giant cells on biopsy.",
     "userAnswer": null,
     "qID": "rheu-inte-q13"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Polyarteritis nodosa (PAN) - Question 1</span> A 48-year-old man presents with sudden-onset wrist drop in the right hand, and patchy areas of sensory loss in the legs and arms. Which of the following best describes this neurologic manifestation of PAN?",
+    "options": [
+      "Symmetrical polyneuropathy",
+      "Mononeuropathy multiplex",
+      "Cranial nerve palsy",
+      "Upper motor neuron syndrome"
+    ],
+    "answer": 1,
+    "answerText": "Mononeuropathy multiplex",
+    "explanation": "PAN typically causes mononeuropathy multiplex (asymmetric polyneuropathy) in about 60% of cases.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q14"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Polyarteritis nodosa (PAN) - Question 2</span> Which of the following best describes the renal involvement in Polyarteritis Nodosa?",
+    "options": [
+      "Immune-complex glomerulonephritis",
+      "Crescentic glomerulonephritis",
+      "Glomerular ischemia without GN",
+      "Membranous nephropathy"
+    ],
+    "answer": 2,
+    "answerText": "Glomerular ischemia without GN",
+    "explanation": "PAN causes glomerular ischemia due to incomplete luminal narrowing of inflamed arteries, not glomerulonephritis (GN).",
+    "userAnswer": null,
+    "qID": "rheu-inte-q15"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Polyarteritis nodosa (PAN) - Question 3</span> A patient with PAN undergoes urinalysis. Which of the following findings would most likely be seen?",
+    "options": [
+      "Heavy proteinuria (>3.5 g/day)",
+      "RBC casts",
+      "Sub-nephrotic proteinuria and modest hematuria",
+      "Large numbers of eosinophils"
+    ],
+    "answer": 2,
+    "answerText": "Sub-nephrotic proteinuria and modest hematuria",
+    "explanation": "PAN usually causes sub-nephrotic proteinuria, mild hematuria, and no RBC casts (no GN).",
+    "userAnswer": null,
+    "qID": "rheu-inte-q16"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Polyarteritis nodosa (PAN) - Question 4</span> A 50-year-old man with known PAN complains of sudden, severe abdominal pain and blood in stool. What is the most likely cause?",
+    "options": [
+      "Colon cancer",
+      "Mesenteric vasculitis causing bowel ischemia",
+      "Intussusception",
+      "Viral gastroenteritis"
+    ],
+    "answer": 1,
+    "answerText": "Mesenteric vasculitis causing bowel ischemia",
+    "explanation": "PAN can cause mesenteric vasculitis → ischemia and bleeding in the small intestine.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q17"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Polyarteritis nodosa (PAN) - Question 5</span> Which of the following is a common extra-renal manifestation of PAN?",
+    "options": [
+      "Pulmonary fibrosis",
+      "Leg muscle ischemia and pain",
+      "Bronchial artery vasculitis",
+      "Pleural effusion"
+    ],
+    "answer": 1,
+    "answerText": "Leg muscle ischemia and pain",
+    "explanation": "Leg muscle pain (ischemia) is a classic finding; lung involvement is rare in PAN.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q18"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Polyarteritis nodosa (PAN) - Question 6</span> Which of the following lab findings is least likely in PAN?",
+    "options": [
+      "Leukocytosis",
+      "Anemia of chronic disease",
+      "Elevated ESR",
+      "Strongly positive p-ANCA"
+    ],
+    "answer": 3,
+    "answerText": "Strongly positive p-ANCA",
+    "explanation": "p-ANCA is rarely positive in PAN (unlike microscopic polyangiitis).",
+    "userAnswer": null,
+    "qID": "rheu-inte-q19"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Polyarteritis nodosa (PAN) - Question 7</span> A patient is suspected to have PAN. What is the best approach to confirm the diagnosis?",
+    "options": [
+      "MRI of the abdomen",
+      "CT angiogram",
+      "Biopsy of involved tissue + conventional arteriography",
+      "X-ray of the spine"
+    ],
+    "answer": 2,
+    "answerText": "Biopsy of involved tissue + conventional arteriography",
+    "explanation": "Biopsy + conventional arteriography is the gold standard (sensitivity 85%, specificity 96%).",
+    "userAnswer": null,
+    "qID": "rheu-inte-q20"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Polyarteritis nodosa (PAN) - Question 8</span> What is the best initial treatment for severe PAN (no hepatitis B)?",
+    "options": [
+      "Steroids only",
+      "NSAIDs and supportive care",
+      "Steroids + cyclophosphamide",
+      "IV antibiotics"
+    ],
+    "answer": 2,
+    "answerText": "Steroids + cyclophosphamide",
+    "explanation": "Steroids + cyclophosphamide is the standard for severe PAN.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q21"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Polyarteritis nodosa (PAN) - Question 9</span> What is the most appropriate treatment for PAN in a patient with active Hepatitis B infection?",
+    "options": [
+      "Steroids alone",
+      "Antivirals only",
+      "Steroids + antivirals + plasmapheresis",
+      "Cyclophosphamide alone"
+    ],
+    "answer": 2,
+    "answerText": "Steroids + antivirals + plasmapheresis",
+    "explanation": "Hepatitis B-associated PAN: Treat HBV infection + steroids + plasmapheresis.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q22"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Polyarteritis nodosa (PAN) - Question 10</span> A 52-year-old man presents with fever, weight loss, right wrist drop, leg pain, and high blood pressure. Labs show: leukocytosis, anemia of chronic disease, high ESR, and mild proteinuria. Arteriography reveals multiple small aneurysms in mesenteric arteries. Which of the following is least likely to be involved in his disease?",
+    "options": [
+      "Lungs",
+      "Peripheral nerves",
+      "GI tract",
+      "Coronary arteries"
+    ],
+    "answer": 0,
+    "answerText": "Lungs",
+    "explanation": "PAN does not involve the lungs (unlike microscopic polyangiitis).",
+    "userAnswer": null,
+    "qID": "rheu-inte-q23"
   }
 ]
