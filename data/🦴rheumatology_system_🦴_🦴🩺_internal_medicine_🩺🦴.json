@@ -544,5 +544,131 @@
     "explanation": "Erythema nodosum-like lesions are common in BD, typically on the legs.",
     "userAnswer": null,
     "qID": "rheu-inte-q39"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>RHEUMATOID ARTHRITIS (RA) - Question 1</span> A 52-year-old woman presents with 8 months of joint pain, prolonged morning stiffness, and fatigue. On examination, there is symmetric swelling of the MCP and PIP joints. Labs show RF and anti-CCP positivity, ESR 65 mm/hr, and CRP 4.2 mg/dL. Which of the following best meets the ACR/EULAR classification criteria for RA?",
+    "options": [
+      "2 small joints, high RF, normal CRP, symptoms for 4 weeks",
+      ">10 joints (MCP, PIP, MTP), high RF & CCP, CRP high, symptoms >6 weeks",
+      "1 large joint, high CCP, normal CRP, symptoms for 8 weeks",
+      "3 large joints, low CCP, high CRP, symptoms for 4 weeks"
+    ],
+    "answer": 1,
+    "answerText": ">10 joints (MCP, PIP, MTP), high RF & CCP, CRP high, symptoms >6 weeks",
+    "explanation": "Criteria scoring: >10 joints (5 pts), high RF or ACPA (3), CRP abnormal (1), duration >6 weeks (1). Total: 10 → meets RA classification.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q40"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>RHEUMATOID ARTHRITIS (RA) - Question 2</span> A 45-year-old male with long-standing RA presents with splenomegaly, neutropenia (WBC 2,200), and recurrent skin infections. Which of the following conditions must be considered in the differential diagnosis?",
+    "options": [
+      "Sjögren’s syndrome",
+      "T-cell large granular lymphocyte leukemia",
+      "Polyarteritis nodosa",
+      "Myelodysplastic syndrome"
+    ],
+    "answer": 1,
+    "answerText": "T-cell large granular lymphocyte leukemia",
+    "explanation": "Felty’s syndrome and T-LGL leukemia can present similarly and are both associated with RA; T-LGL must be ruled out due to similar cytopenias.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q41"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>RHEUMATOID ARTHRITIS (RA) - Question 3</span> A 56-year-old woman with RA on methotrexate and low-dose prednisone presents for follow-up. She has persistent active disease despite compliance. What is the next best step?",
+    "options": [
+      "Switch to sulfasalazine",
+      "Add infliximab (anti-TNF biologic)",
+      "Start hydroxychloroquine",
+      "Increase prednisone to 40 mg daily"
+    ],
+    "answer": 1,
+    "answerText": "Add infliximab (anti-TNF biologic)",
+    "explanation": "Failure of MTX plus low-dose steroids → escalation to biologic DMARD (e.g., anti-TNF) is appropriate.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q42"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>RHEUMATOID ARTHRITIS (RA) - Question 4</span> A 61-year-old man presents with new-onset neck pain and weakness in upper limbs. His RA is active and long-standing. Cervical spine X-ray shows atlantoaxial subluxation. What is the most feared complication?",
+    "options": [
+      "Vertebral artery dissection",
+      "Spinal cord compression",
+      "Syringomyelia",
+      "Cauda equina syndrome"
+    ],
+    "answer": 1,
+    "answerText": "Spinal cord compression",
+    "explanation": "Atlantoaxial subluxation may lead to spinal cord compression → urgent neurosurgical consultation needed.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q43"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>RHEUMATOID ARTHRITIS (RA) - Question 5</span> A patient with RA has synovial fluid WBC count of 40,000/mm³ with 90% neutrophils, no crystals, and sterile culture. What is the most likely diagnosis?",
+    "options": [
+      "Crystal-induced arthritis",
+      "Septic arthritis",
+      "Active RA synovitis",
+      "Reactive arthritis"
+    ],
+    "answer": 2,
+    "answerText": "Active RA synovitis",
+    "explanation": "Inflammatory RA joint fluid: WBC 5,000–50,000, neutrophilic predominance, sterile, no crystals.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q44"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>RHEUMATOID ARTHRITIS (RA) - Question 6</span> A 38-year-old woman presents with wrist and knee pain. She has symmetric synovitis and early morning stiffness >1 hour. Labs show negative RF, positive anti-CCP, normal CBC. What is true regarding her prognosis?",
+    "options": [
+      "Seronegative disease has worse outcome",
+      "Anti-CCP positivity is associated with aggressive erosive disease",
+      "ESR must be elevated to confirm diagnosis",
+      "RF negativity rules out RA"
+    ],
+    "answer": 1,
+    "answerText": "Anti-CCP positivity is associated with aggressive erosive disease",
+    "explanation": "Anti-CCP positivity indicates more severe, erosive RA—even if RF is negative.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q45"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>RHEUMATOID ARTHRITIS (RA) - Question 7</span> A patient with active RA has radiographs showing marginal erosions, loss of joint space, and large geodes. Which finding is most specific for early RA?",
+    "options": [
+      "Periarticular osteopenia",
+      "Joint space narrowing",
+      "Marginal erosions",
+      "Osteophyte formation"
+    ],
+    "answer": 2,
+    "answerText": "Marginal erosions",
+    "explanation": "Marginal erosions are a hallmark of early erosive RA. Osteophytes are OA findings.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q46"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>RHEUMATOID ARTHRITIS (RA) - Question 8</span> A 60-year-old RA patient has failed DMARDs and TNF-inhibitors. He is now started on rituximab. What is the mechanism of action?",
+    "options": [
+      "TNF-alpha receptor blockade",
+      "IL-6 receptor inhibition",
+      "CD20 B-cell depletion",
+      "IL-1 receptor antagonism"
+    ],
+    "answer": 2,
+    "answerText": "CD20 B-cell depletion",
+    "explanation": "Rituximab targets CD20 on B cells, depleting them.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q47"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>RHEUMATOID ARTHRITIS (RA) - Question 9</span> A 35-year-old woman presents with a “swan neck” deformity of the fingers. What is the underlying pathophysiologic mechanism?",
+    "options": [
+      "Rupture of flexor tendons",
+      "Fixed dislocation of MCP joints",
+      "Hyperextension of PIP and flexion of DIP due to imbalance of tendons",
+      "Joint ankylosis at the DIP joints"
+    ],
+    "answer": 2,
+    "answerText": "Hyperextension of PIP and flexion of DIP due to imbalance of tendons",
+    "explanation": "Swan-neck deformity is due to volar plate laxity → hyperextension of PIP + DIP flexion.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q48"
   }
 ]
