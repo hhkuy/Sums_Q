@@ -422,15 +422,5 @@
         "file": "data/🦴rheumatology_system_🦴_🦴🩺_internal_medicine_🩺🦴.json"
       }
     ]
-  },
-  {
-    "topicName": "test",
-    "description": "",
-    "subTopics": [
-      {
-        "name": "test",
-        "file": "data/test_test.json"
-      }
-    ]
   }
 ]
