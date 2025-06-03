@@ -670,5 +670,260 @@
     "explanation": "Swan-neck deformity is due to volar plate laxity → hyperextension of PIP + DIP flexion.",
     "userAnswer": null,
     "qID": "rheu-inte-q48"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory diseases- Question 1</span> 33-year-old man presents to his GP with joint pain. He describes pains in his legs and hips, but his biggest concern is back pain. He finds he is very stiff in the morning, but this improves with exercise. The GP considers investigations for ankylosing spondylitis. What feature would most support this diagnosis?   ",
+    "options": [
+      "Atlanto-axial instability ",
+      "Loss of joint space on x-ray ",
+      "Positive HLA-B27 ",
+      "Presence of anticyclic citrullinated peptide antibodies ",
+      "Sacroiliitis on pelvic x-ray "
+    ],
+    "answer": 4,
+    "answerText": "Sacroiliitis on pelvic x-ray",
+    "explanation": "Sacroiliitis (inflammation of the sacroiliac joints) on a pelvic x-ray is a hallmark feature of ankylosing spondylitis and is the most definitive radiographic finding to support the diagnosis. In the early stages, it may show erosions and sclerosis in the sacroiliac joints, and over time, syndesmophytes and calcifications may develop in the spine. This is the most appropriate and supportive feature for diagnosing ankylosing spondylitis  ",
+    "userAnswer": null,
+    "qID": "rheu-inte-q49"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory diseases- Question 2</span> 45-year-old woman with a history of primary Sjogren's syndrome is reviewed in clinic. Her main problem is a dry mouth, which unfortunately has not responded to artificial saliva. Which one of the following medications is most likely to be beneficial?  ",
+    "options": [
+      "Rivastigmine ",
+      "Neostigmine ",
+      "Clonidine ",
+      "Atropine ",
+      "Pilocarpine  "
+    ],
+    "answer": 4,
+    "answerText": "Pilocarpine",
+    "explanation": "Pilocarpine is a muscarinic receptor agonist that stimulates exocrine glands, including the salivary glands, increasing saliva production. It is commonly used in patients with Sjogren's syndrome who experience severe dry mouth that does not respond to artificial saliva. This makes it the most appropriate and beneficial medication for this patient  See the table below for general information about Sjogren's syndrome, as it is important. Additionally, see the extra details about its management in the supplementary   ",
+    "userAnswer": null,
+    "qID": "rheu-inte-q50"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory diseases- Question 3</span> 48-year-old woman presents with a 2-month history of painful swelling behind her right knee, along with intermittent low-grade fevers and fatigue. She also reports occasional pain in her hands and wrists. Examination reveals a 3-cm non-tender mass in the right popliteal fossa and mild swelling and redness of the right knee joint. She has a history of hypertension and diabetes. What is the most likely diagnosis?  ",
+    "options": [
+      "Osteoarthritis ",
+      "Psoriatic arthritis ",
+      "Popliteal artery aneurysm ",
+      "Rheumatoid arthritis ",
+      "Gout  "
+    ],
+    "answer": 3,
+    "answerText": "Rheumatoid arthritis",
+    "explanation": "Rheumatoid arthritis (RA) is associated with synovial inflammation, which may result in excess production of synovial fluid, inflammatory joint effusion, and subsequently, formation of a Baker's cyst. This patient presents with subtle features of RA, including polyarticular arthritis affecting the right knee and her finger and wrist joints, and constitutional symptoms (a history of low-grade fevers and fatigue),  all of which make this condition the most likely diagnosis. In adults, Baker's cysts commonly occur secondary to inflammatory diseases (such as RA), as well as degenerative (e.g., osteoarthritis), or traumatic (e.g., meniscal tears) joint conditions.  ",
+    "userAnswer": null,
+    "qID": "rheu-inte-q51"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory diseases- Question 4</span> 39-year-old woman presents with 2 months of progressive pain and swelling in her wrists and hands, with morning stiffness that improves with activity. She also reports early-morning neck pain. Examination shows bilateral swelling and tenderness in the wrists and several metacarpophalangeal joints. Laboratory results include a positive rheumatoid factor and elevated ESR. What is the most appropriate next step in management? ",
+    "options": [
+      "Arthrocentesis ",
+      "Adalimumab ",
+      "X-ray of the cervical spine ",
+      "Measurement of anti-Smith antibodies ",
+      "CT scan of the chest "
+    ],
+    "answer": 2,
+    "answerText": "X-ray of the cervical spine",
+    "explanation": " This patient presents with classic features of rheumatoid arthritis (RA), such as morning stiffness that improves with activity, symmetrical polyarthralgia involving the metacarpophalangeal and wrist joints for >6 weeks, elevated erythrocyte sedimentation rate, and a positive rheumatoid factor Early-morning neck pain in a patient with RA should raise suspicion for atlantoaxial subluxation, a potentially life-threatening complication of RA that should prompt further diagnostic workup. Extension and flexion x-ray of the cervical spine is the initial diagnostic test of choice to evaluate patients for atlantoaxial instability. MRI can further be used to visualize the cervical nerve roots and spinal cord. RA typically affects the cervical spine early in the course of the disease (the thoracic and lumbar spine are normally spared), resulting in inflammatory destruction of the ligaments of the atlantoaxial and intervertebral joints.  Acute anti-inflammatory treatment with glucocorticoids and/or NSAIDs, as well as long-term treatment with a conventional DMARD (e.g., methotrexate), should be initiated in this patient.  ",
+    "userAnswer": null,
+    "qID": "rheu-inte-q52"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory diseases- Question 5</span> 46-year-old woman presents with 4 months of lethargy and a 15-year history of joint pain. Examination reveals pallor, subcutaneous nodules on the elbows. The distal interphalangeal joints of both hands are flexed, and the proximal interphalangeal joints appear hyperextended. Laboratory studies show anemia, leukopenia, and thrombocytopenia. Splenomegaly is noted on examination. Increased titers of which of the following is most specific for her condition?  ",
+    "options": [
+      "Anti-cyclic citrullinated peptide antibody  ",
+      "Anti-Smith antibody  ",
+      "Antinuclear antibody  ",
+      "Rheumatoid factor  ",
+      "Anti-U1 ribonucleoprotein antibody  "
+    ],
+    "answer": 0,
+    "answerText": "Anti-cyclic citrullinated peptide antibody",
+    "explanation": "A combination of chronic joint pain, swan neck deformities, subcutaneous nodules on the elbow (rheumatoid nodules), and Felty syndrome (arthritis, splenomegaly, and neutropenia) in a middle-aged woman is consistent with rheumatoid arthritis  Anti-cyclic citrullinated peptide antibodies (anti-CCP antibodies) are a highly specific marker for RA (specificity > 90%). High anti-CCP antibody titers are also associated with a more aggressive disease course (e.g., erosive arthritis or extra-articular manifestations, such as rheumatoid nodules and Felty syndrome). Although rare, Felty syndrome can occur in severe, long-standing, seropositive RA. Increased destruction of platelets and RBCs by the enlarged spleen (hypersplenism) results in thrombocytopenia and low hematocrit, which may be further aggravated by anemia of chronic disease.  ",
+    "userAnswer": null,
+    "qID": "rheu-inte-q53"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory diseases- Question 6</span> 24-year-old female is investigated for intermittent pain and swelling of the metacarpal phalangeal joints for the past 3 months. An x-ray shows loss of joint space and soft-tissue swelling. Rheumatoid factor is positive, and a diagnosis of rheumatoid arthritis is made. What is the most appropriate management to slow disease progression?  ",
+    "options": [
+      "Infliximab ",
+      "Rituximab ",
+      "Methotrexate + infliximab + short-course of prednisolone ",
+      "Methotrexate + short-course of prednisolone ",
+      "Diclofenac "
+    ],
+    "answer": 3,
+    "answerText": "Methotrexate + short-course of prednisolone",
+    "explanation": " Methotrexate is the first-line DMARD recommended by the 2018 NICE guidelines for rheumatoid arthritis. It slows disease progression by targeting the underlying inflammatory process. A short course of prednisolone is added to provide immediate relief from symptoms while waiting for methotrexate to take full effect, typically over several weeks. Prednisolone helps manage inflammation in the short term, reducing joint pain and swelling. This approach provides a balance between immediate symptom control and long-term disease management. Biologics are not recommended in this early phase unless DMARDs fail to achieve control.  ",
+    "userAnswer": null,
+    "qID": "rheu-inte-q54"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory diseases- Question 7</span> 27-year-old female has been referred to the rheumatology clinic with gradually worsening joint stiffness in both her hands and wrists for the last 5 months. Blood tests done by her GP show a raised anti-cyclic citrullinated peptide (anti-CCP). On examination, she has a symmetrical polyarthritis affecting the proximal interphalangeal (PIP), metacarpophalangeal (MCP) joints and wrists. Based on these features, which of these findings is most likely to be seen on plain radiography? ",
+    "options": [
+      "Chondrocalcinosis ",
+      "Joint subluxation ",
+      "Juxta-articular osteopaenia ",
+      "Osteophytes ",
+      "Subchondral sclerosis"
+    ],
+    "answer": 2,
+    "answerText": "Juxta-articular osteopaenia",
+    "explanation": " Juxta-articular osteopenia is an early radiographic finding in rheumatoid arthritis, caused by the inflammation of the synovium leading to decreased bone density around the joints. This patient, who presents with early-stage disease and has had symptoms for only a few months, is most likely to show this finding on x-ray. It is one of the hallmark features of early rheumatoid arthritis, along with loss of joint space and soft-tissue swelling .",
+    "userAnswer": null,
+    "qID": "rheu-inte-q55"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory diseases- Question 8</span> 37-year-old homeless woman is brought to the ED after climbing a tree, claiming she was fleeing from dogs and evil faces. She is disheveled, confused, and agitated. Examination reveals an eczematous rash on the forehead, nose, cheeks, hands, and oral ulcers. Auscultation reveals a high-pitched grating systolic sound. No focal neurological deficits are present. Labs show:  Hemoglobin: 11.5 g/dL  WBC: 3,600/mm³  Platelets: 90,000/mm³  VDRL: positive, FTA-ABS: negative  Electrolyte within normal range  Urine toxicology screening is negative. Thyroide function is normal. Arterial blood gas analysis on room air shows no abnormalities. ECG shows concave ST-segment elevation (I, II, aVF, V₂-V) and PR-segment elevation in aVR. What is the most likely diagnosis?  ",
+    "options": [
+      "Systemic lupus erythematosus ",
+      "Porphyria cutanea tarda (PCT) ",
+      "Behcet disease ",
+      "Chronic borreliosis (Late Lyme disease) ",
+      "Tertiary syphilis "
+    ],
+    "answer": 0,
+    "answerText": "Systemic lupus erythematosus",
+    "explanation": " This middle-aged female patient presents with signs and symptoms indicating abnormalities in various systems: neuropsychiatric (features of psychosis), mucocutaneous (rash on sun-exposed skin, oral ulcers), hematologic (anemia, thrombocytopenia, leukopenia), and cardiac (signs of acute pericarditis: high-pitched grating systolic sound, diffuse ST-segment elevations, PR-segment elevation with ST-segment depression in aVR). This multisystem involvement, together with a false-positive VDRL (with negative FTA-ABS), raises suspicion for systemic lupus erythematosus (SLE). The patient's negative urine toxicology and reassuring electrolytes, and thyroid function studies further support this diagnosis  In patients with symptoms suggestive of SLE, ANA titer screening is recommended. If the ANA titer is ≥ 1:80, patients can be evaluated according to the ACR classification criteria for SLE to support the diagnostic process. Other neuropsychiatric manifestations of SLE include seizures and delirium. Management of SLE includes induction therapy with a systemic glucocorticoid and maintenance therapy with hydroxychloroquine with or without methotrexate or azathioprine.  ",
+    "userAnswer": null,
+    "qID": "rheu-inte-q56"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory diseases- Question 9</span> 36-year-old man presents with 6 months of worsening lower back pain, worse in the mornings and throughout the day. He denies trauma and has no medical history. Examination shows reduced lateral flexion of the back and a quiet early diastolic murmur. Blood tests show:  Calcium: 2.15 mmol/L  Phosphate: 1.2 mmol/L  Magnesium: 0.8 mmol/L  What is the most likely diagnosis?  ",
+    "options": [
+      "Ankylosing spondylitis ",
+      "Herniated intervertebral disc ",
+      "Multiple myeloma ",
+      "Spinal osteoarthritis ",
+      "Vertebral compression fracture  "
+    ],
+    "answer": 0,
+    "answerText": "Ankylosing spondylitis",
+    "explanation": "  Ankylosing spondylitis is an inflammatory condition that typically presents with lower back pain that improves with activity, as seen in this patient. The pain is often worse in the morning and improves throughout the day, which is characteristic of inflammatory back pain.  The presence of an early diastolic murmur suggests aortic regurgitation, a known complication of ankylosing spondylitis. This combination of symptoms and findings strongly points to ankylosing spondylitis as the most likely diagnosis.  ",
+    "userAnswer": null,
+    "qID": "rheu-inte-q57"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory diseases- Question 10</span> A 28-year-old man is diagnosed with ankylosing spondylitis. He presented with a six-month history of back pain. On examination, there is reduced lateral flexion of the spine but no evidence of any other complications. Which one of the following is he most likely to be offered as first-line treatment? ",
+    "options": [
+      "Exercise regimen + NSAIDs ",
+      "Exercise regimen + infliximab ",
+      "Physiotherapy + sulfasalazine ",
+      "Physiotherapy + etanercept ",
+      "Exercise regimen + paracetamol"
+    ],
+    "answer": 0,
+    "answerText": "Exercise regimen + NSAIDs",
+    "explanation": "The first-line treatment for ankylosing spondylitis is a combination of regular exercise and NSAIDs. Exercise helps maintain mobility and flexibility, while NSAIDs reduce inflammation and provide pain relief. NSAIDs are the mainstay of early treatment, and most patients respond well to them. Anti-TNF drugs or biologics are reserved for patients with more severe or refractory disease that does not respond to NSAIDs.   ",
+    "userAnswer": null,
+    "qID": "rheu-inte-q58"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory diseases- Question 11</span> 64-year-old female presents with difficulty brushing her hair and standing up after sitting in her chair. There is a purple heliotropic rash above both eyes and a symmetrical erythematous papular rash over both hands. Blood tests identify a CK of 9543, and antinuclear antibody testing is positive. You make a diagnosis of dermatomyositis and initiate treatment with steroids. What is the most important next step?  ",
+    "options": [
+      "Arrange CK to be rechecked by the GP in 3 months ",
+      "BHLA testing ",
+      "Troponin I ",
+      "Urgent malignancy screen ",
+      "VTE prophylaxis "
+    ],
+    "answer": 3,
+    "answerText": "Urgent malignancy screen",
+    "explanation": "Dermatomyositis is frequently associated with underlying malignancies, especially ovarian, breast, and lung cancers. Up to 25% of patients may have an associated cancer, and this risk increases with age. Therefore, an urgent malignancy screen is the most important next step following a diagnosis of dermatomyositis, as early detection of malignancy can significantly impact treatment and outcomes  ",
+    "userAnswer": null,
+    "qID": "rheu-inte-q59"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory diseases- Question 12</span> 32-year-old woman presents to the GP with a several-month history of troublesome symptoms. She describes generalized weakness of her arms and legs, as well as a rash over her back and shoulders. She also describes a rash around her eyes and roughened, red patches over her fingers. On examination, she has a macular rash over the back and shoulders, a heliotrope rash periorbitally, and roughened red papules over the extensor surfaces of the fingers. Examination of the limbs demonstrates proximal weakness. Given the likely diagnosis, which of the following antibodies is most specific? ",
+    "options": [
+      "Anti-ribonuclear protein antibodies ",
+      "Anti-centromere antibodies ",
+      "Antinuclear antibodies (ANA) ",
+      "Anti-Jo-1 antibodies ",
+      "Anti-Mi-2 antibodies "
+    ],
+    "answer": 4,
+    "answerText": "Anti-Mi-2 antibodies",
+    "explanation": "  Anti-Mi-2 antibodies are the most specific for dermatomyositis. This antibody is associated with classic dermatomyositis, which is characterized by proximal muscle weakness and distinctive skin manifestations, such as the heliotrope rash and Gottron's papules seen in this patient.  Anti-Mi-2 is less commonly found than ANA, but its presence is highly specific to dermatomyositis ",
+    "userAnswer": null,
+    "qID": "rheu-inte-q60"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory diseases- Question 13</span> 40-year-old Armenian woman presents with recurrent bouts of fatigue, arthralgia (oligoarticular: elbow, wrists, and a knee), headaches and crops of painful mouth ulcers, occasional bluish-red raised tender blotchy skin lesions, and a single sore erythematous eye. She does not have diarrhea. ESR is 25 mm/hr, but CRP is normal; full blood count shows slight lymphopenia, normal neutrophil and platelet counts. Serum adjusted calcium and PTH are in the reference range. Which is the most likely diagnosis? ",
+    "options": [
+      "Behçet's disease ",
+      "Crohn's disease ",
+      "Sarcoidosis ",
+      "Tuberculosis ",
+      "Viral infection "
+    ],
+    "answer": 0,
+    "answerText": "Behçet's disease",
+    "explanation": " Behçet's disease is characterized by recurrent oral ulcers, genital ulcers, uveitis, and other inflammatory lesions such as erythema nodosum. The patient's presentation with recurrent painful mouth ulcers, arthralgia, tender blotchy skin lesions, and an erythematous eye strongly suggests Behçet's disease. Headaches could be related to cerebral venous sinus thrombosis, which is a recognized complication of Behçet's disease. Although the patient does not mention genital lesions, they are often not volunteered. The combination of systemic inflammatory signs without hypercalcemia or specific gastrointestinal symptoms rules out some other differential diagnoses, making Behçet's disease the most likely diagnosis",
+    "userAnswer": null,
+    "qID": "rheu-inte-q61"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory diseases- Question 14</span> 50-year-old man presents with two months of recurrent chest pain, palpitations, 4- hepatitis B, treated with tenofovir. His vitals include a temperature of 38°C, pulse 110/min, and BP 150/90 mm Hg. Examination reveals ulcers on the ankles and calves. Labs show:  Hemoglobin: 11 g/dL  WBC: 14,000/mm³  ESR: 80 mm/h  Hepatitis B surface antigen: positive  Urine: Protein +2, RBC 6-7/hpf  PANCA: negative  What is the most likely diagnosis? ",
+    "options": [
+      "Churg-Strauss syndrome ",
+      "Polyarteritis nodosa ",
+      "Thromboangiitis obliterans ",
+      "Granulomatosis with polyangiitis ",
+      "Microscopic polyangiitis "
+    ],
+    "answer": 1,
+    "answerText": "Polyarteritis nodosa",
+    "explanation": " This patient presents with nonspecific symptoms (fever, arthralgia, malaise, weight loss), cutaneous symptoms (ulcerations), cardiac symptoms (chest pain, palpitations), and renal manifestations (proteinuria, hematuria), as well as elevated ESR and leukocytosis, all of which are findings consistent with a multisystemic vasculitis. A negative PANCA, lack of lung involvement, and a history of hepatitis B infection indicate a polyarteritis nodosum  Polyarteritis nodosa (PAN), like most vasculitides, usually involves multiple organ systems, as seen in this patient (skin, kidneys, heart). The absence of pANCA and pulmonary symptoms, as well as the association with hepatitis B (and hepatitis C), helps differentiate PAN from other forms of vasculitis. A muscle biopsy of this patient would most likely show transmural inflammation of the arterial wall with leukocytic infiltration and fibrinoid necrosis.  PAN should always be considered in young adults presenting with stroke or myocardial infarction  ",
+    "userAnswer": null,
+    "qID": "rheu-inte-q62"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory diseases- Question 15</span> 13-year-old girl presents with limp and examination evidence of left knee swelling. There are no systemic symptoms, sore throat, or rash. Blood tests show a normal full blood count, CRP of 10 mg/L, ESR of 10 mm/hr, negative rheumatoid factor, ACPA, and ANA autoantibodies. Which is most likely to be correct? ",
+    "options": [
+      "As there is no psoriasis, the condition is unlikely to be PsA ",
+      "Methotrexate should be started immediately ",
+      "Screening for uveitis is not necessary ",
+      "The condition is best classified as oligoarticular juvenile idiopathic arthritis (JIA)*** ",
+      "The girl has juvenile RA   "
+    ],
+    "answer": -1,
+    "answerText": null,
+    "explanation": " Oligoarticular JIA is the most common form of JIA, typically affecting fewer than five joints during the first six months of disease onset. This patient's presentation with a limp, knee swelling, and the absence of systemic symptoms fits the profile for oligoarticular JIA. The negative rheumatoid factor, ACPA, and ANA autoantibodies further support this classification.  What is high yield to know about juvenile idiopathic arthritis for the Wizary exam is that its first-line management is NSAIDs, not methotrexate or steroids.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q63"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory diseases- Question 16</span> 17-year-old boy presents with 12 days of increasing right knee pain and swelling, and 3 weeks of painful urination. He had a tender swollen left ankle joint that resolved without treatment one week ago. He is sexually active with inconsistent condom use. Examination shows bilateral conjunctivitis, a tender, swollen right knee, and tenderness at the left Achilles tendon insertion.  Laboratory studies show:  WBC: 12,300/mm³  Platelets: 310,000/mm³  ESR: 38 mm/h  Urea nitrogen: 18 mg/dL  Creatinine: 1.0 mg/dL Urine:  Protein negative, Blood negative,  WBC 12-16/hpf,  RBC 1-2/hpf  An ELISA test for HIV is negative. Arthrocentesis is performed. Synovial fluid analysis shows a leukocyte count of 26,000/mm³ (70% neutrophils); a Gram stain shows no organisms. Which of the following is the most likely diagnosis?  ",
+    "options": [
+      "Disseminated gonococcal infection ",
+      "Septic arthritis ",
+      "Rheumatoid arthritis ",
+      "Lyme arthritis ",
+      "Reactive arthritis  "
+    ],
+    "answer": 4,
+    "answerText": "Reactive arthritis",
+    "explanation": " Asymmetric oligoarthritis with a migratory character (left ankle, right knee), tendinopathy, and conjunctivitis are typical manifestations of reactive arthritis. This patient's urination pain is most likely a symptom of a preceding urinary tract infection, as reactive arthritis is a postinfectious autoimmune disorder.  The disorder most commonly affects sexually active young men, as they have a higher risk of acquiring STDs, e.g., genitourinary infections with Chlamydia. The arthrocentesis findings are also consistent with this diagnosis, as they tend to show increased WBCs and neutrophils but no organisms. Reactive arthritis can also occur in response to infection with other organisms such as Shigella or Campylobacter.  Management includes NSAIDs, physiotherapy, and cryotherapy, and, if applicable, treatment of ongoing infection   ",
+    "userAnswer": null,
+    "qID": "rheu-inte-q64"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory diseases- Question 17</span> A 26-year-old man presents with left knee pain, dysuria, and a painful right eye after returning from Thailand, where he had an unprotected intercourse. Examination shows a swollen left knee with limited movement and an injected right conjunctiva. Synovial fluid analysis reveals:  White cell count: 35,000 cells/mm³  Polymorphonuclear cells: 65%  Culture: negative  What is the most likely diagnosis  ",
+    "options": [
+      "Gonococcal arthritis ",
+      "Gout ",
+      "Reactive arthritis ",
+      "Rheumatoid arthritis ",
+      "Septic arthritis "
+    ],
+    "answer": 2,
+    "answerText": "Reactive arthritis",
+    "explanation": " Reactive arthritis develops after an infection where the organism cannot be recovered from the joint  The triad of arthritis, urethritis, and conjunctivitis in a patient with a recent travel history is highly suspicious of reactive arthritis. Reactive arthritis can occur after a sexually transmitted disease, where the most likely causative organism is Chlamydia trachomatis. However, the synovial fluid culture is negative as the organism is not recovered from the joint",
+    "userAnswer": null,
+    "qID": "rheu-inte-q65"
   }
 ]
