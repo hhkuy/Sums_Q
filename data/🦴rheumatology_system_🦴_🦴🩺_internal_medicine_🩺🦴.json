@@ -432,5 +432,117 @@
     "explanation": "No granulomas, no ENT involvement, pulmonary hemorrhage → MPA. GPA would have ENT disease and granulomas.",
     "userAnswer": null,
     "qID": "rheu-inte-q31"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>BEHCET’S DISEASE - Question 1</span> A 28-year-old man from Iran presents with a 6-month history of recurrent painful oral ulcers, genital ulcers, and skin lesions on his lower legs. He also has a positive pathergy test. His father had a history of recurrent oral aphthosis. What genetic marker is most likely associated with his condition?",
+    "options": [
+      "HLA-B27",
+      "HLA-DR4",
+      "HLA-B51",
+      "HLA-A29"
+    ],
+    "answer": 2,
+    "answerText": "HLA-B51",
+    "explanation": "Behçet’s is strongly associated with HLA-B51 (also known as HLA-B5), particularly in Middle Eastern populations.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q32"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>BEHCET’S DISEASE - Question 2</span> A 34-year-old woman with known Behçet’s disease develops sudden vision loss and hypopyon in her right eye. Which factor most strongly predicts a poor prognosis for her ocular disease?",
+    "options": [
+      "Female gender",
+      "Anterior uveitis alone",
+      "Posterior segment involvement",
+      "Age less than 30"
+    ],
+    "answer": 2,
+    "answerText": "Posterior segment involvement",
+    "explanation": "Posterior segment involvement (retinal vasculitis, posterior uveitis, strong vitreous opacity, macular edema) carries the worst prognosis.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q33"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>BEHCET’S DISEASE - Question 3</span> A 25-year-old man with BD presents with new onset dyspnea and chest pain. Workup reveals a DVT of the right leg and elevated ESR. What is the next best step in management?",
+    "options": [
+      "Start high-dose steroids only",
+      "Start anticoagulation and screen for pulmonary artery aneurysm",
+      "Start TNF-alpha inhibitor alone",
+      "No treatment is needed for thrombosis in BD"
+    ],
+    "answer": 1,
+    "answerText": "Start anticoagulation and screen for pulmonary artery aneurysm",
+    "explanation": "In BD-associated thrombosis, anticoagulation is given only if there is no pulmonary artery aneurysm (risk of fatal bleeding).",
+    "userAnswer": null,
+    "qID": "rheu-inte-q34"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>BEHCET’S DISEASE - Question 4</span> A 42-year-old man with Behçet’s disease presents with abdominal pain and lower GI bleeding. Colonoscopy reveals round, focal ulcers in the ileocecal region. Which differential diagnosis is most important to consider?",
+    "options": [
+      "Crohn’s disease",
+      "Ulcerative colitis",
+      "Celiac disease",
+      "Ischemic colitis"
+    ],
+    "answer": 0,
+    "answerText": "Crohn’s disease",
+    "explanation": "BD GI ulcers can mimic Crohn’s, but BD ulcers are focal, round/oval, and single or few, while Crohn’s are linear, segmental.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q35"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>BEHCET’S DISEASE - Question 5</span> A 37-year-old man with BD complains of severe headache and right hemiparesis. Imaging reveals sinus thrombosis. What is the most common CNS form of Behçet’s disease?",
+    "options": [
+      "Spinal cord infarction",
+      "Parenchymal brainstem involvement",
+      "Peripheral neuropathy",
+      "Subdural hematoma"
+    ],
+    "answer": 1,
+    "answerText": "Parenchymal brainstem involvement",
+    "explanation": "Parenchymal brainstem syndrome is the most common CNS manifestation in BD (80% of neuro-Behçet’s).",
+    "userAnswer": null,
+    "qID": "rheu-inte-q36"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>BEHCET’S DISEASE - Question 6</span> A 31-year-old man has recurrent oral and genital ulcers, papulopustular skin lesions, and tested positive on pathergy testing. According to the International Criteria for Behçet’s Disease (ICBD-2014), what is the minimum point total required for a BD diagnosis?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 2,
+    "answerText": "4",
+    "explanation": "ICBD 2014 scoring system requires 4 points for diagnosis.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q37"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>BEHCET’S DISEASE - Question 7</span> A 29-year-old woman with Behçet’s disease develops acute right eye pain, photophobia, and blurry vision. Slit lamp exam reveals anterior chamber cells and hypopyon. What is the best initial therapy?",
+    "options": [
+      "NSAIDs only",
+      "Topical antibiotics",
+      "Systemic corticosteroids plus immunosuppressant (azathioprine)",
+      "Watchful waiting"
+    ],
+    "answer": 2,
+    "answerText": "Systemic corticosteroids plus immunosuppressant (azathioprine)",
+    "explanation": "Ocular involvement in BD requires aggressive treatment with systemic steroids and immunosuppressants to prevent blindness.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q38"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>BEHCET’S DISEASE - Question 8</span> A 45-year-old man with BD presents with recurrent, painful skin nodules on his legs, described as tender and erythematous. What is the most likely diagnosis?",
+    "options": [
+      "Erythema multiforme",
+      "Sweet’s syndrome",
+      "Erythema nodosum",
+      "Pyoderma gangrenosum"
+    ],
+    "answer": 2,
+    "answerText": "Erythema nodosum",
+    "explanation": "Erythema nodosum-like lesions are common in BD, typically on the legs.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q39"
   }
 ]
