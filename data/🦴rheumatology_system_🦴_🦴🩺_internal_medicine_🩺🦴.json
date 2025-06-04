@@ -1009,5 +1009,75 @@
     "explanation": "Anti-Ro positivity is strongly associated with systemic (extra-glandular) manifestations in SS, including vasculitis, nephritis, and CNS involvement.",
     "userAnswer": null,
     "qID": "rheu-inte-q71"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Systemic Sclerosis - Question 1</span> A 37-year-old woman presents with Raynaud’s phenomenon for 3 months and progressive tightening of the skin over her fingers and forearms. She also reports dysphagia and chronic heartburn. On exam: sclerodactyly, telangiectasias, and decreased oral aperture. ANA is positive with nucleolar pattern, anti-Scl-70 positive, and HRCT shows bilateral basal reticulations and ground-glass opacities.",
+    "options": [
+      "Limited cutaneous systemic sclerosis",
+      "Diffuse cutaneous systemic sclerosis",
+      "CREST syndrome",
+      "Mixed connective tissue disease"
+    ],
+    "answer": 1,
+    "answerText": "Diffuse cutaneous systemic sclerosis",
+    "explanation": "Rapid skin thickening, Raynaud’s, internal organ involvement (esophageal dysmotility and ILD), and positive anti-Scl-70 antibody point to diffuse cutaneous systemic sclerosis (dc-SSc).",
+    "userAnswer": null,
+    "qID": "rheu-inte-q72"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Systemic Sclerosis - Question 2</span> A 45-year-old male with systemic sclerosis presents with sudden severe hypertension (BP 190/110), headache, blurred vision, and decreased urine output. Labs show Cr 4.2, schistocytes on peripheral smear, proteinuria, and thrombocytopenia.",
+    "options": [
+      "Lupus nephritis",
+      "Hypertensive emergency",
+      "Scleroderma renal crisis",
+      "Goodpasture’s syndrome"
+    ],
+    "answer": 2,
+    "answerText": "Scleroderma renal crisis",
+    "explanation": "This is classic Scleroderma Renal Crisis (SRC): abrupt onset of hypertension, acute kidney injury, microangiopathic hemolytic anemia (MAHA), and thrombocytopenia, especially in patients with diffuse disease or recent steroid use.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q73"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Systemic Sclerosis - Question 3</span> A 55-year-old woman with known limited cutaneous systemic sclerosis presents with progressive dyspnea and fatigue. She has severe Raynaud’s and positive anti-centromere antibodies. ECHO shows estimated pulmonary artery systolic pressure of 55 mmHg.",
+    "options": [
+      "Pulmonary embolism",
+      "Interstitial lung disease",
+      "Pulmonary arterial hypertension",
+      "Heart failure with reduced ejection fraction"
+    ],
+    "answer": 2,
+    "answerText": "Pulmonary arterial hypertension",
+    "explanation": "Pulmonary arterial hypertension (PAH) is a recognized complication of limited SSc, especially in patients with anti-centromere antibodies. ECHO findings suggest elevated pulmonary pressure.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q74"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Systemic Sclerosis - Question 4</span> A 40-year-old woman with systemic sclerosis has symptoms of abdominal bloating, early satiety, and chronic diarrhea. Labs show low Vitamin B12 and positive fecal fat.",
+    "options": [
+      "Celiac disease",
+      "SIBO due to impaired motility",
+      "Autoimmune pancreatitis",
+      "Bile acid diarrhea"
+    ],
+    "answer": 1,
+    "answerText": "SIBO due to impaired motility",
+    "explanation": "Gastrointestinal dysmotility in SSc predisposes to small intestinal bacterial overgrowth (SIBO), causing malabsorption, B12 deficiency, and steatorrhea.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q75"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Systemic Sclerosis - Question 5</span> A 50-year-old female presents with tight facial skin, difficulty opening her mouth, and whitening of her fingers in cold weather. Exam shows salt and pepper pigmentation, telangiectasias, and calcinosis over the elbows.",
+    "options": [
+      "Anti-Scl-70",
+      "Anti-RNA polymerase III",
+      "Anti-centromere",
+      "Anti-dsDNA"
+    ],
+    "answer": 2,
+    "answerText": "Anti-centromere",
+    "explanation": "This presentation is consistent with CREST syndrome (Calcinosis, Raynaud’s, Esophageal dysmotility, Sclerodactyly, Telangiectasia), which is commonly associated with anti-centromere antibodies.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q76"
   }
 ]
