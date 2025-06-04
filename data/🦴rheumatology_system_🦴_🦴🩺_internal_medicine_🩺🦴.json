@@ -925,5 +925,89 @@
     "explanation": " Reactive arthritis develops after an infection where the organism cannot be recovered from the joint  The triad of arthritis, urethritis, and conjunctivitis in a patient with a recent travel history is highly suspicious of reactive arthritis. Reactive arthritis can occur after a sexually transmitted disease, where the most likely causative organism is Chlamydia trachomatis. However, the synovial fluid culture is negative as the organism is not recovered from the joint",
     "userAnswer": null,
     "qID": "rheu-inte-q65"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Sjögren’s Syndrome - Question 1</span> A 45-year-old woman presents with a 2-year history of dry eyes, dry mouth, and fatigue. Schirmer’s test is 4 mm in 5 minutes on the right eye. Anti-Ro (SSA) antibodies are positive. Labial biopsy shows focal lymphocytic sialadenitis. Which of the following is the most likely diagnosis?",
+    "options": [
+      "Sarcoidosis",
+      "Sjögren’s Syndrome",
+      "Systemic lupus erythematosus",
+      "IgG4-related disease"
+    ],
+    "answer": 1,
+    "answerText": "Sjögren’s Syndrome",
+    "explanation": "She meets multiple diagnostic criteria: ocular signs, seropositivity, and minor salivary gland biopsy confirming lymphocytic infiltration.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q66"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Sjögren’s Syndrome - Question 2</span> A 50-year-old woman with known primary Sjögren’s syndrome presents with new onset parotid swelling and weight loss. Imaging reveals unilateral gland enlargement. What is the most concerning complication?",
+    "options": [
+      "Recurrent sialadenitis",
+      "Acute bacterial parotitis",
+      "MALT lymphoma",
+      "Sialolithiasis"
+    ],
+    "answer": 2,
+    "answerText": "MALT lymphoma",
+    "explanation": "MALT lymphoma is a feared complication due to chronic B-cell stimulation in Sjögren’s.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q67"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Sjögren’s Syndrome - Question 3</span> A 38-year-old woman has persistent dry mouth, burning eyes, and fatigue. Labs show positive anti-Ro and anti-La, ESR 55, and normocytic anemia. Which of the following is the best initial step to confirm suspected Sjögren’s syndrome?",
+    "options": [
+      "MRI of the salivary glands",
+      "Lip biopsy for focal lymphocytic sialadenitis",
+      "Anti-dsDNA",
+      "C3/C4 levels"
+    ],
+    "answer": 1,
+    "answerText": "Lip biopsy for focal lymphocytic sialadenitis",
+    "explanation": "Lip biopsy is part of the gold standard for diagnosis alongside clinical and serological evidence.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q68"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Sjögren’s Syndrome - Question 4</span> A 41-year-old woman with Sjögren’s presents with new peripheral neuropathy and palpable purpura on the legs. Which pathologic mechanism best explains her findings?",
+    "options": [
+      "Peri-epithelial infiltration of CD8+ T cells",
+      "Cryoglobulinemic vasculitis",
+      "Immune complex–mediated vasculitis",
+      "Amyloid deposition"
+    ],
+    "answer": 2,
+    "answerText": "Immune complex–mediated vasculitis",
+    "explanation": "Purpura and neuropathy suggest immune-complex small vessel vasculitis—a known extraglandular manifestation.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q69"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Sjögren’s Syndrome - Question 5</span> A patient with suspected Sjögren’s has dry eyes and anti-Ro antibodies but no symptoms of dry mouth. Which of the following would support the diagnosis?",
+    "options": [
+      "Unstimulated salivary flow >0.2 mL/min",
+      "Negative minor salivary gland biopsy",
+      "Schirmer’s test result <5 mm/5 min",
+      "Absence of anti-La antibody"
+    ],
+    "answer": 2,
+    "answerText": "Schirmer’s test result <5 mm/5 min",
+    "explanation": "Schirmer’s test <5 mm/5 min supports ocular involvement.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q70"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Sjögren’s Syndrome - Question 6</span> A 35-year-old woman is being evaluated for dry mouth, dry eyes, and fatigue. Lab tests show anti-Ro positive, RF positive, but ACPA is negative. Serum IgG is elevated. Labial gland biopsy shows focal lymphocytic sialadenitis. Which of the following features best predicts more systemic disease?",
+    "options": [
+      "Positive ANA",
+      "Presence of xerostomia",
+      "Anti-Ro/SSA antibody positivity",
+      "Absence of ACPA"
+    ],
+    "answer": 2,
+    "answerText": "Anti-Ro/SSA antibody positivity",
+    "explanation": "Anti-Ro positivity is strongly associated with systemic (extra-glandular) manifestations in SS, including vasculitis, nephritis, and CNS involvement.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q71"
   }
 ]
