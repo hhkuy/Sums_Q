@@ -1079,5 +1079,47 @@
     "explanation": "This presentation is consistent with CREST syndrome (Calcinosis, Raynaud’s, Esophageal dysmotility, Sclerodactyly, Telangiectasia), which is commonly associated with anti-centromere antibodies.",
     "userAnswer": null,
     "qID": "rheu-inte-q76"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>LOW BACK PAIN - Question 1</span> A 38-year-old male presents with sudden onset of sharp lower back pain radiating down his right leg to the foot. The pain started 3 days ago while lifting a heavy object. He reports tingling and numbness in the dorsum of the foot. The pain worsens with bending forward, coughing, and prolonged standing. Straight leg raise test is positive at 35° on the right side. Neurologic exam shows weakness in big toe dorsiflexion and reduced Achilles reflex, but bowel/bladder function is normal. What is the most likely diagnosis?",
+    "options": [
+      "Lumbar spinal stenosis",
+      "Herniated disc at L5-S1",
+      "Piriformis syndrome",
+      "Vertebral osteomyelitis"
+    ],
+    "answer": 1,
+    "answerText": "Herniated disc at L5-S1",
+    "explanation": "The sudden onset after lifting, radiation to leg, dorsiflexion weakness, and positive SLR → classic L5-S1 disc herniation.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q77"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>LOW BACK PAIN - Question 2</span> A 70-year-old woman presents with persistent low back pain for 3 months. The pain is constant, wakes her up at night, and is not relieved by rest or analgesics. She reports weight loss, fatigue, and has a history of breast cancer treated 5 years ago. No neurological deficits are present. What is the next best step?",
+    "options": [
+      "MRI of the lumbar spine",
+      "NSAIDs and physiotherapy",
+      "Lumbosacral X-ray",
+      "Laminectomy"
+    ],
+    "answer": 0,
+    "answerText": "MRI of the lumbar spine",
+    "explanation": "Red flags (age >70, night pain, cancer history, weight loss) → rule out metastasis with MRI.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q78"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>LOW BACK PAIN - Question 3</span> A 28-year-old man presents with acute low back pain after a gym workout. The pain is localized to the lower lumbar region and does not radiate. It increases with movement, especially forward bending, and improves with rest. No fever, numbness, or bladder issues. Neurologic exam is normal. ESR is normal. What is the most likely cause of this patient’s pain?",
+    "options": [
+      "Lumbar disc herniation",
+      "Facet joint osteoarthritis",
+      "Muscle strain",
+      "Vertebral tumor"
+    ],
+    "answer": 2,
+    "answerText": "Muscle strain",
+    "explanation": "Young age, localized mechanical pain without radiation or neuro signs → classic for muscle strain.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q79"
   }
 ]
