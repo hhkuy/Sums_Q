@@ -1121,5 +1121,75 @@
     "explanation": "Young age, localized mechanical pain without radiation or neuro signs → classic for muscle strain.",
     "userAnswer": null,
     "qID": "rheu-inte-q79"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory myopathies - Question 1</span> A 28-year-old woman presents with difficulty climbing stairs and combing her hair for 3 months. She also noticed a purplish rash around her eyelids and scaly red plaques over her knuckles. Examination shows proximal muscle weakness in both upper and lower limbs. Labs reveal elevated CK and positive anti-Mi-2 antibody. What is the most likely diagnosis?",
+    "options": [
+      "Polymyositis",
+      "Dermatomyositis",
+      "Inclusion body myositis",
+      "Antisynthetase syndrome"
+    ],
+    "answer": 1,
+    "answerText": "Dermatomyositis",
+    "explanation": "The presence of heliotrope rash and Gottron’s papules, in addition to proximal muscle weakness and positive anti-Mi-2, strongly supports the diagnosis of dermatomyositis.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q80"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory myopathies - Question 2</span> A 45-year-old woman complains of progressive difficulty rising from chairs and lifting objects. No rash is present. Neurological exam reveals symmetric proximal muscle weakness. CK is elevated. EMG shows myopathic changes. Muscle biopsy reveals endomysial infiltration by CD8+ T cells invading intact muscle fibers. ANA is negative. What is the most likely diagnosis?",
+    "options": [
+      "Polymyositis",
+      "Dermatomyositis",
+      "Myasthenia gravis",
+      "Immune-mediated necrotizing myopathy"
+    ],
+    "answer": 0,
+    "answerText": "Polymyositis",
+    "explanation": "Symmetric proximal weakness without skin involvement and biopsy showing CD8+ T cell invasion points toward polymyositis.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q81"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory myopathies - Question 3</span> A 62-year-old man reports rapid-onset proximal muscle weakness after 2 months of statin use. CK is >10,000 U/L. Anti-HMGCR antibody is positive. Biopsy shows necrotic fibers with minimal inflammation. What is the most appropriate next step?",
+    "options": [
+      "Reassure and monitor",
+      "Discontinue statin only",
+      "Start high-dose steroids",
+      "Give antibiotics"
+    ],
+    "answer": 2,
+    "answerText": "Start high-dose steroids",
+    "explanation": "Immune-mediated necrotizing myopathy needs aggressive treatment with corticosteroids; discontinuing statin alone is not sufficient.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q82"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory myopathies - Question 4</span> A 67-year-old man presents with slowly progressive weakness, particularly in his forearms and quadriceps. He frequently trips and has trouble gripping tools. On exam, weakness is distal and asymmetric. CK is mildly elevated. Muscle biopsy shows rimmed vacuoles and endomysial inflammation. Anti-cN1A antibody is positive. Which of the following best describes his condition?",
+    "options": [
+      "Rapidly progressive, statin-induced myopathy",
+      "Proximal weakness, good response to immunosuppressants",
+      "Chronic, asymmetric, distal weakness with poor treatment response",
+      "Weakness associated with heliotrope rash"
+    ],
+    "answer": 2,
+    "answerText": "Chronic, asymmetric, distal weakness with poor treatment response",
+    "explanation": "The chronic, asymmetric, distal pattern and lack of response to immunosuppressants are characteristic of inclusion body myositis.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q83"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Inflammatory myopathies - Question 5</span> A 39-year-old female presents with shortness of breath, dry cough, and progressive muscle weakness. She also has Raynaud’s phenomenon and cracked skin on her fingers (“mechanic’s hands”). Anti-Jo-1 antibody is positive, and imaging shows interstitial lung disease. Which of the following is the most likely diagnosis?",
+    "options": [
+      "Dermatomyositis",
+      "Polymyositis",
+      "Antisynthetase Syndrome",
+      "Inclusion body myositis"
+    ],
+    "answer": 2,
+    "answerText": "Antisynthetase Syndrome",
+    "explanation": "The combination of ILD, mechanic’s hands, Raynaud’s, and positive anti-Jo-1 indicates antisynthetase syndrome.",
+    "userAnswer": null,
+    "qID": "rheu-inte-q84"
   }
 ]
