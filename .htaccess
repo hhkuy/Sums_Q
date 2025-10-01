@@ -1,10 +1,11 @@
-# 1) منع عرض قائمة الملفات
+# /public_html/questions-bank/.htaccess
 Options -Indexes
 
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-
-  # 2) إذا كان الـ Referer لا يحتوي على النطاق الجديد، نرفض الطلب
-  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?viatosis\.ar\.nf [NC]
-  RewriteRule ^.*$ - [F,L]
+# امنع أي وصول HTTP مباشر لمحتويات مجلد بنك الأسئلة
+<IfModule mod_authz_core.c>
+  Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+  Order allow,deny
+  Deny from all
 </IfModule>
