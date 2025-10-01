@@ -1,12 +1,17 @@
+# /public_html/questions-site/.htaccess
 Options -Indexes
 
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
-# أي طلب لملف حقيقي (صور، css، js) يمر عادي
+# مرّر فقط الملفات الثابتة (أصول) إذا كانت موجودة
 RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_URI} \.(?:css|js|png|jpe?g|gif|svg|webp|ico|woff2?|ttf|eot|mp4|webm|pdf)$ [NC]
 RewriteRule ^ - [L]
 
-# أي طلب آخر يمر إلى gate.php للحماية
+# امنع الوصول المباشر إلى gate.php
+RewriteRule ^gate\.php$ - [F]
+
+# أي شيء آخر (مثل .html / أو بدون امتداد) يمر عبر بوابة الحماية
 RewriteRule ^ gate.php [QSA,L]
 </IfModule>
