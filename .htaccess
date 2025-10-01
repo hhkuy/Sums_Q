@@ -1,17 +1,10 @@
-# /public_html/questions-site/.htaccess
+# 1) منع عرض قائمة الملفات
 Options -Indexes
 
 <IfModule mod_rewrite.c>
-RewriteEngine On
+  RewriteEngine On
 
-# مرّر فقط الملفات الثابتة (أصول) إذا كانت موجودة
-RewriteCond %{REQUEST_FILENAME} -f
-RewriteCond %{REQUEST_URI} \.(?:css|js|png|jpe?g|gif|svg|webp|ico|woff2?|ttf|eot|mp4|webm|pdf)$ [NC]
-RewriteRule ^ - [L]
-
-# امنع الوصول المباشر إلى gate.php
-RewriteRule ^gate\.php$ - [F]
-
-# أي شيء آخر (مثل .html / أو بدون امتداد) يمر عبر بوابة الحماية
-RewriteRule ^ gate.php [QSA,L]
+  # 2) إذا كان الـ Referer لا يحتوي على النطاق الجديد، نرفض الطلب
+  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?viatosis\.ar\.nf [NC]
+  RewriteRule ^.*$ - [F,L]
 </IfModule>
