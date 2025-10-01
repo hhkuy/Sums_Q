@@ -1,10 +1,12 @@
-# 1) منع عرض قائمة الملفات
 Options -Indexes
 
 <IfModule mod_rewrite.c>
-  RewriteEngine On
+RewriteEngine On
 
-  # 2) إذا كان الـ Referer لا يحتوي على النطاق الجديد، نرفض الطلب
-  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?viatosis\.ar\.nf [NC]
-  RewriteRule ^.*$ - [F,L]
+# أي طلب لملف حقيقي (صور، css، js) يمر عادي
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# أي طلب آخر يمر إلى gate.php للحماية
+RewriteRule ^ gate.php [QSA,L]
 </IfModule>
