@@ -11,6 +11,7 @@
       --brand:#7a5af5; --brand-2:#5b8def; --ink:#1f2937; --muted:#6b7280;
       --paper:#f7f7fb; --card:#ffffff; --border:#e5e7eb;
       --ok:#10b981; --bad:#ef4444; --warn:#f59e0b;
+      --ring:#e5e7eb;
     }
     *{box-sizing:border-box}
     html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);
@@ -33,6 +34,7 @@
     .btn.secondary{background:linear-gradient(135deg,#334155 0%, #475569 100%)}
     .btn.warning{background:linear-gradient(135deg,#b45309 0%, #d97706 100%)}
     .btn.success{background:linear-gradient(135deg,#065f46 0%, #10b981 100%)}
+    .btn.light{background:#fff;color:#111827;border:1px solid var(--border)}
     .btn:disabled{opacity:.5;cursor:not-allowed}
     .controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:16px;justify-content:center}
     .controls-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:center;margin-top:10px}
@@ -61,28 +63,52 @@
     .note{background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;padding:10px;border-radius:10px;margin-bottom:10px}
     .footer{color:var(--muted);font-size:.9rem;margin-top:24px;text-align:center}
     .hidden{display:none !important}
-    /* Timer floating button on right border, vertically centered */
+
+    /* Circular floating timer */
     .timer-fab{
-      position:fixed; right:12px; top:50%; transform:translateY(-50%);
-      background:#111827; color:#fff; border-radius:16px; padding:12px 14px;
-      border:1px solid #374151; box-shadow:0 10px 24px rgba(0,0,0,.18); z-index:9999;
-      display:none; min-width:220px
+      position:fixed; right:14px; top:50%; transform:translateY(-50%);
+      z-index:9999; display:none;
+      width:120px; height:120px; border-radius:50%;
+      background:
+        conic-gradient(var(--brand) var(--deg,0deg), var(--ring) 0);
+      box-shadow:0 12px 28px rgba(0,0,0,.18), inset 0 0 0 8px #fff;
+      border:1px solid var(--border);
+      display:flex; align-items:center; justify-content:center;
     }
-    .timer-row{display:flex;gap:8px;align-items:center;justify-content:space-between}
-    .timer-time{font-weight:800;font-size:1.2rem;letter-spacing:.5px}
+    .timer-inner{
+      width:86px; height:86px; border-radius:50%;
+      background:#111827; color:#fff; display:flex; flex-direction:column;
+      align-items:center; justify-content:center; gap:6px;
+      text-align:center; padding:8px;
+    }
+    .timer-time{font-weight:800;font-size:1.05rem;letter-spacing:.3px;line-height:1}
+    .timer-row{display:flex;gap:6px}
+    .timer-btn{appearance:none;border:none;border-radius:8px;padding:6px 8px;font-weight:700;font-size:.85rem;cursor:pointer}
+    .timer-btn.pause{background:#475569;color:#fff}
+    .timer-btn.resume{background:#10b981;color:#fff}
+    .timer-btn.reset{background:#d97706;color:#fff}
+
     .rtl-line{direction:rtl;text-align:right}
     .big-center{display:flex;justify-content:center;margin-top:10px}
     .start-large{font-size:1.25rem;padding:16px 22px;border-radius:14px}
     .wish{font-weight:800;text-align:center;margin:14px 0;font-size:1.2rem}
-    /* Post-grade filters */
+
+    /* Filters */
     .filters{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:center;margin-top:12px}
     .filters .btn{padding:10px 14px;font-size:1rem;border-radius:10px}
-    /* Back to home button placement inside exam area bottom card */
+
     .bottom-actions{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
-    /* Inputs group (duration chooser) */
+
     .input{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--border);border-radius:10px;padding:8px 10px}
     .input input{width:80px;border:none;outline:none;font-weight:700}
     .input small{color:var(--muted)}
+
+    /* Custom modal (confirm) */
+    .overlay{position:fixed;inset:0;background:rgba(15,23,42,.55);display:none;align-items:center;justify-content:center;z-index:10000}
+    .modal{background:#fff;border-radius:16px;border:1px solid var(--border);padding:18px;max-width:420px;width:calc(100% - 32px);box-shadow:0 20px 40px rgba(0,0,0,.2)}
+    .modal h3{margin:0 0 10px 0;font-weight:800}
+    .modal p{margin:0 0 16px 0;color:#374151}
+    .modal .actions{display:flex;gap:10px;justify-content:flex-end}
   </style>
 </head>
 <body>
@@ -91,21 +117,19 @@
       <div class="pill">Viatosis</div>
       <div class="pill">Virtual Basic Exam (VBE)</div>
       <h1>Welcome to the Virtual Basic Exam</h1>
-      <!-- (1) RTL ONLY for this sentence -->
+      <!-- RTL sentence only -->
       <p class="rtl-line">مدة الامتحان المقترحة <strong>3 ساعات</strong>. عند الضغط على “Start Exam” سيتم توليد امتحان افتراضي من بنك الأسئلة (200 MCQ) بالتوزيع القياسي.</p>
     </div>
 
     <div class="intro card" id="intro">
       <h2>About VBE</h2>
-      <!-- (4) RTL + improved sentence without showing the link path -->
-      <p class="muted rtl-line">
-        يتم سحب الأسئلة عشوائيًا من مصادر مُعتمدة لكل قسم وفق الترتيب المبيّن أدناه، مع الحفاظ على التوزيع القياسي لعدد الأسئلة.
-      </p>
+      <!-- Improved Arabic line, no links shown -->
+      <p class="muted rtl-line">يتم سحب الأسئلة عشوائيًا من مصادر مُعتمدة لكل قسم وفق الترتيب المبيّن أدناه، مع الحفاظ على التوزيع القياسي لعدد الأسئلة.</p>
 
-      <!-- Subjects distribution (name + total questions only) -->
+      <!-- Subjects distribution (ONLY subject + available count) -->
       <div class="grid" id="dist-grid"><!-- filled by JS --></div>
 
-      <!-- Duration chooser (default 3 hours), user can change -->
+      <!-- Duration chooser -->
       <div class="controls-row">
         <div class="input rtl-line" style="direction:rtl">
           <label for="durationMinutes"><strong>مدة الامتحان (دقائق):</strong></label>
@@ -114,18 +138,16 @@
         </div>
       </div>
 
-      <!-- Hide-source / Hide-explanation buttons ABOVE Start -->
+      <!-- Hide buttons ABOVE Start -->
       <div class="controls">
         <button id="toggleLeadBtn" class="btn secondary" type="button">إخفاء مصدر السؤال</button>
         <button id="toggleExplBtn" class="btn secondary" type="button">إخفاء الشرح (Explanation)</button>
       </div>
 
-      <!-- Bigger centered Start above wish text -->
       <div class="big-center">
         <button id="startBtn" class="btn start-large" type="button">Start Exam</button>
       </div>
 
-      <!-- (5) Replaced wish text, bold, centered, large, at the bottom -->
       <p class="wish">نتمنى لكم التوفيق والنجاح - فريق Viatosis🌟</p>
     </div>
 
@@ -154,7 +176,6 @@
         <div class="stat"><strong id="scoreText">Score: 0 / 200</strong></div>
       </div>
 
-      <!-- (7) Post-grade filters -->
       <div id="filtersBar" class="filters hidden">
         <button class="btn secondary" data-filter="all" type="button">عرض الكل</button>
         <button class="btn secondary" data-filter="wrong" type="button">الأسئلة الخطأ فقط</button>
@@ -167,18 +188,26 @@
     </div>
   </div>
 
-  <!-- (2) Floating Timer (appears after Start) -->
-  <div id="timerFab" class="timer-fab" role="status" aria-live="polite">
-    <div class="timer-row" style="margin-bottom:6px">
-      <div><strong>الوقت المتبقي</strong></div>
-      <div id="timerState" class="muted">Running</div>
-    </div>
-    <div class="timer-row">
+  <!-- Circular Floating Timer -->
+  <div id="timerFab" class="timer-fab" aria-live="polite">
+    <div class="timer-inner">
       <div id="timerTime" class="timer-time">03:00:00</div>
-      <div style="display:flex;gap:6px">
-        <button id="pauseBtn" class="btn secondary" type="button" title="إيقاف مؤقت">⏸</button>
-        <button id="resumeBtn" class="btn secondary hidden" type="button" title="تشغيل">▶️</button>
-        <button id="resetBtn" class="btn warning" type="button" title="إعادة">↺</button>
+      <div class="timer-row">
+        <button id="pauseBtn" class="timer-btn pause" type="button">⏸</button>
+        <button id="resumeBtn" class="timer-btn resume hidden" type="button">▶️</button>
+        <button id="resetBtn" class="timer-btn reset" type="button">↺</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Confirm Modal -->
+  <div id="overlay" class="overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal">
+      <h3 id="modalTitle">تأكيد</h3>
+      <p id="modalMsg">هل أنت متأكد؟</p>
+      <div class="actions">
+        <button id="modalCancel" class="btn light" type="button">إلغاء</button>
+        <button id="modalOk" class="btn" type="button">تأكيد</button>
       </div>
     </div>
   </div>
