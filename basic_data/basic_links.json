@@ -6,48 +6,36 @@
       "files": [
         "data/anatomy_of_limbs_upper_limbs.json",
         "data/anatomy_of_limbs_lower_limbs.json",
-        "data/head_and_neck_head_and_neck.json",
-        "data/basic_exam_past_paper_(beqs_t.u.m.s)anatomical_sciences.json",
-        "data/cardiovascular_system_block_anatomy.json",
-        "data/respiratory_system_anatomy.json",
-        "data/reproductive_system_anatomy.json",
-        "data/urinary_system_anatomy.json",
-        "data/digestive_system_anatomy.json",
-        "data/nervous_system_block_anatomy.json",
-        "data/special_senses_anatomy.json"
+        "data/head_and_neck_head_and_neck_.json"
       ]
     },
     {
       "name": "Physiology",
       "count": 36,
       "files": [
-        "data/basic_exam_past_paper(beqs_t.u.m.s)physiology.json",
-        "data/tissue,development_and_function_block_physiology.json",
+        "data/basic_exam_past_paper_(_beqs_t.u.m.s_)_physiology.json",
+        "data/tissue,_development_and_function_block_physiology.json",
         "data/cardiovascular_system_block_physiology.json",
         "data/respiratory_system_physiology.json",
         "data/endocrine_system_physiology.json",
         "data/digestive_system_physiology.json",
         "data/nervous_system_block_physiology.json",
-        "data/urinary_system_physiology.json",
-        "data/reproductive_system_physiology.json",
-        "data/cell_and_molecules_block؛physiology.json",
-        "data/special_senses_physiology.json"
+        "data/urinary_system_physiology_.json"
       ]
     },
     {
       "name": "Virology",
       "count": 6,
       "files": [
-        "data/virology_virology.json",
-        "data/beqs(t.u.m.s)virology.json"
+        "data/virology_virology_.json",
+        "data/beqs_(_t.u.m.s_)_virology.json"
       ]
     },
     {
       "name": "Principles of Health",
       "count": 11,
       "files": [
-        "data/principles_of_health_principles_of_health.json",
-        "data/beqs(t.u.m.s)public_health_or_general_hygiene.json"
+        "data/principles_of_health_principles_of_health.json"
       ]
     },
     {
@@ -55,23 +43,23 @@
       "count": 9,
       "files": [
         "data/epidemiology_epidemiology.json",
-        "data/beqs(t.u.m.s)epidemiology.json"
+        "data/beqs_(_t.u.m.s_)_epidemiology.json"
       ]
     },
     {
       "name": "Medical Terminology",
       "count": 20,
       "files": [
-        "data/beqs(t.u.m.s)medical_terminology.json"
+        "data/beqs_(_t.u.m.s_)_medical_terminology.json"
       ]
     },
     {
       "name": "Biochemistry",
       "count": 22,
       "files": [
-        "data/basic_exam_past_paper(beqs_t.u.m.s)biochemistry.json",
+        "data/basic_exam_past_paper_(_beqs_t.u.m.s_)_biochemistry.json",
         "data/clinical_biochemistry_clinical_biochemistry.json",
-        "data/cell_and_molecules_block؛biochemistry.json",
+        "data/cell_and_molecules_block؛_biochemistry.json",
         "data/reproductive_system_biochemistry.json",
         "data/endocrine_system_biochemistry.json",
         "data/urinary_system_biochemistry.json"
@@ -82,7 +70,7 @@
       "count": 9,
       "files": [
         "data/immunology_immunology.json",
-        "data/beqs(t.u.m.s)immunology.json"
+        "data/beqs_(_t.u.m.s_)_immunology.json"
       ]
     },
     {
@@ -90,7 +78,7 @@
       "count": 17,
       "files": [
         "data/microbiology_microbiology.json",
-        "data/basic_exam_past_paper(beqs_t.u.m.s)microbiology_or_bacteriology.json"
+        "data/basic_exam_past_paper_(_beqs_t.u.m.s_)_microbiology_or_bacteriology.json"
       ]
     },
     {
@@ -98,7 +86,7 @@
       "count": 11,
       "files": [
         "data/parasitology_parasitology.json",
-        "data/beqs(t.u.m.s)parasitology_and_entomology.json"
+        "data/beqs_(_t.u.m.s_)_parasitology_and_entomology.json"
       ]
     },
     {
@@ -106,7 +94,7 @@
       "count": 5,
       "files": [
         "data/mycology_mycology.json",
-        "data/beqs(t.u.m.s)mycology.json"
+        "data/beqs_(_t.u.m.s_)_mycology.json"
       ]
     }
   ],
