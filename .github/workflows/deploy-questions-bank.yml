@@ -1,7 +1,19 @@
-name: "🧹 Clean Deploy (Manual, FTPS)"
+name: "🧹 Clean Deploy (Auto, FTPS)"
 
 on:
-  workflow_dispatch: {}   # تشغيل يدوي فقط
+  push:
+    branches: [ main ]
+    # شغّل النشر فقط عند تغييرات ملفات البنك/الهتأكسس/الوركفلو
+    paths:
+      - 'basic_data/**'
+      - 'basic_js/**'
+      - 'data/**'
+      - 'exp_data/**'
+      - 'js/**'
+      - 'basic_index.html'
+      - '.htaccess'
+      - '.github/workflows/deploy-clean-auto.yml'
+  workflow_dispatch: {}   # تشغيل يدوي اختياري
 
 concurrency:
   group: clean-deploy
@@ -10,6 +22,8 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # تقدر تتجاوز النشر بكتابة [skip deploy] برسالة الكومِت
+    if: "! contains(github.event.head_commit.message, '[skip deploy]')"
     steps:
       - uses: actions/checkout@v4
 
@@ -23,7 +37,7 @@ jobs:
           port: 21
 
           local-dir: ./
-          server-dir: /public_html/questions-bank/   # << لاحظ الشرطة الأخيرة
+          server-dir: /public_html/questions-bank/   # مهم: ينتهي بـ /
           exclude: |
             **/.git*
             **/.github/**
@@ -32,4 +46,4 @@ jobs:
             .well-known/**
 
           log-level: verbose
-          dangerous-clean-slate: true
+          dangerous-clean-slate: false
