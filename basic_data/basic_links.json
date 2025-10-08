@@ -1,0 +1,57 @@
+{
+  "Anatomy": [
+    "data/anatomy_of_limbs_upper_limbs.json",
+    "data/anatomy_of_limbs_lower_limbs.json",
+    "data/head_and_neck_head_and_neck.json",
+    "data/cardiovascular_system_block_anatomy.json",
+    "data/respiratory_system_anatomy.json",
+    "data/reproductive_system_anatomy.json",
+    "data/digestive_system_anatomy.json",
+    "data/digestive_system_anatomy&histology&embrology.json",
+    "data/nervous_system_block_anatomy.json",
+    "data/special_senses_anatomy.json",
+    "data/urinary_system_anatomy.json"
+  ],
+  "Physiology": [
+    "data/tissue,development_and_function_block_physiology.json",
+    "data/cardiovascular_system_block_physiology.json",
+    "data/respiratory_system_physiology.json",
+    "data/reproductive_system_physiology.json",
+    "data/urinary_system_physiology.json",
+    "data/endocrine_system_physiology.json",
+    "data/cell_and_molecules_block؛physiology.json",
+    "data/special_senses_physiology.json"
+  ],
+  "Virology": [
+    "data/virology_virology.json"
+  ],
+  "Principles of Health": [
+    "data/principles_of_health_principles_of_health.json"
+  ],
+  "Epidemiology": [
+    "data/epidemiology_epidemiology.json"
+  ],
+  "Medical Terminology": [
+    "data/beqs(t.u.m.s)medical_terminology.json"
+  ],
+  "Biochemistry": [
+    "data/cell_and_molecules_block؛biochemistry.json",
+    "data/clinical_biochemistry_clinical_biochemistry.json"
+  ],
+  "Immunology": [
+    "data/immunology_immunology.json",
+    "data/beqs(t.u.m.s)immunology.json"
+  ],
+  "Microbiology": [
+    "data/microbiology_microbiology.json",
+    "data/basic_exam_past_paper(beqs_t.u.m.s)microbiology_or_bacteriology.json"
+  ],
+  "Parasitology": [
+    "data/beqs(t.u.m.s)parasitology_and_entomology.json",
+    "data/parasitology_parasitology.json"
+  ],
+  "Mycology": [
+    "data/beqs(t.u.m.s)mycology.json",
+    "data/mycology_mycology.json"
+  ]
+}
