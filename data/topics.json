@@ -64,10 +64,6 @@
       {
         "name": "Embryology",
         "file": "data/tissue,_development_and_function_block_embryology.json"
-      },
-      {
-        "name": "test2",
-        "file": "data/tissue,_development_and_function_block_test2.json"
       }
     ]
   },
