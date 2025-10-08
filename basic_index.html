@@ -1,37 +1,47 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Viatosis | Virtual Basic Exam</title>
+  <title>Viatosis | الامتحان النظري الافتراضي (VBE)</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root{
-      --brand:#7a5af5; --brand-2:#5b8def; --ink:#1f2937; --muted:#6b7280;
+      --brand:#7a5af5; --brand-2:#5b8def; --ink:#111827; --muted:#6b7280;
       --paper:#f7f7fb; --card:#ffffff; --border:#e5e7eb;
       --ok:#10b981; --bad:#ef4444; --warn:#f59e0b;
     }
     *{box-sizing:border-box}
     html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);
       font-family:"Cairo",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue","Noto Sans Arabic","Noto Sans",Arial,sans-serif}
-    a{color:var(--brand)}
+    a{color:var(--brand);text-decoration:none}
     .container{max-width:980px;margin:0 auto;padding:24px}
-    .hero{background:linear-gradient(135deg,var(--brand) 0%, var(--brand-2) 100%);
-      color:#fff;border-radius:20px;padding:28px;margin-bottom:22px;box-shadow:0 10px 30px rgba(0,0,0,.1)}
+    .hero{
+      background:linear-gradient(135deg,var(--brand) 0%, var(--brand-2) 100%);
+      color:#fff;border-radius:20px;padding:28px;margin-bottom:22px;box-shadow:0 10px 30px rgba(0,0,0,.1)
+    }
     .hero h1{margin:0 0 6px 0;font-weight:800;letter-spacing:.3px}
-    .hero p{margin:6px 0 0 0;color:#eef}
+    .hero p{margin:6px 0 0 0;color:#eef;font-size:1.05rem;line-height:1.7}
     .pill{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);
-      padding:6px 10px;border-radius:999px;font-size:.9rem;margin-right:8px}
+      padding:6px 10px;border-radius:999px;font-size:.9rem;margin-left:8px}
     .intro{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px 18px 6px 18px;margin-bottom:18px}
     .intro h2{margin:0 0 8px 0}
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-top:10px}
-    .tile{background:#fff;border:1px solid var(--border);border-radius:12px;padding:10px}
+    .tile{background:#fff;border:1px solid var(--border);border-radius:12px;padding:12px}
     .tile strong{display:block}
-    .btn{appearance:none;border:none;border-radius:12px;padding:12px 16px;font-weight:700;font-size:1.05rem;
-      background:linear-gradient(135deg,#111827 0%, #374151 100%); color:#fff;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.15)}
+    .btn{
+      appearance:none;border:none;border-radius:14px;padding:14px 22px;
+      font-weight:800;font-size:1.15rem;cursor:pointer;
+      background:linear-gradient(135deg,#111827 0%, #374151 100%); color:#fff;
+      box-shadow:0 6px 18px rgba(0,0,0,.15)
+    }
     .btn:disabled{opacity:.5;cursor:not-allowed}
-    .controls{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-top:14px}
+    .btn-outline{
+      background:#fff;color:#111;border:1px solid var(--border);box-shadow:none
+    }
+    .controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:center;margin-top:14px}
+    .controls .btn{padding:12px 18px;font-size:1.02rem}
     .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px;margin-bottom:16px}
     .exam-header{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:8px}
     .exam-title{font-weight:800;font-size:1.35rem}
@@ -39,7 +49,7 @@
     .muted{color:var(--muted)}
     .q{background:#fff;border:1px solid var(--border);border-radius:14px;padding:14px;margin:12px 0}
     .q h4{margin:0 0 10px 0;font-weight:800}
-    .q .stem{line-height:1.55}
+    .q .stem{line-height:1.7}
     .options{margin-top:10px}
     .opt{display:flex;gap:8px;align-items:flex-start;border:1px solid var(--border);border-radius:10px;padding:10px;margin:8px 0}
     .opt input{margin-top:4px}
@@ -48,6 +58,8 @@
     .q.unanswered{background:#fffbeb;border-color:#fde68a}
     .lead-hidden .lead-intro{display:none !important}
     .lead-intro{font-weight:800}
+    .exp-hidden details{display:none !important}
+    details summary{cursor:pointer}
     .result{background:#111827;color:#fff;border-radius:16px;padding:18px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
     .stat{display:flex;gap:10px;align-items:center}
     .dot{width:12px;height:12px;border-radius:50%}
@@ -56,32 +68,79 @@
     .note{background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;padding:10px;border-radius:10px;margin-bottom:10px}
     .footer{color:var(--muted);font-size:.9rem;margin-top:24px;text-align:center}
     .hidden{display:none !important}
+
+    /* زر الساعة العائم */
+    .timer-fab{
+      position:fixed; right:10px; top:50%; transform:translateY(-50%);
+      z-index:50; display:flex; align-items:center; justify-content:center;
+      width:92px; height:92px; border-radius:50%;
+      background:#111827; color:#fff; font-weight:800; font-size:.95rem;
+      box-shadow:0 12px 28px rgba(0,0,0,.25); border:3px solid #4b5563;
+      text-align:center; line-height:1.2;
+    }
+    .timer-fab small{display:block;font-weight:600;color:#cbd5e1}
+    .timer-fab.paused{opacity:.7;border-color:#f59e0b}
+    .time-inputs{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:10px}
+    .time-inputs input{width:90px;padding:8px 10px;border:1px solid var(--border);border-radius:10px;font-weight:700}
+    .centered{display:flex;justify-content:center}
+    .big{font-size:1.25rem}
+    .bolder{font-weight:800}
   </style>
 </head>
 <body>
   <div class="container">
     <div class="hero">
       <div class="pill">Viatosis</div>
-      <div class="pill">Virtual Basic Exam (VBE)</div>
-      <h1>Welcome to the Virtual Basic Exam</h1>
-      <p>مدة الامتحان المقترحة <strong>3 ساعات</strong>. عند الضغط على “Start Exam” سيتم توليد امتحان افتراضي من بنك الأسئلة (200 MCQ) بالتوزيع القياسي.</p>
+      <div class="pill">الامتحان النظري الافتراضي (VBE)</div>
+      <h1>مرحبًا بكم في الامتحان النظري الافتراضي</h1>
+      <p>
+        مدة الامتحان المقترحة <strong>3 ساعات</strong>.
+        عند الضغط على <strong>“Start Exam”</strong> سيتم توليد امتحان افتراضي من بنك الأسئلة
+        (<strong>200 MCQ</strong>) بالتوزيع القياسي.
+      </p>
     </div>
 
     <div class="intro card" id="intro">
-      <h2>About VBE</h2>
-      <p class="muted">يتم سحب الأسئلة عشوائياً من الروابط المحددة في <code>basic_data/basic_links.json</code> لكل قسم وبالترتيب أدناه:</p>
-      <div class="grid" id="dist-grid"><!-- filled by JS --></div>
-      <div class="controls">
-        <button id="startBtn" class="btn">Start Exam</button>
-        <label><input type="checkbox" id="toggleLead"> Show bold intros (batch/course lines)</label>
+      <h2>نبذة عن الامتحان (About VBE)</h2>
+      <p class="muted">
+        يتم توليد أسئلة كل قسم عشوائيًا من بنك الأسئلة المتاح لهذا القسم مع الحفاظ على التوزيع القياسي الموضّح أدناه.
+      </p>
+
+      <!-- اختيار مدة الوقت قبل البدء -->
+      <div class="card" style="margin-top:10px">
+        <strong>مدة الاختبار:</strong>
+        <div class="time-inputs">
+          <label>ساعات
+            <input type="number" id="hoursInput" min="0" max="12" value="3">
+          </label>
+          <label>دقائق
+            <input type="number" id="minsInput" min="0" max="59" value="0">
+          </label>
+        </div>
+        <div class="muted centered" style="margin-top:6px">يمكنك تعديل الوقت قبل بدء الامتحان.</div>
       </div>
-      <p class="muted" style="margin-top:8px">نتمنى لكم التوفيق والنجاح 🌟</p>
+
+      <!-- توزيع الأقسام + عدد المتاح -->
+      <div class="grid" id="dist-grid"><!-- يُملأ تلقائيًا مع عدد الأسئلة المتاحة --></div>
+
+      <!-- أزرار التحكم -->
+      <div class="controls">
+        <button id="toggleLeadBtn" class="btn btn-outline">إخفاء مصدر السؤال</button>
+        <button id="toggleExpBtn" class="btn btn-outline">إخفاء الشرح (Explanation)</button>
+      </div>
+
+      <!-- زر البدء والملاحظة -->
+      <div class="controls" style="margin-top:10px">
+        <button id="startBtn" class="btn big">Start Exam</button>
+      </div>
+
+      <div class="bolder big" style="text-align:center;margin:14px 0 6px 0;">نتمنى لكم التوفيق والنجاح – فريق Viatosis 🌟</div>
     </div>
 
     <div id="examArea" class="hidden">
       <div class="sticky-tools">
         <div class="exam-header card">
-          <div class="exam-title">Viatosis — <span>Virtual Basic Exam</span></div>
+          <div class="exam-title">Viatosis — <span>الامتحان النظري الافتراضي (VBE)</span></div>
           <div class="badge" id="todayBadge">--/--/----</div>
         </div>
         <div id="shortageNote" class="note hidden"></div>
@@ -89,18 +148,26 @@
 
       <div id="questionsMount"></div>
 
-      <div class="card">
-        <button id="gradeBtn" class="btn">Show Result</button>
+      <div class="card centered">
+        <button id="gradeBtn" class="btn big">عرض النتيجة</button>
       </div>
 
       <div id="resultCard" class="result hidden" aria-live="polite">
-        <div class="stat"><span class="dot ok"></span> <strong id="okCount">0</strong> Correct</div>
-        <div class="stat"><span class="dot bad"></span> <strong id="badCount">0</strong> Wrong</div>
-        <div class="stat"><span class="dot warn"></span> <strong id="naCount">0</strong> Unanswered</div>
-        <div class="stat"><strong id="scoreText">Score: 0 / 200</strong></div>
+        <div class="stat"><span class="dot ok"></span> <strong id="okCount">0</strong> صحيح</div>
+        <div class="stat"><span class="dot bad"></span> <strong id="badCount">0</strong> خطأ</div>
+        <div class="stat"><span class="dot warn"></span> <strong id="naCount">0</strong> غير مُجاب</div>
+        <div class="stat"><strong id="scoreText">النتيجة: 0 / 200</strong></div>
       </div>
 
       <div class="footer">© <span id="yearNow"></span> Viatosis — VBE</div>
+    </div>
+  </div>
+
+  <!-- زر الساعة العائم (يظهر بعد البدء) -->
+  <div id="timerFab" class="timer-fab hidden" title="الوقت المتبقي">
+    <div>
+      <div id="timerClock">--:--:--</div>
+      <small>الوقت</small>
     </div>
   </div>
 
