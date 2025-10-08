@@ -24,6 +24,7 @@
     }
     .hero h1{margin:0 0 6px 0;font-weight:800;letter-spacing:.3px}
     .hero p{margin:6px 0 0 0;color:#eef;font-size:1.05rem;line-height:1.7}
+
     .pill{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);
       padding:6px 10px;border-radius:999px;font-size:.9rem;margin-left:8px}
 
@@ -43,13 +44,9 @@
       box-shadow:0 8px 22px rgba(0,0,0,.15)
     }
     .btn:disabled{opacity:.5;cursor:not-allowed}
-    .btn-outline{
-      background:#fff;color:#111;border:1px solid var(--border);box-shadow:none
-    }
-    .chk{
-      display:flex;gap:10px;align-items:center;justify-content:center;
-      background:#fff;border:1px solid var(--border);border-radius:12px;padding:10px 14px;font-weight:700
-    }
+    .btn-outline{background:#fff;color:#111;border:1px solid var(--border);box-shadow:none}
+    .chk{display:flex;gap:10px;align-items:center;justify-content:center;
+      background:#fff;border:1px solid var(--border);border-radius:12px;padding:10px 14px;font-weight:700}
     .chk input{width:22px;height:22px}
 
     .exam-header{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:8px}
@@ -97,11 +94,10 @@
     }
     .timer-fab.paused{opacity:.9;border-color:#f59e0b}
 
-    /* شريط الفلاتر بعد التصحيح */
     .filters{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:center;margin:10px 0}
     .filters .chk{font-size:.98rem}
 
-    /* نافذة مخصّصة (تأكيد/خطأ/تنبيه) */
+    /* المودال المخصص */
     .modal-back{position:fixed;inset:0;background:rgba(0,0,0,.35);display:none;align-items:center;justify-content:center;z-index:60}
     .modal{background:#fff;border-radius:16px;border:1px solid var(--border);max-width:520px;width:92%;padding:18px}
     .modal h3{margin:0 0 8px 0}
@@ -127,13 +123,12 @@
       </p>
     </div>
 
-    <!-- واجهة رئيسية (بديلة عن About VBE) -->
+    <!-- واجهة رئيسية -->
     <div id="home" class="card">
       <div class="big-note">
         يتم سحب الأسئلة عشوائياً من الروابط المحددة في <strong>ملف الإعداد</strong> لكل قسم وبالترتيب أدناه.
       </div>
 
-      <!-- مربعات الأقسام بالعدد القياسي -->
       <div class="grid" style="margin-top:12px">
         <div class="tile"><strong>Anatomy</strong><small>54 Questions</small></div>
         <div class="tile"><strong>Physiology</strong><small>36 Questions</small></div>
@@ -161,7 +156,6 @@
         <div class="muted" style="text-align:center;margin-top:6px">يمكنك تعديل الوقت قبل بدء الامتحان.</div>
       </div>
 
-      <!-- مفاتيح الإظهار (checkboxes) -->
       <div class="controls">
         <label class="chk">
           <input type="checkbox" id="showLeadChk">
@@ -199,7 +193,6 @@
         <button id="gradeBtn" class="btn">عرض النتيجة</button>
       </div>
 
-      <!-- شريط الفلاتر يظهر بعد التصحيح -->
       <div id="filtersBar" class="filters hidden">
         <label class="chk"><input type="checkbox" id="fltOk" checked> صحيح فقط</label>
         <label class="chk"><input type="checkbox" id="fltBad" checked> خطأ فقط</label>
@@ -224,7 +217,7 @@
     <button id="pauseBtn">إيقاف مؤقت</button>
   </div>
 
-  <!-- نافذة مخصّصة (تأكيد/خطأ) -->
+  <!-- مودال مخصص -->
   <div id="modalBack" class="modal-back" role="dialog" aria-modal="true" aria-hidden="true">
     <div class="modal" role="document">
       <h3 id="modalTitle">تأكيد</h3>
@@ -236,7 +229,7 @@
     </div>
   </div>
 
-  <!-- ملاحظة هامة: استخدم مسارًا جذريًا للسكربت -->
-  <script src="/basic_js/basic_main.js"></script>
+  <!-- ملاحظة: مسار نسبي ليتبع مجلد questions-bank -->
+  <script src="basic_js/basic_main.js"></script>
 </body>
 </html>
