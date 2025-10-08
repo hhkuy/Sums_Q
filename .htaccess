@@ -1,10 +1,22 @@
-# 1) منع عرض قائمة الملفات
+# 🔒 منع عرض قائمة الملفات
 Options -Indexes
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
-  # 2) إذا كان الـ Referer لا يحتوي على النطاق الجديد، نرفض الطلب
-  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?viatosis\.ar\.nf [NC]
-  RewriteRule ^.*$ - [F,L]
+  # 🚫 منع الهوت لينك من مواقع أخرى (لكن السماح لموقعك وللطلبات المباشرة)
+  RewriteCond %{REQUEST_FILENAME} \.(?:jpg|jpeg|png|gif|webp|svg|css|js|json)$ [NC]
+  RewriteCond %{HTTP_REFERER} !^$ [AND]
+  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?viatosis\.ar\.nf/ [NC]
+  RewriteRule .* - [F,L]
+</IfModule>
+
+# 🔁 منع الكاش لملفات JavaScript و JSON
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|json)$">
+    FileETag None
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+  </FilesMatch>
 </IfModule>
