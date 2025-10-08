@@ -1,242 +1,301 @@
 /* =========================================================
-   Viatosis — VBE (Arabic RTL)
-   التحميل يتم فقط عند الضغط على Start Exam.
-   كل المسارات تُحل نسبيًا لموقع الصفحة تلقائيًا.
+   Viatosis — VBE (RTL + Timer + Arabic UI + Custom Modals)
+   يعتمد فقط على: basic_data/basic_links.json + data/*.json
+   لا استخدام لـ topics.json إطلاقًا.
+   يصلح مع الفتح المباشر والتضمين (WordPress iframe).
    ========================================================= */
 (function () {
-  const $  = (sel, root=document) => root.querySelector(sel);
-  const $$ = (sel, root=document) => Array.from(root.querySelectorAll(sel));
+  const $  = (sel, root = document) => root.querySelector(sel);
+  const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
 
-  // ملف الروابط (نِسبي للصفحة)
-  const PATH_LINKS = "basic_data/basic_links.json";
+  // ======== حساب الجذر الحقيقي للمجلد (questions-bank/) حتى عند التضمين ========
+  // سنستفيد من مسار هذا الملف (basic_main.js) لأنه دائمًا مسار مطلق بعد التحميل
+  const SCRIPT_URL = document.currentScript && document.currentScript.src
+    ? document.currentScript.src
+    : (function () {
+        // fallback: نلجأ لـ window.location إن لزم
+        try { return new URL('basic_js/basic_main.js', window.location.href).toString(); }
+        catch { return window.location.href; }
+      })();
 
-  // ---------- Utils ----------
+  const BASE = new URL('../', SCRIPT_URL);          // questions-bank/
+  const PATH_LINKS = new URL('basic_data/basic_links.json', BASE).toString();
+
+  // ======== Utils ========
   const todayStr = () => {
     const d = new Date();
     const pad = (n) => String(n).padStart(2, "0");
-    return `${pad(d.getDate())}/${pad(d.getMonth()+1)}/${d.getFullYear()}`;
+    return `${pad(d.getDate())}/${pad(d.getMonth() + 1)}/${d.getFullYear()}`;
   };
+
   const shuffle = (arr) => {
     const a = arr.slice();
-    for (let i=a.length-1;i>0;i--){
-      const j = Math.floor(Math.random()*(i+1));
-      [a[i],a[j]]=[a[j],a[i]];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
     }
     return a;
   };
+
   const uniqueBy = (arr, keyFn) => {
-    const seen = new Set(); const out=[];
-    for(const x of arr){
+    const seen = new Set();
+    const out = [];
+    for (const x of arr) {
       const k = keyFn(x);
-      if (k==null){ out.push(x); continue; }
-      if (!seen.has(k)){ seen.add(k); out.push(x); }
+      if (k == null) { out.push(x); continue; }
+      if (!seen.has(k)) { seen.add(k); out.push(x); }
     }
     return out;
   };
-  // حلّ مسار نسبي بناءً على مكان الصفحة (يدعم http و / تلقائيًا)
-  const resolveURL = (p) => new URL(p, document.baseURI).href;
 
-  // ---------- State ----------
-  let LINKS = null;
-  let SUBJECT_BLOCKS = [];
-  let MASTER_EXAM = [];
-  let FILE_CACHE = new Map();
-  let shortagesGlobal = [];
+  async function loadJSON(url) {
+    const bust = `v=${Date.now()}`; // منع الكاش
+    const u = new URL(url, BASE);
+    u.searchParams.set('_', bust);
+    const r = await fetch(u.toString(), { cache: 'no-store' });
+    if (!r.ok) throw new Error(`${r.status} ${r.statusText}`);
+    return r.json();
+  }
 
-  // Timer state
-  let totalMs = 0;
+  // ======== Modal (رسائل مخصّصة) ========
+  const modal = {
+    wrap: $("#modal"),
+    title: $("#modalTitle"),
+    body: $("#modalBody"),
+    actions: $("#modalActions"),
+    closeBtn: $("#modalClose"),
+    show({ title, html, buttons }) {
+      this.title.textContent = title || "رسالة";
+      this.body.innerHTML = html || "";
+      this.actions.innerHTML = "";
+      (buttons || []).forEach(b => {
+        const btn = document.createElement("button");
+        btn.className = `btn ${b.variant || 'btn-outline'}`;
+        btn.textContent = b.text;
+        btn.addEventListener('click', () => {
+          if (typeof b.onClick === 'function') b.onClick();
+        });
+        this.actions.appendChild(btn);
+      });
+      this.wrap.classList.add("show");
+    },
+    hide(){ this.wrap.classList.remove("show"); }
+  };
+  modal.closeBtn.addEventListener('click', ()=>modal.hide());
+  $(".modal-back").addEventListener('click', ()=>modal.hide());
+
+  // ======== الحالة العامة ========
+  let LINKS = null;               // محتوى basic_links.json
+  let SUBJECT_BLOCKS = [];        // [{name,count,items:[...]}, ...]
+  let MASTER_EXAM = [];           // مصفوفة الأسئلة النهائية
+  let FILE_CACHE = new Map();     // مسار → أسئلة
+  let shortagesGlobal = [];       // ملاحظات نقص
+
+  // Timer
+  let totalMs = 0;                // إجمالي الوقت بالمللي ثانية
   let deadline = 0;
   let tickHandle = null;
   let paused = false;
-  let remainingPaused = 0;
+  let remainMsAtPause = 0;
 
-  let gradedOnce = false;
+  let graded = false;
 
-  let showLead = false;  // اظهار مصدر السؤال
-  let showExp  = false;  // اظهار الشرح
-
-  // ---------- Modal ----------
-  function showModal({title="تأكيد", html="هل أنت متأكد؟", okText="تأكيد", cancelText="إلغاء", showCancel=true}){
-    return new Promise((resolve)=>{
-      $("#modalTitle").textContent = title;
-      $("#modalMsg").innerHTML = html;
-      const back = $("#modalBack");
-      back.style.display = "flex";
-      back.setAttribute("aria-hidden","false");
-      const okBtn = $("#modalOk");
-      const cancelBtn = $("#modalCancel");
-      okBtn.textContent = okText;
-      cancelBtn.textContent = cancelText;
-      cancelBtn.style.display = showCancel ? "" : "none";
-
-      const onOk = ()=>{ cleanup(); resolve(true); };
-      const onCancel = ()=>{ cleanup(); resolve(false); };
-      function cleanup(){
-        okBtn.removeEventListener("click", onOk);
-        cancelBtn.removeEventListener("click", onCancel);
-        back.style.display="none";
-        back.setAttribute("aria-hidden","true");
-      }
-      okBtn.addEventListener("click", onOk);
-      cancelBtn.addEventListener("click", onCancel);
-    });
-  }
-  const confirmModal = (msg, title="تأكيد") =>
-    showModal({title, html: msg, okText:"تأكيد", cancelText:"إلغاء", showCancel:true});
-  const alertModal = (msg, title="تنبيه") =>
-    showModal({title, html: msg, okText:"حسنًا", showCancel:false});
-
-  // ---------- Bootstrap ----------
-  document.addEventListener("DOMContentLoaded", () => {
+  // ======== Bootstrap ========
+  document.addEventListener("DOMContentLoaded", async () => {
     $("#todayBadge").textContent = todayStr();
     $("#yearNow").textContent = new Date().getFullYear();
 
-    $("#showLeadChk").addEventListener("change", (e)=> showLead = e.target.checked);
-    $("#showExpChk").addEventListener("change",  (e)=> showExp  = e.target.checked);
+    // اربط الأزرار الثابتة
+    $("#toggleLeadBtn").addEventListener("click", toggleLead);
+    $("#toggleExpBtn").addEventListener("click", toggleExp);
 
-    $("#startBtn").addEventListener("click", onStartExam);
-    $("#gradeBtn").addEventListener("click", onGrade);
+    // زر البدء مع رسالة تأكيد مخصّصة
+    $("#startBtn").addEventListener("click", () => {
+      const hh = Number($("#hoursInput").value || 0);
+      const mm = Number($("#minsInput").value || 0);
+      const total = (hh*60)+mm;
+
+      modal.show({
+        title: "تأكيد بدء الاختبار",
+        html: `
+          <div>هل أنت متأكد من بدء الامتحان الآن؟</div>
+          <div class="muted" style="margin-top:6px">المدة المحددة: <b>${hh}</b> ساعة و <b>${mm}</b> دقيقة (الإجمالي ${total} دقيقة).</div>
+        `,
+        buttons: [
+          { text: "إلغاء", variant: "btn-ghost", onClick: () => modal.hide() },
+          { text: "ابدأ الآن", variant: "", onClick: async () => { modal.hide(); await safeStart(); } }
+        ]
+      });
+    });
+
+    $("#gradeBtn").addEventListener("click", () => {
+      if (graded) return;
+      modal.show({
+        title: "تأكيد عرض النتيجة",
+        html: `<div>بعد عرض النتيجة سيتم إيقاف المؤقّت وتعطيل التعديل على الإجابات.</div>`,
+        buttons: [
+          { text: "تراجع", variant: "btn-ghost", onClick: ()=>modal.hide() },
+          { text: "اعرض النتيجة", variant: "", onClick: ()=>{ modal.hide(); onGrade(); } }
+        ]
+      });
+    });
+
+    // أزرار الفلاتر والعودة
+    $("#backBtn").addEventListener("click", () => {
+      modal.show({
+        title: "العودة إلى واجهة البداية",
+        html: `<div>لن يتم حذف الأسئلة، لكن ستعود إلى الواجهة التعريفية.</div>`,
+        buttons: [
+          { text: "إلغاء", variant: "btn-ghost", onClick: ()=>modal.hide() },
+          { text: "موافق", variant: "", onClick: ()=>{ modal.hide(); backToIntro(); } }
+        ]
+      });
+    });
+
+    ["f_ok","f_bad","f_na"].forEach(id => $("#"+id).addEventListener("change", applyFilters));
+
+    // ساعة الإيقاف المؤقت/الاستئناف
     $("#pauseBtn").addEventListener("click", togglePause);
-    $("#backBtn").addEventListener("click", onBackHome);
 
-    $("#fltOk").addEventListener("change", applyFilters);
-    $("#fltBad").addEventListener("change", applyFilters);
-    $("#fltNa").addEventListener("change", applyFilters);
-
-    showLead = $("#showLeadChk").checked;
-    showExp  = $("#showExpChk").checked;
+    // افتراضات قبل البدء
+    $("#questionsMount").classList.add("lead-hidden");   // إخفاء المصدر
+    $("#questionsMount").classList.remove("exp-hidden"); // إظهار الشرح
   });
 
-  // ---------- Start Exam ----------
-  async function onStartExam(){
-    const sure = await confirmModal(
-      "سيتم بدء الامتحان وتفعيل المؤقِّت. هل تريد المتابعة؟",
-      "بدء الامتحان"
-    );
-    if (!sure) return;
+  async function safeStart(){
+    try{
+      // حمّل الروابط مرة واحدة قبل البدء (لو لم تُحمّل)
+      if (!LINKS) {
+        LINKS = await loadJSON(PATH_LINKS);
+      }
+      await prefetchAllFiles(); // تحميل جميع ملفات data المذكورة داخل basic_links.json
+      await onStartExam();      // ابدأ فعلاً
+    }catch(e){
+      modal.show({
+        title: "خطأ",
+        html: `<div>تعذّر تحميل الإعدادات: <b>${e.message || e}</b><br>تأكّد من وجود <b>basic_data/basic_links.json</b> ومن صلاحيات الملفات.</div>`,
+        buttons: [{ text:"حسناً", variant:"", onClick:()=>modal.hide() }]
+      });
+      console.error(e);
+    }
+  }
 
+  // ======== Files ========
+  async function prefetchAllFiles(){
+    const allPaths = Array.from(new Set((LINKS.subjects || []).flatMap(s => s.files || [])));
+    FILE_CACHE = new Map();
+    await Promise.all(allPaths.map(async (p) => {
+      const abs = new URL(p, BASE).toString();
+      try {
+        const data = await loadJSON(abs);
+        FILE_CACHE.set(abs, Array.isArray(data) ? data : []);
+      } catch (err) {
+        FILE_CACHE.set(abs, []);
+        console.warn("فشل تحميل:", abs, err);
+      }
+    }));
+  }
+
+  // ======== Start Exam ========
+  async function onStartExam() {
     const hh = Math.max(0, Math.min(12, Number($("#hoursInput").value || 0)));
     const mm = Math.max(0, Math.min(59, Number($("#minsInput").value || 0)));
-    totalMs = (hh*60 + mm) * 60 * 1000;
-    if (totalMs <= 0){
-      await alertModal("يرجى تحديد مدة زمنية صحيحة (ساعة/دقيقة).", "مدة غير صالحة");
-      return;
-    }
-
-    // تحميل ملف الروابط (نسبي لمكان الصفحة)
-    try {
-      LINKS = await fetch(resolveURL(PATH_LINKS)).then(r=>{
-        if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
-        return r.json();
+    totalMs = (hh * 60 + mm) * 60 * 1000;
+    if (totalMs <= 0) {
+      modal.show({
+        title: "تنبيه",
+        html: `<div>يرجى تحديد مدة زمنية صحيحة (ساعة/دقيقة).</div>`,
+        buttons: [{ text:"حسناً", variant:"", onClick:()=>modal.hide() }]
       });
-    } catch(e){
-      console.error(e);
-      await alertModal("تعذّر تحميل ملف الإعداد basic_data/basic_links.json. تأكد من المسار والصلاحيات.", "خطأ في تحميل الإعداد");
       return;
     }
 
-    // تحميل جميع ملفات الأسئلة مرة واحدة
-    FILE_CACHE = new Map();
-    const allPaths = Array.from(new Set(LINKS.subjects.flatMap(s=>s.files || [])));
-    try{
-      await Promise.all(allPaths.map(async p=>{
-        const abs = resolveURL(p);
-        try{
-          const data = await fetch(abs).then(r=>{
-            if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
-            return r.json();
-          });
-          FILE_CACHE.set(abs, Array.isArray(data)?data:[]);
-        }catch(err){
-          console.warn("فشل تحميل:", abs, err);
-          FILE_CACHE.set(abs, []);
-        }
-      }));
-    }catch(err){
-      console.error(err);
-      await alertModal("حدث خطأ أثناء تحميل بعض ملفات الأسئلة. سيتم الاستمرار بما هو متاح.", "تنبيه");
-    }
-
-    // سحب الأسئلة لكل قسم
+    // كوّن البلوك لكل مادة
     SUBJECT_BLOCKS = [];
     shortagesGlobal = [];
-    for(const sub of LINKS.subjects){
-      const uniq = Array.from(new Set((sub.files||[]).map(resolveURL)));
+
+    for (const sub of (LINKS.subjects || [])) {
+      const uniqAbs = Array.from(new Set((sub.files || []).map(p => new URL(p, BASE).toString())));
       let pool = [];
-      uniq.forEach(p => pool = pool.concat(FILE_CACHE.get(p) || []));
-      pool = pool.map(q => ({...q, question: wrapLeadSpan(q.question)}));
-      pool = uniqueBy(pool, q=>q.qID || null);
+      uniqAbs.forEach(abs => pool = pool.concat(FILE_CACHE.get(abs) || []));
+
+      // لفّ الـ span الأول ليصير "مصدر السؤال"
+      pool = pool.map(q => ({ ...q, question: wrapLeadSpan(q.question) }));
+      pool = uniqueBy(pool, (x) => x.qID || null);
 
       const shuffled = shuffle(pool);
       let takeN = sub.count;
-      if (shuffled.length < sub.count){
+
+      if (shuffled.length < sub.count) {
         shortagesGlobal.push(`• ${sub.name}: المتاح ${shuffled.length} < المطلوب ${sub.count}`);
         takeN = shuffled.length;
       }
+
       SUBJECT_BLOCKS.push({ name: sub.name, count: sub.count, items: shuffled.slice(0, takeN) });
     }
 
     MASTER_EXAM = SUBJECT_BLOCKS.flatMap(b => b.items);
 
-    // إظهار الواجهة الخاصة بالامتحان
-    $("#home").classList.add("hidden");
+    // إظهار الامتحان
+    $("#intro").classList.add("hidden");
     $("#examArea").classList.remove("hidden");
-    renderQuestions();
+    $("#todayBadge").textContent = todayStr();
+    renderQuestions(MASTER_EXAM);
 
+    // ملاحظات نقص
     const note = $("#shortageNote");
-    if (shortagesGlobal.length){
+    if (shortagesGlobal.length) {
       note.innerHTML = `<strong>ملاحظة:</strong> بعض الأقسام تحتوي أسئلة أقل من المطلوب:<br>${shortagesGlobal.join("<br>")}`;
       note.classList.remove("hidden");
     } else note.classList.add("hidden");
 
-    const mount = $("#questionsMount");
-    if (!showLead) mount.classList.add("lead-hidden"); else mount.classList.remove("lead-hidden");
-    if (!showExp)  mount.classList.add("exp-hidden");  else mount.classList.remove("exp-hidden");
+    // أعِد الحالات
+    $("#questionsMount").classList.add("lead-hidden");   // المصدر مخفي
+    $("#questionsMount").classList.remove("exp-hidden"); // الشرح ظاهر
 
+    // تشغيل المؤقّت العائم
     startTimer();
-    window.scrollTo({ top: $("#examArea").offsetTop - 10, behavior: "smooth" });
+    window.scrollTo({ top: $("#examArea").offsetTop - 8, behavior: "smooth" });
   }
 
-  function wrapLeadSpan(html){
-    if (typeof html!=="string") return html;
-    return html.replace(/<span\b(?![^>]*class=)[^>]*>/i, m => m.replace("<span", `<span class="lead-intro"`));
+  function wrapLeadSpan(html) {
+    if (typeof html !== "string") return html;
+    // نغلف أول <span> بكلاس lead-intro إن لم يكن له class
+    return html.replace(/<span\b(?![^>]*class=)[^>]*>/i, (m) => {
+      if (m.includes("class=")) return m.replace(/class=['"]([^'"]*)['"]/, (_m, c) => `class="lead-intro ${c}"`);
+      return m.replace("<span", `<span class="lead-intro"`);
+    });
   }
 
-  function renderQuestions(){
+  function renderQuestions() {
     const mount = $("#questionsMount");
     mount.innerHTML = "";
-
     let idx = 1;
-    for(const block of SUBJECT_BLOCKS){
+
+    for (const block of SUBJECT_BLOCKS) {
       const section = document.createElement("div");
       section.className = "card";
-      section.innerHTML = `
-        <h3 style="margin:0 0 6px 0">${block.name}</h3>
-        <div class="muted">${block.items.length} من ${block.count} المطلوبة</div>
-      `;
+      section.innerHTML = `<h3 style="margin:0 0 6px 0">${block.name}</h3>
+        <div class="muted">${block.items.length} من ${block.count} المطلوبة</div>`;
       mount.appendChild(section);
 
-      for(const q of block.items){
+      for (const q of block.items) {
         const qBox = document.createElement("div");
         qBox.className = "q";
         qBox.dataset.qid = q.qID || "";
         qBox.dataset.answer = String(q.answer);
-
         qBox.innerHTML = `
           <h4>#${idx}</h4>
           <div class="stem">${q.question}</div>
           <div class="options">
-            ${(q.options || []).map((opt,i)=>`
+            ${(q.options || []).map((opt, i) => `
               <label class="opt">
                 <input type="radio" name="q_${idx}" value="${i}">
-                <div>${typeof opt==="string" ? opt : String(opt)}</div>
+                <div>${typeof opt === "string" ? opt : String(opt)}</div>
               </label>
             `).join("")}
           </div>
-          ${q.explanation
-            ? `<details class="muted" style="margin-top:6px"><summary>شرح</summary><div style="margin-top:6px">${typeof q.explanation==="string" ? q.explanation : String(q.explanation)}</div></details>`
-            : ""
-          }
+          ${q.explanation ? `<details class="muted" style="margin-top:6px"><summary>شرح</summary><div style="margin-top:6px">${typeof q.explanation === "string" ? q.explanation : String(q.explanation)}</div></details>` : ""}
         `;
         section.appendChild(qBox);
         idx++;
@@ -244,141 +303,165 @@
     }
   }
 
-  // ---------- Grading ----------
-  async function onGrade(){
-    const ok = await confirmModal("هل تريد إنهاء الامتحان وعرض النتيجة؟","تأكيد عرض النتيجة");
-    if (!ok) return;
+  // ======== Toggles ========
+  function toggleLead(){
+    const mount = $("#questionsMount");
+    mount.classList.toggle("lead-hidden");
+    $("#toggleLeadBtn").classList.toggle("btn-outline");
+    // تغيير نص الزر
+    const hidden = mount.classList.contains("lead-hidden");
+    $("#toggleLeadBtn").textContent = hidden ? "إظهار مصدر السؤال" : "إخفاء مصدر السؤال";
+  }
 
-    if (gradedOnce) return;
-    gradedOnce = true;
+  function toggleExp(){
+    const mount = $("#questionsMount");
+    mount.classList.toggle("exp-hidden");
+    $("#toggleExpBtn").classList.toggle("btn-outline");
+    const hidden = mount.classList.contains("exp-hidden");
+    $("#toggleExpBtn").textContent = hidden ? "إظهار الشرح (Explanation)" : "إخفاء الشرح (Explanation)";
+  }
+
+  // ======== Grading ========
+  function onGrade() {
+    if (graded) return;
+    graded = true;
 
     const qBoxes = $$(".q");
-    let okN=0, badN=0, naN=0;
+    let ok = 0, bad = 0, na = 0;
 
-    qBoxes.forEach(q=>{
-      q.classList.remove("unanswered","is-correct","is-wrong","is-na");
-      $$(".opt",q).forEach(o=>o.classList.remove("correct","wrong"));
+    qBoxes.forEach(q => {
+      q.classList.remove("unanswered");
+      $$(".opt", q).forEach(o => o.classList.remove("correct", "wrong"));
       const ansIdx = Number(q.dataset.answer);
-      const chosen = $$("input[type=radio]", q).find(i=>i.checked);
+      const chosen = $$("input[type=radio]", q).find(i => i.checked);
       const opts = $$(".opt", q);
 
-      if (!chosen){
-        naN++; q.classList.add("unanswered","is-na");
+      if (!chosen) {
+        na++;
+        q.classList.add("unanswered");
         if (opts[ansIdx]) opts[ansIdx].classList.add("correct");
         return;
       }
+
       const chosenIdx = Number(chosen.value);
-      if (chosenIdx === ansIdx){
-        okN++; q.classList.add("is-correct");
+      if (chosenIdx === ansIdx) {
+        ok++;
         opts[chosenIdx]?.classList.add("correct");
       } else {
-        badN++; q.classList.add("is-wrong");
+        bad++;
         opts[chosenIdx]?.classList.add("wrong");
         opts[ansIdx]?.classList.add("correct");
       }
     });
 
-    $("#okCount").textContent  = okN;
-    $("#badCount").textContent = badN;
-    $("#naCount").textContent  = naN;
-    $("#scoreText").textContent = `النتيجة: ${okN} / ${(LINKS && LINKS.total) || 200}`;
+    $("#okCount").textContent = ok;
+    $("#badCount").textContent = bad;
+    $("#naCount").textContent = na;
+    $("#scoreText").textContent = `النتيجة: ${ok} / ${(LINKS && LINKS.total) || 200}`;
     $("#resultCard").classList.remove("hidden");
 
-    $$("input[type=radio]").forEach(i=>i.disabled=true);
+    // تعطيل جميع المدخلات بعد التصحيح
+    $$("input[type=radio]").forEach(i => i.disabled = true);
 
-    $("#filtersBar").classList.remove("hidden");
-    applyFilters();
-
+    // إيقاف المؤقت وإظهار الفلاتر
     stopTimer(true);
-    $("#resultCard").scrollIntoView({behavior:"smooth", block:"center"});
+    $("#filters").classList.remove("hidden");
+
+    $("#resultCard").scrollIntoView({ behavior: "smooth", block: "center" });
   }
 
-  // ---------- Filters ----------
+  // ======== Filters after grading ========
   function applyFilters(){
-    const showOk = $("#fltOk").checked;
-    const showBad= $("#fltBad").checked;
-    const showNa = $("#fltNa").checked;
+    const showOK  = $("#f_ok").checked;
+    const showBad = $("#f_bad").checked;
+    const showNA  = $("#f_na").checked;
 
-    const all = $$(".q");
-    all.forEach(q=>{
-      const isOk = q.classList.contains("is-correct");
-      const isBad= q.classList.contains("is-wrong");
-      const isNa = q.classList.contains("is-na");
+    const cards = $$(".q");
+    cards.forEach(q => {
+      // الحالة من أصناف الخيارات
+      const hasCorrect = $$(".opt.correct", q).length > 0;
+      const hasWrong   = $$(".opt.wrong", q).length > 0;
+      const isNA       = q.classList.contains("unanswered");
 
-      let visible = false;
-      if (isOk && showOk) visible = true;
-      if (isBad && showBad) visible = true;
-      if (isNa && showNa)  visible = true;
+      let visible = true;
+
+      const anyFilterOn = showOK || showBad || showNA;
+      if (anyFilterOn){
+        visible = false;
+        if (showOK && hasCorrect && !hasWrong && !isNA) visible = true;
+        if (showBad && hasWrong) visible = true;
+        if (showNA  && isNA) visible = true;
+      }
 
       q.style.display = visible ? "" : "none";
     });
   }
 
-  // ---------- Back to home ----------
-  async function onBackHome(){
-    const ok = await confirmModal("سيتم إلغاء الامتحان الحالي والعودة للواجهة الرئيسية. هل تريد المتابعة؟","تنبيه");
-    if (!ok) return;
-
-    stopTimer(true);
-    gradedOnce = false;
-    MASTER_EXAM = [];
-    SUBJECT_BLOCKS = [];
-    shortagesGlobal = [];
-    $("#filtersBar").classList.add("hidden");
-    $("#resultCard").classList.add("hidden");
-    $("#questionsMount").innerHTML = "";
+  function backToIntro(){
+    // إخفاء منطقة الامتحان
     $("#examArea").classList.add("hidden");
-    $("#home").classList.remove("hidden");
+    $("#intro").classList.remove("hidden");
+    // إخفاء النتائج والفلاتر
+    $("#resultCard").classList.add("hidden");
+    $("#filters").classList.add("hidden");
+    graded = false;
+    // تنظيف المؤقت
+    stopTimer(true);
+    // إعادة التمرير للأعلى
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-  // ---------- Timer ----------
+  // ======== Timer ========
   function startTimer(){
     const fab = $("#timerFab");
     fab.classList.remove("hidden");
-    gradedOnce = false;
+    graded = false;
     paused = false;
     $("#pauseBtn").textContent = "إيقاف مؤقت";
 
     deadline = Date.now() + totalMs;
-    renderTick();
+    renderTick(); // أول تحديث فوري
     if (tickHandle) clearInterval(tickHandle);
     tickHandle = setInterval(renderTick, 1000);
   }
-  function togglePause(){
-    if (!tickHandle && !paused) return;
-    if (!paused){
-      paused = true;
-      remainingPaused = Math.max(0, deadline - Date.now());
-      clearInterval(tickHandle); tickHandle=null;
-      $("#timerFab").classList.add("paused");
-      $("#pauseBtn").textContent = "استمرار";
-    } else {
-      paused = false;
-      deadline = Date.now() + remainingPaused;
-      $("#timerFab").classList.remove("paused");
-      $("#pauseBtn").textContent = "إيقاف مؤقت";
-      renderTick();
-      tickHandle = setInterval(renderTick, 1000);
-    }
-  }
+
   function stopTimer(hide){
-    if (tickHandle){ clearInterval(tickHandle); tickHandle=null; }
-    paused = false;
+    if (tickHandle) { clearInterval(tickHandle); tickHandle = null; }
     if (hide) $("#timerFab").classList.add("hidden");
   }
+
+  function togglePause(){
+    if (!tickHandle && !paused) return; // لم يبدأ
+    if (!paused){
+      // إيقاف مؤقت: احفظ الباقي
+      remainMsAtPause = Math.max(0, deadline - Date.now());
+      paused = true;
+      clearInterval(tickHandle);
+      tickHandle = null;
+      $("#pauseBtn").textContent = "استئناف";
+    } else {
+      // استئناف: أعد تحديد نهاية الوقت
+      deadline = Date.now() + remainMsAtPause;
+      paused = false;
+      renderTick();
+      tickHandle = setInterval(renderTick, 1000);
+      $("#pauseBtn").textContent = "إيقاف مؤقت";
+    }
+  }
+
   function renderTick(){
     const remain = Math.max(0, deadline - Date.now());
     $("#timerClock").textContent = msToHMS(remain);
     if (remain <= 0){
       stopTimer(true);
-      if (!gradedOnce) onGrade();
+      if (!graded) onGrade();
     }
   }
+
   function msToHMS(ms){
     let s = Math.floor(ms/1000);
     const h = Math.floor(s/3600); s -= h*3600;
     const m = Math.floor(s/60);   s -= m*60;
     return `${String(h).padStart(2,"0")}:${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
   }
-
 })();
