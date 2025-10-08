@@ -1,12 +1,13 @@
 /* =========================================================
-   Viatosis — VBE (RTL + Timer + Arabic UI)
-   يعتمد فقط على: basic_data/basic_links.json + data/*.json
-   لا استخدام لـ topics.json إطلاقًا.
+   Viatosis — Virtual Basic Exam (VBE)
+   Reads ONLY: basic_data/basic_links.json
+   Samples randomly from listed JSON files.
    ========================================================= */
 
 (function () {
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
+
   const PATH_LINKS = "basic_data/basic_links.json";
 
   /** ---------- Utils ---------- */
@@ -35,49 +36,97 @@
   };
 
   /** ---------- State ---------- */
-  let LINKS = null;              // محتوى basic_links.json
-  let SUBJECT_BLOCKS = [];       // [{name,count,items:[...]}, ...]
-  let MASTER_EXAM = [];          // مصفوفة الأسئلة النهائية
-  let FILE_CACHE = new Map();    // مسار → أسئلة
-  let shortagesGlobal = [];      // ملاحظات نقص
-  // Timer
-  let totalMs = 0;               // إجمالي الوقت بالمللي ثانية
-  let deadline = 0;              // توقيت الانتهاء (Date.now + totalMs)
-  let tickHandle = null;
-  let gradedOnce = false;
+  let LINKS = null;        // content of basic_links.json
+  let SUBJECT_BLOCKS = []; // [{name,count,items:[...]}, ...]
+  let MASTER_EXAM = [];    // flattened questions
+  let FILE_CACHE = new Map(); // path -> array of questions
+  let FAILED_FILES = new Set();
+  let shortages = [];
 
-  /** ---------- Bootstrap ---------- */
+  // Timer state
+  let examDurationSec = 180 * 60; // default 3h
+  let remainingSec = examDurationSec;
+  let timerId = null;
+  let timerRunning = false;
+
+  /** ---------- Custom Modal (Confirm) ---------- */
+  function confirmDialog({ title="تأكيد", message="هل أنت متأكد؟", okText="تأكيد", cancelText="إلغاء" }){
+    return new Promise((resolve) => {
+      const overlay = $("#overlay");
+      $("#modalTitle").textContent = title;
+      $("#modalMsg").textContent = message;
+      $("#modalOk").textContent = okText;
+      $("#modalCancel").textContent = cancelText;
+      overlay.style.display = "flex";
+      overlay.setAttribute("aria-hidden","false");
+
+      const close = (val) => {
+        overlay.style.display = "none";
+        overlay.setAttribute("aria-hidden","true");
+        $("#modalOk").onclick = null;
+        $("#modalCancel").onclick = null;
+        overlay.onclick = null;
+        resolve(val);
+      };
+      $("#modalOk").onclick = () => close(true);
+      $("#modalCancel").onclick = () => close(false);
+      overlay.onclick = (e) => { if (e.target === overlay) close(false); };
+    });
+  }
+
+  /** ---------- DOM Ready ---------- */
   document.addEventListener("DOMContentLoaded", async () => {
     $("#todayBadge").textContent = todayStr();
     $("#yearNow").textContent = new Date().getFullYear();
 
     try {
-      LINKS = await fetch(PATH_LINKS).then(r => r.json());
-      // Prefetch all files once to حساب عدد المتاح وعرض التوزيع
-      await prefetchAllFiles();
-      paintDistributionTilesWithAvailability();
-
-      // Bind UI
-      $("#startBtn").addEventListener("click", onStartExam);
-      $("#gradeBtn").addEventListener("click", onGrade);
-      $("#toggleLeadBtn").addEventListener("click", toggleLead);
-      $("#toggleExpBtn").addEventListener("click", toggleExp);
-      $("#timerFab").addEventListener("click", ()=>{ /* مجرد عرض */ });
-
-      // Default: إخفاء المصدر (لنطبّق نفس سلوك السابق بعد البدء)
-      $("#questionsMount").classList.add("lead-hidden");
-      // Default: إظهار الشرح قبل البدء (لنغّيره فقط عند ضغط الزر)
-      $("#questionsMount").classList.remove("exp-hidden");
+      LINKS = await fetch(PATH_LINKS).then(r => r.json()).catch(err => { throw err; });
+      // Pre-fetch all files so we can compute counts for About grid
+      await prefetchAllFiles(LINKS);
+      paintDistributionTiles(LINKS);
     } catch (e) {
-      console.error(e);
-      alert("تعذّر تحميل إعدادات الامتحان. تأكد من وجود basic_data/basic_links.json والملفات المشار إليها.");
+      // لا نظهر أي Alert للمتصفح — فقط نسجل في الكونسول
+      console.error("Failed to load configuration or files:", e);
+      // نعرض ملاحظة خفيفة داخل الصفحة بدلاً من نافذة مزعجة
+      const note = $("#shortageNote");
+      if (note){
+        note.innerHTML = `<strong>Note:</strong> Some resources are not accessible right now. The exam will still try to load available questions.`;
+        note.classList.remove("hidden");
+      }
     }
+
+    // Bind controls
+    $("#startBtn")?.addEventListener("click", onStartExam);
+    $("#gradeBtn")?.addEventListener("click", onGrade);
+    $("#homeBtn")?.addEventListener("click", onHome);
+
+    $("#toggleLeadBtn")?.addEventListener("click", () => {
+      const root = $("#questionsMount");
+      root.classList.toggle("lead-hidden");
+      $("#toggleLeadBtn").textContent = root.classList.contains("lead-hidden") ? "إظهار مصدر السؤال" : "إخفاء مصدر السؤال";
+    });
+
+    $("#toggleExplBtn")?.addEventListener("click", () => {
+      const root = $("#questionsMount");
+      root.classList.toggle("expl-hidden");
+      $("#toggleExplBtn").textContent = root.classList.contains("expl-hidden") ? "إظهار الشرح (Explanation)" : "إخفاء الشرح (Explanation)";
+    });
+
+    // Timer buttons
+    $("#pauseBtn")?.addEventListener("click", pauseTimer);
+    $("#resumeBtn")?.addEventListener("click", resumeTimer);
+    $("#resetBtn")?.addEventListener("click", resetTimer);
+
+    // Sync timer preview with input
+    updateTimerFromInput();
+    $("#durationMinutes")?.addEventListener("input", updateTimerFromInput);
   });
 
-  /** ---------- Files ---------- */
-  async function prefetchAllFiles(){
-    const allPaths = Array.from(new Set(LINKS.subjects.flatMap(s => s.files || [])));
+  /** ---------- Pre-fetch all files for About counts ---------- */
+  async function prefetchAllFiles(cfg){
+    FAILED_FILES = new Set();
     FILE_CACHE = new Map();
+    const allPaths = Array.from(new Set(cfg.subjects.flatMap(s => s.files || [])));
     await Promise.all(allPaths.map(async (p) => {
       try {
         const data = await fetch(p).then(r => {
@@ -86,102 +135,118 @@
         });
         FILE_CACHE.set(p, Array.isArray(data) ? data : []);
       } catch (err) {
-        console.warn("فشل تحميل:", p, err);
+        console.warn("Failed to fetch:", p, err);
+        FAILED_FILES.add(p);
         FILE_CACHE.set(p, []);
       }
     }));
   }
 
-  /** ---------- Distribution (with availability) ---------- */
-  function paintDistributionTilesWithAvailability() {
+  /** ---------- About grid: ONLY subject name + total available count ---------- */
+  function paintDistributionTiles(cfg) {
     const grid = $("#dist-grid");
     grid.innerHTML = "";
-
-    LINKS.subjects.forEach(s => {
-      const uniq = Array.from(new Set(s.files || []));
+    cfg.subjects.forEach(s => {
+      const uniqPaths = Array.from(new Set(s.files || []));
       let pool = [];
-      uniq.forEach(p => pool = pool.concat(FILE_CACHE.get(p) || []));
-      pool = uniqueBy(pool, q => q.qID || null);
+      uniqPaths.forEach(p => { pool = pool.concat(FILE_CACHE.get(p) || []); });
+      pool = uniqueBy(pool, x => x.qID || null);
 
-      const available = pool.length;
       const el = document.createElement("div");
       el.className = "tile";
       el.innerHTML = `
         <strong>${s.name}</strong>
-        <div class="muted">المطلوب: <b>${s.count}</b> سؤال</div>
-        <div class="muted">المتاح حاليًا: <b>${available}</b> سؤال</div>
+        <div class="muted">${pool.length} questions available</div>
       `;
       grid.appendChild(el);
     });
   }
 
-  /** ---------- Start Exam ---------- */
+  /** ---------- Build Exam ---------- */
   async function onStartExam() {
-    // وقت الامتحان من المدخلات
-    const hh = Math.max(0, Math.min(12, Number($("#hoursInput").value || 0)));
-    const mm = Math.max(0, Math.min(59, Number($("#minsInput").value || 0)));
-    totalMs = (hh * 60 + mm) * 60 * 1000;
-    if (totalMs <= 0) {
-      alert("يرجى تحديد مدة زمنية صحيحة (ساعة/دقيقة).");
-      return;
+    const ok = await confirmDialog({
+      title:"بدء الامتحان",
+      message:"هل أنت متأكد من بدء الامتحان؟ سيبدأ العدّ التنازلي مباشرة وفق المدة المحددة.",
+      okText:"ابدأ", cancelText:"إلغاء"
+    });
+    if (!ok) return;
+
+    // Read duration
+    const minInput = parseInt($("#durationMinutes").value || "180", 10);
+    if (isFinite(minInput) && minInput >= 5) {
+      examDurationSec = minInput * 60;
+      remainingSec = examDurationSec;
+      setTimerLabel(remainingSec);
     }
 
     $("#startBtn").disabled = true;
 
     SUBJECT_BLOCKS = [];
-    shortagesGlobal = [];
+    shortages = [];
+    const failedFiles = new Set(FAILED_FILES); // from prefetch
 
     for (const sub of LINKS.subjects) {
-      const uniq = Array.from(new Set(sub.files || []));
       let pool = [];
-      uniq.forEach(p => pool = pool.concat(FILE_CACHE.get(p) || []));
+      const uniqPaths = Array.from(new Set(sub.files || []));
+      uniqPaths.forEach(p => { pool = pool.concat(FILE_CACHE.get(p) || []); });
+
+      // Lead intro wrap
       pool = pool.map(q => ({ ...q, question: wrapLeadSpan(q.question) }));
+      // Dedup
       pool = uniqueBy(pool, (x) => x.qID || null);
 
       const shuffled = shuffle(pool);
       let takeN = sub.count;
       if (shuffled.length < sub.count) {
-        shortagesGlobal.push(`• ${sub.name}: المتاح ${shuffled.length} < المطلوب ${sub.count}`);
+        shortages.push(`• ${sub.name}: available ${shuffled.length} < required ${sub.count}`);
         takeN = shuffled.length;
       }
-      SUBJECT_BLOCKS.push({ name: sub.name, count: sub.count, items: shuffled.slice(0, takeN) });
+      const pick = shuffled.slice(0, takeN);
+      SUBJECT_BLOCKS.push({ name: sub.name, count: sub.count, items: pick });
     }
 
     MASTER_EXAM = SUBJECT_BLOCKS.flatMap(b => b.items);
 
-    // إظهار الامتحان
+    // Move to exam UI
     $("#intro").classList.add("hidden");
     $("#examArea").classList.remove("hidden");
+
+    const note = $("#shortageNote");
+    const parts = [];
+    if (shortages.length) {
+      parts.push(`<div><strong>Note:</strong> Some sections have fewer available questions than requested:</div><div>${shortages.join("<br>")}</div>`);
+    }
+    if (failedFiles.size) {
+      parts.push(`<div style="margin-top:6px"><strong>Missing/Failed files:</strong><br>${Array.from(failedFiles).map(p=>`• ${p}`).join("<br>")}</div>`);
+    }
+    if (parts.length) {
+      note.innerHTML = parts.join("<hr style='border:none;border-top:1px dashed #fca5a5;margin:8px 0'/>");
+      note.classList.remove("hidden");
+    } else {
+      note.classList.add("hidden");
+    }
+
     renderQuestions(MASTER_EXAM);
 
-    // ملاحظات نقص
-    const note = $("#shortageNote");
-    if (shortagesGlobal.length) {
-      note.innerHTML = `<strong>ملاحظة:</strong> بعض الأقسام تحتوي أسئلة أقل من المطلوب:<br>${shortagesGlobal.join("<br>")}`;
-      note.classList.remove("hidden");
-    } else note.classList.add("hidden");
+    // Initial toggles (default: visible)
+    $("#questionsMount").classList.remove("lead-hidden","expl-hidden");
 
-    // تطبيق حالة الأزرار الحالية
-    // المصدر: افتراضيًا مخفي حتى قبل البدء
-    $("#questionsMount").classList.add("lead-hidden");
-    // الشرح: افتراضيًا ظاهر قبل البدء
-    $("#questionsMount").classList.remove("exp-hidden");
-
-    // تشغيل المؤقّت العائم
+    // Show and start circular timer
+    showTimer();
     startTimer();
+
     window.scrollTo({ top: $("#examArea").offsetTop - 10, behavior: "smooth" });
   }
 
   function wrapLeadSpan(html) {
     if (typeof html !== "string") return html;
-    // نغلف أول <span> بكلاس lead-intro إن لم يكن له class
     return html.replace(/<span\b(?![^>]*class=)[^>]*>/i, (m) => {
       if (m.includes("class=")) return m.replace(/class=['"]([^'"]*)['"]/, (_m, c) => `class="lead-intro ${c}"`);
       return m.replace("<span", `<span class="lead-intro"`);
     });
   }
 
-  function renderQuestions(questions) {
+  function renderQuestions() {
     const mount = $("#questionsMount");
     mount.innerHTML = "";
 
@@ -189,8 +254,10 @@
     for (const block of SUBJECT_BLOCKS) {
       const section = document.createElement("div");
       section.className = "card";
-      section.innerHTML = `<h3 style="margin:0 0 6px 0">${block.name}</h3>
-        <div class="muted">${block.items.length} من ${block.count} المطلوبة</div>`;
+      section.innerHTML = `
+        <h3 style="margin:0 0 6px 0">${block.name}</h3>
+        <div class="muted">${block.items.length} of ${block.count} requested</div>
+      `;
       mount.appendChild(section);
 
       for (const q of block.items) {
@@ -198,18 +265,24 @@
         qBox.className = "q";
         qBox.dataset.qid = q.qID || "";
         qBox.dataset.answer = String(q.answer);
+        qBox.dataset.status = "";
+
+        const optsHtml = (q.options || []).map((opt, i) => `
+          <label class="opt">
+            <input type="radio" name="q_${idx}" value="${i}">
+            <div>${typeof opt === "string" ? opt : String(opt)}</div>
+          </label>
+        `).join("");
+
+        const explHtml = q.explanation
+          ? `<details class="muted" style="margin-top:6px"><summary>Explanation</summary><div style="margin-top:6px">${typeof q.explanation === "string" ? q.explanation : String(q.explanation)}</div></details>`
+          : "";
+
         qBox.innerHTML = `
           <h4>#${idx}</h4>
           <div class="stem">${q.question}</div>
-          <div class="options">
-            ${(q.options || []).map((opt, i) => `
-              <label class="opt">
-                <input type="radio" name="q_${idx}" value="${i}">
-                <div>${typeof opt === "string" ? opt : String(opt)}</div>
-              </label>
-            `).join("")}
-          </div>
-          ${q.explanation ? `<details class="muted" style="margin-top:6px"><summary>شرح</summary><div style="margin-top:6px">${typeof q.explanation === "string" ? q.explanation : String(q.explanation)}</div></details>` : ""}
+          <div class="options">${optsHtml}</div>
+          ${explHtml}
         `;
         section.appendChild(qBox);
         idx++;
@@ -217,25 +290,17 @@
     }
   }
 
-  /** ---------- Toggles ---------- */
-  function toggleLead(){
-    const mount = $("#questionsMount");
-    mount.classList.toggle("lead-hidden");
-    $("#toggleLeadBtn").classList.toggle("btn-outline");
-  }
-  function toggleExp(){
-    const mount = $("#questionsMount");
-    mount.classList.toggle("exp-hidden");
-    $("#toggleExpBtn").classList.toggle("btn-outline");
-  }
-
   /** ---------- Grading ---------- */
-  function onGrade() {
-    if (gradedOnce) return; // لا نكرّر
-    gradedOnce = true;
+  async function onGrade() {
+    const ok = await confirmDialog({
+      title:"عرض النتيجة",
+      message:"تريد عرض النتيجة الآن؟ سيتم قفل الإجابات بعد التصحيح.",
+      okText:"اعرض النتيجة", cancelText:"رجوع"
+    });
+    if (!ok) return;
 
     const qBoxes = $$(".q");
-    let ok = 0, bad = 0, na = 0;
+    let okc = 0, bad = 0, na = 0;
 
     qBoxes.forEach(q => {
       q.classList.remove("unanswered");
@@ -248,68 +313,146 @@
       if (!chosen) {
         na++;
         q.classList.add("unanswered");
+        q.dataset.status = "na";
         if (opts[ansIdx]) opts[ansIdx].classList.add("correct");
         return;
       }
 
       const chosenIdx = Number(chosen.value);
       if (chosenIdx === ansIdx) {
-        ok++;
+        okc++;
+        q.dataset.status = "correct";
         opts[chosenIdx]?.classList.add("correct");
       } else {
         bad++;
+        q.dataset.status = "wrong";
         opts[chosenIdx]?.classList.add("wrong");
         opts[ansIdx]?.classList.add("correct");
       }
+
+      // Lock after grading
+      $$("input[type=radio]", q).forEach(i => i.disabled = true);
     });
 
-    $("#okCount").textContent = ok;
+    $("#okCount").textContent = okc;
     $("#badCount").textContent = bad;
     $("#naCount").textContent = na;
-    $("#scoreText").textContent = `النتيجة: ${ok} / ${LINKS.total || 200}`;
+    $("#scoreText").textContent = `Score: ${okc} / ${LINKS?.total || 200}`;
     $("#resultCard").classList.remove("hidden");
-
-    // تعطيل جميع المدخلات بعد التصحيح
-    $$("input[type=radio]").forEach(i => i.disabled = true);
-
-    // إيقاف المؤقت وإخفاء الزر العائم
-    stopTimer(true);
-
+    $("#filtersBar").classList.remove("hidden");
     $("#resultCard").scrollIntoView({ behavior: "smooth", block: "center" });
   }
 
-  /** ---------- Timer ---------- */
-  function startTimer(){
-    const fab = $("#timerFab");
-    fab.classList.remove("hidden");
-    gradedOnce = false;
-
-    deadline = Date.now() + totalMs;
-    renderTick(); // أول تحديث فوري
-    if (tickHandle) clearInterval(tickHandle);
-    tickHandle = setInterval(renderTick, 1000);
-  }
-
-  function stopTimer(hide){
-    if (tickHandle) { clearInterval(tickHandle); tickHandle = null; }
-    if (hide) $("#timerFab").classList.add("hidden");
-  }
-
-  function renderTick(){
-    const remain = Math.max(0, deadline - Date.now());
-    $("#timerClock").textContent = msToHMS(remain);
-
-    if (remain <= 0){
-      stopTimer(true);
-      if (!gradedOnce) onGrade();
+  /** ---------- Filters after grading ---------- */
+  function applyFilter(kind){
+    const all = $$(".q");
+    if (kind === "all") {
+      all.forEach(q => q.style.display = "");
+      return;
     }
+    const kinds = new Set(kind.split("+"));
+    all.forEach(q => {
+      const st = q.dataset.status || "";
+      q.style.display = kinds.has(st) ? "" : "none";
+    });
+  }
+  $("#filtersBar")?.addEventListener?.("click", (e) => {
+    const btn = e.target.closest("button[data-filter]");
+    if (!btn) return;
+    applyFilter(btn.getAttribute("data-filter"));
+  });
+
+  /** ---------- Back to Home with custom confirm ---------- */
+  async function onHome(){
+    const ok = await confirmDialog({
+      title:"الرجوع",
+      message:"هل تريد الرجوع إلى الواجهة الرئيسية؟ قد تفقد التقدّم الحالي.",
+      okText:"رجوع", cancelText:"إلغاء"
+    });
+    if (!ok) return;
+
+    clearInterval(timerId);
+    timerId = null; timerRunning = false;
+    $("#timerFab").style.display = "none";
+    $("#questionsMount").innerHTML = "";
+    $("#resultCard").classList.add("hidden");
+    $("#filtersBar").classList.add("hidden");
+    $("#intro").classList.remove("hidden");
+    $("#examArea").classList.add("hidden");
+    $("#startBtn").disabled = false;
+    updateTimerFromInput();
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-  function msToHMS(ms){
-    let s = Math.floor(ms/1000);
-    const h = Math.floor(s/3600); s -= h*3600;
-    const m = Math.floor(s/60);   s -= m*60;
-    return `${String(h).padStart(2,"0")}:${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
+  /** ---------- Timer (circular) ---------- */
+  function showTimer(){
+    $("#timerFab").style.display = "flex";
+    setTimerRing(remainingSec, examDurationSec);
+  }
+  function setTimerLabel(sec){
+    const h = Math.floor(sec / 3600);
+    const m = Math.floor((sec % 3600) / 60);
+    const s = sec % 60;
+    $("#timerTime").textContent =
+      `${String(h).padStart(2,"0")}:${String(m).padStart(2,"0")}:${String(s).padStart(2,"0")}`;
+  }
+  function setTimerRing(current, total){
+    const pct = Math.max(0, Math.min(1, current / total));
+    const deg = Math.round(pct * 360);
+    $("#timerFab").style.setProperty("--deg", deg + "deg");
+  }
+  function startTimer(){
+    if (timerRunning) return;
+    timerRunning = true;
+    $("#pauseBtn").classList.remove("hidden");
+    $("#resumeBtn").classList.add("hidden");
+
+    timerId = setInterval(() => {
+      if (remainingSec > 0) {
+        remainingSec--;
+        setTimerLabel(remainingSec);
+        setTimerRing(remainingSec, examDurationSec);
+      } else {
+        clearInterval(timerId);
+        timerRunning = false;
+        confirmDialog({
+          title:"انتهى الوقت",
+          message:"انتهى الوقت! سيتم عرض النتيجة الآن.",
+          okText:"حسناً", cancelText:""
+        }).then(() => onGrade());
+      }
+    }, 1000);
+  }
+  function pauseTimer(){
+    if (!timerRunning) return;
+    clearInterval(timerId);
+    timerRunning = false;
+    $("#pauseBtn").classList.add("hidden");
+    $("#resumeBtn").classList.remove("hidden");
+  }
+  function resumeTimer(){
+    if (timerRunning) return;
+    startTimer();
+  }
+  function resetTimer(){
+    confirmDialog({
+      title:"إعادة المؤقّت",
+      message:"إعادة ضبط المؤقّت إلى المدة الأصلية؟",
+      okText:"إعادة", cancelText:"إلغاء"
+    }).then((ok)=>{
+      if (!ok) return;
+      remainingSec = examDurationSec;
+      setTimerLabel(remainingSec);
+      setTimerRing(remainingSec, examDurationSec);
+    });
+  }
+  function updateTimerFromInput(){
+    const minInput = parseInt($("#durationMinutes").value || "180", 10);
+    const validMin = (isFinite(minInput) && minInput >= 5) ? minInput : 180;
+    examDurationSec = validMin * 60;
+    remainingSec = examDurationSec;
+    setTimerLabel(remainingSec);
+    setTimerRing(remainingSec, examDurationSec);
   }
 
 })();
