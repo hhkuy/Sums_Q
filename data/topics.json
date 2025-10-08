@@ -82,6 +82,10 @@
       {
         "name": "Histology",
         "file": "data/cell_and_molecules_block؛_histology.json"
+      },
+      {
+        "name": "test456",
+        "file": "data/cell_and_molecules_block_test456.json"
       }
     ]
   },
