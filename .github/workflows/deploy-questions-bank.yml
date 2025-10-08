@@ -1,4 +1,4 @@
-name: "🚀 Deploy to cPanel (FTPS)"
+name: "🚀 Deploy to cPanel with lftp (FTPS)"
 
 on:
   push:
@@ -11,20 +11,33 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Deploy via FTPS (explicit 21)
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.0
-        with:
-          server: ${{ secrets.FTP_HOST }}           # ftp.viatosis.ar.nf
-          username: ${{ secrets.FTP_USERNAME }}     # viatosis
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps                            # FTPS explicit
-          port: 21
-          local-dir: ./
-          server-dir: ${{ secrets.FTP_REMOTE_DIR }} # /public_html/questions-bank/
-          exclude: |
-            **/.git*
-            **/.github/**
-            **/node_modules/**
-            **/.DS_Store
-          log-level: verbose
-          dangerous-clean-slate: false
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
+      - name: Mirror via FTPS (explicit TLS)
+        env:
+          HOST: ${{ secrets.FTP_HOST }}             # ftp.viatosis.ar.nf
+          USER: ${{ secrets.FTP_USERNAME }}         # viatosis
+          PASS: ${{ secrets.FTP_PASSWORD }}
+          REMOTE_DIR: ${{ secrets.FTP_REMOTE_DIR }} # /public_html/questions-bank/
+        run: |
+          lftp -e "
+            set net:timeout 20;
+            set net:max-retries 3;
+            set net:persist-retries 1;
+            set ftp:passive-mode on;
+            set ftp:ssl-force true;
+            set ftp:ssl-protect-data true;
+            set ssl:verify-certificate no;     # تجاهل تحقق الشهادة (يحـل مشاكل FTPS الشائعة)
+            open -u $USER,$PASS -p 21 $HOST;
+            mirror -R \
+              --parallel=2 \
+              --only-newer \
+              --verbose \
+              --exclude-glob .git* \
+              --exclude-glob .github/** \
+              --exclude-glob node_modules/** \
+              --exclude-glob .DS_Store \
+              ./ $REMOTE_DIR;
+            bye
+          "
