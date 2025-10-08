@@ -12,11 +12,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Deploy via FTP
+      - name: Deploy via SFTP/FTP (force resync once)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.0
         with:
-          server: ${{ secrets.FTP_HOST }}          # مثال: ftpupload.net
-          username: ${{ secrets.FTP_USERNAME }}     # اسم مستخدم FTP
-          password: ${{ secrets.FTP_PASSWORD }}     # كلمة مرور FTP
-          local-dir: ./                            # رفع كل محتويات الجذر
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          # إذا استضافتك تدعم SFTP حط السطرين هدول:
+          # protocol: sftp
+          # port: 22
+          # ولو FTP فقط، احذف السطرين فوق ودع الافتراضي (21)
+          local-dir: ./
           server-dir: /public_html/questions-bank/
+          exclude: |
+            **/.git*
+            **/.github/**
+            **/node_modules/**
+            **/.DS_Store
+          log-level: verbose
+          dangerous-clean-slate: true   # ← شغّلها الآن مرة واحدة فقط
