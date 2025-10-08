@@ -13,45 +13,48 @@
       --ok:#10b981; --bad:#ef4444; --warn:#f59e0b;
     }
     *{box-sizing:border-box}
-    html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);
-      font-family:"Cairo",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue","Noto Sans Arabic","Noto Sans",Arial,sans-serif}
+    html,body{
+      margin:0;padding:0;background:var(--paper);color:var(--ink);
+      font-family:"Cairo",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue","Noto Sans Arabic","Noto Sans",Arial,sans-serif
+    }
     a{color:var(--brand);text-decoration:none}
     .container{max-width:980px;margin:0 auto;padding:24px}
-
     .hero{
       background:linear-gradient(135deg,var(--brand) 0%, var(--brand-2) 100%);
       color:#fff;border-radius:20px;padding:28px;margin-bottom:22px;box-shadow:0 10px 30px rgba(0,0,0,.1)
     }
     .hero h1{margin:0 0 6px 0;font-weight:800;letter-spacing:.3px}
     .hero p{margin:6px 0 0 0;color:#eef;font-size:1.05rem;line-height:1.7}
-
     .pill{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);
       padding:6px 10px;border-radius:999px;font-size:.9rem;margin-left:8px}
+    .intro{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px 18px 6px 18px;margin-bottom:18px}
+    .intro h2{margin:0 0 8px 0}
 
-    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px;margin-bottom:16px}
-    .muted{color:var(--muted)}
+    /* شبكة المربعات التعريفية */
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-top:10px}
-    .tile{background:#fff;border:1px solid var(--border);border-radius:12px;padding:14px}
-    .tile strong{display:block;font-weight:800;margin-bottom:6px}
-    .tile small{color:var(--muted)}
-    .big-note{background:#eef2ff;border:1px solid #e0e7ff;color:#1f2937;border-radius:14px;padding:12px}
+    .tile{background:#fff;border:1px solid var(--border);border-radius:12px;padding:14px;text-align:center}
+    .tile strong{display:block;font-size:1.05rem}
+    .tile .qty{color:var(--muted);margin-top:6px}
 
-    .controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:center;margin-top:14px}
     .btn{
-      appearance:none;border:none;border-radius:16px;padding:16px 26px;
-      font-weight:800;font-size:1.25rem;cursor:pointer;
+      appearance:none;border:none;border-radius:14px;padding:14px 22px;
+      font-weight:800;font-size:1.15rem;cursor:pointer;
       background:linear-gradient(135deg,#111827 0%, #374151 100%); color:#fff;
-      box-shadow:0 8px 22px rgba(0,0,0,.15)
+      box-shadow:0 6px 18px rgba(0,0,0,.15)
     }
     .btn:disabled{opacity:.5;cursor:not-allowed}
-    .btn-outline{background:#fff;color:#111;border:1px solid var(--border);box-shadow:none}
-    .chk{display:flex;gap:10px;align-items:center;justify-content:center;
-      background:#fff;border:1px solid var(--border);border-radius:12px;padding:10px 14px;font-weight:700}
-    .chk input{width:22px;height:22px}
+    .btn-outline{
+      background:#fff;color:#111;border:1px solid var(--border);box-shadow:none
+    }
+    .controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:center;margin-top:14px}
+    .controls .btn{padding:12px 18px;font-size:1.02rem}
+
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px;margin-bottom:16px}
 
     .exam-header{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:8px}
     .exam-title{font-weight:800;font-size:1.35rem}
     .badge{background:#eef2ff;color:#3730a3;border:1px solid #e0e7ff;border-radius:999px;padding:4px 10px;font-weight:700}
+    .muted{color:var(--muted)}
 
     .q{background:#fff;border:1px solid var(--border);border-radius:14px;padding:14px;margin:12px 0}
     .q h4{margin:0 0 10px 0;font-weight:800}
@@ -62,6 +65,7 @@
     .opt.correct{background:#ecfdf5;border-color:#a7f3d0}
     .opt.wrong{background:#fef2f2;border-color:#fecaca}
     .q.unanswered{background:#fffbeb;border-color:#fde68a}
+
     .lead-hidden .lead-intro{display:none !important}
     .lead-intro{font-weight:800}
     .exp-hidden details{display:none !important}
@@ -77,7 +81,7 @@
     .footer{color:var(--muted);font-size:.9rem;margin-top:24px;text-align:center}
     .hidden{display:none !important}
 
-    /* الساعة العائمة */
+    /* زر الساعة العائم */
     .timer-fab{
       position:fixed; right:10px; top:50%; transform:translateY(-50%);
       z-index:50; display:flex; flex-direction:column; align-items:center; justify-content:center;
@@ -86,26 +90,30 @@
       box-shadow:0 12px 28px rgba(0,0,0,.25); border:3px solid #4b5563;
       text-align:center; line-height:1.2;
     }
-    .timer-fab .time{font-size:1.0rem}
     .timer-fab small{display:block;font-weight:600;color:#cbd5e1}
     .timer-fab button{
-      margin-top:6px; background:#fff; color:#111; border:0; border-radius:999px;
-      padding:6px 10px; font-weight:800; cursor:pointer
+      margin-top:6px; padding:6px 10px; border-radius:999px; border:1px solid #374151;
+      background:#222; color:#fff; cursor:pointer; font-weight:700;
     }
-    .timer-fab.paused{opacity:.9;border-color:#f59e0b}
 
-    .filters{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:center;margin:10px 0}
-    .filters .chk{font-size:.98rem}
+    .time-inputs{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:10px}
+    .time-inputs input{width:90px;padding:8px 10px;border:1px solid var(--border);border-radius:10px;font-weight:700}
+    .centered{display:flex;justify-content:center}
+    .big{font-size:1.25rem}
+    .bolder{font-weight:800}
 
-    /* المودال المخصص */
-    .modal-back{position:fixed;inset:0;background:rgba(0,0,0,.35);display:none;align-items:center;justify-content:center;z-index:60}
-    .modal{background:#fff;border-radius:16px;border:1px solid var(--border);max-width:520px;width:92%;padding:18px}
-    .modal h3{margin:0 0 8px 0}
-    .modal p{margin:0 0 14px 0;color:#374151}
-    .modal .actions{display:flex;gap:10px;justify-content:flex-start;flex-wrap:wrap}
-    .modal .actions button{padding:10px 14px;border-radius:12px;font-weight:800;cursor:pointer;border:1px solid var(--border)}
-    .modal .ok{background:#111827;color:#fff;border-color:#111827}
-    .modal .cancel{background:#fff}
+    /* ====== Modal (رسائل مخصّصة) ====== */
+    .modal-wrap{position:fixed;inset:0;display:none;align-items:center;justify-content:center;z-index:80}
+    .modal-wrap.show{display:flex}
+    .modal-back{position:absolute;inset:0;background:rgba(0,0,0,.5)}
+    .modal-card{position:relative;background:#fff;border-radius:16px;border:1px solid var(--border);
+      width:min(560px,92vw);padding:18px;box-shadow:0 20px 50px rgba(0,0,0,.25)}
+    .modal-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+    .modal-head h3{margin:0;font-weight:800}
+    .modal-body{color:#374151;line-height:1.7}
+    .modal-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-start;margin-top:14px}
+    .btn-danger{background:linear-gradient(135deg,#991b1b,#ef4444)}
+    .btn-ghost{background:#fff;color:#111;border:1px solid var(--border)}
   </style>
 </head>
 <body>
@@ -119,61 +127,60 @@
       <p>
         مدة الامتحان المقترحة <strong>3 ساعات</strong>.
         عند الضغط على <strong>“Start Exam”</strong> سيتم توليد امتحان افتراضي من بنك الأسئلة
-        (<strong>200 MCQ</strong>) بالتوزيع القياسي .
+        (<strong>200 MCQ</strong>) بالتوزيع القياسي.
       </p>
     </div>
 
-    <!-- واجهة رئيسية -->
-    <div id="home" class="card">
-      <div class="big-note">
-        يتم سحب الأسئلة عشوائياً من الروابط المحددة في <strong>ملف الإعداد</strong> لكل قسم وبالترتيب أدناه.
-      </div>
+    <!-- الواجهة التعريفية (بدون About VBE) -->
+    <div class="intro card" id="intro">
 
-      <div class="grid" style="margin-top:12px">
-        <div class="tile"><strong>Anatomy</strong><small>54 Questions</small></div>
-        <div class="tile"><strong>Physiology</strong><small>36 Questions</small></div>
-        <div class="tile"><strong>Virology</strong><small>6 Questions</small></div>
-        <div class="tile"><strong>Principles of Health</strong><small>11 Questions</small></div>
-        <div class="tile"><strong>Epidemiology</strong><small>9 Questions</small></div>
-        <div class="tile"><strong>Medical Terminology</strong><small>20 Questions</small></div>
-        <div class="tile"><strong>Biochemistry</strong><small>22 Questions</small></div>
-        <div class="tile"><strong>Immunology</strong><small>9 Questions</small></div>
-        <div class="tile"><strong>Microbiology</strong><small>17 Questions</small></div>
-        <div class="tile"><strong>Parasitology</strong><small>11 Questions</small></div>
-        <div class="tile"><strong>Mycology</strong><small>5 Questions</small></div>
-      </div>
-
-      <div class="card" style="margin-top:14px">
+      <!-- اختيار مدة الوقت قبل البدء -->
+      <div class="card" style="margin-top:10px">
         <strong>مدة الاختبار:</strong>
-        <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:8px">
+        <div class="time-inputs">
           <label>ساعات
-            <input type="number" id="hoursInput" min="0" max="12" value="3" style="width:90px;padding:8px 10px;border:1px solid var(--border);border-radius:10px;font-weight:700">
+            <input type="number" id="hoursInput" min="0" max="12" value="3">
           </label>
           <label>دقائق
-            <input type="number" id="minsInput"  min="0" max="59" value="0" style="width:90px;padding:8px 10px;border:1px solid var(--border);border-radius:10px;font-weight:700">
+            <input type="number" id="minsInput" min="0" max="59" value="0">
           </label>
         </div>
-        <div class="muted" style="text-align:center;margin-top:6px">يمكنك تعديل الوقت قبل بدء الامتحان.</div>
+        <div class="muted centered" style="margin-top:6px">يمكنك تعديل الوقت قبل بدء الامتحان.</div>
       </div>
 
+      <!-- مربعات أقسام توزيع البيسك (ثابتة في الواجهة – لا قراءة ملفات الآن) -->
+      <h2 style="margin:8px 0 6px 0">توزيع الاختبار</h2>
+      <div class="grid">
+        <div class="tile"><strong>Anatomy</strong><div class="qty">54 Questions</div></div>
+        <div class="tile"><strong>Physiology</strong><div class="qty">36 Questions</div></div>
+        <div class="tile"><strong>Virology</strong><div class="qty">6 Questions</div></div>
+        <div class="tile"><strong>Principles of Health</strong><div class="qty">11 Questions</div></div>
+        <div class="tile"><strong>Epidemiology</strong><div class="qty">9 Questions</div></div>
+        <div class="tile"><strong>Medical Terminology</strong><div class="qty">20 Questions</div></div>
+        <div class="tile"><strong>Biochemistry</strong><div class="qty">22 Questions</div></div>
+        <div class="tile"><strong>Immunology</strong><div class="qty">9 Questions</div></div>
+        <div class="tile"><strong>Microbiology</strong><div class="qty">17 Questions</div></div>
+        <div class="tile"><strong>Parasitology</strong><div class="qty">11 Questions</div></div>
+        <div class="tile"><strong>Mycology</strong><div class="qty">5 Questions</div></div>
+        <div class="tile" style="grid-column:1 / -1"><strong>TOTAL</strong><div class="qty">200 MCQ</div></div>
+      </div>
+
+      <!-- الملاحظة التوضيحية -->
+      <div class="muted" style="margin-top:10px">
+        يتم سحب الأسئلة عشوائياً من الروابط المحددة في <b>basic_data/basic_links.json</b> لكل قسم وبالترتيب أدناه.
+      </div>
+
+      <!-- مفاتيح الإظهار -->
       <div class="controls">
-        <label class="chk">
-          <input type="checkbox" id="showLeadChk">
-          <span>اظهار مصدر السؤال</span>
-        </label>
-        <label class="chk">
-          <input type="checkbox" id="showExpChk">
-          <span>اظهار الشرح (Explanation)</span>
-        </label>
+        <button id="toggleLeadBtn" class="btn btn-outline">إخفاء مصدر السؤال</button>
+        <button id="toggleExpBtn" class="btn btn-outline">إخفاء الشرح (Explanation)</button>
       </div>
 
-      <div class="controls" style="margin-top:8px">
-        <button id="startBtn" class="btn">Start Exam</button>
+      <!-- زر البدء ورسالة التمني -->
+      <div class="controls" style="margin-top:10px">
+        <button id="startBtn" class="btn big">Start Exam</button>
       </div>
-
-      <div class="bolder" style="font-size:1.4rem;text-align:center;margin:14px 0 6px 0;">
-        نتمنى لكم التوفيق والنجاح - فريق Viatosis🌟
-      </div>
+      <div class="bolder big" style="text-align:center;margin:14px 0 6px 0;">نتمنى لكم التوفيق والنجاح – فريق Viatosis 🌟</div>
     </div>
 
     <!-- منطقة الامتحان -->
@@ -188,15 +195,16 @@
 
       <div id="questionsMount"></div>
 
-      <div class="card" style="display:flex;gap:10px;justify-content:center">
-        <button id="backBtn" class="btn btn-outline" style="font-size:1.05rem;padding:12px 18px">رجوع للواجهة</button>
-        <button id="gradeBtn" class="btn">عرض النتيجة</button>
-      </div>
+      <div class="card centered" style="gap:10px;flex-wrap:wrap">
+        <button id="gradeBtn" class="btn big">عرض النتيجة</button>
 
-      <div id="filtersBar" class="filters hidden">
-        <label class="chk"><input type="checkbox" id="fltOk" checked> صحيح فقط</label>
-        <label class="chk"><input type="checkbox" id="fltBad" checked> خطأ فقط</label>
-        <label class="chk"><input type="checkbox" id="fltNa" checked> غير مُجاب</label>
+        <!-- فلاتر بعد التصحيح -->
+        <div id="filters" class="hidden" style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+          <label class="btn btn-outline" style="font-size:.95rem"><input type="checkbox" id="f_ok" style="margin-left:8px">إظهار الصحيحة فقط</label>
+          <label class="btn btn-outline" style="font-size:.95rem"><input type="checkbox" id="f_bad" style="margin-left:8px">إظهار الخاطئة فقط</label>
+          <label class="btn btn-outline" style="font-size:.95rem"><input type="checkbox" id="f_na" style="margin-left:8px">إظهار غير المُجابة فقط</label>
+          <button id="backBtn" class="btn btn-outline">العودة إلى الواجهة</button>
+        </div>
       </div>
 
       <div id="resultCard" class="result hidden" aria-live="polite">
@@ -210,26 +218,26 @@
     </div>
   </div>
 
-  <!-- الساعة العائمة -->
+  <!-- زر الساعة العائم (يظهر بعد البدء) -->
   <div id="timerFab" class="timer-fab hidden" title="الوقت المتبقي">
-    <div class="time" id="timerClock">--:--:--</div>
+    <div id="timerClock">--:--:--</div>
     <small>الوقت</small>
     <button id="pauseBtn">إيقاف مؤقت</button>
   </div>
 
-  <!-- مودال مخصص -->
-  <div id="modalBack" class="modal-back" role="dialog" aria-modal="true" aria-hidden="true">
-    <div class="modal" role="document">
-      <h3 id="modalTitle">تأكيد</h3>
-      <p id="modalMsg">هل أنت متأكد؟</p>
-      <div class="actions">
-        <button class="ok" id="modalOk">تأكيد</button>
-        <button class="cancel" id="modalCancel">إلغاء</button>
+  <!-- Modal عام (تأكيد/خطأ/معلومة) -->
+  <div id="modal" class="modal-wrap" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-back"></div>
+    <div class="modal-card">
+      <div class="modal-head">
+        <h3 id="modalTitle">تنبيه</h3>
+        <button id="modalClose" class="btn btn-ghost" style="padding:6px 10px">إغلاق</button>
       </div>
+      <div id="modalBody" class="modal-body">...</div>
+      <div id="modalActions" class="modal-actions"></div>
     </div>
   </div>
 
-  <!-- ملاحظة: مسار نسبي ليتبع مجلد questions-bank -->
   <script src="basic_js/basic_main.js"></script>
 </body>
 </html>
