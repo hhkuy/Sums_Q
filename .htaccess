@@ -1,20 +1,20 @@
-# 🔒 منع عرض قائمة الملفات
+# منع عرض قائمة الملفات
 Options -Indexes
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
-  # 🚫 منع الهوت لينك من مواقع أخرى (لكن السماح لموقعك وللطلبات المباشرة)
-  RewriteCond %{REQUEST_FILENAME} \.(?:jpg|jpeg|png|gif|webp|svg|css|js|json)$ [NC]
-  RewriteCond %{HTTP_REFERER} !^$ [AND]
+  # السماح لو الـ Referer فارغ أو من موقعك فقط
+  # (InfinityFree لا يدعم [AND] ولا صيغة متقدمة)
+  RewriteCond %{REQUEST_FILENAME} \.(jpg|jpeg|png|gif|webp|svg|css|js|json)$ [NC]
+  RewriteCond %{HTTP_REFERER} !^$ 
   RewriteCond %{HTTP_REFERER} !^https?://(www\.)?viatosis\.ar\.nf/ [NC]
   RewriteRule .* - [F,L]
 </IfModule>
 
-# 🔁 منع الكاش لملفات JavaScript و JSON
+# منع الكاش لملفات JS و JSON (صيغة أبسط)
 <IfModule mod_headers.c>
   <FilesMatch "\.(js|json)$">
-    FileETag None
     Header set Cache-Control "no-cache, no-store, must-revalidate"
     Header set Pragma "no-cache"
     Header set Expires "0"
