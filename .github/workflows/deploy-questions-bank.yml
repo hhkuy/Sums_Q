@@ -1,37 +1,30 @@
-name: "🧹 Clean Deploy (Manual, FTPS)"
+name: "🚀 Deploy to cPanel (FTPS)"
 
 on:
-  workflow_dispatch: {}   # تشغيل يدوي فقط
-
-concurrency:
-  group: clean-deploy
-  cancel-in-progress: true
+  push:
+    branches: [main]
+  workflow_dispatch: {}
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Deploy via FTPS (Explicit 21) - CLEAN
+      - name: Deploy via FTPS (explicit 21)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.0
         with:
-          server: ${{ secrets.FTP_HOST }}           
-          username: ${{ secrets.FTP_USERNAME }}     
+          server: ${{ secrets.FTP_HOST }}           # ftp.viatosis.ar.nf
+          username: ${{ secrets.FTP_USERNAME }}     # viatosis
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
+          protocol: ftps                            # FTPS explicit
           port: 21
           local-dir: ./
-          server-dir: ${{ secrets.FTP_REMOTE_DIR }} 
+          server-dir: ${{ secrets.FTP_REMOTE_DIR }} # /public_html/questions-bank/
           exclude: |
             **/.git*
             **/.github/**
             **/node_modules/**
             **/.DS_Store
-            .well-known/**             # يحافظ على ملفات SSL لو وُجدت
           log-level: verbose
-          dangerous-clean-slate: true  # الحذف قبل الرفع (كما طلبت)
+          dangerous-clean-slate: true
