@@ -1,22 +1,33 @@
-# منع عرض قائمة الملفات
-Options -Indexes
+name: "🚀 Deploy Entire Repo to InfinityFree"
 
-<IfModule mod_rewrite.c>
-  RewriteEngine On
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
 
-  # السماح لو الـ Referer فارغ أو من موقعك فقط
-  # (InfinityFree لا يدعم [AND] ولا صيغة متقدمة)
-  RewriteCond %{REQUEST_FILENAME} \.(jpg|jpeg|png|gif|webp|svg|css|js|json)$ [NC]
-  RewriteCond %{HTTP_REFERER} !^$ 
-  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?viatosis\.ar\.nf/ [NC]
-  RewriteRule .* - [F,L]
-</IfModule>
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-# منع الكاش لملفات JS و JSON (صيغة أبسط)
-<IfModule mod_headers.c>
-  <FilesMatch "\.(js|json)$">
-    Header set Cache-Control "no-cache, no-store, must-revalidate"
-    Header set Pragma "no-cache"
-    Header set Expires "0"
-  </FilesMatch>
-</IfModule>
+      - name: Deploy via SFTP/FTP (force resync once)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.0
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          # إذا استضافتك تدعم SFTP حط السطرين هدول:
+          # protocol: sftp
+          # port: 22
+          # ولو FTP فقط، احذف السطرين فوق ودع الافتراضي (21)
+          local-dir: ./
+          server-dir: /public_html/questions-bank/
+          exclude: |
+            **/.git*
+            **/.github/**
+            **/node_modules/**
+            **/.DS_Store
+          log-level: verbose
+          dangerous-clean-slate: true   # ← شغّلها الآن مرة واحدة فقط
