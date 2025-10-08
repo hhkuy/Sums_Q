@@ -1,20 +1,18 @@
 /* =========================================================
    Viatosis — Virtual Basic Exam (VBE)
-   This page depends ONLY on: basic_data/basic_links.json
-   Then it fetches each subject.files[] JSON and samples randomly.
-   UI extras:
-   - Custom confirmation modals (start, grade, back)
-   - Floating circular countdown timer (pause/resume/reset)
-   - RTL intro, LTR exam
-   - Toggles: Show sources (lead), Show Explanation
-   - Result filter (all/correct/wrong/unanswered)
-   - No alerts: graceful inline notes
+   Depends ONLY on: basic_data/basic_links.json
+   - Custom modals for Start / Grade / Back
+   - Inline circular countdown timer beside date (appears after start)
+   - Show Result + Back buttons side-by-side (both with modals)
+   - Toggle "Show sources" (lead) & "Show Explanation"
+   - Result filter
+   - No browser default alerts
    ========================================================= */
 (function () {
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => Array.from(root.querySelectorAll(sel));
   const PATH_LINKS = "basic_data/basic_links.json";
-  const HOME_URL = "index.html"; // fallback for back button
+  const HOME_URL = "index.html";
 
   /** ---------- Utils ---------- */
   const todayStr = () => {
@@ -42,16 +40,16 @@
   };
 
   /** ---------- State ---------- */
-  let LINKS = null;         // content of basic_links.json
+  let LINKS = null;         // basic_links.json content
   let SUBJECT_BLOCKS = [];  // [{name,count,items:[...]}, ...]
   let MASTER_EXAM = [];     // flattened questions
   let graded = false;
 
-  // Timer state
+  // Timer state (inline)
   let timerSeconds = 0;
   let timerLeft = 0;
   let timerTick = null;
-  let timerPaused = false;
+  let timerPaused = false; // (no pause button required now; but keep state for future)
 
   /** ---------- DOM Ready ---------- */
   document.addEventListener("DOMContentLoaded", async () => {
@@ -94,20 +92,13 @@
     $("#backBtn").addEventListener("click", () => openModal("#modalBack"));
     $("#confirmBack").addEventListener("click", () => {
       closeModal("#modalBack");
-      // Try go home; if fails, fallback to history
-      try {
-        window.location.href = HOME_URL;
-      } catch {
-        if (window.history.length > 1) window.history.back();
-        else window.location.reload();
-      }
+      try { window.location.href = HOME_URL; }
+      catch { if (window.history.length > 1) window.history.back(); else window.location.reload(); }
     });
 
     $("#filterSelect").addEventListener("change", onFilterChange);
-    $("#pauseBtn").addEventListener("click", onPauseResume);
-    $("#resetBtn").addEventListener("click", onResetTimer);
 
-    // Init canvas time
+    // Prepare timer canvas
     drawTimer();
   });
 
@@ -118,7 +109,7 @@
     cfg.subjects.forEach(s => {
       const el = document.createElement("div");
       el.className = "tile";
-      // Hide file list (only show name + count)
+      // Show only name + count (no file paths)
       el.innerHTML = `<strong>${s.name}</strong>
         <div class="muted">${s.count} question${s.count>1?"s":""}</div>`;
       grid.appendChild(el);
@@ -199,11 +190,11 @@
 
     renderQuestions();
 
-    // Apply toggles
+    // Apply toggles initial state exactly as chosen before start
     applyLeadToggle($("#toggleLead").checked);
     applyExplainToggle($("#toggleExplain").checked);
 
-    // Start timer
+    // Start inline timer (shows next to date)
     startTimer(safeMins * 60);
 
     // Scroll to exam
@@ -212,7 +203,6 @@
 
   function wrapLeadSpan(html) {
     if (typeof html !== "string") return html;
-    // ضع أول <span> ضمن class=lead-intro إن لم يكن فيه class
     return html.replace(/<span\b(?![^>]*class=)[^>]*>/i, (m) => {
       if (m.includes("class=")) return m.replace(/class=['"]([^'"]*)['"]/, (_m, c) => `class="lead-intro ${c}"`);
       return m.replace("<span", `<span class="lead-intro"`);
@@ -236,9 +226,8 @@
         const qBox = document.createElement("div");
         qBox.className = "q";
         qBox.dataset.qid = q.qID || "";
-        qBox.dataset.answer = String(q.answer); // numeric index expected
+        qBox.dataset.answer = String(q.answer);
 
-        // Build options
         const optsHtml = (q.options || []).map((opt, i) => `
           <label class="opt">
             <input type="radio" name="q_${idx}" value="${i}">
@@ -271,12 +260,8 @@
   }
 
   function applyExplainToggle(show){
-    // Open/close all <details>
     const dets = $$("details", $("#questionsMount"));
-    dets.forEach(d => {
-      if (show) d.setAttribute("open", "");
-      else d.removeAttribute("open");
-    });
+    dets.forEach(d => { if (show) d.setAttribute("open", ""); else d.removeAttribute("open"); });
   }
 
   /** ---------- Grading & Filter ---------- */
@@ -311,7 +296,7 @@
       }
     });
 
-    const totalShown = MASTER_EXAM.length; // actual number rendered
+    const totalShown = MASTER_EXAM.length;
     $("#okCount").textContent = ok;
     $("#badCount").textContent = bad;
     $("#naCount").textContent = na;
@@ -347,27 +332,15 @@
     if (m) m.classList.add("hidden");
   }
 
-  /** ---------- Timer (Canvas circular) ---------- */
+  /** ---------- Timer (Inline beside date) ---------- */
   function startTimer(seconds){
     timerSeconds = seconds;
     timerLeft = seconds;
     timerPaused = false;
-    $("#timerWidget").classList.remove("hidden");
-    $("#pauseBtn").textContent = "Pause";
+    $("#timerInline").classList.remove("hidden");
+
     if (timerTick) clearInterval(timerTick);
     timerTick = setInterval(tickTimer, 1000);
-    drawTimer();
-    updateTimerNums();
-  }
-  function onPauseResume(){
-    if (!timerTick) return;
-    timerPaused = !timerPaused;
-    $("#pauseBtn").textContent = timerPaused ? "Resume" : "Pause";
-  }
-  function onResetTimer(){
-    timerLeft = timerSeconds;
-    timerPaused = false;
-    $("#pauseBtn").textContent = "Pause";
     drawTimer();
     updateTimerNums();
   }
@@ -380,10 +353,7 @@
     } else {
       clearInterval(timerTick);
       timerTick = null;
-      // Auto-grade if time is up and not graded yet, show modal-like note
-      if (!graded) {
-        onGrade();
-      }
+      if (!graded) onGrade();
     }
   }
   function updateTimerNums(){
@@ -399,14 +369,14 @@
     if (!canvas) return;
     const ctx = canvas.getContext("2d");
     const w = canvas.width, h = canvas.height;
-    const cx = w/2, cy = h/2, r = Math.min(w,h)/2 - 6;
+    const cx = w/2, cy = h/2, r = Math.min(w,h)/2 - 4;
     ctx.clearRect(0,0,w,h);
 
     // Background ring
     ctx.beginPath();
     ctx.arc(cx, cy, r, 0, Math.PI*2);
     ctx.strokeStyle = "#e5e7eb";
-    ctx.lineWidth = 8;
+    ctx.lineWidth = 6;
     ctx.stroke();
 
     // Progress arc
@@ -416,7 +386,7 @@
     ctx.beginPath();
     ctx.arc(cx, cy, r, start, end, false);
     ctx.strokeStyle = "#7a5af5";
-    ctx.lineWidth = 8;
+    ctx.lineWidth = 6;
     ctx.lineCap = "round";
     ctx.stroke();
   }
