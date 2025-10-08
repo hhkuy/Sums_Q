@@ -1,33 +1,10 @@
-name: "🚀 Deploy Entire Repo to InfinityFree"
+# 1) منع عرض قائمة الملفات
+Options -Indexes
 
-on:
-  push:
-    branches: [main]
-  workflow_dispatch: {}
+<IfModule mod_rewrite.c>
+  RewriteEngine On
 
-jobs:
-  ftp-deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Deploy via SFTP/FTP (force resync once)
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.0
-        with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          # إذا استضافتك تدعم SFTP حط السطرين هدول:
-          # protocol: sftp
-          # port: 22
-          # ولو FTP فقط، احذف السطرين فوق ودع الافتراضي (21)
-          local-dir: ./
-          server-dir: /public_html/questions-bank/
-          exclude: |
-            **/.git*
-            **/.github/**
-            **/node_modules/**
-            **/.DS_Store
-          log-level: verbose
-          dangerous-clean-slate: true   # ← شغّلها الآن مرة واحدة فقط
+  # 2) إذا كان الـ Referer لا يحتوي على النطاق الجديد، نرفض الطلب
+  RewriteCond %{HTTP_REFERER} !^https?://(www\.)?viatosis\.ar\.nf [NC]
+  RewriteRule ^.*$ - [F,L]
+</IfModule>
