@@ -45,6 +45,7 @@
     .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px;margin-bottom:16px}
     .exam-header{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:8px}
     .exam-title{font-weight:800;font-size:1.35rem}
+    .header-right{display:flex;align-items:center;gap:10px}
     .badge{background:#eef2ff;color:#3730a3;border:1px solid #e0e7ff;border-radius:999px;padding:4px 10px;font-weight:700}
     .muted{color:var(--muted)}
     .q{background:#fff;border:1px solid var(--border);border-radius:14px;padding:14px;margin:12px 0}
@@ -67,22 +68,18 @@
     .footer{color:var(--muted);font-size:.9rem;margin-top:24px;text-align:center}
     .hidden{display:none !important}
 
-    /* Exam zone must be LTR for stems/options */
+    /* Exam area LTR */
     #examArea{direction:ltr}
 
-    /* Floating circular timer */
-    .timer-wrap{
-      position:fixed; right:16px; top:50%; transform:translateY(-50%);
-      z-index:50; background:#fff; border:1px solid var(--border); border-radius:16px; padding:10px;
-      box-shadow:0 10px 30px rgba(0,0,0,.15); width:120px; text-align:center
-    }
-    .timer-canvas{display:block;margin:0 auto}
-    .timer-nums{font-weight:800;margin-top:6px}
-    .timer-actions{display:flex;gap:6px;justify-content:center;margin-top:6px}
-    .timer-actions .btn{padding:8px 10px;font-size:.9rem;border-radius:10px}
+    /* Inline timer (beside date) */
+    .timer-inline{display:flex;align-items:center;gap:8px}
+    .timer-box{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--border);border-radius:999px;padding:6px 10px}
+    .timer-nums{font-weight:800}
+    canvas.timer-canvas{display:block;width:28px;height:28px}
 
-    /* Filter bar (shows after grading) */
-    .filter-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:10px}
+    /* Filter bar (after grading) */
+    .action-bar{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    .filter-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
     .filter-bar select{
       background:#fff;border:1px solid var(--border);border-radius:10px;padding:8px 10px;font-weight:700
     }
@@ -99,7 +96,7 @@
 <body>
   <div class="container">
 
-    <!-- Hero (RTL text) -->
+    <!-- Hero (RTL) -->
     <div class="hero" dir="rtl">
       <div class="pill">Viatosis</div>
       <div class="pill">Virtual Basic Exam (VBE)</div>
@@ -112,7 +109,7 @@
       <h2>عن VBE</h2>
       <p class="muted">يتم سحب الأسئلة عشوائياً من الروابط المحددة في <code>basic_data/basic_links.json</code> لكل قسم وبالترتيب الآتي:</p>
 
-      <div class="grid" id="dist-grid"><!-- filled by JS (name + count only) --></div>
+      <div class="grid" id="dist-grid"><!-- filled by JS --></div>
 
       <div class="controls">
         <div class="field">
@@ -136,26 +133,39 @@
       <div class="sticky-tools">
         <div class="exam-header card">
           <div class="exam-title">Viatosis — <span>Virtual Basic Exam</span></div>
-          <div class="badge" id="todayBadge">--/--/----</div>
+          <div class="header-right">
+            <div class="badge" id="todayBadge">--/--/----</div>
+            <!-- Timer inline next to date (hidden until start) -->
+            <div id="timerInline" class="timer-inline hidden" dir="ltr" aria-live="polite">
+              <div class="timer-box">
+                <canvas id="timerCanvas" width="56" height="56" class="timer-canvas"></canvas>
+                <div id="timerNums" class="timer-nums">00:00:00</div>
+              </div>
+            </div>
+          </div>
         </div>
         <div id="shortageNote" class="note hidden"></div>
-        <!-- Filter after grading -->
-        <div id="filterBar" class="filter-bar hidden">
-          <strong>Filter:</strong>
-          <select id="filterSelect">
-            <option value="all">All Questions</option>
-            <option value="correct">Correct</option>
-            <option value="wrong">Wrong</option>
-            <option value="unanswered">Unanswered</option>
-          </select>
-          <button id="backBtn" class="btn secondary" type="button">رجوع</button>
+
+        <!-- Actions + Filter -->
+        <div class="action-bar">
+          <div class="filter-bar hidden" id="filterBar">
+            <strong>Filter:</strong>
+            <select id="filterSelect">
+              <option value="all">All Questions</option>
+              <option value="correct">Correct</option>
+              <option value="wrong">Wrong</option>
+              <option value="unanswered">Unanswered</option>
+            </select>
+          </div>
         </div>
       </div>
 
       <div id="questionsMount"></div>
 
-      <div class="card">
+      <!-- Bottom action card with Show Result + Back side-by-side -->
+      <div class="card" style="display:flex;gap:10px;flex-wrap:wrap">
         <button id="gradeBtn" class="btn">Show Result</button>
+        <button id="backBtn" class="btn secondary" type="button">رجوع</button>
       </div>
 
       <div id="resultCard" class="result hidden" aria-live="polite">
@@ -169,21 +179,11 @@
     </div>
   </div>
 
-  <!-- Floating Timer (hidden until start) -->
-  <div id="timerWidget" class="timer-wrap hidden" dir="ltr" aria-live="polite">
-    <canvas id="timerCanvas" width="96" height="96" class="timer-canvas"></canvas>
-    <div id="timerNums" class="timer-nums">00:00:00</div>
-    <div class="timer-actions">
-      <button id="pauseBtn" class="btn" type="button">Pause</button>
-      <button id="resetBtn" class="btn secondary" type="button">Reset</button>
-    </div>
-  </div>
-
   <!-- Custom Modals -->
   <div id="modalStart" class="modal hidden" role="dialog" aria-modal="true">
     <div class="modal-card">
       <h3>بدء الامتحان</h3>
-      <p>هل أنت مستعد لبدء الامتحان الافتراضي الآن؟ سيتم توليد 200 سؤال بالتقسيم القياسي، وستبدأ الساعة بالعدّ التنازلي.</p>
+      <p>هل أنت مستعد لبدء الامتحان الآن؟ سيتم توليد 200 سؤال بالتقسيم القياسي، وستبدأ الساعة بالعدّ التنازلي.</p>
       <div class="modal-actions">
         <button data-close="#modalStart" class="btn secondary" type="button">إلغاء</button>
         <button id="confirmStart" class="btn" type="button">ابدأ الآن</button>
