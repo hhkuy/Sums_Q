@@ -1,0 +1,30 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>ali Question 1</span> In the membrane of the pre-synaptic neuron, the neurotransmitter is released in response to which of the following events?",
+    "options": [
+      "Opening of Na+ channels",
+      "Opening of K+ channels",
+      "Opening of Ca++ voltage-gated channels",
+      "Closing of Cl− channels"
+    ],
+    "answer": 2,
+    "answerText": "Opening of Ca++ voltage-gated channels",
+    "explanation": "The influx of Ca++ through voltage-gated calcium channels triggers neurotransmitter release into the synaptic cleft.  ",
+    "userAnswer": null,
+    "qID": "tiss-test-q1"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>ali Question 2</span> The release of inhibitory neurotransmitter leads to which of the changes in the postsynaptic membrane?",
+    "options": [
+      "Opening of Na+ channels",
+      "Opening of K+ channels at the surface of the postsynaptic membrane",
+      "Closing of K+ channels",
+      "Depolarization of the membrane"
+    ],
+    "answer": 1,
+    "answerText": "Opening of K+ channels at the surface of the postsynaptic membrane",
+    "explanation": "Inhibitory neurotransmitters cause hyperpolarization by opening K+ channels, making the postsynaptic membrane less excitable.",
+    "userAnswer": null,
+    "qID": "tiss-test-q2"
+  }
+]
