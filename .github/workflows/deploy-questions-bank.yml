@@ -42,4 +42,4 @@ jobs:
             **/.DS_Store
 
           log-level: standard
-          dangerous-clean-slate: true    # لا تشغّلها دائمًا (استعملها مرة واحدة فقط عند الحاجة)
+          dangerous-clean-slate: false    # لا تشغّلها دائمًا (استعملها مرة واحدة فقط عند الحاجة)
