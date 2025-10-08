@@ -80,7 +80,7 @@
     .footer{color:var(--muted);font-size:.9rem;margin-top:24px;text-align:center}
     .hidden{display:none !important}
 
-    /* الساعة العائمة (دائرية + إيقاف/استمرار) */
+    /* الساعة العائمة */
     .timer-fab{
       position:fixed; right:10px; top:50%; transform:translateY(-50%);
       z-index:50; display:flex; flex-direction:column; align-items:center; justify-content:center;
@@ -101,12 +101,12 @@
     .filters{display:flex;gap:10px;flex-wrap:wrap;align-items:center;justify-content:center;margin:10px 0}
     .filters .chk{font-size:.98rem}
 
-    /* نافذة تأكيد مخصّصة */
+    /* نافذة مخصّصة (تأكيد/خطأ/تنبيه) */
     .modal-back{position:fixed;inset:0;background:rgba(0,0,0,.35);display:none;align-items:center;justify-content:center;z-index:60}
     .modal{background:#fff;border-radius:16px;border:1px solid var(--border);max-width:520px;width:92%;padding:18px}
     .modal h3{margin:0 0 8px 0}
     .modal p{margin:0 0 14px 0;color:#374151}
-    .modal .actions{display:flex;gap:10px;justify-content:flex-start}
+    .modal .actions{display:flex;gap:10px;justify-content:flex-start;flex-wrap:wrap}
     .modal .actions button{padding:10px 14px;border-radius:12px;font-weight:800;cursor:pointer;border:1px solid var(--border)}
     .modal .ok{background:#111827;color:#fff;border-color:#111827}
     .modal .cancel{background:#fff}
@@ -127,11 +127,10 @@
       </p>
     </div>
 
-    <!-- واجهة رئيسية بديلة عن About VBE (ثابتة، لا تتصل بالملفات إلا عند Start) -->
+    <!-- واجهة رئيسية (بديلة عن About VBE) -->
     <div id="home" class="card">
       <div class="big-note">
-        يتم سحب الأسئلة عشوائياً من الروابط المحددة في ملف الإعداد
-        <strong>basic_data/basic_links.json</strong> لكل قسم وبالترتيب أدناه.
+        يتم سحب الأسئلة عشوائياً من الروابط المحددة في <strong>ملف الإعداد</strong> لكل قسم وبالترتيب أدناه.
       </div>
 
       <!-- مربعات الأقسام بالعدد القياسي -->
@@ -225,7 +224,7 @@
     <button id="pauseBtn">إيقاف مؤقت</button>
   </div>
 
-  <!-- نافذة تأكيد مخصصة -->
+  <!-- نافذة مخصّصة (تأكيد/خطأ) -->
   <div id="modalBack" class="modal-back" role="dialog" aria-modal="true" aria-hidden="true">
     <div class="modal" role="document">
       <h3 id="modalTitle">تأكيد</h3>
@@ -237,6 +236,7 @@
     </div>
   </div>
 
-  <script src="basic_js/basic_main.js"></script>
+  <!-- ملاحظة هامة: استخدم مسارًا جذريًا للسكربت -->
+  <script src="/basic_js/basic_main.js"></script>
 </body>
 </html>
