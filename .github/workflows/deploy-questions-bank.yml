@@ -29,5 +29,5 @@ jobs:
             **/.github/**
             **/node_modules/**
             **/.DS_Store
-          log-level: standard
-          dangerous-clean-slate: false   # ← شغّلها الآن مرة واحدة فقط
+          log-level: verbose
+          dangerous-clean-slate: true   # ← شغّلها الآن مرة واحدة فقط
