@@ -1,45 +1,30 @@
-name: "🚀 Deploy Entire Repo to InfinityFree"
+name: "🚀 Deploy to cPanel (FTPS)"
 
 on:
   push:
     branches: [main]
-    # (اختياري) شغّل الرفع فقط عند تعديل ملفات بنك الأسئلة
-    paths:
-      - 'basic_data/**'
-      - 'basic_js/**'
-      - 'data/**'
-      - 'exp_data/**'
-      - 'basic_index.html'
-      - '.htaccess'
-      - '.github/workflows/deploy-questions-bank.yml'
   workflow_dispatch: {}
 
 jobs:
-  ftp-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Deploy via FTP
+      - name: Deploy via FTPS (explicit 21)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.0
         with:
-          server: ${{ secrets.FTP_HOST }}          # مثال: ftpupload.net أو اسم الدومين
-          username: ${{ secrets.FTP_USERNAME }}
+          server: ${{ secrets.FTP_HOST }}           # ftp.viatosis.ar.nf
+          username: ${{ secrets.FTP_USERNAME }}     # viatosis
           password: ${{ secrets.FTP_PASSWORD }}
-          # لو استضافتك تدعم SFTP:
-          # protocol: sftp
-          # port: 22
-          # لو FTP فقط اترك الافتراضي (port 21)
-
+          protocol: ftps                            # FTPS explicit
+          port: 21
           local-dir: ./
-          server-dir: /public_html/questions-bank/
-
+          server-dir: ${{ secrets.FTP_REMOTE_DIR }} # /public_html/questions-bank/
           exclude: |
             **/.git*
             **/.github/**
             **/node_modules/**
             **/.DS_Store
-
-          log-level: standard
-          dangerous-clean-slate: false    # لا تشغّلها دائمًا (استعملها مرة واحدة فقط عند الحاجة)
+          log-level: verbose
+          dangerous-clean-slate: false
