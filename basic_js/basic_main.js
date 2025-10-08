@@ -1,14 +1,14 @@
 /* =========================================================
    Viatosis — VBE (Arabic RTL)
-   لا تحميل لأي ملفات عند فتح الصفحة.
    التحميل يتم فقط عند الضغط على Start Exam.
+   كل المسارات تُحل نسبيًا لموقع الصفحة تلقائيًا.
    ========================================================= */
 (function () {
   const $  = (sel, root=document) => root.querySelector(sel);
   const $$ = (sel, root=document) => Array.from(root.querySelectorAll(sel));
 
-  // مسار الإعداد الجذري (Root-relative)
-  const PATH_LINKS = "/basic_data/basic_links.json";
+  // ملف الروابط (نِسبي للصفحة)
+  const PATH_LINKS = "basic_data/basic_links.json";
 
   // ---------- Utils ----------
   const todayStr = () => {
@@ -33,13 +33,8 @@
     }
     return out;
   };
-  // توحيد المسار: إن لم يبدأ بـ http أو / نضيف /
-  const resolveURL = (p) => {
-    if (!p) return p;
-    if (/^https?:\/\//i.test(p)) return p;
-    if (p.startsWith("/")) return p;
-    return `/${p}`;
-  };
+  // حلّ مسار نسبي بناءً على مكان الصفحة (يدعم http و / تلقائيًا)
+  const resolveURL = (p) => new URL(p, document.baseURI).href;
 
   // ---------- State ----------
   let LINKS = null;
@@ -57,11 +52,10 @@
 
   let gradedOnce = false;
 
-  // Toggles (from checkboxes)
   let showLead = false;  // اظهار مصدر السؤال
   let showExp  = false;  // اظهار الشرح
 
-  // ---------- Modal (custom confirm/alert) ----------
+  // ---------- Modal ----------
   function showModal({title="تأكيد", html="هل أنت متأكد؟", okText="تأكيد", cancelText="إلغاء", showCancel=true}){
     return new Promise((resolve)=>{
       $("#modalTitle").textContent = title;
@@ -97,7 +91,6 @@
     $("#todayBadge").textContent = todayStr();
     $("#yearNow").textContent = new Date().getFullYear();
 
-    // إعدادات الإظهار قبل البدء
     $("#showLeadChk").addEventListener("change", (e)=> showLead = e.target.checked);
     $("#showExpChk").addEventListener("change",  (e)=> showExp  = e.target.checked);
 
@@ -106,26 +99,22 @@
     $("#pauseBtn").addEventListener("click", togglePause);
     $("#backBtn").addEventListener("click", onBackHome);
 
-    // فلاتر بعد التصحيح
     $("#fltOk").addEventListener("change", applyFilters);
     $("#fltBad").addEventListener("change", applyFilters);
     $("#fltNa").addEventListener("change", applyFilters);
 
-    // قيم ابتدائية
     showLead = $("#showLeadChk").checked;
     showExp  = $("#showExpChk").checked;
   });
 
   // ---------- Start Exam ----------
   async function onStartExam(){
-    // تأكيد مخصّص قبل البدء
     const sure = await confirmModal(
       "سيتم بدء الامتحان وتفعيل المؤقِّت. هل تريد المتابعة؟",
       "بدء الامتحان"
     );
     if (!sure) return;
 
-    // قراءة الوقت
     const hh = Math.max(0, Math.min(12, Number($("#hoursInput").value || 0)));
     const mm = Math.max(0, Math.min(59, Number($("#minsInput").value || 0)));
     totalMs = (hh*60 + mm) * 60 * 1000;
@@ -134,7 +123,7 @@
       return;
     }
 
-    // لا نقرأ الملفات إلا هنا
+    // تحميل ملف الروابط (نسبي لمكان الصفحة)
     try {
       LINKS = await fetch(resolveURL(PATH_LINKS)).then(r=>{
         if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
@@ -142,24 +131,25 @@
       });
     } catch(e){
       console.error(e);
-      await alertModal("تعذّر تحميل ملف الإعداد. تأكد من وجود: /basic_data/basic_links.json وإعدادات الصلاحيات (MIME/Permissions).", "خطأ في تحميل الإعداد");
+      await alertModal("تعذّر تحميل ملف الإعداد basic_data/basic_links.json. تأكد من المسار والصلاحيات.", "خطأ في تحميل الإعداد");
       return;
     }
 
-    // نجلب كل الملفات المذكورة مرّة واحدة (مع توحيد المسار)
+    // تحميل جميع ملفات الأسئلة مرة واحدة
     FILE_CACHE = new Map();
-    const allPaths = Array.from(new Set(LINKS.subjects.flatMap(s=>s.files || []))).map(resolveURL);
+    const allPaths = Array.from(new Set(LINKS.subjects.flatMap(s=>s.files || [])));
     try{
       await Promise.all(allPaths.map(async p=>{
+        const abs = resolveURL(p);
         try{
-          const data = await fetch(p).then(r=>{
+          const data = await fetch(abs).then(r=>{
             if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
             return r.json();
           });
-          FILE_CACHE.set(p, Array.isArray(data)?data:[]);
+          FILE_CACHE.set(abs, Array.isArray(data)?data:[]);
         }catch(err){
-          console.warn("فشل تحميل:", p, err);
-          FILE_CACHE.set(p, []);
+          console.warn("فشل تحميل:", abs, err);
+          FILE_CACHE.set(abs, []);
         }
       }));
     }catch(err){
@@ -167,14 +157,13 @@
       await alertModal("حدث خطأ أثناء تحميل بعض ملفات الأسئلة. سيتم الاستمرار بما هو متاح.", "تنبيه");
     }
 
-    // إعداد البلوكات وسحب الأسئلة
+    // سحب الأسئلة لكل قسم
     SUBJECT_BLOCKS = [];
     shortagesGlobal = [];
     for(const sub of LINKS.subjects){
       const uniq = Array.from(new Set((sub.files||[]).map(resolveURL)));
       let pool = [];
       uniq.forEach(p => pool = pool.concat(FILE_CACHE.get(p) || []));
-      // لف أول span كمصدر
       pool = pool.map(q => ({...q, question: wrapLeadSpan(q.question)}));
       pool = uniqueBy(pool, q=>q.qID || null);
 
@@ -189,7 +178,7 @@
 
     MASTER_EXAM = SUBJECT_BLOCKS.flatMap(b => b.items);
 
-    // إظهار منطقة الامتحان
+    // إظهار الواجهة الخاصة بالامتحان
     $("#home").classList.add("hidden");
     $("#examArea").classList.remove("hidden");
     renderQuestions();
@@ -200,12 +189,10 @@
       note.classList.remove("hidden");
     } else note.classList.add("hidden");
 
-    // تطبيق مفاتيح الإظهار حسب اختيارات المستخدم قبل البدء
     const mount = $("#questionsMount");
     if (!showLead) mount.classList.add("lead-hidden"); else mount.classList.remove("lead-hidden");
     if (!showExp)  mount.classList.add("exp-hidden");  else mount.classList.remove("exp-hidden");
 
-    // تشغيل الساعة
     startTimer();
     window.scrollTo({ top: $("#examArea").offsetTop - 10, behavior: "smooth" });
   }
@@ -297,16 +284,12 @@
     $("#scoreText").textContent = `النتيجة: ${okN} / ${(LINKS && LINKS.total) || 200}`;
     $("#resultCard").classList.remove("hidden");
 
-    // تعطيل الاختيارات
     $$("input[type=radio]").forEach(i=>i.disabled=true);
 
-    // إظهار الفلاتر
     $("#filtersBar").classList.remove("hidden");
     applyFilters();
 
-    // إيقاف المؤقّت
     stopTimer(true);
-
     $("#resultCard").scrollIntoView({behavior:"smooth", block:"center"});
   }
 
@@ -336,7 +319,6 @@
     const ok = await confirmModal("سيتم إلغاء الامتحان الحالي والعودة للواجهة الرئيسية. هل تريد المتابعة؟","تنبيه");
     if (!ok) return;
 
-    // إعادة كل شيء
     stopTimer(true);
     gradedOnce = false;
     MASTER_EXAM = [];
@@ -365,14 +347,12 @@
   function togglePause(){
     if (!tickHandle && !paused) return;
     if (!paused){
-      // إيقاف
       paused = true;
       remainingPaused = Math.max(0, deadline - Date.now());
       clearInterval(tickHandle); tickHandle=null;
       $("#timerFab").classList.add("paused");
       $("#pauseBtn").textContent = "استمرار";
     } else {
-      // استمرار
       paused = false;
       deadline = Date.now() + remainingPaused;
       $("#timerFab").classList.remove("paused");
