@@ -1,13 +1,14 @@
 /* =========================================================
    Viatosis — VBE (Arabic RTL)
-   يقرأ فقط basic_data/basic_links.json عند الضغط على Start
-   ويجلب منها روابط data/*.json للسحب العشوائي.
+   لا تحميل لأي ملفات عند فتح الصفحة.
+   التحميل يتم فقط عند الضغط على Start Exam.
    ========================================================= */
 (function () {
   const $  = (sel, root=document) => root.querySelector(sel);
   const $$ = (sel, root=document) => Array.from(root.querySelectorAll(sel));
 
-  const PATH_LINKS = "basic_data/basic_links.json";
+  // مسار الإعداد الجذري (Root-relative)
+  const PATH_LINKS = "/basic_data/basic_links.json";
 
   // ---------- Utils ----------
   const todayStr = () => {
@@ -32,6 +33,13 @@
     }
     return out;
   };
+  // توحيد المسار: إن لم يبدأ بـ http أو / نضيف /
+  const resolveURL = (p) => {
+    if (!p) return p;
+    if (/^https?:\/\//i.test(p)) return p;
+    if (p.startsWith("/")) return p;
+    return `/${p}`;
+  };
 
   // ---------- State ----------
   let LINKS = null;
@@ -53,26 +61,36 @@
   let showLead = false;  // اظهار مصدر السؤال
   let showExp  = false;  // اظهار الشرح
 
-  // ---------- Modal (custom confirm) ----------
-  function confirmModal(message, title="تأكيد"){
+  // ---------- Modal (custom confirm/alert) ----------
+  function showModal({title="تأكيد", html="هل أنت متأكد؟", okText="تأكيد", cancelText="إلغاء", showCancel=true}){
     return new Promise((resolve)=>{
       $("#modalTitle").textContent = title;
-      $("#modalMsg").innerHTML = message;
+      $("#modalMsg").innerHTML = html;
       const back = $("#modalBack");
       back.style.display = "flex";
       back.setAttribute("aria-hidden","false");
+      const okBtn = $("#modalOk");
+      const cancelBtn = $("#modalCancel");
+      okBtn.textContent = okText;
+      cancelBtn.textContent = cancelText;
+      cancelBtn.style.display = showCancel ? "" : "none";
+
       const onOk = ()=>{ cleanup(); resolve(true); };
       const onCancel = ()=>{ cleanup(); resolve(false); };
       function cleanup(){
-        $("#modalOk").removeEventListener("click", onOk);
-        $("#modalCancel").removeEventListener("click", onCancel);
+        okBtn.removeEventListener("click", onOk);
+        cancelBtn.removeEventListener("click", onCancel);
         back.style.display="none";
         back.setAttribute("aria-hidden","true");
       }
-      $("#modalOk").addEventListener("click", onOk);
-      $("#modalCancel").addEventListener("click", onCancel);
+      okBtn.addEventListener("click", onOk);
+      cancelBtn.addEventListener("click", onCancel);
     });
   }
+  const confirmModal = (msg, title="تأكيد") =>
+    showModal({title, html: msg, okText:"تأكيد", cancelText:"إلغاء", showCancel:true});
+  const alertModal = (msg, title="تنبيه") =>
+    showModal({title, html: msg, okText:"حسنًا", showCancel:false});
 
   // ---------- Bootstrap ----------
   document.addEventListener("DOMContentLoaded", () => {
@@ -100,45 +118,60 @@
 
   // ---------- Start Exam ----------
   async function onStartExam(){
+    // تأكيد مخصّص قبل البدء
+    const sure = await confirmModal(
+      "سيتم بدء الامتحان وتفعيل المؤقِّت. هل تريد المتابعة؟",
+      "بدء الامتحان"
+    );
+    if (!sure) return;
+
     // قراءة الوقت
     const hh = Math.max(0, Math.min(12, Number($("#hoursInput").value || 0)));
     const mm = Math.max(0, Math.min(59, Number($("#minsInput").value || 0)));
     totalMs = (hh*60 + mm) * 60 * 1000;
     if (totalMs <= 0){
-      await confirmModal("يرجى تحديد مدة زمنية صحيحة (ساعة/دقيقة).");
+      await alertModal("يرجى تحديد مدة زمنية صحيحة (ساعة/دقيقة).", "مدة غير صالحة");
       return;
     }
 
     // لا نقرأ الملفات إلا هنا
     try {
-      LINKS = await fetch(PATH_LINKS).then(r=>r.json());
+      LINKS = await fetch(resolveURL(PATH_LINKS)).then(r=>{
+        if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
+        return r.json();
+      });
     } catch(e){
       console.error(e);
-      await confirmModal("تعذّر تحميل ملف الإعداد basic_data/basic_links.json.");
+      await alertModal("تعذّر تحميل ملف الإعداد. تأكد من وجود: /basic_data/basic_links.json وإعدادات الصلاحيات (MIME/Permissions).", "خطأ في تحميل الإعداد");
       return;
     }
 
-    // نجلب كل الملفات المذكورة مرّة واحدة
+    // نجلب كل الملفات المذكورة مرّة واحدة (مع توحيد المسار)
     FILE_CACHE = new Map();
-    const allPaths = Array.from(new Set(LINKS.subjects.flatMap(s=>s.files || [])));
-    await Promise.all(allPaths.map(async p=>{
-      try{
-        const data = await fetch(p).then(r=>{
-          if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
-          return r.json();
-        });
-        FILE_CACHE.set(p, Array.isArray(data)?data:[]);
-      }catch(err){
-        console.warn("فشل تحميل:", p, err);
-        FILE_CACHE.set(p, []);
-      }
-    }));
+    const allPaths = Array.from(new Set(LINKS.subjects.flatMap(s=>s.files || []))).map(resolveURL);
+    try{
+      await Promise.all(allPaths.map(async p=>{
+        try{
+          const data = await fetch(p).then(r=>{
+            if(!r.ok) throw new Error(`${r.status} ${r.statusText}`);
+            return r.json();
+          });
+          FILE_CACHE.set(p, Array.isArray(data)?data:[]);
+        }catch(err){
+          console.warn("فشل تحميل:", p, err);
+          FILE_CACHE.set(p, []);
+        }
+      }));
+    }catch(err){
+      console.error(err);
+      await alertModal("حدث خطأ أثناء تحميل بعض ملفات الأسئلة. سيتم الاستمرار بما هو متاح.", "تنبيه");
+    }
 
     // إعداد البلوكات وسحب الأسئلة
     SUBJECT_BLOCKS = [];
     shortagesGlobal = [];
     for(const sub of LINKS.subjects){
-      const uniq = Array.from(new Set(sub.files||[]));
+      const uniq = Array.from(new Set((sub.files||[]).map(resolveURL)));
       let pool = [];
       uniq.forEach(p => pool = pool.concat(FILE_CACHE.get(p) || []));
       // لف أول span كمصدر
@@ -179,7 +212,6 @@
 
   function wrapLeadSpan(html){
     if (typeof html!=="string") return html;
-    // نضيف class="lead-intro" لأول span (إن لم يحتوي على class)
     return html.replace(/<span\b(?![^>]*class=)[^>]*>/i, m => m.replace("<span", `<span class="lead-intro"`));
   }
 
@@ -315,9 +347,6 @@
     $("#questionsMount").innerHTML = "";
     $("#examArea").classList.add("hidden");
     $("#home").classList.remove("hidden");
-    // إعادة اختيار الإظهار طبقًا للcheckboxes
-    const mount = $("#questionsMount");
-    mount.classList.remove("lead-hidden","exp-hidden");
   }
 
   // ---------- Timer ----------
