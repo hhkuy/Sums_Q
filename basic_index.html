@@ -1,184 +1,106 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:;">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Viatosis | Virtual Basic Exam</title>
-  <link rel="icon" href="data:,">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root{
-      --brand:#1e88e5;
-      --brand-2:#0d47a1;
-      --accent:#00bfa5;
-      --ok:#2e7d32;
-      --bad:#c62828;
-      --warn:#f9a825;
-      --muted:#6b7280;
-      --bg:#0b1220;
-      --card:#0f172a;
-      --card-2:#111827;
-      --text:#e5e7eb;
-      --text-2:#cbd5e1;
-      --shadow:0 10px 30px rgba(0,0,0,.35);
-      --radius:16px;
+      --brand:#7a5af5; --brand-2:#5b8def; --ink:#1f2937; --muted:#6b7280;
+      --paper:#f7f7fb; --card:#ffffff; --border:#e5e7eb;
+      --ok:#10b981; --bad:#ef4444; --warn:#f59e0b;
     }
     *{box-sizing:border-box}
-    html,body{margin:0;background:linear-gradient(180deg,#0b1220,#0a1428 35%,#0e1a34);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Noto Sans",Tahoma,Arial}
-    a{color:var(--accent);text-decoration:none}
-    .container{max-width:1100px;margin:24px auto;padding:16px}
-    .card{background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);box-shadow:var(--shadow)}
-    .header{padding:20px 24px;display:flex;align-items:center;justify-content:space-between;gap:12px}
-    .brand{display:flex;align-items:center;gap:12px}
-    .brand-badge{background:linear-gradient(135deg,var(--brand),var(--brand-2));color:white;padding:8px 14px;border-radius:999px;font-weight:700}
-    .subtitle{color:var(--text-2);font-size:14px}
-    .intro{padding:20px 24px;line-height:1.9}
-    .intro h2{margin:0 0 10px 0}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:12px}
-    .pill{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:10px 12px}
-    .muted{color:var(--text-2)}
-    .controls{padding:18px 24px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;border-top:1px solid rgba(255,255,255,.08)}
-    .controls label{display:flex;align-items:center;gap:8px}
-    .btn{padding:12px 16px;border-radius:12px;border:none;background:linear-gradient(135deg,var(--accent),#00796b);color:#fff;font-weight:700;cursor:pointer;box-shadow:var(--shadow)}
-    .btn.secondary{background:linear-gradient(135deg,#64748b,#475569)}
-    .btn.warn{background:linear-gradient(135deg,#ef6c00,#e65100)}
-    .btn:disabled{opacity:.6;cursor:not-allowed}
-    .divider{height:1px;background:rgba(255,255,255,.08);margin:8px 0}
-
-    /* Exam area (LTR) */
-    .exam{direction:ltr;padding:10px 16px 24px}
-    .page-title{margin:24px 0 10px 0;padding:8px 12px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:10px;font-weight:700}
-    .question{background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px 14px;margin:10px 0}
-    .q-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
-    .q-no{font-weight:800}
-    .q-source{color:#d9534f;font-weight:700}
-    .q-text{line-height:1.6}
-    .options{margin-top:8px;display:grid;gap:8px}
-    .opt{display:flex;align-items:flex-start;gap:8px;padding:8px 10px;border:1px solid rgba(255,255,255,.08);border-radius:10px;background:rgba(255,255,255,.02);cursor:pointer}
-    .opt input{margin-top:3px}
-    .opt.correct{background:rgba(46,125,50,.12);border-color:rgba(46,125,50,.5)}
-    .opt.incorrect{background:rgba(198,40,40,.12);border-color:rgba(198,40,40,.5)}
-    .opt.unanswered{background:rgba(249,168,37,.1);border-color:rgba(249,168,37,.5)}
-    .explain{margin-top:10px;padding:10px;border-left:4px solid var(--accent);background:rgba(0,0,0,.25);border-radius:10px}
+    html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);
+      font-family:"Cairo",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue","Noto Sans Arabic","Noto Sans",Arial,sans-serif}
+    a{color:var(--brand)}
+    .container{max-width:980px;margin:0 auto;padding:24px}
+    .hero{background:linear-gradient(135deg,var(--brand) 0%, var(--brand-2) 100%);
+      color:#fff;border-radius:20px;padding:28px;margin-bottom:22px;box-shadow:0 10px 30px rgba(0,0,0,.1)}
+    .hero h1{margin:0 0 6px 0;font-weight:800;letter-spacing:.3px}
+    .hero p{margin:6px 0 0 0;color:#eef}
+    .pill{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);
+      padding:6px 10px;border-radius:999px;font-size:.9rem;margin-right:8px}
+    .intro{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px 18px 6px 18px;margin-bottom:18px}
+    .intro h2{margin:0 0 8px 0}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-top:10px}
+    .tile{background:#fff;border:1px solid var(--border);border-radius:12px;padding:10px}
+    .tile strong{display:block}
+    .btn{appearance:none;border:none;border-radius:12px;padding:12px 16px;font-weight:700;font-size:1.05rem;
+      background:linear-gradient(135deg,#111827 0%, #374151 100%); color:#fff;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.15)}
+    .btn:disabled{opacity:.5;cursor:not-allowed}
+    .controls{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-top:14px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px;margin-bottom:16px}
+    .exam-header{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:8px}
+    .exam-title{font-weight:800;font-size:1.35rem}
+    .badge{background:#eef2ff;color:#3730a3;border:1px solid #e0e7ff;border-radius:999px;padding:4px 10px;font-weight:700}
+    .muted{color:var(--muted)}
+    .q{background:#fff;border:1px solid var(--border);border-radius:14px;padding:14px;margin:12px 0}
+    .q h4{margin:0 0 10px 0;font-weight:800}
+    .q .stem{line-height:1.55}
+    .options{margin-top:10px}
+    .opt{display:flex;gap:8px;align-items:flex-start;border:1px solid var(--border);border-radius:10px;padding:10px;margin:8px 0}
+    .opt input{margin-top:4px}
+    .opt.correct{background:#ecfdf5;border-color:#a7f3d0}
+    .opt.wrong{background:#fef2f2;border-color:#fecaca}
+    .q.unanswered{background:#fffbeb;border-color:#fde68a}
+    .lead-hidden .lead-intro{display:none !important}
+    .lead-intro{font-weight:800}
+    .result{background:#111827;color:#fff;border-radius:16px;padding:18px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+    .stat{display:flex;gap:10px;align-items:center}
+    .dot{width:12px;height:12px;border-radius:50%}
+    .dot.ok{background:var(--ok)} .dot.bad{background:var(--bad)} .dot.warn{background:var(--warn)}
+    .sticky-tools{position:sticky;top:0;z-index:5;background:var(--paper);padding:10px 0}
+    .note{background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;padding:10px;border-radius:10px;margin-bottom:10px}
+    .footer{color:var(--muted);font-size:.9rem;margin-top:24px;text-align:center}
     .hidden{display:none !important}
-
-    /* Footer actions */
-    .footer-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:16px 24px;border-top:1px solid rgba(255,255,255,.08)}
-    .stat{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);padding:8px 12px;border-radius:12px}
-
-    /* Floating circular timer */
-    .timer{position:fixed;top:50%;right:18px;transform:translateY(-50%);z-index:80;width:110px;height:140px;display:none;align-items:center;justify-content:center;flex-direction:column;gap:8px}
-    .timer .bubble{width:92px;height:92px;border-radius:999px;background:radial-gradient(circle at 30% 30%, #1f3a5a, #0b1220);border:2px solid rgba(255,255,255,.18);box-shadow:var(--shadow);display:grid;place-items:center;position:relative}
-    .timer svg{position:absolute;inset:0}
-    .timer .time-text{font-weight:800}
-    .timer .timer-controls{display:flex;gap:6px}
-    .chip{padding:6px 8px;border-radius:10px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);cursor:pointer;font-size:12px}
-
-    /* Modal (custom, not browser confirm) */
-    .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;z-index:100}
-    .modal{width:min(520px,92vw);background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.04));border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:16px 16px 12px 16px;box-shadow:var(--shadow)}
-    .modal h3{margin:6px 0 8px 0}
-    .modal p{margin:0 0 12px 0;color:var(--text-2)}
-    .modal .actions{display:flex;gap:8px;justify-content:flex-end;margin-top:8px}
-    .tag{display:inline-block;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:4px 8px;margin-left:6px}
-
-    /* Filter toolbar (appears after result) */
-    .filterbar{display:none;padding:12px 16px;border-top:1px solid rgba(255,255,255,.08);gap:8px;align-items:center;flex-wrap:wrap}
-    .filterbar .chip.active{outline:2px solid var(--accent)}
   </style>
 </head>
 <body>
-  <div class="container card">
-    <div class="header">
-      <div class="brand">
-        <div class="brand-badge">Viatosis</div>
-        <div>
-          <div style="font-weight:800">Virtual Basic Exam</div>
-          <div class="subtitle" id="today-date"></div>
+  <div class="container">
+    <div class="hero">
+      <div class="pill">Viatosis</div>
+      <div class="pill">Virtual Basic Exam (VBE)</div>
+      <h1>Welcome to the Virtual Basic Exam</h1>
+      <p>مدة الامتحان المقترحة <strong>3 ساعات</strong>. عند الضغط على “Start Exam” سيتم توليد امتحان افتراضي من بنك الأسئلة (200 MCQ) بالتوزيع القياسي.</p>
+    </div>
+
+    <div class="intro card" id="intro">
+      <h2>About VBE</h2>
+      <p class="muted">يتم سحب الأسئلة عشوائياً من الروابط المحددة في <code>basic_data/basic_links.json</code> لكل قسم وبالترتيب أدناه:</p>
+      <div class="grid" id="dist-grid"><!-- filled by JS --></div>
+      <div class="controls">
+        <button id="startBtn" class="btn">Start Exam</button>
+        <label><input type="checkbox" id="toggleLead"> Show bold intros (batch/course lines)</label>
+      </div>
+      <p class="muted" style="margin-top:8px">نتمنى لكم التوفيق والنجاح 🌟</p>
+    </div>
+
+    <div id="examArea" class="hidden">
+      <div class="sticky-tools">
+        <div class="exam-header card">
+          <div class="exam-title">Viatosis — <span>Virtual Basic Exam</span></div>
+          <div class="badge" id="todayBadge">--/--/----</div>
         </div>
+        <div id="shortageNote" class="note hidden"></div>
       </div>
-      <div class="subtitle">VBE – النسخة الافتراضية للـ Basic</div>
-    </div>
 
-    <!-- Intro (RTL only here) -->
-    <div class="intro">
-      <h2>امتحان البيسك الافتراضي (VBE)</h2>
-      <div class="muted">مدة الامتحان المقترحة <b>3 ساعات</b>. عند الضغط على <b>ابدأ الامتحان</b> سيتم توليد امتحان افتراضي من بنك الأسئلة (200 MCQ) بالتوزيع القياسي أدناه.</div>
-      <div class="grid" id="distribution">
-        <!-- يُملأ برمجيًا بناءً على التقسيم الثابت -->
+      <div id="questionsMount"></div>
+
+      <div class="card">
+        <button id="gradeBtn" class="btn">Show Result</button>
       </div>
-      <div class="muted" style="margin-top:10px">نتمنى لكم كل التوفيق والنجاح — فريق <b>Viatosis</b> ❤️</div>
-    </div>
 
-    <!-- Controls (still in RTL layout area) -->
-    <div class="controls">
-      <label class="pill">
-        <span>زمن الامتحان (دقائق):</span>
-        <input id="duration-min" type="number" min="5" max="300" value="180" style="width:90px;direction:ltr;background:transparent;border:1px solid rgba(255,255,255,.2);color:#fff;border-radius:8px;padding:6px 8px;margin-right:8px">
-      </label>
-      <button class="btn" id="start-btn">ابدأ الامتحان</button>
-      <label class="pill">
-        <input id="toggle-source" type="checkbox" checked />
-        <span>إظهار مصدر الأسئلة</span>
-      </label>
-      <label class="pill">
-        <input id="toggle-explain" type="checkbox" />
-        <span>إظهار الشرح (Explanation)</span>
-      </label>
-    </div>
-
-    <div class="divider"></div>
-
-    <!-- Exam (LTR area) -->
-    <div class="exam" id="exam"></div>
-
-    <!-- Filter after results -->
-    <div class="filterbar" id="filterbar" style="display:flex">
-      <span class="muted">فلترة الأسئلة:</span>
-      <button class="chip" data-filter="all">الكل</button>
-      <button class="chip" data-filter="correct">الصحيحة</button>
-      <button class="chip" data-filter="incorrect">الخاطئة</button>
-      <button class="chip" data-filter="unanswered">غير المُجابة</button>
-    </div>
-
-    <!-- Footer actions -->
-    <div class="footer-actions">
-      <button class="btn secondary" id="show-result" disabled>عرض النتيجة</button>
-      <div class="stat" id="score-stat">النتيجة: — / 200</div>
-      <div class="stat" id="detail-stat">صح: — • خطأ: — • غير مُجاب: —</div>
-      <button class="btn warn" id="back-home">العودة للصفحة الرئيسية</button>
-    </div>
-  </div>
-
-  <!-- Floating timer -->
-  <div class="timer" id="timer">
-    <div class="bubble">
-      <svg viewBox="0 0 100 100">
-        <circle cx="50" cy="50" r="45" stroke="rgba(255,255,255,.15)" stroke-width="8" fill="none"></circle>
-        <circle id="timer-circle" cx="50" cy="50" r="45" stroke="url(#grad)" stroke-width="8" fill="none" stroke-linecap="round" stroke-dasharray="282.743" stroke-dashoffset="0" transform="rotate(-90 50 50)"></circle>
-        <defs>
-          <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stop-color="#00bfa5"/><stop offset="100%" stop-color="#1e88e5"/>
-          </linearGradient>
-        </defs>
-      </svg>
-      <div class="time-text" id="time-text">00:00:00</div>
-    </div>
-    <div class="timer-controls">
-      <button class="chip" id="pause-resume">إيقاف</button>
-      <button class="chip" id="reset-timer">إعادة</button>
-    </div>
-  </div>
-
-  <!-- Modal -->
-  <div class="modal-backdrop" id="modal-backdrop" role="dialog" aria-modal="true" aria-hidden="true">
-    <div class="modal" role="document">
-      <h3 id="modal-title">تأكيد</h3>
-      <p id="modal-msg">هل تريد المتابعة؟</p>
-      <div class="actions">
-        <button class="btn secondary" id="modal-cancel">إلغاء</button>
-        <button class="btn" id="modal-ok">تأكيد</button>
+      <div id="resultCard" class="result hidden" aria-live="polite">
+        <div class="stat"><span class="dot ok"></span> <strong id="okCount">0</strong> Correct</div>
+        <div class="stat"><span class="dot bad"></span> <strong id="badCount">0</strong> Wrong</div>
+        <div class="stat"><span class="dot warn"></span> <strong id="naCount">0</strong> Unanswered</div>
+        <div class="stat"><strong id="scoreText">Score: 0 / 200</strong></div>
       </div>
+
+      <div class="footer">© <span id="yearNow"></span> Viatosis — VBE</div>
     </div>
   </div>
 
