@@ -3,6 +3,15 @@ name: "🚀 Deploy Entire Repo to InfinityFree"
 on:
   push:
     branches: [main]
+    # (اختياري) شغّل الرفع فقط عند تعديل ملفات بنك الأسئلة
+    paths:
+      - 'basic_data/**'
+      - 'basic_js/**'
+      - 'data/**'
+      - 'exp_data/**'
+      - 'basic_index.html'
+      - '.htaccess'
+      - '.github/workflows/deploy-questions-bank.yml'
   workflow_dispatch: {}
 
 jobs:
@@ -12,22 +21,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Deploy via SFTP/FTP (force resync once)
+      - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.0
         with:
-          server: ${{ secrets.FTP_HOST }}
+          server: ${{ secrets.FTP_HOST }}          # مثال: ftpupload.net أو اسم الدومين
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          # إذا استضافتك تدعم SFTP حط السطرين هدول:
+          # لو استضافتك تدعم SFTP:
           # protocol: sftp
           # port: 22
-          # ولو FTP فقط، احذف السطرين فوق ودع الافتراضي (21)
+          # لو FTP فقط اترك الافتراضي (port 21)
+
           local-dir: ./
           server-dir: /public_html/questions-bank/
+
           exclude: |
             **/.git*
             **/.github/**
             **/node_modules/**
             **/.DS_Store
+
           log-level: standard
-          dangerous-clean-slate: false   # ← شغّلها الآن مرة واحدة فقط
+          dangerous-clean-slate: true    # لا تشغّلها دائمًا (استعملها مرة واحدة فقط عند الحاجة)
