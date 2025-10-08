@@ -11,206 +11,197 @@
       --brand:#7a5af5; --brand-2:#5b8def; --ink:#1f2937; --muted:#6b7280;
       --paper:#f7f7fb; --card:#ffffff; --border:#e5e7eb;
       --ok:#10b981; --bad:#ef4444; --warn:#f59e0b;
-      --overlay: rgba(15,23,42,.6);
     }
     *{box-sizing:border-box}
-    html,body{
-      margin:0;padding:0;background:var(--paper);color:var(--ink);
-      font-family:"Cairo",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue","Noto Sans Arabic","Noto Sans",Arial,sans-serif
+    html,body{margin:0;padding:0;background:var(--paper);color:var(--ink);
+      font-family:"Cairo",system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue","Noto Sans Arabic","Noto Sans",Arial,sans-serif;
+      scroll-behavior: smooth;
     }
+    body.exam-mode{--scroll-padding: 80px; scroll-padding-top: var(--scroll-padding);}
     a{color:var(--brand)}
     .container{max-width:980px;margin:0 auto;padding:24px}
-    .hero{
-      background:linear-gradient(135deg,var(--brand) 0%, var(--brand-2) 100%);
-      color:#fff;border-radius:20px;padding:28px;margin-bottom:22px;box-shadow:0 10px 30px rgba(0,0,0,.1)
-    }
+    .hero{background:linear-gradient(135deg,var(--brand) 0%, var(--brand-2) 100%);
+      color:#fff;border-radius:20px;padding:28px;margin-bottom:22px;box-shadow:0 10px 30px rgba(0,0,0,.1)}
     .hero h1{margin:0 0 6px 0;font-weight:800;letter-spacing:.3px}
     .hero p{margin:6px 0 0 0;color:#eef}
     .pill{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);
-      padding:6px 10px;border-radius:999px;font-size:.9rem;margin:0 0 8px 8px}
-    .intro{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px 18px 6px 18px;margin-bottom:18px}
-    .intro h2{margin:0 0 8px 0}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-top:10px}
-    .tile{background:#fff;border:1px solid var(--border);border-radius:12px;padding:10px}
-    .tile strong{display:block}
-    .btn{
-      appearance:none;border:none;border-radius:12px;padding:12px 16px;font-weight:700;font-size:1.05rem;
-      background:linear-gradient(135deg,#111827 0%, #374151 100%); color:#fff;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.15)
-    }
+      padding:6px 10px;border-radius:999px;font-size:.9rem;margin-right:8px}
+    
+    .intro-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px;margin-bottom:18px}
+    .intro-card h2{margin:0 0 12px 0;text-align:center;font-size:1.8rem;}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;margin-top:16px}
+    .tile{background:var(--paper);border:1px solid var(--border);border-radius:12px;padding:12px;text-align:center;transition: all .2s ease;}
+    .tile:hover{transform:translateY(-3px); box-shadow: 0 4px 15px rgba(0,0,0,.07);}
+    .tile strong{display:block;font-size:1.1rem;color:var(--brand)}
+    .tile .muted{font-size: .9rem;}
+
+    .btn{appearance:none;border:none;border-radius:12px;padding:12px 24px;font-weight:700;font-size:1.1rem;
+      background:linear-gradient(135deg,#111827 0%, #374151 100%); color:#fff;cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.15); transition: all .2s ease;}
+    .btn:hover:not(:disabled){transform:scale(1.05); box-shadow:0 8px 25px rgba(0,0,0,.2);}
     .btn:disabled{opacity:.5;cursor:not-allowed}
-    .controls{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-top:14px}
-    .controls .field{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--border);border-radius:12px;padding:8px 10px}
-    .controls input[type="number"]{width:88px;border:none;outline:none;font-weight:700}
-    .controls label{font-size:.98rem}
+    .btn.secondary{background:var(--card); color:var(--ink); border: 1px solid var(--border);}
+    
+    .controls{display:flex;gap:14px;flex-wrap:wrap;align-items:center;justify-content:center;margin-top:24px; border-top: 1px solid var(--border); padding-top: 24px;}
+    .switch-container{display:flex;align-items:center;gap:8px;cursor:pointer;user-select:none;}
+    .switch{position:relative;display:inline-block;width:40px;height:22px}
+    .switch input{opacity:0;width:0;height:0}
+    .slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;transition:.4s;border-radius:34px}
+    .slider:before{position:absolute;content:"";height:16px;width:16px;left:3px;bottom:3px;background-color:white;transition:.4s;border-radius:50%}
+    input:checked + .slider{background-color:var(--brand)}
+    input:checked + .slider:before{transform:translateX(18px)}
+
+    .exam-view{direction:ltr;}
     .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px;margin-bottom:16px}
     .exam-header{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:8px}
     .exam-title{font-weight:800;font-size:1.35rem}
-    .header-right{display:flex;align-items:center;gap:10px}
     .badge{background:#eef2ff;color:#3730a3;border:1px solid #e0e7ff;border-radius:999px;padding:4px 10px;font-weight:700}
     .muted{color:var(--muted)}
     .q{background:#fff;border:1px solid var(--border);border-radius:14px;padding:14px;margin:12px 0}
     .q h4{margin:0 0 10px 0;font-weight:800}
     .q .stem{line-height:1.55}
     .options{margin-top:10px}
-    .opt{display:flex;gap:8px;align-items:flex-start;border:1px solid var(--border);border-radius:10px;padding:10px;margin:8px 0}
-    .opt input{margin-top:4px}
-    .opt.correct{background:#ecfdf5;border-color:#a7f3d0}
-    .opt.wrong{background:#fef2f2;border-color:#fecaca}
-    .q.unanswered{background:#fffbeb;border-color:#fde68a}
+    .opt{display:flex;gap:8px;align-items:flex-start;border:1px solid var(--border);border-radius:10px;padding:10px;margin:8px 0; cursor:pointer;}
+    .opt.correct{background:#ecfdf5;border-color:var(--ok); color:#065f46; font-weight: bold;}
+    .opt.wrong{background:#fef2f2;border-color:var(--bad); color:#991b1b; font-weight: bold;}
+    .q.unanswered{background:#fffbeb;border-color:var(--warn)}
+    
     .lead-hidden .lead-intro{display:none !important}
-    .lead-intro{font-weight:800}
-    .result{background:#111827;color:#fff;border-radius:16px;padding:18px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+    .explanation-hidden details{display:none !important}
+    .lead-intro{font-weight:800; color: #881337;}
+    
+    .result-card{background:#111827;color:#fff;border-radius:16px;padding:18px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
     .stat{display:flex;gap:10px;align-items:center}
     .dot{width:12px;height:12px;border-radius:50%}
     .dot.ok{background:var(--ok)} .dot.bad{background:var(--bad)} .dot.warn{background:var(--warn)}
-    .sticky-tools{position:sticky;top:0;z-index:5;background:var(--paper);padding:10px 0}
+    
+    .sticky-tools{position:sticky;top:0;z-index:10;background:var(--paper);padding:10px 0}
     .note{background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;padding:10px;border-radius:10px;margin-bottom:10px}
+    
     .footer{color:var(--muted);font-size:.9rem;margin-top:24px;text-align:center}
     .hidden{display:none !important}
 
-    /* Exam area LTR */
-    #examArea{direction:ltr}
+    /* Timer Styles */
+    .timer-float{position:fixed;top:50%;right:20px;transform:translateY(-50%);z-index:20;background:var(--card);border-radius:50%;width:130px;height:130px;
+      display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 5px 25px rgba(0,0,0,.15);border:2px solid var(--border);}
+    .timer-time{font-size:1.8rem;font-weight:800;color:var(--ink);letter-spacing:1px;}
+    .timer-controls{display:flex;gap:8px;margin-top:8px;}
+    .timer-btn{background:none;border:1px solid var(--border);border-radius:50%;width:28px;height:28px;cursor:pointer;color:var(--muted);
+      display:flex;align-items:center;justify-content:center;padding:0;}
+    
+    /* Modal Styles */
+    .modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6);z-index:100;
+      display:flex;align-items:center;justify-content:center;opacity:0;visibility:hidden;transition:all .3s ease;}
+    .modal-overlay.visible{opacity:1;visibility:visible;}
+    .modal-box{background:var(--card);padding:24px;border-radius:16px;max-width:400px;width:90%;text-align:center;
+      transform:scale(.9);transition:all .3s ease;}
+    .modal-overlay.visible .modal-box{transform:scale(1);}
+    .modal-box h3{margin:0 0 10px 0;}
+    .modal-box p{margin:0 0 20px 0; color:var(--muted);}
+    .modal-actions{display:flex;gap:10px;justify-content:center;}
 
-    /* Inline timer (beside date) */
-    .timer-inline{display:flex;align-items:center;gap:8px}
-    .timer-box{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--border);border-radius:999px;padding:6px 10px}
-    .timer-nums{font-weight:800}
-    canvas.timer-canvas{display:block;width:28px;height:28px}
-
-    /* Filter bar (after grading) */
-    .action-bar{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
-    .filter-bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-    .filter-bar select{
-      background:#fff;border:1px solid var(--border);border-radius:10px;padding:8px 10px;font-weight:700
-    }
-
-    /* Modal (custom confirm) */
-    .modal{position:fixed;inset:0;background:var(--overlay);display:flex;align-items:center;justify-content:center;z-index:60}
-    .modal-card{background:#fff;border-radius:16px;border:1px solid var(--border);padding:18px;max-width:520px;width:92%;direction:rtl}
-    .modal-card h3{margin:0 0 8px 0;font-weight:800}
-    .modal-card p{margin:6px 0;color:var(--muted)}
-    .modal-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:12px}
-    .btn.secondary{background:#fff;color:#111;border:1px solid var(--border)}
+    /* Filter Styles */
+    .filter-controls{background:var(--card); padding:12px; border-radius:12px; display:flex; gap:10px; flex-wrap:wrap; margin: 16px 0; justify-content:center;}
+    .filter-btn{background: var(--paper); color:var(--muted); border:1px solid var(--border); padding: 8px 16px; border-radius: 8px; cursor: pointer; font-weight:600;}
+    .filter-btn.active{background:var(--brand); color:#fff; border-color:var(--brand);}
   </style>
 </head>
 <body>
+
   <div class="container">
-
-    <!-- Hero (RTL) -->
-    <div class="hero" dir="rtl">
-      <div class="pill">Viatosis</div>
-      <div class="pill">Virtual Basic Exam (VBE)</div>
-      <h1>أهلاً بك في الاختبار الافتراضي للـ Basic</h1>
-      <p>مدة الامتحان المقترحة <strong>3 ساعات</strong>. عند الضغط على “Start Exam” سيتم توليد امتحان افتراضي من بنك الأسئلة (200 MCQ) بالتوزيع القياسي.</p>
-    </div>
-
-    <!-- Intro / Controls -->
-    <div class="intro card" id="intro" dir="rtl">
-      <h2>عن VBE</h2>
-      <p class="muted">يتم سحب الأسئلة عشوائياً من الروابط المحددة في <code>basic_data/basic_links.json</code> لكل قسم وبالترتيب الآتي:</p>
-
-      <div class="grid" id="dist-grid"><!-- filled by JS --></div>
-
-      <div class="controls">
-        <div class="field">
-          <label for="durationMin"><strong>مدة الامتحان (بالدقائق):</strong></label>
-          <input id="durationMin" type="number" min="5" max="600" step="5" value="180" />
-        </div>
-        <label class="field" style="gap:6px">
-          <input type="checkbox" id="toggleLead"> <span>إظهار مصدر الأسئلة</span>
-        </label>
-        <label class="field" style="gap:6px">
-          <input type="checkbox" id="toggleExplain"> <span>إظهار الشرح Explanation</span>
-        </label>
-        <button id="startBtn" class="btn">Start Exam</button>
+    <div id="introView">
+      <div class="hero">
+        <div class="pill">Viatosis</div>
+        <div class="pill">Virtual Basic Exam (VBE)</div>
+        <h1>مرحباً بك في الامتحان التجريبي</h1>
+        <p>هذا الامتحان يحاكي امتحان العلوم الأساسية (Basic Sciences). الوقت المقترح هو <strong>3 ساعات</strong>. سيتم توليد 200 سؤال متعدد الخيارات عند البدء.</p>
       </div>
 
-      <p class="muted" style="margin-top:8px">نتمنى لكم التوفيق والنجاح 🌟 — فريق Viatosis</p>
+      <div class="intro-card">
+        <h2>توزيع الأسئلة</h2>
+        <div class="grid" id="distGrid"></div>
+        <div class="controls">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <label for="timeInput" style="font-weight: 600;">حدد وقت الامتحان (بالدقائق):</label>
+            <input type="number" id="timeInput" value="180" min="1" style="width: 80px; padding: 8px; border-radius: 8px; border: 1px solid var(--border);">
+          </div>
+          <button id="startBtn" class="btn">ابدأ الامتحان</button>
+        </div>
+        <p class="muted" style="text-align:center; margin-top:16px;">مع تمنياتنا لكم بالتوفيق والنجاح 🌟<br><strong>- فريق Viatosis -</strong></p>
+      </div>
     </div>
 
-    <!-- Exam Area -->
-    <div id="examArea" class="hidden" dir="ltr">
+    <div id="examView" class="hidden exam-view">
       <div class="sticky-tools">
         <div class="exam-header card">
           <div class="exam-title">Viatosis — <span>Virtual Basic Exam</span></div>
-          <div class="header-right">
-            <div class="badge" id="todayBadge">--/--/----</div>
-            <!-- Timer inline next to date (hidden until start) -->
-            <div id="timerInline" class="timer-inline hidden" dir="ltr" aria-live="polite">
-              <div class="timer-box">
-                <canvas id="timerCanvas" width="56" height="56" class="timer-canvas"></canvas>
-                <div id="timerNums" class="timer-nums">00:00:00</div>
+          <div class="badge" id="todayBadge">--/--/----</div>
+        </div>
+        <div class="card" style="display:flex; justify-content:space-around; flex-wrap:wrap; gap:16px;">
+            <label class="switch-container">
+              <span>إظهار مصدر السؤال</span>
+              <div class="switch">
+                <input type="checkbox" id="toggleLead" checked>
+                <span class="slider"></span>
               </div>
-            </div>
-          </div>
+            </label>
+            <label class="switch-container">
+              <span>إظهار الشرح</span>
+              <div class="switch">
+                  <input type="checkbox" id="toggleExplanation">
+                  <span class="slider"></span>
+              </div>
+            </label>
         </div>
         <div id="shortageNote" class="note hidden"></div>
-
-        <!-- Actions + Filter -->
-        <div class="action-bar">
-          <div class="filter-bar hidden" id="filterBar">
-            <strong>Filter:</strong>
-            <select id="filterSelect">
-              <option value="all">All Questions</option>
-              <option value="correct">Correct</option>
-              <option value="wrong">Wrong</option>
-              <option value="unanswered">Unanswered</option>
-            </select>
-          </div>
-        </div>
       </div>
 
       <div id="questionsMount"></div>
 
-      <!-- Bottom action card with Show Result + Back side-by-side -->
-      <div class="card" style="display:flex;gap:10px;flex-wrap:wrap">
-        <button id="gradeBtn" class="btn">Show Result</button>
-        <button id="backBtn" class="btn secondary" type="button">رجوع</button>
+      <div class="card" style="text-align:center;">
+        <button id="gradeBtn" class="btn">عرض النتيجة</button>
+        <button id="homeBtn" class="btn secondary" style="margin-left:10px;">الصفحة الرئيسية</button>
       </div>
 
-      <div id="resultCard" class="result hidden" aria-live="polite">
-        <div class="stat"><span class="dot ok"></span> <strong id="okCount">0</strong> Correct</div>
-        <div class="stat"><span class="dot bad"></span> <strong id="badCount">0</strong> Wrong</div>
-        <div class="stat"><span class="dot warn"></span> <strong id="naCount">0</strong> Unanswered</div>
-        <div class="stat"><strong id="scoreText">Score: 0 / 200</strong></div>
+      <div id="resultCard" class="result-card hidden" aria-live="polite">
+        <div class="stat"><span class="dot ok"></span> <strong id="okCount">0</strong> صحيح</div>
+        <div class="stat"><span class="dot bad"></span> <strong id="badCount">0</strong> خطأ</div>
+        <div class="stat"><span class="dot warn"></span> <strong id="naCount">0</strong> لم تتم الإجابة</div>
+        <div class="stat"><strong id="scoreText">النتيجة: 0 / 200</strong></div>
       </div>
 
-      <div class="footer">© <span id="yearNow"></span> Viatosis — VBE</div>
+      <div id="filterContainer" class="hidden">
+        <div class="filter-controls">
+          <button class="filter-btn active" data-filter="all">عرض الكل</button>
+          <button class="filter-btn" data-filter="correct">الإجابات الصحيحة</button>
+          <button class="filter-btn" data-filter="wrong">الإجابات الخاطئة</button>
+          <button class="filter-btn" data-filter="unanswered">الأسئلة المتروكة</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      © <span id="yearNow"></span> Viatosis — VBE
     </div>
   </div>
 
-  <!-- Custom Modals -->
-  <div id="modalStart" class="modal hidden" role="dialog" aria-modal="true">
-    <div class="modal-card">
-      <h3>بدء الامتحان</h3>
-      <p>هل أنت مستعد لبدء الامتحان الآن؟ سيتم توليد 200 سؤال بالتقسيم القياسي، وستبدأ الساعة بالعدّ التنازلي.</p>
-      <div class="modal-actions">
-        <button data-close="#modalStart" class="btn secondary" type="button">إلغاء</button>
-        <button id="confirmStart" class="btn" type="button">ابدأ الآن</button>
-      </div>
+  <div id="timer" class="timer-float hidden">
+    <div id="timerTime" class="timer-time">00:00</div>
+    <div class="timer-controls">
+      <button id="timerToggle" class="timer-btn" title="إيقاف مؤقت">❚❚</button>
+      <button id="timerReset" class="timer-btn" title="إعادة ضبط">↻</button>
     </div>
   </div>
-
-  <div id="modalGrade" class="modal hidden" role="dialog" aria-modal="true">
-    <div class="modal-card">
-      <h3>عرض النتيجة</h3>
-      <p>سيتم تصحيح إجاباتك الآن وإظهار الصحيح/الخطأ/غير المُجاب مع التمييز اللوني. هل تريد المتابعة؟</p>
-      <div class="modal-actions">
-        <button data-close="#modalGrade" class="btn secondary" type="button">رجوع</button>
-        <button id="confirmGrade" class="btn" type="button">اعرض النتيجة</button>
+  
+  <div id="modal" class="modal-overlay">
+      <div class="modal-box">
+          <h3 id="modalTitle"></h3>
+          <p id="modalText"></p>
+          <div class="modal-actions">
+              <button id="modalConfirm" class="btn">تأكيد</button>
+              <button id="modalCancel" class="btn secondary">إلغاء</button>
+          </div>
       </div>
-    </div>
-  </div>
-
-  <div id="modalBack" class="modal hidden" role="dialog" aria-modal="true">
-    <div class="modal-card">
-      <h3>تأكيد الرجوع</h3>
-      <p>سيتم الرجوع إلى الصفحة الرئيسية. هل تريد المتابعة؟</p>
-      <div class="modal-actions">
-        <button data-close="#modalBack" class="btn secondary" type="button">إلغاء</button>
-        <button id="confirmBack" class="btn" type="button">رجوع</button>
-      </div>
-    </div>
   </div>
 
   <script src="basic_js/basic_main.js"></script>
