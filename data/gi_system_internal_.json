@@ -1,0 +1,30 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2025-term1-Dr.Ali-alaskry- Question 1</span> A 55-year-old man presents with epigastric pain that is relieved by eating. Endoscopy reveals a duodenal ulcer. Which of the following is the most likely underlying cause?<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1760262786656_IMG_7592.jpeg' alt='Image for Q1' style='max-width:100%; height:auto;' data-filepath='pic/1760262786656_IMG_7592.jpeg'>",
+    "options": [
+      "Increased acid and pepsin secretion",
+      "Decreased gastric mucus secretion",
+      "Helicobacter pylori infection limited to the gastric fundus",
+      "Gastric carcinoma"
+    ],
+    "answer": 0,
+    "answerText": "Increased acid and pepsin secretion",
+    "explanation": "Duodenal ulcers are typically due to increased gastric acid and pepsin secretion, often associated with H. pylori infection in the antrum, leading to increased gastrin release.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q1"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2025-term1-Dr.Ali-alaskry- Question 2</span> A 47-year-old woman presents with chronic diarrhea and flushing of the face. Laboratory studies reveal elevated urinary 5-hydroxyindoleacetic acid (5-HIAA). Which of the following is the most likely diagnosis?",
+    "options": [
+      "Zollinger-Ellison syndrome",
+      "Carcinoid syndrome",
+      "VIPoma",
+      "Celiac disease"
+    ],
+    "answer": 1,
+    "answerText": "Carcinoid syndrome",
+    "explanation": "Carcinoid syndrome results from serotonin-secreting tumors that cause flushing, diarrhea, and elevated urinary 5-HIAA, a serotonin metabolite.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q2"
+  }
+]
