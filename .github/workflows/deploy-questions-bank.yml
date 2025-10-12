@@ -10,26 +10,38 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Deploy via FTPS (Explicit 21) - CLEAN
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.0
+      - name: Deploy via FTPS (Explicit 21) - CLEAN & REDEPLOY
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
-          server: ${{ secrets.FTP_HOST }}           # مثال: ftp.viatosis.ar.nf
+          # إعدادات الاتصال
+          server:   ${{ secrets.FTP_HOST }}        # مثال: ftp.yourdomain.com
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
+          protocol: ftps                            # FTPS Explicit
           port: 21
 
+          # مسارات النشر
           local-dir: ./
-          server-dir: /public_html/questions-bank/   # << لاحظ الشرطة الأخيرة
+          # اجعله "نسبي" لجذر FTP الخاص بك (بدون / في البداية)
+          server-dir: public_html/questions-bank/
+
+          # امسح كل شيء داخل server-dir قبل الرفع
+          dangerous-clean-slate: true
+
+          # لا ترفع ملفات Git أو ملفات لا نحتاجها على الخادم
           exclude: |
             **/.git*
+            **/.git*/**
             **/.github/**
-            **/node_modules/**
             **/.DS_Store
-            .well-known/**
+            **/node_modules/**
+            .well-known/**            # اتركه أو احذفه حسب حاجتك
+            .ftp-deploy-sync-state.json
 
+          # سجل تفصيلي للمساعدة في التشخيص
           log-level: verbose
-          dangerous-clean-slate: true
