@@ -1,0 +1,113 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2004- Dr.hassan- Question 1</span> Which structure passes through the diaphragm at the level of T10 vertebra?A. Aorta",
+    "options": [
+      "Inferior vena cava",
+      "Esophagus",
+      "Thoracic duct"
+    ],
+    "answer": 1,
+    "answerText": "Esophagus",
+    "explanation": "The esophagus passes through the diaphragm at the level of T10 along with the vagus nerves.",
+    "userAnswer": null,
+    "qID": "gi-anat-q1"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2004- Dr.hassan- Question 2</span> Which artery supplies the diaphragm mainly?",
+    "options": [
+      "Intercostal artery",
+      "Phrenic artery",
+      "Bronchial artery",
+      "Coronary artery"
+    ],
+    "answer": 1,
+    "answerText": "Phrenic artery",
+    "explanation": "The diaphragm receives its main blood supply from the phrenic arteries (superior and inferior).",
+    "userAnswer": null,
+    "qID": "gi-anat-q2"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2004- Dr.hassan- Question 3</span> Which of the following structures is located in the mediastinum?",
+    "options": [
+      "Lungs",
+      "Heart",
+      "Ribs",
+      "Pleura"
+    ],
+    "answer": 1,
+    "answerText": "Heart",
+    "explanation": "The mediastinum is the central compartment of the thoracic cavity containing the heart, great vessels, and other midline structures.",
+    "userAnswer": null,
+    "qID": "gi-anat-q3"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2004- Dr.hassan- Question 4</span> Which bone forms the forehead?",
+    "options": [
+      "Parietal bone",
+      "Temporal bone",
+      "Frontal bone",
+      "Occipital bone"
+    ],
+    "answer": 2,
+    "answerText": "Frontal bone",
+    "explanation": "The frontal bone forms the forehead and the superior part of the orbital cavity.",
+    "userAnswer": null,
+    "qID": "gi-anat-q4"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2004- Dr.hassan- Question 5</span> Which of the following muscles is the main muscle of respiration?",
+    "options": [
+      "External oblique",
+      "Pectoralis major",
+      "Diaphragm",
+      "Internal intercostal"
+    ],
+    "answer": 2,
+    "answerText": "Diaphragm",
+    "explanation": "The diaphragm is the primary muscle responsible for normal inspiration.",
+    "userAnswer": null,
+    "qID": "gi-anat-q5"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2004- Dr.hassan- Question 6</span> Which of the following structures passes through the carpal tunnel?",
+    "options": [
+      "Ulnar nerve",
+      "Radial artery",
+      "Median nerve",
+      "Brachial artery"
+    ],
+    "answer": 2,
+    "answerText": "Median nerve",
+    "explanation": "The median nerve passes through the carpal tunnel along with the flexor tendons of the forearm.",
+    "userAnswer": null,
+    "qID": "gi-anat-q6"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2004- Dr.hassan- Question 7</span> Which part of the brain controls balance and coordination?",
+    "options": [
+      "Cerebrum",
+      "Brainstem",
+      "Cerebellum",
+      "Thalamus"
+    ],
+    "answer": 2,
+    "answerText": "Cerebellum",
+    "explanation": "The cerebellum coordinates voluntary movements and maintains balance and posture.",
+    "userAnswer": null,
+    "qID": "gi-anat-q7"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2004- Dr.hassan- Question 8</span> Which cranial nerve is responsible for facial expression?",
+    "options": [
+      "Trigeminal nerve",
+      "Facial nerve",
+      "Glossopharyngeal nerve",
+      "Accessory nerve"
+    ],
+    "answer": 1,
+    "answerText": "Facial nerve",
+    "explanation": "The facial nerve (cranial nerve VII) innervates the muscles of facial expression.",
+    "userAnswer": null,
+    "qID": "gi-anat-q8"
+  }
+]
