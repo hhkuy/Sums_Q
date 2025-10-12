@@ -422,5 +422,15 @@
         "file": "data/🦴rheumatology_system_🦴_🦴🩺_internal_medicine_🩺🦴.json"
       }
     ]
+  },
+  {
+    "topicName": "Hassan",
+    "description": "Momathl",
+    "subTopics": [
+      {
+        "name": "Mo khokh",
+        "file": "data/hassan_mo_khokh.json"
+      }
+    ]
   }
 ]
