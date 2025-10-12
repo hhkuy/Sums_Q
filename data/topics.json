@@ -432,5 +432,15 @@
         "file": "data/hassan_mo_khokh.json"
       }
     ]
+  },
+  {
+    "topicName": "Gi system",
+    "description": "Term 1",
+    "subTopics": [
+      {
+        "name": "Internal ",
+        "file": "data/gi_system_internal_.json"
+      }
+    ]
   }
 ]
