@@ -1,0 +1,224 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2026-mozen- Question 1</span> What is the effect of parasympathetic nervous system activation on airways?",
+    "options": [
+      "Increasing of anatomic dead space",
+      "Bronchodilation",
+      "Bronchoconstriction",
+      "Histamine release and allergic reaction"
+    ],
+    "answer": 2,
+    "answerText": "Bronchoconstriction",
+    "explanation": "Parasympathetic stimulation causes contraction of bronchial smooth muscle leading to bronchoconstriction and decreased airway diameter.",
+    "userAnswer": null,
+    "qID": "hass-mo k-q1"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2026-mozen- Question 2</span> Which of the following occur during normal inspiration?",
+    "options": [
+      "Diaphragm contraction",
+      "Diaphragm relaxation",
+      "Contraction of internal intercostal muscles",
+      "Relaxation of internal intercostal muscles"
+    ],
+    "answer": 0,
+    "answerText": "Diaphragm contraction",
+    "explanation": "During inspiration, the diaphragm contracts and moves downward increasing thoracic volume and allowing air to flow into the lungs.",
+    "userAnswer": null,
+    "qID": "hass-mo k-q2"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2026-mozen- Question 3</span> Which one of the following can’t be directly measured by spirometry?",
+    "options": [
+      "Tidal volume",
+      "Residual Volume",
+      "Inspiratory Reserve Volume",
+      "Expiratory Reserve Volume"
+    ],
+    "answer": 1,
+    "answerText": "Residual Volume",
+    "explanation": "Spirometry cannot measure residual volume because it represents the air remaining in the lungs after maximal exhalation and cannot be exhaled.",
+    "userAnswer": null,
+    "qID": "hass-mo k-q3"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2026-mozen- Question 4</span> Which gas is used for estimating “diffusing capacity of O₂” in the lung?",
+    "options": [
+      "CO",
+      "O₂",
+      "CO₂",
+      "Helium"
+    ],
+    "answer": 0,
+    "answerText": "CO",
+    "explanation": "Carbon monoxide (CO) is used to measure diffusing capacity since it binds strongly to hemoglobin and its uptake reflects the efficiency of gas exchange.",
+    "userAnswer": null,
+    "qID": "hass-mo k-q4"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2026-mozen- Question 5</span> Which one of the following muscles has a role in deep expiration?<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1760261302716_IMG_7634.jpeg' alt='Image for Q5' style='max-width:100%; height:auto;' data-filepath='pic/1760261302716_IMG_7634.jpeg'>",
+    "options": [
+      "Scalene",
+      "Anterior serrati",
+      "Sternocleidomastoid muscles",
+      "The abdominal recti"
+    ],
+    "answer": 3,
+    "answerText": "The abdominal recti",
+    "explanation": "The abdominal recti muscles contract during forced or deep expiration to push the diaphragm upward and expel air from the lungs.",
+    "userAnswer": null,
+    "qID": "hass-mo k-q5"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2026-mozen- Question 6</span> What is the amount of transpulmonary pressure at the beginning of normal inspiration?",
+    "options": [
+      "-7.5 centimeters of water",
+      "+7.5 centimeters of water",
+      "-5 centimeters of water",
+      "+5 centimeters of water"
+    ],
+    "answer": 2,
+    "answerText": "-5 centimeters of water",
+    "explanation": "At the beginning of inspiration, the transpulmonary pressure is about -5 cm H₂O, representing the pressure difference keeping the lungs expanded.",
+    "userAnswer": null,
+    "qID": "hass-mo k-q6"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2026-mozen- Question 7</span> What happens to intrapleural pressure during inspiration?A. It becomes more positive",
+    "options": [
+      "It becomes more negative",
+      "It does not change",
+      "It equals atmospheric pressure"
+    ],
+    "answer": 0,
+    "answerText": "It becomes more negative",
+    "explanation": "During inspiration, the diaphragm contracts and thoracic volume increases, causing intrapleural pressure to become more negative, which helps expand the lungs.",
+    "userAnswer": null,
+    "qID": "hass-mo k-q7"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2026-mozen- Question 8</span> Which of the following statements about surfactant is true?",
+    "options": [
+      "It increases surface tension",
+      "It is secreted by type I alveolar cells",
+      "It prevents alveolar collapse by reducing surface tension",
+      "It is absent in healthy adults"
+    ],
+    "answer": 2,
+    "answerText": "It prevents alveolar collapse by reducing surface tension",
+    "explanation": "Surfactant, produced by type II alveolar cells, reduces surface tension within alveoli and prevents their collapse during expiration.",
+    "userAnswer": null,
+    "qID": "hass-mo k-q8"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2026-mozen- Question 1</span> What is the effect of parasympathetic nervous system activation on airways?",
+    "options": [
+      "Increasing of anatomic dead space",
+      "Bronchodilation",
+      "Bronchoconstriction",
+      "Histamine release and allergic reaction"
+    ],
+    "answer": 2,
+    "answerText": "Bronchoconstriction",
+    "explanation": "Parasympathetic stimulation causes contraction of bronchial smooth muscle leading to bronchoconstriction and decreased airway diameter.",
+    "userAnswer": null,
+    "qID": "hass-mo k-q9"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2026-mozen- Question 2</span> Which of the following occur during normal inspiration?",
+    "options": [
+      "Diaphragm contraction",
+      "Diaphragm relaxation",
+      "Contraction of internal intercostal muscles",
+      "Relaxation of internal intercostal muscles"
+    ],
+    "answer": 0,
+    "answerText": "Diaphragm contraction",
+    "explanation": "During inspiration, the diaphragm contracts and moves downward increasing thoracic volume and allowing air to flow into the lungs.",
+    "userAnswer": null,
+    "qID": "hass-mo k-q10"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2026-mozen- Question 3</span> Which one of the following can’t be directly measured by spirometry?",
+    "options": [
+      "Tidal volume",
+      "Residual Volume",
+      "Inspiratory Reserve Volume",
+      "Expiratory Reserve Volume"
+    ],
+    "answer": 1,
+    "answerText": "Residual Volume",
+    "explanation": "Spirometry cannot measure residual volume because it represents the air remaining in the lungs after maximal exhalation and cannot be exhaled.",
+    "userAnswer": null,
+    "qID": "hass-mo k-q11"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2026-mozen- Question 4</span> Which gas is used for estimating “diffusing capacity of O₂” in the lung?",
+    "options": [
+      "CO",
+      "O₂",
+      "CO₂",
+      "Helium"
+    ],
+    "answer": 0,
+    "answerText": "CO",
+    "explanation": "Carbon monoxide (CO) is used to measure diffusing capacity since it binds strongly to hemoglobin and its uptake reflects the efficiency of gas exchange.",
+    "userAnswer": null,
+    "qID": "hass-mo k-q12"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2026-mozen- Question 5</span> Which one of the following muscles has a role in deep expiration?<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1760261509952_IMG_7634.jpeg' alt='Image for Q5' style='max-width:100%; height:auto;' data-filepath='pic/1760261509952_IMG_7634.jpeg'>",
+    "options": [
+      "Scalene",
+      "Anterior serrati",
+      "Sternocleidomastoid muscles",
+      "The abdominal recti"
+    ],
+    "answer": 3,
+    "answerText": "The abdominal recti",
+    "explanation": "The abdominal recti muscles contract during forced or deep expiration to push the diaphragm upward and expel air from the lungs.",
+    "userAnswer": null,
+    "qID": "hass-mo k-q13"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2026-mozen- Question 6</span> What is the amount of transpulmonary pressure at the beginning of normal inspiration?<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1760261511558_IMG_7631.jpeg' alt='Image for Q6' style='max-width:100%; height:auto;' data-filepath='pic/1760261511558_IMG_7631.jpeg'>",
+    "options": [
+      "-7.5 centimeters of water",
+      "+7.5 centimeters of water",
+      "-5 centimeters of water",
+      "+5 centimeters of water"
+    ],
+    "answer": 2,
+    "answerText": "-5 centimeters of water",
+    "explanation": "At the beginning of inspiration, the transpulmonary pressure is about -5 cm H₂O, representing the pressure difference keeping the lungs expanded.",
+    "userAnswer": null,
+    "qID": "hass-mo k-q14"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2026-mozen- Question 7</span> What happens to intrapleural pressure during inspiration?A. It becomes more positive",
+    "options": [
+      "It becomes more negative",
+      "It does not change",
+      "It equals atmospheric pressure"
+    ],
+    "answer": 0,
+    "answerText": "It becomes more negative",
+    "explanation": "During inspiration, the diaphragm contracts and thoracic volume increases, causing intrapleural pressure to become more negative, which helps expand the lungs.",
+    "userAnswer": null,
+    "qID": "hass-mo k-q15"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>2026-mozen- Question 8</span> Which of the following statements about surfactant is true?<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1760261513692_IMG_7592.jpeg' alt='Image for Q8' style='max-width:100%; height:auto;' data-filepath='pic/1760261513692_IMG_7592.jpeg'>",
+    "options": [
+      "It increases surface tension",
+      "It is secreted by type I alveolar cells",
+      "It prevents alveolar collapse by reducing surface tension",
+      "It is absent in healthy adults"
+    ],
+    "answer": 2,
+    "answerText": "It prevents alveolar collapse by reducing surface tension",
+    "explanation": "Surfactant, produced by type II alveolar cells, reduces surface tension within alveoli and prevents their collapse during expiration.",
+    "userAnswer": null,
+    "qID": "hass-mo k-q16"
+  }
+]
