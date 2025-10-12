@@ -1,48 +1,23 @@
-name: "🚀 Auto Deploy on Push"
+name: "🧹 Clean Deploy"
 
 on:
-  push:
-    branches: [ main ]
-    # تجنّب تشغيل النشر عند تعديل ملفات الوركفلو نفسها
-    paths-ignore:
-      - ".github/workflows/**"
   workflow_dispatch: {}
-
-concurrency:
-  group: ftp-deploy
-  cancel-in-progress: true
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Deploy via FTP (sync changes)
+      - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
-          # استخدم الـ IP الذي نجح معك
           server: 31.22.4.48
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
           port: 21
-
-          # مسارات
-          local-dir: ./
           server-dir: public_html/questions-bank/
-
-          # مهم: اجعلها false ليعمل بـ "مزامنة" (يرفع/يحدّث/يحذف الفرق فقط)
-          dangerous-clean-slate: false
-
-          # استثناءات شائعة من الرفع/الحذف
-          exclude: |
-            **/.git*
-            **/.github/**
-            **/node_modules/**
-            **/.DS_Store
-            .well-known/**
-
+          local-dir: ./
+          dangerous-clean-slate: true
           log-level: verbose
