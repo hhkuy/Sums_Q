@@ -1,50 +1,23 @@
-name: "🧹 Clean Deploy (FTPS-Implicit 990)"
+name: "🧹 Clean Deploy"
 
-on: { workflow_dispatch: {} }
-
-concurrency:
-  group: clean-deploy
-  cancel-in-progress: true
+on:
+  workflow_dispatch: {}
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 
-      # تشخيص سريع قبل النشر
-      - name: Probe ports (21/990/22)
-        run: |
-          set -x
-          H="${{ secrets.FTP_HOST }}"
-          echo "Testing FTPS-Explicit 21"
-          (echo | openssl s_client -connect "$H:21" -starttls ftp -brief) || true
-          echo "Testing FTPS-Implicit 990"
-          (echo | openssl s_client -connect "$H:990" -brief) || true
-          echo "Testing SFTP 22"
-          (echo | openssl s_client -connect "$H:22" -brief) || true
-
-      - name: Deploy via FTPS-Implicit (990) - CLEAN
+      - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
-          server:   ${{ secrets.FTP_HOST }}        # جرّب وضع IP إن لزم
+          server: 31.22.4.48
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps                           # FTPS
-          port: 990                                # Implicit TLS
-
+          protocol: ftp
+          port: 21
+          server-dir: public_html/questions-bank/
           local-dir: ./
-          server-dir: public_html/questions-bank/  # بدون / في البداية
           dangerous-clean-slate: true
-
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/.github/**
-            **/.DS_Store
-            **/node_modules/**
-            .well-known/**
-            .ftp-deploy-sync-state.json
-
           log-level: verbose
