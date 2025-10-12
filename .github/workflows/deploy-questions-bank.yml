@@ -1,47 +1,31 @@
-name: "🧹 Clean Deploy (Manual, FTPS)"
-
-on:
-  workflow_dispatch: {}   # تشغيل يدوي فقط
-
-concurrency:
-  group: clean-deploy
-  cancel-in-progress: true
+name: "🧹 Clean Deploy (Manual, SFTP)"
+on: { workflow_dispatch: {} }
+concurrency: { group: clean-deploy, cancel-in-progress: true }
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Deploy via FTPS (Explicit 21) - CLEAN & REDEPLOY
+      - uses: actions/checkout@v4
+      - name: Deploy via SFTP - CLEAN
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
-          # إعدادات الاتصال
-          server:   ${{ secrets.FTP_HOST }}        # مثال: ftp.yourdomain.com
+          server: ${{ secrets.FTP_HOST }}      # جرّب IP مباشر أيضًا
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps                            # FTPS Explicit
-          port: 21
+          protocol: sftp
+          port: 22
 
-          # مسارات النشر
           local-dir: ./
-          # اجعله "نسبي" لجذر FTP الخاص بك (بدون / في البداية)
           server-dir: public_html/questions-bank/
-
-          # امسح كل شيء داخل server-dir قبل الرفع
           dangerous-clean-slate: true
-
-          # لا ترفع ملفات Git أو ملفات لا نحتاجها على الخادم
           exclude: |
             **/.git*
             **/.git*/**
             **/.github/**
             **/.DS_Store
             **/node_modules/**
-            .well-known/**            # اتركه أو احذفه حسب حاجتك
+            .well-known/**
             .ftp-deploy-sync-state.json
-
-          # سجل تفصيلي للمساعدة في التشخيص
           log-level: verbose
