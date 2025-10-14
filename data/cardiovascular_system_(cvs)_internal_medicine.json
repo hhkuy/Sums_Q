@@ -698,5 +698,706 @@
     "explanation": "The ECG shows a short PR interval and delta wave (slurred upstroke of the QRS), classic features of WPW syndrome caused by an accessory conduction pathway.",
     "userAnswer": null,
     "qID": "card-inte-q50"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 1</span> In which valvular disease does the murmur increase in inspiration?",
+    "options": [
+      "Mitral stenosis",
+      "Pulmonary regurgitation",
+      "Aortic stenosis",
+      "Aortic regurgitation"
+    ],
+    "answer": 1,
+    "answerText": "Pulmonary regurgitation",
+    "explanation": "Right-sided murmurs, such as those of pulmonary regurgitation, typically increase with inspiration due to increased venous return to the right heart.",
+    "userAnswer": null,
+    "qID": "card-inte-q1"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 2</span> Paradoxical pulse is more common in which pericardial disease?",
+    "options": [
+      "Pericarditis",
+      "Myopericarditis",
+      "Constrictive pericarditis",
+      "Tamponade"
+    ],
+    "answer": 3,
+    "answerText": "Tamponade",
+    "explanation": "Cardiac tamponade causes significant restriction of ventricular filling, leading to an exaggerated drop (>10 mmHg) in systolic BP during inspiration known as pulsus paradoxus.",
+    "userAnswer": null,
+    "qID": "card-inte-q2"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 3</span> In chest X-ray of a patient, there is left atrial and ventricular enlargement. These findings are more common in which valvular disease?",
+    "options": [
+      "Mitral stenosis",
+      "Mitral regurgitation",
+      "Aortic stenosis",
+      "Aortic regurgitation"
+    ],
+    "answer": 1,
+    "answerText": "Mitral regurgitation",
+    "explanation": "Chronic mitral regurgitation leads to volume overload, resulting in dilation of both the left atrium and left ventricle.",
+    "userAnswer": null,
+    "qID": "card-inte-q3"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 4</span> Which infectious endocarditis sign is seen in the retina?",
+    "options": [
+      "Purpura",
+      "Roth spot",
+      "Janeway lesion",
+      "Splinter hemorrhage"
+    ],
+    "answer": 1,
+    "answerText": "Roth spot",
+    "explanation": "Roth spots are retinal hemorrhages with pale centers seen in infective endocarditis due to immune complex-mediated vasculitis.",
+    "userAnswer": null,
+    "qID": "card-inte-q4"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 5</span> P wave in electrocardiography with two peaks is usually seen in the presence of which valvular disease?",
+    "options": [
+      "Aortic stenosis",
+      "Aortic regurgitation",
+      "Mitral stenosis",
+      "Tricuspid regurgitation"
+    ],
+    "answer": 2,
+    "answerText": "Mitral stenosis",
+    "explanation": "Mitral stenosis causes left atrial enlargement, producing a bifid (“M-shaped”) P wave known as P mitrale.",
+    "userAnswer": null,
+    "qID": "card-inte-q5"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 6</span> Palpable thrill is more commonly reported in which valvular disease?",
+    "options": [
+      "Mitral stenosis",
+      "Mitral regurgitation",
+      "Aortic stenosis",
+      "Aortic regurgitation"
+    ],
+    "answer": 2,
+    "answerText": "Aortic stenosis",
+    "explanation": "Aortic stenosis often produces a palpable systolic thrill due to high-velocity turbulent flow across the narrowed aortic valve.",
+    "userAnswer": null,
+    "qID": "card-inte-q6"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 7</span> Continuous murmur is heard in which congenital disease?",
+    "options": [
+      "Atrial septal defect",
+      "Ventricular septal defect",
+      "Patent ductus arteriosus",
+      "Coarctation of the aorta"
+    ],
+    "answer": 2,
+    "answerText": "Patent ductus arteriosus",
+    "explanation": "Patent ductus arteriosus produces a continuous “machinery” murmur due to persistent blood flow from the aorta to the pulmonary artery throughout the cardiac cycle.",
+    "userAnswer": null,
+    "qID": "card-inte-q7"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 8</span> In the presence of severe aortic regurgitation, which finding is related to increased left ventricular filling pressure?",
+    "options": [
+      "S3",
+      "Austin Flint murmur",
+      "Bisferiens pulse",
+      "Corrigan Sign"
+    ],
+    "answer": 0,
+    "answerText": "S3",
+    "explanation": "Severe aortic regurgitation leads to volume overload and rapid ventricular filling, often producing a third heart sound (S3).",
+    "userAnswer": null,
+    "qID": "card-inte-q8"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 9</span> Which property helps exclude severe aortic stenosis?",
+    "options": [
+      "Loud murmur",
+      "Presence of S2 splitting (A2-P2)",
+      "Parvus and tardus impulse",
+      "Cessation of the murmur before A2"
+    ],
+    "answer": 1,
+    "answerText": "Presence of S2 splitting (A2-P2)",
+    "explanation": "In severe aortic stenosis, A2 is often soft or absent and splitting is diminished; presence of normal S2 splitting suggests less severe disease.",
+    "userAnswer": null,
+    "qID": "card-inte-q9"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 10</span> Fixed splitting of S2 is more common in which congenital heart disease?",
+    "options": [
+      "Atrial septal defect",
+      "Ventricular septal defect",
+      "Patent ductus arteriosus",
+      "Coarctation of the aorta"
+    ],
+    "answer": 0,
+    "answerText": "Atrial septal defect",
+    "explanation": "In atrial septal defect, increased right heart volume delays pulmonary valve closure, causing fixed splitting of S2 regardless of respiration.",
+    "userAnswer": null,
+    "qID": "card-inte-q10"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 11</span> With the increase in mitral stenosis severity, which time interval in auscultation is decreased?",
+    "options": [
+      "S1 to S2",
+      "S2 to S1",
+      "OS to S1",
+      "OS to S2"
+    ],
+    "answer": 2,
+    "answerText": "OS to S1",
+    "explanation": "In severe mitral stenosis, the opening snap (OS) occurs earlier after S2 due to higher left atrial pressure, thus shortening the OS-to-S1 interval.",
+    "userAnswer": null,
+    "qID": "card-inte-q11"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 12</span> Systolic anterior motion of the mitral leaflet is more common in which cardiomyopathy?",
+    "options": [
+      "Dilated",
+      "Restrictive",
+      "Hypertrophic",
+      "Alcoholic"
+    ],
+    "answer": 2,
+    "answerText": "Hypertrophic",
+    "explanation": "Hypertrophic obstructive cardiomyopathy causes systolic anterior motion (SAM) of the mitral leaflet, leading to LVOT obstruction and possible mitral regurgitation.",
+    "userAnswer": null,
+    "qID": "card-inte-q12"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 13</span> Holosystolic murmur with radiation to the left axilla is heard in which valvular disease?",
+    "options": [
+      "Pulmonary stenosis",
+      "Aortic stenosis",
+      "Tricuspid regurgitation",
+      "Mitral regurgitation"
+    ],
+    "answer": 3,
+    "answerText": "Mitral regurgitation",
+    "explanation": "Mitral regurgitation produces a holosystolic murmur at the apex that radiates to the left axilla due to backward flow into the left atrium during systole. ",
+    "userAnswer": null,
+    "qID": "card-inte-q13"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 14</span> A 34-year-old woman with a history of WPW syndrome and palpitations has been referred to the emergency department. Vital signs BP=80/60 HR=200 RR=28. Which of the following treatments would you recommend?<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1760450654572_IMG_1659.jpeg' alt='Image for Q14' style='max-width:100%; height:auto;' data-filepath='pic/1760450654572_IMG_1659.jpeg'>",
+    "options": [
+      "Digoxin",
+      "Verapamil",
+      "Adenosine",
+      "DC cardioversion"
+    ],
+    "answer": 3,
+    "answerText": "DC cardioversion",
+    "explanation": "In an unstable patient with WPW presenting with tachyarrhythmia and hypotension, immediate synchronized DC cardioversion is the treatment of choice to restore sinus rhythm.",
+    "userAnswer": null,
+    "qID": "card-inte-q14"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 15</span> A 55-year-old male is evaluated during a follow-up visit for 3 syncopal episodes experienced in the past 2 years. The 1st episode occurred 20 months ago at rest. The 2nd episode occurred 6 months ago while he was walking. The patient describes an “uneasy” sensation preceding the events, but reports no dyspnea, chest discomfort, palpitations, or loss of bowel or bladder control. An ECG Holter monitoring worn for 7 days (repeated two times) did not reveal arrhythmia. He is employed as a school bus driver. He takes no meds. On exam, BP 120/60, pulse rate is 60/min and regular. The remainder of the exam is normal. Baseline ECG is normal. Which of the following is the most appropriate testing option?",
+    "options": [
+      "Continuous ambulatory ECG monitor",
+      "Implantable loop recorder",
+      "Coronary angiography",
+      "No further testing"
+    ],
+    "answer": 1,
+    "answerText": "Implantable loop recorder",
+    "explanation": "Infrequent unexplained syncope with negative Holter monitoring warrants long-term rhythm monitoring with an implantable loop recorder for better arrhythmia detection.",
+    "userAnswer": null,
+    "qID": "card-inte-q15"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 16</span> A 34-year-old woman experiences syncope with following ECG, what is the best diagnosis for this patient?<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1760450657514_IMG_1667.jpeg' alt='Image for Q16' style='max-width:100%; height:auto;' data-filepath='pic/1760450657514_IMG_1667.jpeg'>",
+    "options": [
+      "Brugada syndrome (BrS)",
+      "Arrhythmogenic right ventricular cardiomyopathy (ARVC)",
+      "Long QT Syndrome (LQTS)",
+      "Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)"
+    ],
+    "answer": 2,
+    "answerText": "Long QT Syndrome (LQTS)",
+    "explanation": "The ECG shows prolonged QT interval, characteristic of Long QT Syndrome, a condition predisposing to torsades de pointes and syncope.",
+    "userAnswer": null,
+    "qID": "card-inte-q16"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 17</span> A 43-year-old man presents to the emergency department complaining of palpitations. The ECG shows Narrow QRS Tachycardia with BP=110/60. Which of the following is the best initial treatment?<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1760450660002_IMG_1668.jpeg' alt='Image for Q17' style='max-width:100%; height:auto;' data-filepath='pic/1760450660002_IMG_1668.jpeg'>",
+    "options": [
+      "Carotid Sinus Massage",
+      "Verapamil",
+      "Adenosine",
+      "DC cardioversion"
+    ],
+    "answer": 0,
+    "answerText": "Carotid Sinus Massage",
+    "explanation": "In a stable patient with narrow complex supraventricular tachycardia, initial treatment is vagal maneuvers like carotid sinus massage to increase vagal tone and slow AV nodal conduction.",
+    "userAnswer": null,
+    "qID": "card-inte-q17"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 18</span> Which is the best diagnosis for the conduction disorder on the following ECG?<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1760450662303_IMG_1669.jpeg' alt='Image for Q18' style='max-width:100%; height:auto;' data-filepath='pic/1760450662303_IMG_1669.jpeg'>",
+    "options": [
+      "Right Bundle Branch Block (RBBB)",
+      "Left Bundle Branch Block (LBBB)",
+      "Left Anterior Fascicular Block (LAFB)",
+      "Left Posterior Fascicular Block (LPFB)"
+    ],
+    "answer": 0,
+    "answerText": "Right Bundle Branch Block (RBBB)",
+    "explanation": "The ECG demonstrates a widened QRS with RSR’ pattern in V1 and wide S wave in V6, characteristic of right bundle branch block.",
+    "userAnswer": null,
+    "qID": "card-inte-q18"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 19</span> What is the most common cause of sudden death in young athletes?",
+    "options": [
+      "Acute Myocardial Infarction (AMI)",
+      "Pulmonary Embolism (PE)",
+      "Hypertrophic Cardiomyopathy (HCM)",
+      "Acute Aortic Syndrome (AAS)"
+    ],
+    "answer": 2,
+    "answerText": "Hypertrophic Cardiomyopathy (HCM)",
+    "explanation": "Hypertrophic cardiomyopathy is the leading cause of sudden cardiac death in young athletes due to ventricular arrhythmias triggered by exertion.",
+    "userAnswer": null,
+    "qID": "card-inte-q19"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 20</span> A patient with which of the following conduction disorders requires a permanent pacemaker?",
+    "options": [
+      "First degree AV block + RBBB",
+      "First degree AV block + LBBB",
+      "2nd degree AV block (Mobitz type I)",
+      "2nd degree AV block (Mobitz type II)"
+    ],
+    "answer": 3,
+    "answerText": "2nd degree AV block (Mobitz type II)",
+    "explanation": "Mobitz type II second-degree AV block carries a high risk of progression to complete heart block and mandates permanent pacemaker implantation. ",
+    "userAnswer": null,
+    "qID": "card-inte-q20"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 21</span> For Adults, you should call for help/activate EMS",
+    "options": [
+      "Before providing CPR",
+      "After providing CPR",
+      "After an AED has been administered",
+      "After an AED has been provided"
+    ],
+    "answer": 0,
+    "answerText": "Before providing CPR",
+    "explanation": "In adults, activating emergency medical services (EMS) immediately is crucial before starting CPR to ensure rapid advanced care and defibrillation if needed.",
+    "userAnswer": null,
+    "qID": "card-inte-q21"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 22</span> Which is the best diagnosis for the abnormal findings on the following ECG?<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1760450664524_IMG_1670.jpeg' alt='Image for Q22' style='max-width:100%; height:auto;' data-filepath='pic/1760450664524_IMG_1670.jpeg'>",
+    "options": [
+      "Brugada syndrome (BrS)",
+      "Wolff-Parkinson-White Syndrome (WPW)",
+      "Long QT Syndrome (LQTS)",
+      "Short QT syndrome (SQTS)"
+    ],
+    "answer": 1,
+    "answerText": "Wolff-Parkinson-White Syndrome (WPW)",
+    "explanation": "The ECG shows a short PR interval and delta wave characteristic of Wolff-Parkinson-White syndrome due to an accessory conduction pathway.",
+    "userAnswer": null,
+    "qID": "card-inte-q22"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 23</span> A 55-year-old woman with a history of palpitations has been referred to the emergency department. Vital signs BP=80/55 RR=25 and the following ECG, which of the following treatments would you recommend?<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1760450667317_IMG_1671.jpeg' alt='Image for Q23' style='max-width:100%; height:auto;' data-filepath='pic/1760450667317_IMG_1671.jpeg'>",
+    "options": [
+      "Digoxin",
+      "Verapamil",
+      "Amiodarone",
+      "DC cardioversion"
+    ],
+    "answer": 3,
+    "answerText": "DC cardioversion",
+    "explanation": "In an unstable patient with ventricular tachycardia and hypotension, immediate synchronized DC cardioversion is indicated to restore normal rhythm.",
+    "userAnswer": null,
+    "qID": "card-inte-q23"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 24</span> Adrenergic stimulation in Cardiac Pacemaker Electrical Activity causes which one of the following,",
+    "options": [
+      "More stable resting state",
+      "Slower climb to threshold",
+      "Requiring excess stim to fire",
+      "Quick pacemaker pace"
+    ],
+    "answer": 3,
+    "answerText": "Quick pacemaker pace",
+    "explanation": "Adrenergic stimulation increases the slope of phase 4 depolarization, leading to a faster rate of spontaneous pacemaker firing and increased heart rate.",
+    "userAnswer": null,
+    "qID": "card-inte-q24"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 25</span> Which of the following presentations is not found in infective endocarditis?",
+    "options": [
+      "Splinter hemorrhage",
+      "Clubbing",
+      "Janeway lesion",
+      "Osler node"
+    ],
+    "answer": 1,
+    "answerText": "Clubbing",
+    "explanation": "Clubbing is typically seen in chronic diseases, not in acute infective endocarditis. Classic signs include Osler nodes, Janeway lesions, Roth spots, and splinter hemorrhages.",
+    "userAnswer": null,
+    "qID": "card-inte-q25"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 26</span> Which statements defines V wave in jugular vein pressure the best?<br><img src='https://raw.githubusercontent.com/hhkuy/Sums_Q_Pic/main/pic/1760450669388_IMG_1672.jpeg' alt='Image for Q26' style='max-width:100%; height:auto;' data-filepath='pic/1760450669388_IMG_1672.jpeg'>",
+    "options": [
+      "Atrial systole",
+      "Closure of tricuspid valve",
+      "Peak pressure in right atrium immediately prior to opening of tricuspid valve",
+      "Opening of tricuspid valve"
+    ],
+    "answer": 2,
+    "answerText": "Peak pressure in right atrium immediately prior to opening of tricuspid valve",
+    "explanation": "The V wave represents venous filling against a closed tricuspid valve, peaking just before it opens.",
+    "userAnswer": null,
+    "qID": "card-inte-q26"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 27</span> Opening snap is heard in which valvular disorder?",
+    "options": [
+      "Mitral stenosis",
+      "Mitral regurgitation",
+      "Aortic stenosis",
+      "Aortic regurgitation"
+    ],
+    "answer": 0,
+    "answerText": "Mitral stenosis",
+    "explanation": "Mitral stenosis causes an opening snap after S2 due to sudden tensing of the stenotic mitral valve leaflets during diastole.",
+    "userAnswer": null,
+    "qID": "card-inte-q27"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 28</span> A 64 hypertensive female is presented to ED because of acute and sharp chest pain radiating to back. Her right arm BP is measured 160/75 and left arm BP is measured 135/65. On physical exam you notice pulse deficit and CXR shows widening of mediastinum. Which one is the most likely diagnosis?",
+    "options": [
+      "Cardiac tamponade",
+      "Massive Pulmonary emboli",
+      "Tension pneumothorax",
+      "Aortic dissection"
+    ],
+    "answer": 3,
+    "answerText": "Aortic dissection",
+    "explanation": "Sudden tearing chest pain radiating to the back, blood pressure difference between arms, pulse deficit, and mediastinal widening are classic signs of aortic dissection. ",
+    "userAnswer": null,
+    "qID": "card-inte-q28"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 29</span> Which pharmacologic agent is used in stress echocardiography?",
+    "options": [
+      "Dobutamine",
+      "Dipyridamole",
+      "Adenosine",
+      "Regadenosine"
+    ],
+    "answer": 0,
+    "answerText": "Dobutamine",
+    "explanation": "Dobutamine is a β1-adrenergic agonist that increases heart rate and myocardial contractility, simulating exercise during stress echocardiography.",
+    "userAnswer": null,
+    "qID": "card-inte-q29"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 30</span> Which one is the most common cause of heart failure in the United States?",
+    "options": [
+      "Hypertension",
+      "Ischemia",
+      "Infections",
+      "Arrhythmias"
+    ],
+    "answer": 1,
+    "answerText": "Ischemia",
+    "explanation": "Ischemic heart disease due to coronary artery atherosclerosis is the leading cause of heart failure in developed countries.",
+    "userAnswer": null,
+    "qID": "card-inte-q30"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 31</span> An 82-year-old male is presented to ED because of dyspnea and weakness. His past medical history includes DM, prior MI and heart failure. His vital sign is mentioned to be BP=85/40, HR=135 bpm, O₂ saturation=79% in room air and he is afebrile. He is unconscious and not responsive and his skin is cold and mottled. Fine rale is heard in lung auscultation. Which heart failure category describes this patient the best?",
+    "options": [
+      "Warm and dry",
+      "Warm and wet",
+      "Cold and dry",
+      "Cold and wet"
+    ],
+    "answer": 3,
+    "answerText": "Cold and wet",
+    "explanation": "“Cold and wet” describes patients with low cardiac output (cold, mottled skin) and pulmonary congestion (wet rales).",
+    "userAnswer": null,
+    "qID": "card-inte-q31"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 32</span> Which statement describes the hemodynamic changes in pregnancy, the best?",
+    "options": [
+      "Increased cardiac output, decreased plasma volume, increased heart rate",
+      "Increased cardiac output, increased plasma volume, increased heart rate",
+      "Increased cardiac output, increased stroke volume, decreased heart rate",
+      "Increased cardiac output, decreased stroke volume, increased heart rate"
+    ],
+    "answer": 1,
+    "answerText": "Increased cardiac output, increased plasma volume, increased heart rate",
+    "explanation": "Pregnancy leads to increased plasma volume, cardiac output, and heart rate to support fetal perfusion.",
+    "userAnswer": null,
+    "qID": "card-inte-q32"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 33</span> A young male is presented to Emergency Department with headache, blurred vision and palpitation. On physical exam, an elevated BP (BP=240/140 mmHg) is detected and on his lab tests, serum potassium level is reported as low (serum K=3.1 mEq/L). Which of the following disorders is the most probable cause of HTN?",
+    "options": [
+      "Parenchymal disorder of kidney",
+      "Renal artery stenosis",
+      "Primary hypertension",
+      "Primary hyperaldosteronism"
+    ],
+    "answer": 3,
+    "answerText": "Primary hyperaldosteronism",
+    "explanation": "Severe hypertension with hypokalemia suggests primary hyperaldosteronism (Conn’s syndrome).",
+    "userAnswer": null,
+    "qID": "card-inte-q33"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 34</span> A young lady with previous history of cardiac disease is presented to you for preconception counseling. Which of the following tests is not recommended in the first visit?",
+    "options": [
+      "Electrocardiogram",
+      "Echocardiography",
+      "Right heart catheterization",
+      "Exercise testing"
+    ],
+    "answer": 2,
+    "answerText": "Right heart catheterization",
+    "explanation": "Invasive procedures like right heart catheterization are not recommended routinely in preconception counseling.",
+    "userAnswer": null,
+    "qID": "card-inte-q34"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 35</span> Which statement defines masked hypertension the best?",
+    "options": [
+      "Elevated BP levels in office visits, but normal BP levels in 24h ambulatory BP monitoring",
+      "Elevated BP levels in 24h ambulatory BP monitoring, but normal BP when measured in office",
+      "Elevated BP levels in office visits without the evidence of target organ damage",
+      "Elevated BP levels in office visits with the evidence of target organ damage"
+    ],
+    "answer": 1,
+    "answerText": "Elevated BP levels in 24h ambulatory BP monitoring, but normal BP when measured in office",
+    "explanation": "Masked hypertension occurs when BP is normal in the clinic but elevated on ambulatory monitoring.",
+    "userAnswer": null,
+    "qID": "card-inte-q35"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 36</span> Which one is the most common cause of secondary hypertension?",
+    "options": [
+      "Renovascular disease",
+      "Pheochromocytoma",
+      "Primary hyperaldosteronism",
+      "Renal parenchymal disease"
+    ],
+    "answer": 3,
+    "answerText": "Renal parenchymal disease",
+    "explanation": "Chronic kidney disease is the most common cause of secondary hypertension.",
+    "userAnswer": null,
+    "qID": "card-inte-q36"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 37</span> Which of the following organ systems is not a target for elevated BP damages?",
+    "options": [
+      "Brain",
+      "Kidney",
+      "Liver",
+      "Heart"
+    ],
+    "answer": 2,
+    "answerText": "Liver",
+    "explanation": "Chronic hypertension primarily damages the brain, kidneys, heart, and vasculature — not the liver.",
+    "userAnswer": null,
+    "qID": "card-inte-q37"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 38</span> A 65-year-old male reports retrosternal “tightness” lasting 2–3 minutes during brisk walking, relieved by rest. His ECG at rest is normal. What type of angina does this describe?",
+    "options": [
+      "Unstable angina",
+      "Prinzmetal angina",
+      "Stable angina",
+      "Microvascular angina"
+    ],
+    "answer": 2,
+    "answerText": "Stable angina",
+    "explanation": "Predictable exertional chest pain relieved by rest is classic for stable angina due to fixed atherosclerotic narrowing.",
+    "userAnswer": null,
+    "qID": "card-inte-q38"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 39</span> A patient experiences chest pressure radiating to the jaw, with nausea and diaphoresis. Symptoms last 45 minutes and are unrelieved by nitroglycerin. This presentation is most indicative of:",
+    "options": [
+      "Stable angina",
+      "Unstable angina/NSTEMI",
+      "Pericarditis",
+      "Esophageal reflux"
+    ],
+    "answer": 1,
+    "answerText": "Unstable angina/NSTEMI",
+    "explanation": "Prolonged chest pain (>20 min) not relieved by nitroglycerin suggests unstable angina or NSTEMI.",
+    "userAnswer": null,
+    "qID": "card-inte-q39"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 40</span> A 70-year-old with atypical chest pain has a normal ECG and troponin. CT angiography shows no obstructive CAD. What is the most important implication?",
+    "options": [
+      "High risk for imminent MI",
+      "Need for urgent invasive angiography",
+      "High negative predictive value for coronary events",
+      "Diagnosis of microvascular angina"
+    ],
+    "answer": 2,
+    "answerText": "High negative predictive value for coronary events",
+    "explanation": "A negative CT coronary angiogram has a high negative predictive value, effectively ruling out significant coronary artery disease.",
+    "userAnswer": null,
+    "qID": "card-inte-q40"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 41</span> A diabetic with multivessel CAD and LVEF 40% has refractory angina despite medical therapy. Which revascularization is associated with survival benefit?",
+    "options": [
+      "PCI with drug-eluting stents",
+      "CABG",
+      "Balloon angioplasty",
+      "Rotational atherectomy"
+    ],
+    "answer": 1,
+    "answerText": "CABG",
+    "explanation": "CABG improves survival in patients with multivessel CAD and reduced LVEF, especially diabetics.",
+    "userAnswer": null,
+    "qID": "card-inte-q41"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 42</span> A 68-year-old diabetic presents with sudden profound weakness and nausea but no chest pain. ECG shows ST elevation in leads II, III, and aVF. What is the BEST initial action?",
+    "options": [
+      "Administer sublingual nitroglycerin",
+      "Order a stress echocardiogram",
+      "Initiate immediate reperfusion therapy",
+      "Treat for gastritis and observe"
+    ],
+    "answer": 2,
+    "answerText": "Initiate immediate reperfusion therapy",
+    "explanation": "STEMI requires immediate reperfusion therapy (PCI or thrombolysis) to restore coronary perfusion and minimize myocardial damage.",
+    "userAnswer": null,
+    "qID": "card-inte-q42"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 43</span> A STEMI patient received thrombolytics 3 hours ago. Chest pain persists, and ST elevation remains unresolved. Which intervention is NOW indicated?",
+    "options": [
+      "Repeat thrombolytic dose",
+      "Rescue PCI",
+      "Intravenous morphine",
+      "Elective angiography next week"
+    ],
+    "answer": 1,
+    "answerText": "Rescue PCI",
+    "explanation": "Rescue PCI is indicated when thrombolysis fails (persistent ST elevation and chest pain).",
+    "userAnswer": null,
+    "qID": "card-inte-q43"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 44</span> A 68-year-old smoker presents with calf pain after walking 200 meters, relieved by rest. Physical exam shows diminished dorsalis pedis pulse and hair loss on the lower legs. What is the most likely diagnosis?",
+    "options": [
+      "Lumbar spinal stenosis",
+      "Femoropopliteal PAD",
+      "Aortoiliac occlusion (Leriche syndrome)",
+      "Venous insufficiency"
+    ],
+    "answer": 1,
+    "answerText": "Femoropopliteal PAD",
+    "explanation": "Claudication relieved by rest with diminished peripheral pulses is typical of peripheral artery disease (PAD).",
+    "userAnswer": null,
+    "qID": "card-inte-q44"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 45</span> A 72-year-old smoker has a 4.8-cm asymptomatic abdominal aortic aneurysm (AAA) on ultrasound. What is the next step?",
+    "options": [
+      "Emergency surgery",
+      "Monitor with imaging every 6–12 months",
+      "Start β-blockers",
+      "Thrombolytic therapy"
+    ],
+    "answer": 1,
+    "answerText": "Monitor with imaging every 6–12 months",
+    "explanation": "Asymptomatic AAA <5.5 cm should be monitored with periodic imaging.",
+    "userAnswer": null,
+    "qID": "card-inte-q45"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 46</span> A patient presents sudden tearing back pain, unequal radial pulses, and diastolic murmur. CT shows an intimal flap in the ascending aorta. What is the urgent management?",
+    "options": [
+      "Medical BP control",
+      "Emergency surgical repair",
+      "Thrombolysis",
+      "EVAR"
+    ],
+    "answer": 1,
+    "answerText": "Emergency surgical repair",
+    "explanation": "Type A aortic dissection (ascending aorta) requires emergency surgical repair.",
+    "userAnswer": null,
+    "qID": "card-inte-q46"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 47</span> A 40-year-old male smoker has recurrent finger ulcers, migratory thrombophlebitis, and normal inflammatory markers. What is the diagnosis?",
+    "options": [
+      "Giant-cell arteritis",
+      "Buerger’s disease",
+      "Raynaud’s phenomenon",
+      "Takayasu’s arteritis"
+    ],
+    "answer": 1,
+    "answerText": "Buerger’s disease",
+    "explanation": "Buerger’s disease (thromboangiitis obliterans) is associated with smoking, distal ischemia, and superficial thrombophlebitis.",
+    "userAnswer": null,
+    "qID": "card-inte-q47"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 48</span> A patient with unprovoked proximal DVT completes 3 months of anticoagulation. What is recommended for recurrence prevention?",
+    "options": [
+      "Stop anticoagulation",
+      "Continue anticoagulation indefinitely",
+      "Switch to aspirin",
+      "IVC filter placement"
+    ],
+    "answer": 1,
+    "answerText": "Continue anticoagulation indefinitely",
+    "explanation": "Extended anticoagulation is recommended for unprovoked proximal DVT to reduce recurrence risk.",
+    "userAnswer": null,
+    "qID": "card-inte-q48"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 49</span> A patient with pulmonary embolism (PE) has SBP 88 mmHg, troponin elevation, and RV dysfunction. What is the immediate treatment?",
+    "options": [
+      "DOAC monotherapy",
+      "Thrombolytic therapy",
+      "Heparin alone",
+      "Surgical embolectomy"
+    ],
+    "answer": 1,
+    "answerText": "Thrombolytic therapy",
+    "explanation": "Massive PE with hemodynamic instability requires immediate systemic thrombolysis.",
+    "userAnswer": null,
+    "qID": "card-inte-q49"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025 ) - Question 50</span> A patient with suspected pulmonary embolism (PE) has a negative age-adjusted D-dimer (patient age 70, cutoff 700 μg/L). What is the next step?",
+    "options": [
+      "CT angiography",
+      "No further testing for PE",
+      "V/Q scan",
+      "Lower extremity ultrasound"
+    ],
+    "answer": 1,
+    "answerText": "No further testing for PE",
+    "explanation": "A negative age-adjusted D-dimer in a low to intermediate-risk patient effectively rules out PE, and no further testing is needed.",
+    "userAnswer": null,
+    "qID": "card-inte-q50"
   }
-]
+  ]
+
