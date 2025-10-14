@@ -698,5 +698,173 @@
     "explanation": "Hassall’s corpuscles are characteristic structures of the thymic medulla and consist of concentric epithelial reticular cells.",
     "userAnswer": null,
     "qID": "card-hist-q50"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 1</span> Which muscle is covered by clavipectoral fascia?",
+    "options": [
+      "Serratus anterior",
+      "External intercostal",
+      "Pectoralis major",
+      "Pectoralis minor"
+    ],
+    "answer": 3,
+    "answerText": "Pectoralis minor",
+    "explanation": "The clavipectoral fascia lies deep to the pectoralis major and covers the pectoralis minor and subclavius muscles.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q51"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 2</span> Inferior vena cava passes through diaphragm at the level of which vertebra?",
+    "options": [
+      "T8",
+      "T10",
+      "T12",
+      "L1"
+    ],
+    "answer": 0,
+    "answerText": "T8",
+    "explanation": "The inferior vena cava passes through the diaphragm at the level of the T8 vertebra via the caval opening.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q52"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 3</span> Which one is at the level of sternal angle?",
+    "options": [
+      "Bifurcation of brachiocephalic trunk",
+      "Arch of right subclavian nerve",
+      "Bifurcation of trachea",
+      "Bifurcation of left common carotid artery"
+    ],
+    "answer": 2,
+    "answerText": "Bifurcation of trachea",
+    "explanation": "The sternal angle (angle of Louis) marks the level of the tracheal bifurcation (T4–T5 intervertebral disc).  ",
+    "userAnswer": null,
+    "qID": "card-hist-q53"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 4</span> Lateral part of the breast is supplied by …",
+    "options": [
+      "Lateral thoracic artery",
+      "Internal thoracic artery",
+      "Medial pectoral artery",
+      "Anterior perforating arteries"
+    ],
+    "answer": 0,
+    "answerText": "Lateral thoracic artery",
+    "explanation": "The lateral thoracic artery, a branch of the axillary artery, supplies the lateral part of the breast.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q54"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 5</span> How many papillary muscles are there in the right ventricle?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1,
+    "answerText": "3",
+    "explanation": "The right ventricle contains three papillary muscles—anterior, posterior, and septal—which attach to chordae tendineae of the tricuspid valve.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q55"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 6</span> Which one is located in the superior part of the crista terminalis?",
+    "options": [
+      "Septomarginal trabecula",
+      "Coronary sinus",
+      "Sinoatrial node",
+      "Atrioventricular node"
+    ],
+    "answer": 2,
+    "answerText": "Sinoatrial node",
+    "explanation": "The sinoatrial (SA) node, the natural pacemaker of the heart, is located at the superior end of the crista terminalis in the right atrium.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q56"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 7</span> Where is the location of the Moderator band?",
+    "options": [
+      "Right ventricle",
+      "Right atrium",
+      "Left ventricle",
+      "Left atrium"
+    ],
+    "answer": 0,
+    "answerText": "Right ventricle",
+    "explanation": "The moderator band (septomarginal trabecula) is found in the right ventricle and carries part of the right bundle branch to the anterior papillary muscle.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q57"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 8</span> Where is the location of the apex of the heart in surface of the thorax?",
+    "options": [
+      "Right 5th intercostal space",
+      "Left 5th intercostal space",
+      "Right 4th intercostal space",
+      "Left 4th intercostal space"
+    ],
+    "answer": 1,
+    "answerText": "Left 5th intercostal space",
+    "explanation": "The apex of the heart lies in the left 5th intercostal space at the midclavicular line, formed by the tip of the left ventricle.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q58"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 9</span> Which one is in the anterior mediastinum?",
+    "options": [
+      "Esophagus",
+      "Trachea",
+      "Thoracic duct",
+      "Thymus"
+    ],
+    "answer": 3,
+    "answerText": "Thymus",
+    "explanation": "The thymus lies in the anterior mediastinum, especially prominent in children, and regresses after puberty.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q59"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 10</span> Which one is located in the superior and posterior mediastinum?",
+    "options": [
+      "Trachea",
+      "Azygos vein",
+      "Esophagus",
+      "Phrenic nerve"
+    ],
+    "answer": 2,
+    "answerText": "Esophagus",
+    "explanation": "The esophagus passes through both the superior and posterior mediastinum as it descends to the diaphragm.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q60"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 11</span> Oblique pericardial sinus is located between … and …",
+    "options": [
+      "Esophagus – left atrium",
+      "Esophagus – right atrium",
+      "Vertebral column – left atrium",
+      "Vertebral column – right atrium"
+    ],
+    "answer": 0,
+    "answerText": "Esophagus – left atrium",
+    "explanation": "The oblique pericardial sinus is a cul-de-sac between the esophagus and the posterior surface of the left atrium.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q61"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 12</span> Which structure does turn around the arch of aorta and ascend between trachea and esophagus?",
+    "options": [
+      "Right phrenic nerve",
+      "Left phrenic nerve",
+      "Right vagus nerve",
+      "Left vagus nerve"
+    ],
+    "answer": 3,
+    "answerText": "Left vagus nerve",
+    "explanation": "The left recurrent laryngeal nerve, a branch of the left vagus nerve, loops under the arch of aorta and ascends between the trachea and esophagus.",
+    "userAnswer": null,
+    "qID": "card-hist-q62"
   }
 ]
