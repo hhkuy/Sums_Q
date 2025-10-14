@@ -572,5 +572,131 @@
     "explanation": "Hassall’s corpuscles are distinctive structures found in the medulla of the thymus and are composed of epithelial reticular cells.",
     "userAnswer": null,
     "qID": "card-hist-q41"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 1</span> The following embryonic structures are involved in the formation of the foramen ovale EXCEPT:",
+    "options": [
+      "Ostium primum",
+      "Ostium secundum",
+      "Septum primum",
+      "Septum secundum"
+    ],
+    "answer": 0,
+    "answerText": "Ostium primum",
+    "explanation": "The foramen ovale is formed by the septum primum and septum secundum; the ostium primum closes earlier in development and does not contribute to its formation.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q42"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 2</span> Which of the following is a part of Tetralogy of Fallot?",
+    "options": [
+      "Ventricular septal defect",
+      "Aortic stenosis",
+      "Hypertrophy of the wall of the left ventricle",
+      "Atrial septal defect"
+    ],
+    "answer": 0,
+    "answerText": "Ventricular septal defect",
+    "explanation": "Tetralogy of Fallot includes four defects — pulmonary stenosis, ventricular septal defect, overriding aorta, and right ventricular hypertrophy.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q43"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 3</span> Aortic arch IV forms the ............ on the left side of the embryo and the ............ on the left.",
+    "options": [
+      "Subclavian artery - Pulmonary artery",
+      "Arch of aorta - Subclavian artery",
+      "Subclavian artery - Arch of aorta",
+      "Arch of aorta - Ductus arteriosus"
+    ],
+    "answer": 1,
+    "answerText": "Arch of aorta - Subclavian artery",
+    "explanation": "The left fourth aortic arch forms the arch of the aorta, while the right fourth aortic arch forms part of the right subclavian artery.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q44"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 4</span> The SVC and portal veins are derived from which of the following?",
+    "options": [
+      "Vitelline veins - Umbilical veins",
+      "Anterior cardinal veins - Posterior cardinal veins",
+      "Anterior cardinal veins - Vitelline veins",
+      "Umbilical veins - Vitelline veins"
+    ],
+    "answer": 2,
+    "answerText": "Anterior cardinal veins - Vitelline veins",
+    "explanation": "The superior vena cava develops from the anterior cardinal veins, while the portal vein develops from the vitelline veins.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q45"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 5</span> What is the primary site at which white blood cells adhere to endothelium and leave the circulation?",
+    "options": [
+      "Arterioles",
+      "Lymphatics",
+      "Postcapillary venules",
+      "Capillaries"
+    ],
+    "answer": 2,
+    "answerText": "Postcapillary venules",
+    "explanation": "Postcapillary venules are the main site of leukocyte adhesion and migration into tissues during inflammation due to their thin walls and slow blood flow.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q46"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 6</span> A vein has ............ lumen and its ............ is the thickest layer.",
+    "options": [
+      "Smaller - adventitia",
+      "Larger - adventitia",
+      "Larger - media",
+      "Smaller - media"
+    ],
+    "answer": 1,
+    "answerText": "Larger - adventitia",
+    "explanation": "Veins have a larger lumen and a thicker tunica adventitia compared to arteries, allowing them to accommodate more blood volume.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q47"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 7</span> Which one is the main organ involved in filtration of blood and lymph respectively?",
+    "options": [
+      "Lymph node - spleen",
+      "Spleen - lymph node",
+      "MALT - lymph node",
+      "Thymus - spleen"
+    ],
+    "answer": 1,
+    "answerText": "Spleen - lymph node",
+    "explanation": "The spleen filters blood, while lymph nodes filter lymph, removing pathogens and debris.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q48"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 8</span> Which region of lymph node contains lymphoid follicles?",
+    "options": [
+      "All parts",
+      "Paracortex",
+      "Medulla",
+      "Cortex"
+    ],
+    "answer": 3,
+    "answerText": "Cortex",
+    "explanation": "The cortex of lymph nodes contains lymphoid follicles rich in B lymphocytes responsible for antibody production.  ",
+    "userAnswer": null,
+    "qID": "card-hist-q49"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 9</span> Hassall corpuscles are unique to the ............ of the ............",
+    "options": [
+      "White pulp - spleen",
+      "Medulla - lymph node",
+      "Cortex - thymus",
+      "Medulla - thymus"
+    ],
+    "answer": 3,
+    "answerText": "Medulla - thymus",
+    "explanation": "Hassall’s corpuscles are characteristic structures of the thymic medulla and consist of concentric epithelial reticular cells.",
+    "userAnswer": null,
+    "qID": "card-hist-q50"
   }
 ]
