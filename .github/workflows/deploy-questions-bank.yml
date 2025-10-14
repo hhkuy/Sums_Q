@@ -1,11 +1,16 @@
-name: "🧹 Clean Deploy"
+name: "🧹 Clean Deploy (FTP)"
 
 on:
   workflow_dispatch: {}
 
+concurrency:
+  group: deploy-prod
+  cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -19,5 +24,9 @@ jobs:
           port: 21
           server-dir: public_html/questions-bank/
           local-dir: ./
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
           dangerous-clean-slate: true
           log-level: verbose
