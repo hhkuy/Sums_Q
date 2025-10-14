@@ -1846,5 +1846,145 @@
     "explanation": "Blood velocity is lowest in the capillaries due to their large cross-sectional area, allowing for efficient exchange of gases and nutrients.",
     "userAnswer": null,
     "qID": "card-phys-q132"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.imani- Question 1</span> When does the aortic valve close?",
+    "options": [
+      "Left ventricular pressure becomes more than aorta pressure",
+      "Aorta pressure becomes higher than left ventricular pressure",
+      "At the rapid ejection phase of the systole",
+      "At the slow ejection phase of the systole"
+    ],
+    "answer": 1,
+    "answerText": "Aorta pressure becomes higher than left ventricular pressure",
+    "explanation": "The aortic valve closes when the aortic pressure exceeds left ventricular pressure, marking the end of systole and the beginning of diastole.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q133"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.imani- Question 2</span> Which ion currents leads to the depolarization phase of the action potential in atrial muscle cells?",
+    "options": [
+      "Ca²⁺ efflux",
+      "Ca²⁺ influx",
+      "Na⁺ efflux",
+      "Na⁺ influx"
+    ],
+    "answer": 3,
+    "answerText": "Na⁺ influx",
+    "explanation": "The depolarization phase in atrial muscle cells is primarily due to the rapid influx of sodium ions through voltage-gated sodium channels.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q134"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.imani- Question 3</span> What is the effect of sympathetic beta receptor stimulation in the heart?",
+    "options": [
+      "A decrease in heart rate",
+      "An increase in prepotential Steep",
+      "Hyperpolarization",
+      "An increase in K⁺ efflux"
+    ],
+    "answer": 1,
+    "answerText": "An increase in prepotential Steep",
+    "explanation": "Sympathetic beta receptor stimulation increases the slope of the pacemaker potential, leading to an increase in heart rate and cardiac output.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q135"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.imani- Question 4</span> What is the axis of lead aVR in a normal heart strip?",
+    "options": [
+      "210°",
+      "120°",
+      "60°",
+      "-30°"
+    ],
+    "answer": 0,
+    "answerText": "210°",
+    "explanation": "The normal electrical axis of lead aVR is around -150° to -210°, typically represented as 210°, showing a negative deflection in the normal ECG.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q136"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.imani- Question 5</span> What is the ST segment on an electrocardiogram?",
+    "options": [
+      "From the beginning of the QRS to the beginning of the T wave",
+      "From the end of the QRS complex to the end of the T wave",
+      "From the end of the QRS complex to the beginning of the T wave",
+      "From the beginning of the QRS to the end of the T wave"
+    ],
+    "answer": 2,
+    "answerText": "From the end of the QRS complex to the beginning of the T wave",
+    "explanation": "The ST segment extends from the end of the QRS complex to the beginning of the T wave and represents the period when ventricles are fully depolarized.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q137"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.imani- Question 6</span> In which phase of the systole, the largest amount of blood expels into the aorta?",
+    "options": [
+      "Isovolumic contraction",
+      "Rapid ejection",
+      "Slow ejection",
+      "It is the same in all phases"
+    ],
+    "answer": 1,
+    "answerText": "Rapid ejection",
+    "explanation": "The majority of ventricular blood ejection occurs during the rapid ejection phase, immediately after the opening of the aortic valve.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q138"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.imani- Question 7</span> What is the preload in the ventricle?",
+    "options": [
+      "End diastolic volume",
+      "End systolic volume",
+      "Aorta and pulmonary arterial pressures",
+      "Maximum ventricular contractile force during systol"
+    ],
+    "answer": 0,
+    "answerText": "End diastolic volume",
+    "explanation": "Preload refers to the end-diastolic volume, which stretches the ventricular myocardium before contraction, influencing stroke volume.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q139"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.imani- Question 8</span> Choose the correct sequence of action potential conduction along the conductive tissues of the heart?",
+    "options": [
+      "SA node → AV node → Bundle of His → Purkinje fibers → Bundle branches",
+      "SA node → AV node → Bundle branches → Bundle of His → Purkinje fibers",
+      "SA node → AV node → Bundle of His → Bundle branches → Purkinje fibers",
+      "SA node → AV node → Purkinje fibers → Bundle of His → Bundle branches"
+    ],
+    "answer": 2,
+    "answerText": "SA node → AV node → Bundle of His → Bundle branches → Purkinje fibers",
+    "explanation": "The normal conduction pathway is from the SA node to the AV node, then through the Bundle of His, bundle branches, and Purkinje fibers for ventricular depolarization.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q140"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.imani- Question 9</span> In cardiac muscle cells, approximately what percentage of cytoplasmic Ca²⁺ required for contraction is released from the sarcoplasmic reticulum and the extracellular fluid, respectively?",
+    "options": [
+      "30%-70%",
+      "70%-30%",
+      "40%-60%",
+      "60%-40%"
+    ],
+    "answer": 1,
+    "answerText": "70%-30%",
+    "explanation": "About 70% of the Ca²⁺ needed for contraction comes from the sarcoplasmic reticulum and 30% from extracellular influx through L-type calcium channels.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q141"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.imani- Question 10</span> What is the function of the chordae tendineae?",
+    "options": [
+      "Transport blood",
+      "Initiate depolarization",
+      "Prevent valve bulging toward the atria during ventricular contraction",
+      "Control heart rhythm"
+    ],
+    "answer": 2,
+    "answerText": "Prevent valve bulging toward the atria during ventricular contraction",
+    "explanation": "The chordae tendineae anchor the AV valve leaflets to the papillary muscles, preventing prolapse of the valves into the atria during systole.",
+    "userAnswer": null,
+    "qID": "card-phys-q142"
   }
 ]
