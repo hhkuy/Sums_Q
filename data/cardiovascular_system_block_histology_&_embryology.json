@@ -11,7 +11,7 @@
     "answerText": "Lymphatic capillaries – blood capillaries",
     "explanation": "Lymphatic capillaries are thin-walled, closed-ended tubules, and blood capillaries are the sites of exchange between blood and tissues.",
     "userAnswer": null,
-    "qID": "card-hist-q1"
+    "qID": "card-anat-q1"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 2</span> Where is the conducting system of the heart located in?",
@@ -25,7 +25,7 @@
     "answerText": "Subendocardial layer and myocardium",
     "explanation": "The conducting system of the heart is located in the subendocardial layer and myocardium.",
     "userAnswer": null,
-    "qID": "card-hist-q2"
+    "qID": "card-anat-q2"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 3</span> Where are vasa vasorum and nerves located in the wall of vessels, respectively?",
@@ -39,7 +39,7 @@
     "answerText": "Adventitia and media – adventitia",
     "explanation": "Vasa vasorum is located in the adventitia, while nerves are found in both the adventitia and media.",
     "userAnswer": null,
-    "qID": "card-hist-q3"
+    "qID": "card-anat-q3"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 4</span> The … are the primary site at which white blood cells leave the circulation.",
@@ -53,7 +53,7 @@
     "answerText": "Postcapillary venules",
     "explanation": "Postcapillary venules are the primary site where white blood cells leave the circulation.",
     "userAnswer": null,
-    "qID": "card-hist-q4"
+    "qID": "card-anat-q4"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 5</span> Fenestrated capillaries are found in which organs?",
@@ -67,7 +67,7 @@
     "answerText": "Choroid plexus, kidneys, intestine",
     "explanation": "Fenestrated capillaries are found in the choroid plexus, kidneys, and intestine.",
     "userAnswer": null,
-    "qID": "card-hist-q5"
+    "qID": "card-anat-q5"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 6</span> The carotid sinus, having thinner …, monitors …, and the carotid bodies monitor ….",
@@ -81,7 +81,7 @@
     "answerText": "Media – blood pressure – blood CO2, O2, and pH",
     "explanation": "The carotid sinus has a thinner media and monitors blood pressure, while carotid bodies monitor blood CO2, O2, and pH.",
     "userAnswer": null,
-    "qID": "card-hist-q6"
+    "qID": "card-anat-q6"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 7</span> An artery has a … lumen and its … is the thickest layer.",
@@ -95,7 +95,7 @@
     "answerText": "Regular – media",
     "explanation": "Arteries have a regular lumen, and their thickest layer is the media.",
     "userAnswer": null,
-    "qID": "card-hist-q7"
+    "qID": "card-anat-q7"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 8</span> Which lymphoid organ does not contain lymphoid follicles?",
@@ -109,7 +109,7 @@
     "answerText": "Thymus",
     "explanation": "The thymus does not contain lymphoid follicles.",
     "userAnswer": null,
-    "qID": "card-hist-q8"
+    "qID": "card-anat-q8"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 9</span> Which organ contains stave cells and Hassall’s corpuscles, respectively?",
@@ -123,7 +123,7 @@
     "answerText": "Spleen – thymus",
     "explanation": "Stave cells are found in the spleen, while Hassall’s corpuscles are found in the thymus.",
     "userAnswer": null,
-    "qID": "card-hist-q9"
+    "qID": "card-anat-q9"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 10</span> The red pulp of the spleen consists of …, while the white pulp consists of ….",
@@ -137,7 +137,7 @@
     "answerText": "Splenic cords – periarteriolar lymphoid sheaths (PALS)",
     "explanation": "The red pulp consists of splenic cords, while the white pulp consists of periarteriolar lymphoid sheaths (PALS).",
     "userAnswer": null,
-    "qID": "card-hist-q10"
+    "qID": "card-anat-q10"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 11</span> What is the main organ involved in filtration of lymph and blood, respectively?",
@@ -151,7 +151,7 @@
     "answerText": "Lymph node – spleen",
     "explanation": "The lymph node filters lymph, while the spleen filters blood.",
     "userAnswer": null,
-    "qID": "card-hist-q11"
+    "qID": "card-anat-q11"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 12</span> Which sinuses converge as the efferent lymphatic vessel of a lymph node?",
@@ -165,7 +165,7 @@
     "answerText": "Medullary sinuses",
     "explanation": "Medullary sinuses converge to form the efferent lymphatic vessel of a lymph node.",
     "userAnswer": null,
-    "qID": "card-hist-q12"
+    "qID": "card-anat-q12"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 13</span> The … is not surrounded by a tight layer of TECs, and mature T lymphocytes exit the thymus by passing through the walls of ….",
@@ -179,7 +179,7 @@
     "answerText": "Medulla – venules and efferent lymphatics",
     "explanation": "The medulla is not surrounded by a tight layer of TECs, and mature T lymphocytes exit through venules and efferent lymphatics.",
     "userAnswer": null,
-    "qID": "card-hist-q13"
+    "qID": "card-anat-q13"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 14</span> Which organ has afferent and efferent lymphatics?",
@@ -193,7 +193,7 @@
     "answerText": "Lymph node",
     "explanation": "The lymph node is the only organ with both afferent and efferent lymphatics.",
     "userAnswer": null,
-    "qID": "card-hist-q14"
+    "qID": "card-anat-q14"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 15</span> Lymphoid nodules consist largely of developing … and occupy much of the … of the lymph node.",
@@ -207,7 +207,7 @@
     "answerText": "B lymphocytes – cortex",
     "explanation": "Lymphoid nodules consist mainly of B lymphocytes and occupy much of the cortex.",
     "userAnswer": null,
-    "qID": "card-hist-q15"
+    "qID": "card-anat-q15"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 16</span> The … are known as MALT.",
@@ -221,7 +221,7 @@
     "answerText": "Tonsils, Peyer patches, appendix",
     "explanation": "MALT refers to mucosa-associated lymphoid tissue, including tonsils, Peyer patches, and appendix.",
     "userAnswer": null,
-    "qID": "card-hist-q16"
+    "qID": "card-anat-q16"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 17</span> Which of the following is TRUE in normal fetal circulation?",
@@ -235,7 +235,7 @@
     "answerText": "Blood from the placenta bypasses the sinusoidal plexus of the liver in the ductus venosus",
     "explanation": "In fetal circulation, blood from the placenta bypasses the liver via the ductus venosus.",
     "userAnswer": null,
-    "qID": "card-hist-q17"
+    "qID": "card-anat-q17"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 18</span> What is the most common heart defect?",
@@ -249,7 +249,7 @@
     "answerText": "Ventricular septal defect",
     "explanation": "Ventricular septal defect is the most common congenital heart defect.",
     "userAnswer": null,
-    "qID": "card-hist-q18"
+    "qID": "card-anat-q18"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 19</span> Which of the following is NOT part of Tetralogy of Fallot?",
@@ -263,7 +263,7 @@
     "answerText": "Patent foramen ovale",
     "explanation": "The four components of Tetralogy of Fallot are pulmonary stenosis, right ventricular hypertrophy, ventricular septal defect, and overriding aorta. Patent foramen ovale is not part of it.",
     "userAnswer": null,
-    "qID": "card-hist-q19"
+    "qID": "card-anat-q19"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 20</span> The proximal part of the aorta and coronary sinus are derived from which of the following, respectively?",
@@ -277,7 +277,7 @@
     "answerText": "Truncus arteriosus – left sinus horn",
     "explanation": "The proximal part of the aorta is derived from the truncus arteriosus, and the coronary sinus is derived from the left sinus horn.",
     "userAnswer": null,
-    "qID": "card-hist-q20"
+    "qID": "card-anat-q20"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 21</span> The left ventricle of the heart is formed primarily from which embryonic structure?",
@@ -291,7 +291,7 @@
     "answerText": "Primitive ventricle",
     "explanation": "The left ventricle develops mainly from the primitive ventricle during embryonic development.",
     "userAnswer": null,
-    "qID": "card-hist-q21"
+    "qID": "card-anat-q21"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 22</span> The foramen ovale forms in which structure?",
@@ -305,7 +305,7 @@
     "answerText": "Septum secundum",
     "explanation": "The foramen ovale forms in the septum secundum to allow blood flow between the right and left atria during fetal life.",
     "userAnswer": null,
-    "qID": "card-hist-q22"
+    "qID": "card-anat-q22"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 23</span> Transposition of the great arteries is a cardiac malformation that involves which of the following septa?",
@@ -319,7 +319,7 @@
     "answerText": "Conotruncal septum",
     "explanation": "Transposition of the great arteries results from abnormal development of the conotruncal septum.",
     "userAnswer": null,
-    "qID": "card-hist-q23"
+    "qID": "card-anat-q23"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 24</span> A change in pressure between … at birth holds the septum primum closed against the septum secundum, and the … becomes permanently sealed.",
@@ -333,7 +333,7 @@
     "answerText": "Atria – foramen ovale",
     "explanation": "At birth, increased left atrial pressure closes the septum primum against the septum secundum, sealing the foramen ovale.",
     "userAnswer": null,
-    "qID": "card-hist-q24"
+    "qID": "card-anat-q24"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 25</span> The following embryonic structures are involved in the formation of the foramen ovale EXCEPT:",
@@ -347,7 +347,7 @@
     "answerText": "Ostium primum",
     "explanation": "Ostium primum is part of the atrial septum formation but not specifically involved in the formation of the foramen ovale.",
     "userAnswer": null,
-    "qID": "card-hist-q25"
+    "qID": "card-anat-q25"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 26</span> The … is the development of new blood vessels from … .",
@@ -361,7 +361,7 @@
     "answerText": "Vasculogenesis – angioblasts",
     "explanation": "Vasculogenesis is the development of blood vessels from angioblasts during embryogenesis.",
     "userAnswer": null,
-    "qID": "card-hist-q26"
+    "qID": "card-anat-q26"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 27</span> Which aortic arch artery forms part of the aorta and maxillary artery, respectively?",
@@ -375,7 +375,7 @@
     "answerText": "Aortic arch IV – aortic arch I",
     "explanation": "Aortic arch IV contributes to part of the aorta, while aortic arch I forms the maxillary artery.",
     "userAnswer": null,
-    "qID": "card-hist-q27"
+    "qID": "card-anat-q27"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 28</span> Two weeks after birth, a cyanotic baby is found to be tachycardic and has a wide pulse pressure. What is the most likely diagnosis?",
@@ -389,7 +389,7 @@
     "answerText": "Patent ductus arteriosus",
     "explanation": "A patent ductus arteriosus can cause cyanosis, tachycardia, and wide pulse pressure due to abnormal blood flow between the aorta and pulmonary artery.",
     "userAnswer": null,
-    "qID": "card-hist-q28"
+    "qID": "card-anat-q28"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 29</span> Which of the following embryonic blood vessels contains purely oxygenated blood?",
@@ -403,7 +403,7 @@
     "answerText": "Umbilical vein",
     "explanation": "The umbilical vein carries oxygenated blood from the placenta to the fetus.",
     "userAnswer": null,
-    "qID": "card-hist-q29"
+    "qID": "card-anat-q29"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 30</span> The ductus venosus shunted blood from the … to the … during fetal life, bypassing the ….",
@@ -417,7 +417,7 @@
     "answerText": "Umbilical vein – inferior vena cava – liver",
     "explanation": "The ductus venosus shunts oxygenated blood from the umbilical vein to the inferior vena cava, bypassing the liver.",
     "userAnswer": null,
-    "qID": "card-hist-q30"
+    "qID": "card-anat-q30"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 31</span> The embryonic aortic arches give origin to all of the following postnatal structures EXCEPT:",
@@ -431,7 +431,7 @@
     "answerText": "Ascending aorta",
     "explanation": "The ascending aorta is derived from the truncus arteriosus, not the aortic arches.",
     "userAnswer": null,
-    "qID": "card-hist-q31"
+    "qID": "card-anat-q31"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2024-06-22) - Dr. Golshan - Question 32</span> What is the portal vein derived from?",
@@ -445,7 +445,7 @@
     "answerText": "Vitelline vein",
     "explanation": "The portal vein is derived from the vitelline vein during embryonic development.",
     "userAnswer": null,
-    "qID": "card-hist-q32"
+    "qID": "card-anat-q32"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-Dr.Gholshen- Question 1</span> The following embryonic structures are involved in the formation of the foramen ovale EXCEPT:",
@@ -459,7 +459,7 @@
     "answerText": "Ostium primum",
     "explanation": "The foramen ovale forms from the septum primum and septum secundum, allowing blood to bypass the fetal lungs; the ostium primum is involved in atrial septum formation but not directly in the foramen ovale.  ",
     "userAnswer": null,
-    "qID": "card-hist-q33"
+    "qID": "card-anat-q33"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-Dr.Gholshen- Question 2</span> Which of the following is NOT part of Tetralogy of Fallot?",
@@ -473,7 +473,7 @@
     "answerText": "Atrial septal defect",
     "explanation": "Tetralogy of Fallot consists of pulmonary stenosis, ventricular septal defect, overriding aorta, and right ventricular hypertrophy; atrial septal defect is not included.  ",
     "userAnswer": null,
-    "qID": "card-hist-q34"
+    "qID": "card-anat-q34"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-Dr.Gholshen- Question 3</span> Aortic arch IV forms the ............ on the right side of the embryo and the ............ on the left.",
@@ -487,7 +487,7 @@
     "answerText": "Subclavian artery - Arch of aorta",
     "explanation": "The right fourth aortic arch forms the right subclavian artery, while the left fourth arch contributes to the arch of the aorta.  ",
     "userAnswer": null,
-    "qID": "card-hist-q35"
+    "qID": "card-anat-q35"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-Dr.Gholshen- Question 4</span> The SVC and portal veins are derived from which of the following?",
@@ -501,7 +501,7 @@
     "answerText": "Anterior cardinal veins - Vitelline veins",
     "explanation": "The superior vena cava develops from the anterior cardinal veins, while the portal vein originates from the vitelline veins.  ",
     "userAnswer": null,
-    "qID": "card-hist-q36"
+    "qID": "card-anat-q36"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-Dr.Gholshen- Question 5</span> What is the primary site at which white blood cells adhere to endothelium and leave the circulation?",
@@ -515,7 +515,7 @@
     "answerText": "Postcapillary venules",
     "explanation": "Leukocyte adhesion and transmigration occur mainly in postcapillary venules due to their thin walls and slow blood flow.  ",
     "userAnswer": null,
-    "qID": "card-hist-q37"
+    "qID": "card-anat-q37"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-Dr.Gholshen- Question 6</span> An artery has ............ lumen and its ............ is the thickest layer.",
@@ -529,7 +529,7 @@
     "answerText": "Smaller – media",
     "explanation": "Arteries have smaller lumens than veins and possess a thick tunica media, composed of smooth muscle and elastic tissue, for maintaining blood pressure.  ",
     "userAnswer": null,
-    "qID": "card-hist-q38"
+    "qID": "card-anat-q38"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-Dr.Gholshen- Question 7</span> Which one is the main organ involved in filtration of lymph and blood respectively?",
@@ -543,7 +543,7 @@
     "answerText": "Lymph node – spleen",
     "explanation": "Lymph nodes filter lymph, while the spleen filters blood, removing old red cells and pathogens.  ",
     "userAnswer": null,
-    "qID": "card-hist-q39"
+    "qID": "card-anat-q39"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-Dr.Gholshen- Question 8</span> Which region of lymph node contains lymphoid tissue rich in T cells?",
@@ -557,7 +557,7 @@
     "answerText": "Paracortex",
     "explanation": "The paracortex of a lymph node is rich in T lymphocytes and serves as the main site for T-cell activation.  ",
     "userAnswer": null,
-    "qID": "card-hist-q40"
+    "qID": "card-anat-q40"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-Dr.Gholshen- Question 9</span> Hassall corpuscles are unique to the ............ of the ............",
@@ -571,7 +571,7 @@
     "answerText": "Medulla – thymus",
     "explanation": "Hassall’s corpuscles are distinctive structures found in the medulla of the thymus and are composed of epithelial reticular cells.",
     "userAnswer": null,
-    "qID": "card-hist-q41"
+    "qID": "card-anat-q41"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 1</span> The following embryonic structures are involved in the formation of the foramen ovale EXCEPT:",
@@ -585,7 +585,7 @@
     "answerText": "Ostium primum",
     "explanation": "The foramen ovale is formed by the septum primum and septum secundum; the ostium primum closes earlier in development and does not contribute to its formation.  ",
     "userAnswer": null,
-    "qID": "card-hist-q42"
+    "qID": "card-anat-q42"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 2</span> Which of the following is a part of Tetralogy of Fallot?",
@@ -599,7 +599,7 @@
     "answerText": "Ventricular septal defect",
     "explanation": "Tetralogy of Fallot includes four defects — pulmonary stenosis, ventricular septal defect, overriding aorta, and right ventricular hypertrophy.  ",
     "userAnswer": null,
-    "qID": "card-hist-q43"
+    "qID": "card-anat-q43"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 3</span> Aortic arch IV forms the ............ on the left side of the embryo and the ............ on the left.",
@@ -613,7 +613,7 @@
     "answerText": "Arch of aorta - Subclavian artery",
     "explanation": "The left fourth aortic arch forms the arch of the aorta, while the right fourth aortic arch forms part of the right subclavian artery.  ",
     "userAnswer": null,
-    "qID": "card-hist-q44"
+    "qID": "card-anat-q44"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 4</span> The SVC and portal veins are derived from which of the following?",
@@ -627,7 +627,7 @@
     "answerText": "Anterior cardinal veins - Vitelline veins",
     "explanation": "The superior vena cava develops from the anterior cardinal veins, while the portal vein develops from the vitelline veins.  ",
     "userAnswer": null,
-    "qID": "card-hist-q45"
+    "qID": "card-anat-q45"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 5</span> What is the primary site at which white blood cells adhere to endothelium and leave the circulation?",
@@ -641,7 +641,7 @@
     "answerText": "Postcapillary venules",
     "explanation": "Postcapillary venules are the main site of leukocyte adhesion and migration into tissues during inflammation due to their thin walls and slow blood flow.  ",
     "userAnswer": null,
-    "qID": "card-hist-q46"
+    "qID": "card-anat-q46"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 6</span> A vein has ............ lumen and its ............ is the thickest layer.",
@@ -655,7 +655,7 @@
     "answerText": "Larger - adventitia",
     "explanation": "Veins have a larger lumen and a thicker tunica adventitia compared to arteries, allowing them to accommodate more blood volume.  ",
     "userAnswer": null,
-    "qID": "card-hist-q47"
+    "qID": "card-anat-q47"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 7</span> Which one is the main organ involved in filtration of blood and lymph respectively?",
@@ -669,7 +669,7 @@
     "answerText": "Spleen - lymph node",
     "explanation": "The spleen filters blood, while lymph nodes filter lymph, removing pathogens and debris.  ",
     "userAnswer": null,
-    "qID": "card-hist-q48"
+    "qID": "card-anat-q48"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 8</span> Which region of lymph node contains lymphoid follicles?",
@@ -683,7 +683,7 @@
     "answerText": "Cortex",
     "explanation": "The cortex of lymph nodes contains lymphoid follicles rich in B lymphocytes responsible for antibody production.  ",
     "userAnswer": null,
-    "qID": "card-hist-q49"
+    "qID": "card-anat-q49"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.Gholshen- Question 9</span> Hassall corpuscles are unique to the ............ of the ............",
@@ -697,7 +697,7 @@
     "answerText": "Medulla - thymus",
     "explanation": "Hassall’s corpuscles are characteristic structures of the thymic medulla and consist of concentric epithelial reticular cells.",
     "userAnswer": null,
-    "qID": "card-hist-q50"
+    "qID": "card-anat-q50"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 1</span> Which muscle is covered by clavipectoral fascia?",
@@ -711,7 +711,7 @@
     "answerText": "Pectoralis minor",
     "explanation": "The clavipectoral fascia lies deep to the pectoralis major and covers the pectoralis minor and subclavius muscles.  ",
     "userAnswer": null,
-    "qID": "card-hist-q51"
+    "qID": "card-anat-q51"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 2</span> Inferior vena cava passes through diaphragm at the level of which vertebra?",
@@ -725,7 +725,7 @@
     "answerText": "T8",
     "explanation": "The inferior vena cava passes through the diaphragm at the level of the T8 vertebra via the caval opening.  ",
     "userAnswer": null,
-    "qID": "card-hist-q52"
+    "qID": "card-anat-q52"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 3</span> Which one is at the level of sternal angle?",
@@ -739,7 +739,7 @@
     "answerText": "Bifurcation of trachea",
     "explanation": "The sternal angle (angle of Louis) marks the level of the tracheal bifurcation (T4–T5 intervertebral disc).  ",
     "userAnswer": null,
-    "qID": "card-hist-q53"
+    "qID": "card-anat-q53"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 4</span> Lateral part of the breast is supplied by …",
@@ -753,7 +753,7 @@
     "answerText": "Lateral thoracic artery",
     "explanation": "The lateral thoracic artery, a branch of the axillary artery, supplies the lateral part of the breast.  ",
     "userAnswer": null,
-    "qID": "card-hist-q54"
+    "qID": "card-anat-q54"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 5</span> How many papillary muscles are there in the right ventricle?",
@@ -767,7 +767,7 @@
     "answerText": "3",
     "explanation": "The right ventricle contains three papillary muscles—anterior, posterior, and septal—which attach to chordae tendineae of the tricuspid valve.  ",
     "userAnswer": null,
-    "qID": "card-hist-q55"
+    "qID": "card-anat-q55"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 6</span> Which one is located in the superior part of the crista terminalis?",
@@ -781,7 +781,7 @@
     "answerText": "Sinoatrial node",
     "explanation": "The sinoatrial (SA) node, the natural pacemaker of the heart, is located at the superior end of the crista terminalis in the right atrium.  ",
     "userAnswer": null,
-    "qID": "card-hist-q56"
+    "qID": "card-anat-q56"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 7</span> Where is the location of the Moderator band?",
@@ -795,7 +795,7 @@
     "answerText": "Right ventricle",
     "explanation": "The moderator band (septomarginal trabecula) is found in the right ventricle and carries part of the right bundle branch to the anterior papillary muscle.  ",
     "userAnswer": null,
-    "qID": "card-hist-q57"
+    "qID": "card-anat-q57"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 8</span> Where is the location of the apex of the heart in surface of the thorax?",
@@ -809,7 +809,7 @@
     "answerText": "Left 5th intercostal space",
     "explanation": "The apex of the heart lies in the left 5th intercostal space at the midclavicular line, formed by the tip of the left ventricle.  ",
     "userAnswer": null,
-    "qID": "card-hist-q58"
+    "qID": "card-anat-q58"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 9</span> Which one is in the anterior mediastinum?",
@@ -823,7 +823,7 @@
     "answerText": "Thymus",
     "explanation": "The thymus lies in the anterior mediastinum, especially prominent in children, and regresses after puberty.  ",
     "userAnswer": null,
-    "qID": "card-hist-q59"
+    "qID": "card-anat-q59"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 10</span> Which one is located in the superior and posterior mediastinum?",
@@ -837,7 +837,7 @@
     "answerText": "Esophagus",
     "explanation": "The esophagus passes through both the superior and posterior mediastinum as it descends to the diaphragm.  ",
     "userAnswer": null,
-    "qID": "card-hist-q60"
+    "qID": "card-anat-q60"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 11</span> Oblique pericardial sinus is located between … and …",
@@ -851,7 +851,7 @@
     "answerText": "Esophagus – left atrium",
     "explanation": "The oblique pericardial sinus is a cul-de-sac between the esophagus and the posterior surface of the left atrium.  ",
     "userAnswer": null,
-    "qID": "card-hist-q61"
+    "qID": "card-anat-q61"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 12</span> Which structure does turn around the arch of aorta and ascend between trachea and esophagus?",
@@ -865,7 +865,7 @@
     "answerText": "Left vagus nerve",
     "explanation": "The left recurrent laryngeal nerve, a branch of the left vagus nerve, loops under the arch of aorta and ascends between the trachea and esophagus.",
     "userAnswer": null,
-    "qID": "card-hist-q62"
+    "qID": "card-anat-q62"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 1</span> Which muscle is covered by clavipectoral fascia?",
@@ -879,7 +879,7 @@
     "answerText": "Pectoralis minor",
     "explanation": "The clavipectoral fascia lies deep to the pectoralis major and covers the pectoralis minor and subclavius muscles.  ",
     "userAnswer": null,
-    "qID": "card-hist-q63"
+    "qID": "card-anat-q63"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 2</span> Inferior vena cava passes through diaphragm at the level of which vertebra?",
@@ -893,7 +893,7 @@
     "answerText": "T8",
     "explanation": "The inferior vena cava passes through the diaphragm at the level of the T8 vertebra via the caval opening.  ",
     "userAnswer": null,
-    "qID": "card-hist-q64"
+    "qID": "card-anat-q64"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 3</span> Which one is at the level of sternal angle?",
@@ -907,7 +907,7 @@
     "answerText": "Bifurcation of trachea",
     "explanation": "The sternal angle (angle of Louis) marks the level of the tracheal bifurcation (T4–T5 intervertebral disc).  ",
     "userAnswer": null,
-    "qID": "card-hist-q65"
+    "qID": "card-anat-q65"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 4</span> Lateral part of the breast is supplied by …",
@@ -921,7 +921,7 @@
     "answerText": "Lateral thoracic artery",
     "explanation": "The lateral thoracic artery, a branch of the axillary artery, supplies the lateral part of the breast.  ",
     "userAnswer": null,
-    "qID": "card-hist-q66"
+    "qID": "card-anat-q66"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 5</span> How many papillary muscles are there in the right ventricle?",
@@ -935,7 +935,7 @@
     "answerText": "3",
     "explanation": "The right ventricle contains three papillary muscles—anterior, posterior, and septal—which attach to chordae tendineae of the tricuspid valve.  ",
     "userAnswer": null,
-    "qID": "card-hist-q67"
+    "qID": "card-anat-q67"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 6</span> Which one is located in the superior part of the crista terminalis?",
@@ -949,7 +949,7 @@
     "answerText": "Sinoatrial node",
     "explanation": "The sinoatrial (SA) node, the natural pacemaker of the heart, is located at the superior end of the crista terminalis in the right atrium.  ",
     "userAnswer": null,
-    "qID": "card-hist-q68"
+    "qID": "card-anat-q68"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 7</span> Where is the location of the Moderator band?",
@@ -963,7 +963,7 @@
     "answerText": "Right ventricle",
     "explanation": "The moderator band (septomarginal trabecula) is found in the right ventricle and carries part of the right bundle branch to the anterior papillary muscle.  ",
     "userAnswer": null,
-    "qID": "card-hist-q69"
+    "qID": "card-anat-q69"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 8</span> Where is the location of the apex of the heart in surface of the thorax?",
@@ -977,7 +977,7 @@
     "answerText": "Left 5th intercostal space",
     "explanation": "The apex of the heart lies in the left 5th intercostal space at the midclavicular line, formed by the tip of the left ventricle.  ",
     "userAnswer": null,
-    "qID": "card-hist-q70"
+    "qID": "card-anat-q70"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 9</span> Which one is in the anterior mediastinum?",
@@ -991,7 +991,7 @@
     "answerText": "Thymus",
     "explanation": "The thymus lies in the anterior mediastinum, especially prominent in children, and regresses after puberty.  ",
     "userAnswer": null,
-    "qID": "card-hist-q71"
+    "qID": "card-anat-q71"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 10</span> Which one is located in the superior and posterior mediastinum?",
@@ -1005,7 +1005,7 @@
     "answerText": "Esophagus",
     "explanation": "The esophagus passes through both the superior and posterior mediastinum as it descends to the diaphragm.  ",
     "userAnswer": null,
-    "qID": "card-hist-q72"
+    "qID": "card-anat-q72"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 11</span> Oblique pericardial sinus is located between … and …",
@@ -1019,7 +1019,7 @@
     "answerText": "Esophagus – left atrium",
     "explanation": "The oblique pericardial sinus is a cul-de-sac between the esophagus and the posterior surface of the left atrium.  ",
     "userAnswer": null,
-    "qID": "card-hist-q73"
+    "qID": "card-anat-q73"
   },
   {
     "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 12</span> Which structure does turn around the arch of aorta and ascend between trachea and esophagus?",
@@ -1033,6 +1033,174 @@
     "answerText": "Left vagus nerve",
     "explanation": "The left recurrent laryngeal nerve, a branch of the left vagus nerve, loops under the arch of aorta and ascends between the trachea and esophagus.",
     "userAnswer": null,
-    "qID": "card-hist-q74"
+    "qID": "card-anat-q74"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 1</span> Which muscle is covered by clavipectoral fascia?",
+    "options": [
+      "Serratus anterior",
+      "External intercostal",
+      "Pectoralis major",
+      "Pectoralis minor"
+    ],
+    "answer": 3,
+    "answerText": "Pectoralis minor",
+    "explanation": "The clavipectoral fascia lies deep to the pectoralis major and covers the pectoralis minor and subclavius muscles.  ",
+    "userAnswer": null,
+    "qID": "card-anat-q75"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 2</span> Inferior vena cava passes through diaphragm at the level of which vertebra?",
+    "options": [
+      "T8",
+      "T10",
+      "T12",
+      "L1"
+    ],
+    "answer": 0,
+    "answerText": "T8",
+    "explanation": "The inferior vena cava passes through the diaphragm at the level of the T8 vertebra via the caval opening.  ",
+    "userAnswer": null,
+    "qID": "card-anat-q76"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 3</span> Which one is at the level of sternal angle?",
+    "options": [
+      "Bifurcation of brachiocephalic trunk",
+      "Arch of right subclavian nerve",
+      "Bifurcation of trachea",
+      "Bifurcation of left common carotid artery"
+    ],
+    "answer": 2,
+    "answerText": "Bifurcation of trachea",
+    "explanation": "The sternal angle (angle of Louis) marks the level of the tracheal bifurcation (T4–T5 intervertebral disc).  ",
+    "userAnswer": null,
+    "qID": "card-anat-q77"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 4</span> Lateral part of the breast is supplied by …",
+    "options": [
+      "Lateral thoracic artery",
+      "Internal thoracic artery",
+      "Medial pectoral artery",
+      "Anterior perforating arteries"
+    ],
+    "answer": 0,
+    "answerText": "Lateral thoracic artery",
+    "explanation": "The lateral thoracic artery, a branch of the axillary artery, supplies the lateral part of the breast.  ",
+    "userAnswer": null,
+    "qID": "card-anat-q78"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 5</span> How many papillary muscles are there in the right ventricle?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1,
+    "answerText": "3",
+    "explanation": "The right ventricle contains three papillary muscles—anterior, posterior, and septal—which attach to chordae tendineae of the tricuspid valve.  ",
+    "userAnswer": null,
+    "qID": "card-anat-q79"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 6</span> Which one is located in the superior part of the crista terminalis?",
+    "options": [
+      "Septomarginal trabecula",
+      "Coronary sinus",
+      "Sinoatrial node",
+      "Atrioventricular node"
+    ],
+    "answer": 2,
+    "answerText": "Sinoatrial node",
+    "explanation": "The sinoatrial (SA) node, the natural pacemaker of the heart, is located at the superior end of the crista terminalis in the right atrium.  ",
+    "userAnswer": null,
+    "qID": "card-anat-q80"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 7</span> Where is the location of the Moderator band?",
+    "options": [
+      "Right ventricle",
+      "Right atrium",
+      "Left ventricle",
+      "Left atrium"
+    ],
+    "answer": 0,
+    "answerText": "Right ventricle",
+    "explanation": "The moderator band (septomarginal trabecula) is found in the right ventricle and carries part of the right bundle branch to the anterior papillary muscle.  ",
+    "userAnswer": null,
+    "qID": "card-anat-q81"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 8</span> Where is the location of the apex of the heart in surface of the thorax?",
+    "options": [
+      "Right 5th intercostal space",
+      "Left 5th intercostal space",
+      "Right 4th intercostal space",
+      "Left 4th intercostal space"
+    ],
+    "answer": 1,
+    "answerText": "Left 5th intercostal space",
+    "explanation": "The apex of the heart lies in the left 5th intercostal space at the midclavicular line, formed by the tip of the left ventricle.  ",
+    "userAnswer": null,
+    "qID": "card-anat-q82"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 9</span> Which one is in the anterior mediastinum?",
+    "options": [
+      "Esophagus",
+      "Trachea",
+      "Thoracic duct",
+      "Thymus"
+    ],
+    "answer": 3,
+    "answerText": "Thymus",
+    "explanation": "The thymus lies in the anterior mediastinum, especially prominent in children, and regresses after puberty.  ",
+    "userAnswer": null,
+    "qID": "card-anat-q83"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 10</span> Which one is located in the superior and posterior mediastinum?",
+    "options": [
+      "Trachea",
+      "Azygos vein",
+      "Esophagus",
+      "Phrenic nerve"
+    ],
+    "answer": 2,
+    "answerText": "Esophagus",
+    "explanation": "The esophagus passes through both the superior and posterior mediastinum as it descends to the diaphragm.  ",
+    "userAnswer": null,
+    "qID": "card-anat-q84"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 11</span> Oblique pericardial sinus is located between … and …",
+    "options": [
+      "Esophagus – left atrium",
+      "Esophagus – right atrium",
+      "Vertebral column – left atrium",
+      "Vertebral column – right atrium"
+    ],
+    "answer": 0,
+    "answerText": "Esophagus – left atrium",
+    "explanation": "The oblique pericardial sinus is a cul-de-sac between the esophagus and the posterior surface of the left atrium.  ",
+    "userAnswer": null,
+    "qID": "card-anat-q85"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.hassanzadeh- Question 12</span> Which structure does turn around the arch of aorta and ascend between trachea and esophagus?",
+    "options": [
+      "Right phrenic nerve",
+      "Left phrenic nerve",
+      "Right vagus nerve",
+      "Left vagus nerve"
+    ],
+    "answer": 3,
+    "answerText": "Left vagus nerve",
+    "explanation": "The left recurrent laryngeal nerve, a branch of the left vagus nerve, loops under the arch of aorta and ascends between the trachea and esophagus.",
+    "userAnswer": null,
+    "qID": "card-anat-q86"
   }
 ]
