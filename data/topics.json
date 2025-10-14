@@ -424,22 +424,20 @@
     ]
   },
   {
-    "topicName": "Hassan",
-    "description": "Momathl",
-    "subTopics": [
-      {
-        "name": "Mo khokh",
-        "file": "data/hassan_mo_khokh.json"
-      }
-    ]
-  },
-  {
     "topicName": "Gi system",
-    "description": "Term 1",
+    "description": "Related to the sixh semester",
     "subTopics": [
       {
-        "name": "Internal ",
-        "file": "data/gi_system_internal_.json"
+        "name": "Internal Medicine ",
+        "file": "data/gi_system_internal_medicine_.json"
+      },
+      {
+        "name": "Internal Medicine Retake ",
+        "file": "data/gi_system_internal_medicine_retake_.json"
+      },
+      {
+        "name": "Pathology ",
+        "file": "data/gi_system_pathology_.json"
       }
     ]
   }
