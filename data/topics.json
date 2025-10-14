@@ -428,16 +428,88 @@
     "description": "Related to the sixh semester",
     "subTopics": [
       {
-        "name": "Internal Medicine ",
-        "file": "data/gi_system_internal_medicine_.json"
-      },
-      {
         "name": "Internal Medicine Retake ",
         "file": "data/gi_system_internal_medicine_retake_.json"
       },
       {
+        "name": "Internal Medicine ",
+        "file": "data/gi_system_internal_medicine_.json"
+      },
+      {
         "name": "Pathology ",
         "file": "data/gi_system_pathology_.json"
+      }
+    ]
+  },
+  {
+    "topicName": "Cardiovascular System (CVS)",
+    "description": "Related to the sixh semester",
+    "subTopics": [
+      {
+        "name": "Internal Medicine",
+        "file": "data/cardiovascular_system_(cvs)_internal_medicine.json"
+      },
+      {
+        "name": "Internal Medicine Retake",
+        "file": "data/cardiovascular_system_(cvs)_internal_medicine_retake.json"
+      },
+      {
+        "name": "Pathology",
+        "file": "data/cardiovascular_system_(cvs)_pathology.json"
+      }
+    ]
+  },
+  {
+    "topicName": "Pulmonary System",
+    "description": "Related to the sixh semester",
+    "subTopics": [
+      {
+        "name": "Internal Medicine",
+        "file": "data/pulmonary_system_internal_medicine.json"
+      },
+      {
+        "name": "Internal Medicine Retake",
+        "file": "data/pulmonary_system_internal_medicine_retake.json"
+      },
+      {
+        "name": "Pathology",
+        "file": "data/pulmonary_system_pathology.json"
+      }
+    ]
+  },
+  {
+    "topicName": "Rheumatology system",
+    "description": "Related to the sixh semester",
+    "subTopics": [
+      {
+        "name": "Internal Medicine",
+        "file": "data/rheumatology_system_internal_medicine.json"
+      },
+      {
+        "name": "Internal Medicine Retake",
+        "file": "data/rheumatology_system_internal_medicine_retake.json"
+      },
+      {
+        "name": "Pathology",
+        "file": "data/rheumatology_system_pathology.json"
+      }
+    ]
+  },
+  {
+    "topicName": "Nephrology System",
+    "description": "Related to the sixh semester",
+    "subTopics": [
+      {
+        "name": "Internal Medicine",
+        "file": "data/nephrology_system_internal_medicine.json"
+      },
+      {
+        "name": "Internal Medicine Retake",
+        "file": "data/nephrology_system_internal_medicine_retake.json"
+      },
+      {
+        "name": "Pathology",
+        "file": "data/nephrology_system_pathology.json"
       }
     ]
   }
