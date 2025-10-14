@@ -438,6 +438,10 @@
       {
         "name": "Pathology ",
         "file": "data/gi_system_pathology_.json"
+      },
+      {
+        "name": "Pharmacology",
+        "file": "data/gi_system_pharmacology.json"
       }
     ]
   },
@@ -456,6 +460,10 @@
       {
         "name": "Pathology",
         "file": "data/cardiovascular_system_(cvs)_pathology.json"
+      },
+      {
+        "name": "Pharmacology",
+        "file": "data/cardiovascular_system_(cvs)_pharmacology.json"
       }
     ]
   },
@@ -474,6 +482,10 @@
       {
         "name": "Pathology",
         "file": "data/pulmonary_system_pathology.json"
+      },
+      {
+        "name": "Pharmacology",
+        "file": "data/pulmonary_system_pharmacology.json"
       }
     ]
   },
@@ -492,6 +504,10 @@
       {
         "name": "Pathology",
         "file": "data/rheumatology_system_pathology.json"
+      },
+      {
+        "name": "Pharmacology",
+        "file": "data/rheumatology_system_pharmacology.json"
       }
     ]
   },
@@ -510,6 +526,10 @@
       {
         "name": "Pathology",
         "file": "data/nephrology_system_pathology.json"
+      },
+      {
+        "name": "Pharmacology",
+        "file": "data/nephrology_system_pharmacology.json"
       }
     ]
   }
