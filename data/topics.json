@@ -428,10 +428,6 @@
     "description": "Related to the sixh semester",
     "subTopics": [
       {
-        "name": "Internal Medicine Retake ",
-        "file": "data/gi_system_internal_medicine_retake_.json"
-      },
-      {
         "name": "Internal Medicine ",
         "file": "data/gi_system_internal_medicine_.json"
       },
