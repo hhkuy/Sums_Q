@@ -1,0 +1,450 @@
+[
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 1</span> A 22-year-old female, Sarah, presents to you complaining of recurrent abdominal discomfort. She describes the pain as cramping, located primarily in her lower abdomen, and states it has been present for the past six months. The pain typically occurs 2-3 times per week and can last for several hours. She notes that the pain is often relieved by a bowel movement. Sarah also reports experiencing changes in her bowel habits. Sometimes she has loose, watery stools, while other times she struggles with constipation. She denies any blood in her stool or significant weight loss. She mentions that her symptoms seem to worsen during periods of stress, such as during exams. Her medical history is unremarkable, and she is not taking any medications. The physical examination reveals mild tenderness in the lower abdomen, with no other significant findings. Which of the Rome IV criteria for IBS does Sarah’s case fit?",
+    "options": [
+      "Symptoms screening during periods of stress",
+      "Recurrent abdominal pain, often relieved by a bowel movement",
+      "Weight loss",
+      "Blood in stool"
+    ],
+    "answer": 1,
+    "answerText": "Recurrent abdominal pain, often relieved by a bowel movement",
+    "explanation": "IBS diagnosis involves recurrent abdominal pain related to defecation and associated with changes in bowel habits, without alarm signs like weight loss or bleeding.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q1"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 2</span> Which differential diagnosis should be considered least likely in Sarah’s case?",
+    "options": [
+      "Irritable bowel syndrome",
+      "Colorectal cancer",
+      "Celiac disease",
+      "Lactose intolerance"
+    ],
+    "answer": 1,
+    "answerText": "Colorectal cancer",
+    "explanation": "Colorectal cancer is less likely in a young patient without red-flag features like bleeding, weight loss, or family history.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q2"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 3</span> Which option provides the best treatment strategy for pain control in Sarah’s case?",
+    "options": [
+      "Regular exercise",
+      "Anticholinergics",
+      "Antibiotics",
+      "Gluten-free diet"
+    ],
+    "answer": 1,
+    "answerText": "Anticholinergics",
+    "explanation": "Anticholinergics reduce visceral smooth muscle spasm and are effective for IBS-related cramping pain.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q3"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 4</span> The incidence rate of which gastrointestinal tumor is decreasing?",
+    "options": [
+      "Gastric adenocarcinoma",
+      "Squamous cell carcinoma of the esophagus (SCC)",
+      "Adenocarcinoma of the esophagus",
+      "Hepatocellular carcinoma"
+    ],
+    "answer": 1,
+    "answerText": "Squamous cell carcinoma of the esophagus (SCC)",
+    "explanation": "SCC incidence is decreasing due to reduced smoking and alcohol use, while adenocarcinoma of the esophagus is increasing.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q4"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 5</span> All of the following are risk factors for Squamous Cell Carcinoma of the Esophagus (SCC), except?",
+    "options": [
+      "Smoking",
+      "Chronic reflux",
+      "Alcohol",
+      "Hot beverages"
+    ],
+    "answer": 1,
+    "answerText": "Chronic reflux",
+    "explanation": "Chronic reflux is associated with esophageal adenocarcinoma, not SCC.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q5"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 6</span> Which type of upper gastrointestinal cancer is associated with a younger age?",
+    "options": [
+      "Intestinal type adenocarcinoma of the stomach",
+      "Diffuse type adenocarcinoma of the stomach",
+      "Adenosquamous carcinoma of the stomach",
+      "Neuroendocrine tumor of the stomach"
+    ],
+    "answer": 1,
+    "answerText": "Diffuse type adenocarcinoma of the stomach",
+    "explanation": "Diffuse gastric carcinoma affects younger patients and is linked to E-cadherin mutations.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q6"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 7</span> The patient is a 42-year-old man who has come to you due to fever, voluminous diarrhea without passing blood, flatulence, and loss of appetite for three days. He reports a recent history of drinking stream water during hiking. What is the best course of action for him?",
+    "options": [
+      "Stool test for ova and parasites (O/P)",
+      "Empirical antibiotics",
+      "Colonoscopy",
+      "No further testing is needed"
+    ],
+    "answer": 0,
+    "answerText": "Stool test for ova and parasites (O/P)",
+    "explanation": "Giardia lamblia is suspected due to watery diarrhea and contaminated water exposure; stool O&P confirms diagnosis.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q7"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 8</span> The patient is a 60-year-old man experiencing fever, acute bloody diarrhea, and pain in the right upper quadrant (RUQ). A US has revealed a 5 cm hypoechoic lesion with a smooth central margin in the right lobe of the liver. Which of the following pathogens can be the most likely causative agent in this patient?",
+    "options": [
+      "Entamoeba histolytica",
+      "Hepatitis B virus",
+      "Schistosoma mansoni",
+      "Salmonella typhi"
+    ],
+    "answer": 0,
+    "answerText": "Entamoeba histolytica",
+    "explanation": "Amoebic liver abscess from E. histolytica often presents with RUQ pain, fever, and liver lesion on imaging.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q8"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 9</span> Which duration defines chronic diarrhea?",
+    "options": [
+      "More than one week",
+      "More than two weeks",
+      "More than four weeks",
+      "More than six weeks"
+    ],
+    "answer": 2,
+    "answerText": "More than four weeks",
+    "explanation": "Chronic diarrhea is defined as lasting >4 weeks ",
+    "userAnswer": null,
+    "qID": "gi s-inte-q9"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 10</span> A 45-year-old man has presented with complaints of heartburn and regurgitation several times a week for a month. He has no history of any past medical illness and has not taken any medication. Which of the following diagnostic and/or therapeutic measures is recommended?",
+    "options": [
+      "Esophageal manometry and PPI",
+      "Start empirical treatment with PPI",
+      "24-hour pH monitoring",
+      "Upper endoscopy"
+    ],
+    "answer": 1,
+    "answerText": "Start empirical treatment with PPI",
+    "explanation": "For typical GERD symptoms without alarm features, the initial approach is an empirical trial of PPI therapy.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q10"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 11</span> A patient with reflux disease has been treated with pantoprazole every 12 hours for 2 months, but has only experienced a partial response to the treatment. Which of the following is not recommended?",
+    "options": [
+      "Considering functional heartburn",
+      "Testing for Helicobacter pylori serology",
+      "Increasing PPI dose",
+      "pH impedance monitoring"
+    ],
+    "answer": 1,
+    "answerText": "Testing for Helicobacter pylori serology",
+    "explanation": "Serologic testing for H. pylori is not recommended in refractory GERD. Evaluation should include considering functional heartburn and impedance-pH monitoring.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q11"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 12</span> A 60-year-old man comes to your office complaining of heartburn and Barrett’s esophagus without dysplasia confirmed on endoscopy and pathology. Which of the following recommendations will he most likely benefit from?",
+    "options": [
+      "Avoiding NSAID use",
+      "Starting a statin medication",
+      "Antifungal therapy",
+      "Annual colonoscopy"
+    ],
+    "answer": 1,
+    "answerText": "Starting a statin medication",
+    "explanation": "Statins have been shown to reduce the risk of progression from Barrett’s esophagus to adenocarcinoma.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q12"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 13</span> A 45-year-old woman with a history of systemic lupus erythematosus, who has been treated with prednisolone 30 mg daily for a month, presented with complaints of dysphagia and thrush. A thrush was observed in the oral examination. Which of the following is the most likely diagnosis?",
+    "options": [
+      "Candida esophagitis",
+      "Herpes simplex esophagitis",
+      "Cytomegalovirus esophagitis",
+      "Reflux esophagitis"
+    ],
+    "answer": 0,
+    "answerText": "Candida esophagitis",
+    "explanation": "Immunosuppressed patients on steroids are predisposed to Candida infection, which often presents with oral thrush and dysphagia.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q13"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 14</span> A thirty-year-old man came to our clinic with dysphagia to solids & liquids and intermittent chest pain. A timed Barium esophagogram showed Barium retention at 3 and 5 minutes. Esophageal manometry confirmed achalasia. What is the preferred treatment for this patient?",
+    "options": [
+      "Botulinum toxin injection",
+      "POEM",
+      "PPI therapy",
+      "Balloon tamponade"
+    ],
+    "answer": 1,
+    "answerText": "POEM",
+    "explanation": "Peroral endoscopic myotomy (POEM) is an effective definitive treatment for achalasia, particularly in younger patients.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q14"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 15</span> A 28-year-old male presents with a history of recurrent dysphagia, particularly to solid foods, and episodes of food impaction. He also reports a history of atopic dermatitis and seasonal allergies. Endoscopy reveals multiple esophageal rings and furrows. Biopsy specimens from the mid-esophagus show an average of 30 eosinophils per high-powered field. Considering the patient’s clinical presentation and endoscopic findings, which of the following best reflects the underlying pathophysiological mechanism contributing to the development of esophageal strictures in this patient?",
+    "options": [
+      "Inflammation and eosinophil degranulation, resulting in submucosal fibrosis",
+      "Loss of myenteric plexus ganglion cells",
+      "Smooth muscle hypertrophy",
+      "Excessive gastric acid secretion"
+    ],
+    "answer": 0,
+    "answerText": "Inflammation and eosinophil degranulation, resulting in submucosal fibrosis",
+    "explanation": "Eosinophilic esophagitis involves eosinophilic inflammation and degranulation leading to chronic submucosal fibrosis and stricture formation. ",
+    "userAnswer": null,
+    "qID": "gi s-inte-q15"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 16</span> A 58-year-old woman undergoes histological evaluation of a biopsy obtained from a mass in the ascending colon. The pathology confirms adenocarcinoma characterized by microsatellite instability-high (MSI-H) status, indicating deficient DNA mismatch repair (dMMR). Considering the molecular profile of this tumor, which of the following best describes the most likely underlying genetic mechanism responsible for the MSI-H phenotype, and what is its clinical significance?",
+    "options": [
+      "TP53 gene mutation; associated with increased tumor aggressiveness and poor prognosis",
+      "MLH1 gene promoter methylation; increased risk of Lynch syndrome and potential response to immunotherapy",
+      "KRAS gene activation; resistance to EGFR-targeted therapy",
+      "BRAF mutation; associated with familial adenomatous polyposis "
+    ],
+    "answer": 1,
+    "answerText": "MLH1 gene promoter methylation; increased risk of Lynch syndrome and potential response to immunotherapy",
+    "explanation": "MSI-H colorectal cancers commonly result from MLH1 promoter methylation leading to defective mismatch repair. This phenotype is associated with Lynch syndrome risk and a favorable response to immune checkpoint inhibitors. ",
+    "userAnswer": null,
+    "qID": "gi s-inte-q16"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 17</span> Measurement of serum levels of which tumor marker is recommended in patients with colorectal cancer?",
+    "options": [
+      "Alpha-fetoprotein (AFP)",
+      "Carcinoembryonic antigen (CEA)",
+      "CA 19-9",
+      "CA 125"
+    ],
+    "answer": 1,
+    "answerText": "Carcinoembryonic antigen (CEA)",
+    "explanation": "CEA is a standard tumor marker used for monitoring treatment response and recurrence in colorectal cancer.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q17"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 18</span> Which of the following options is not considered a screening tool for colorectal cancer?",
+    "options": [
+      "Colonoscopy",
+      "Fecal occult blood test",
+      "Barium enema",
+      "MRI of the pelvis"
+    ],
+    "answer": 3,
+    "answerText": "MRI of the pelvis",
+    "explanation": "MRI of the pelvis is not used for screening but may be used in staging colorectal cancer. ",
+    "userAnswer": null,
+    "qID": "gi s-inte-q18"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 19</span> A 58-year-old man presents with epigastric pain that typically worsens at night but improves after eating. He has a significant history of chronic NSAID use and smoking. Laboratory investigations reveal a positive urea breath test. Which of the following most accurately explains the underlying pathophysiological mechanism responsible for his condition?",
+    "options": [
+      "Hypersecretion of gastric acid from parietal cells",
+      "Compromised mucosal defense mechanisms due to Helicobacter pylori infection",
+      "Excessive gastrin secretion secondary to G-cell hyperplasia",
+      "Impaired intestinal motility leading to delayed gastric emptying "
+    ],
+    "answer": 1,
+    "answerText": "Compromised mucosal defense mechanisms due to Helicobacter pylori infection",
+    "explanation": "Infection with H. pylori and chronic NSAID use both impair mucosal protective mechanisms, predisposing to peptic ulcer formation. The classic presentation of pain relieved by eating is typical of a duodenal ulcer. ",
+    "userAnswer": null,
+    "qID": "gi s-inte-q19"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 20</span> A 48-year-old male presents with epigastric pain, nausea, and vomiting. He has a history of peptic ulcer disease and is currently on a proton pump inhibitor (PPI). On examination, he has a succussion splash. Which of the following is the most likely complication of his condition?",
+    "options": [
+      "Perforated ulcer",
+      "Gastric outlet obstruction",
+      "Gastroesophageal reflux",
+      "Adenocarcinoma"
+    ],
+    "answer": 1,
+    "answerText": "Gastric outlet obstruction",
+    "explanation": "Succussion splash is classic for gastric outlet obstruction, a complication of chronic peptic ulcer disease.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q20"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 21</span> A 55-year-old male with a history of aspirin 80 (ASA) presents with epigastric pain and melena. Upper endoscopy reveals a duodenal ulcer. Which of the following is the best decision for his long-term maintenance treatment?",
+    "options": [
+      "Stop ASA",
+      "Add proton pump inhibitor (PPI) to ASA",
+      "Switch to H2 receptor antagonist",
+      "Use misoprostol"
+    ],
+    "answer": 1,
+    "answerText": "Add proton pump inhibitor (PPI) to ASA",
+    "explanation": "In patients requiring ASA, PPI co-therapy is recommended to prevent recurrence of ulcer bleeding.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q21"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 22</span> Which of these laboratory findings are not common in patients with cirrhosis?",
+    "options": [
+      "Hypoalbuminemia",
+      "Hyperbilirubinemia",
+      "Hypoproteinemia",
+      "Hyperproteinemia"
+    ],
+    "answer": 3,
+    "answerText": "Hyperproteinemia",
+    "explanation": "Cirrhosis is associated with decreased synthetic liver function, leading to low protein and albumin levels, not hyperproteinemia. ",
+    "userAnswer": null,
+    "qID": "gi s-inte-q22"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 23</span> A 40-year-old man with a known history of liver cirrhosis presents to the emergency department with active hematemesis. On arrival, his systolic blood pressure is 70 mmHg and his pulse rate is 120 beats per minute. What is the most appropriate initial step in the management of this patient?",
+    "options": [
+      "Endoscopic variceal ligation",
+      "Vasoactive therapy",
+      "Serum therapy (fluid resuscitation)",
+      "Blood transfusion "
+    ],
+    "answer": 2,
+    "answerText": "Serum therapy (fluid resuscitation)",
+    "explanation": "The patient is in hypovolemic shock due to acute variceal bleeding. The immediate priority is to stabilize hemodynamics with rapid intravenous fluid resuscitation before proceeding to definitive therapies such as vasoactive agents or endoscopic intervention.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q23"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 24</span> A 41-year-old man with a history of liver disease presents to the emergency department due to abdominal distension and ascites. Analysis of the ascitic fluid shows an albumin concentration of 3.3 mg/dL, while the serum albumin level is 4.1 mg/dL. Which of the following is the most likely diagnosis?",
+    "options": [
+      "Cirrhosis due to HBV",
+      "Spontaneous bacterial peritonitis",
+      "Peritoneal carcinomatosis",
+      "Budd-Chiari syndrome "
+    ],
+    "answer": 2,
+    "answerText": "Peritoneal carcinomatosis",
+    "explanation": "A serum-ascites albumin gradient (SAAG) < 1.1 g/dL suggests non-portal hypertensive causes of ascites such as peritoneal carcinomatosis, while a SAAG ≥ 1.1 g/dL suggests portal hypertension-related etiologies like cirrhosis.  ⸻ ",
+    "userAnswer": null,
+    "qID": "gi s-inte-q24"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 25</span> Which of these drugs can be the cause of hepatocellular type of liver injury?",
+    "options": [
+      "Steroids",
+      "Acetaminophen",
+      "Amoxicillin",
+      "Methotrexate "
+    ],
+    "answer": 1,
+    "answerText": "Acetaminophen",
+    "explanation": "Acetaminophen overdose is a classic cause of hepatocellular liver injury characterized by elevated AST and ALT due to direct hepatocyte necrosis.  ⸻ ",
+    "userAnswer": null,
+    "qID": "gi s-inte-q25"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 26</span> Which of these antibodies is not useful for the diagnosis of autoimmune hepatitis?",
+    "options": [
+      "ANA",
+      "Anti-LKM",
+      "Anti-smooth muscle antibody",
+      "AMA "
+    ],
+    "answer": 3,
+    "answerText": "AMA",
+    "explanation": "Antimitochondrial antibody (AMA) is associated with primary biliary cholangitis (PBC), not autoimmune hepatitis.  ⸻ ",
+    "userAnswer": null,
+    "qID": "gi s-inte-q26"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 27</span> Which of these is not a risk factor for pancreatic adenocarcinoma?",
+    "options": [
+      "Smoking",
+      "Chronic pancreatitis",
+      "Alcohol consumption",
+      "Obesity "
+    ],
+    "answer": 2,
+    "answerText": "Alcohol consumption",
+    "explanation": "Alcohol is a risk factor for chronic pancreatitis but not a direct risk factor for pancreatic adenocarcinoma.  ⸻ ",
+    "userAnswer": null,
+    "qID": "gi s-inte-q27"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 28</span> Which of these viruses has fecal-oral transmission?",
+    "options": [
+      "HBV",
+      "HCV",
+      "HEV",
+      "HDV "
+    ],
+    "answer": 2,
+    "answerText": "HEV",
+    "explanation": "Hepatitis E virus (HEV) is transmitted via the fecal-oral route, especially in regions with poor sanitation.  ⸻ ",
+    "userAnswer": null,
+    "qID": "gi s-inte-q28"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 29</span> What is the most probable diagnosis of the patient with this serologic pattern? HBsAg: positive / Anti-HBc IgG: positive HBeAg: negative / Anti-HBe: positive",
+    "options": [
+      "Acute hepatitis B, high infectivity",
+      "Chronic hepatitis B, high infectivity",
+      "Chronic hepatitis B, low infectivity",
+      "Resolved infection "
+    ],
+    "answer": 2,
+    "answerText": "Chronic hepatitis B, low infectivity",
+    "explanation": "The presence of HBsAg and anti-HBc IgG indicates chronic infection, while the absence of HBeAg and presence of anti-HBe indicates a low-replicative, low-infectivity state.  ⸻ ",
+    "userAnswer": null,
+    "qID": "gi s-inte-q29"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 30</span> Which of these indicates severe acute HBV hepatitis?",
+    "options": [
+      "Low serum bilirubin",
+      "Leukocytosis",
+      "Elevated alkaline phosphatase",
+      "Positive HBeAg "
+    ],
+    "answer": 1,
+    "answerText": "Leukocytosis",
+    "explanation": "Severe acute hepatitis B is associated with systemic inflammatory responses, including leukocytosis and markedly elevated liver enzymes.  ⸻ ",
+    "userAnswer": null,
+    "qID": "gi s-inte-q30"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 31</span> Which of these factors is not a predisposing factor for cholesterol gallstone formation?",
+    "options": [
+      "Female sex",
+      "Obesity",
+      "Hemolysis",
+      "Rapid weight loss "
+    ],
+    "answer": 2,
+    "answerText": "Hemolysis",
+    "explanation": "Hemolysis predisposes to pigmented gallstones, not cholesterol stones.  ⸻ ",
+    "userAnswer": null,
+    "qID": "gi s-inte-q31"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch (2025) - Dr. Ali Al-Askari - Dr. Foroogh Alborzi - Dr. Seyed Farshad Allameh Question 32</span> Which of these is the better prognosis predictor in primary sclerosing cholangitis (PSC)?",
+    "options": [
+      "Increased bilirubin concentration",
+      "Bile duct PSC",
+      "Elevated ALP",
+      "AMA positivity "
+    ],
+    "answer": 1,
+    "answerText": "Bile duct PSC",
+    "explanation": "The extent of bile duct involvement is the most significant prognostic factor in PSC, with intrahepatic and extrahepatic disease associated with worse outcomes.",
+    "userAnswer": null,
+    "qID": "gi s-inte-q32"
+  }
+]
