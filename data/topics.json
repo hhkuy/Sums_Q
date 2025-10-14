@@ -454,10 +454,6 @@
         "file": "data/cardiovascular_system_(cvs)_internal_medicine.json"
       },
       {
-        "name": "Internal Medicine Retake",
-        "file": "data/cardiovascular_system_(cvs)_internal_medicine_retake.json"
-      },
-      {
         "name": "Pathology",
         "file": "data/cardiovascular_system_(cvs)_pathology.json"
       },
