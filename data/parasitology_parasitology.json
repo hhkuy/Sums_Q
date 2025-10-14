@@ -698,5 +698,355 @@
     "explanation": "Sarcoptes scabiei is known as the itch mite and causes scabies.",
     "userAnswer": null,
     "qID": "para-para-q50"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 1</span> Hyperinfection syndrome and dissemination are complications of which of the following parasitic diseases?",
+    "options": [
+      "trichostrongylosis",
+      "dicrocoeliasis",
+      "strongyloidiasis",
+      "trichuriasis"
+    ],
+    "answer": 2,
+    "answerText": "strongyloidiasis",
+    "explanation": "Strongyloides stercoralis can cause hyperinfection and disseminated disease in immunocompromised hosts due to autoinfection cycles, leading to migration of larvae beyond the intestines and lungs.  ",
+    "userAnswer": null,
+    "qID": "para-para-q51"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 2</span> In the life cycle of which of the following parasites, adult helminthes lodge in the human intestine and larvae burrow into the intestinal walls?",
+    "options": [
+      "Paragonimus westermani",
+      "Loa loa",
+      "Fasciola hepatica",
+      "Strongyloides stercoralis"
+    ],
+    "answer": 3,
+    "answerText": "Strongyloides stercoralis",
+    "explanation": "Strongyloides stercoralis adults inhabit the intestinal mucosa, and larvae can penetrate the intestinal wall or perianal skin, maintaining autoinfection.  ",
+    "userAnswer": null,
+    "qID": "para-para-q52"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 3</span> Which of the following anthelmintics is currently the drug of choice for schistosomiasis?",
+    "options": [
+      "amphotericin B",
+      "praziquantel",
+      "niclosamide",
+      "thiabendazole"
+    ],
+    "answer": 1,
+    "answerText": "praziquantel",
+    "explanation": "Praziquantel is effective against all species of Schistosoma by causing spastic paralysis of the worms, facilitating their removal by the immune system.  ",
+    "userAnswer": null,
+    "qID": "para-para-q53"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 4</span> Which of the following parasitic diseases leads to inflammation of bile ducts and abdominal right upper quadrant pain in the patients?",
+    "options": [
+      "enterobiasis",
+      "trichuriasis",
+      "onchocerciasis",
+      "fascioliasis"
+    ],
+    "answer": 3,
+    "answerText": "fascioliasis",
+    "explanation": "Fasciola hepatica infects the biliary system, causing cholangitis, right upper quadrant pain, and hepatomegaly.  ",
+    "userAnswer": null,
+    "qID": "para-para-q54"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 5</span> The use of scotch tape is a method of diagnosis for which of the following human infections?",
+    "options": [
+      "enterobiasis",
+      "hydatidosis",
+      "toxocariasis",
+      "fascioliasis"
+    ],
+    "answer": 0,
+    "answerText": "enterobiasis",
+    "explanation": "The scotch-tape test detects Enterobius vermicularis eggs around the perianal region, best performed early morning before washing.  ",
+    "userAnswer": null,
+    "qID": "para-para-q55"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 6</span> Which of the following options is an important intermediate host for Echinococcus granulosus?",
+    "options": [
+      "sheep",
+      "crab",
+      "mosquito",
+      "fish"
+    ],
+    "answer": 0,
+    "answerText": "sheep",
+    "explanation": "Echinococcus granulosus requires sheep as intermediate hosts, in which hydatid cysts develop; humans are accidental hosts.  ",
+    "userAnswer": null,
+    "qID": "para-para-q56"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 7</span> Contact of children with dogs and cats is an important risk factor for infectivity with which of the following infections?",
+    "options": [
+      "dicrocoeliasis",
+      "toxocariasis",
+      "onchocerciasis",
+      "enterobiasis"
+    ],
+    "answer": 1,
+    "answerText": "toxocariasis",
+    "explanation": "Toxocara canis and T. cati are transmitted from pet animals to humans via ingestion of embryonated eggs, causing visceral or ocular larva migrans.  ",
+    "userAnswer": null,
+    "qID": "para-para-q57"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 8</span> Intestinal blockage and Loffler’s syndrome are related to infectivity of human with which of the following helminthes?",
+    "options": [
+      "Clonorchis sinensis",
+      "Loa loa",
+      "Ascaris lumbricoides",
+      "Onchocerca volvulus"
+    ],
+    "answer": 2,
+    "answerText": "Ascaris lumbricoides",
+    "explanation": "Ascaris lumbricoides causes intestinal obstruction by heavy worm load and Löffler’s pneumonitis during larval lung migration.  ",
+    "userAnswer": null,
+    "qID": "para-para-q58"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 9</span> Which of the following options corresponds to the Swimmer’s itch?",
+    "options": [
+      "cercarial dermatitis",
+      "onchocercoma",
+      "prolapse of rectum",
+      "halzoun"
+    ],
+    "answer": 0,
+    "answerText": "cercarial dermatitis",
+    "explanation": "Swimmer’s itch results from skin penetration by cercariae of nonhuman schistosomes, producing pruritic papules.  ",
+    "userAnswer": null,
+    "qID": "para-para-q59"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 10</span> Discharge of active proglottids is related to infectivity of humans with which of the following parasites?",
+    "options": [
+      "Schistosoma haematobium",
+      "Toxocara canis",
+      "Fasciola hepatica",
+      "Taenia saginata"
+    ],
+    "answer": 3,
+    "answerText": "Taenia saginata",
+    "explanation": "Taenia saginata (beef tapeworm) releases motile proglottids actively from the anus, distinguishing it from T. solium.  ",
+    "userAnswer": null,
+    "qID": "para-para-q60"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 11</span> The use of mosquito nets is important in the control of which of the following parasitic infections?",
+    "options": [
+      "river blindness (onchocerciasis)",
+      "toxocariasis",
+      "cysticercosis",
+      "pinworm (oxyuruns)"
+    ],
+    "answer": 0,
+    "answerText": "river blindness (onchocerciasis)",
+    "explanation": "Onchocerca volvulus is transmitted by blackflies, but mosquito nets reduce exposure to insect vectors in endemic areas.  ",
+    "userAnswer": null,
+    "qID": "para-para-q61"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 12</span> Which of the following parasites can cause intestinal infections in humans?",
+    "options": [
+      "Toxoplasma",
+      "Babesia",
+      "Cryptosporidium",
+      "Plasmodium"
+    ],
+    "answer": 2,
+    "answerText": "Cryptosporidium",
+    "explanation": "Cryptosporidium parvum infects intestinal epithelium, causing diarrhea, particularly in immunocompromised hosts.  ",
+    "userAnswer": null,
+    "qID": "para-para-q62"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 13</span> Which of the following parasites is transmitted to human by the fecal-oral route?",
+    "options": [
+      "Cyclospora",
+      "Plasmodium",
+      "Babesia",
+      "Leishmania"
+    ],
+    "answer": 0,
+    "answerText": "Cyclospora",
+    "explanation": "Cyclospora cayetanensis spreads through ingestion of oocysts in contaminated food or water, causing prolonged watery diarrhea.  ",
+    "userAnswer": null,
+    "qID": "para-para-q63"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 14</span> Which of the following parasites completes its entire life cycle in a single host (Monoxenous)?",
+    "options": [
+      "Leishmania",
+      "Toxoplasma",
+      "Isospora",
+      "Plasmodium"
+    ],
+    "answer": 2,
+    "answerText": "Isospora",
+    "explanation": "Isospora belli completes its development in humans only, making it monoxenous.  ",
+    "userAnswer": null,
+    "qID": "para-para-q64"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 15</span> Which of the following stages can be seen in the babesiosis?",
+    "options": [
+      "Schizont",
+      "Ring",
+      "Gametocyte",
+      "Amoeboid trophozoite"
+    ],
+    "answer": 1,
+    "answerText": "Ring",
+    "explanation": "Babesia microti resembles the ring stage of Plasmodium but lacks pigment; seen within erythrocytes in tetrads (“Maltese cross”).  ",
+    "userAnswer": null,
+    "qID": "para-para-q65"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 16</span> Which of the following Plasmodium is malignant among the human malaria parasites?",
+    "options": [
+      "Plasmodium vivax",
+      "Plasmodium malariae",
+      "Plasmodium falciparum",
+      "Plasmodium ovale"
+    ],
+    "answer": 2,
+    "answerText": "Plasmodium falciparum",
+    "explanation": "P. falciparum causes severe, life-threatening malaria due to high parasitemia and cytoadherence.  ",
+    "userAnswer": null,
+    "qID": "para-para-q66"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 17</span> Which of the following protozoa is the primary agent of keratitis, particularly among contact lens users?",
+    "options": [
+      "Acanthamoeba T4",
+      "Naegleria fowleri",
+      "Entamoeba histolytica",
+      "Cryptosporidium parvum"
+    ],
+    "answer": 0,
+    "answerText": "Acanthamoeba T4",
+    "explanation": "Acanthamoeba keratitis occurs with poor contact lens hygiene, causing severe ocular pain and corneal ulceration.  ",
+    "userAnswer": null,
+    "qID": "para-para-q67"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 18</span> Which one of the following drugs is recommended for the treatment of vaginal trichomoniasis?",
+    "options": [
+      "Sulfamethoxazole",
+      "Pyrimethamine",
+      "Metronidazole",
+      "Furazolidone"
+    ],
+    "answer": 2,
+    "answerText": "Metronidazole",
+    "explanation": "Metronidazole is the treatment of choice for Trichomonas vaginalis infection; partners should be treated simultaneously.  ",
+    "userAnswer": null,
+    "qID": "para-para-q68"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 19</span> Which of the following amoebas is a pathogen in humans?",
+    "options": [
+      "Entamoeba dispar",
+      "Entamoeba gingivalis",
+      "Entamoeba coli",
+      "Entamoeba histolytica"
+    ],
+    "answer": 3,
+    "answerText": "Entamoeba histolytica",
+    "explanation": "E. histolytica is the only pathogenic intestinal amoeba, causing amoebic dysentery and liver abscess.  ",
+    "userAnswer": null,
+    "qID": "para-para-q69"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 20</span> The most important transmission route of Leishmania spp. from infected hosts to healthy individuals is by …",
+    "options": [
+      "placenta",
+      "phlebotomine bite",
+      "sexual contact",
+      "transfusion"
+    ],
+    "answer": 1,
+    "answerText": "phlebotomine bite",
+    "explanation": "Female sandflies (phlebotomine) transmit Leishmania promastigotes during their blood meal.  ",
+    "userAnswer": null,
+    "qID": "para-para-q70"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 21</span> “Direct Agglutination test (DAT)” as an appropriate serological test is recommended for the diagnosis of which one of the following clinical forms of leishmaniasis?",
+    "options": [
+      "Anthroponotic cutaneous leishmaniasis (ACL)",
+      "Zoonotic cutaneous leishmaniasis (ZCL)",
+      "Diffuse cutaneous leishmaniasis (DCL)",
+      "Visceral leishmaniasis (VL)"
+    ],
+    "answer": 3,
+    "answerText": "Visceral leishmaniasis (VL)",
+    "explanation": "DAT detects antibodies in visceral leishmaniasis (kala-azar), caused by L. donovani.  ",
+    "userAnswer": null,
+    "qID": "para-para-q71"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 22</span> “Winterbottom’s sign” is pathognomonic clinical feature of which parasitic disease?",
+    "options": [
+      "African trypanosomiasis",
+      "American trypanosomiasis",
+      "Visceral leishmaniasis",
+      "Amoebiasis"
+    ],
+    "answer": 0,
+    "answerText": "African trypanosomiasis",
+    "explanation": "Posterior cervical lymphadenopathy (Winterbottom’s sign) is characteristic of African sleeping sickness caused by Trypanosoma brucei gambiense.  ",
+    "userAnswer": null,
+    "qID": "para-para-q72"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 23</span> The term for “infestation with the larvae (maggots) of a dipterous fly” is:",
+    "options": [
+      "Itch",
+      "Filariasis",
+      "Myiasis",
+      "CCHF"
+    ],
+    "answer": 2,
+    "answerText": "Myiasis",
+    "explanation": "Myiasis occurs when fly larvae infest human tissue or wounds.  ",
+    "userAnswer": null,
+    "qID": "para-para-q73"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 24</span> Which of the following diseases is an arbovirus disease?",
+    "options": [
+      "Dengue fever",
+      "Trench fever",
+      "Polio",
+      "Malaria"
+    ],
+    "answer": 0,
+    "answerText": "Dengue fever",
+    "explanation": "Dengue virus (a flavivirus) is transmitted by Aedes aegypti mosquito and is an arthropod-borne (arbovirus) infection.  ",
+    "userAnswer": null,
+    "qID": "para-para-q74"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>First Batch Retake (2025-4-17) - Dr. Nateghpour & Dr. Mohebali & Dr. Kia & Dr. Sedaghat & Dr. Alireza Zahraei-Ramazani - Question 25</span> The pathogen responsible for louse-borne relapsing fever is:",
+    "options": [
+      "Borrelia burgdorferi",
+      "Borrelia recurrentis",
+      "Borrelia persica",
+      "Yersinia pestis"
+    ],
+    "answer": 1,
+    "answerText": "Borrelia recurrentis",
+    "explanation": "Borrelia recurrentis is transmitted by the human body louse, causing recurrent febrile episodes due to antigenic variation.",
+    "userAnswer": null,
+    "qID": "para-para-q75"
   }
 ]
