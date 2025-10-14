@@ -2252,5 +2252,411 @@
     "explanation": "The first step in hemostasis is vascular spasm, a reflex contraction of smooth muscle in the vessel wall that reduces blood flow following vascular injury.",
     "userAnswer": null,
     "qID": "card-phys-q161"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 1</span> When does the mitral valve open?",
+    "options": [
+      "Left ventricular pressure is less than aorta pressure",
+      "Left ventricular pressure is higher than aorta pressure",
+      "Left ventricular pressure is higher than left atrial pressure",
+      "Left ventricular pressure is less than left atrial pressure"
+    ],
+    "answer": 3,
+    "answerText": "Left ventricular pressure is less than left atrial pressure",
+    "explanation": "The mitral valve opens when left ventricular pressure falls below left atrial pressure, allowing blood to flow from the atrium to the ventricle during diastole.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q162"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 2</span> Which ion current leads to the depolarization phase of the action potential in SA node?",
+    "options": [
+      "Ca2+ efflux",
+      "Ca2+ influx",
+      "Na+ efflux",
+      "Na+ influx"
+    ],
+    "answer": 1,
+    "answerText": "Ca2+ influx",
+    "explanation": "Depolarization in the SA node is mainly caused by the influx of calcium ions through voltage-gated Ca2+ channels.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q163"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 3</span> Which one of the following effects take places in the AV node by sympathetic stimulation?",
+    "options": [
+      "An increase in prepotential steep",
+      "Hyperpolarization",
+      "A decrease in prepotential steep",
+      "A decrease in calcium influx"
+    ],
+    "answer": 0,
+    "answerText": "An increase in prepotential steep",
+    "explanation": "Sympathetic stimulation increases the slope of prepotential depolarization, enhancing the rate of impulse conduction in the AV node.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q164"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 4</span> How many degrees is the axis of lead II in the normal electrocardiogram?",
+    "options": [
+      "0",
+      "60",
+      "120",
+      "210"
+    ],
+    "answer": 1,
+    "answerText": "60",
+    "explanation": "The mean electrical axis of lead II in a normal ECG is approximately +60°, corresponding to the direction of overall ventricular depolarization.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q165"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 5</span> What is the PR interval on an ECG?",
+    "options": [
+      "From the beginning of the P wave to the beginning of the QRS complex",
+      "From the beginning of the P wave to the end of the QRS complex",
+      "From the end of the P wave to the beginning of the QRS complex",
+      "From the end of the P wave to the end of the QRS complex"
+    ],
+    "answer": 0,
+    "answerText": "From the beginning of the P wave to the beginning of the QRS complex",
+    "explanation": "The PR interval represents the time between the onset of atrial depolarization and the onset of ventricular depolarization.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q166"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 6</span> During diastole, in which phase the largest amount of blood enters the left ventricle from the left atrium?",
+    "options": [
+      "Isovolumic relaxation",
+      "First 1/3 of filling",
+      "Middle 1/3 of filling",
+      "Last 1/3 of filling"
+    ],
+    "answer": 1,
+    "answerText": "First 1/3 of filling",
+    "explanation": "The majority of ventricular filling occurs during the first third of diastole due to rapid passive blood flow from the atrium.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q167"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 7</span> What is the afterload in the right ventricle?",
+    "options": [
+      "The remaining volume of blood in the right ventricle at the end of systole",
+      "The volume of blood in the right ventricle at the end of diastole",
+      "Aorta pressure",
+      "Pulmonary arterial pressure"
+    ],
+    "answer": 3,
+    "answerText": "Pulmonary arterial pressure",
+    "explanation": "Afterload refers to the pressure the ventricle must overcome to eject blood; in the right ventricle, this is the pulmonary arterial pressure.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q168"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 8</span> What is the main function of chordae tendineae in atrioventricular valves?",
+    "options": [
+      "Opening the valves",
+      "Widening the valves by increasing the internal diameter",
+      "To prevent their bulging backward toward the atria during ventricular contraction",
+      "Close the valves"
+    ],
+    "answer": 2,
+    "answerText": "To prevent their bulging backward toward the atria during ventricular contraction",
+    "explanation": "Chordae tendineae prevent the inversion or prolapse of AV valves into the atria during ventricular contraction.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q169"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 9</span> What is the main source of energy production in the heart?",
+    "options": [
+      "Glucose",
+      "Lactate",
+      "Fatty acids",
+      "Amino acids"
+    ],
+    "answer": 2,
+    "answerText": "Fatty acids",
+    "explanation": "Under normal aerobic conditions, the heart primarily uses fatty acids as its main energy source.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q170"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 10</span> Which factor leads to an increase in oxygen consumption in the heart?",
+    "options": [
+      "Activation of sympathetic system",
+      "Activation of parasympathetic system",
+      "A decrease in the duration of contraction",
+      "A decrease in strength of contraction"
+    ],
+    "answer": 0,
+    "answerText": "Activation of sympathetic system",
+    "explanation": "Sympathetic activation increases heart rate and contractility, leading to higher oxygen consumption.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q171"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 11</span> If the radius of a vessel increases, what happens to its conductivity and velocity?",
+    "options": [
+      "Conductivity increases and velocity decreases",
+      "Conductivity decreases and velocity decreases",
+      "Conductivity decreases and velocity increases",
+      "Conductivity increases and velocity increases"
+    ],
+    "answer": 3,
+    "answerText": "Conductivity increases and velocity increases",
+    "explanation": "According to Poiseuille’s law, increasing vessel radius greatly increases blood flow and velocity due to reduced resistance.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q172"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 12</span> In …, huge volume of blood cause slight changes in pressure.",
+    "options": [
+      "Heart",
+      "Veins",
+      "Arteries",
+      "All vessels"
+    ],
+    "answer": 1,
+    "answerText": "Veins",
+    "explanation": "Veins are highly compliant and can hold large volumes of blood with minimal changes in pressure.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q173"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 13</span> Blood velocity is generally higher in which of the following?",
+    "options": [
+      "Veins",
+      "Capillaries",
+      "Arteries",
+      "Small veins"
+    ],
+    "answer": 2,
+    "answerText": "Arteries",
+    "explanation": "Blood velocity is highest in arteries due to their smaller total cross-sectional area compared to capillaries and veins.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q174"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 14</span> Which sentence about vein valves is not correct:",
+    "options": [
+      "They are one directional valve.",
+      "They can help push blood against gravity.",
+      "They are seen in arteries, too.",
+      "They can help venous return."
+    ],
+    "answer": 2,
+    "answerText": "They are seen in arteries, too.",
+    "explanation": "Valves are found only in veins, especially in limbs, to prevent backflow; they are not present in arteries.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q175"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 15</span> What is aorta pressure during systole and diastole:",
+    "options": [
+      "120–80 mmHg",
+      "80–80 mmHg",
+      "120–120 mmHg",
+      "10–80 mmHg"
+    ],
+    "answer": 0,
+    "answerText": "120–80 mmHg",
+    "explanation": "The normal aortic pressure ranges from about 120 mmHg during systole to 80 mmHg during diastole.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q176"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 16</span> The overall blood flow in the total circulation of an adult person at rest is about:",
+    "options": [
+      "5000 ml/min",
+      "1000 ml/min",
+      "120 ml/min",
+      "10000 ml/min"
+    ],
+    "answer": 0,
+    "answerText": "5000 ml/min",
+    "explanation": "The average cardiac output in a resting adult is approximately 5 liters per minute.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q177"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 17</span> Based on Ohm’s law, blood flow is … proportional to the pressure difference but … proportional to the resistance.",
+    "options": [
+      "Directly, inversely",
+      "Directly, directly",
+      "Inversely, inversely",
+      "Inversely, directly"
+    ],
+    "answer": 0,
+    "answerText": "Directly, inversely",
+    "explanation": "Blood flow increases with higher pressure difference and decreases with higher resistance.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q178"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 18</span> The tendency for turbulent flow is inversely proportional to which of the following factors?",
+    "options": [
+      "Increases the velocity of blood flow",
+      "Increases diameter of the blood vessel",
+      "Increases density of the blood",
+      "Increases viscosity of the blood"
+    ],
+    "answer": 3,
+    "answerText": "Increases viscosity of the blood",
+    "explanation": "Increased blood viscosity decreases turbulence and promotes laminar flow.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q179"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 19</span> In which blood vessels is the greatest reduction in pressure observed?",
+    "options": [
+      "Vena cava",
+      "Arterioles",
+      "Aorta",
+      "Capillaries"
+    ],
+    "answer": 1,
+    "answerText": "Arterioles",
+    "explanation": "Arterioles are the major site of resistance in circulation, where the greatest drop in blood pressure occurs.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q180"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 20</span> In the auscultatory method for measuring blood pressure, which sound corresponds to the systolic pressure?",
+    "options": [
+      "Second",
+      "Fifth",
+      "First",
+      "Third"
+    ],
+    "answer": 2,
+    "answerText": "First",
+    "explanation": "The first Korotkoff sound heard during cuff deflation represents the systolic blood pressure.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q181"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 21</span> What is normal pulse pressure considered in adults?",
+    "options": [
+      "10 mmHg",
+      "30 mmHg",
+      "40 mmHg",
+      "20 mmHg"
+    ],
+    "answer": 2,
+    "answerText": "40 mmHg",
+    "explanation": "Pulse pressure, the difference between systolic and diastolic pressure, is normally around 40 mmHg.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q182"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 22</span> Which type of blood flow is characterized by smooth, orderly movement?",
+    "options": [
+      "Turbulent flow",
+      "Laminar flow",
+      "Pulsatile flow",
+      "Steady flow"
+    ],
+    "answer": 1,
+    "answerText": "Laminar flow",
+    "explanation": "Laminar flow occurs when blood moves in parallel layers without disruption, minimizing resistance.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q183"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 23</span> What does \"compliance\" refer to in the context of blood vessels?",
+    "options": [
+      "The ability of blood vessels to change diameter",
+      "The ability of blood vessels to expand under pressure",
+      "The ability of blood vessels to constrict",
+      "The thickness of blood vessel walls"
+    ],
+    "answer": 1,
+    "answerText": "The ability of blood vessels to expand under pressure",
+    "explanation": "Compliance describes how easily a vessel expands when pressure increases; veins are highly compliant.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q184"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 24</span> Which vitamin deficiency leads to megaloblastic anemia?",
+    "options": [
+      "Vitamin B12 or folic acid",
+      "Vitamin C",
+      "Vitamin K",
+      "Vitamin D"
+    ],
+    "answer": 0,
+    "answerText": "Vitamin B12 or folic acid",
+    "explanation": "Deficiency of vitamin B12 or folate disrupts DNA synthesis, leading to megaloblastic anemia.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q185"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 25</span> Secondary polycythemia is most commonly caused by:",
+    "options": [
+      "Bone marrow failure",
+      "High altitude hypoxia",
+      "Vitamin B12 deficiency",
+      "Iron deficiency"
+    ],
+    "answer": 1,
+    "answerText": "High altitude hypoxia",
+    "explanation": "Chronic hypoxia at high altitudes stimulates erythropoietin production, leading to increased red cell mass.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q186"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 26</span> Which factor is essential for the conversion of prothrombin to thrombin?",
+    "options": [
+      "Factor VII",
+      "Factor VIII",
+      "Factor X and calcium",
+      "Factor XII"
+    ],
+    "answer": 2,
+    "answerText": "Factor X and calcium",
+    "explanation": "Prothrombin is converted to thrombin in the presence of activated Factor X (Xa) and calcium ions.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q187"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 27</span> Which vitamin is required for synthesis of prothrombin and clotting factors VII, IX, and X?",
+    "options": [
+      "Vitamin A",
+      "Vitamin B12",
+      "Vitamin K",
+      "Vitamin D"
+    ],
+    "answer": 2,
+    "answerText": "Vitamin K",
+    "explanation": "Vitamin K is essential for the hepatic synthesis of several clotting factors, including prothrombin.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q188"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 28</span> Which type of leukocyte is most abundant in normal circulating blood?",
+    "options": [
+      "Lymphocytes",
+      "Neutrophils",
+      "Monocytes",
+      "Eosinophils"
+    ],
+    "answer": 1,
+    "answerText": "Neutrophils",
+    "explanation": "Neutrophils constitute about 60–70% of circulating white blood cells, playing a key role in acute inflammation.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q189"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani&Ashabi& Ranjbran - Question 29</span> Which type of leukocyte is the first to arrive at a site of acute bacterial infection?",
+    "options": [
+      "Eosinophils",
+      "Basophils",
+      "Neutrophils",
+      "Monocytes"
+    ],
+    "answer": 2,
+    "answerText": "Neutrophils",
+    "explanation": "Neutrophils are the first responders during acute bacterial infections, responsible for phagocytosis of pathogens.",
+    "userAnswer": null,
+    "qID": "card-phys-q190"
   }
 ]
