@@ -1986,5 +1986,173 @@
     "explanation": "The chordae tendineae anchor the AV valve leaflets to the papillary muscles, preventing prolapse of the valves into the atria during systole.",
     "userAnswer": null,
     "qID": "card-phys-q142"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.Ashabi- Question 1</span> In which type of vessels, great reduction in blood pressure is seen?",
+    "options": [
+      "Vena cava",
+      "Arterioles",
+      "Aorta",
+      "Large arteries"
+    ],
+    "answer": 1,
+    "answerText": "Arterioles",
+    "explanation": "The greatest drop in blood pressure occurs in the arterioles because they offer the highest resistance to blood flow, regulating capillary perfusion.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q143"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.Ashabi- Question 2</span> During physical activity in a healthy individual, which of the following is more likely to occur in skeletal muscles during exercise?",
+    "options": [
+      "Vascular conductance",
+      "Blood flow",
+      "Arterial diameter",
+      "All of the above"
+    ],
+    "answer": 3,
+    "answerText": "All of the above",
+    "explanation": "During exercise, increased metabolic demand in skeletal muscles causes vasodilation, increasing arterial diameter, blood flow, and vascular conductance.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q144"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.Ashabi- Question 3</span> In which of the following is the tendency for turbulent flow greater?",
+    "options": [
+      "Arteries",
+      "Capillaries",
+      "Small arteries",
+      "Aorta"
+    ],
+    "answer": 3,
+    "answerText": "Aorta",
+    "explanation": "The aorta has the highest blood velocity and diameter, making it the most likely site for turbulent flow, especially during high cardiac output.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q145"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.Ashabi- Question 4</span> Which component of the circulatory system contains the highest percentage of total blood volume?",
+    "options": [
+      "Arteries",
+      "Capillaries",
+      "Veins",
+      "Pulmonary circulation"
+    ],
+    "answer": 2,
+    "answerText": "Veins",
+    "explanation": "Veins act as the main blood reservoir of the body, containing about 60–70% of total blood volume due to their high compliance.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q146"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.Ashabi- Question 5</span> A twofold increase in which of the following will result in the greatest increase in oxygen transfer across the capillary wall?",
+    "options": [
+      "Capillary hydrostatic pressure",
+      "Intercellular clefts in the capillary wall",
+      "Oxygen concentration gradient",
+      "Colloid osmotic pressure of plasma"
+    ],
+    "answer": 2,
+    "answerText": "Oxygen concentration gradient",
+    "explanation": "Oxygen diffusion across the capillary wall depends directly on the concentration gradient between blood and tissue; doubling this gradient greatly increases oxygen transfer.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q147"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.Ashabi- Question 6</span> Under controlled conditions, vascular blood flow is 100 mL/min with a pressure gradient of 50 mmHg. After tripling the diameter of the vessel, what will be the approximate flow in the vessel?",
+    "options": [
+      "3200 mL/min",
+      "8100 mL/min",
+      "1600 mL/min",
+      "2500 mL/min"
+    ],
+    "answer": 1,
+    "answerText": "8100 mL/min",
+    "explanation": "According to Poiseuille’s law, flow is proportional to the fourth power of the vessel radius; tripling the diameter increases flow by 3⁴ = 81 times, making flow approximately 8100 mL/min.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q148"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.Ashabi- Question 7</span> Which of the following capillaries has the lowest permeability to plasma molecules?",
+    "options": [
+      "Glomerular",
+      "Liver",
+      "Muscle",
+      "Brain"
+    ],
+    "answer": 3,
+    "answerText": "Brain",
+    "explanation": "Brain capillaries form the blood-brain barrier with tight junctions, resulting in minimal permeability to plasma molecules.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q149"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.Ashabi- Question 8</span> Which of the following vessels has the largest total cross-sectional area in the circulatory system?",
+    "options": [
+      "Aorta",
+      "Small arteries",
+      "Capillaries",
+      "Venules"
+    ],
+    "answer": 2,
+    "answerText": "Capillaries",
+    "explanation": "Capillaries collectively have the largest total cross-sectional area, which greatly slows blood velocity to allow for efficient exchange of gases and nutrients.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q150"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.Ashabi- Question 9</span> Which of the following causes an increase in pulse pressure in an individual?",
+    "options": [
+      "Decreased stroke volume",
+      "Increased arterial compliance",
+      "Hemorrhage",
+      "Atherosclerosis"
+    ],
+    "answer": 3,
+    "answerText": "Atherosclerosis",
+    "explanation": "Atherosclerosis reduces arterial compliance, increasing systolic pressure and widening pulse pressure.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q151"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.Ashabi- Question 10</span> Which part of the circulatory system has the highest vascular compliance?",
+    "options": [
+      "Capillaries",
+      "Small arteries",
+      "Veins",
+      "Aorta"
+    ],
+    "answer": 2,
+    "answerText": "Veins",
+    "explanation": "Veins are highly compliant and can accommodate large changes in blood volume with small changes in pressure.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q152"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.Ashabi- Question 11</span> A decrease in which of the following causes an increase in lymph flow?",
+    "options": [
+      "Capillary hydrostatic pressure",
+      "Colloid osmotic pressure of plasma",
+      "Lymphatic pump activity",
+      "Arterial diameter"
+    ],
+    "answer": 1,
+    "answerText": "Colloid osmotic pressure of plasma",
+    "explanation": "A decrease in plasma colloid osmotic pressure reduces fluid reabsorption, increasing interstitial fluid formation and lymph flow.  ",
+    "userAnswer": null,
+    "qID": "card-phys-q153"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025-dr.Ashabi- Question 12</span> Calculate the filtration coefficient based on ml/min/mmHg for a capillary bed with the following data: Colloid osmotic pressure of plasma = 30 mmHg, Capillary hydrostatic pressure = 40 mmHg, Interstitial hydrostatic pressure = -5 mmHg, Interstitial colloid osmotic pressure = 5 mmHg, Filtration rate = 200 mL/min, Venous hydrostatic pressure = 10 mmHg.",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "answer": 0,
+    "answerText": "10",
+    "explanation": "The net filtration pressure is 20 mmHg (40 - 30 + 5 - (-5)), so filtration coefficient = 200 ÷ 20 = 10 mL/min/mmHg.",
+    "userAnswer": null,
+    "qID": "card-phys-q154"
   }
 ]
