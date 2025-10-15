@@ -1,0 +1,36 @@
+# ----------------------------------------
+# Protect /questions-bank from direct access
+# Only allow when loaded with ?embed=1 (from WordPress iframe)
+# Redirect others to https://www.viatosis.ar.nf/qb/
+# ----------------------------------------
+
+Options -Indexes
+RewriteEngine On
+
+# =========================
+# 1) Allow static assets
+# =========================
+# نسمح للملفات الستاتيكية حتى تشتغل الصفحة داخل الإطار
+RewriteCond %{REQUEST_URI} \.(?:css|js|mjs|map|json|png|jpg|jpeg|gif|svg|webp|ico|woff2?|ttf|eot|mp3|mp4|wav|ogg|pdf)$ [NC]
+RewriteRule ^ - [L]
+
+# =========================
+# 2) If embed=1, allow
+# =========================
+RewriteCond %{QUERY_STRING} (?:^|&)embed=1(?:&|$) [NC]
+RewriteRule ^ - [L]
+
+# =========================
+# 3) Block direct views
+# =========================
+# فتح جذر المجلد مباشرة
+RewriteRule ^$ https://www.viatosis.ar.nf/qb/ [R=302,L]
+
+# فتح index.html مباشرة
+RewriteRule ^index\.html?$ https://www.viatosis.ar.nf/qb/ [R=302,L]
+
+# أي ملفات HTML/PHP أخرى (لو موجودة) تُحوَّل أيضاً
+RewriteRule \.(?:html?|php)$ https://www.viatosis.ar.nf/qb/ [R=302,L]
+
+# لأي طلبات أخرى غير مُطابقة أعلاه (مثل المسارات النظيفة لـ SPA) نُحوّل أيضاً
+RewriteRule ^ https://www.viatosis.ar.nf/qb/ [R=302,L]
