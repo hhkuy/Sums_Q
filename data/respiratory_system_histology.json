@@ -166,5 +166,103 @@
     "explanation": "Ectopic lung lobes arise from accessory respiratory buds during early lung development.",
     "userAnswer": null,
     "qID": "resp-hist-q12"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.Restager - Question 1</span> Which of these structures is NOT a difference between bronchi and bronchioles?",
+    "options": [
+      "Epithelial tissue",
+      "Cartilage",
+      "Glands",
+      "Club cells"
+    ],
+    "answer": 0,
+    "answerText": "Epithelial tissue",
+    "explanation": "Both bronchi and bronchioles are lined with epithelial tissue, though it becomes simpler in bronchioles. The main differences are: bronchi have cartilage and glands, while bronchioles do not and instead have club cells.  ",
+    "userAnswer": null,
+    "qID": "resp-hist-q13"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.Restager - Question 2</span> Which type of these cells are NOT in the microscopic structure of the respiratory epithelium?",
+    "options": [
+      "Kolchitsky",
+      "Goblet",
+      "Brush",
+      "Supporting"
+    ],
+    "answer": 3,
+    "answerText": "Supporting",
+    "explanation": "Supporting cells belong to the olfactory epithelium, not the respiratory one. Respiratory epithelium contains ciliated, goblet, brush, and basal (Kolchitsky) cells.  ",
+    "userAnswer": null,
+    "qID": "resp-hist-q14"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.Restager - Question 3</span> In the histological structure of the trachea:",
+    "options": [
+      "All epithelial cells have basophilic granules",
+      "The C-shaped cartilage is covered by periosteum",
+      "Seromucous glands in the lamina propria produce mucus",
+      "Hyaline C-shaped cartilage is outermost layer"
+    ],
+    "answer": 2,
+    "answerText": "Seromucous glands in the lamina propria produce mucus",
+    "explanation": "The seromucous glands in the lamina propria and submucosa of the trachea secrete mucus to moisten and protect the airway.  ",
+    "userAnswer": null,
+    "qID": "resp-hist-q15"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.Restager - Question 4</span> Where are the Bowman’s glands found?",
+    "options": [
+      "Submucosal layer of trachea",
+      "Lamina propria of bronchi",
+      "Olfactory epithelium",
+      "Respiratory epithelium of larynx"
+    ],
+    "answer": 2,
+    "answerText": "Olfactory epithelium",
+    "explanation": "Bowman’s glands are located in the lamina propria of the olfactory mucosa and produce a serous secretion that dissolves odorants.  ",
+    "userAnswer": null,
+    "qID": "resp-hist-q16"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.Restager - Question 5</span> What structures are present in the blood-air barrier?",
+    "options": [
+      "Pneumocytes Type I",
+      "Pneumocytes Type II",
+      "Pneumocytes Type III",
+      "Dust cells"
+    ],
+    "answer": 0,
+    "answerText": "Pneumocytes Type I",
+    "explanation": "The blood-air barrier is formed by Type I pneumocytes, fused basement membranes, and endothelial cells to allow gas exchange.  ",
+    "userAnswer": null,
+    "qID": "resp-hist-q17"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.Restager - Question 6</span> Which one of the following statements is TRUE about the Terminal Sac period?",
+    "options": [
+      "The bronchi will start forming at this period",
+      "Prematurely born fetuses are unable to survive",
+      "The epithelium of the terminal sacs will become very thick",
+      "Capillaries begin to bulge at this period"
+    ],
+    "answer": 3,
+    "answerText": "Capillaries begin to bulge at this period",
+    "explanation": "During the terminal sac period (26 weeks–birth), alveolar sacs develop and capillaries come into close contact with the alveolar epithelium, allowing potential respiration.  ",
+    "userAnswer": null,
+    "qID": "resp-hist-q18"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.Restager - Question 7</span> Which of the following lining the laryngotracheal diverticulum gives rise to the glands and muscles of the respiratory system, respectively?",
+    "options": [
+      "The endoderm – The mesoderm",
+      "The mesoderm – Laryngeal clefts",
+      "The endoderm – Laryngeal pouches",
+      "The mesoderm of 4th and 6th pair of pharyngeal arches"
+    ],
+    "answer": 0,
+    "answerText": "The endoderm – The mesoderm",
+    "explanation": "The endoderm of the laryngotracheal diverticulum forms the epithelium and glands of the respiratory system, while the splanchnic mesoderm forms the cartilage, muscles, and connective tissues.",
+    "userAnswer": null,
+    "qID": "resp-hist-q19"
   }
 ]
