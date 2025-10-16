@@ -614,5 +614,621 @@
     "explanation": "VRG (ventral respiratory group) activates accessory inspiratory muscles (sternocleidomastoid, scalenes) during deep breathing.",
     "userAnswer": null,
     "qID": "repr-phys-q44"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 1</span> Which one of the following increases the volume of the thoracic cage?",
+    "options": [
+      "Relaxation of the diaphragm",
+      "Contraction of internal intercostal muscles",
+      "Contraction of the sternocleidomastoid muscles",
+      "Relaxation of the scalenus muscles"
+    ],
+    "answer": 2,
+    "answerText": "Contraction of the sternocleidomastoid muscles",
+    "explanation": "Accessory inspiratory muscles like the sternocleidomastoid elevate the sternum, expanding thoracic volume during deep inspiration.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q45"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 2</span> What is the normal alveolar pressure (cmH₂O) at the beginning and end of normal inspiration, respectively?",
+    "options": [
+      "0 and -1",
+      "-1 and 0",
+      "0 and 0",
+      "-1 and -1"
+    ],
+    "answer": 2,
+    "answerText": "0 and 0",
+    "explanation": "At the start and end of inspiration, alveolar pressure equals atmospheric pressure (0 cmH₂O).  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q46"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 3</span> Which one of the following leads to an increase in diameter of airways?",
+    "options": [
+      "Histamine",
+      "Activation of β₂-adrenergic receptors",
+      "Stimulation of M₃ receptors",
+      "Vagus reflex"
+    ],
+    "answer": 1,
+    "answerText": "Activation of β₂-adrenergic receptors",
+    "explanation": "β₂-adrenergic stimulation relaxes smooth muscle → bronchodilation.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q47"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 4</span> If the tidal volume is 600 mL for a change in transpulmonary pressure of 3 cmH₂O, how much will the lung compliance be?",
+    "options": [
+      "100 mL/cmH₂O",
+      "200 mL/cmH₂O",
+      "800 mL/cmH₂O",
+      "1800 mL/cmH₂O"
+    ],
+    "answer": 1,
+    "answerText": "200 mL/cmH₂O",
+    "explanation": "Compliance = ΔV/ΔP = 600/3 = 200 mL/cmH₂O.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q48"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 5</span> What is the “Expiratory Reserve Volume”?",
+    "options": [
+      "The volume of air remaining in lungs after the most forceful expiration",
+      "The maximum amount of air a person can expel after full inspiration",
+      "The amount of air remaining in lungs at the end of normal expiration",
+      "The extra volume of air that can be expired by deep exhalation"
+    ],
+    "answer": 3,
+    "answerText": "The extra volume of air that can be expired by deep exhalation",
+    "explanation": "ERV is the additional air that can be forcefully exhaled after a normal breath.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q49"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 6</span> Which zone of the lung has continued blood flow?",
+    "options": [
+      "Zone I at the top of the upright lung",
+      "Zone II at the top of the upright lung",
+      "Zone III at the bottom of the upright lung",
+      "Zone II during exercise"
+    ],
+    "answer": 2,
+    "answerText": "Zone III at the bottom of the upright lung",
+    "explanation": "Zone III maintains continuous blood flow since pulmonary arterial pressure > alveolar pressure throughout the cycle.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q50"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 7</span> In normal condition, what are the alveolar and arterial blood O₂ pressures respectively?",
+    "options": [
+      "104 and 104 mmHg",
+      "95 and 95 mmHg",
+      "95 and 104 mmHg",
+      "104 and 95 mmHg"
+    ],
+    "answer": 3,
+    "answerText": "104 and 95 mmHg",
+    "explanation": "Alveolar PO₂ ≈ 104 mmHg; arterial PO₂ ≈ 95 mmHg due to physiologic shunt.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q51"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 8</span> What is the hypoxia-induced vasoconstriction mechanism?",
+    "options": [
+      "↓Alveolar PO₂ < 60 → ↑flow",
+      "↓Alveolar PO₂ < 73 → ↓flow",
+      "↓Alveolar PO₂ < 104 → ↓flow",
+      "↓Alveolar PO₂ < 73 → ↑flow"
+    ],
+    "answer": 1,
+    "answerText": "↓Alveolar PO₂ < 73 → ↓flow",
+    "explanation": "Pulmonary vessels constrict in response to alveolar hypoxia to redirect blood to better-ventilated regions.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q52"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 9</span> What happens to the rate of O₂ diffusion when respiratory membrane surface is reduced by half?",
+    "options": [
+      "Doubles",
+      "Decreases to one-sixteenth",
+      "Increases 16-fold",
+      "Decreases by half"
+    ],
+    "answer": 3,
+    "answerText": "Decreases by half",
+    "explanation": "Diffusion rate ∝ surface area → halving area halves diffusion.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q53"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 10</span> Which center generates the ramp signal?",
+    "options": [
+      "Dorsal respiratory group (DRG)",
+      "Ventral respiratory group (VRG)",
+      "Pneumotaxic center",
+      "Apneustic center"
+    ],
+    "answer": 0,
+    "answerText": "Dorsal respiratory group (DRG)",
+    "explanation": "DRG in medulla controls inspiration and generates the ramp signal for smooth breathing.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q54"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 11</span> Which one is the primary stimulus for the chemosensitive area?",
+    "options": [
+      "Oxygen",
+      "Hydrogen ions",
+      "Carbon monoxide",
+      "Nitrogen"
+    ],
+    "answer": 1,
+    "answerText": "Hydrogen ions",
+    "explanation": "Central chemoreceptors in medulla respond mainly to H⁺ (from CO₂) in CSF.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q55"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 12</span> Which ion has a higher concentration in RBCs of venous blood than arterial blood?",
+    "options": [
+      "Cl⁻",
+      "HCO₃⁻",
+      "H⁺",
+      "Fe²⁺"
+    ],
+    "answer": 0,
+    "answerText": "Cl⁻",
+    "explanation": "Chloride shift (Hamburger phenomenon) increases Cl⁻ inside RBCs in venous blood.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q56"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 13</span> What condition causes a physiologic shunt?",
+    "options": [
+      "↓V/Q at top of lung to 0.6",
+      "Mixture of pulmonary vein blood with bronchial vein blood",
+      "↑V/Q to 2.5 at bottom of lung",
+      "↓V/Q at bottom of lung to 0.6"
+    ],
+    "answer": 1,
+    "answerText": "Mixture of pulmonary vein blood with bronchial vein blood",
+    "explanation": "Physiologic shunt occurs when venous blood bypasses alveoli and mixes with oxygenated blood.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q57"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 14</span> Which is correct about the oxygen utilization coefficient?",
+    "options": [
+      "It increases only twice during heavy exercise",
+      "It can triple during heavy exercise",
+      "At rest, its normal level = 40 %",
+      "It decreases with metabolism increase"
+    ],
+    "answer": 1,
+    "answerText": "It can triple during heavy exercise",
+    "explanation": "During heavy exercise, tissues extract more oxygen—utilization coefficient can rise ≈ 3×.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q58"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 15</span> What factor increases lung compliance?",
+    "options": [
+      "↑elastin & collagen",
+      "↓surface tension",
+      "Removing surfactant",
+      "↑elastic forces"
+    ],
+    "answer": 1,
+    "answerText": "↓surface tension",
+    "explanation": "Surfactant lowers surface tension, increasing compliance.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q59"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 16</span> An increase in which factor increases hemoglobin’s O₂ affinity?",
+    "options": [
+      "Body temperature",
+      "pH",
+      "CO₂ pressure",
+      "BPG concentration"
+    ],
+    "answer": 1,
+    "answerText": "pH",
+    "explanation": "↑pH (alkalosis) shifts O₂-Hb dissociation curve left (Bohr effect).  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q60"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 17</span> Which of the following is NOT part of the respiratory membrane?",
+    "options": [
+      "Fluid layer with surfactant",
+      "Basement membranes of endothelium and alveoli",
+      "Type I alveolar cells",
+      "Smooth muscle cells around endothelium"
+    ],
+    "answer": 3,
+    "answerText": "Smooth muscle cells around endothelium",
+    "explanation": "The respiratory membrane is thin and lacks smooth muscle.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q61"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 18</span> If O₂ diffusing capacity = 12 mL/min/mmHg, what is CO₂ diffusing capacity?",
+    "options": [
+      "12",
+      "120",
+      "240",
+      "360"
+    ],
+    "answer": 2,
+    "answerText": "240",
+    "explanation": "CO₂ diffuses ≈ 20× faster → 12 × 20 = 240 mL/min/mmHg.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q62"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 19</span> Which occurs during normal inspiration?",
+    "options": [
+      "Phrenic nerves inhibited",
+      "Phrenic nerves activated, pleural pressure ↓, alveolar pressure ↓",
+      "Phrenic nerves activated, pleural pressure ↑",
+      "Diaphragm contracts, pleural pressure ↑"
+    ],
+    "answer": 1,
+    "answerText": "Phrenic nerves activated, pleural pressure ↓, alveolar pressure ↓",
+    "explanation": "Diaphragm contraction (via phrenic nerves) lowers pleural and alveolar pressure → air inflow.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q63"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 20</span> Which statement is CORRECT about pulmonary surfactant?",
+    "options": [
+      "Thyroid hormone increases surfactant",
+      "Produced in Type I cells",
+      "Mainly proteins",
+      "Increased by insulin"
+    ],
+    "answer": 0,
+    "answerText": "Thyroid hormone increases surfactant",
+    "explanation": "Thyroid hormones and cortisol stimulate Type II pneumocytes to produce surfactant.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q64"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 21</span> Which factor has no effect on pulmonary blood flow distribution in lung zones?",
+    "options": [
+      "Gravity",
+      "Exercise",
+      "Surface tension",
+      "Alveolar pressure"
+    ],
+    "answer": 2,
+    "answerText": "Surface tension",
+    "explanation": "Surface tension affects alveoli, not vascular perfusion distribution.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q65"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 22</span> Which respiratory center provides action potentials for accessory inspiratory muscles during deep inspiration?",
+    "options": [
+      "DRG",
+      "VRG",
+      "Pneumotaxic center",
+      "Chemosensitive area"
+    ],
+    "answer": 1,
+    "answerText": "VRG",
+    "explanation": "VRG (ventral respiratory group) activates accessory inspiratory muscles (sternocleidomastoid, scalenes) during deep breathing. ",
+    "userAnswer": null,
+    "qID": "repr-phys-q66"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 23</span> What is the effect of parasympathetic nervous system activation on airways?",
+    "options": [
+      "Increasing anatomic dead space",
+      "Bronchodilation",
+      "Bronchoconstriction",
+      "Histamine release and allergic reaction"
+    ],
+    "answer": 2,
+    "answerText": "Bronchoconstriction",
+    "explanation": "Parasympathetic stimulation via the vagus nerve releases acetylcholine, which acts on M₃ receptors causing bronchoconstriction.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q67"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 24</span> Which of the following occurs during normal inspiration?",
+    "options": [
+      "Diaphragm contraction",
+      "Diaphragm relaxation",
+      "Contraction of internal intercostal muscles",
+      "Relaxation of internal intercostal muscles"
+    ],
+    "answer": 0,
+    "answerText": "Diaphragm contraction",
+    "explanation": "Diaphragm contraction increases thoracic volume and decreases intrathoracic pressure, drawing air in.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q68"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 25</span> Which one of the following can’t be directly measured by spirometry?",
+    "options": [
+      "Tidal volume",
+      "Residual volume",
+      "Inspiratory reserve volume",
+      "Expiratory reserve volume"
+    ],
+    "answer": 1,
+    "answerText": "Residual volume",
+    "explanation": "Residual volume (air remaining after maximum expiration) cannot be measured by spirometry.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q69"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 26</span> Which gas is used for estimating the diffusing capacity of O₂ in the lung?",
+    "options": [
+      "CO",
+      "O₂",
+      "CO₂",
+      "Helium"
+    ],
+    "answer": 0,
+    "answerText": "CO",
+    "explanation": "CO is used because it has a high affinity for hemoglobin and negligible back pressure, accurately reflecting diffusion ability.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q70"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 27</span> Which muscle has a role in deep expiration?",
+    "options": [
+      "Scalene",
+      "Anterior serrati",
+      "Sternocleidomastoid",
+      "The abdominal recti"
+    ],
+    "answer": 3,
+    "answerText": "The abdominal recti",
+    "explanation": "Abdominal muscles contract during forced expiration, pushing the diaphragm upward.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q71"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 28</span> What is the amount of transpulmonary pressure at the beginning of normal inspiration?",
+    "options": [
+      "-7.5 cm H₂O",
+      "+7.5 cm H₂O",
+      "-5 cm H₂O",
+      "+5 cm H₂O"
+    ],
+    "answer": 3,
+    "answerText": "+5 cm H₂O",
+    "explanation": "Transpulmonary pressure (alveolar - pleural pressure) is positive (+5 cm H₂O), keeping alveoli open.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q72"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 29</span> What is the effect of surfactant on lung compliance?",
+    "options": [
+      "It depends on the amount of pleural pressure",
+      "Leads to a decrease",
+      "Leads to an increase",
+      "Has no effect"
+    ],
+    "answer": 2,
+    "answerText": "Leads to an increase",
+    "explanation": "Surfactant reduces surface tension, making alveoli easier to expand, increasing compliance.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q73"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 30</span> What is the residual volume?",
+    "options": [
+      "The volume of air remaining in the lungs after the most forceful expiration",
+      "The maximum air that can be expelled",
+      "The air remaining at the end of normal expiration",
+      "The extra air expired by deep exhalation"
+    ],
+    "answer": 0,
+    "answerText": "The volume of air remaining in the lungs after the most forceful expiration",
+    "explanation": "Residual volume prevents lung collapse by maintaining air in the alveoli.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q74"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 31</span> Which zone of the lung has blood flow during both systole and diastole in standing position?",
+    "options": [
+      "Zone I",
+      "Zone II",
+      "Zone III",
+      "Zone IV"
+    ],
+    "answer": 2,
+    "answerText": "Zone III",
+    "explanation": "Zone III (base of lung) has continuous blood flow since pulmonary arterial pressure > alveolar pressure throughout.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q75"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 32</span> Which one of the following decreases the affinity of hemoglobin for O₂?",
+    "options": [
+      "An increase in pH",
+      "A decrease in CO₂ pressure",
+      "A decrease in DPG concentration",
+      "An increase in body temperature"
+    ],
+    "answer": 3,
+    "answerText": "An increase in body temperature",
+    "explanation": "High temperature shifts the oxygen-hemoglobin dissociation curve to the right (Bohr effect).  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q76"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 33</span> What is the “anatomical shunt”?",
+    "options": [
+      "Decreasing ventilation/perfusion ratio (Vᴀ/Q) to zero",
+      "Mixture of pulmonary vein blood with bronchial vein blood",
+      "Increasing of Vᴀ/Q ratio 2.5 times more than normal amount",
+      "Mixture of pulmonary arterial and venous blood"
+    ],
+    "answer": 1,
+    "answerText": "Mixture of pulmonary vein blood with bronchial vein blood",
+    "explanation": "Anatomical shunt is caused by venous admixture from bronchial and thebesian veins.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q77"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 34</span> What changes are happened in the breathing pattern by increasing the activity of the pneumotaxic center?",
+    "options": [
+      "Inspiration and expiration become deeper",
+      "The breathing rate increases",
+      "The tidal volume increases",
+      "It doesn’t make a change"
+    ],
+    "answer": 1,
+    "answerText": "The breathing rate increases",
+    "explanation": "The pneumotaxic center shortens inspiration, increasing the rate of breathing.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q78"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 35</span> Which one is correct about ventilation and perfusion in the lungs?",
+    "options": [
+      "The blood flow decreases from the top of the lung to bottom",
+      "The ventilation to perfusion ratio (Vᴀ/Q) increases from top of the lung to bottom",
+      "The ventilation increases from the top of the lung to the bottom",
+      "Vᴀ/Q ratio is same for all levels of the lung in upright person"
+    ],
+    "answer": 2,
+    "answerText": "The ventilation increases from the top of the lung to the bottom",
+    "explanation": "Both ventilation and perfusion increase from apex to base, but perfusion increases more steeply.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q79"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 36</span> What is the normal value of CO₂ pressure in systemic arterial blood?",
+    "options": [
+      "104 mmHg",
+      "95 mmHg",
+      "45 mmHg",
+      "40 mmHg"
+    ],
+    "answer": 3,
+    "answerText": "40 mmHg",
+    "explanation": "Normal arterial PCO₂ is about 40 mmHg.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q80"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 37</span> What is the maximum amount of CO₂ transportation in the blood?",
+    "options": [
+      "As bicarbonate",
+      "Dissolved in the blood",
+      "Bound to the hemoglobin",
+      "As carboxyhemoglobin"
+    ],
+    "answer": 0,
+    "answerText": "As bicarbonate",
+    "explanation": "70–80% of CO₂ is carried as bicarbonate in plasma and RBCs.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q81"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 38</span> What is the normal value of utilization coefficient for O₂ in a normal condition?",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "35%"
+    ],
+    "answer": 1,
+    "answerText": "25%",
+    "explanation": "At rest, tissues extract about 25% of oxygen from arterial blood.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q82"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 39</span> Which one is correct about the role of the dorsal respiratory group in medulla?",
+    "options": [
+      "Become active during deep expiration",
+      "Inhibits the pneumotaxic center in pons",
+      "Become active during deep inspiration",
+      "Sends its action potential to phrenic nerves"
+    ],
+    "answer": 3,
+    "answerText": "Sends its action potential to phrenic nerves",
+    "explanation": "DRG neurons send rhythmic impulses to the diaphragm via phrenic nerves.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q83"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 40</span> In a patient with pulmonary fibrosis, for a pressure difference of 4 mmHg between the two sides of the respiratory membrane, the amount of 400 mL of CO₂ is exchanged per minute, what will be the diffusing capacity of this gas?",
+    "options": [
+      "25 mL/min/mmHg",
+      "50 mL/min/mmHg",
+      "100 mL/min/mmHg",
+      "200 mL/min/mmHg"
+    ],
+    "answer": 2,
+    "answerText": "100 mL/min/mmHg",
+    "explanation": "Diffusing capacity = 400 ÷ 4 = 100 mL/min/mmHg.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q84"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 41</span> Which gas is used for estimating of “diffusing capacity of O₂” in the lung?",
+    "options": [
+      "CO₂",
+      "CO",
+      "O₂",
+      "He"
+    ],
+    "answer": 1,
+    "answerText": "CO",
+    "explanation": "CO is ideal for measuring diffusion capacity due to its high hemoglobin affinity and negligible back pressure.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q85"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 42</span> What is the normal pleural pressure at the beginning and end of normal expiration, respectively?",
+    "options": [
+      "-7.5 and -5 cmH₂O",
+      "-7.5 and 0 cmH₂O",
+      "-5 and -7.5 cmH₂O",
+      "-5 and 0 cmH₂O"
+    ],
+    "answer": 2,
+    "answerText": "-5 and -7.5 cmH₂O",
+    "explanation": "Pleural pressure is around -5 cmH₂O at rest and becomes more negative (-7.5) during inspiration.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q86"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 43</span> How much cilia are there on each epithelial cell in the mucociliary system in airways?",
+    "options": [
+      "20",
+      "200",
+      "2000",
+      "20000"
+    ],
+    "answer": 1,
+    "answerText": "200",
+    "explanation": "Each ciliated epithelial cell in the respiratory tract has about 200 cilia to move mucus.  ",
+    "userAnswer": null,
+    "qID": "repr-phys-q87"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Retake - Dr.imani - Question 44</span> Which one of the following respiratory works is less than others?",
+    "options": [
+      "Compliance work",
+      "Airway resistance work",
+      "Tissue resistance work",
+      "All the works are equal"
+    ],
+    "answer": 1,
+    "answerText": "Airway resistance work",
+    "explanation": "Under normal conditions, airway resistance work is the smallest component of total respiratory work.",
+    "userAnswer": null,
+    "qID": "repr-phys-q88"
   }
 ]
