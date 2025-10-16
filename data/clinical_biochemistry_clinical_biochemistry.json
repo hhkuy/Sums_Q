@@ -1286,5 +1286,473 @@
     "explanation": "Thiophorase (also known as succinyl-CoA:acetoacetate CoA transferase) catalyzes the conversion of acetoacetate to acetoacetyl-CoA for energy production.",
     "userAnswer": null,
     "qID": "clin-clin-q92"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 1</span> Which of the following statements about Low density lipoprotein (LDL) is correct? a) LDL lipoproteins are only synthesized in the liver. b) LDL lipoproteins mainly transport triacylglycerols to peripheral tissues. c) LDL lipoproteins transfer cholesterol all tissues. *** d) LDL lipoproteins cannot be endocytosed by the liver.",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "LDL lipoproteins are responsible for transporting cholesterol from the liver to peripheral tissues, making them the primary carriers of cholesterol in the blood.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q93"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 2</span> The key regulatory enzyme of ketonodics synthesis is- a) HMG-CoA synthase b) HMG CoA lyase *** c) HMG CoA reductase d) Mevalonate kinase",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "HMG CoA lyase is the key enzyme in ketone body synthesis, catalyzing the conversion of HMG CoA to acetoacetate.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q94"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 3</span> All are conditions of ketosis EXCEPT one – a) Starvation b) Uncontrolled diabetes mellitus c) High carbohydrate diet *** d) Alcohol consumption",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Ketosis occurs during low carbohydrate availability such as starvation or diabetes; a high carbohydrate diet suppresses ketone formation.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q95"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 4</span> All are ketonbodies EXCEPT one – a) Acetone b) Acetoacetate c) Beta-hydroxy butyrate d) Citric Acid ***",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Citric acid is a TCA cycle intermediate, not a ketone body; the true ketone bodies are acetoacetate, β-hydroxybutyrate, and acetone.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q96"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 5</span> The key regulatory enzyme of bile acids synthesis is a) Acyl CoA synthetase b) Acetyl CoA carboxylase c) Keto acyl synthase d) 7-alfa Hydroxylase ***",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "7-alpha hydroxylase catalyzes the rate-limiting step in bile acid synthesis from cholesterol in the liver.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q97"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 6</span> Gallbladder juice does not contain which of the following a) Bile salts b) Phospholipase A2 c) Bilirubin d) Lipoprotein lipase ***",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Gallbladder juice contains bile salts, bilirubin, and phospholipids but not lipoprotein lipase, which acts in plasma to hydrolyze triglycerides.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q98"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 7</span> Which of the following statements about the integration of fat and carbohydrate metabolism control is correct? a) High insulin/glucagon ratio inhibits lipogenesis in liver. b) High insulin/glucagon ratio activates lipolysis in muscle. c) Low insulin/glucagon ratio activates lipolysis in adipocytes. *** d) Insulin activates liver cell membrane glucose transporters.",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "A low insulin/glucagon ratio (as in fasting) stimulates lipolysis in adipose tissue, releasing free fatty acids for energy.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q99"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 8</span> All of the following statements about β-oxidation of fatty acids IS TRUE EXCEPT? A) It occurs in the long fasting B) It is stimulated by cortisol and glucagon C) It occurs in the mitochondria and generates acetyl-CoA D) It leads directly to glucose synthesis ***",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "β-oxidation produces acetyl-CoA for energy but does not directly generate glucose because acetyl-CoA cannot be converted to glucose.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q100"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 9</span> Which of the following best describes the function of lipoprotein lipase (LPL)? A) Synthesizes triglycerides in the liver B) Hydrolyzes triglycerides in chylomicrons and VLDL to free fatty acids *** C) Transports cholesterol into hepatocytes D) Converts cholesterol to bile acids in the liver",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Lipoprotein lipase hydrolyzes triglycerides in circulating lipoproteins, releasing free fatty acids for tissue uptake and energy use.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q101"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 10</span> During prolonged fasting or starvation, the muscles lately switches to using which of the following energy sources? A) Glucose B) Fatty acids C) Ketone bodies *** D) Glycogen",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "During prolonged fasting, muscle tissue increasingly uses ketone bodies as an energy source, sparing glucose for the brain.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q102"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 11</span> Which of the following conditions is most likely to reduce plasma VLDL levels? A) High-fiber diet *** B) High-carbohydrate intake C) High-fat diets D) Long fasting",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "A high-fiber diet reduces VLDL levels by improving lipid metabolism and enhancing cholesterol excretion.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q103"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 12</span> A 4-year-old child presents with failure to thrive and chronic diarrhea. Stool analysis reveals an absence of steatorrhea despite low dietary fat intake. Further testing shows that most of the fats in the child’s diet are short- and medium-chain fatty acids. Which of the following best describes how these fatty acids are absorbed? A) They require micelles for intestinal absorption B) They are absorbed directly into the portal vein *** C) They are poorly absorbed by enterocytes D) They are packaged into lipoproteins for transport",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Short- and medium-chain fatty acids are directly absorbed into the portal vein without the need for micelle formation or chylomicron packaging.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q104"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 13</span> A 52-year-old woman with a BMI of 34 kg/m² is concerned about her weight and has not achieved significant results with diet and exercise. Her physician prescribes a medication that inhibits gastric and pancreatic lipases, leading to decreased fat absorption. Which of the following drugs was most likely prescribed? A) Ezetimibe B) Orlistat *** C) Statins D) Bile acid sequestrants",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Orlistat inhibits gastric and pancreatic lipases, preventing the breakdown and absorption of dietary fats, thus aiding in weight reduction. ",
+    "userAnswer": null,
+    "qID": "clin-clin-q105"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 14</span> A healthy 25-year-old man is fasting for 24 hours as part of a religious observance. Which of the following processes would NOT be expected to occur during this fasting state? A) Epinephrine triggers glycogen breakdown in the liver B) Glucagon promotes gluconeogenesis in the liver *** C) Glucagon stimulates glycogen synthesis in the liver D) Low baseline insulin secretion continues from pancreatic β-cells",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "During fasting, glucagon stimulates gluconeogenesis and glycogen breakdown, not glycogen synthesis.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q106"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 15</span> A 40-year-old marathon runner completes a 36-hour fast to prepare for a metabolic physiology study. During the fasting period, ketone body metabolism is evaluated in different tissues. Which of the following tissues is INCORRECTLY paired with its role in ketone body metabolism? A) Skeletal muscle — production *** B) Liver — production C) Cardiac muscle — utilization D) Kidney — utilization",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "The liver produces ketone bodies but does not use them. Skeletal muscle and cardiac muscle utilize ketone bodies for energy.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q107"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 16</span> A 58-year-old man with hyperlipidemia is started on a drug that lowers cholesterol by inhibiting HMG-CoA reductase, the rate-limiting enzyme in cholesterol biosynthesis. Which of the following drugs was most likely prescribed? A) Orlistat B) Statins *** C) Ezetimibe D) Choline",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Statins inhibit HMG-CoA reductase, decreasing cholesterol synthesis and increasing LDL receptor expression.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q108"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 17</span> Which vitamin is required as a coenzyme for transamination? a) Nicotinamide adenine dinucleotide (NAD) b) Pyridoxal-5'-phosphate (PLP) *** c) Flavin mononucleotide (FMN) d) Flavin adenine dinucleotide (FAD)",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Pyridoxal-5'-phosphate (vitamin B6 derivative) acts as a coenzyme for aminotransferases in transamination reactions.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q109"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 18</span> Which amino acids are exclusively ketogenic? a) Alanine and cysteine b) Histidine and valine c) Leucine and lysine *** d) Tyrosine and proline",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Leucine and lysine are purely ketogenic amino acids because they are converted into acetyl-CoA or acetoacetate, not glucose.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q110"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 19</span> Maple syrup disease is a disorder due to a deficiency of pathway that degrades: a) Tyrosine b) Methionine c) Tryptophan d) Isoleucine ***",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Maple syrup urine disease results from defective branched-chain α-ketoacid dehydrogenase affecting degradation of leucine, isoleucine, and valine.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q111"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 20</span> Identify the amino acid that participates in methyl group transfer: a) Methionine *** b) Lysine c) Serine d) Valine",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Methionine provides methyl groups through S-adenosylmethionine (SAM), a major methyl group donor in metabolism.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q112"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 21</span> Histamine, a chemical mediator of allergies and anaphylaxis, is synthesized from amino acid Histidine by which of the following reaction? a) Demethylation b) Hydrogenation c) Decarboxylation *** d) Oxygenation",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Histamine is formed by decarboxylation of histidine via the enzyme histidine decarboxylase.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q113"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 22</span> Amino acids are released into the portal system by: a) Pinocytosis b) Active transport c) Facilitated diffusion *** d) Passive transport",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Amino acids are absorbed by carrier-mediated facilitated diffusion into the portal vein after intestinal digestion.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q114"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 23</span> For the ATP-dependent proteasome system, which of the following proteins is required to degrade proteins? a) Cyclin b) Cytochrome c) Ubiquitin *** d) Histone",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Ubiquitin tags damaged or misfolded proteins for degradation by the proteasome in an ATP-dependent process.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q115"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 24</span> Which of the following enzyme is deficient in Phenylketonuria (PKU)? a) Homogentisate dioxygenase b) p-Hydroxyphenyl-pyruvate dioxygenase c) Phenylalanine hydroxylase *** d) Tyrosinase",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Phenylketonuria is caused by a deficiency of phenylalanine hydroxylase, leading to accumulation of phenylalanine and its toxic metabolites.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q116"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 25</span> Which of the following enzyme is small enough to pass through the glomeruli of the kidneys? a) Acid Phosphatase b) Amylase *** c) Nucleotidase d) Aminotransferase",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Amylase is a small molecular weight enzyme that can pass through the glomeruli and appear in the urine.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q117"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 26</span> What enzyme in the body is measured to diagnose rhabdomyolysis? a) Lipase b) Nucleotidase c) Creatine kinase *** d) Glutamyltransferase",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Creatine kinase (CK) is elevated in rhabdomyolysis due to muscle breakdown releasing CK into the bloodstream.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q118"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 27</span> Which of the following are the most important cause of increased alkaline phosphatase activity in serum? a) Liver disease, heart attack b) Heart attack, prostate disease c) Liver disease, bone disease *** d) Bone disease, prostate disease",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Alkaline phosphatase is mainly increased in liver and bone disorders due to high osteoblastic or hepatocellular activity.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q119"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 28</span> All of the following are pancreatic specific enzymes, except? a) Lipase b) Aldolase *** c) Trypsin d) Amylase",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Aldolase is a glycolytic enzyme found in muscle, not a pancreatic enzyme. Pancreatic enzymes include lipase, trypsin, and amylase.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q120"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 29</span> What are the main products made by the pentose phosphate pathway? a) ATP and NADH b) NADH and FADH2 c) NADPH and Ribose-5-phosphate *** d) FADH2 and GTP",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "The pentose phosphate pathway produces NADPH for reductive biosynthesis and ribose-5-phosphate for nucleotide synthesis.   ",
+    "userAnswer": null,
+    "qID": "clin-clin-q121"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 30</span> What happens in muscles when too much lactate builds up during hard exercise? a) Hyperglycemia b) Metabolic alkalosis c) Muscle fatigue *** d) Hypercalcemia",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Excess lactate lowers pH and contributes to muscle fatigue during intense anaerobic exercise.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q122"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 31</span> What can happen if the liver has impaired gluconeogenesis? a) Persistent hyperglycemia b) Recurrent hypoglycemia *** c) Increased muscle mass d) Increased protein synthesis",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Failure of hepatic gluconeogenesis during fasting causes recurrent hypoglycemia.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q123"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 32</span> Which enzyme deficiency causes low ATP in red blood cells of a 5-year-old boy with tiredness and anemia? a) Glucokinase b) Pyruvate kinase *** c) Aldolase d) Enolase",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Pyruvate kinase deficiency impairs glycolysis in RBCs, decreasing ATP and causing hemolytic anemia.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q124"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 33</span> The cellular location of the pyruvate dehydrogenase (PDH) complex is: a) Cytoplasm b) Endoplasmic reticulum c) Mitochondrial matrix *** d) Intermembrane space",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "PDH is a mitochondrial matrix multienzyme that converts pyruvate to acetyl-CoA.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q125"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 34</span> Which molecule is the immediate precursor in glycogen synthesis? a) Glucose-6-phosphate b) UDP-glucose *** c) Glucose-1-phosphate d) ATP",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Glycogen synthase elongates glycogen using UDP-glucose as the direct glucose donor.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q126"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 35</span> Pompe disease (Type II glycogen storage disease) results from a deficiency of which enzyme? a) Glycogen synthase b) Acid maltase *** c) Branching enzyme d) Debranching enzyme",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Pompe disease is due to deficiency of lysosomal acid α-glucosidase (acid maltase).  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q127"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 36</span> Glucose-6-phosphate dehydrogenase (G6PD) deficiency most commonly leads to: a) Hyperglycemia b) Hemolytic anemia *** c) Hyperlipidemia d) Ketoacidosis",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Oxidative stress in G6PD deficiency causes hemolysis due to low NADPH and glutathione.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q128"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 37</span> The most common enzyme deficiency causing classic galactosemia is: a) Galactokinase b) Galactose-1-phosphate uridyltransferase *** c) UDP-glucose pyrophosphorylase d) Hexokinase",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Classic galactosemia is due to GALT deficiency.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q129"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 38</span> Which cells depend solely on anaerobic glycolysis for ATP production due to the absence of mitochondria? a) Hepatocytes b) Mature Red blood cells *** c) Neurons d) Muscle cells",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Mature erythrocytes lack mitochondria and rely entirely on anaerobic glycolysis.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q130"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 39</span> Where does glycogenesis mainly occur? a) Cytosol of liver and skeletal muscle *** b) Mitochondria of muscle c) Nucleus of liver d) Cytosol of kidney",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Glycogen synthesis occurs in the cytosol, chiefly in liver and skeletal muscle.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q131"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 40</span> Which glucose transporter is insulin-dependent and found in adipose tissue and skeletal muscle? a) GLUT-1 b) GLUT-2 c) GLUT-3 d) GLUT-4 ***",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "GLUT-4 translocation to the membrane is stimulated by insulin in muscle and adipose tissue.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q132"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 41</span> Which of the following is necessary to convert heme into bilirubin in the body? a) Glucuronic acid and Aminolevulinic acid b) Carbon monoxide and glutamine c) NADPH and oxygen *** d) glucuronic acid and NADH",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Heme oxygenase uses O₂ and NADPH to open the heme ring and begin bilirubin formation.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q133"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 42</span> Inhibition of which of the following enzymes is used in the treatment of gout? a) Thymidylate synthetase b) Adenosine deaminase c) Xanthine oxidase *** d) Ribonucleotide reductase",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Allopurinol and febuxostat inhibit xanthine oxidase to lower uric acid levels.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q134"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 43</span> All the following compounds are involved in the biosynthesis of both purine and pyrimidine nucleotides except: a) Glutamine b) aspartate c) Glycine *** d) carbon dioxide",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Glycine contributes to purine rings but not to pyrimidine rings.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q135"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 44</span> which step of the following is the regulatory step in the Heme synthesis done? a) Delta aminolevulinic formation *** b) Conversion of delta-aminolevulinic acid to porphobilinogen c) Cyclization of tetrapyrrole d) Decarboxylation of uroporphyrinogen",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "ALA synthase catalyzes the rate-limiting step (formation of δ-ALA) in heme synthesis.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q136"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 45</span> Porphyria cutanea tarda is caused by a defect in which of the following enzymes? a) ALA dehydratase b) Porphobilinogen synthase c) Uroporphyrinogen decarboxylase *** d) Ferrochelatase",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "PCT results from deficiency of uroporphyrinogen decarboxylase, leading to photosensitivity and elevated uroporphyrins.",
+    "userAnswer": null,
+    "qID": "clin-clin-q137"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 46</span> 5-Fluorouracil inhibits which of the following enzymes? a) Ribonucleotide reductase b) Dihydrofolate reductase c) Thymidine synthase *** d) Xanthine oxidase",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "5-Fluorouracil is converted into 5-FdUMP, which inhibits thymidylate synthase, blocking thymidine monophosphate (TMP) synthesis and DNA replication.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q138"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 47</span> Uric acid levels increase in all of the following, except: a) Fanconi syndrome *** b) Lash-Nihan syndrome c) Cancer patients d) Gout",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Fanconi syndrome causes loss of uric acid in urine, leading to decreased rather than increased serum uric acid levels.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q139"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 48</span> IMP dehydrogenase in the synthesis of purine nucleotides is inhibited by which of the following? a) Mycophenolic acid *** b) Methotrexate c) Allopurinol d) 6-Mercaptopurine",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Mycophenolic acid inhibits IMP dehydrogenase, suppressing guanine nucleotide synthesis — used as an immunosuppressant.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q140"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 49</span> Which of the complexes of the respiratory chain does not act as a proton pump? a) Succinate Q Reductase *** b) NADH dehydrogenase c) Cytochrome C oxidase d) Cyt C reductase",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Complex II (succinate dehydrogenase) transfers electrons to CoQ but does not pump protons across the mitochondrial membrane.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q141"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 50</span> The ATP/ADP transporter in the mitochondrial inner membrane is inhibited by …… a) Oligomycin b) CN− c) Atractyloside *** d) Barbiturates",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Atractyloside inhibits the adenine nucleotide translocase, preventing ADP entry and ATP export across the mitochondrial inner membrane.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q142"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 51</span> Which of the transporters of the respiratory chain has the lowest oxidizing power? a) FMN *** b) Coenzyme Q c) Cytb d) Cytc",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "FMN (flavin mononucleotide) accepts electrons first in Complex I and thus has the lowest oxidizing potential in the respiratory chain.  ",
+    "userAnswer": null,
+    "qID": "clin-clin-q143"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr. Khalil I&seyyed Ibrahim&imamghalibor &panahi Question 52</span> In the respiratory chain, cytochrome a is located in complex….. a) I b) II c) III d) IV ***",
+    "options": [],
+    "answer": -1,
+    "answerText": null,
+    "explanation": "Cytochrome a and a₃ are components of Complex IV (cytochrome c oxidase), which catalyzes the final transfer of electrons to oxygen.",
+    "userAnswer": null,
+    "qID": "clin-clin-q144"
   }
 ]
