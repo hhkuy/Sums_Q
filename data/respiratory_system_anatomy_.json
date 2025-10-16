@@ -698,5 +698,159 @@
     "explanation": "Esophageal atresia results from incomplete formation of the tracheoesophageal septum during development.",
     "userAnswer": null,
     "qID": "resp-anat-q50"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.hassanzadeh- Question 1</span> Which one is located in the vestibule of nasal cavity?",
+    "options": [
+      "Superior nasal concha",
+      "Vibrissae",
+      "Nasolacrimal duct",
+      "Bulla ethmoidalis"
+    ],
+    "answer": 1,
+    "answerText": "Vibrissae",
+    "explanation": "The vestibule of the nasal cavity contains vibrissae, which are coarse hairs that filter large particles from inspired air.  ",
+    "userAnswer": null,
+    "qID": "resp-anat-q51"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.hassanzadeh- Question 2</span> Which muscle is innervated by recurrent laryngeal nerve?",
+    "options": [
+      "Transverse arytenoid",
+      "Inferior constrictor of the pharynx",
+      "Cricothyroid",
+      "Stylopharyngeus"
+    ],
+    "answer": 0,
+    "answerText": "Transverse arytenoid",
+    "explanation": "The recurrent laryngeal nerve supplies all intrinsic muscles of the larynx except the cricothyroid.  ",
+    "userAnswer": null,
+    "qID": "resp-anat-q52"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.hassanzadeh- Question 3</span> Where is the location of Galen anastomosis?",
+    "options": [
+      "Rima glottidis",
+      "Ventricle",
+      "Saccule",
+      "Piriform recess"
+    ],
+    "answer": 3,
+    "answerText": "Piriform recess",
+    "explanation": "Galen’s anastomosis is a venous communication found near the piriform recess of the larynx.  ",
+    "userAnswer": null,
+    "qID": "resp-anat-q53"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.hassanzadeh- Question 4</span> Superior free border of the conus elasticus makes which one?",
+    "options": [
+      "Thyroepiglottic ligament",
+      "Vestibular ligament",
+      "Vocal ligament",
+      "Cricothyroid ligament"
+    ],
+    "answer": 2,
+    "answerText": "Vocal ligament",
+    "explanation": "The upper margin of the conus elasticus thickens to form the vocal ligament, which supports the vocal fold.  ",
+    "userAnswer": null,
+    "qID": "resp-anat-q54"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.hassanzadeh- Question 5</span> Which nerve innervates mucosa of the larynx inferior to vocal folds?",
+    "options": [
+      "Recurrent laryngeal nerve",
+      "Inferior laryngeal nerve",
+      "External laryngeal nerve",
+      "Internal laryngeal nerve"
+    ],
+    "answer": 0,
+    "answerText": "Recurrent laryngeal nerve",
+    "explanation": "The recurrent laryngeal nerve supplies sensory innervation to the laryngeal mucosa below the vocal cords.  ",
+    "userAnswer": null,
+    "qID": "resp-anat-q55"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.hassanzadeh- Question 6</span> In the midclavicular line inferior border of the lung is at the level of which rib?",
+    "options": [
+      "6th",
+      "8th",
+      "10th",
+      "12th"
+    ],
+    "answer": 0,
+    "answerText": "6th",
+    "explanation": "The inferior border of the lung reaches the 6th rib in the midclavicular line during normal respiration.  ",
+    "userAnswer": null,
+    "qID": "resp-anat-q56"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.hassanzadeh- Question 7</span> Which one is a branch of the maxillary artery?",
+    "options": [
+      "Anterior ethmoidal",
+      "Ascending palatine",
+      "Sphenopalatine",
+      "Superior labial"
+    ],
+    "answer": 2,
+    "answerText": "Sphenopalatine",
+    "explanation": "The sphenopalatine artery is the terminal branch of the maxillary artery and supplies the nasal cavity.  ",
+    "userAnswer": null,
+    "qID": "resp-anat-q57"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.hassanzadeh- Question 8</span> Right bronchiolar artery is a branch of which one?",
+    "options": [
+      "3rd right intercostal artery",
+      "Thoracic aorta",
+      "6th right intercostal artery",
+      "Pulmonary artery"
+    ],
+    "answer": 0,
+    "answerText": "3rd right intercostal artery",
+    "explanation": "The right bronchial artery usually arises from the 3rd right posterior intercostal artery.  ",
+    "userAnswer": null,
+    "qID": "resp-anat-q58"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.hassanzadeh- Question 9</span> Where is the location of the suprapleural (Sibson’s) membrane?",
+    "options": [
+      "Between first rib and clavicle",
+      "Between first rib and transverse process of the C7",
+      "On the medial aspect of the apex",
+      "On the anterior aspect of the apex"
+    ],
+    "answer": 1,
+    "answerText": "Between first rib and transverse process of the C7",
+    "explanation": "The suprapleural membrane extends from the inner border of the first rib to the transverse process of C7, covering the lung apex.  ",
+    "userAnswer": null,
+    "qID": "resp-anat-q59"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.hassanzadeh- Question 10</span> Which one is correct?",
+    "options": [
+      "Left main bronchus is longer than right main bronchus",
+      "Left main bronchus takes more vertical course",
+      "Left main bronchus is wider than right main bronchus",
+      "Left main bronchus has 3 lobar bronchi"
+    ],
+    "answer": 0,
+    "answerText": "Left main bronchus is longer than right main bronchus",
+    "explanation": "The left main bronchus is longer, narrower, and more horizontal than the right main bronchus.  ",
+    "userAnswer": null,
+    "qID": "resp-anat-q60"
+  },
+  {
+    "question": "<span style='color: darkred; font-weight:bold;'>Third Batch -2025- Dr.hassanzadeh- Question 11</span> Which part of the pleura is innervated by phrenic nerve?",
+    "options": [
+      "Mediastinal pleura",
+      "Visceral pleura",
+      "Costal pleura",
+      "Cupola"
+    ],
+    "answer": 0,
+    "answerText": "Mediastinal pleura",
+    "explanation": "The phrenic nerve supplies the mediastinal and diaphragmatic pleura; the visceral pleura has autonomic innervation.",
+    "userAnswer": null,
+    "qID": "resp-anat-q61"
   }
 ]
